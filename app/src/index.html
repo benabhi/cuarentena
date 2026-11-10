@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuarentena</title>
+<style>
+@font-face{font-family:Oswald;src:url(fuentes/Oswald%5Bwght%5D.ttf);font-weight:200 700}
+@font-face{font-family:Elite;src:url(fuentes/SpecialElite-Regular.ttf)}
+@font-face{font-family:Marker;src:url(fuentes/PermanentMarker-Regular.ttf)}
+:root{--papel:#F1EEE6;--tinta:#16161A;--acento:#F2C200;--rojo:#9E2B1F}
+*{box-sizing:border-box;margin:0}
+body{background:var(--tinta);color:var(--papel);font-family:Elite,monospace;min-height:100vh;display:flex;flex-direction:column}
+.cinta{height:38px;background:repeating-linear-gradient(-45deg,var(--acento) 0 26px,var(--tinta) 26px 52px)}
+.cinta span{display:block;width:max-content;margin:0 auto;background:var(--acento);color:var(--tinta);font:600 15px/38px Oswald,sans-serif;letter-spacing:.3em;padding:0 18px}
+main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px 16px;text-align:center}
+h1{font:700 clamp(56px,15vw,150px)/.9 Oswald,sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.lema{margin-top:22px;font-size:clamp(16px,3.4vw,22px)}
+.x{font-family:Marker,cursive;color:var(--acento);font-size:clamp(26px,6vw,40px);margin-top:42px;transform:rotate(-4deg)}
+.aviso{margin-top:28px;max-width:34em;border:2px solid var(--papel);padding:16px 18px;font-size:15px;line-height:1.5;text-align:left}
+.aviso b{font-family:Oswald,sans-serif;color:var(--acento);letter-spacing:.12em}
+footer{padding:22px 16px 30px;text-align:center}
+footer img{height:46px}
+a{color:var(--acento)}
+</style>
+</head>
+<body>
+<div class="cinta"><span>CUARENTENA · NO CRUZAR</span></div>
+<main>
+  <h1>Cuarentena</h1>
+  <p class="lema">Cuarenta días encerrados. Después, la Marea.</p>
+  <p class="x">Día 0 · en construcción</p>
+  <div class="aviso"><b>COMANDO DE EMERGENCIA · DISPOSICIÓN N.º 1</b><br>
+  Este libro de rol en solitario está en preparación. Permanezca en su domicilio.
+  La app para jugarlo se publicará en esta dirección. <a href="https://github.com/benabhi/cuarentena">Ver el repositorio</a>.</div>
+</main>
+<footer><img src="utopia-logo-claro.png" alt="UtopIA"></footer>
+<div class="cinta"></div>
+</body>
+</html>
