@@ -19,7 +19,7 @@
 | **Testarudo** | Elige su puesto la primera noche y lo hace siempre. Si se lo cambiás, −1 Moral. Nunca huye |
 | **Curioso** | Si revisa con vos, +1 a una tirada de botín. Con 1 en 1d6, toca lo que no debía: +1 Ruido |
 | **Frío** | Las muertes no le bajan el Ánimo. Con él en el grupo, la primera muerte de cada Etapa cuesta 1 Moral menos |
-| **Leal** | Si caés (r195) y está con vos, te saca. Nunca se va por una crisis de Moral (e080) |
+| **Leal** | Si caés Muriendo (r190) y está con vos, te saca. Nunca se va por una crisis de Moral (e080) |
 
 ---
 
@@ -96,7 +96,7 @@ Anotá `LOS_TRES_ALUMNOS`. Cuando estés con Lucía en **Los Bloques**, en la **
 
 - **Tomás (Los Bloques):** 1–3, lo encontrás, vivo, con una banda de pibes del monoblock. Se queda con ellos, pero Lucía lo abraza diez minutos. 4–5, vivo, y viene con vos (un chico: no hace puestos, come 1 Víver). 6, convertido, en el hueco de la escalera. Lucía no te deja hacerlo a vos.
 - **Agustina (la Catedral):** 1–4, está con la Parroquia, con su abuela. Bien. +1 Reputación con la Parroquia. 5–6, la abuela murió; Agustina viene con vos (un chico).
-- **Sol (la Escuela):** está en el gimnasio. Si `EL_GIMNASIO` sigue cerrado, está adentro ([e472](#e472)). Si lo abriste o lo quemaste, Lucía ya sabe. Si no hay gimnasio en tu partida porque la escuela no es tu refugio, igual está ahí.
+- **Sol (la Escuela):** está en el gimnasio. Si el gimnasio sigue cerrado (sin `GIMNASIO_ABIERTO` ni `GIMNASIO_QUEMADO`), está adentro ([e472](#e472)). Si lo abriste o lo quemaste, Lucía ya sabe. Si la escuela no es tu refugio, el gimnasio está igual, cerrado: lo podés abrir como visitante, con las mismas opciones de [e472](#e472).
 
 Marcá cada uno como resuelto.
 
@@ -198,9 +198,9 @@ El pasillo de la guardia de pediatría tiene dibujos de animales en las paredes 
 
 Tirá 1d6:
 
-- **1–3 · Es ella, y no es ella.** Se da vuelta. Es una **Callada ×1 · Cerca**, con el gafete «M. Sosa · Enfermería». Bruno grita. Si Bruno está acá, él decide: o lo hace él (Pelea 0, pero ella no se defiende) o lo hacés vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: deja de ser chico, se vuelve Testarudo y gana Pelea 2. Ana no sabe nada hasta que Bruno se lo cuente.
+- **1–3 · Es ella, y no es ella.** Se da vuelta. Es una **Callada ×1 · Cerca**, con el gafete «G. Sosa · Enfermería». Bruno grita. Si Bruno está acá, él decide: o lo hace él (Pelea 0, pero ella no se defiende) o lo hacés vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: se vuelve Testarudo y gana Pelea 2.
 - **4–5 · No es ella.** Es otra enfermera, muerta en la silla. En el escritorio, un cuaderno con la última anotación de la madre: «Día 4. Me quedo con los chicos de la sala 3. Bruno: cuidá a tu hermana. Te quiero». Bruno se lo guarda. +1 Moral cuando vuelven.
-- **6 · Es ella. Viva.** Marta Sosa, enfermera, flaca, con una herida mal cosida en el brazo, que no dejó de cuidar a los chicos de la sala 3 en un mes. Ya no queda ninguno. Viene con vos: sobreviviente con **Medicina 2**, rasgo Leal. +3 Moral. Ana no la suelta.
+- **6 · Es ella. Viva.** Graciela Sosa, enfermera, flaca, con una herida mal cosida en el brazo, que no dejó de cuidar a los chicos de la sala 3 en un mes. Ya no queda ninguno. Viene con vos: sobreviviente con **Medicina 2**, rasgo Leal. +3 Moral. Ana no la suelta.
 
 ---
 
@@ -242,7 +242,7 @@ El departamento de la ex de Pocho tiene la puerta reforzada con una cómoda. Se 
 
 1. **Traerlos al refugio.** Daiana duda; Pocho la mira. Vienen: 2 personas más (Daiana hace puestos como cualquiera; el bebé no). +1 Rastro (el bebé llora). Pocho deja de ser Ladrón y pasa a ser Leal. +2 Moral.
 2. **Dejarles comida** (3 Víveres) y que Pocho los visite cada semana (◷ 2 cada vez). Pocho sigue siendo Ladrón, pero ya no te roba a vos. +1 Moral.
-3. **Si es la Noche 40** y no están en el refugio, Pocho se va con ellos al atardecer del día 39. No vuelve. Pero te deja el tablero de llaves.
+**Con la opción 2, al llegar la Noche 40:** si no están en el refugio, Pocho se va con ellos al atardecer del día 39. No vuelve. Pero te deja el tablero de llaves.
 
 ---
 
@@ -404,7 +404,7 @@ Un estudiante flaco, de veintipico, con anteojos de marco grueso, guantes de lá
 **Para que venga:** `[Labia]` o mostrarle algo del laboratorio (una pista, `EL_NIVEL_3`, `LOTE_40`). Con 7+, viene con su olla y su cuaderno.
 
 > **Mateo** · **Mecánica 3** · Curioso
-> **Química:** con Mateo, la Molotov, la Bomba de clavos (e744), el Alcohol destilado (e747) y el Hervir agua sin fuego se hacen sin prueba, y cada uno da uno más.
+> **Química:** con Mateo, la Molotov, la Bomba de clavos (e744), el Alcohol destilado (e747) y el Hervir agua con cloro (sin Combustible, con los Químicos de [e383](#e383)) se hacen sin prueba, y cada uno da uno más.
 > **Necesidad:** sabe algo del laboratorio. Cuando lleve 5 cartas en el grupo → [e625](#e625).
 > **En la Noche 40:** hace 2 Molotov entre oleadas, si hay 1 Combustible y 1 Químicos.
 > **Desenlace:** si tenés `AMPOLLAS_L40` o `LOTE_40` y un Taller, → [e626](#e626).
@@ -431,7 +431,7 @@ Mateo arma un laboratorio en el taller con lo que hay: frascos, una garrafa, el 
 
 —Dame dos días —dice—. Y una ampolla.
 
-Gastás una ampolla de L-40 y ◷ 4 de Mateo (dos noches en el puesto Taller). Al final, Mateo sale con los ojos rojos:
+Gastás una ampolla de L-40 y dos noches de Mateo en el puesto Taller. Al final, Mateo sale con los ojos rojos:
 
 —No es una vacuna. Es una copia. Alguien quiso copiar algo que tiene la sangre de alguien. Algo que no se enferma.
 
@@ -543,7 +543,7 @@ Cuando termina la canción, te mira.
 
 —Es lo único que sé hacer, querido. Y si me callo, se mueven.
 
-**Para que venga:** viene si alguien la saca de ahí cuando deje de cantar: **Callados ×1d6 · Cerca** en cuanto se calla, escena Salón. Si sobreviven, viene.
+**Para que venga:** viene si alguien la saca de ahí cuando deje de cantar: **Callados ×1d6 · Cerca** en cuanto se calla, escena Pasillo (r331). Si sobreviven, viene.
 
 > **Celeste** · **Labia 3** · Optimista
 > **La voz:** las fiestas, los entierros y los cumpleaños dan +1 Moral más con Celeste. Y hablar con el grupo (r183) tiene +1 si ella está.
@@ -593,7 +593,7 @@ Un hombre de cincuenta, con campera de cuero, cadena de oro, bigote y un escarba
 
 > **El Ruso** · **Calle 3** · Fanfarrón
 > **El taxi:** → [e637](#e637).
-> **Necesidad:** habla demasiado. Con él, cada salida es +1 Ruido (Fanfarrón). Pero conoce todos los atajos: las salidas por la Calle con él cuestan ◷ 1 menos en dos barrios por día (como mínimo ◷ 1).
+> **Necesidad:** habla demasiado. Con él, cada salida es +1 Ruido (Fanfarrón). Pero conoce todos los atajos: con él, cuando llegás a un barrio por la Calle, la tabla del barrio tiene −1.
 > **En la Noche 40:** → [e638](#e638), si el taxi anda.
 > **Desenlace:** en la Noche 40.
 
@@ -607,7 +607,7 @@ Un Peugeot 504 de 1993, con el tablero forrado en peluche, un rosario colgando d
 
 Anotá `EL_TAXI` (tiene 3 Combustible). Con el Ruso al volante:
 
-- **Viajar:** a un barrio vecino por la Calle en ◷ 1, sin tirar encuentro, con hasta 4 personas y 12 casilleros de carga. +2 Ruido al llegar. 1 Combustible cada dos viajes.
+- **Viajar:** a un barrio vecino por la Calle en ◷ 1 (la tabla del barrio, con +1), con hasta 4 personas y 12 casilleros de carga. +2 Ruido al llegar. 1 Combustible cada dos viajes.
 - **Si se queda sin Combustible**, el Ruso lo empuja hasta el refugio y no se calla en tres días.
 - **Si alguien más quiere manejar,** el Ruso no lo deja. Nunca.
 
@@ -634,10 +634,10 @@ Un hombre de cuarenta, flaco, con camisa blanca abotonada hasta arriba, una Bibl
 
 —Esto es el Juicio —dice, con calma—. No hay que tener miedo. Hay que estar preparados.
 
-**Para que venga:** solo viene si su iglesia se pierde (si sale [e101](#e101) en Los Bloques, o si te lo dice un evento), o con `[Labia]` 10+ y una pista del Secreto: «Esto no es el Juicio. Esto lo hicieron personas».
+**Para que venga:** solo viene si su iglesia se pierde (si vas a la iglesia, [e285](#e285), en la Etapa III o más: el templo cayó y él es el único que salió; o si te lo dice un evento), o con `[Labia]` 10+ y una pista del Secreto: «Esto no es el Juicio. Esto lo hicieron personas».
 
 > **Hernán** · **Labia 3** · Creyente
-> **La palabra:** con Hernán, hablar con el grupo (r183) tiene +1, y la tabla de crisis de Moral (e080) tiene −1.
+> **La palabra:** con Hernán, hablar con el grupo (r183) tiene +1, y la tabla de crisis de Moral (e080) tiene −1 (un 0 cuenta como 1).
 > **Necesidad:** cree que la Marea es el Juicio. Cuando lleve 5 cartas en el grupo → [e640](#e640).
 > **En la Noche 40:** antes de la primera oleada → [e641](#e641).
 > **Desenlace:** en la Noche 40.
@@ -652,7 +652,7 @@ El domingo, Hernán reúne a todos en el lugar más grande del refugio y predica
 
 1. **Dejarlo predicar.** Cada semana. Tirá 1d6 cada vez: con 1–2, alguien discute: −1 Moral. Con 3–6, +1 Moral. Los Creyentes del grupo, siempre +1.
 2. **Pedirle que no lo haga.** `[Labia]`. Con 7+, predica solo para los que quieran, en otro cuarto. Sin efecto. Con 6−, Hernán dice que no le pueden pedir eso. −1 Moral.
-3. **Discutir con él delante de todos** (con 2 pistas o más). «Esto no es el Juicio.» `[Labia]` contra la fe: con Desventaja. Con 10+, Hernán se queda callado mucho rato. Al día siguiente, deja de ser Creyente y pasa a ser Valiente. Con 6−, el grupo se parte: −2 Moral.
+3. **Discutir con él delante de todos** (con 2 pistas o más). «Esto no es el Juicio.» `[Labia]` contra la fe: con Desventaja. Con 10+, Hernán se queda callado mucho rato. Al día siguiente, deja de ser Creyente y pasa a ser Valiente. Con 7–9, no contesta. Sigue siendo Creyente, pero predica en voz baja: en la opción 1, el 1–2 ya no resta Moral. Con 6−, el grupo se parte: −2 Moral.
 
 ---
 
@@ -722,7 +722,7 @@ Gauna y Valeria se miran. Gauna es la primera en hablar.
 
 1. **Que se arreglen solas.** `[Labia]` de Valeria (0) con +2 si tenés Reputación +1 o más con los Bomberos. Con 7+, se abrazan, cortas, como dos bomberas. +2 Reputación con los Bomberos. Valeria sigue con vos, pero en la Noche 40 los Bomberos vienen a ayudarte por ella ([e905](#e905)). Con 6−, Valeria da media vuelta y se va del lugar. Sigue con vos.
 2. **Meterte.** «Las dos tienen razón.» `[Labia]`. Con 10+, como la opción 1 con 7+. Con 6−, Gauna te mira: «¿Y vos quién sos?». −1 Reputación con los Bomberos.
-3. **Si Valeria se va con los Bomberos:** con 7+ en la opción 1, podés dejar que vuelva al cuartel. +3 Reputación con los Bomberos. `PERDIDO_VALERIA`, pero no baja la Moral: se fue a donde tenía que estar.
+**Después de la opción 1 con 7+,** podés dejar que Valeria vuelva al cuartel. +3 Reputación con los Bomberos. `PERDIDO_VALERIA`, pero no baja la Moral: se fue a donde tenía que estar.
 
 ---
 
@@ -829,6 +829,7 @@ Un perro mestizo, negro, mediano, con las orejas paradas, el pelo duro y una cic
 > **El Negro** · perro · Leal
 > **El perro:** no hace puestos salvo Guardia. Come 1 Víver cada dos días. Nunca es sorprendido: en las emboscadas, el Negro ladra antes. Pero si sale con vos, +1 Ruido.
 > **En la Guardia:** el Negro cuenta como un guardia (−1 al sondeo) y además no ocupa el límite de −2.
+> **El bozal:** 1 Tela y 1 Sujeción, ◷ 1, una vez: anotá `NEGRO_CON_BOZAL`. Atado y con bozal, no ladra ni suma Ruido, pero tampoco avisa en las emboscadas.
 > **Necesidad:** → [e652](#e652), la primera vez que salga con vos.
 > **En la Noche 40:** → [e653](#e653).
 

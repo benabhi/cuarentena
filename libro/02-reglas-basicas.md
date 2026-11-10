@@ -125,7 +125,7 @@ Elegís a **una de cuatro personas** comunes que estaban en Corinto el día del 
 | 1d6 | Origen | Habilidad | Objeto | Marca |
 |---|---|---|---|---|
 | 1 | Gasista | Mecánica +1 | Soplete y una garrafa chica (1 Combustible) | `ALBANIL_GASISTA` |
-| 2 | Soldador | Mecánica +1 | Careta de soldar (−1 a Mordidas en la cabeza: ver r144) | `ALBANIL_SOLDADOR` |
+| 2 | Soldador | Mecánica +1 | Careta de soldar (−1 a Mordidas, como un casco: ver r144) | `ALBANIL_SOLDADOR` |
 | 3 | Capataz endeudado | Labia +1 | Sobre con dinero (sirve para comerciar: r166) | `ALBANIL_DEUDAS` |
 | 4 | Carpintero | Oficio +1 | Martillo y serrucho | `ALBANIL_CARPINTERO` |
 | 5 | Ex boxeador | Pelea +1 | Vendas en las manos (Puños: Daño 2) | `ALBANIL_BOXEADOR` |
@@ -180,7 +180,7 @@ Elegís a **una de cuatro personas** comunes que estaban en Corinto el día del 
 
 | Registro | Inicio | Qué mide |
 |---|---|---|
-| **Heridas** | 5 casillas (Repartidora 4) | Magullado, Lastimado, Herido, Grave, Muriendo. Al llenar la última, caés (r195) |
+| **Heridas** | 5 casillas (Repartidora 4) | Magullado, Lastimado, Herido, Grave, Muriendo. Al llenar la última, caés Muriendo (r190) |
 | **Fiebre** | 0 | Solo si te muerden: sube cada amanecer; en 6, te convertís (r191) |
 | **Reservas** | 6 | Hambre y sed juntas (r193) |
 | **Ánimo** | 4 | Tu cabeza. En 0, Quiebre (r194) |
@@ -223,7 +223,7 @@ Una Habilidad en 0 no te impide intentar nada: solo tirás 2d6 sin sumar. Alguna
 3. **Los Seis Tesoros.** Tirá 1d6 por cada uno en la tabla de r110 y anotá en el mapa dónde está cada uno. Podés mirar dónde están (los sobrevivientes hablan), pero no sabés qué vas a encontrar.
 4. **Las Procesiones.** Tirá 2d6 dos veces en la tabla de r155 y poné una ficha en cada barrio que salga. Si sale el mismo dos veces, la Procesión es doble.
 5. **La Etapa.** Empezás en la **Etapa I** (r135).
-6. **El grupo.** Moral 5, Rastro 1, Reputación 0 con las cuatro facciones (r197).
+6. **El grupo.** Moral 5, Rastro 1 (o el que diga la ficha de tu refugio), Reputación 0 con las cuatro facciones (r197).
 7. Andá a **[e001](#e001)**. El refugio lo elegís en el prólogo.
 
 <a id="r109"></a>
@@ -236,7 +236,7 @@ Cuando el libro te diga **«abrí el Secreto»**, desdoblá el papel y andá al 
 <a id="r110"></a>
 ### r110 · Los Seis Tesoros
 
-Seis cosas en la ciudad pueden cambiarlo todo. Al preparar la partida, tirá 1d6 por cada Tesoro y anotá en el mapa el lugar que te tocó. Cuando visites ese lugar, el evento del lugar te va a mandar al Tesoro.
+Seis cosas en la ciudad pueden cambiarlo todo. Al preparar la partida, tirá 1d6 por cada Tesoro y anotá en el mapa el lugar que te tocó. Cuando visites ese lugar, el evento del lugar te va a mandar al Tesoro. Si dos Tesoros caen en el mismo lugar, el segundo va al lugar de la fila siguiente de su columna (después del 6, el 1).
 
 | 1d6 | **El camión del Comando** | **El generador industrial** | **La armería del cordón** |
 |---|---|---|---|
@@ -283,7 +283,7 @@ Si una opción no da resultado para 7–9, usá el de 10+ y pagá el precio que 
 - **Desventaja:** tirás 3d6 y te quedás con los dos más bajos.
 - Si tenés las dos, se anulan. Varias Ventajas no se suman.
 
-Causas habituales de **Desventaja**: estar a oscuras sin luz, estar Grave o peor, tener Reservas 0, tener Ánimo 0, cargar más de lo que permite la Mochila, estar con Fiebre 4 o más.
+Causas habituales de **Desventaja**: estar a oscuras sin luz, tener Reservas 0, tener Ánimo 0, estar con Fiebre 4 o más. Algunas valen solo para ciertas pruebas: estar Grave o peor (Físico, Pelea y Sigilo, r190) y cargar más de lo que permite la Mochila (Físico y Sigilo, r164).
 
 <a id="r122"></a>
 ### r122 · Herramientas y ayuda
@@ -337,7 +337,7 @@ Cuando robás la última carta, ese día es el **día 40**: esa noche llega la *
 1. **Robá una carta** del mazo de los días y ponela boca arriba en el **descarte**. El número de cartas en el descarte es el día.
 2. **Mirá la Etapa:** si es la carta 11, 21 o 31, la Etapa sube (r135).
 3. **Resolvé la carta** según su palo y su valor (r132).
-4. **El grupo come:** cada persona del refugio (vos incluido) consume **1 Víver**. Por cada uno que falte, alguien pierde 1 Reserva (vos elegís quién; r193) y la Moral baja 1.
+4. **El grupo come:** cada persona del refugio (vos incluido) consume **1 Víver**. Por cada uno que falte, alguien pierde 1 Reserva (vos elegís quién; r193). Si faltó para alguien, la Moral baja 1 (r182), una sola vez.
 5. **La Fiebre avanza:** cada persona mordida sube 1 su Fiebre (r191).
 6. **Lo pendiente:** si un evento dejó algo «para el alba», resolvelo ahora.
 
@@ -377,7 +377,7 @@ El día tiene **6 horas de luz**. Tachalas en tu hoja a medida que las gastás. 
 | Revisar un lugar rápido / a fondo | ◷ 1 / ◷ 2 (r161) |
 | Fabricar | lo que diga la receta (r204) |
 | Obra en el refugio | lo que diga la receta (r204) |
-| Cuidar a alguien o hablar con el grupo | ◷ 1 (r185) |
+| Cuidar a alguien o hablar con el grupo | ◷ 1 (r190, r183) |
 | Descansar | ◷ 2: recuperás 1 Ánimo |
 
 - Si una acción necesita más horas de las que te quedan, no la podés empezar (salvo moverte: ver r158).
@@ -390,7 +390,7 @@ El día tiene **6 horas de luz**. Tachalas en tu hoja a medida que las gastás. 
 Con la última hora de luz empieza la noche, en este orden:
 
 1. **Puestos:** asignale a cada sobreviviente un puesto (r181). Vos también elegís uno, o salís (r158).
-2. **Producción:** cada puesto produce (r182).
+2. **Producción:** cada puesto produce (r181).
 3. **El sondeo:** tirá 2d6. Si el resultado es **igual o menor que el Rastro**, los Callados tantean el refugio → [e072](#e072). La Guardia y algunas instalaciones modifican la tirada (r175).
 4. **El grupo:** si la Moral es 2 o menos, tirá en la tabla de crisis → [e080](#e080). Si hay algún evento «para la noche», resolvelo.
 5. **Dormir:** si dormiste (puesto Descanso o cualquier puesto que no sea Guardia), no pasa nada. Si pasaste dos noches seguidas sin dormir, perdés 1 Ánimo.
@@ -412,7 +412,7 @@ La Etapa se suma a las tiradas de encuentro de cada barrio (r153): cuanto más a
 <a id="r136"></a>
 ### r136 · Mirar la carta y cambiar el día
 
-- **Mirar la próxima carta:** algunas instalaciones (la Radio, el Vigía) y algunos eventos te dejan mirar la carta de arriba del mazo. Mirala y devolvela a su lugar. Saber lo que viene no lo cambia.
+- **Mirar la próxima carta:** la Radio y algunos eventos te dejan mirar la carta de arriba del mazo. Mirala y devolvela a su lugar. Saber lo que viene no lo cambia.
 - **Cambiar el día:** muy pocas cosas te dejan **poner la carta de arriba en el fondo del mazo**. Cada una se usa una vez por partida, y el evento lo dice. El mazo nunca se mezcla de nuevo.
 
 <a id="r137"></a>
@@ -420,7 +420,7 @@ La Etapa se suma a las tiradas de encuentro de cada barrio (r153): cuanto más a
 
 Si no tenés baraja española, en la Hoja del refugio hay una grilla de 40 cartas. Cada alba:
 
-1. Tirá 1d6 para el **palo**: 1–2 Oros (con 2, si ya no quedan, Copas), 3 Copas, 4 Espadas, 5 Bastos, 6 tirá de nuevo.
+1. Tirá 1d6 para el **palo**: 1 Oros, 2 Copas, 3 Espadas, 4 Bastos, 5–6 tirá de nuevo.
 2. Tirá 1d6 para el **valor**: 1–5 es ese número; con 6, tirá otra vez: 1–2 vale 6, 3–4 vale 7, 5–6 es una **figura** (la primera que te quede de ese palo: Sota, Caballo, Rey).
 3. **Tachá la carta.** Si ya estaba tachada, tomá la más cercana hacia arriba que esté libre en ese palo (después de la 7 viene la Sota; después del Rey, el 1). Si el palo está completo, pasá al palo siguiente en el orden Oros, Copas, Espadas, Bastos.
 

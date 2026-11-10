@@ -109,6 +109,7 @@ ______________________________________________________________________
 | **Moral** | ▢▢▢▢▢▢▢▢▢▢ | Empieza en 5. En 2 o menos, crisis (e080); en 0, el grupo se rompe (e089) |
 | **Oleadas de la Noche 40** | 3 + Rastro ÷ 3 = ____ | r221 |
 | **Etapa** | ▢ I Fiebre · ▢ II Silencio · ▢ III Muda · ▢ IV Marea | r135 |
+| **Desarmado** | ▢ | Los muebles del refugio dan 6 Madera, una sola vez (r165) |
 
 **Víveres** (sin Despensa, si pasan de 10, al alba perdés 1)
 
@@ -173,18 +174,18 @@ ______________________________________________________________________
 > **PLANILLA DE CONVIVIENTES**
 > *Cada persona del refugio come 1 Víver por día. Cada tres nuevos, el Rastro sube 1 (r180).*
 
-| Nombre | Habilidad fuerte | Rasgo | Heridas | Fiebre | Arma | Puesto esta noche | Necesidad / Marca |
-|---|---|---|---|---|---|---|---|
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
-| | | | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| Nombre | Habilidad fuerte | Rasgo | Heridas | Reservas | Fiebre | Arma | Puesto esta noche | Necesidad / Marca |
+|---|---|---|---|---|---|---|---|---|
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
+| | | | ▢▢▢ | ▢▢▢ | ▢▢▢▢▢▢ | | | |
 
 **Los puestos** (r181): Guardia · Obra · Taller · Cocina · Enfermería · Huerta · Descanso.
 
@@ -257,7 +258,7 @@ ______________________________________________________________________
 | **Los Bloques** [e280](#e280) | Monoblock F ([e281](#e281)) | Vivienda | ▢▢▢▢ |
 | | Monoblock C ([e282](#e282)) | Vivienda | ▢▢▢ |
 | | Club Los Bloques ([e283](#e283)) | Almacén | ▢▢▢ |
-| | Kiosco de Don Ramón ([e284](#e284)) | Almacén | ▢▢ |
+| | Kiosco de Don Tito ([e284](#e284)) | Almacén | ▢▢ |
 | | Iglesia evangélica ([e285](#e285)) | Oficina | ▢▢ |
 | **Las Lomas** [e300](#e300) | Casas con pileta ([e301](#e301)) | Vivienda | ▢▢▢▢ |
 | | Armería Gómez ([e302](#e302)) | Armería | ▢▢▢ |

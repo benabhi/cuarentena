@@ -27,7 +27,7 @@ Detrás de él, la calle entera se llena.
 | `TRABAJASTE_EN_EL_MURO` | La primera oleada, −2 de Fuerza |
 | `ESCUCHASTE_LA_MAREA` | Cada defensor, +1 en la primera oleada |
 | `RAMPA_DESTRUIDA` (con `LA_RAMPA`) | 1 oleada menos |
-| `CONOCES_EL_CAMINO` y un Señuelo grande encendido en otro barrio (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, el faro, `LA_SIRENA`) | 1 oleada menos |
+| `CONOCES_EL_CAMINO` y un Señuelo grande encendido en otro barrio (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO`, `LA_SIRENA`) | 1 oleada menos |
 | `PASTOR_MUERTO` | 2 oleadas menos ([e585](#e585)) |
 | `DESTACAMENTO_DISUELTO` | 1 oleada más |
 | `SABES_POR_DONDE` | La primera oleada no viene por el frente que elijas |
@@ -67,7 +67,7 @@ Con un 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tir
 | 5 | **Blindados** ([e729](#e729)) | Las trampas de ese frente no restan |
 | 6 | Tirá otra vez: **1–2 Ahogados** ([e728](#e728), por el Subsuelo; si no hay Subsuelo, nada); **3–4 Sabuesos** ([e725](#e725), al frente más débil); **5 Frescos** ([e721](#e721), +2 de Fuerza); **6 el Pastor** ([e731](#e731)) si sigue vivo y lo viste (`VISTE_AL_PASTOR`); si no, un Bruto |
 
-**El Pastor en la Marea.** Si aparece, se queda en la esquina, mirando. Esta oleada y todas las que siguen eligen el frente más débil. Si tenés un arma de Lejos y alguien en el Techo, una vez: `[Puntería]` con Desventaja (sin Desventaja con `SABES_DEL_PASTOR`, fusil o ballesta). Con 10+, cae: anotá `PASTOR_MUERTO` y la Marea pierde 1 oleada (la última). Con 6−, te ve: la próxima oleada viene a tu frente.
+**El Pastor en la Marea.** Si aparece, se queda en la esquina, mirando. Esta oleada y todas las que siguen eligen el frente más débil. Si tenés un arma de Lejos y alguien en el Techo, una vez: `[Puntería]` con Desventaja (sin Desventaja con `SABES_DEL_PASTOR`, fusil o ballesta). Con 10+, cae: anotá `PASTOR_MUERTO` y la Marea pierde 1 oleada (la última). Con 7–9, lo herís: se va de la esquina, y las oleadas que siguen vuelven a tirar el frente como siempre. Con 6−, te ve: la próxima oleada viene al frente del que disparó.
 
 **La Viuda** no viene con la Marea ([e730](#e730)). Si la viste en la Etapa IV, está sentada en la vereda de enfrente.
 
@@ -215,7 +215,7 @@ Contá a los **salvados**: las personas que el Secreto deja ir, quedarse o salir
 
 Algunos Secretos y Marcas te mandan a un final propio (e944–e949). Si te toca uno, leelo **además** del de esta tabla, salvo que diga «en lugar de».
 
-**Los que llegaron en grupo** cuentan por todas sus personas, si están entre los salvados: `LOS_DEL_BALCON` 3, `LOS_DEL_VELERO` 2, `LOS_ESTUDIANTES` 2, `EL_BEBE` 2, `LA_NENA_DE_LUNA` uno más (la nena), `LOS_QUIROGA` 6, `LOS_CHICOS_DEL_HOGAR` 6, `LOS_VEINTE` 20.
+**Los que llegaron en grupo** cuentan por todas sus personas, si están entre los salvados: `LOS_DEL_BALCON` 3, `LOS_DEL_VELERO` 2, `LOS_ESTUDIANTES` 2, `EL_BEBE` 2, `LA_NENA_DE_LUNA` uno más (la nena), `LOS_QUIROGA` 6, `LOS_CHICOS_DEL_HOGAR` 6, `LOS_VEINTE` 20, `LOS_PIBES` 2, `LOS_DEL_MUELLE` los que sean.
 
 **Tu partida en números.** Si querés compararla con otras: 10 puntos por cada salvado (2 por cada persona de los grupos de arriba), 5 por cada instalación, 5 por cada Tesoro (`EL_CAMION`, `EL_GENERADOR_INDUSTRIAL`, `LA_ARMERIA`, `EL_BOTIQUIN`, `LA_RADIO_DEL_AFICIONADO`, `EL_BLINDADO`), 3 por cada pista, la Moral final y tu contador personal × 5. Anotala en la última página de tu hoja.
 
@@ -378,7 +378,7 @@ Leé esto **además** de tu final.
 
 - **Juramento 0–1.** Marta no vuelve a trabajar de enfermera. Se muda a un pueblo chico, cerca del río, y cuida un jardín. No habla de Corinto. Cuando alguien en el pueblo se enferma, no abre la puerta.
 - **Juramento 2–3.** Marta vuelve al hospital, al de otra ciudad, al turno noche. Las otras enfermeras la miran con respeto y un poco de miedo. En el bolsillo del guardapolvo, siempre, una lista de nombres. La cambia cada semana. Nunca la tira.
-- **Juramento 4–5.** Marta se queda en Corinto y abre la Enfermería en la planta baja del Regional. Va gente de todos los barrios. Enseña a curar a los que quieren aprender. Al año, tiene doce enfermeras. Les dice a todas lo mismo: «Acá no se muere nadie en nuestro turno».
+- **Juramento 4–5.** Marta se queda en Corinto y abre la Enfermería en la planta baja del Central. Va gente de todos los barrios. Enseña a curar a los que quieren aprender. Al año, tiene doce enfermeras. Les dice a todas lo mismo: «Acá no se muere nadie en nuestro turno».
 - **Juramento 6.** Marta encuentra a todos los de su lista. A los vivos y a los muertos. Les lleva flores al cementerio, a los que tienen tumba. A los vivos, los visita una vez por año, el día 0. Ella les dice que es por el control. Ellos saben que no.
 - **Con `LA_LISTA_SIGUE`**, si Marta no llegó al amanecer: alguien del grupo sigue la lista por ella. La encuentra completa en el bolsillo de un guardapolvo, con una tilde al lado de cada nombre.
 

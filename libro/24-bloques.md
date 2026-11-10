@@ -64,18 +64,18 @@ El club del barrio: una cancha de básquet techada, un buffet, un salón de fies
 - **Revisar** (r161).
 - **La olla popular:** en la cocina del buffet, una olla de cien litros, garrafas y una pizarra con turnos de cocina escritos con tiza. El último turno: «Día 3 · Lucía y Marcela». Si tenés a Lucía en el grupo, se pone a llorar. Si no la conocés, en la pizarra hay una dirección: la Escuela N.º 9 ([e603](#e603)).
 - **La olla:** 3 casilleros. Si la llevás al refugio, la Cocina a leña ([e755](#e755)) produce +1 Moral más (una vez por noche).
-- **La pileta:** agua sucia, pero agua. Con Hervir agua ([e748](#e748)), es una fuente de 4 Víveres por visita (◷ 2), hasta que la Etapa sea III: entonces algo vive en la pileta.
+- **La pileta:** agua sucia, pero agua. Con Hervir agua ([e748](#e748)), es una fuente de 4 Víveres por visita (◷ 2), tres veces (▢▢▢), hasta que la Etapa sea III: entonces algo vive en la pileta.
 
 ---
 
 <a id="e284"></a>
-### e284 · El kiosco de Don Ramón
+### e284 · El kiosco de Don Tito
 *Los Bloques · Almacén · stock ▢▢*
 
 Un kiosco en la planta baja del bloque A, con la reja baja y un cartel: «VUELVO EN 5 MIN». La reja está cerrada con candado desde afuera. Adentro, del otro lado del vidrio, golosinas, cigarrillos, gaseosas.
 
 - **Abrir** con Palanca o `[Oficio]` (+1 Ruido). Revisás (r161) con +1 a la tabla. Cada revisión, además, cigarrillos: 1 atado (vale 1 material para cambiar, r166).
-- **Don Ramón** está atrás del mostrador, sentado en su banquito. Se convirtió esperando a que alguien le pagara la cuenta. **Callados ×1 · Cerca**. Su libreta de fiados tiene los nombres de medio barrio: si la llevás, cualquier sobreviviente de Los Bloques (Lucía, Doña Rosa, Facu, Ana y Bruno) te da +1 a Labia la primera vez.
+- **Don Tito** está atrás del mostrador, sentado en su banquito. Se convirtió esperando a que alguien le pagara una apuesta. **Callados ×1 · Cerca**. Su cuaderno de quiniela tiene los nombres de medio barrio y lo que debe cada uno: si lo llevás, cualquier sobreviviente de Los Bloques (Lucía, Doña Rosa, Facu, Ana y Bruno) te da +1 a Labia la primera vez.
 
 ---
 

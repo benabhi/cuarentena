@@ -50,7 +50,7 @@ Son uno o dos, y no tienen a dónde ir. Tirá en la tabla de sobrevivientes (r18
 <a id="r305"></a>
 ### r305 · Emboscada
 
-Te estaban esperando. **Vivos ×1d6 · Aguante 2 cada uno · Cerca.** Tirá 1d6: con 1–3, tienen solo armas de mano; con 4–6, uno tiene un arma de fuego (r147). Empiezan ellos: antes de tu primera ronda, tirá una vez en la tabla de Mordidas (r144) como si un Callado estuviera Encima (los vivos no contagian: un 5 o un 6 es solo 1 Herida).
+Te estaban esperando. **Vivos ×1d6 · Aguante 2 cada uno · Cerca.** Tirá 1d6: con 1–3, tienen solo armas de mano; con 4–6, uno tiene un arma de fuego (r147). Empiezan ellos: antes de tu primera ronda, tirá una vez en la tabla de Mordidas (r144) como si un Callado estuviera Encima (los vivos no contagian: un 6 es solo 1 Herida, sin segundo dado).
 
 Si ganás, revisá los cuerpos: 1d6 tiradas de botín de Vivienda (r162).
 
@@ -114,7 +114,7 @@ Cuando un evento dice **«escena: Pasillo»** (u otra), el lugar cambia cómo fu
 <a id="r331"></a>
 ### r331 · Pasillo
 
-Estrecho. Solo pueden estar **dos** Callados Encima a la vez. Las armas de 2 manos tienen Desventaja. Si cerrás una puerta detrás de vos (Usar algo), los Callados tardan 1d6 rondas en romperla, o nunca si no hay un Bruto.
+Estrecho. Solo puede estar **un** Callado Encima a la vez. Las armas de 2 manos tienen Desventaja. Si cerrás una puerta detrás de vos (Usar algo), los Callados tardan 1d6 rondas en romperla, o nunca si no hay un Bruto.
 
 <a id="r332"></a>
 ### r332 · Escalera

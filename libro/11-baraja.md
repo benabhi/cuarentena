@@ -53,7 +53,7 @@ Del otro lado de la calle, en un tercer piso, una mujer mayor corre la cortina. 
 
 Un camión de reparto de un supermercado quedó volcado en una esquina. El chofer no está. La caja está cerrada con un candado.
 
-Tirá 1d6 por un barrio vecino al de tu refugio (de los que conectan por la Calle, en el orden de la tabla de r151): ese es el barrio. Hasta el final de la carta siguiente, ese barrio tiene un lugar más:
+Elegí al azar un barrio vecino al de tu refugio por la Calle: numerálos en el orden de la tabla de r151 y tirá 1d6 (si sale un número mayor que la cantidad de vecinos, tirá de nuevo). Ese es el barrio. Hasta el final de la carta siguiente, ese barrio tiene un lugar más:
 
 > **Camión volcado** · *Almacén · stock ▢▢▢*
 
@@ -130,7 +130,7 @@ Además, la primera vez que la revises, encontrás una caja de herramientas: una
 Llueve fuerte, gris, sin parar. Los Callados se quedan quietos debajo de los aleros, empapados, mirando la nada. La ciudad entera huele a tierra mojada y a otra cosa.
 
 - **Agua:** con Cisterna, +3 Víveres. Sin Cisterna, podés poner baldes, ollas y bolsas en el techo: `[Supervivencia]`. Con 10+, +2 Víveres; con 7–9, +1; con 6−, nada.
-- **Silencio:** mientras dure esta carta, salir por la Calle no suma Ruido al llegar (la lluvia tapa todo). Pero todas las pruebas de Físico, afuera, tienen Desventaja.
+- **Silencio:** hoy y los dos días siguientes, salir por la Calle no suma Ruido al llegar (la lluvia tapa todo). Pero todas las pruebas de Físico, afuera, tienen Desventaja.
 - Si tenés `GOTERAS`, el Techo pierde 1 de Resistencia.
 
 ---
@@ -226,7 +226,7 @@ A la mañana faltan cosas: 2 Víveres y 1 Fármacos (o lo que tengas, hasta eso)
 
 - **Si alguien del grupo es Ladrón** (Pocho, por ejemplo), lo sabés. Los demás también.
 - **Investigar:** `[Labia]` o `[Calle]`, ◷ 1. Con 10+, descubrís quién fue y recuperás lo que falta; ahora decidís (echarlo: −1 Moral, se va con lo puesto; perdonarlo delante de todos: −1 Moral, pero anotá `PERDONASTE_UN_ROBO`; perdonarlo a solas: nada). Con 7–9, descubrís quién fue, pero ya se lo comió. Con 6−, acusás al que no era: −2 Moral.
-- **Dejarlo pasar:** −1 Moral. Y la próxima vez que salga un 2 en esta tabla, vuelve a pasar.
+- **Dejarlo pasar:** −1 Moral. Y la próxima vez que salga esta entrada, vuelve a pasar, y ya no se puede investigar.
 - **Poner un candado en la despensa:** 1 Metal y 1 Sujeción. Se acaba el problema. −1 Moral (nadie quiere vivir con candados).
 
 ---
@@ -310,7 +310,7 @@ Primero es un murmullo que no es un murmullo: pasos. Cientos de pasos descalzos,
 
 Poné una ficha de Procesión en el barrio de tu refugio (si ya había una, ahora es doble). Mientras pasa:
 
-1. **Todos quietos, todos callados.** `[Sigilo]` (tu Sigilo, pero si tenés más de 4 personas en el refugio, con Desventaja; con el Negro, Desventaja salvo que lo tengas atado y con bozal). Con 10+, pasa de largo. Con 7–9, pasa de largo, pero un rezagado se queda golpeando la Puerta: −1 Resistencia. Con 6−, alguien estornuda, un chico llora, se cae una olla: la Procesión se detiene → esta noche hay sondeo seguro, con +2 al daño ([e072](#e072)).
+1. **Todos quietos, todos callados.** `[Sigilo]` (tu Sigilo, pero si tenés más de 4 personas en el refugio, con Desventaja; con el Negro, Desventaja salvo que tengas `NEGRO_CON_BOZAL`). Con 10+, pasa de largo. Con 7–9, pasa de largo, pero un rezagado se queda golpeando la Puerta: −1 Resistencia. Con 6−, alguien estornuda, un chico llora, se cae una olla: la Procesión se detiene → esta noche hay sondeo seguro, con +2 al daño ([e072](#e072)).
 2. **Desviarla** (r156): si tenés un Señuelo y alguien que lo lleve por las Azoteas o el Subsuelo a otro barrio. Esa persona tira `[Sigilo]`: con 7+, la Procesión se va con el señuelo; con 6−, se va, pero el que lo llevó vuelve con 1 Herida (o no vuelve, con 1 en 1d6).
 
 ---
@@ -386,7 +386,7 @@ Amanecen en la puerta. **Callados ×2d6** quietos frente al refugio, empujando d
 - Al anochecer, si siguen, la Puerta pierde 1 de Resistencia por cada 3 Callados.
 - **Limpiar la puerta desde arriba:** desde una ventana o una azotea, con armas a distancia: combate con ellos a distancia Lejos, pero no avanzan (están abajo). Cada ataque con armas de fuego suma Ruido como siempre, y el Ruido 6 trae una Procesión.
 - **Abrir y pelear:** combate a Cerca. Mala idea. A veces la única.
-- **Esperar:** al alba siguiente se van con 4–6 en 1d6. Si no, siguen.
+- **Esperar:** cada alba, tirá 1d6: con 4–6, se van. Si no, siguen un día más, y la Puerta sigue perdiendo al anochecer.
 
 ---
 
@@ -610,8 +610,8 @@ Veinte personas en la calle. Un ómnibus escolar que se quedó sin nafta a una c
 
 No entran. No hay comida para veinte. No hay camas para veinte. Pero están ahí.
 
-1. **Hacerlos entrar a todos.** Anotá `LOS_VEINTE`: +20 bocas (comen 6 Víveres por día entre todos, porque comen poco), pueden hacer 3 puestos de Obra, Huerta o Cocina por noche. +5 Rastro. +3 Moral. Si sos la Enfermera, +1 Juramento. Si sos la Agente, +1 Deber.
-2. **Elegir a algunos.** Los chicos y las maestras: anotá `LOS_CHICOS_DEL_HOGAR` (+6 bocas, 2 Víveres por día, un puesto de Huerta o Cocina). +2 Rastro. −1 Ánimo: los viejos te miraron.
+1. **Hacerlos entrar a todos.** Anotá `LOS_VEINTE`: +20 bocas (comen 6 Víveres por día entre todos, porque comen poco), pueden hacer 3 puestos de Obra, Huerta o Cocina por noche y, en la Noche 40, ponen 3 defensores con puños (los demás no pelean). +5 Rastro. +3 Moral. Si sos la Enfermera, +1 Juramento. Si sos la Agente, +1 Deber.
+2. **Elegir a algunos.** Los chicos y las maestras: anotá `LOS_CHICOS_DEL_HOGAR` (+6 bocas, 2 Víveres por día, un puesto de Huerta o Cocina; en la Noche 40, un defensor: una maestra). +2 Rastro. −1 Ánimo: los viejos te miraron.
 3. **Mandarlos a la Catedral.** Les dibujás el camino. `[Labia]`. Con 7+, van, y la Parroquia sabe que fuiste vos: +1 Reputación. Con 6−, no te creen.
 4. **Cerrar.** −3 Moral. −2 Ánimo. Al día siguiente, el ómnibus está vacío y hay manchas en el asfalto.
 

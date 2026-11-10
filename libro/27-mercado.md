@@ -46,7 +46,7 @@ Un hipermercado de cuarenta cajas, con el techo de chapa a diez metros y las gó
 
 Tres pisos de locales con nombres en inglés, escaleras mecánicas detenidas, una fuente con monedas en el centro y una calesita en el patio de comidas. La luz entra por la cúpula de vidrio. En la cúpula hay algo apoyado: siluetas oscuras, quietas, que miran hacia abajo.
 
-- **Revisar** (r161), local por local. Con un 6 en la tabla de Comercio, en lugar de la mochila, un local de deportes: un bate de aluminio (Daño 2, Cerca, Usos 6), una carpa (4 Tela) y una bicicleta (r104: con bici, la Calle no suma Ruido).
+- **Revisar** (r161), local por local. Con un 6 en la tabla de Comercio, en lugar de la mochila, un local de deportes: un bate de aluminio (Daño 2, Cerca, Usos 6), un arco deportivo con 6 saetas, una carpa (4 Tela) y una bicicleta (r152: con bici, la Calle no suma Ruido).
 - **El patio de comidas:** cocinas industriales con garrafas. Si tenés la Cocina a leña y todavía no tenés `LA_PLANCHA`, te llevás una plancha (+1 a la Cocina: produce 1 Moral más una vez). Anotá `LA_PLANCHA`.
 - **La cúpula:** son Acechadores (si la Etapa es II o más) o Callados que se cayeron de la azotea y quedaron trabados en el vidrio (Etapa I). Si mirás demasiado tiempo (si revisás a fondo dos veces seguidas), el vidrio cede: **Acechadores ×1d3 · Cerca** (o **Callados ×1d6**, Etapa I).
 

@@ -1,6 +1,6 @@
 # El catálogo
 
-*Todo lo que se puede agarrar, ponerse, fabricar o temer en Corinto. Las armas y los objetos, las fichas de los infectados (como las que llenaban en la morgue del Regional mientras hubo morgue), las recetas del taller y los manuales que las enseñan.*
+*Todo lo que se puede agarrar, ponerse, fabricar o temer en Corinto. Las armas y los objetos, las fichas de los infectados (como las que llenaban en la morgue del Central mientras hubo morgue), las recetas del taller y los manuales que las enseñan.*
 
 ---
 
@@ -48,7 +48,7 @@ Matan de lejos y de a varios. Gastan 1 Munición por ataque (r205) y avisan a to
 |---|---|---|---|---|---|
 | Revólver | 2 | 2 | Lejos | 1 | Nunca se traba |
 | Pistola reglamentaria | 2 | 2 | Lejos | 1 | Con 10+, podés gastar 1 Munición más y matar 1 más |
-| Escopeta | 3 | 3 | Cerca | 2 | Desde Lejos, Daño 2. Encima no sirve |
+| Escopeta | 3 | 3 | Cerca | 2 | Desde Lejos, Daño 2. Encima no sirve, aunque sea de Cerca (r143) |
 | Rifle de caza | 2 | 2 | Lejos | 2 | Contra un especial, +1 Daño (sabés dónde apuntar) |
 | Fusil | 3 | 2 | Lejos | 2 | Del cordón o del Destacamento |
 | Pistola de clavos | 1 | 1 | Cerca | 1 | Necesita una batería. Gasta 1 Sujeción cada 4 disparos en lugar de Munición |
@@ -68,7 +68,7 @@ Silenciosas y de lejos: lo que más vale en Corinto. Se usan con `[Puntería]`. 
 |---|---|---|---|---|---|
 | Gomera | 1 | 0 | Lejos | 6 | Piedras: no se acaban nunca. Daño 1 solo contra Callados comunes |
 | Arco de caño | 1 | 0 | Lejos | 6 | 2 manos. Saetas. Receta ([e743](#e743)) |
-| Arco deportivo | 2 | 0 | Lejos | 8 | 2 manos. Saetas. Club de golf o colegio inglés |
+| Arco deportivo | 2 | 0 | Lejos | 8 | 2 manos. Saetas. Local de deportes del Mercado ([e342](#e342)) |
 | Ballesta de resortes | 2 | 0 | Lejos | 8 | 2 manos. Saetas. Receta ([e743](#e743)). Un disparo cada dos rondas |
 | Ballesta de caza | 3 | 0 | Lejos | 10 | 2 manos. Saetas. Un disparo cada dos rondas |
 
@@ -174,21 +174,21 @@ La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna c
 ### e712 · Vehículos
 *Catálogo · Objetos*
 
-Un vehículo te saca de la Calle sin tirar encuentro, pero todo Corinto lo escucha llegar.
+Un vehículo te lleva rápido, pero todo Corinto lo escucha llegar: al llegar, la tabla del barrio tiene +1 (r152).
 
 | Vehículo | Personas | Carga | Ruido al llegar | Combustible | Dónde |
 |---|---|---|---|---|---|
-| Bicicleta | 1 | +2 | 0 | — | Comercio, la Repartidora (r104) |
+| Bicicleta | 1 | +2 | 0 | — | Comercio, la Repartidora (r152) |
 | Bici de carga | 1 | +3 | 0 | — | La Repartidora |
 | Moto | 2 | 4 | +2 | 1 cada 3 viajes | El depósito de los Lobos ([e686](#e686)) |
 | Taxi del Ruso | 4 | 12 | +2 | 1 cada 2 viajes | El Ruso ([e637](#e637)) |
 | Camioneta de los Lobos | 6 | 12 | +2 | 1 cada 2 viajes | [e681](#e681) |
-| Autobomba | 6 | 20 | +3 | 1 por viaje | Cuartel ([e481](#e481)) |
+| Autobomba | 6 | 20 | +3 | 1 por viaje de ida y vuelta | Cuartel ([e481](#e481)) |
 | Blindado | 8 | 30 | +4 | 1 por barrio | Tesoro ([e552](#e552)) |
 | Lancha | 4 | 10 | +1 | 2 por viaje | Club náutico ([e382](#e382)). Solo por el río |
 | La 7012 | — | — | Todo Corinto | 4 | Don Ernesto ([e602](#e602)). Una sola vez |
 
-- **Un viaje** es ida a un barrio vecino por la Calle, en ◷ 1, salvo que el vehículo diga otra cosa.
+- **Un viaje** es ida a un barrio vecino por la Calle, en ◷ 1, salvo que el vehículo diga otra cosa. El Ruido de la tabla reemplaza al +2 de r152.
 - **Un vehículo no entra** a las Azoteas ni al Subsuelo, ni a un barrio con una Procesión en la Calle (o sí, pero entonces es [e100](#e100)).
 
 ---
@@ -212,7 +212,7 @@ Un vehículo te saca de la Calle sin tirar encuentro, pero todo Corinto lo escuc
 
 ## Los infectados
 
-*Las fichas que siguen son copia de las que llenaba el personal de la morgue del Hospital Regional durante la primera semana, cuando todavía se llenaban fichas. Las observaciones de combate las agregó alguien después, a mano.*
+*Las fichas que siguen son copia de las que llenaba el personal de la morgue del Hospital Central durante la primera semana, cuando todavía se llenaban fichas. Las observaciones de combate las agregó alguien después, a mano.*
 
 Cada ficha dice la **Etapa** en la que empieza a aparecer, el **Aguante** (el Daño que hace falta para matarlo, r143), su **conducta** y qué hace **en la Noche 40** si aparece en una oleada ([e901](#e901)).
 
@@ -318,7 +318,7 @@ Alguien que era grande y ahora es enorme. La infección le hinchó los músculos
 
 - **Conducta:** las puertas cerradas, las barricadas y las trampas no lo frenan: las rompe. Donde hay un Bruto, ninguna puerta cuenta como «cerrada» (r141). Si está Encima, cada golpe (un 4 o un 5 en la tabla de mordidas) son 2 Heridas.
 - **Cómo:** fuego (no lo frena, pero el Daño sigue: cada ronda en llamas, 1 Daño), trampas grandes (Foso de estacas: 2 Daño), armas pesadas. O huir: es lento.
-- **Observación:** en un sondeo, el frente que golpea pierde 1d6 de Resistencia, no 1.
+- **Observación:** en un sondeo, el frente que golpea pierde 3 de Resistencia, no 1 ([e075](#e075)).
 - **En la Noche 40:** la oleada en la que aparece hace +3 de daño al frente si entra. El Foso de estacas y las Rejas soldadas le hacen la mitad.
 
 ---
@@ -331,7 +331,7 @@ Alguien que era grande y ahora es enorme. La infección le hinchó los músculos
 
 Flaco, con el cuello hinchado como un sapo y la boca negra. Se queda arriba: en un balcón, en un techo, en lo alto de un colectivo. Y escupe. Un chorro verde que humea, que agujerea el metal, que quema la piel hasta el hueso.
 
-- **Conducta:** no avanza. Desde **Lejos**, cada ronda, tirá 1d6: con 4–6, te escupe. 1 Herida (la protección no sirve: el ácido pasa) y tu protección pierde 1 uso o queda inútil si es de Usos ∞ (−1 que se va).
+- **Conducta:** no avanza. Desde **Lejos**, cada ronda, tirá 1d6: con 4–6, te escupe. 1 Herida (la protección no sirve: el ácido pasa) y tu protección pierde 1 uso (si es de Usos ∞, deja de servir: el ácido la come).
 - **Cómo:** desde Lejos y rápido. O ponerte a cubierto: detrás de un auto, debajo de un toldo, adentro de un local; a cubierto, solo te escupe con 6.
 - **En la Noche 40:** el frente al que escupe pierde 1 Resistencia antes de la oleada, y las trampas de ese frente pierden 1 de valor.
 
@@ -391,8 +391,8 @@ Un hombre alto, de traje oscuro, con la corbata floja. Camina erguido, sin arras
 
 - **Conducta:** **piensa**. En combate, no avanza: se queda en Lejos y los demás avanzan por él. Cada ronda, después de tu acción, elige: o los Callados avanzan **dos pasos**, o se cubren detrás de él (las armas de fuego tienen −1 Daño contra el grupo). No muerde: si llega a estar Encima, se aparta y deja lugar a otro.
 - **Cómo:** sin la Procesión. Solo, desde lejos, con un tiro limpio (`[Puntería]` con Desventaja salvo fusil, ballesta o rifle; Daño 5 en un solo golpe) o con un cebo ([e577](#e577)).
-- **Observación:** si te ve, te recuerda. Desde ese día, cada vez que una Procesión se mueva, va hacia tu refugio si puede.
-- **En la Noche 40:** si el Pastor vive, la Marea elige (los frentes más débiles). Lo que pasa con el Secreto 5 está en [e585](#e585).
+- **Observación:** si te ve, te recuerda: anotá `EL_PASTOR_SABE`. Desde ese día, cada vez que una Procesión se mueva, va hacia tu refugio si puede.
+- **En la Noche 40:** si vive y lo viste, puede aparecer en una oleada: lo que hace está en [e901](#e901). Con el Secreto 5, además, [e585](#e585).
 
 ---
 
@@ -408,7 +408,7 @@ La Resistencia de un frente no pasa de 10. Cada barricada también sirve para **
 
 > **Muro de muebles** *(básica)* · Sin materiales · Sin herramientas · ◷ 1 · `[Físico]` · Con 10+, +2 Resistencia; con 7–9, +1 y 1 Herida; con 6−, +1 y −1 Ánimo. Solo una vez por frente.
 >
-> **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra, con Desventaja) · ◷ 2 · Sin prueba · +2 Resistencia.
+> **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra: ◷ 3 en lugar de 2) · ◷ 2 · Sin prueba · +2 Resistencia.
 >
 > **Chapas atornilladas** · 3 Metal, 2 Sujeción · Taladro (o Martillo, con Desventaja) · ◷ 2 · `[Oficio]` · +3 Resistencia. *Manual de carpintería y obra* ([e772](#e772)).
 >
@@ -574,7 +574,7 @@ Canaletas, caños, un filtro de arena y carbón. Cuando llueve, el refugio enter
 
 > **Huerta** · 2 Madera, **semillas**, tierra (bolsas de un vivero, de una plaza, de las macetas de los balcones) · Una pala o un serrucho · ◷ 3 · `[Supervivencia]` · Habilita el puesto Huerta (r181). Necesita un patio, una terraza o una azotea. *La huerta en el balcón* ([e776](#e776)).
 
-**Semillas:** del vivero ([e402](#e402); con `SEMILLAS_DEL_VIVERO`, además, la Huerta produce +1 siempre), de una huerta de azotea (`LA_HUERTA_DE_ARRIBA`), de una verdulería del Mercado o de los Bloques (1 Víver de verdura que no te comés), de Doña Rosa ([e627](#e627)).
+**Semillas:** del vivero ([e402](#e402); con `SEMILLAS_DEL_VIVERO`, además, la Huerta produce +1 siempre), de una huerta de azotea (`LA_HUERTA_DE_ARRIBA`), de 1 Víver de verdura que no te comés (zapallo, tomate, porotos secos), de Doña Rosa ([e627](#e627)).
 
 ---
 
@@ -646,7 +646,7 @@ Una plataforma en el techo, un banquito, una frazada, unos binoculares si hay. E
 
 > **Generador** · 4 Metal, 3 Electrónica, 2 Combustible, un motor (de auto, de moto, de una bomba de agua) · Llave inglesa · ◷ 4 · `[Mecánica]` (Mecánica 2) · Electricidad para el Taladro, la Soldadora, la Radio y lo que haga falta. +2 Rastro el primer día que lo prendés. Gasta 1 Combustible cada noche que lo uses. *Manual de mecánica del automotor* ([e773](#e773)) o *de electricidad domiciliaria* ([e775](#e775)).
 
-**Silenciador:** 2 Metal, 1 Tela, ◷ 1, sin prueba. −1 Rastro, una vez (r174).
+**Silenciador:** 2 Metal, 1 Tela, ◷ 1, sin prueba. −1 Rastro, una vez (r174). Con él, prender el generador industrial ([e510](#e510)) tampoco suma Rastro.
 
 ---
 
@@ -654,7 +654,7 @@ Una plataforma en el techo, un banquito, una frazada, unos binoculares si hay. E
 ### e761 · Último Cuarto
 *Catálogo · Instalaciones*
 
-> **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r224): Resistencia 6 (el Albañil, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. *Manual de carpintería y obra* ([e772](#e772)).
+> **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (el Albañil, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. *Manual de carpintería y obra* ([e772](#e772)).
 
 El cuarto más chico, el que no tiene ventanas. Las paredes reforzadas, la puerta doble, una tranca de fierro. Agua, una linterna, un balde. Nadie quiere entrar ahí. Todos saben que, si las cosas salen mal, es donde van a estar al amanecer.
 
@@ -779,7 +779,7 @@ Un folleto del Estado de hace cuarenta años, de la Guerra Fría: «Qué hacer e
 ### e779 · El cuaderno de alguien
 *Catálogo · Manuales*
 
-Un cuaderno Rivadavia de tapa dura, de los de la escuela, lleno con letra apretada, dibujos, flechas, tachones, manchas de sangre seca. Lo escribió alguien que sobrevivió los primeros veinte días en Corinto. La última página dice: «Mañana voy a buscar a mi vieja al Regional. Si alguien encuentra esto, todo lo que sé está acá».
+Un cuaderno Rivadavia de tapa dura, de los de la escuela, lleno con letra apretada, dibujos, flechas, tachones, manchas de sangre seca. Lo escribió alguien que sobrevivió los primeros veinte días en Corinto. La última página dice: «Mañana voy a buscar a mi vieja al Central. Si alguien encuentra esto, todo lo que sé está acá».
 
 - **Recetas:** Lanza de caño, Lanzallamas de fumigadora, Brazales de chapa, Casco de olla, Traje de cuero, Soga trenzada, Tablones de cruce, Mochila reforzada.
 - **Práctica:** 3 casillas donde quieras.

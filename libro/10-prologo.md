@@ -176,14 +176,14 @@ Entrás. Huele a encierro, a humedad, a lo que haya sido este lugar antes. Cerr�
 
 Antes de nada, hay que **revisar** (r160). Tu refugio tiene sus propios rincones: placares, depósitos, cajones. Esta vez lo hacemos juntos:
 
-> **Tu refugio · tipo según el refugio · stock ▢▢**
+> **Tu refugio · tipo y stock según su ficha**
 
 - **Revisar rápido** (r161): tachás 1 casilla de stock y tirás **una vez** en la tabla de botín del tipo de tu refugio (r162). La entrada de tu refugio te dijo qué tipo es.
 - **Revisar a fondo:** tachás 2 casillas y tirás **tres veces**, pero hace ruido.
 
 Hoy revisá **a fondo**, sin costo de tiempo ni Ruido: es el día 0 y nadie está mirando todavía. Anotá lo que encontraste: los materiales en la Hoja del refugio (r165), los objetos en tu Mochila (r164).
 
-Después, pintá tu primera **marca de búsqueda** (r163) en la puerta de tu refugio, en el mapa: una X con un 0 arriba, un 0 a la izquierda (ya no queda stock) y, a la derecha, tu nombre. Es tuyo. → **[e010](#e010)**.
+Después, pintá tu primera **marca de búsqueda** (r163) en la puerta de tu refugio, en el mapa: una X con un 0 arriba, a la izquierda el stock que te quedó (casi siempre 0) y, a la derecha, tu nombre. Es tuyo. → **[e010](#e010)**.
 
 ---
 
@@ -197,7 +197,7 @@ Es hora de usar el **taller** (r200). Hay dos recetas que conoce todo el mundo, 
 
 > **Muro de muebles** *(básica)* · Sin materiales · Sin herramientas · ◷ 1 · `[Físico]` · Con 10+, +2 Resistencia a un frente; con 7–9, +1 y 1 Herida (la espalda, siempre la espalda); con 6−, +1, pero rompiste algo (−1 Ánimo). Solo una vez por frente.
 >
-> **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra, con Desventaja) · ◷ 2 · Sin prueba · +2 Resistencia a un frente.
+> **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra: ◷ 3 en lugar de 2) · ◷ 2 · Sin prueba · +2 Resistencia a un frente.
 
 Hoy, por ser el día 0, podés hacer las dos (si tenés con qué) sin gastar tiempo. Elegí los frentes. El Albañil suma +1 a cada una (r102).
 
@@ -231,7 +231,7 @@ Se hace de noche. Es la primera noche de las cuarenta, y la vas a jugar como tod
 
 1. **Puestos** (r181): cada persona del refugio elige un puesto. Sin instalaciones, solo hay tres: **Guardia**, **Obra** y **Descanso**. Vos también.
 2. **Producción:** cada puesto hace lo suyo. La Obra necesita 1 Madera o 1 Metal.
-3. **El sondeo** (r175): tirá 2d6, restá 1 por cada Guardia. Tu **Rastro** (r174) es 1, así que solo hay sondeo con un 2 o menos. Esta vez, igual, pasa algo: a la medianoche, algo empuja la Puerta. Una vez. Otra. Se va. La Resistencia de la Puerta baja 1. Así son los sondeos: la ciudad tanteando a ver si hay alguien.
+3. **El sondeo** (r175): tirá 2d6, restá 1 por cada Guardia. Tu **Rastro** (r174) es el que dice la ficha de tu refugio (casi siempre 1): con Rastro 1, solo hay sondeo con un 2 o menos. Esta vez, igual, pasa algo: a la medianoche, algo empuja la Puerta. Una vez. Otra. Se va. La Resistencia de la Puerta baja 1. Así son los sondeos: la ciudad tanteando a ver si hay alguien.
 4. **El grupo:** todos están cansados. Nadie habla mucho.
 
 Antes de dormir, alguien (vos u otro) pregunta en voz alta lo que todos piensan:

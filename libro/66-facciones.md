@@ -28,7 +28,7 @@ El **padre Anselmo** tiene setenta años, sotana gastada, zapatillas, y no duerm
 **Qué podés hacer** (◷ 1 cada cosa):
 
 - **Pedir un plato.** Recuperás 2 Reservas. Una vez por visita.
-- **Dormir.** Pasás la noche en la Catedral (r140) sin tirar en la tabla de noche afuera.
+- **Dormir.** Pasás la noche en la Catedral (r158) sin tirar en la tabla de noche afuera.
 - **Dejar a alguien.** Un sobreviviente que no puede seguir (un chico, un herido Grave, alguien con Ánimo 0) se queda con la Parroquia. No cuenta como perdido: no baja la Moral. +1 Reputación (una vez).
 - **Donar.** 3 Víveres o 2 Fármacos: +1 Reputación (como mucho, una vez por semana).
 - **Cambiar** (r166): la Parroquia tiene Víveres, Tela y velas (Combustible). No acepta Munición ni armas.
@@ -76,7 +76,7 @@ Tirá 1d6:
 
 —Hay una familia en una azotea de la Estación —dice el padre—. Cinco personas. Los vemos desde el campanario. Hacen señas con una sábana desde hace tres días. No podemos llegar: hay una Procesión en la calle.
 
-**El pedido:** ir a la Estación por las Azoteas (r130), llegar a la familia (◷ 2, `[Físico]` para cruzar el último tramo; con 6−, 1 Herida, pero llegás) y traerlos. Por la Calle no se puede: la Procesión está ahí.
+**El pedido:** ir a la Estación por el Subsuelo (r151; abajo tirás en [e110](#e110)), subir hasta la familia (◷ 2, `[Físico]` para trepar el último tramo; con 6−, 1 Herida, pero llegás) y traerlos por el mismo camino. Por la Calle no se puede: la Procesión está ahí.
 
 - **Si los traés a la Catedral:** +2 Reputación con la Parroquia.
 - **Si los traés a tu refugio:** se unen como 2 sobrevivientes comunes y 3 que no hacen puestos (chicos y una abuela). +1 Reputación. +1 Rastro.
@@ -171,7 +171,7 @@ Tirá 1d6:
 **El pedido:** llevar **5 Combustible** al Cuartel Central. Tenés hasta la próxima carta de Bastos.
 
 - **Si cumplís:** +2 Reputación. Gauna te da un chaquetón de bombero (protección −1, y el fuego te hace 1 Herida menos) y tu refugio entra en la lista sin pagar por dos semanas (`PROTECCION_BOMBERA`).
-- **Si le sacás la nafta a los Lobos** (de la estación de servicio de La Fabril, [e265](#e265), si están ahí): +3 Reputación con los Bomberos, −2 con los Lobos.
+- **Si le sacás la nafta a los Lobos** (los tambores de su depósito, [e684](#e684)): +3 Reputación con los Bomberos, −2 con los Lobos.
 - **Si no cumplís:** −1 Reputación.
 
 ---
@@ -184,7 +184,7 @@ Humo negro, columna gruesa, a tres cuadras. Una manzana de casas prendida fuego.
 
 Ir es meterse en el humo, entre casas que se caen, con Callados que salen del fuego todavía andando.
 
-1. **Ayudar.** `[Físico]` (+1 con Valeria). Con 10+, apagan el fuego: +2 Reputación con los Bomberos y, en las casas de la manzana que quedaron en pie, revisás como Vivienda con stock ▢▢▢ sin Ruido. Con 7–9, lo apagan: +2 Reputación, pero 1 Herida (quemadura) y **Callados ×1d6 · Cerca** que salen de una casa ardiendo (cada uno, al tocarte, 1 Herida extra con 5–6 en la tabla de mordidas, sin Fiebre). Con 6−, no lo apagan: se quema la manzana entera. +1 Reputación igual. 2 Heridas.
+1. **Ayudar.** `[Físico]` (+1 con Valeria). Con 10+, apagan el fuego: +2 Reputación con los Bomberos y, en las casas de la manzana que quedaron en pie, revisás como Vivienda con stock ▢▢▢ sin Ruido. Con 7–9, lo apagan: +2 Reputación, pero 1 Herida (quemadura) y **Callados ×1d6 · Cerca** que salen de una casa ardiendo (cada uno, al tocarte, 1 Herida extra con un 6 en la tabla de Mordidas, sin Fiebre). Con 6−, no lo apagan: se quema la manzana entera. +1 Reputación igual. 2 Heridas.
 2. **Mirar desde lejos.** No pasa nada. −1 Reputación con los Bomberos si te vieron (1–3 en 1d6).
 
 ---
@@ -265,7 +265,7 @@ Esta vez son dos camionetas. Seis de chaleco. El del tatuaje no sonríe.
 Tirá 1d6 para ver cuál:
 
 - **1–2 · La Parroquia.** Traerle a Rolo la caja de remedios de la enfermería de la Catedral. Si lo hacés (entrar a la Catedral, `[Sigilo]` con Desventaja, ◷ 2): +2 Reputación con los Lobos, −3 con la Parroquia, y Rolo te paga 6 Munición y 4 Combustible.
-- **3–4 · La nafta.** Llevar un tambor de nafta de la estación de servicio a Las Lomas, de noche, por la Calle (r140). Si llega: +1 Reputación y 3 Combustible para vos.
+- **3–4 · La nafta.** Llevar un tambor de nafta de la estación de servicio a Las Lomas, de noche, por la Calle (r158). Si llega: +1 Reputación y 3 Combustible para vos.
 - **5 · El que debe.** Un tipo de Los Bloques le debe plata a Rolo. Ir a buscarlo y traerlo. `[Labia]` o `[Pelea]`. Si lo traés, +2 Reputación con los Lobos y −1 Ánimo: no querés saber qué le van a hacer.
 - **6 · Los Bomberos.** Robar una de las autobombas del Cuartel Central. Es una locura. `[Sigilo]` con Desventaja y `[Mecánica]`, ◷ 4. Si la traés: +3 Reputación con los Lobos, −3 con los Bomberos, y Rolo te deja elegir lo que quieras de su depósito ([e686](#e686), una tirada).
 
@@ -281,7 +281,7 @@ Si tenés `CONOCES_EL_BARRIO_CERRADO`, sabés dónde duelen. Para atacar a los L
 
 Cada una de estas cosas, una vez. Con dos de las tres, anotá `LOBOS_DEBILITADOS`.
 
-1. **Los tambores.** De noche (r140), por el muro del fondo (`[Físico]`), hasta los tambores de combustible: una Molotov o 1 Combustible y un fósforo. Explotan. +4 Ruido. Los Lobos se quedan sin nafta: sus camionetas no salen por una semana.
+1. **Los tambores.** De noche (r158), por el muro del fondo (`[Físico]`), hasta los tambores de combustible: una Molotov o 1 Combustible y un fósforo. Explotan. +4 Ruido. Los Lobos se quedan sin nafta: sus camionetas no salen por una semana.
 2. **Las cocineras** → [e685](#e685).
 3. **La garita.** Con un fusil, desde la torre del club de golf ([e303](#e303)), a trescientos metros: `[Puntería]` con Desventaja. Con 7+, el guardia de la garita cae. Los Lobos no saben de dónde vino. Esa noche, la mitad de los Lobos se va a buscar al tirador por Las Lomas: si estás en Las Lomas, tirá encuentro con +2.
 
@@ -297,7 +297,7 @@ Con `LOBOS_DEBILITADOS`, Rolo pierde a la mitad de los suyos. Si además Rolo mu
 
 En la casa grande, la de la cocina, hay siete mujeres. Cocinan para los Lobos desde el día 5. Duermen en el sótano con la puerta trabada por fuera. Una de ellas, la mayor, te ve por la ventana de la cocina y se lleva un dedo a los labios.
 
-**Sacarlas.** De noche (r140), con `CONOCES_EL_BARRIO_CERRADO`. `[Sigilo]`, ◷ 3: una prueba para entrar, una para abrir el sótano (sin prueba con Pocho, [e612](#e612)), una para salir con siete personas.
+**Sacarlas.** De noche (r158), con `CONOCES_EL_BARRIO_CERRADO`. `[Sigilo]`, ◷ 3: una prueba para entrar, una para abrir el sótano (sin prueba con Pocho, [e612](#e612)), una para salir con siete personas.
 
 - **Con las tres en 7+:** las sacás a todas. Se unen como 3 sobrevivientes comunes (las otras cuatro se van a la Catedral: +2 Reputación con la Parroquia). Una de ellas se llama Marcela y es la de la olla popular de Los Bloques: si tenés a Lucía, se reconocen. +3 Moral.
 - **Con una en 6−:** los Lobos se despiertan en esa prueba. Las que hayan salido, salieron. Vos, combate contra **Lobos ×1d6 · Cerca**, armas de fuego, y te vas como puedas. −3 Reputación con los Lobos.
@@ -320,7 +320,7 @@ Una sola vez (si ya no hay Lobos, o si Rolo te deja elegir). Tirá **tres veces*
 | 2 | 6 Combustible |
 | 3 | 4 Fármacos y 2 Antivirales |
 | 4 | Una escopeta (Daño 3, Cerca, 2 manos, +2 Ruido), un revólver y 12 Munición |
-| 5 | Una moto con el tanque lleno: viajás a cualquier barrio por la Calle en ◷ 1, sin encuentro, +2 Ruido. 2 personas, 4 casilleros |
+| 5 | Una moto con el tanque lleno: viajás a cualquier barrio por la Calle en ◷ 1, +2 Ruido, y la tabla del barrio, con +1. 2 personas, 4 casilleros |
 | 6 | La libreta de Rolo: nombres, lo que cada uno le debe, lo que le quitó a cada uno. Una pista ([e560](#e560)): en la última página, «Pagos del Comando: día −10, día −5, día 0». Rolo trabajaba para ellos |
 
 ---
@@ -335,7 +335,7 @@ Si esto pasa en la calle, es una emboscada. Si pasa en tu refugio, es una guerra
 
 **En tu refugio:** esta noche, en lugar del sondeo, llegan los Lobos. Seis, ocho, con dos camionetas y una escopeta cada uno. Quieren entrar, llevarse todo y que se sepa.
 
-- Elegí un frente: es por donde atacan (los Lobos no son tontos: siempre el más débil, salvo el Techo). Fuerza **2d6+2** contra la Resistencia del frente más tus defensores (como una oleada, r221, cada defensor suma 1, con arma de fuego 2).
+- Atacan por el frente más débil, salvo el Techo (los Lobos no son tontos). Fuerza **2d6+2** contra la Resistencia del frente más tus defensores (como una oleada, r221, cada defensor suma 1, con arma de fuego 2).
 - **Si aguanta:** los Lobos se van con heridos. Anotá `RECHAZASTE_A_LOS_LOBOS`. Si además tenés `LOBOS_DEBILITADOS`, son `LOBOS_DERROTADOS`. +2 Moral. +2 Rastro (los tiros).
 - **Si no aguanta:** entran. Se llevan la mitad de los Víveres, la mitad de los materiales, todas las armas de fuego que no tenga nadie en la mano, y a un sobreviviente (`PERDIDO_`). El frente queda en 0. −3 Moral. Y vuelven en una semana.
 

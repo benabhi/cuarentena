@@ -95,7 +95,7 @@ Un comedor con mesas largas, una cocina industrial y un depósito de alimentos p
 
 Un grupo de estudiantes acampa en el césped frente al rectorado, con carpas, una fogata y una bandera: «LA UNIVERSIDAD NO SE CIERRA». Hacen guardias, comparten comida y discuten en asamblea qué hacer.
 
-Te invitan a la asamblea (◷ 1). `[Labia]`. Con 10+, votan ayudarte: te dan 2 Víveres, te enseñan una receta que conozcan (elegí una de Equipo o Medicina, e747–e749) y dos de ellos se ofrecen a venir (un sobreviviente: Mecánica 1, Labia 1, rasgo Optimista; anotá `LOS_ESTUDIANTES`). Con 7–9, te dan los Víveres y la receta. Con 6−, votan no meterse.
+Te invitan a la asamblea (◷ 1). `[Labia]`. Con 10+, votan ayudarte: te dan 2 Víveres, te enseñan una receta que conozcan (elegí una de Medicina o de Equipo, [e747](#e747) o [e749](#e749)) y dos de ellos se ofrecen a venir (un sobreviviente: Mecánica 1, Labia 1, rasgo Optimista; anotá `LOS_ESTUDIANTES`). Con 7–9, te dan los Víveres y la receta. Con 6−, votan no meterse.
 
 ---
 

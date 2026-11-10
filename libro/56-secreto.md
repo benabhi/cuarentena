@@ -12,7 +12,7 @@ Encontraste algo que no cierra: un papel, una frase, una cara que mira para otro
 
 Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho). Las pistas son del grupo, no tuyas: si un sobreviviente encuentra una, también cuenta.
 
-- **Cada fuente da una sola pista.** El mismo papel leído dos veces es el mismo papel. Si ya sacaste la pista de un lugar o de un evento, no la vuelvas a marcar.
+- **Cada fuente da una sola pista.** El mismo papel leído dos veces es el mismo papel. Si ya sacaste la pista de un lugar o de un evento, no la vuelvas a marcar, salvo que la entrada diga «otra pista»: entonces esa fuente da dos.
 - **Si es tu 2.ª pista** → [e561](#e561).
 - **Si es tu 4.ª pista** → [e562](#e562).
 - **Si es tu 6.ª pista** → [e563](#e563).
@@ -100,7 +100,7 @@ El Comando sabe que hay uno que piensa. Lo saben desde antes que vos. Lo nombrar
 
 Anotá `SABES_DEL_PASTOR`. Una pista ([e560](#e560)), si no la marcaste ya por este motivo.
 
-- Desde ahora, cada vez que una **Procesión doble** aparezca en el mapa, sabés que el Pastor podría estar con ella: si vas a ese barrio y la ves (e100), tirá 1d6; con 5–6, lo ves caminar adelante, erguido. Anotá en el mapa dónde está.
+- Desde ahora, cada vez que una **Procesión doble** aparezca en el mapa, sabés que el Pastor podría estar con ella: si vas a ese barrio y la mirás ([e100](#e100), opción **Mirar**), con 10+ o 7–9 lo ves caminar adelante, erguido. Anotá en el mapa dónde está.
 - **En la Noche 40**, si el Pastor aparece en una oleada ([e901](#e901)), tenés +2 a la defensa de esa oleada: sabías que iba a venir y por dónde.
 
 ---
@@ -134,7 +134,7 @@ Solo si tu Secreto es el 5 y lo abriste (`SECRETO_ABIERTO`).
 
 Ahora sabés que la Marea no se mueve sola. Si el Pastor muere antes de la Noche 40, la Marea llega igual, pero llega ciega.
 
-**Encontrarlo.** El Pastor camina con la **Procesión doble** más cercana a la Ciudad Universitaria. Si no hay ninguna, tirá en r155: ahí aparece una, con él. Para verlo hay que acercarse a la Procesión (e100, opción **Mirar**) y tirar `[Sigilo]`: con 7+, lo ves; con 6−, te ven primero.
+**Encontrarlo.** El Pastor camina con la **Procesión doble** más cercana a la Ciudad Universitaria. Si no hay ninguna, tirá en r155: ahí aparece una, con él. Para verlo hay que mirar la Procesión ([e100](#e100), opción **Mirar**): con 10+ o 7–9, lo ves; con 6−, te ven primero.
 
 **Llegar hasta él.** No camina en el medio: camina adelante, solo, unos pasos delante de los demás, y cada tanto se para a escuchar. Tenés tres formas:
 
@@ -157,7 +157,7 @@ Un camión del Destacamento frena en tu cuadra a media mañana. Bajan cuatro sol
 —Buscamos a una persona —dice el de civil, y lee un nombre de la carpeta. Es el nombre de tu inmune.
 
 1. **Entregarlo.** Se lo llevan. Te dan 6 Víveres, 4 Antivirales y la promesa de que el día 41 van a venir a buscar al resto. −3 Moral. Anotá `ENTREGASTE_AL_INMUNE`. El día 41 va a importar.
-2. **Negarlo.** `[Labia]`. Con 10+, se van: «Nos habremos equivocado de dirección». Vuelven en una semana. Con 7–9, se van, pero dejan a un soldado vigilando la cuadra: +1 a todas las tiradas de sondeo hasta que se vaya (1d6 días). Con 6−, entran a buscarlo: **4 soldados** (r300, postura Pelear, cada uno Puntería 2, fusil Daño 3). Si ganás, −3 Reputación con el Destacamento y anotá `ESCONDISTE_AL_INMUNE`.
+2. **Negarlo.** `[Labia]`. Con 10+, se van: «Nos habremos equivocado de dirección». Vuelven en una semana. Con 7–9, se van, pero dejan a un soldado vigilando la cuadra: +1 a todas las tiradas de sondeo hasta que se vaya (1d6 días). Con 6−, entran a buscarlo: combate directo, sin r300, contra **Vivos ×4 · Aguante 2 cada uno · Cerca**, con fusiles (Daño 3). Si ganás, −3 Reputación con el Destacamento y anotá `ESCONDISTE_AL_INMUNE`.
 3. **Negociar** (con 4 pistas o más, o con `LA_VERDAD_ENTERA`). «Sabemos lo que buscan. Sabemos por qué.» `[Labia]` con +2. Con 7+, el de civil cierra la carpeta. Te ofrece un trato: el inmune se queda con ustedes hasta el día 41, y ese día el Destacamento se lleva a **todo** el grupo. Anotá `TRATO_DEL_INMUNE`. Con 6−, como la opción 2 con 6−.
 
 ---
@@ -173,7 +173,7 @@ Adentro hay un rack de equipos con luces verdes, un aire acondicionado que todav
 No hay nadie. No hubo nadie nunca.
 
 1. **Dejarla hablar.** La ciudad necesita creer en algo. +1 Ánimo. −1 Moral cuando se lo contás al grupo, o ninguna si no se lo contás.
-2. **Apagarla.** La AM 870 se calla por primera vez en treinta y siete días. En toda Corinto, la gente se queda mirando las radios. −1 Reputación con la Parroquia (la Señora era su esperanza). Al alba siguiente, todas las facciones saben que algo cambió: anotá `LA_SENORA_CALLADA`.
+2. **Apagarla.** La AM 870 se calla por primera vez desde el día del brote. En toda Corinto, la gente se queda mirando las radios. −1 Reputación con la Parroquia (la Señora era su esperanza). Al alba siguiente, todas las facciones saben que algo cambió: anotá `LA_SENORA_CALLADA`.
 3. **Grabar tu propio mensaje** (◷ 1, `[Labia]`). Contale a la ciudad la verdad: que no viene nadie, que hay que juntarse, dónde estás. Con 10+, +1 Reputación con las cuatro facciones, y en los próximos 3 albas, con 4–6 en 1d6, llega alguien al refugio (r180). +3 Rastro. Con 7–9, eso, pero solo +1 con dos facciones a elección. Con 6−, la voz te sale quebrada; algunos te creen. +3 Rastro igual. Anotá `TU_VOZ_EN_LA_RADIO`.
 
 ---
@@ -199,7 +199,7 @@ Al amanecer, por el muro, se escucha una sirena distinta. A las diez, los parlan
 
 - **Fiebre 0:** pasa.
 - **Fiebre 1 o más:** no pasa. Salvo `OCAMPO_MIRA_PARA_OTRO_LADO` (una persona) o el Antiviral de esa mañana con `LA_VERDAD_ENTERA`.
-- **Quedarse con los que no pasan:** cualquiera puede quedarse. Quien se queda no cuenta como salvado, pero suma +1 al epílogo de su arco si era tu protagonista.
+- **Quedarse con los que no pasan:** cualquiera puede quedarse. Quien se queda no cuenta como salvado. Si sos vos, sumá +1 a tu contador personal antes de leer tu epílogo ([e950](#e950)).
 
 Contá a los que pasan: son los **salvados** para el final ([e940](#e940)). Si el protagonista no pasó o se quedó, el final es **«Los que se quedaron»** ([e946](#e946)).
 
@@ -219,7 +219,7 @@ Contá a los que pasan: son los **salvados** para el final ([e940](#e940)). Si e
 - **Todas las salidas del Éxodo** ([e960](#e960)) están abiertas para vos, aunque no juegues el modo Éxodo. Prepará una.
 - **Con `EL_SOLDADO_DEL_CONVOY`:** el papel que te dio el soldado tiene algo escrito atrás, con lápiz: los horarios de las lanchas del río. Las pruebas de la escollera y de la lancha ([e960](#e960)) tienen Ventaja.
 - **Contarlo.** Si lo contás por la radio (`LA_VERDAD_AL_AIRE`), las facciones lo saben: los Bomberos y la Parroquia intentan salir también, y en la Noche 40 no vienen a ayudarte ([e905](#e905)), salvo que tengas Reputación +3 con ellos.
-- **Con `LA_VERDAD_ENTERA`:** sabés que el Destacamento se repliega a las 06:00. A esa hora, el Puesto Norte queda vacío **antes** de que pase el fuego. Es una salida más: a pie, por la ruta, detrás de los soldados, si llegás al Puesto Norte antes de las 06:00 (◷ 0 si tu refugio está en el Perímetro o un barrio vecino; si no, no llegás).
+- **Con `LA_VERDAD_ENTERA`:** sabés que el Destacamento se repliega a las 06:00. A esa hora, el Puesto Norte queda vacío **antes** de que pase el fuego. Es una salida más: a pie, por la ruta, detrás de los soldados. Para usarla, el grupo tiene que pasar la Noche 40 escondido en el Puesto Norte, en el Perímetro, en lugar de defender el refugio: llegá antes del anochecer del día 40 y resolvé la noche como una noche afuera (r158), con Desventaja (la Marea pasa al lado). Los que siguen vivos a las 06:00 salen detrás de los soldados: son los **salvados**.
 
 **El día 41**
 
@@ -275,7 +275,7 @@ A las nueve llegan los observadores: camionetas blancas, trajes amarillos, cajas
 
 - Podés encontrar la planta transmisora → [e579](#e579). Con `FRECUENCIAS_DEL_COMANDO`, la libreta del radioaficionado dice de dónde sale la señal: la encontrás sin gastar las ◷ 2 de búsqueda.
 - **Con `LA_SENORA_SE_EQUIVOCA`:** ya lo sospechabas, y el grupo también. En [e579](#e579), contarlo no baja la Moral.
-- El **Destacamento** no lo sabe. Si se lo contás a Ocampo (`[Labia]`, con 4 pistas o más), con 7+ el Destacamento se queda en la ciudad después del día 41, y en la Noche 40 pelea con vos ([e905](#e905)) sin tirar. +2 Reputación. Con 6−, no te cree: −1 Reputación.
+- El **Destacamento** no lo sabe. Si se lo contás a Ocampo (`[Labia]`), con 7+ el Destacamento se queda en la ciudad después del día 41, y en la Noche 40 pelea con vos ([e905](#e905)) sin tirar. +2 Reputación. Con 6−, no te cree: −1 Reputación.
 - **Con `LA_VERDAD_ENTERA`:** sabés que la Marea es lo que queda de la gente de afuera. Después de la Noche 40, no va a venir otra. Si sobrevivís, Corinto es tuya.
 
 **El día 41**
@@ -303,7 +303,7 @@ Tus vivos son todos **salvados**: nadie se los va a llevar, nadie los va a quema
 
 **En la Noche 40**
 
-- **Si el Pastor está vivo:** la Marea elige. Cuando tirás el frente de una oleada, un 6 siempre es el frente más débil, y un 5 también.
+- **Si el Pastor está vivo:** la Marea elige desde el principio, aunque él no aparezca en ninguna oleada ([e901](#e901)): cuando tirás el frente de una oleada, un 5 o un 6 es el frente más débil.
 - **Si tenés `PASTOR_MUERTO`:** la Marea llega ciega: **2 oleadas menos**, y las oleadas no eligen: un 6 en la tirada de frente se vuelve a tirar.
 
 **El día 41**
@@ -317,7 +317,7 @@ Tus vivos son todos **salvados**: nadie se los va a llevar, nadie los va a quema
 ### e586 · Los inmunes
 *El Secreto · 6 · Revelación*
 
-> BANCO DE SANGRE · HOSPITAL REGIONAL
+> BANCO DE SANGRE · HOSPITAL CENTRAL
 > Donantes sin seroconversión tras exposición documentada: 20 (veinte). Frecuencia estimada en población: 1 cada 900. Notificar al Comando. Prioridad máxima. Recuperar sujetos vivos.
 
 **La verdad.** Hay gente que no se convierte. Los muerde un Callado, les sube la Fiebre, y la Fiebre baja sola. El Comando lo sabe desde la primera semana y los busca: una sola persona inmune vale más que toda Corinto. Uno de tus sobrevivientes es inmune.
@@ -338,12 +338,12 @@ Desde ahora, **el inmune no se convierte**: su Fiebre nunca pasa de 5, y baja 1 
 **Antes de la Noche 40**
 
 - **Vienen por el inmune** → [e578](#e578), la próxima vez que salga una carta de Espadas.
-- **La sangre.** Con la Enfermería, Medicina 3 o más (o la doctora Ríos) y el inmune, se puede hacer suero: ◷ 4, 2 Fármacos, −1 Herida para el inmune. Cada dosis baja la Fiebre de una persona a 0. Una dosis por semana.
+- **La sangre.** Con la Enfermería, Medicina 3 o más (o la doctora Ríos) y el inmune, se puede hacer suero: ◷ 4, 2 Fármacos, y el inmune recibe 1 Herida. Cada dosis baja la Fiebre de una persona a 0. Una dosis por semana.
 - **Con `LA_VERDAD_ENTERA` y (`AMPOLLAS_L40` o `LOTE_40`):** el L-40 era un intento de copiar lo que tiene la sangre del inmune. Mezclados, con ◷ 6 y Medicina 4 (o la doctora Ríos), hacés algo que nadie hizo: anotá `LA_CURA`.
 
 **El día 41**
 
 - **Con `TRATO_DEL_INMUNE`:** el Destacamento cumple. Un camión, a las ocho. Todos tus vivos son salvados.
-- **Con `ENTREGASTE_AL_INMUNE`:** no vuelven. −1 al final.
+- **Con `ENTREGASTE_AL_INMUNE`:** no vuelven. −2 a la Moral final.
 - **Con `LA_CURA`:** el final es **«La cura»** ([e944](#e944)), además del que te corresponda por los vivos.
 - **Si no:** el Comando viene a buscar al inmune a la fuerza al amanecer. Si lo defendés, el final es **«Los que se quedaron»** ([e946](#e946)); si lo dejás ir, tus vivos son salvados, pero el inmune no.

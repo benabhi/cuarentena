@@ -4,7 +4,7 @@
 
 **Cómo se lee una entrada de refugio.** Cada refugio tiene una ficha con lo que hay que anotar en la Hoja del refugio: el **tipo** de botín para revisar en [e009](#e009), el **stock** de sus rincones, la **Resistencia** inicial de cada frente (r171), los **Víveres** y **materiales** con los que empezás, el **Rastro** inicial (si no dice nada, es 1) y sus **reglas propias**. Después vienen sus rincones: lugares del refugio con su propia entrada.
 
-**Si no es tu refugio.** Los otros cinco siguen ahí, en el mapa. Podés visitarlos como cualquier lugar de su barrio: cada ficha dice qué tipo de lugar son y qué stock tienen para un visitante. Pero los refugios vacíos no siempre están vacíos: al entrar a uno que no es el tuyo, tirá 1d6; con 1–2, alguien más tuvo la misma idea. Vivos: usá r300.
+**Si no es tu refugio.** Los otros cinco siguen ahí, en el mapa. Podés visitarlos como cualquier lugar de su barrio: cada ficha dice qué tipo de lugar son y qué stock tienen para un visitante. Pero los refugios vacíos no siempre están vacíos: al entrar a uno que no es el tuyo, tirá 1d6; con 1–2, alguien más tuvo la misma idea. Vivos: usá r300. Si la ficha del refugio trae su propia tirada, usá esa en lugar de esta.
 
 ---
 
@@ -36,7 +36,7 @@ El padre de San Lázaro se fue con los suyos a la Catedral el día 3. Dejó la p
 - **La sacristía:** una vez, ◷ 1. Un armario con ropa de cura, vino de misa (1 Químicos) y un libro de bautismos con los nombres de medio barrio. Si alguno de tus sobrevivientes es del Casco, encuentra su nombre: +1 Ánimo para esa persona.
 - **El patio del limonero:** la tierra es buena. La Huerta (e752) cuesta 1 Madera menos.
 
-**Si no es tu refugio:** es un lugar del Casco, tipo Vivienda, stock ▢▢. Si la Parroquia tiene Reputación +2 o más con vos, hay alguien de ellos adentro que te deja dormir una noche (r140) sin tirar en la tabla de noche afuera.
+**Si no es tu refugio:** es un lugar del Casco, tipo Vivienda, stock ▢▢. Si la Parroquia tiene Reputación +2 o más con vos, hay alguien de ellos adentro que te deja dormir una noche (r158) sin tirar en la tabla de noche afuera.
 
 Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
 
@@ -66,7 +66,7 @@ Bajás once escalones de piedra. Un pasillo abovedado con nichos en las paredes,
 La cripta comunica con el **Subsuelo** del Casco: un túnel de los jesuitas que nadie usa desde hace cien años y que sale a las cloacas nuevas. Por eso el frente Subsuelo empieza en 3 y no en más.
 
 1. **Cerrar la reja con cadena.** 1 Sujeción y un candado (o `[Oficio]` para trabarla con un fierro). +1 Resistencia al Subsuelo. Gratis, una vez.
-2. **Usar el túnel.** Desde tu refugio salís al Subsuelo sin pasar por la Calle: la primera tirada de Subsuelo de cada salida (e110) tiene −1. Pero si alguna vez dejás la reja abierta de noche, el próximo sondeo va directo al Subsuelo, sin tirar frente.
+2. **Usar el túnel.** Abrís la reja (si la cerraste con la opción 1, perdés ese +1): anotá `TUNEL_ABIERTO`. Desde tu refugio salís al Subsuelo sin pasar por la Calle: la primera tirada de Subsuelo de cada salida (e110) tiene −1. Pero mientras tengas `TUNEL_ABIERTO`, cada sondeo va directo al Subsuelo, sin tirar frente. Volver a cerrar la reja (opción 1) borra la Marca.
 3. **Tapiar el túnel.** 4 Madera o 3 Metal, 2 Sujeción, ◷ 3, `[Oficio]`. Con 7+, el Subsuelo sube +3 Resistencia y ya no podés usar el túnel. Anotá `CRIPTA_TAPIADA`.
 4. **Los nichos.** Si alguien del grupo muere, podés ponerlo en un nicho vacío (◷ 1). Vale como entierro digno (r182) sin salir del refugio.
 
@@ -117,7 +117,7 @@ Tirá 1d6 para saber quiénes son: **1–2**, una familia con dos chicos y un ab
 
 1. **Darles.** 2 Víveres (3 si son los Lobos). Se van. +1 Moral si eran la familia o los vecinos. Si eran los Lobos, anotá `LE_PAGAS_A_LOS_LOBOS`: desde ahora, cada vez que salga este evento, son los Lobos.
 2. **Hacerlos pasar.** Solo la familia o los vecinos. Se unen al grupo como 2 sobrevivientes comunes (r180). +1 Rastro.
-3. **No abrir.** `[Labia]` a través de la cortina. Con 10+, se van. Con 7–9, se van, pero vuelven de noche: el sondeo de esta noche es automático, sin tirar, y lo hacen ellos (es como un sondeo de Callados, pero la Fuerza es 1d6 y los que caen son vivos). Con 6−, rompen la vidriera: Ventanas −2. −1 Moral.
+3. **No abrir.** `[Labia]` a través de la cortina. Con 10+, se van. Con 7–9, se van, pero vuelven de noche: el sondeo de esta noche es automático, sin tirar, y lo hacen ellos: Fuerza 1d6 contra el frente que salga en [e072](#e072), y se resuelve como una oleada (r222), con la Resistencia del frente más sus defensores. Si entran, se llevan 1d6 Víveres. Con 6−, rompen la vidriera: Ventanas −2. −1 Moral.
 4. **Si es la nota (6):** esta noche, el sondeo tiene −2 si dejaste 2 Víveres en la vereda; si no, como la opción 3 con 7–9.
 
 ---
@@ -129,7 +129,7 @@ Tirá 1d6 para saber quiénes son: **1–2**, una familia con dos chicos y un ab
 Una puerta de acero inoxidable con una manija grande y un termómetro que marca 19 grados. Adentro, ganchos vacíos, una media res que ya no es carne y un olor que te tira para atrás.
 
 1. **Limpiarla.** ◷ 2, 1 Químicos, −1 Ánimo para quien lo haga. Queda como un cuarto aislado, de paredes de acero y puerta que cierra por dentro.
-2. **Hacerla Despensa.** Si está limpia y tenés el **Generador** (e760), la cámara vuelve a enfriar: es una **Despensa** (r173) sin construirla, y además los Víveres no se pudren aunque tengas más de 20.
+2. **Hacerla Despensa.** Si está limpia y tenés el **Generador** (e760), la cámara vuelve a enfriar: es una **Despensa** (r173) sin construirla: los Víveres no se pudren.
 3. **Hacerla el Último Cuarto.** Si está limpia, con 2 Metal y 1 Sujeción (◷ 2), es el **Último Cuarto** (e761) con Resistencia 8 en lugar de 6. Pero adentro no entra aire: en la Noche 40, cada oleada que pase con el grupo encerrado en la cámara, tirá 1d6; con 1, alguien se desmaya (1 Herida).
 
 ---
@@ -231,7 +231,7 @@ Si no:
 1. **Entregarles las armas.** Si tenés `ARMERIA_DE_LA_SEPTIMA`, se llevan todo lo que salió de la sala de armas. Te dejan el refugio. +2 Reputación con el Destacamento.
 2. **Negociar.** `[Labia]`. Con 10+, se llevan la mitad y te dejan una radio militar (cuenta como la Radio, e759, sin Generador, pero solo escucha al Destacamento: sabés cada noche dónde está su patrulla). Con 7–9, se llevan la mitad. Con 6−, como la opción 4.
 3. **Entregarles el refugio.** Te vas con lo que entre en las mochilas (r176, mudarse). +3 Reputación con el Destacamento. La Comisaría pasa a ser suya.
-4. **Negarte.** Ocampo suspira. «Volvemos mañana.» Mañana, a la noche, el sondeo es automático y lo hacen ellos: Fuerza 2d6 contra la Puerta, y si entran, se llevan el contenido de la sala de armas y 5 Víveres. −2 Reputación con el Destacamento. Si los rechazás, no vuelven: anotá `LA_SEPTIMA_ES_NUESTRA`.
+4. **Negarte.** Ocampo suspira. «Volvemos mañana.» Mañana, a la noche, el sondeo es automático y lo hacen ellos: Fuerza 2d6 contra la Puerta, como una oleada (r222: la Resistencia de la Puerta más sus defensores), y si entran, se llevan el contenido de la sala de armas y 5 Víveres. −2 Reputación con el Destacamento. Si los rechazás, no vuelven: anotá `LA_SEPTIMA_ES_NUESTRA`.
 
 ---
 
@@ -252,7 +252,7 @@ Durante la primera semana fue un centro de evacuados de Los Bloques. Después de
 **Reglas propias**
 
 - **Muchas puertas.** La escuela tiene la puerta principal, la del patio, la de la cocina y dos salidas de emergencia. Mientras no hagas [e471](#e471), cada vez que un sondeo golpea la **Puerta**, hace +1 de daño.
-- **Muchas aulas.** Hay lugar para todos. El **Dormitorio** (e756) ya está hecho: son colchonetas en el gimnasio. Y el Rastro no sube por tener muchos sobrevivientes hasta que sean 8 o más (r174).
+- **Muchas aulas.** Hay lugar para todos. El **Dormitorio** (e756) ya está hecho: son colchonetas en el gimnasio. Y los primeros 8 sobrevivientes nuevos no suben el Rastro; desde el noveno, cada tres nuevos, +1 (r180).
 - **El patio.** La **Huerta** (e752) cuesta la mitad de los materiales, y la Cisterna (e751) también: el techo de la galería ya junta agua.
 - **El salón de actos.** Tiene escenario, telón y un piano. Una vez por semana, una fiesta, un acto, una canción (◷ 1, todo el grupo): +1 Moral. Si tenés a Celeste ([e633](#e633)), +2.
 - **El centro de evacuados.** Algo pasó acá → [e472](#e472).
@@ -292,9 +292,9 @@ Del otro lado, silencio. Silencio de mucha gente.
 
 1. **No abrir.** Durante la partida, el gimnasio queda cerrado. Pero cada vez que un sondeo entra (r175) tirá 1d6: con 1, la cadena cede → opción 3.
 2. **Mirar por la ventana alta.** `[Físico]` para trepar, ◷ 1. Ves cuarenta, cincuenta Callados de pie, quietos, entre las colchonetas. Algunos son chicos. Algunos tienen vendas. −1 Ánimo. Ahora sabés lo que hay: anotá `EL_GIMNASIO`.
-3. **Abrir.** **Callados ×4d6 · Cerca**, escena Pasillo. No es una pelea para ganar: es una pelea para cerrar la puerta otra vez (`[Físico]` con dos personas, ◷ 0, al final de cualquier ronda). Si ganás de verdad, el gimnasio es tuyo, con colchonetas, mantas (4 Tela) y la mochila de alguien (un objeto útil, r163).
+3. **Abrir.** **Callados ×4d6 · Cerca**, escena Pasillo. No es una pelea para ganar: es una pelea para cerrar la puerta otra vez (`[Físico]` con dos personas, ◷ 0, al final de cualquier ronda). Si ganás de verdad, anotá `GIMNASIO_ABIERTO`: el gimnasio es tuyo, con colchonetas, mantas (4 Tela) y la mochila de alguien (un objeto útil, r163).
 4. **Quemarlo.** Si tenés `EL_GIMNASIO`: 3 Combustible por debajo de la puerta y una Molotov. Se terminan. Todos. El gimnasio queda vacío y negro. +3 Rastro (el humo se ve desde todos lados), −2 Moral, pero desde entonces nadie del grupo tiene miedo de esa puerta: anotá `GIMNASIO_QUEMADO`. El Dormitorio se pierde: hay que hacerlo de nuevo en otra aula (e756, normal).
-5. **Usarlo.** Si tenés `EL_GIMNASIO` y el gimnasio sigue cerrado, en la Noche 40 podés abrir la cadena desde arriba cuando una oleada esté en el patio: los del gimnasio salen y se mezclan con la oleada. La oleada pierde 1d6 de Fuerza (los nuevos no saben a dónde ir y se estorban). Una sola vez.
+5. **Usarlo.** Si tenés `EL_GIMNASIO` y el gimnasio sigue cerrado (sin `GIMNASIO_ABIERTO` ni `GIMNASIO_QUEMADO`), en la Noche 40 podés abrir la cadena desde arriba cuando una oleada esté en el patio: los del gimnasio salen y se mezclan con la oleada. La oleada pierde 1d6 de Fuerza (los nuevos no saben a dónde ir y se estorban). Una sola vez.
 
 ---
 
@@ -342,7 +342,7 @@ Una autobomba roja de 1987, con el tanque de agua por la mitad, las mangueras en
 
 **Con `LA_AUTOBOMBA`:**
 
-- **Viajar.** Te lleva a cualquier barrio vecino del Puerto por la Calle en ◷ 1, sin tirar encuentro, con hasta 6 personas y 20 casilleros de carga. +3 Ruido al llegar. Gasta 1 Combustible por viaje de ida y vuelta.
+- **Viajar.** Te lleva a cualquier barrio vecino del Puerto por la Calle en ◷ 1 (la tabla del barrio, con +1), con hasta 6 personas y 20 casilleros de carga. +3 Ruido al llegar. Gasta 1 Combustible por viaje de ida y vuelta.
 - **El cañón de agua.** En un combate al lado de la autobomba, una vez: todos los Callados en Cerca vuelven a Lejos, y los Hinchados no explotan esa ronda. En la Noche 40, una vez, cuenta como +3 a la defensa de la Puerta en una oleada.
 - **En el modo Éxodo:** con `LA_AUTOBOMBA` y la escollera ([e383](#e383)), es una salida para 6 → [e960](#e960).
 
@@ -375,7 +375,7 @@ Una sirena de bocina en lo alto de la torre, de las que se escuchaban en toda la
 **Hacerla sonar** (◷ 0, una vez por partida): todas las Procesiones a tres barrios o menos del Puerto se mueven hacia el Puerto (r156) y se quedan 1d6 días, salvo que antes salga una carta de Espadas. Anotá `LA_SIRENA`.
 
 - **Si el cuartel es tu refugio**, eso es un problema: +4 Rastro y una Procesión doble en tu barrio. A menos que haya otro barrio al que querés que vayan: entonces, desarmala (◷ 2, `[Mecánica]`) y llevala a otro barrio (3 casilleros, necesita una batería allá).
-- **En la Noche 40**, la sirena encendida en otro barrio es un **Señuelo grande** ([e435](#e435)).
+- **En la Noche 40**, la sirena puede sonar otra vez, aunque ya la hayas usado: si está en un barrio que no es el de tu refugio (en el cuartel, o donde la llevaste), es un **Señuelo grande** ([e435](#e435)) y cuenta como `LA_SIRENA`.
 
 ---
 
@@ -383,7 +383,7 @@ Una sirena de bocina en lo alto de la torre, de las que se escuchaban en toda la
 ### e490 · El Edificio Sarmiento
 *Sanidad · Refugio · ◷ 0*
 
-Doce pisos de departamentos de los años setenta frente al Hospital Regional, con balcones de rejas, un hall de mármol con espejos y un portero eléctrico con cuarenta y ocho botones. La puerta de entrada es de vidrio con reja. Los ascensores no andan. La escalera sube en caracol cuadrado por el centro del edificio, con una ventanita en cada descanso. Lo vivían médicos, enfermeras, jubilados y estudiantes del hospital.
+Doce pisos de departamentos de los años setenta frente al Hospital Central, con balcones de rejas, un hall de mármol con espejos y un portero eléctrico con cuarenta y ocho botones. La puerta de entrada es de vidrio con reja. Los ascensores no andan. La escalera sube en caracol cuadrado por el centro del edificio, con una ventanita en cada descanso. Lo vivían médicos, enfermeras, jubilados y estudiantes del hospital.
 
 Desde el piso doce se ve todo: el Hospital, el Casco, el río, el muro. Desde el piso doce, no te ve nadie.
 
@@ -400,7 +400,7 @@ Desde el piso doce se ve todo: el Hospital, el Casco, el río, el muro. Desde el
 - **El Techo.** La azotea da a las Azoteas de Sanidad. Desde tu refugio salís a las Azoteas sin Soga ni Tablones, pero los Acechadores también entran por ahí: si la Etapa es II o más, cada sondeo que salga por Techo tiene +1 de daño.
 - **La escalera.** Es tu mejor arma y tu peor problema → [e491](#e491).
 - **Doce pisos.** Revisar el edificio entero lleva su tiempo: el stock es ▢▢▢▢, pero cada revisión a fondo (después del día 0) es ◷ 3 en lugar de ◷ 2. Y el piso 7 está cerrado → [e493](#e493).
-- **Lejos de todo.** Volver del refugio con cosas pesadas cuesta: si traés más de 10 casilleros, subir es ◷ 1.
+- **Lejos de todo.** Volver al refugio con cosas pesadas cuesta: si traés más de 10 casilleros, subir es ◷ 1.
 
 **Los rincones del Sarmiento**
 
@@ -438,10 +438,10 @@ Anotá `ESCALERA_CORTADA`. Desde entonces:
 
 Una puerta con una cinta de luto atada al picaporte. En el timbre: «R. Álvarez». Adentro, un departamento ordenado, con plantas secas, un uniforme blanco colgado en la puerta del placard y fotos de una mujer con cofia rodeada de enfermeras jóvenes.
 
-Era el departamento de la jefa de enfermeras del Regional. Se llamaba Raquel Álvarez.
+Era el departamento de la jefa de enfermeras del Central. Se llamaba Raquel Álvarez.
 
 - **Si sos la Enfermera:** fue tu jefa durante doce años. Sabés dónde guardaba las cosas → [e805](#e805).
-- **Si no:** ◷ 1, una vez. En el botiquín del baño, 2 Fármacos, 1 Antiviral y una agenda. En la agenda, la letra prolija de una enfermera: «Día −3. Reunión con el Comando en el Regional. Nos piden lista de personal con grupo sanguíneo. ¿Para qué?». Una pista ([e560](#e560)).
+- **Si no:** ◷ 1, una vez. En el botiquín del baño, 2 Fármacos, 1 Antiviral y una agenda. En la agenda, la letra prolija de una enfermera: «Día −3. Reunión con el Comando en el Central. Nos piden lista de personal con grupo sanguíneo. ¿Para qué?». Una pista ([e560](#e560)).
 
 ---
 

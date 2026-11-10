@@ -92,7 +92,8 @@ El lago del parque, con botes de alquiler atados al muelle y patos. Patos vivos.
 
 - **Cazar patos:** con Gomera, Arco o Ballesta, `[Puntería]`, ◷ 1. Con 10+, 3 Víveres. Con 7–9, 2. Con 6−, nada.
 - **Con una trampa para palomas** ([e748](#e748)): 2 Víveres sin prueba.
-- **Agua:** con Hervir agua, 2 Víveres (◷ 1).
+- **Los patos aprenden:** entre la caza y la trampa, tres veces (▢▢▢). Después, no se acercan más a la orilla.
+- **Agua:** con Hervir agua, 2 Víveres (◷ 1), tres veces (▢▢▢).
 
 ---
 
@@ -114,7 +115,7 @@ No te vieron. Rodear el cementerio por el parque (◷ 1) los evita.
 
 Un rugido. Un rugido de verdad, de animal grande. Algo salió del zoológico.
 
-Tirá 1d6: **1–3**, un tigre flaco, hambriento y muy vivo. **Vivo ×1 · Aguante 4 · Lejos**, que avanza dos pasos por ronda y muerde (en la tabla de Mordidas, un 5 o un 6 son 2 Heridas, sin Fiebre). Si le tirás comida (2 Víveres), se va. **4–6**, un oso convertido. **Bruto ×1 · Lejos** ([e726](#e726)), con Aguante 5.
+Tirá 1d6: **1–3**, un tigre flaco, hambriento y muy vivo. **Vivo ×1 · Aguante 4 · Lejos**, que avanza dos pasos por ronda y muerde (en la tabla de Mordidas, un 6 son 2 Heridas, sin segundo dado ni Fiebre). Si le tirás comida (2 Víveres), se va. **4–6**, un oso convertido. **Bruto ×1 · Lejos** ([e726](#e726)), con Aguante 5.
 
 ---
 

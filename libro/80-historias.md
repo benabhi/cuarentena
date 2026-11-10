@@ -40,7 +40,7 @@ En la cama 3 hay alguien.
 —Usted volvió —dice—. Yo sabía que usted volvía.
 
 1. **Llevártelo.** Está débil: no hace puestos durante 3 noches, después es un sobreviviente común. Tachá a Coria. +1 Juramento. +1 Moral cuando llega.
-2. **Si no podés llevarlo hoy**, le dejás agua y comida (1 Víver) y le decís que vuelvas. Si no volvés antes de 5 cartas, se muere: −1 Juramento.
+2. **Si no podés llevarlo hoy**, le dejás agua y comida (1 Víver) y le decís que vuelvas. Anotá `CORIA_ESPERA` y, al lado, el número del día. Si volvés antes de que pasen 5 días, borrá la Marca y llevátelo (opción 1). Si no, se muere: −1 Juramento, y borrá la Marca.
 
 En el cajón de la enfermería, además, está tu libreta de turnos. En la última hoja, alguien escribió con otra letra: «Marta: los del 4 que estén vivos llevalos al Sarmiento. R.» Es la letra de Raquel, tu jefa. → [e805](#e805), cuando vayas.
 
@@ -96,7 +96,7 @@ Anotá `QUIROGA_DERIVADO`. Quiroga no se convirtió. Se lo llevó el Comando. Si
 
 El departamento de Raquel huele a ella: a lavanda y a cigarrillo. Sobre la mesa, una caja de zapatos con tu nombre escrito con fibrón.
 
-Adentro: 4 Fármacos, 2 Antivirales, un tensiómetro, la llave del depósito del Regional y una carta.
+Adentro: 4 Fármacos, 2 Antivirales, un tensiómetro, la llave del depósito del Central y una carta.
 
 «Marta: me llamaron del Comando. Quieren la lista del personal con el grupo sanguíneo. Quieren saber quién se enfermó el año pasado con la gripe y quién no. No me gusta. Si me pasa algo, quedate con esto. Y cuidá a los del 4: alguien tiene que cuidarlos. Te quiero, vieja. R.»
 
@@ -377,7 +377,7 @@ Ocampo te sirve mate en un jarro de lata y te mira.
 —Yo también tengo el sobre —dice—. Todos los suboficiales lo tienen. ¿Lo abriste?
 
 - **Si tenés `LEISTE_LA_ORDEN`:** «Entonces sabés lo mismo que yo. Que no sabemos nada.» Ocampo se ríe sin ganas. +1 Reputación. Anotá `OCAMPO_Y_LEIVA`: en la Noche 40 y el día 41, Ocampo hace lo que vos hagas ([e826](#e826)).
-- **Si no:** «No lo abras. Mientras esté cerrado, sos una agente con una orden. Cuando lo abrás, sos una más.» Si nunca lo abrís, en [e826](#e826) tenés +2.
+- **Si no:** «No lo abras. Mientras esté cerrado, sos una agente con una orden. Cuando lo abrás, sos una más.» Anotá `SOBRE_CERRADO`: mientras lo tengas, en [e826](#e826) tenés +2 en la prueba de abrir la barrera. Si un día lo abrís, borrá `SOBRE_CERRADO` y anotá `LEISTE_LA_ORDEN`.
 
 ---
 
@@ -385,7 +385,7 @@ Ocampo te sirve mate en un jarro de lata y te mira.
 ### e826 · La señal
 *La Agente · Puesto de control Norte · ◷ 0*
 
-Solo si tenés `LEISTE_LA_ORDEN` o `OCAMPO_Y_LEIVA`, y si estás en el Puesto Norte el día 41 al amanecer (o si tu final te trae acá).
+Solo si tenés `LEISTE_LA_ORDEN`, `OCAMPO_Y_LEIVA` o `SOBRE_CERRADO`, y si estás en el Puesto Norte el día 41 al amanecer (o si tu final te trae acá).
 
 La radio de la garita cruje. Una voz lee un código. Una palabra. Un color.
 
@@ -409,7 +409,7 @@ Anotá las cinco en tu hoja:
 
 | # | Pedido | Destino | Entrada |
 |---|---|---|---|
-| 1 | Remedios de la farmacia | Sra. Peralta, Los Bloques, monoblock C, 3.º B | [e831](#e831) |
+| 1 | Remedios de la farmacia | Sra. Peralta, Los Bloques, monoblock C, 8.º B | [e831](#e831) |
 | 2 | Un sobre de una escribanía | Hotel Imperio, habitación 304, El Casco | [e831](#e831) |
 | 3 | Un muñeco de peluche | Un cumpleaños, Las Lomas | [e831](#e831) |
 | 4 | Un repuesto de motor fuera de borda | Club náutico, La Costanera | [e831](#e831) |
@@ -431,7 +431,7 @@ Cuando llegás al barrio de un pedido, podés hacer la entrega (◷ 1). Tirá 1d
 
 **2 · Habitación 304 (El Casco).** El Hotel Imperio ([e206](#e206)). 1–3: la habitación está vacía y revuelta. En el baño, un hombre de traje, Callado, sentado en el inodoro. **Callado ×1 · Cerca**. El sobre de la escribanía dice «Testamento». 4–6: el hombre está vivo, flaco, encerrado. Firma el remito con letra temblorosa. «Llegó tarde, piba. Pero llegó.» Te da su reloj de oro (vale 3 en un cambio, r166).
 
-**3 · El cumpleaños (Las Lomas).** Una casa con globos desinflados en la puerta y un cartel: «FELICES 6, BENJA». 1–3: la casa está vacía. Dejás el peluche en la puerta. 4–6: hay una familia adentro, con un nene de seis años que no festejó su cumpleaños. Cuando le das el peluche, el nene te abraza. Los padres te dan 3 Víveres y te dejan dormir una noche (r140).
+**3 · El cumpleaños (Las Lomas).** Una casa con globos desinflados en la puerta y un cartel: «FELICES 6, BENJA». 1–3: la casa está vacía. Dejás el peluche en la puerta. 4–6: hay una familia adentro, con un nene de seis años que no festejó su cumpleaños. Cuando le das el peluche, el nene te abraza. Los padres te dan 3 Víveres y te dejan dormir una noche (r158).
 
 **4 · El repuesto (La Costanera).** En el club náutico ([e382](#e382)). 1–3: no hay nadie. Pero con el repuesto, hacer andar la lancha tiene +2. 4–6: hay un viejo marinero cuidando su lancha. Se llama Cacho Barrios y no se fue nunca del club. Con el repuesto, la lancha anda: te la presta para una salida del Éxodo ([e960](#e960)), o te lleva al Puerto ida y vuelta cuando quieras.
 

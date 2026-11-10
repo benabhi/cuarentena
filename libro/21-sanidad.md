@@ -156,8 +156,8 @@ Son **Callados ×3d6**, sentados, quietos. Si nadie hace ruido, no se mueven.
 
 Una ventana del segundo piso de la Clínica San Roque tiene luz. Luz blanca, de quirófano. Con un generador. Y se escucha, bajito, una radio con música clásica.
 
-1. **Subir a ver.** Por la escalera de incendios, `[Físico]`. Adentro, un cirujano opera a un Callado atado a la camilla. Con pinzas, con cuidado, en silencio. «Tiene que haber algo», dice, sin mirarte. «Algo que los mueva. Algo en el cerebro.» Es el doctor Pereyra, y está loco. Te da 2 Fármacos para que te vayas. Una pista ([e560](#e560)). Si lo llevás al refugio (`[Labia]` 10+), es un sobreviviente con Medicina 3, rasgo Frío, que necesita un Callado vivo atado en el sótano. Anotá `EL_DOCTOR_PEREYRA`.
-2. **Seguir.** La luz sigue encendida a la noche, como un faro. Cada noche que la Etapa sea II o más, Sanidad recibe una Procesión.
+1. **Subir a ver.** Por la escalera de incendios, `[Físico]`. Con 6−, la escalera cede y te caés: 1 Herida, y no subís (podés seguir con la opción 2). Con 7–9, llegás, pero el cirujano te oye y te apunta con un bisturí: no hay Fármacos. Con 10+, entrás sin que te oiga. Adentro, un cirujano opera a un Callado atado a la camilla. Con pinzas, con cuidado, en silencio. «Tiene que haber algo», dice, sin mirarte. «Algo que los mueva. Algo en el cerebro.» Es el doctor Pereyra, y está loco. Te da 2 Fármacos para que te vayas (salvo con 7–9). Una pista ([e560](#e560)). Si lo llevás al refugio (`[Labia]` 10+), es un sobreviviente con Medicina 3, rasgo Frío, que necesita un Callado vivo atado en el sótano. Anotá `EL_DOCTOR_PEREYRA`.
+2. **Seguir.** La luz sigue encendida a la noche, como un faro. Anotá `LA_LUZ_DE_SAN_ROQUE`: cada alba de la Etapa II en adelante, si no hay una Procesión en Sanidad, poné una (r155). Se termina si alguien sube a apagar el generador (◷ 1, opción 1, o `EL_DOCTOR_PEREYRA`): borrá la Marca.
 
 ---
 

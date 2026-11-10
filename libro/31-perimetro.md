@@ -95,7 +95,7 @@ El metal está tibio. Vibra.
 - **Si sos el Albañil:** reconocés la soldadura, los perfiles, el número de lote pintado en el contenedor de abajo → [e815](#e815).
 - **Si tenés `GRIETA_EN_EL_MURO`:** ves dónde va a ceder → [e435](#e435).
 - **Cruzar al otro lado:** solo en el modo Éxodo, o si de verdad querés morir → [e436](#e436).
-- **Escuchar.** Te quedás un rato. Con la oreja contra el metal. −1 Ánimo. Pero entendés cuántos son: anotá `ESCUCHASTE_LA_MAREA`. En la Noche 40, sabiendo lo que viene, cada defensor de tu grupo tiene +1 en su primera oleada (alguien les contó).
+- **Escuchar.** Te quedás un rato. Con la oreja contra el metal. −1 Ánimo. Pero entendés cuántos son: anotá `ESCUCHASTE_LA_MAREA`. En la Noche 40, sabiendo lo que viene, cada defensor de tu grupo suma +1 a la defensa de su frente en la primera oleada (alguien les contó).
 
 ---
 
@@ -158,7 +158,7 @@ No es una multitud. Es un paisaje. Hasta el horizonte, en todas las direcciones,
 
 Cuanto más tarde sea, más alta va a ser la rampa.
 
-−1 Ánimo. Anotá `VISTE_LA_MAREA`. Si la carta del día es la 31 o más, la rampa llega a dos metros del borde: anotá `LA_RAMPA`. En la Noche 40, la Marea tiene 1 oleada menos si tenés `LA_RAMPA` y la destruiste ([e435](#e435)).
+−1 Ánimo. Anotá `VISTE_LA_MAREA`. Si la carta del día es la 31 o más, la rampa llega a dos metros del borde: anotá `LA_RAMPA`. En la Noche 40, la Marea tiene 1 oleada menos si tenés `RAMPA_DESTRUIDA` ([e435](#e435)).
 
 ---
 
@@ -171,7 +171,7 @@ Ves el tramo exacto: tres contenedores que se doblan hacia adentro, con las sold
 1. **Avisarle al Destacamento.** Si tenés Reputación 0 o más, refuerzan el tramo: borrá `EL_MURO_CEDIO` si la tenés. +1 Reputación.
 2. **Reforzarlo vos.** 4 Metal, 2 Sujeción, Soldadora y `[Mecánica]` u `[Oficio]`, ◷ 4. Con 7+, anotá `REFORZASTE_EL_MURO`: en la Noche 40, la primera oleada pierde 2 de Fuerza.
 3. **Destruir la rampa.** Si tenés `LA_RAMPA`: hacen falta explosivos (2 Bombas de clavos o la Garrafa trampa) tirados desde la torre. `[Puntería]`. Con 7+, la rampa se derrumba: anotá `RAMPA_DESTRUIDA`. +3 Ruido, y el Destacamento te dispara por las dudas: 1 Herida.
-4. **Desviar su camino.** Si tu refugio está en el camino (El Casco, La Fabril, La Estación), podés intentar que la Marea vaya hacia otro lado: anotá `CONOCES_EL_CAMINO`. En la Noche 40, si dejaste un Señuelo grande (el Recital, la Feria, el faro o la sirena del cuartel) encendido en otro barrio, la Marea tiene 1 oleada menos.
+4. **Desviar su camino.** Si tu refugio está en el camino (la Marea entra por La Fabril y sigue por La Estación hasta El Casco: la Comisaría o la Parroquia), podés intentar que la Marea vaya hacia otro lado: anotá `CONOCES_EL_CAMINO`. En la Noche 40, si dejaste un Señuelo grande (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO` o la sirena del cuartel, `LA_SIRENA`) encendido en otro barrio, la Marea tiene 1 oleada menos.
 
 ---
 

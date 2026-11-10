@@ -74,9 +74,9 @@ Al final de cada ronda, **cada Callado que está Encima** te ataca: tirá 1d6 po
 
 Ese segundo dado es el momento más largo del juego. Tiralo despacio.
 
-**Protección:** la ropa gruesa, los cascos, los chalecos y las armaduras fabricadas **restan 1** a cada dado (con un 6 y protección −1, es un golpe y no hay segundo dado). Ninguna protección resta más de 2. Algunas protegen solo la cabeza o solo los brazos: el objeto lo dice.
+**Protección:** la ropa gruesa, los cascos, los chalecos y las armaduras fabricadas **restan 1** a cada dado (con un 6 y protección −1, es un golpe y no hay segundo dado). Ninguna protección resta más de 2, y dos protecciones de la misma parte del cuerpo (dos cascos, un casco y la careta) no se suman.
 
-Si un compañero está a tu lado, los que están Encima se reparten entre los dos como vos elijas (r148).
+Si hay compañeros a tu lado, los que están Encima se reparten entre ustedes como vos elijas, de a dos por persona como mucho (r148).
 
 <a id="r145"></a>
 ### r145 · Cada disparo trae más
@@ -128,13 +128,13 @@ Los sobrevivientes que te acompañan (r185) actúan después de vos. Cada uno, e
 
 - Comparten las distancias contigo.
 - Los que están Encima se reparten entre todos como elijas, de a dos por persona como mucho.
-- Un compañero tiene **3 casillas de Heridas**. Cuando las llena, cae: si sobrevive al combate, vive Grave; si lo muerden, se infecta (r186).
+- Un compañero tiene **3 casillas de Heridas**. Cuando las llena, cae: si alguien lo saca del combate, vive Grave; si no, muere. Si lo muerden, se infecta (r186).
 
 <a id="r149"></a>
 ### r149 · Escapar y perder
 
 - **Escapar:** si salís del combate (escondiéndote, cambiando de capa o porque los Callados quedaron atrás por una puerta), seguís con tu día. Los Callados se quedan en ese lugar: si volvés, siguen ahí.
-- **Perder:** si caés (r195), el combate termina.
+- **Perder:** si caés Muriendo (r190), el combate termina: te saca un compañero o te arrastrás como puedas hasta un rincón (r190), y los Callados se quedan con lo que dejaste en el piso (1 casillero de la Mochila al azar).
 - **Ganar:** cuando no queda ningún enemigo, el evento te dice qué encontrás. Si no lo dice, revisá el cuerpo del más grande: tirá 1d6, y con 5–6 tiene algo (1 material al azar, r165).
 
 ---
@@ -191,12 +191,13 @@ Corinto no se recorre en casillas. El mapa es un **plano de red**, como el de un
 | Cómo | Tiempo | Ruido | Encuentro al llegar |
 |---|---|---|---|
 | A pie por la Calle | ◷ 1 | +1 | Tabla del barrio (r153) |
-| En vehículo por la Calle | ◷ 1 por cada dos barrios | +2 | Tabla del barrio, con +1 |
-| En bicicleta por la Calle | ◷ 1 | 0 | Tabla del barrio |
+| En vehículo por la Calle | ◷ 1 por cada dos barrios | +2 al llegar (o lo que diga el vehículo, e712) | Tabla del barrio, con +1 |
+| En bicicleta por la Calle | ◷ 1 (la Repartidora: dos barrios, r104) | 0 | Tabla del barrio |
 | Por las Azoteas | ◷ 2 | 0 | Solo con 1 en 1d6 ([e130](#e130)) |
 | Por el Subsuelo | ◷ 1 | 0 | Siempre, en [e110](#e110) |
 
 - **Moverte dentro del barrio** de un lugar a otro no cuesta tiempo.
+- **En grupo**, van todos al paso del más lento: una ventaja para moverse (la bicicleta, los Atajos de la Repartidora) vale solo si todos la tienen.
 - **Volver al refugio** es un viaje como cualquier otro. Si estás en el barrio del refugio, entrás sin gastar tiempo.
 - Si un barrio tiene una **Procesión**, entrar por la Calle te manda a [e100](#e100). Por las Azoteas y el Subsuelo, la esquivás.
 
@@ -251,7 +252,7 @@ Las **Procesiones** son columnas de cientos de Callados que cruzan la ciudad en 
 
 - Entrar por la Calle a un barrio con Procesión → [e100](#e100).
 - Una Procesión en el **barrio de tu refugio** suma +2 a la tirada de sondeo esa noche (r175), y se va al alba siguiente a un barrio vecino al azar.
-- Dos Procesiones que se juntan en un barrio forman una **Procesión doble** (una ficha encima de otra). Las dobles no se mueven por los ruidos chicos: solo por los días de Espadas y por Ruido 6.
+- Dos Procesiones que se juntan en un barrio forman una **Procesión doble** (una ficha encima de otra). Las dobles no se mueven por los ruidos chicos: solo por los días de Espadas y por Ruido 6. No hay triples: si una tercera ficha llega a un barrio con una doble, se queda ahí hasta el alba y después sigue a un barrio vecino al azar.
 
 <a id="r156"></a>
 ### r156 · Desviar una Procesión
@@ -399,7 +400,9 @@ Ocho **materiales** se cuentan en la hoja del refugio:
 | Ropa, cortinas, colchones | 2 Tela |
 | Un arma rota | 1 Metal |
 
-**Desarmar afuera:** en una Vivienda, una Oficina o un Comercio, cuando lo revisás (r161) podés romper los muebles ahí mismo y cargarte la madera: cada persona del grupo se lleva **2 Madera** (1 casillero). Hace ruido: **+1 Ruido**, una vez por lugar. Así se levantan las barricadas en Corinto: con las puertas y las mesas de los que ya no están.
+**El refugio mismo** se desarma una sola vez: sus muebles, puertas de adentro y bancos dan **6 Madera** en total. Tachá la casilla «Desarmado» de la Hoja del refugio. Todo lo demás de la tabla viene de lo que traés de afuera.
+
+**Desarmar afuera:** en una Vivienda, una Oficina o un Comercio, cuando lo revisás (r161) podés romper los muebles ahí mismo y cargarte la madera: vos y cada persona que va con vos se llevan **2 Madera** cada uno (1 casillero). Se puede una vez por lugar, y hace ruido: **+1 Ruido**. Así se levantan las barricadas en Corinto: con las puertas y las mesas de los que ya no están.
 
 <a id="r166"></a>
 ### r166 · Comerciar
@@ -437,16 +440,16 @@ El refugio se defiende por **cuatro frentes**: **Puerta**, **Ventanas**, **Techo
 
 - Cada frente tiene una **Resistencia** de 0 a 10. Es lo que aguanta: tablones, chapas, muebles, ladrillos.
 - Las barricadas (e740) suben la Resistencia; los sondeos (r175), el fuego y los Brutos la bajan.
-- Un frente con **Resistencia 0** está **abierto**: esa noche, el sondeo entra (r175). En la Noche 40, un frente abierto es una brecha (r223).
+- Un frente con **Resistencia 0** está **abierto**: esa noche hay sondeo seguro, a ese frente, sin tirar (r175, [e072](#e072)). En la Noche 40, un frente abierto es una brecha (r223).
 - Algunos refugios tienen frentes que no existen (el Edificio Sarmiento no tiene Subsuelo practicable) o frentes dobles. Su entrada lo dice.
 
 <a id="r172"></a>
 ### r172 · Trampas
 
-Cada frente tiene **2 espacios de trampa**. Las trampas se fabrican (e741) y se colocan en un frente (◷ 1).
+Cada frente tiene **2 espacios de trampa**. Las trampas se fabrican (e741) y después se colocan en un frente: colocar cada una cuesta ◷ 1 aparte de fabricarla.
 
 - En un **sondeo**, la primera trampa del frente atacado lo frena: el sondeo hace 1 daño menos, y la trampa se gasta o no según su receta.
-- En la **Noche 40**, cada trampa suma su valor a la defensa del frente una vez (r221).
+- En la **Noche 40**, cada trampa suma su valor a la defensa del frente una vez (r222).
 - Algunas trampas hacen ruido (+1 Rastro al dispararse). La receta lo dice.
 
 <a id="r173"></a>
@@ -478,7 +481,7 @@ El **Rastro** (0–10) mide cuánto sabe la ciudad de tu refugio: el humo de la 
 |---|---|
 | Volver con Ruido 3+ de un barrio vecino: +1 | Cortinas negras: −1 (una vez) |
 | Disparar en el barrio del refugio: +1 | Silenciar el generador: −1 (una vez) |
-| Cocinar sin chimenea: +1 por noche | Una semana sin salir de noche: −1 |
+| Cocinar sin chimenea: +1 por noche | Siete albas seguidas sin salir de noche: −1 |
 | Prender el generador: +2 (una vez) | Mover la entrada del refugio: −2 (una vez, r176) |
 | Cada 3 sobrevivientes nuevos: +1 | Una Procesión desviada lejos: −1 |
 | Una trampa ruidosa, una pelea en la puerta: +1 | Algunos eventos |
@@ -552,8 +555,8 @@ Cada noche, cada persona del refugio tiene **un puesto**:
 | **Guardia** | Nada | −1 al sondeo (como mucho −2 entre todos). Un guardia no duerme |
 | **Obra** | 1 Madera o 1 Metal | +1 Resistencia a un frente |
 | **Taller** | Instalación Taller | Fabrica una receta de ◷ 2 o menos que conozca alguien del grupo, con los materiales del refugio |
-| **Cocina** | Cocina a leña y 2 Víveres | +1 Moral, y esa alba el grupo come 1 Víver menos en total |
-| **Enfermería** | Instalación Enfermería | Cura 1 Herida a alguien (2 si su Medicina es 2 o más) |
+| **Cocina** | Cocina a leña y 2 Víveres en el refugio (no se gastan: se cocinan para todos) | +1 Moral, y la próxima alba el grupo come 1 Víver menos en total |
+| **Enfermería** | Instalación Enfermería | Cura 1 Herida a alguien (2 si el que hace el puesto tiene Medicina 2 o más) |
 | **Huerta** | Instalación Huerta | +1 Víver (con Supervivencia 2 o más, +2). Como mucho dos personas por noche |
 | **Descanso** | Nada | Recupera 1 Ánimo o 1 Herida Magullado |
 
@@ -657,6 +660,7 @@ Las **Reservas** (0–6) son tu cuerpo: lo que comiste, lo que tomaste.
 - Si pasás la noche afuera, comés de lo que llevás (1 Víver de la Mochila) o perdés 1 Reserva.
 - **Recuperar:** comer 1 Víver extra (◷ 0) recupera 1 Reserva, una vez por día. Una comida caliente recupera 2.
 - **Reservas 0:** Desventaja en todo y 1 Herida cada alba hasta que comas.
+- **Los sobrevivientes** tienen 3 casillas de Reservas en la Hoja del grupo y empiezan llenas. Recuperan como vos. Con 0, no hacen puestos y reciben 1 Herida cada alba hasta que coman.
 
 <a id="r194"></a>
 ### r194 · Ánimo y Quiebre

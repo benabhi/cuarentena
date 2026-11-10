@@ -19,6 +19,10 @@ Si la Procesión es **doble**, todas las pruebas de esta entrada tienen Desventa
 3. **Bajar.** Si el barrio tiene Subsuelo, hay una boca de subte o una tapa a la vista. `[Físico]`, ◷ 1: con 7+, estás abajo y seguís por el Subsuelo; tirá en [e110](#e110). Con 6−, la tapa no se mueve: opción 1 con Desventaja.
 4. **Desviarla** (r156) con un Señuelo o una alarma de auto. Si funciona, la ficha se va a un barrio vecino y vos te quedás.
 5. **Volver por donde viniste.** ◷ 1. Volvés al barrio anterior. Con 1–2 en 1d6, la Procesión te sigue: la ficha se mueve a ese barrio también.
+6. **Mirar.** Desde un zaguán, un techo bajo, un auto volcado: mirás pasar las caras una por una. `[Sigilo]`, ◷ 1.
+   - *10+:* la ves entera y nadie te ve. Si algún evento te pide mirar la Procesión (al Pastor, a alguien que conocés), lo encontrás. Después, pasa: seguís en el barrio, con el Ruido en 0.
+   - *7–9:* lo encontrás, pero te demoraste: opción 1 con Desventaja.
+   - *6−:* no ves nada y te huelen: **Callados ×3d6 · Cerca**, como en la opción 1.
 
 ---
 
@@ -30,7 +34,7 @@ No es una Procesión. Es un río. Pasa por la puerta del refugio desde que sale 
 
 Nadie sale hoy. Nadie habla. Nadie cocina. Hoy no hay horas de luz: se van todas en esperar.
 
-Tirá `[Sigilo]` por el grupo (tu Sigilo, con +1 si tenés Cortinas negras y Desventaja si tenés más de 6 personas o al Negro sin bozal):
+Tirá `[Sigilo]` por el grupo (tu Sigilo, con +1 si tenés Cortinas negras y Desventaja si tenés más de 6 personas o al Negro sin `NEGRO_CON_BOZAL`):
 
 - *10+:* pasa. Al anochecer, la calle está vacía y llena de zapatos. +1 Moral: lo lograron.
 - *7–9:* pasa, pero se lleva algo: tirá 1d6 por cada frente; con 1–2, pierde 1 de Resistencia.
@@ -89,7 +93,7 @@ Un tren de la línea C se quedó en el túnel con las puertas abiertas. Adentro 
 
 El túnel se hunde y el agua sube hasta la cintura. Está fría y quieta, y no se ve el fondo. Algo flota.
 
-- **Cruzar:** ◷ 1, `[Físico]`. Con 10+, cruzás. Con 7–9, cruzás, pero se mojaron 2 casilleros de la Mochila: los Víveres, Fármacos y la Electrónica que había ahí se pierden. Con 6−, perdés pie: 1 Herida y lo mismo que con 7–9. Si la Etapa es III o más, algo te roza la pierna: andá a [e118](#e118).
+- **Cruzar:** ◷ 1, `[Físico]`. Con 10+, cruzás. Con 7–9, cruzás, pero se mojaron 2 casilleros de la Mochila, al azar: los Víveres, Fármacos y la Electrónica que había ahí se pierden. Con 6−, perdés pie: 1 Herida y lo mismo que con 7–9. Si la Etapa es III o más, algo te roza la pierna: andá a [e118](#e118).
 - **Volver.** Volvés al barrio de donde saliste, ◷ 1.
 
 ---
@@ -168,7 +172,7 @@ Tenés que cruzar el andén.
 
 `[Sigilo]`, sin luz (si usás la Linterna, Desventaja). Con 10+, cruzás. Con 7–9, cruzás, pero pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen; podés pelear o correr hasta la salida (`[Físico]`). Con 6−, se despiertan: **Callados ×4d6 · Cerca**. Tu única salida es escapar.
 
-Si cruzás, anotá `EL_NIDO`. Un nido no se mueve: la próxima vez que salga esta entrada, sabés dónde está y lo rodeás (◷ 1 más, sin prueba).
+Si cruzás, anotá `UN_NIDO`. Un nido no se mueve: la próxima vez que salga esta entrada, sabés dónde está y lo rodeás (◷ 1 más, sin prueba).
 
 ---
 
@@ -196,7 +200,7 @@ Alguien estuvo trabajando acá. Alguien que sabía lo que iba a pasar.
 
 - **Revisar los papeles:** una pista ([e560](#e560)). Si ya encontraste el cuarto antes, otra.
 - **La radio militar:** con `[Mecánica]` 10+ la hacés andar un minuto. Escuchás una conversación cifrada y una palabra que se repite: «Pastor». Anotá `PISTA_PASTOR`.
-- **Llevarte el generador chico:** 3 casilleros, 2 horas. Con él, el Generador del refugio ([e760](#e760)) se construye con la mitad de los materiales.
+- **Llevarte el generador chico:** 3 casilleros, ◷ 2. Con él, el Generador del refugio ([e760](#e760)) se construye con la mitad de los materiales.
 
 ---
 
@@ -253,7 +257,7 @@ Un disparo rebota en el tanque de agua al lado de tu cabeza. Desde el edificio d
 
 1. **Cubrirte y mostrar las manos.** «¡Estoy vivo!» `[Labia]`. Con 7+, baja el rifle. Es un viejo que defiende su terraza: te deja pasar y te dice dónde hay una Procesión (r155, poné la ficha). Con 6−, otro disparo: 1 Herida, y te vas.
 2. **Correr al próximo edificio.** `[Físico]`: con 7+, llegás; con 6−, 1 Herida y llegás.
-3. **Devolver el fuego.** Combate contra **Vivo ×1 · Aguante 2 · Lejos**, con arma de fuego. +3 Ruido al barrio de abajo.
+3. **Devolver el fuego** (solo si tenés un arma de fuego). Combate contra **Vivo ×1 · Aguante 2 · Lejos**. +3 Ruido al barrio de abajo.
 
 ---
 
@@ -273,7 +277,7 @@ Si la Etapa es II o más, es un Acechador ([e724](#e724)): **Acechador ×1 · Le
 
 Cuatro chicos con mochilas y una soga, cruzando de un techo a otro igual que vos. Se frenan al verte.
 
-Vivos: usá r300. Si sale Quieren venir con vos, es Facu ([e645](#e645)) si no lo conocés.
+Vivos: usá r300. Si sale Quieren venir con vos, se viene uno solo: Nico, 15 años, el que lleva la soga. Es un sobreviviente sin nombre de la lista (r180) con Físico 2. Los otros tres vuelven con su gente.
 
 ---
 
@@ -316,7 +320,7 @@ Esta noche no hacés puesto. Comés de tu Mochila (1 Víver) o perdés 1 Reserva
 
 El baño de una oficina, de un departamento, de una estación de servicio. Una sola puerta, una traba, un inodoro para sentarse. Dormís a los saltos, con el cuchillo en la mano.
 
-No pasa nada. Al alba recuperás 1 Ánimo si tenés algo para comer.
+No pasa nada. Dormiste algo: al alba recuperás 1 Ánimo.
 
 ---
 
@@ -344,7 +348,7 @@ Un auto con las puertas sanas y las llaves puestas. Te acostás en el asiento de
 
 <a id="e144"></a>
 ### e144 · No estás solo
-*Donde estés · de noche · escena: Pasillo*
+*Donde estés · de noche · escena: Escalera*
 
 La casa parecía vacía. A la medianoche escuchás, en el piso de arriba, pasos que van y vienen, van y vienen.
 
@@ -362,7 +366,7 @@ Entrás a un local con la persiana a medio bajar. Adentro, una linterna te encan
 
 —Quieto —dice alguien—. Esto ya tiene dueño.
 
-Vivos: usá r300, sin tirar postura: es la de Hablar. Si sale Emboscada o Pelea, son tres y vos estás a oscuras: Desventaja en la primera ronda.
+Vivos: usá r300, sin tirar postura: es la de Hablar. Son tres y vos estás a oscuras: si la charla termina en pelea, tenés Desventaja en la primera ronda.
 
 ---
 
@@ -425,7 +429,7 @@ Alguien sentado en la vereda, con la espalda contra una persiana, apretándose u
 —No me mordieron —dice antes de que preguntes—. Me corté con un vidrio. Te juro.
 
 - **Revisarlo** `[Medicina]` (la Enfermera lo sabe sin tirar): con 7+, es verdad, es un corte. Con 6−, no lo sabés.
-- **Curarlo y llevarlo:** 1 Fármacos, ◷ 1. Tirá en la tabla de sobrevivientes (r180): es esa persona. Si no la revisaste, tirá 1d6: con 1, mentía. Anotá `MORDIDO_EN_SECRETO_` y su nombre.
+- **Curarlo y llevarlo:** 1 Fármacos, ◷ 1. Tirá en la tabla de sobrevivientes (r180): es esa persona. Si no la revisaste, o si al revisarla no lo supiste, tirá 1d6: con 1, mentía. Anotá `MORDIDO_EN_SECRETO_` y su nombre.
 - **Dejarle 1 Fármacos e irte.** +1 Ánimo.
 - **Irte.** Te grita algo que no querés escuchar.
 
@@ -462,7 +466,7 @@ El Fresco avanza dos pasos por ronda.
 Uno hinchado como un globo, verde, con la ropa reventada en las costuras, apoyado en un poste de luz en el medio de tu camino. Es un Hinchado ([e722](#e722)).
 
 1. **Rodearlo** por la otra vereda. `[Sigilo]`: con 7+, pasás; con 6−, se da vuelta y camina hacia vos: combate contra **Hinchado ×1 · Cerca**.
-2. **Reventarlo de lejos** (arma a distancia, `[Puntería]`): con 10+, revienta donde está y la bilis no te alcanza, pero +2 Ruido y en 1d6 rondas aparecen **Callados ×1d6** atraídos por el olor. Con 7–9, igual. Con 6−, sigue caminando hacia vos.
+2. **Reventarlo de lejos** (arma a distancia, `[Puntería]`): con 10+, revienta donde está y la bilis no te alcanza, pero +2 Ruido y en 1d6 rondas aparecen **Callados ×1d6** atraídos por el olor. Con 7–9, revienta, pero la bilis te salpica: Desventaja hasta que te bañes (1 Víver de agua), y el Ruido y los Callados vienen igual. Con 6−, sigue caminando hacia vos.
 3. **Volver** al barrio anterior. ◷ 1.
 
 ---
@@ -566,7 +570,7 @@ Policías. O soldados. Con cascos, chalecos, escudos. Caminan en fila, como si t
 
 > **Blindados ×1d3 · Lejos**
 
-Si los matás, revisá los cuerpos: 1d6 Munición y, con 5–6 en 1d6, un Chaleco (protección −1).
+Si los matás, revisá los cuerpos: tirá una vez por cada uno en la tabla de equipo del Blindado ([e729](#e729)).
 
 ---
 

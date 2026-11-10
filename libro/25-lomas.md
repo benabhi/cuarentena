@@ -34,7 +34,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 Casas de dos plantas con techos de tejas, rejas altas, cámaras de seguridad muertas y jardines con el pasto por la rodilla. En los garajes, autos caros con las baterías agotadas.
 
 - **Revisar** (r161), casa por casa. Con un 5 o un 6 en la tabla de Vivienda, además, tirá 1d6: con 6, la casa tiene una caja fuerte. `[Oficio]` o `[Mecánica]` (+1 con Taladro): con 7+, adentro hay joyas (no sirven), un revólver (2 Munición) y, con 4–6 en otro 1d6, 2 Antivirales que alguien compró por si acaso.
-- **Las piletas:** agua de pileta, con cloro. Con Hervir agua ([e748](#e748)), cada visita (◷ 1) da 3 Víveres.
+- **Las piletas:** agua de pileta, con cloro. Con Hervir agua ([e748](#e748)), cada visita (◷ 1) da 3 Víveres, tres veces (▢▢▢): después queda el barro del fondo.
 
 ---
 
@@ -62,7 +62,7 @@ Dieciocho hoyos de pasto alto. Un club house de vidrio y madera con un restauran
 
 - **Revisar** (r161), en el restaurante y los vestuarios.
 - **El galpón de mantenimiento:** palos de golf (Daño 1, Cerca, Usos 3: son mejores de lo que parecen), semillas de pasto que no sirven, y un **carrito eléctrico** con la batería al 30 %: es un vehículo silencioso (no suma Ruido), de 6 casilleros, que anda 3 viajes. Con el Generador del refugio, se recarga. Anotá `CARRITO_DE_GOLF`.
-- **El lago:** agua dulce. Con Hervir agua, 4 Víveres por visita (◷ 1). Hasta la Etapa III: entonces el lago es de los Ahogados.
+- **El lago:** agua dulce. Con Hervir agua, 4 Víveres por visita (◷ 1), tres veces (▢▢▢). Hasta la Etapa III: entonces el lago es de los Ahogados.
 
 ---
 

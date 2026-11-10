@@ -6,7 +6,7 @@
 
 Pasos afuera. Algo prueba la puerta, una ventana, la reja del sótano. La ciudad tantea a ver si hay alguien.
 
-**Qué frente** (1d6): 1–2 Puerta · 3 Ventanas · 4 Techo · 5 Subsuelo · 6 el frente con menos Resistencia.
+**Qué frente** (1d6): 1–2 Puerta · 3 Ventanas · 4 Techo · 5 Subsuelo (si tu refugio no tiene, la Puerta) · 6 el frente con menos Resistencia.
 
 **Qué es** (1d6):
 
@@ -61,7 +61,7 @@ Un golpe que hace temblar las paredes. Otro. El revoque cae del techo. Algo enor
 Es un Bruto ([e726](#e726)).
 
 - El frente pierde **3** de Resistencia, salvo que tenga una trampa de Foso, Alambre o Garrafa (r172): en ese caso pierde 1 y el Bruto se va herido.
-- **Pelearlo desde adentro** (desde una ventana alta, desde el techo): combate contra **Bruto ×1 · Lejos** que no avanza mientras el frente aguante. Cada ronda que siga vivo, el frente pierde 1 más. Si lo matás, +1 Moral y +1 Rastro.
+- **Pelearlo desde adentro** (desde una ventana alta, desde el techo), en lugar de dejar que golpee: combate contra **Bruto ×1 · Lejos** que no avanza mientras el frente aguante. En vez de los 3 de arriba, el frente pierde 1 por cada ronda que siga vivo. Si lo matás, +1 Moral y +1 Rastro.
 
 ---
 
@@ -73,7 +73,7 @@ Un grito. Después de semanas de silencio, un grito largo, agudo, de mujer, fren
 
 Es una Chillona ([e723](#e723)), y está llamando a todos.
 
-- **Matarla rápido:** desde una ventana o una azotea, con un arma a distancia. Combate contra **Chillona ×1 · Lejos**: cada ronda que siga viva, el Rastro sube 1. Si la matás en la primera ronda, el frente pierde solo 1.
+- **Matarla rápido:** desde una ventana o una azotea, con un arma a distancia. Combate contra **Chillona ×1 · Lejos**: cada ronda que siga viva, el Rastro sube 1. Si la matás en la primera ronda, el frente pierde solo 1; si la matás después, pierde 2, como si hubieras esperado, pero el Rastro sube solo lo que ya subió y el grupo duerme.
 - **Esperar:** grita hasta el alba. El frente pierde **2**, el Rastro sube **2** y nadie duerme: −1 Moral.
 
 ---
@@ -98,9 +98,9 @@ Una forma gorda, tambaleante, se apoya contra el frente. Respira (si eso es resp
 
 Es un Hinchado ([e722](#e722)).
 
-- Si lo dejás ahí, al alba revienta contra el frente: el frente pierde **1**, y la bilis atrae Callados: mañana hay sondeo seguro.
+- Si lo dejás ahí, al alba revienta contra el frente: el frente pierde **1**, y la bilis atrae Callados: la noche siguiente hay sondeo seguro.
 - **Matarlo de lejos** desde una ventana alta, con un arma a distancia, antes de que llegue: `[Puntería]`. Con 7+, revienta lejos. Nada. Con 6−, revienta contra el frente.
-- **Empujarlo con una pala** desde el techo. Mala idea. Con 1–3 en 1d6, te salpica: 1 Herida, y Desventaja hasta que te bañes (1 Víver de agua).
+- **Empujarlo con una pala** desde el techo. Mala idea. Con 1–3 en 1d6, te salpica: 1 Herida, y Desventaja hasta que te bañes (1 Víver de agua). Con 4–6, cae lejos y revienta en la vereda: nada.
 
 ---
 
@@ -144,11 +144,11 @@ Si la Moral es 0, en lugar de tirar, andá a [e089](#e089).
 ### e081 · Alguien se va
 *Tu refugio · de noche*
 
-A la mañana falta uno. El sobreviviente con más Ánimo perdido (o uno al azar) se fue de noche, con su mochila y algo del refugio: 1 material al azar y 1 Víver.
+A la mañana falta uno. El sobreviviente con una Necesidad sin cumplir (o, si no hay, uno al azar) se fue de noche, con su mochila y algo del refugio: 1 material al azar y 1 Víver.
 
 Dejó una nota: «No aguanto más. Perdón.»
 
-Anotá `PERDIDO_` y su nombre. Moral −1 (es la regla; ya estaba mal). Si es un Cobarde, no te sorprende. Si es un Valiente, sí: −1 Ánimo.
+Anotá `PERDIDO_` y su nombre. Moral −1 (r182; ya estaba mal). Si es un Cobarde, no te sorprende. Si es un Valiente, sí: −1 Ánimo para vos.
 
 ---
 
@@ -212,9 +212,9 @@ Tu Ánimo vuelve a **2**. Si tenés un arco personal, tu contador baja 1.
 
 Alguien del grupo (Hernán, si está; si no, el más creyente) empieza a hablar en la cena. Que esto es un castigo, que hay que arrepentirse, que la Marea es el Juicio y que a los justos no les va a pasar nada. Al principio nadie lo escucha. Después, algunos sí.
 
-1. **Dejarlo hablar.** +1 Moral (la fe ayuda), pero anotá `LOS_CREYENTES`. Si la Moral vuelve a bajar a 2, los creyentes dejan de hacer Guardia: «Dios nos cuida».
+1. **Dejarlo hablar.** +2 Moral (la fe ayuda), pero anotá `LOS_CREYENTES`. Si la Moral vuelve a bajar a 2, los creyentes dejan de hacer Guardia: «Dios nos cuida».
 2. **Discutirle** `[Labia]`: con 10+, el grupo se ríe y el que hablaba también: +1 Moral. Con 7–9, se calla. Con 6−, se ofende y se lleva a uno: anotá `PERDIDO_` y dos nombres.
-3. **Pedirle que rece por todos.** Juntos. Una vez. +2 Moral. Si tenés `LOS_CREYENTES`, borrala.
+3. **Pedirle que rece por todos.** Juntos, toda la noche: esta noche nadie hace Obra, Taller ni Huerta. +1 Moral. Si tenés `LOS_CREYENTES`, borrala.
 
 ---
 
@@ -225,7 +225,7 @@ Alguien del grupo (Hernán, si está; si no, el más creyente) empieza a hablar 
 Nadie duerme. Todos tienen miedo al mismo tiempo, por razones distintas, y el miedo de uno despierta el del otro. A las cuatro de la mañana alguien prende una vela, después otro, y terminan todos sentados en ronda en el piso.
 
 1. **Contar algo.** Una historia de antes. Lo que harías si esto termina. `[Labia]`: con 7+, +2 Moral y a todos les queda algo. Con 6−, +1 Moral.
-2. **Hacer guardia vos, y que duerman.** Te quedás despierto toda la noche. −1 Ánimo, pero +1 Moral.
+2. **Hacer guardia vos, y que duerman.** Te quedás despierto toda la noche. −1 Ánimo, pero +1 Moral, y contás como un guardia más (−1 al sondeo de esta noche, aunque ya haya dos).
 3. **Nada.** Nadie durmió: mañana, todos (vos incluido) tienen Desventaja en la primera prueba del día.
 
 ---

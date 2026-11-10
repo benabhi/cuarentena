@@ -74,7 +74,7 @@ Pilas de tablones, troncos, aserrín por todas partes. Una sierra de cinta enorm
 
 - **Revisar** (r161), pero en lugar de la tabla de Taller, cada tirada da **1d3 Madera** (1–2: 1, 3–4: 2, 5–6: 3).
 - **Tablones largos:** ◷ 1. Llevate los Tablones (2 casilleros) para cruzar azoteas (r151).
-- **La sierra:** con Generador o con la batería de un auto, `[Mecánica]`: funciona. Mientras funcione, las barricadas de madera que hagas acá cuestan 1 Madera menos. Hace muchísimo ruido: +3 Ruido cada vez que la usás.
+- **La sierra:** 4 casilleros. En el refugio, con Generador o con la batería de un auto, `[Mecánica]`: funciona. Mientras funcione, las barricadas de madera cuestan 1 Madera menos. Hace muchísimo ruido: +1 Rastro cada vez que la usás.
 
 ---
 
@@ -87,7 +87,7 @@ Una estación de servicio con los surtidores apagados, un minimercado saqueado y
 **Tesoro:** si en tu mapa el Camión del Comando o el Blindado están acá (r110) → [e500](#e500) o [e550](#e550).
 
 - **Revisar** (r161). Con un 3 o un 6 en la tabla de Taller, en lugar de lo que diga, ganás 2 Combustible.
-- **Los tanques enterrados:** una bomba de mano, una manguera y un bidón: `[Mecánica]`, ◷ 2. Con 10+, 4 Combustible. Con 7–9, 2. Con 6−, 1 y te mojaste de nafta (Desventaja con fuego cerca hasta que te cambies). Se puede hacer cada vez que vengas.
+- **Los tanques enterrados:** una bomba de mano, una manguera y un bidón: `[Mecánica]`, ◷ 2. Con 10+, 4 Combustible. Con 7–9, 2. Con 6−, 1 y te mojaste de nafta (Desventaja con fuego cerca hasta que te cambies). Los tanques dan para tres veces (▢▢▢): después, la bomba de mano ya no levanta nada.
 - **El que vende nafta:** si no conocés al Ruso, está sentado en su taxi, al lado del surtidor 3, esperando → [e636](#e636).
 
 ---
@@ -136,7 +136,7 @@ Todas las Procesiones de los barrios vecinos se mueven a La Fabril (r156). Tené
 
 Un playón con veinte camiones estacionados en fila. Algunos con la carga intacta: un camión de gaseosas, uno de una cadena de supermercados, uno con bolsas de cemento, uno de una empresa de mudanzas.
 
-Tirá 1d6 para cada camión que revises (◷ 1 cada uno, como mucho tres): **1** vacío; **2** gaseosas (2 Víveres); **3** cemento (sirve para el Tapiado de ladrillos, [e740](#e740), como 2 Metal); **4** mudanza (4 Tela y 2 Madera); **5** supermercado (4 Víveres); **6** hay alguien durmiendo en la cabina: un sobreviviente (r180), o un Callado si sale 1–2 en otro 1d6.
+Tirá 1d6 para cada camión que revises (◷ 1 cada uno, como mucho tres): **1** vacío; **2** gaseosas (2 Víveres); **3** cemento (alcanza para un Tapiado de ladrillos, [e740](#e740)); **4** mudanza (4 Tela y 2 Madera); **5** supermercado (4 Víveres); **6** hay alguien durmiendo en la cabina: un sobreviviente (r180), o un Callado si sale 1–2 en otro 1d6.
 
 ---
 
@@ -147,8 +147,9 @@ Tirá 1d6 para cada camión que revises (◷ 1 cada uno, como mucho tres): **1**
 Una autobomba roja avanza despacio por la avenida, con cuatro bomberos con hachas en el estribo. Paran frente a vos.
 
 - **Si tenés Reputación +2 o más con los Bomberos:** te saludan. Te llevan a donde quieras dentro de La Fabril, el Puerto o la Estación sin tirar encuentro, y te dan 1 Víver de agua.
-- **Si tenés `LOS_BOMBEROS_SABEN` o Reputación 0 o menos:** «Este barrio es de los Bomberos. ¿Tenés para el peaje?» 1 material o 1 Víver, o `[Labia]`: con 7+, te dejan pasar; con 6−, te escoltan fuera de La Fabril (volvés al barrio de donde viniste).
-- **Si tenés Reputación −3:** → [e677](#e677).
+- **Con Reputación +1:** te dejan pasar sin peaje, pero nadie te lleva.
+- **Si tenés `LOS_BOMBEROS_SABEN` o Reputación entre 0 y −2:** «Este barrio es de los Bomberos. ¿Tenés para el peaje?» 1 material o 1 Víver, o `[Labia]`: con 7+, te dejan pasar; con 6−, te escoltan fuera de La Fabril (volvés al barrio de donde viniste).
+- **Con Reputación −3 o menos,** en lugar de todo lo anterior: → [e677](#e677).
 
 ---
 

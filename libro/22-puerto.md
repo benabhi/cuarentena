@@ -73,7 +73,7 @@ Un edificio de piedra con escalinata, de cuando el puerto importaba. Adentro, ga
 
 **Tesoro:** si en tu mapa la Armería del cordón o el Blindado están acá (r110) → [e520](#e520) o [e550](#e550).
 
-- **Revisar** (r161). En cada revisión, con 6 en 1d6 aparte, encontrás cigarrillos: cada atado vale 1 material para cambiar (r166), y a algunos sobrevivientes les sube el Ánimo.
+- **Revisar** (r161). En cada revisión, con 6 en 1d6 aparte, encontrás cigarrillos: cada atado vale 1 material para cambiar (r166), o se reparte en el refugio: +1 Moral, un atado por noche.
 - **El galpón de autos decomisados:** hay una 4×4 importada sin batería. Con una batería de auto (de [e212](#e212) o desarmando otro auto), 1 Combustible y `[Mecánica]`, es tuya: vehículo de 20 casilleros. Anotá `LA_4X4`.
 
 ---
@@ -160,7 +160,7 @@ La barcaza del dique seco puede flotar. Es una caja de acero con un motor diése
 - **El timón:** `[Oficio]`, ◷ 2, 2 Madera y 2 Metal. Con 7+, anotá `BARCAZA_TIMON`.
 - **El combustible:** 6 Combustible cargados en el dique: anotá `BARCAZA_COMBUSTIBLE`.
 
-Con las tres, la barcaza puede salir. En el modo Éxodo, es una salida → [e960](#e960). En el modo Cuarentena, podés usarla en la Noche 40 para sacar a los que no pueden pelear antes de que llegue la Marea: los que suban (hasta 30) cuentan como sobrevivientes al amanecer, pero no defienden.
+Con las tres, la barcaza puede salir. En el modo Éxodo, es una salida → [e960](#e960). En el modo Cuarentena, podés usarla al atardecer del día 40 para sacar a los que no pueden pelear antes de que llegue la Marea. Pueden subir los que no hacen puestos (chicos, viejos, heridos Graves) y, como mucho, la mitad del resto; vos no, porque alguien tiene que manejar la defensa. Los que suben no defienden. Al amanecer, tirá 1d6: con 1–2, una lancha militar la interceptó en el río y no vuelve nadie; con 3–6, la barcaza llegó, y los que iban arriba cuentan como salvados (e940).
 
 ---
 
@@ -187,5 +187,5 @@ Con `EL_FERRY`: en el modo Éxodo, es una salida para todos → [e960](#e960). E
 Hay cuarenta personas en el muelle tres, con valijas, bolsos, chicos dormidos en brazos. Esperan el corredor de evacuación. Un hombre con un megáfono pide orden. Cada vez que alguien tose, todos se apartan.
 
 1. **Esperar con ellos.** ◷ 3. No pasa nada. Al atardecer, por el río, aparece una lancha militar con un reflector. Se acerca. Se detiene a cien metros. Alguien con megáfono pide que se acerquen de a uno «para el control sanitario». → [e576](#e576).
-2. **Avisarles que no va a venir nadie** (si tenés `PROTOCOLO_40`). `[Labia]`. Con 7+, te creen algunos: tirá 1d6, son esos sobrevivientes nuevos que se unen (como un grupo: un puesto por cada dos, 1 Víver por cada uno). +3 Rastro.
+2. **Avisarles que no va a venir nadie** (si tenés `PROTOCOLO_40`). `[Labia]`. Con 7+, te creen algunos: tirá 1d6, son esos sobrevivientes nuevos que se unen como un grupo: anotá `LOS_DEL_MUELLE` y cuántos son. Hacen un puesto por cada dos, comen 1 Víver por cada uno y, en la Noche 40, ponen un defensor con puños por cada dos. +3 Rastro.
 3. **Irte.**

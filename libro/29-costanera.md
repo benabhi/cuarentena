@@ -34,7 +34,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 Dos kilómetros de rambla con baldosas rotas, bancos de cemento y faroles. Los carritos de comida están cerrados con candado, y algunos, abiertos y vacíos. El río golpea contra el murallón.
 
 - **Revisar** (r161), carrito por carrito: con la tabla de Almacén, y un 1 cuenta como una garrafa (2 Combustible, 3 casilleros).
-- **Pescar** en el murallón: con la Caña de pescar ([e748](#e748)), ◷ 2: `[Supervivencia]`. Con 10+, 3 Víveres; con 7–9, 2; con 6−, 1. Si la Etapa es III o más, con 6− no sacás un pescado: **Ahogado ×1 · Cerca** ([e728](#e728)).
+- **Pescar** en el murallón: con la Caña de pescar ([e748](#e748)), ◷ 2: `[Supervivencia]`. Con 10+, 3 Víveres; con 7–9, 2; con 6−, 1. Los peces del murallón alcanzan para cuatro pescas (▢▢▢▢). Si la Etapa es III o más, con 6− no sacás un pescado: **Ahogado ×1 · Cerca** ([e728](#e728)).
 
 ---
 
@@ -75,7 +75,7 @@ Un faro de ladrillo blanco y rojo en la punta de la escollera, con una escalera 
 
 - **Revisar** (r161).
 - **Subir a la lámpara:** ◷ 1. Desde arriba se ve todo Corinto, el río y el muro. Mirá las Procesiones (como [e136](#e136) con un 1).
-- **Encender el faro:** la lámpara funciona con una batería de auto o el Generador. Si la encendés, se ve desde cualquier lado de noche, y del otro lado del río. Tirá 1d6: con 1–3, todas las Procesiones del mapa se mueven un barrio hacia la Costanera (r156); con 4–5, eso y una lancha militar se acerca a mirar con un reflector, y se va (una pista, [e560](#e560)); con 6, del otro lado del río, en la otra ciudad, alguien enciende una luz y la apaga tres veces. No estás solo en el mundo. +2 Moral. Anotá `LA_LUZ_DE_ENFRENTE`.
+- **Encender el faro:** la lámpara funciona con una batería de auto o el Generador. Si la encendés, anotá `EL_FARO_ENCENDIDO`: se ve desde cualquier lado de noche, y del otro lado del río. Solo la primera vez, tirá 1d6: con 1–3, todas las Procesiones del mapa se mueven un barrio hacia la Costanera (r156); con 4–5, eso y una lancha militar se acerca a mirar con un reflector, y se va (una pista, [e560](#e560)); con 6, del otro lado del río, en la otra ciudad, alguien enciende una luz y la apaga tres veces. No estás solo en el mundo. +2 Moral. Anotá `LA_LUZ_DE_ENFRENTE`.
 
 ---
 
@@ -87,7 +87,7 @@ Una vuelta al mundo, una montaña rusa chica, autitos chocadores y un tren fanta
 
 - **Revisar** (r161), en los kioscos y la boletería.
 - **La vuelta al mundo:** es la estructura más alta de la Costanera. Si la hacés girar (con Generador o una batería, `[Mecánica]`), la música de la feria suena en todo el barrio y las luces se encienden. Es la mejor trampa de Corinto: cualquier Procesión que esté a dos barrios o menos viene acá y se queda dando vueltas alrededor durante 1d6 días (r156). +2 Rastro. Anotá `LA_FERIA_ENCENDIDA`.
-- **El tren fantasma:** si entrás (◷ 1), **Callados ×1d6 · Cerca**, escena Túnel (r336). En la salida, alguien escondió una mochila con 3 Antivirales y una nota: «Para mi hijo, si vuelve.»
+- **El tren fantasma:** si entrás (◷ 1), **Callados ×1d6 · Cerca**, escena Túnel (r336). En la salida, la primera vez, alguien escondió una mochila con 3 Antivirales y una nota: «Para mi hijo, si vuelve.» Anotá `EL_TREN_FANTASMA`: la mochila ya no está las otras veces.
 
 ---
 

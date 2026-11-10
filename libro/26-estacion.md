@@ -134,7 +134,7 @@ En el andén 4, una formación con las puertas cerradas. Adentro, golpes. Ciento
 
 1. **Irte rápido.** Con 1–2 en 1d6, el vidrio cede mientras te vas: **Callados ×3d6 · Lejos**.
 2. **Trabar las puertas** con cadenas o alambre (1 Metal, `[Oficio]`): con 7+, el tren queda sellado para siempre. Anotá `EL_TREN_SELLADO`. Con 6−, el vidrio cede con vos al lado: **Callados ×3d6 · Cerca**.
-3. **Usarlo.** Si alguna vez querés una Procesión en otro barrio, el tren es una: abrilo con un Señuelo a tus espaldas y corré. Los Callados salen detrás del señuelo. Pero el tren hay que abrirlo desde cerca.
+3. **Usarlo.** Si alguna vez querés una Procesión en otro barrio, el tren es una: abrilo con un Señuelo a tus espaldas y corré. ◷ 1, una sola vez (anotá `TREN_ABIERTO`): elegí un barrio vecino de La Estación y poné ahí una ficha de Procesión nueva (r155). Pero el tren hay que abrirlo desde cerca: tirá 1d6; con 1–2, los primeros te alcanzan: **Callados ×1d6 · Cerca**.
 
 ---
 

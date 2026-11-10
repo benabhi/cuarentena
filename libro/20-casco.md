@@ -108,7 +108,7 @@ Ocho pisos de un hotel que tuvo tiempos mejores. En el lobby, un piano de cola c
 
 - **Revisar** (r161), habitación por habitación. Cada revisión a fondo: tirá 1d6; con 1, una habitación tiene un huésped: **Callados ×1 · Cerca**, escena Pasillo.
 - **La cocina del hotel:** ◷ 1, una sola vez. Una cámara frigorífica que ya no enfría. Adentro, lo que se pudrió y lo que no: 4 Víveres (latas, harina, aceite).
-- **El piano.** Si tenés a Celeste en el grupo, te pide que lo lleven al refugio. Es imposible. Toca una canción, ahí, en el lobby, bajito. +2 Moral. +2 Ruido.
+- **El piano.** Si tenés a Celeste en el grupo, te pide que lo lleven al refugio. Es imposible. Toca una canción, ahí, en el lobby, bajito. +2 Moral. +2 Ruido. Una vez por Etapa: después le duelen las manos y no quiere.
 
 ---
 
@@ -132,7 +132,7 @@ En la peatonal, un hombre mayor toca el acordeón sentado en un banco. Toca bien
 
 —Mientras toco, no me hacen nada —te dice sin dejar de tocar—. Hace cuatro días que toco. No puedo parar.
 
-1. **Ayudarlo:** alguien tiene que matar a los Callados mientras él toca. **Callados ×2d6 · Lejos**, que no avanzan mientras la música siga (pero si hacés ruido con armas de fuego, avanzan normal). Si los matás a todos, se une al grupo: es un sobreviviente sin Habilidad fuerte, rasgo Optimista, que suma +1 Moral cada noche que toca (y +1 Rastro). Anotá `EL_ORGANILLERO`.
+1. **Ayudarlo:** alguien tiene que matar a los Callados mientras él toca. **Callados ×2d6 · Lejos**, que no avanzan mientras la música siga (pero si hacés ruido con armas de fuego, avanzan normal). Si los matás a todos, se une al grupo: es un sobreviviente sin Habilidad fuerte, rasgo Optimista, que toca una noche por semana, la que elijas: +1 Moral (y +1 Rastro). Anotá `EL_ORGANILLERO`.
 2. **Dejarle 1 Víver y seguir.** Te sonríe sin parar de tocar.
 3. **Seguir.** A la tarde, la música para.
 
@@ -190,7 +190,7 @@ Entre las góndolas vacías, sentado en el piso detrás del mostrador, hay un ch
 2. **Ofrecerle refugio.** Si tenés lugar: `[Labia]` con Ventaja. Con 7+, viene con vos, con todo lo que le queda (revisá a fondo sin gastar tiempo ni stock: tres tiradas de Farmacia). Es un sobreviviente: Medicina 2, rasgo Cobarde, se llama Matías. Anotá `MATIAS_EL_FARMACEUTICO`.
 3. **Quitarle el arma** `[Pelea]`. Con 10+, se la sacás sin que dispare: es tuya (revólver, 3 Munición) y la farmacia también. Con 7–9, igual, pero dispara una vez: 1 Herida a vos o a un compañero. Con 6−, dispara dos: 2 Heridas, y huye por atrás. Si sos la Agente, −1 Deber de todos modos: tenía veinte años.
 
-Si sabés que alguien del pabellón 4 tomaba insulina, y sos la Enfermera, podés preguntarle por la heladera: → [e803](#e803).
+Si sos la Enfermera y tenés `LISTA_DEL_PABELLON` (en la lista, una paciente del pabellón 4 tomaba insulina), podés preguntarle por la heladera: → [e803](#e803).
 
 ---
 

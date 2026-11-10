@@ -7,7 +7,7 @@
 
 **El alba.** Juli roba la carta del día: el **3 de Oros**. Es un día de hallazgo, leve: tira 1d6 en la columna Leve de [e020](#e020) y saca un 4. El evento le dice que el Chino vio humo en el Mercado: alguien cocinó anoche. Después, el grupo come: 4 personas, 4 Víveres. Quedan 1. Hay que salir a buscar comida.
 
-**Las horas de luz.** Juli sale con Pocho. Van por las **Azoteas** hasta El Mercado (◷ 2, sin Ruido, sin encuentro salvo con un 1: sale un 5). Bajan en el **Hipermercado Zeta**. El stock dice ▢▢▢. Juli revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en la tabla de Almacén. Saca 3, 6 y 1: 2 Víveres, 4 Víveres o un Carrito (elige los Víveres) y nada. Seis Víveres: tres casilleros de la Mochila de Juli y nada más, porque Pocho carga el resto.
+**Las horas de luz.** Juli sale con Pocho. Van por las **Azoteas** hasta El Mercado (◷ 2: sola, a Juli le costaría 1, pero Pocho no tiene sus Atajos y el grupo va al paso del más lento; Juli lleva la soga. Sin Ruido, sin encuentro salvo con un 1: sale un 5). Bajan en el **Hipermercado Zeta**. El stock dice ▢▢▢. Juli revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en la tabla de Almacén. Saca 3, 6 y 1: 2 Víveres, 4 Víveres o un Carrito (elige los Víveres) y nada. Seis Víveres: tres casilleros de la Mochila de Juli y nada más, porque Pocho carga el resto.
 
 Le quedan 2 horas. Volver por las Azoteas cuesta 2. Por la Calle, 1, pero suma Ruido y encuentro. Juli no se arriesga: vuelve por arriba. Pinta la marca de búsqueda en el mapa: una X con un 7 arriba, «1» a la izquierda y «nadie» a la derecha.
 
@@ -70,6 +70,7 @@ Anotá las recetas en la hoja del refugio, con su número.
 3. Si la receta pide una **prueba**, tirala. Con 10+, sale bien; con 7–9, sale bien pero gastás 1 material más de los que pide (el que elijas); con 6−, gastás la mitad de los materiales (redondeando hacia abajo) y no sale.
 4. Anotá el resultado: el objeto en tu Mochila o en el refugio, la Resistencia en el frente, la instalación en la hoja.
 
+- **Descuentos:** si algo te deja construir una receta con **la mitad de los materiales** (un generador chico, el patio de la Escuela, Doña Rosa), esos descuentos no se suman: como mucho, la mitad, redondeando hacia arriba.
 - **En el refugio con Taller:** +1 a las pruebas de las recetas.
 - **De noche, el puesto Taller** fabrica una receta de ◷ 2 o menos sin gastar tus horas (r181).
 - **Lejos del refugio** solo podés fabricar recetas que no pidan Taller, con lo que llevás encima.
@@ -115,7 +116,7 @@ Un arma o una protección rota (Usos 0) se repara en el refugio: ◷ 1 y 1 mater
 | Modo | Cambios | Meta |
 |---|---|---|
 | **Cuarentena** | Las reglas como están | Llegar al amanecer del día 41 con el refugio en pie |
-| **Toque de queda** (partida corta) | Sacá del mazo los 1, 2 y 3 de cada palo: 28 cartas. La Etapa sube cada 7 cartas (8, 15 y 22). Empezás con 4 Víveres más | Igual |
+| **Toque de queda** (partida corta) | Sacá del mazo los 1, 2 y 3 de cada palo: 28 cartas. La Etapa sube cada 7 cartas (8, 15 y 22). Empezás con 4 Víveres más. Si un evento nombra una carta por su número, multiplicalo por 0,7 y redondeá (la 11 es la 8; la 15, la 11; la 35, la 25; la 39, la 27; la 40, la 28) | Igual |
 | **Lobo solo** | No podés tener sobrevivientes (los que encuentres te dan lo que tengan y se van). La Marea tiene 2 oleadas menos. La Moral no existe: perdés Ánimo donde se perdería Moral | Llegar vivo al amanecer |
 | **Éxodo** | El refugio es temporal. Las salidas de la ciudad están en [e960](#e960) | Cruzar el perímetro antes de la Noche 40, con al menos un sobreviviente |
 
@@ -126,7 +127,7 @@ Un arma o una protección rota (Usos 0) se repara en el refugio: ◷ 1 y 1 mater
 |---|---|
 | **Vecino** | +6 Víveres al empezar. El Rastro empieza en 0. La Marea tiene 1 oleada menos |
 | **Sobreviviente** | Las reglas como están |
-| **Último en pie** | La Etapa empieza en II (súbela en las cartas 1, 11 y 21, hasta la IV). La Marea tiene 1 oleada más. Sin Antivirales en las tablas de botín (cuentan como 1 Fármacos) |
+| **Último en pie** | La Etapa empieza en II (súbela en las cartas 11 y 21, hasta la IV). La Marea tiene 1 oleada más. Sin Antivirales en las tablas de botín (cuentan como 1 Fármacos) |
 
 <a id="r212"></a>
 ### r212 · La ciudad arde
@@ -180,10 +181,10 @@ La Marea no llega toda junta: llega por **oleadas**, como el agua que sube.
 
 **Defensa de un frente** = su **Resistencia** + sus **trampas** (cada una suma su valor, y se gasta) + sus **defensores**:
 
-- Cada sobreviviente defensor suma el **Daño de su arma** (puños: 1). Si tiene Pelea o Puntería 2 o más, +1.
+- Cada sobreviviente defensor suma el **Daño de su arma** (puños: 1). Si tiene Pelea o Puntería 2 o más, +1. Un grupo que llegó junto (`LOS_VEINTE`, `LOS_DEL_MUELLE`…) pone los defensores que diga su entrada, no uno por persona.
 - **Vos**, si estás en ese frente, hacés una prueba con tu arma: con 10+, sumás el doble de su Daño; con 7–9, su Daño; con 6−, nada y 1 Herida.
 - **Molotov:** cada uno que tires suma 3 (y +1 Rastro, que ya no importa).
-- **Aliados:** una facción con Reputación +3 que vino a ayudarte suma 3 al frente que elijas, todas las oleadas ([e905](#e905)).
+- **Aliados:** una facción que vino a ayudarte hace lo que dice su fila en [e905](#e905).
 
 **Resultado:**
 

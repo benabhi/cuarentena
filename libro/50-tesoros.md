@@ -96,7 +96,7 @@ Para llevártelo → [e511](#e511).
 Pesa dos toneladas. No entra en ninguna mochila.
 
 1. **Remolcarlo.** Con la autobomba, el Blindado, el taxi del Ruso o cualquier vehículo que ande, ◷ 2 hasta tu refugio por la Calle, sin tirar encuentro, pero +4 Ruido al llegar y +2 Rastro.
-2. **Empujarlo.** Cuatro personas o más, de noche (ver r140), ◷ 6. Por la Calle, tirá encuentro dos veces. Si llega, +2 Rastro.
+2. **Empujarlo.** Cuatro personas o más, de noche (ver r158), ◷ 6. Por la Calle, tirá encuentro dos veces. Si llega, +2 Rastro.
 3. **Desarmar lo que sirve.** ◷ 3, `[Mecánica]`. Con 7+, el alternador, el tablero y los cables: 6 Electrónica, 4 Metal y 4 Combustible. Con 6−, la mitad. Ya no es un Tesoro, pero vale +2 Moral cuando llega.
 4. **Dejarlo donde está.** Podés usar tu refugio sin él y venir acá a usarlo: este lugar cuenta como tener **Generador** para recetas que lo pidan, si traés los materiales.
 
@@ -133,7 +133,7 @@ Un contenedor de acero verde oliva, con el número del batallón pintado en blan
 Tirá 1d6:
 
 - **1–2 · La vigila alguien que no se fue.** Un soldado, sentado arriba del contenedor, con el fusil sobre las piernas → [e521](#e521).
-- **3–4 · La vigilan los que se quedaron.** Seis soldados con uniforme, cascos y chalecos, parados alrededor del contenedor como en una guardia. Callados. **Blindados ×1d3** ([e729](#e729)) **y Callados ×1d6 · Lejos**. Si la Etapa es I o II, son todos Callados con casco: el primer golpe de Cerca de cada uno no hace nada.
+- **3–4 · La vigilan los que se quedaron.** Seis soldados con uniforme, cascos y chalecos, parados alrededor del contenedor como en una guardia. Callados. **Blindados ×1d3** ([e729](#e729)) **y Callados ×1d6 · Lejos**. Si la Etapa es I o II, son todos Callados con casco: cada uno necesita 1 Daño más para morir la primera vez que lo golpeás (después, el casco ya se cayó).
 - **5–6 · No la vigila nadie.** Está cerrada. Abrir los candados: `[Mecánica]` u `[Oficio]` con Desventaja (sin Desventaja con Pocho, [e612](#e612), o una herramienta de corte), ◷ 2, +2 Ruido. Con 6−, +2 Ruido más y lo intentás de nuevo.
 
 Adentro → [e522](#e522).
@@ -170,8 +170,8 @@ Tirá **dos veces** en esta tabla (o una sola, si te lo dijo [e521](#e521)):
 |---|---|
 | 1 | 4 fusiles (Daño 3, Lejos, Usos ∞, 2 manos, +2 Ruido por disparo) y 10 Munición |
 | 2 | 2 fusiles y 20 Munición |
-| 3 | 6 chalecos antibala (protección −1, contra mordidas también) y 6 cascos (el primer golpe de cada combate no te hace nada) |
-| 4 | Una caja de granadas de mano: 4 Granadas (r148: Daño 2d6 a todos los de un mismo grupo de Cerca o Lejos, +4 Ruido, de un solo uso) |
+| 3 | 6 chalecos antibala (protección −1, contra mordidas también) y 6 cascos (como el Casco del catálogo, [e710](#e710)) |
+| 4 | Una caja de granadas de mano: 4 Granadas ([e703](#e703): Daño 2d6 a todos los de un mismo grupo de Cerca o Lejos, +4 Ruido, de un solo uso) |
 | 5 | **La ametralladora** → [e523](#e523) |
 | 6 | 30 Munición, 2 fusiles y una caja de bengalas (3 Señuelos de luz, sin ruido) |
 
@@ -189,7 +189,7 @@ Una ametralladora de cinta, negra, con un bípode y una caja de munición enganc
 
 > **Ametralladora** · Daño 4 a todos los Callados de un grupo · Lejos · Usos: 3 Munición por ronda · 6 casilleros · +4 Ruido por ráfaga · Desventaja si no tenés Puntería 2 o más.
 
-Viene con 30 Munición propia, que solo sirve para ella (no cuenta para los fusiles).
+Viene con 30 Munición propia, que solo sirve para ella (no cuenta para los fusiles). Anotá `LA_AMETRALLADORA`. Una oleada de la Noche 40 son dos rondas: por eso ahí gasta 6.
 
 **En el refugio:** podés emplazarla en un frente (◷ 1, no en el Subsuelo): anotá `AMETRALLADORA_EN_` y el frente. En un sondeo a ese frente, el sondeo no hace daño (pero +2 Rastro por los tiros). **En la Noche 40**, mientras le quede munición, ese frente tiene **+4 a la defensa** en cada oleada, y gasta 6 Munición por oleada.
 
@@ -312,7 +312,7 @@ Es una mujer. Tiene un barco pesquero y dos hijos, y desde hace tres semanas cru
 
 —Puedo llevar a seis —dice—. Una sola vez. La noche que me digas. Pero avisame con tiempo, y no me hagas esperar: las lanchas militares no esperan.
 
-Anotá `TIGRE_DOS`. En el modo **Éxodo**, es una salida para 6 desde la escollera ([e960](#e960)). En los otros modos, al amanecer del día 41, si estás vivo y tenés `TIGRE_DOS`, hay un barco esperándote: el final cambia ([e930](#e930)).
+Anotá `TIGRE_DOS`. En el modo **Éxodo**, es una salida para 6 desde la escollera ([e960](#e960)). En los otros modos, si tenés `TIGRE_DOS` y una radio para llamarla la Noche 40 ([e912](#e912)), al amanecer del día 41 hay un barco esperándote: el final cambia ([e930](#e930)).
 
 Si tenés `LA_LUZ_DE_ENFRENTE` ([e384](#e384)), la reconocés: era ella la que encendía la luz. +1 Moral.
 
@@ -328,7 +328,7 @@ Es lo más parecido a un tanque que hay en Corinto.
 
 Tirá 1d6:
 
-- **1–2 · Adentro hay alguien.** La tripulación no se bajó. **Blindados ×1d3 · Encima** ([e729](#e729)), en el espacio cerrado de la cabina: no se puede retroceder, y la primera ronda la ganan ellos.
+- **1–2 · Adentro hay alguien.** La tripulación no se bajó. **Blindados ×1d3 · Encima** ([e729](#e729)), en el espacio cerrado de la cabina: no se puede retroceder, y antes de tu primera ronda, cada uno tira una vez en la tabla de Mordidas (r144), como si atacaran primero.
 - **3–4 · Está vacío y roto.** Lo dejaron por una razón.
 - **5–6 · Está vacío y alguien lo está arreglando.** Una mujer joven con overol, metida debajo del motor. Se llama **Valeria** y es bombera, o lo era ([e642](#e642)), si no la conocés; si no, es una mecánica cualquiera. Vivos: usá r300 (postura Hablar con +1). Si viene con vos, la reparación ([e551](#e551)) tiene +2.
 
@@ -356,8 +356,8 @@ El motor ruge. Todo Corinto lo escucha. No importa: adentro de esto, no importa.
 
 Con `EL_BLINDADO`:
 
-- **Viajar.** Te lleva a cualquier barrio conectado por la Calle, en ◷ 1, sin tirar encuentro, con hasta 8 personas y 30 casilleros de carga. +4 Ruido al llegar. Gasta 1 Combustible por barrio.
+- **Viajar.** Te lleva a cualquier barrio conectado por la Calle, en ◷ 1 (la tabla del barrio, con +1), con hasta 8 personas y 30 casilleros de carga. +4 Ruido al llegar. Gasta 1 Combustible por barrio.
 - **Atropellar.** Contra una Procesión en la Calle: la atravesás. No pelea; la Procesión se dispersa (r156) y vuelve a armarse en otro barrio al azar. +2 Rastro si lo hacés en el barrio del refugio.
 - **En la Noche 40**, estacionado contra un frente (Puerta o Ventanas), ese frente tiene **+3 Resistencia** para toda la noche. O, una vez, podés **cargar** contra una oleada antes de que llegue: la oleada pierde 2d6 de Fuerza, y el blindado queda volcado, fuera de juego.
 - **En el modo Éxodo**, es una salida para 8 → [e960](#e960). Pero el muro no se rompe con un blindado: hay que ir por donde no hay muro.
-- **Si tenés la ametralladora** (`LA_ARMERIA`, [e523](#e523)) y la montás en la torreta (◷ 2, `[Mecánica]`), el blindado pelea: en cualquier combate al lado del blindado, la ametralladora tiene +1 y no gasta Usos la primera ronda.
+- **Si tenés la ametralladora** (`LA_AMETRALLADORA`, [e523](#e523)) y la montás en la torreta (◷ 2, `[Mecánica]`), el blindado pelea: en cualquier combate al lado del blindado, la ametralladora tiene +1 y no gasta Usos la primera ronda.
