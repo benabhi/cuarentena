@@ -1,6 +1,6 @@
 # El catálogo
 
-*Todo lo que se puede agarrar, ponerse, fabricar o temer en Tolme: armas, objetos, las fichas de los infectados, las recetas del taller y los manuales que las enseñan.*
+*Todo lo que se puede agarrar, fabricar o temer en Tolme.*
 
 ---
 
@@ -10,7 +10,7 @@
 ### e700 · Armas de mano
 *Catálogo · Armas*
 
-Silenciosas, o casi. Se rompen. Para pegar hay que estar cerca, y estar cerca es estar al alcance de una boca. Se usan con `[Pelea]` (r143).
+Silenciosas y frágiles: para pegar hay que estar al alcance de una boca. Se usan con `[Pelea]` (r143).
 
 | Arma | Daño | Ruido | Alcance | Usos | Notas |
 |---|---|---|---|---|---|
@@ -42,7 +42,7 @@ Silenciosas, o casi. Se rompen. Para pegar hay que estar cerca, y estar cerca es
 ### e701 · Armas de fuego
 *Catálogo · Armas*
 
-Matan de lejos y de a varios. Gastan 1 Munición por ataque (r205) y avisan a todo el barrio (r145). Se usan con `[Puntería]`. Sin munición son un garrote: Daño 1, Cerca.
+Matan de lejos y avisan a todo el barrio (r145). `[Puntería]`, 1 Munición por ataque (r205); sin munición, garrote: Daño 1, Cerca.
 
 | Arma | Daño | Ruido | Alcance | Manos | Notas |
 |---|---|---|---|---|---|
@@ -62,7 +62,7 @@ Matan de lejos y de a varios. Gastan 1 Munición por ataque (r205) y avisan a to
 ### e702 · Arcos, ballestas y gomeras
 *Catálogo · Armas*
 
-Silenciosas y de lejos: lo que más vale en Tolme. Se usan con `[Puntería]`. Gastan **saetas** (o piedras), que se recuperan: después de un combate que ganaste, recuperás la mitad (r205).
+Silenciosas y de lejos: lo que más vale en Tolme. `[Puntería]`. Gastan **saetas** (o piedras); si ganás el combate, recuperás la mitad (r205).
 
 | Arma | Daño | Ruido | Alcance | Usos | Notas |
 |---|---|---|---|---|---|
@@ -113,7 +113,7 @@ Lo que nadie debería tener en una ciudad.
 ### e709 · Armas con nombre
 *Catálogo · Armas*
 
-Algunas armas de Tolme tienen historia. Aparecen una sola vez.
+Tienen historia. Aparecen una sola vez.
 
 | Arma | Dónde | Qué tiene de especial |
 |---|---|---|
@@ -212,183 +212,148 @@ Un vehículo te lleva rápido, pero todo Tolme lo escucha llegar: al llegar, la 
 
 ## Los infectados
 
-*Copias de las fichas que llenaba la morgue del Central la primera semana, cuando todavía se llenaban fichas. Las observaciones de combate las agregó alguien después, a mano.*
+*Fichas de la morgue del Central, de la primera semana. Las notas de combate las agregó alguien después, a mano.*
 
-Cada ficha dice la **Etapa** en que aparece, el **Aguante** (el Daño para matarlo, r143), su **conducta** y qué hace **en la Noche 40** si llega en una oleada ([e901](#e901)).
-
----
+Cada ficha dice la **Etapa** en que aparece, el **Aguante** (el Daño para matarlo, r143), la conducta y qué hace **en la Noche 40** ([e901](#e901)).
 
 <a id="e720"></a>
 ### e720 · Ficha 720 · Callado
 *Catálogo · Infectados · Etapa I*
 
-> **Aguante:** 1 · **Avance:** 1 paso por ronda · **Vienen:** de a muchos
+> **Aguante** 1 · **Avance** 1 paso · **Vienen** de a muchos
 
-Ojos blancos, boca abierta, sin sonido, con la ropa del día en que se convirtieron: delantales, pijamas, trajes de novia. Siguen el ruido como el agua sigue la pendiente. Sin ruido, se quedan quietos donde estén durante días.
+Ojos blancos, boca abierta, la ropa del día en que cambiaron. Siguen el ruido como el agua sigue la pendiente; sin ruido, se quedan quietos días enteros.
 
-- **Conducta:** todo lo de r140–r145. Si no te oyen, no te buscan. Si te ven, vienen.
-- **Los que fueron alguien:** matar a uno que conocías, −1 Ánimo (r194).
-- **En la Noche 40:** son la Marea.
-
----
+- **Conducta:** r140–r145. Matar a uno que conocías, −1 Ánimo (r194).
+- **Noche 40:** son la Marea.
 
 <a id="e721"></a>
 ### e721 · Ficha 721 · Fresco
 *Catálogo · Infectados · Etapa I*
 
-> **Aguante:** 1 · **Avance:** 2 pasos por ronda · **Vienen:** solos o de a dos
+> **Aguante** 1 · **Avance** 2 pasos · **Vienen** solos o de a dos
 
-Los recién convertidos: todavía tienen color en la cara y las piernas de cuando estaban vivos. Corren, torpes, con los brazos colgando. En la Etapa III, un Fresco quiere decir que alguien acaba de morir cerca.
+Recién convertidos, todavía con color en la cara. Corren torpes; en la Etapa III, uno quiere decir que alguien acaba de morir cerca.
 
-- **Conducta:** de Lejos a Encima en una sola ronda. Pegale primero: si llega, ya llegó.
-- **En la Noche 40:** su oleada tiene +2 de Fuerza.
-
----
+- **Conducta:** de Lejos a Encima en una ronda. Pegale primero.
+- **Noche 40:** +2 de Fuerza a su oleada.
 
 <a id="e722"></a>
 ### e722 · Ficha 722 · Hinchado
 *Catálogo · Infectados · Etapa I*
 
-> **Aguante:** 2 · **Avance:** 1 paso cada dos rondas · **Vienen:** solos
+> **Aguante** 2 · **Avance** 1 paso cada dos rondas · **Vienen** solos
 
-Verde, tirante y brillante, con la ropa reventada en las costuras. Camina como un globo de agua. Huele a lo que es.
+Verde, tirante, con la ropa reventada. Camina como un globo de agua.
 
-- **Conducta:** si muere a **Cerca** o **Encima**, revienta: **+2 Ruido** y **Desventaja** en todo el resto del combate. Encima, además, prueba de Fiebre como un arañazo. El fuego lo hace explotar donde esté.
-- **Cómo:** desde Lejos, o rodearlo: es lento.
-- **En la Noche 40:** si explota contra un frente, el frente pierde 1, pero la oleada pierde 1 de Fuerza.
-
----
+- **Conducta:** si muere a Cerca o Encima, revienta: **+2 Ruido** y Desventaja el resto del combate (Encima, además, prueba de Fiebre como un arañazo). El fuego lo hace explotar. Mejor desde Lejos, o rodearlo.
+- **Noche 40:** si explota contra un frente, el frente pierde 1 y la oleada, 1 de Fuerza.
 
 <a id="e723"></a>
 ### e723 · Ficha 723 · Chillona
 *Catálogo · Infectados · Etapa II*
 
-> **Aguante:** 2 · **Avance:** no avanza · **Vienen:** sola, con Callados
+> **Aguante** 2 · **Avance** no avanza · **Vienen** sola, con Callados
 
-La única que hace ruido. Flaca, de pelo largo, con la boca abierta más de lo que se abre una boca. Cuando te ve, grita: un grito agudo que no respira y se oye a cuatro cuadras.
+La única que hace ruido: un grito agudo, sin respirar, que se oye a cuatro cuadras.
 
-- **Conducta:** cada ronda que siga viva, **+2 Ruido** (r145). Tapándole la boca (`[Pelea]` desde Encima con 10+), se corta.
-- **Cómo:** matarla primero, aunque haya otros más cerca. O irte del barrio.
-- **En la Noche 40:** su oleada y la siguiente tienen +1 de Fuerza.
-
----
+- **Conducta:** cada ronda viva, **+2 Ruido** (r145); tapándole la boca (`[Pelea]` Encima, 10+), se corta. Matala primero o andate del barrio.
+- **Noche 40:** +1 de Fuerza a su oleada y a la siguiente.
 
 <a id="e724"></a>
 ### e724 · Ficha 724 · Acechador
 *Catálogo · Infectados · Etapa II*
 
-> **Aguante:** 2 · **Avance:** de Lejos a Encima de un salto · **Vienen:** solos, en la oscuridad
+> **Aguante** 2 · **Avance** de un salto · **Vienen** solos, en la oscuridad
 
-Los que se quedaron en el subte, los sótanos y las cúpulas: pálidos, dedos largos, en cuclillas durante horas. No salen al sol. Nunca.
+Pálidos, de dedos largos, en cuclillas en el subte y los sótanos. No salen al sol.
 
-- **Conducta:** la primera ronda salta de **Lejos a Encima**; con una Linterna apuntándole, avanza como un Callado.
-- **Cómo:** no ir solo. Encima de vos, tu compañero le pega sin prueba la primera vez (r148).
-- **En la Noche 40:** entra por el **Techo**, aunque la oleada no salga por ahí, salvo que tenga 5 o más.
-
----
+- **Conducta:** la primera ronda salta de Lejos a Encima; con una Linterna apuntándole, avanza como un Callado. Encima de vos, tu compañero le pega sin prueba la primera vez (r148).
+- **Noche 40:** entra por el **Techo**, salvo Techo 5 o más.
 
 <a id="e725"></a>
 ### e725 · Ficha 725 · Sabueso
 *Catálogo · Infectados · Etapa II*
 
-> **Aguante:** 1 cada uno · **Avance:** 2 pasos por ronda · **Vienen:** en jauría
+> **Aguante** 1 cada uno · **Avance** 2 pasos · **Vienen** en jauría
 
-Perros de la calle, de las casas, de la brigada. No se volvieron lentos: siguen oliendo y cazando en grupo. No ladran.
+Perros que siguen oliendo y cazando en grupo. No ladran.
 
-- **Conducta:** Retroceder (r142) no sirve, y Esconderte tiene Desventaja. Con una Herida sin curar, te encuentran.
-- **Cómo:** subir alto o cerrar una puerta. No trepan.
-- **En la Noche 40:** su oleada elige el frente más débil, como con un 6.
-
----
+- **Conducta:** Retroceder no sirve y Esconderte tiene Desventaja; con una Herida sin curar, te encuentran. No trepan: subí alto o cerrá una puerta.
+- **Noche 40:** su oleada va al frente más débil.
 
 <a id="e726"></a>
 ### e726 · Ficha 726 · Bruto
 *Catálogo · Infectados · Etapa III*
 
-> **Aguante:** 4 · **Avance:** 1 paso por ronda · **Vienen:** solos
+> **Aguante** 4 · **Avance** 1 paso · **Vienen** solos
 
-Alguien grande que ahora es enorme: piel violácea, venas como cables, arrastrando una reja o media puerta. No corre. No le hace falta.
+Alguien grande que ahora es enorme, arrastrando media puerta. No corre. No le hace falta.
 
-- **Conducta:** donde hay un Bruto, ninguna puerta cuenta como cerrada (r141). Encima, un 4 o 5 en la tabla de mordidas son 2 Heridas. En un sondeo, el frente pierde 3 ([e075](#e075)).
-- **Cómo:** fuego (1 Daño por ronda en llamas), el Foso de estacas (2 Daño), armas pesadas, o huir.
-- **En la Noche 40:** su oleada hace +3 de daño si entra; el Foso y las Rejas soldadas le hacen la mitad.
-
----
+- **Conducta:** ninguna puerta cuenta como cerrada (r141). Encima, un 4 o 5 en mordidas son 2 Heridas. En un sondeo, el frente pierde 3 ([e075](#e075)). Fuego (1 Daño por ronda), Foso de estacas (2), armas pesadas, o huir.
+- **Noche 40:** +3 de daño si entra; el Foso y las Rejas soldadas le hacen la mitad.
 
 <a id="e727"></a>
 ### e727 · Ficha 727 · Escupidor
 *Catálogo · Infectados · Etapa III*
 
-> **Aguante:** 2 · **Avance:** no avanza · **Vienen:** solos, en alto
+> **Aguante** 2 · **Avance** no avanza · **Vienen** solos, en alto
 
-Cuello hinchado como un sapo, boca negra, en un balcón o un techo. Escupe un chorro verde que agujerea el metal.
+Cuello hinchado de sapo, en un balcón. Escupe un chorro verde que agujerea el metal.
 
-- **Conducta:** desde **Lejos**, cada ronda, con 4–6 en 1d6 te escupe: 1 Herida que la protección no frena, y la protección pierde 1 uso (si es de Usos ∞, deja de servir). A cubierto, solo con 6.
-- **En la Noche 40:** antes de la oleada, su frente pierde 1 y sus trampas pierden 1 de valor.
-
----
+- **Conducta:** desde Lejos, con 4–6 en 1d6 por ronda (a cubierto, solo con 6): 1 Herida que la protección no frena, y la protección pierde 1 uso (la de Usos ∞ deja de servir).
+- **Noche 40:** su frente pierde 1 y sus trampas, 1 de valor.
 
 <a id="e728"></a>
 ### e728 · Ficha 728 · Ahogado
 *Catálogo · Infectados · Etapa III*
 
-> **Aguante:** 2 · **Avance:** 1 paso por ronda, 2 en el agua · **Vienen:** del agua
+> **Aguante** 2 · **Avance** 1 paso, 2 en el agua · **Vienen** del agua
 
-Blancos, hinchados de agua, con algas en el pelo. Debajo del agua no los ves; arriba, ya es tarde.
+Blancos, hinchados, con algas en el pelo. Debajo del agua no los ves.
 
-- **Conducta:** en el agua avanza dos pasos, y Encima te arrastra: en lugar de la tabla de mordidas, `[Físico]`; con 6−, 1 Herida y no atacás esa ronda.
-- **Cómo:** salir del agua. **No trepan.**
-- **En la Noche 40:** solo por el **Subsuelo**. Sin Subsuelo, no aparece.
-
----
+- **Conducta:** Encima te arrastra: en lugar de mordidas, `[Físico]`; con 6−, 1 Herida y no atacás esa ronda. No trepan.
+- **Noche 40:** solo por el Subsuelo.
 
 <a id="e729"></a>
 ### e729 · Ficha 729 · Blindado
 *Catálogo · Infectados · Etapa III*
 
-> **Aguante:** 2 · **Avance:** 1 paso por ronda · **Vienen:** en fila, de a varios
+> **Aguante** 2 · **Avance** 1 paso · **Vienen** en fila
 
-Policías, soldados, guardias y trajes amarillos del Laboratorio, convertidos con el equipo puesto. Caminan en fila, como en un operativo.
+Policías, soldados y trajes amarillos convertidos con el equipo puesto.
 
-- **Conducta:** las armas de mano le hacen 1 Daño menos.
-- **Cómo:** fuego, armas de fuego, o la palanca (Encima, `[Pelea]`, ◷ 0): con 7+, le sacás el casco y deja de ser Blindado.
-- **Muerto,** 1d6: 1–3 un casco; 4–5 un chaleco; 6 un revólver o fusil con 1d6 Munición.
-- **En la Noche 40:** su oleada no pierde Fuerza por las trampas.
-
----
+- **Conducta:** las armas de mano le hacen 1 Daño menos. Con la palanca (Encima, `[Pelea]`, ◷ 0), con 7+ le sacás el casco y deja de ser Blindado. Muerto, 1d6: 1–3 casco; 4–5 chaleco; 6 revólver o fusil con 1d6 Munición.
+- **Noche 40:** las trampas no le restan.
 
 <a id="e730"></a>
 ### e730 · Ficha 730 · La Viuda
 *Catálogo · Infectados · Etapa IV*
 
-> **Aguante:** 6 · **Avance:** de Lejos a Encima de un salto, si la molestás · **Vienen:** sola
+> **Aguante** 6 · **Avance** de un salto, si la molestás · **Vienen** sola
 
-Una mujer sentada en medio de la calle, llorando: el único llanto de persona que queda en la ciudad. En cien metros no hay nada. Los Callados la evitan. Eso debería decirte algo.
+Una mujer sentada en la calle, llorando. Los Callados la evitan. Eso debería decirte algo.
 
-- **Conducta:** si no la molestás, no hace nada. La molestás si la tocás, la iluminás, la atacás o hacés Ruido 2 a menos de una cuadra. Entonces salta **Encima**, y cada ronda tira dos veces en la tabla de mordidas sin que la protección reste.
-- **Cómo:** no la molestes. Si hay que matarla, desde Lejos y de un golpe (Daño 6 en una ronda). Mientras llora, es el lugar más seguro de Tolme.
-- **En la Noche 40:** llora en la vereda. Si alguien sale o hace ruido ahí, combate.
-
----
+- **Conducta:** la molestás si la tocás, la iluminás, la atacás o hacés Ruido 2 a menos de una cuadra. Entonces salta Encima y tira dos veces en mordidas por ronda, sin que la protección reste. Para matarla, Daño 6 en una ronda desde Lejos. Mientras llora, es el lugar más seguro de Tolme.
+- **Noche 40:** llora en la vereda; si alguien sale o hace ruido ahí, combate.
 
 <a id="e731"></a>
 ### e731 · Ficha 731 · El Pastor
 *Catálogo · Infectados · Etapa IV*
 
-> **Aguante:** 5 · **Avance:** el que quiere · **Vienen:** adelante de una Procesión doble
+> **Aguante** 5 · **Avance** el que quiere · **Vienen** adelante de una Procesión doble
 
-Alto, de traje oscuro y corbata floja. Camina erguido, abre puertas con el picaporte, inclina la cabeza para escuchar. Elige. Detrás de él, la Procesión entera gira a la vez.
+De traje y corbata floja, abre puertas con el picaporte e inclina la cabeza para escuchar. Detrás de él, la Procesión gira a la vez.
 
-- **Conducta:** **piensa**. Se queda en Lejos; cada ronda, después de tu acción, elige: los Callados avanzan **dos pasos** o se cubren detrás de él (−1 Daño de las armas de fuego). No muerde.
-- **Cómo:** solo, de lejos, con un tiro limpio (`[Puntería]` con Desventaja salvo fusil, ballesta o rifle; Daño 5 de un golpe) o con un cebo ([e577](#e577)).
-- **Si te ve,** anotá `EL_PASTOR_SABE`: desde ese día, cada Procesión que se mueve va hacia tu refugio si puede.
-- **En la Noche 40:** [e901](#e901); con el Secreto 5, también [e585](#e585).
+- **Conducta:** **piensa**. Se queda en Lejos y, después de tu acción, elige: los Callados avanzan dos pasos o se cubren detrás de él (−1 Daño de las armas de fuego). No muerde. Se lo mata de un tiro limpio (`[Puntería]` con Desventaja salvo fusil, ballesta o rifle; Daño 5) o con un cebo ([e577](#e577)).
+- **Si te ve,** anotá `EL_PASTOR_SABE`: cada Procesión que se mueve va hacia tu refugio si puede.
+- **Noche 40:** [e901](#e901); con el Secreto 5, también [e585](#e585).
 
 ---
 
 ## Las recetas
 
-*Cada receta dice: los **materiales**, las **herramientas** (r202), el **tiempo** (◷), la **prueba** (r204) y qué hace. Las **básicas** las conoce todo el mundo; las demás se aprenden con manuales (e770–e779), gente o lugares (r203).*
+*Cada receta dice los **materiales**, las **herramientas** (r202), el **tiempo** (◷), la **prueba** (r204) y qué hace; si no nombra herramienta o prueba, no hace falta. Las **básicas** las conoce todo el mundo; las demás se aprenden con gente, lugares (r203) o los manuales, que dicen qué recetas enseñan (e771–e779).*
 
 <a id="e740"></a>
 ### e740 · Barricadas
@@ -396,15 +361,15 @@ Alto, de traje oscuro y corbata floja. Camina erguido, abre puertas con el picap
 
 La Resistencia de un frente no pasa de 10. Cada barricada también sirve para **reparar** un frente dañado (r176).
 
-> **Muro de muebles** *(básica)* · Sin materiales · Sin herramientas · ◷ 1 · `[Físico]` · Con 10+, +2 Resistencia; con 7–9, +1 y 1 Herida; con 6−, +1 y −1 Ánimo. Solo una vez por frente.
+> **Muro de muebles** *(básica)* · Sin materiales · ◷ 1 · `[Físico]` · Con 10+, +2 Resistencia; con 7–9, +1 y 1 Herida; con 6−, +1 y −1 Ánimo. Solo una vez por frente.
 >
-> **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra: ◷ 3 en lugar de 2) · ◷ 2 · Sin prueba · +2 Resistencia.
+> **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra: ◷ 3 en lugar de 2) · ◷ 2 · +2 Resistencia.
 >
-> **Chapas atornilladas** · 3 Metal, 2 Sujeción · Taladro (o Martillo, con Desventaja) · ◷ 2 · `[Oficio]` · +3 Resistencia. *Manual de carpintería y obra* ([e772](#e772)).
+> **Chapas atornilladas** · 3 Metal, 2 Sujeción · Taladro (o Martillo, con Desventaja) · ◷ 2 · `[Oficio]` · +3 Resistencia.
 >
-> **Rejas soldadas** · 4 Metal · Soldadora · ◷ 3 · `[Oficio]` (Oficio 2) · +4 Resistencia. Solo en Puerta o Ventanas. Los Brutos le hacen la mitad del daño. *Manual de defensa civil* ([e778](#e778)).
+> **Rejas soldadas** · 4 Metal · Soldadora · ◷ 3 · `[Oficio]` (Oficio 2) · +4 Resistencia. Solo en Puerta o Ventanas. Los Brutos le hacen la mitad del daño.
 >
-> **Tapiado de ladrillos** · Ladrillos o cemento (cuentan como 4 Metal), 2 Metal · Martillo · ◷ 4 · `[Oficio]` (Oficio 2) · +5 Resistencia. El frente ya no se puede usar para entrar ni salir. Con *Ojo de obra* (r102), +1 Resistencia más. *Manual de carpintería y obra* ([e772](#e772)).
+> **Tapiado de ladrillos** · Ladrillos o cemento (cuentan como 4 Metal), 2 Metal · Martillo · ◷ 4 · `[Oficio]` (Oficio 2) · +5 Resistencia. El frente ya no se puede usar para entrar ni salir. Con *Ojo de obra* (r102), +1 Resistencia más.
 
 ---
 
@@ -414,17 +379,17 @@ La Resistencia de un frente no pasa de 10. Cada barricada también sirve para **
 
 Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor**: lo que le resta a un sondeo (1, salvo que diga otra cosa) y lo que suma a la defensa de una oleada en la Noche 40 (r221).
 
-> **Tabla de clavos** *(básica)* · 1 Madera, 1 Sujeción · Martillo · ◷ 1 · Sin prueba · **Valor 1.** Después de un sondeo, con 1–3 en 1d6, se gasta.
+> **Tabla de clavos** *(básica)* · 1 Madera, 1 Sujeción · Martillo · ◷ 1 · **Valor 1.** Después de un sondeo, con 1–3 en 1d6, se gasta.
 >
-> **Campana de latas** *(básica)* · 1 Sujeción · Sin herramientas · ◷ 1 · Sin prueba · **Valor 0**, pero despierta a la Guardia: en un sondeo a ese frente, −1 a la tirada. +1 Rastro cada vez que suena.
+> **Campana de latas** *(básica)* · 1 Sujeción · ◷ 1 · **Valor 0**, pero despierta a la Guardia: en un sondeo a ese frente, −1 a la tirada. +1 Rastro cada vez que suena.
 >
-> **Alambre de púas** · 2 Metal, 1 Sujeción · Martillo · ◷ 1 · `[Oficio]` · **Valor 2.** No se gasta. *Manual de defensa civil* ([e778](#e778)).
+> **Alambre de púas** · 2 Metal, 1 Sujeción · Martillo · ◷ 1 · `[Oficio]` · **Valor 2.** No se gasta.
 >
-> **Foso de estacas** · 3 Madera · Pala o Serrucho · ◷ 3 · `[Físico]` · **Valor 2**, contra un Bruto 4. Solo en Puerta o Subsuelo. *Manual de carpintería y obra* ([e772](#e772)).
+> **Foso de estacas** · 3 Madera · Pala o Serrucho · ◷ 3 · `[Físico]` · **Valor 2**, contra un Bruto 4. Solo en Puerta o Subsuelo.
 >
-> **Pasillo de fuego** · 2 Combustible, 1 Tela · Sin herramientas · ◷ 1 · Sin prueba · **Valor 3**, de un solo uso. +1 Rastro cuando arde. Si el frente tiene Resistencia 2 o menos cuando arde, el fuego le saca 1. *Manual de defensa civil* ([e778](#e778)), o Gauna ([e670](#e670)).
+> **Pasillo de fuego** · 2 Combustible, 1 Tela · ◷ 1 · **Valor 3**, de un solo uso. +1 Rastro cuando arde. Si el frente tiene Resistencia 2 o menos cuando arde, el fuego le saca 1. También se aprende con Gauna ([e670](#e670)).
 >
-> **Garrafa trampa** · Una garrafa, 1 Sujeción, 1 Electrónica · Llave inglesa · ◷ 2 · `[Mecánica]` · **Valor 4**, de un solo uso. +3 Rastro cuando explota. También se puede tirar desde una altura como un explosivo ([e703](#e703)). *Manual de electricidad domiciliaria* ([e775](#e775)).
+> **Garrafa trampa** · Una garrafa, 1 Sujeción, 1 Electrónica · Llave inglesa · ◷ 2 · `[Mecánica]` · **Valor 4**, de un solo uso. +3 Rastro cuando explota. También se puede tirar desde una altura como un explosivo ([e703](#e703)).
 
 ---
 
@@ -432,13 +397,13 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e742 · Armas de mano
 *Catálogo · Recetas*
 
-> **Bate con clavos** *(básica)* · Un bate o un palo, 1 Sujeción · Martillo · ◷ 1 · Sin prueba · Daño 2, Usos 4 ([e700](#e700)).
+> **Bate con clavos** *(básica)* · Un bate o un palo, 1 Sujeción · Martillo · ◷ 1 · Daño 2, Usos 4 ([e700](#e700)).
 >
-> **Lanza de caño** · 1 Metal, 1 Sujeción, un cuchillo · Sin herramientas · ◷ 1 · `[Oficio]` · Daño 2, Usos 6, 2 manos ([e700](#e700)). *El cuaderno de alguien* ([e779](#e779)).
+> **Lanza de caño** · 1 Metal, 1 Sujeción, un cuchillo · ◷ 1 · `[Oficio]` · Daño 2, Usos 6, 2 manos ([e700](#e700)).
 >
-> **Maza de bulón** · 2 Metal, 1 Madera · Llave inglesa o Soldadora · ◷ 2 · `[Oficio]` · Daño 3, Ruido 1, Usos 5. *Manual de mecánica del automotor* ([e773](#e773)).
+> **Maza de bulón** · 2 Metal, 1 Madera · Llave inglesa o Soldadora · ◷ 2 · `[Oficio]` · Daño 3, Ruido 1, Usos 5.
 >
-> **Machete de elástico** · 2 Metal (el elástico de un auto) · Serrucho y una piedra de afilar · ◷ 2 · `[Mecánica]` (Mecánica 1) · Daño 2, Usos 8. *Manual de mecánica del automotor* ([e773](#e773)).
+> **Machete de elástico** · 2 Metal (el elástico de un auto) · Serrucho y una piedra de afilar · ◷ 2 · `[Mecánica]` (Mecánica 1) · Daño 2, Usos 8.
 
 ---
 
@@ -446,13 +411,13 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e743 · Armas a distancia
 *Catálogo · Recetas*
 
-> **Gomera** · 1 Tela (una cámara de bici), 1 Madera · Sin herramientas · ◷ 1 · Sin prueba · Daño 1, Lejos, Usos 6, sin Ruido ([e702](#e702)). *Manual del cazador* ([e777](#e777)).
+> **Gomera** · 1 Tela (una cámara de bici), 1 Madera · ◷ 1 · Daño 1, Lejos, Usos 6, sin Ruido ([e702](#e702)).
 >
-> **Arco de caño** · 1 Metal (caño de PVC), 1 Sujeción (soga) · Serrucho · ◷ 2 · `[Oficio]` · Daño 1, Lejos, Usos 6. *Manual del cazador* ([e777](#e777)).
+> **Arco de caño** · 1 Metal (caño de PVC), 1 Sujeción (soga) · Serrucho · ◷ 2 · `[Oficio]` · Daño 1, Lejos, Usos 6.
 >
-> **Ballesta de resortes** · 2 Metal, 1 Madera, 1 Sujeción · Serrucho, Llave inglesa · ◷ 3 · `[Mecánica]` (Mecánica 1) · Daño 2, Lejos, Usos 8, un disparo cada dos rondas. *Manual del cazador* ([e777](#e777)).
+> **Ballesta de resortes** · 2 Metal, 1 Madera, 1 Sujeción · Serrucho, Llave inglesa · ◷ 3 · `[Mecánica]` (Mecánica 1) · Daño 2, Lejos, Usos 8, un disparo cada dos rondas.
 >
-> **Saetas** · 1 Madera o 1 Metal · Serrucho · ◷ 1 · Sin prueba · 4 saetas. *Manual del cazador* ([e777](#e777)).
+> **Saetas** · 1 Madera o 1 Metal · Serrucho · ◷ 1 · 4 saetas.
 
 ---
 
@@ -460,13 +425,13 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e744 · Fuego y estruendo
 *Catálogo · Recetas*
 
-> **Señuelo de despertador** *(básica)* · 1 Electrónica (o un celular, o un reloj) · Sin herramientas · ◷ 1 · Sin prueba · Un Señuelo ([e711](#e711)).
+> **Señuelo de despertador** *(básica)* · 1 Electrónica (o un celular, o un reloj) · ◷ 1 · Un Señuelo ([e711](#e711)).
 >
-> **Molotov** · 1 Combustible, 1 Químicos (o alcohol), 1 Tela, una botella · Sin herramientas · ◷ 1 · Sin prueba · 2 Molotov ([e703](#e703)). *Química para el secundario* ([e774](#e774)).
+> **Molotov** · 1 Combustible, 1 Químicos (o alcohol), 1 Tela, una botella · ◷ 1 · 2 Molotov ([e703](#e703)).
 >
-> **Bomba de clavos** · 1 Químicos, 1 Metal, 1 Sujeción, 1 Electrónica · Llave inglesa · ◷ 1 · `[Mecánica]` (Mecánica 2) · Una Bomba de clavos ([e703](#e703)). Con 6−, además de perder la mitad de los materiales, 1 Herida. *Química para el secundario* ([e774](#e774)).
+> **Bomba de clavos** · 1 Químicos, 1 Metal, 1 Sujeción, 1 Electrónica · Llave inglesa · ◷ 1 · `[Mecánica]` (Mecánica 2) · Una Bomba de clavos ([e703](#e703)). Con 6−, además de perder la mitad de los materiales, 1 Herida.
 >
-> **Lanzallamas de fumigadora** · Una mochila fumigadora (La Fabril), una garrafa, 2 Metal, 1 Sujeción · Llave inglesa · Taller · ◷ 3 · `[Mecánica]` (Mecánica 2) · Un Lanzallamas ([e704](#e704)). *El cuaderno de alguien* ([e779](#e779)).
+> **Lanzallamas de fumigadora** · Una mochila fumigadora (La Fabril), una garrafa, 2 Metal, 1 Sujeción · Llave inglesa · Taller · ◷ 3 · `[Mecánica]` (Mecánica 2) · Un Lanzallamas ([e704](#e704)).
 
 ---
 
@@ -474,7 +439,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e745 · Munición
 *Catálogo · Recetas*
 
-> **Recarga de cartuchos** · 1 Metal (plomo), 1 Químicos (pólvora) · Kit de recarga · ◷ 1 · `[Mecánica]` · 4 Munición (con 7–9, 3). Sirve para todas las armas de fuego (r205). *Química para el secundario* ([e774](#e774)), o en la Armería Gómez ([e302](#e302)).
+> **Recarga de cartuchos** · 1 Metal (plomo), 1 Químicos (pólvora) · Kit de recarga · ◷ 1 · `[Mecánica]` · 4 Munición (con 7–9, 3). Sirve para todas las armas de fuego (r205). También se aprende en la Armería Gómez ([e302](#e302)).
 
 ---
 
@@ -482,13 +447,13 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e746 · Protección
 *Catálogo · Recetas*
 
-> **Armadura de revistas** *(básica)* · 2 Tela (revistas, diarios, cinta) · Sin herramientas · ◷ 1 · Sin prueba · −1, Usos 3 ([e710](#e710)).
+> **Armadura de revistas** *(básica)* · 2 Tela (revistas, diarios, cinta) · ◷ 1 · −1, Usos 3 ([e710](#e710)).
 >
-> **Brazales de chapa** · 2 Metal, 1 Tela · Martillo · ◷ 1 · `[Oficio]` · −1, Usos 6. *El cuaderno de alguien* ([e779](#e779)).
+> **Brazales de chapa** · 2 Metal, 1 Tela · Martillo · ◷ 1 · `[Oficio]` · −1, Usos 6.
 >
-> **Casco de olla** · 1 Metal (una olla), 1 Tela · Martillo · ◷ 1 · Sin prueba · Un casco, Usos 3. *El cuaderno de alguien* ([e779](#e779)).
+> **Casco de olla** · 1 Metal (una olla), 1 Tela · Martillo · ◷ 1 · Un casco, Usos 3.
 >
-> **Traje de cuero** · 4 Tela (cuero de sillones y camperas), 1 Sujeción · Máquina de coser · ◷ 3 · `[Oficio]` (Oficio 1) · −1, Usos ∞, suma con un casco. *El cuaderno de alguien* ([e779](#e779)).
+> **Traje de cuero** · 4 Tela (cuero de sillones y camperas), 1 Sujeción · Máquina de coser · ◷ 3 · `[Oficio]` (Oficio 1) · −1, Usos ∞, suma con un casco.
 
 ---
 
@@ -496,11 +461,11 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e747 · Medicina
 *Catálogo · Recetas*
 
-> **Vendas hervidas** *(básica)* · 1 Tela, 1 Combustible · Sin herramientas · ◷ 1 · Sin prueba · Valen 1 Fármacos para curar ([e713](#e713)).
+> **Vendas hervidas** *(básica)* · 1 Tela, 1 Combustible · ◷ 1 · Valen 1 Fármacos para curar ([e713](#e713)).
 >
-> **Alcohol destilado** · 2 Víveres (fruta podrida, azúcar, vino) · Olla a presión · ◷ 2 · `[Mecánica]` (Mecánica 1) · 2 Químicos. Limpiar un arañazo con alcohol da +1. *Manual de primeros auxilios del Ejército* ([e771](#e771)) o *Química para el secundario* ([e774](#e774)).
+> **Alcohol destilado** · 2 Víveres (fruta podrida, azúcar, vino) · Olla a presión · ◷ 2 · `[Mecánica]` (Mecánica 1) · 2 Químicos. Limpiar un arañazo con alcohol da +1.
 >
-> **Camilla** · 2 Madera, 2 Tela · Martillo · ◷ 1 · Sin prueba · Dos personas llevan a alguien Muriendo sin que muera en el camino (r190): llega al refugio Grave. 4 casilleros. *Manual de primeros auxilios del Ejército* ([e771](#e771)).
+> **Camilla** · 2 Madera, 2 Tela · Martillo · ◷ 1 · Dos personas llevan a alguien Muriendo sin que muera en el camino (r190): llega al refugio Grave. 4 casilleros.
 
 ---
 
@@ -508,13 +473,13 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e748 · Comida y agua
 *Catálogo · Recetas*
 
-> **Hervir agua** *(básica)* · 1 Combustible (o 2 Madera) · Una olla · ◷ 1 · Sin prueba · Convierte una fuente de agua (una pileta, el río, un tanque) en los Víveres que diga el lugar.
+> **Hervir agua** *(básica)* · 1 Combustible (o 2 Madera) · Una olla · ◷ 1 · Convierte una fuente de agua (una pileta, el río, un tanque) en los Víveres que diga el lugar.
 >
-> **Conservas** · 4 Víveres, 1 Químicos (sal o vinagre) · Olla a presión · ◷ 2 · `[Supervivencia]` (Supervivencia 1) · Esos 4 Víveres no se pudren nunca y ocupan 1 casillero entre todos. *La huerta en el balcón* ([e776](#e776)).
+> **Conservas** · 4 Víveres, 1 Químicos (sal o vinagre) · Olla a presión · ◷ 2 · `[Supervivencia]` (Supervivencia 1) · Esos 4 Víveres no se pudren nunca y ocupan 1 casillero entre todos.
 >
-> **Trampa para palomas** · 1 Sujeción, 1 Madera, 1 Víver de cebo · Sin herramientas · ◷ 1 · Sin prueba · En la azotea o el patio del refugio: cada noche, con 4–6 en 1d6, +1 Víver. *Manual del cazador* ([e777](#e777)).
+> **Trampa para palomas** · 1 Sujeción, 1 Madera, 1 Víver de cebo · ◷ 1 · En la azotea o el patio del refugio: cada noche, con 4–6 en 1d6, +1 Víver.
 >
-> **Caña de pescar** · 1 Madera, 1 Sujeción · Sin herramientas · ◷ 1 · Sin prueba · Para pescar en el Puerto y la Costanera ([e381](#e381)). *Manual del cazador* ([e777](#e777)), o los pescadores.
+> **Caña de pescar** · 1 Madera, 1 Sujeción · ◷ 1 · Para pescar en el Puerto y la Costanera ([e381](#e381)). También se aprende con los pescadores.
 
 ---
 
@@ -522,27 +487,27 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e749 · Equipo
 *Catálogo · Recetas*
 
-> **Palanca de caño** *(básica)* · 1 Metal · Sin herramientas · ◷ 1 · Sin prueba · Una Palanca (r202).
+> **Palanca de caño** *(básica)* · 1 Metal · ◷ 1 · Una Palanca (r202).
 >
-> **Soga trenzada** · 3 Tela · Sin herramientas · ◷ 1 · Sin prueba · Una Soga ([e711](#e711)). *El cuaderno de alguien* ([e779](#e779)), o Los Bloques.
+> **Soga trenzada** · 3 Tela · ◷ 1 · Una Soga ([e711](#e711)). También se aprende en Los Bloques.
 >
-> **Tablones de cruce** · 3 Madera, 1 Sujeción · Martillo · ◷ 1 · Sin prueba · Tablones ([e711](#e711)). *El cuaderno de alguien* ([e779](#e779)).
+> **Tablones de cruce** · 3 Madera, 1 Sujeción · Martillo · ◷ 1 · Tablones ([e711](#e711)).
 >
-> **Linterna de dínamo** · 1 Electrónica, 1 Metal · Sin herramientas · ◷ 1 · `[Mecánica]` (Mecánica 1) · Una Linterna que no necesita pilas. *Manual de electricidad domiciliaria* ([e775](#e775)).
+> **Linterna de dínamo** · 1 Electrónica, 1 Metal · ◷ 1 · `[Mecánica]` (Mecánica 1) · Una Linterna que no necesita pilas.
 >
-> **Mochila reforzada** · 2 Tela, 1 Sujeción · Máquina de coser · ◷ 2 · `[Oficio]` · +4 casilleros. *El cuaderno de alguien* ([e779](#e779)).
+> **Mochila reforzada** · 2 Tela, 1 Sujeción · Máquina de coser · ◷ 2 · `[Oficio]` · +4 casilleros.
 
 ---
 
 ## Las instalaciones
 
-*Una instalación se construye una sola vez, en el refugio (r173). La primera de cada tipo da +1 Moral (r182).*
+*Una instalación se construye una sola vez, en el refugio (r173), y la primera de cada tipo da +1 Moral (r182). Como en las recetas, si no nombra herramienta o prueba, no hace falta.*
 
 <a id="e750"></a>
 ### e750 · Despensa
 *Catálogo · Instalaciones*
 
-> **Despensa** · 3 Madera, 1 Metal · Martillo · ◷ 2 · `[Oficio]` · Los Víveres no se pudren (r177): podés guardar todos los que tengas. *Manual de carpintería y obra* ([e772](#e772)).
+> **Despensa** · 3 Madera, 1 Metal · Martillo · ◷ 2 · `[Oficio]` · Los Víveres no se pudren (r177): podés guardar todos los que tengas.
 
 ---
 
@@ -550,7 +515,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e751 · Cisterna
 *Catálogo · Instalaciones*
 
-> **Cisterna** · 2 Metal, 2 Sujeción, un tanque o tres bidones grandes · Llave inglesa · ◷ 3 · `[Oficio]` · Los días de lluvia (una carta que diga lluvia o tormenta), +2 Víveres. *La huerta en el balcón* ([e776](#e776)).
+> **Cisterna** · 2 Metal, 2 Sujeción, un tanque o tres bidones grandes · Llave inglesa · ◷ 3 · `[Oficio]` · Los días de lluvia (una carta que diga lluvia o tormenta), +2 Víveres.
 
 ---
 
@@ -558,7 +523,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e752 · Huerta
 *Catálogo · Instalaciones*
 
-> **Huerta** · 2 Madera, **semillas**, tierra (bolsas de un vivero, de una plaza, de las macetas de los balcones) · Una pala o un serrucho · ◷ 3 · `[Supervivencia]` · Habilita el puesto Huerta (r181). Necesita un patio, una terraza o una azotea. *La huerta en el balcón* ([e776](#e776)).
+> **Huerta** · 2 Madera, **semillas**, tierra (bolsas de un vivero, de una plaza, de las macetas de los balcones) · Una pala o un serrucho · ◷ 3 · `[Supervivencia]` · Habilita el puesto Huerta (r181). Necesita un patio, una terraza o una azotea.
 
 **Semillas:** del vivero ([e402](#e402); con `SEMILLAS_DEL_VIVERO`, además, la Huerta produce +1 siempre), de una huerta de azotea (`LA_HUERTA_DE_ARRIBA`), de 1 Víver de verdura que no te comés (zapallo, tomate, porotos secos), de Doña Rosa ([e627](#e627)).
 
@@ -568,7 +533,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e753 · Enfermería
 *Catálogo · Instalaciones*
 
-> **Enfermería** · 2 Madera, 2 Tela, 2 Fármacos, un Botiquín · Sin herramientas · ◷ 2 · `[Medicina]` (Medicina 1) · Habilita el puesto Enfermería (r181) y +1 a curar en el refugio. *Manual de primeros auxilios del Ejército* ([e771](#e771)).
+> **Enfermería** · 2 Madera, 2 Tela, 2 Fármacos, un Botiquín · ◷ 2 · `[Medicina]` (Medicina 1) · Habilita el puesto Enfermería (r181) y +1 a curar en el refugio.
 
 ---
 
@@ -576,7 +541,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e754 · Taller
 *Catálogo · Instalaciones*
 
-> **Taller** · 3 Madera, 2 Metal, dos herramientas cualesquiera · Sin herramientas · ◷ 3 · `[Oficio]` · +1 a las pruebas de las recetas en el refugio (r204). Habilita el puesto Taller. Algunas recetas lo exigen. *Manual de carpintería y obra* ([e772](#e772)).
+> **Taller** · 3 Madera, 2 Metal, dos herramientas cualesquiera · ◷ 3 · `[Oficio]` · +1 a las pruebas de las recetas en el refugio (r204). Habilita el puesto Taller. Algunas recetas lo exigen.
 
 ---
 
@@ -584,7 +549,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e755 · Cocina a leña
 *Catálogo · Instalaciones*
 
-> **Cocina a leña** · 2 Metal, 2 Madera · Martillo · ◷ 2 · `[Oficio]` · Habilita el puesto Cocina (r181). Con chimenea (1 Metal más, ◷ 1 más), cocinar no sube el Rastro (r174). *Manual de defensa civil* ([e778](#e778)).
+> **Cocina a leña** · 2 Metal, 2 Madera · Martillo · ◷ 2 · `[Oficio]` · Habilita el puesto Cocina (r181). Con chimenea (1 Metal más, ◷ 1 más), cocinar no sube el Rastro (r174).
 
 ---
 
@@ -592,7 +557,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e756 · Dormitorio
 *Catálogo · Instalaciones*
 
-> **Dormitorio** · 4 Tela, 2 Madera · Martillo · ◷ 2 · Sin prueba · +1 Ánimo a todos al dormir (r194) y +1 Moral al construirlo. *Manual de carpintería y obra* ([e772](#e772)).
+> **Dormitorio** · 4 Tela, 2 Madera · Martillo · ◷ 2 · +1 Ánimo a todos al dormir (r194) y +1 Moral al construirlo.
 
 ---
 
@@ -600,7 +565,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e757 · Cortinas negras
 *Catálogo · Instalaciones*
 
-> **Cortinas negras** · 4 Tela · Máquina de coser (o sin ella, ◷ el doble) · ◷ 2 · Sin prueba · −1 Rastro, una vez (r174). *Manual de defensa civil* ([e778](#e778)).
+> **Cortinas negras** · 4 Tela · Máquina de coser (o sin ella, ◷ el doble) · ◷ 2 · −1 Rastro, una vez (r174).
 
 ---
 
@@ -608,7 +573,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e758 · Vigía
 *Catálogo · Instalaciones*
 
-> **Vigía** · 3 Madera, 1 Sujeción, Soga · Martillo · ◷ 2 · `[Oficio]` · −1 a la tirada de sondeo (r175). Cada alba, ves si hay Procesiones en los barrios vecinos. *Manual de carpintería y obra* ([e772](#e772)).
+> **Vigía** · 3 Madera, 1 Sujeción, Soga · Martillo · ◷ 2 · `[Oficio]` · −1 a la tirada de sondeo (r175). Cada alba, ves si hay Procesiones en los barrios vecinos.
 
 ---
 
@@ -616,7 +581,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e759 · Radio
 *Catálogo · Instalaciones*
 
-> **Radio** · 3 Electrónica, 1 Metal · Generador o una batería de auto · ◷ 2 · `[Mecánica]` (Mecánica 2) · Una vez por día, mirás la próxima carta del mazo (sin sacarla). *Manual de electricidad domiciliaria* ([e775](#e775)).
+> **Radio** · 3 Electrónica, 1 Metal · Generador o una batería de auto · ◷ 2 · `[Mecánica]` (Mecánica 2) · Una vez por día, mirás la próxima carta del mazo (sin sacarla).
 
 ---
 
@@ -624,7 +589,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e760 · Generador
 *Catálogo · Instalaciones*
 
-> **Generador** · 4 Metal, 3 Electrónica, 2 Combustible, un motor (de auto, de moto, de una bomba de agua) · Llave inglesa · ◷ 4 · `[Mecánica]` (Mecánica 2) · Electricidad para el Taladro, la Soldadora, la Radio y lo que haga falta. +2 Rastro el primer día que lo prendés. Gasta 1 Combustible cada noche que lo uses. *Manual de mecánica del automotor* ([e773](#e773)) o *de electricidad domiciliaria* ([e775](#e775)).
+> **Generador** · 4 Metal, 3 Electrónica, 2 Combustible, un motor (de auto, de moto, de una bomba de agua) · Llave inglesa · ◷ 4 · `[Mecánica]` (Mecánica 2) · Electricidad para el Taladro, la Soldadora, la Radio y lo que haga falta. +2 Rastro el primer día que lo prendés. Gasta 1 Combustible cada noche que lo uses.
 
 **Silenciador:** 2 Metal, 1 Tela, ◷ 1, sin prueba. −1 Rastro, una vez (r174). Con él, prender el generador industrial ([e510](#e510)) tampoco suma Rastro.
 
@@ -634,9 +599,9 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 ### e761 · Último Cuarto
 *Catálogo · Instalaciones*
 
-> **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (con *Ojo de obra*, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. *Manual de carpintería y obra* ([e772](#e772)).
+> **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (con *Ojo de obra*, 7). Sin él, el lugar donde se esconden tiene Resistencia 2.
 
-El cuarto más chico, sin ventanas. Nadie quiere entrar ahí. Todos saben que, si las cosas salen mal, es donde van a estar al amanecer.
+El cuarto más chico, sin ventanas. Si las cosas salen mal, ahí van a estar al amanecer.
 
 ---
 
@@ -665,7 +630,7 @@ Una copia repetida son 2 Tela, o +1 Reputación si se la das a la Parroquia o lo
 ### e771 · Manual de primeros auxilios del Ejército
 *Catálogo · Manuales*
 
-Tapa verde y soldados vendando soldados. En la primera página, en birome: «Capítulo 4: torniquetes. LEER».
+Tapa verde. En birome: «Capítulo 4: torniquetes. LEER».
 
 - **Recetas:** Alcohol destilado, Camilla, Enfermería.
 - **Práctica:** 2 casillas de Medicina.
@@ -677,7 +642,7 @@ Tapa verde y soldados vendando soldados. En la primera página, en birome: «Cap
 ### e772 · Manual de carpintería y obra
 *Catálogo · Manuales*
 
-Un manual de la Escuela Técnica, con nudos y encofrados. Huele a aserrín.
+De la Escuela Técnica. Huele a aserrín.
 
 - **Recetas:** Chapas atornilladas, Tapiado de ladrillos, Foso de estacas, Despensa, Taller, Dormitorio, Vigía, Último Cuarto.
 - **Práctica:** 2 casillas de Oficio.
@@ -688,7 +653,7 @@ Un manual de la Escuela Técnica, con nudos y encofrados. Huele a aserrín.
 ### e773 · Manual de mecánica del automotor
 *Catálogo · Manuales*
 
-Grasa en todas las páginas y una tabla de torques subrayada con fibrón.
+Grasa en todas las páginas.
 
 - **Recetas:** Maza de bulón, Machete de elástico, Generador.
 - **Práctica:** 2 casillas de Mecánica.
@@ -700,7 +665,7 @@ Grasa en todas las páginas y una tabla de torques subrayada con fibrón.
 ### e774 · Química para el secundario
 *Catálogo · Manuales*
 
-Un libro de cuarto año, con el capítulo de «Reacciones exotérmicas» marcado en lápiz.
+«Reacciones exotérmicas», marcado en lápiz.
 
 - **Recetas:** Molotov, Bomba de clavos, Recarga de cartuchos, Alcohol destilado.
 - **Práctica:** 1 casilla de Mecánica y 1 de Medicina.
@@ -711,7 +676,7 @@ Un libro de cuarto año, con el capítulo de «Reacciones exotérmicas» marcado
 ### e775 · Manual de electricidad domiciliaria
 *Catálogo · Manuales*
 
-«Hágalo usted mismo», con un señor sonriente de mameluco en la tapa.
+«Hágalo usted mismo», con un señor sonriente en la tapa.
 
 - **Recetas:** Garrafa trampa, Linterna de dínamo, Radio, Generador.
 - **Práctica:** 2 casillas de Mecánica.
@@ -722,7 +687,7 @@ Un libro de cuarto año, con el capítulo de «Reacciones exotérmicas» marcado
 ### e776 · La huerta en el balcón
 *Catálogo · Manuales*
 
-Tomates en macetas y lechugas en cajones de verdura, a todo color.
+Tomates en macetas, a todo color.
 
 - **Recetas:** Huerta, Cisterna, Conservas.
 - **Práctica:** 2 casillas de Supervivencia.
@@ -734,7 +699,7 @@ Tomates en macetas y lechugas en cajones de verdura, a todo color.
 ### e777 · Manual del cazador
 *Catálogo · Manuales*
 
-Una revista de caza y pesca encuadernada, de los ochenta.
+Revistas de caza y pesca de los ochenta, encuadernadas.
 
 - **Recetas:** Gomera, Arco de caño, Ballesta de resortes, Saetas, Trampa para palomas, Caña de pescar.
 - **Práctica:** 1 casilla de Puntería y 1 de Supervivencia.
@@ -745,7 +710,7 @@ Una revista de caza y pesca encuadernada, de los ochenta.
 ### e778 · Manual de defensa civil
 *Catálogo · Manuales*
 
-Un folleto de la Guerra Fría: «Qué hacer en caso de emergencia». Abajo, el sello del Comando. El mismo sello.
+«Qué hacer en caso de emergencia». Abajo, el sello del Comando. El mismo sello.
 
 - **Recetas:** Rejas soldadas, Alambre de púas, Pasillo de fuego, Cocina a leña, Cortinas negras.
 - **Práctica:** 1 casilla de Oficio y 1 de Supervivencia.
@@ -757,7 +722,7 @@ Un folleto de la Guerra Fría: «Qué hacer en caso de emergencia». Abajo, el s
 ### e779 · El cuaderno de alguien
 *Catálogo · Manuales*
 
-Un cuaderno Rivadavia con letra apretada y sangre seca, de alguien que sobrevivió veinte días. La última página: «Mañana voy a buscar a mi vieja al Central».
+Letra apretada y sangre seca. La última página: «Mañana voy a buscar a mi vieja al Central».
 
 - **Recetas:** Lanza de caño, Lanzallamas de fumigadora, Brazales de chapa, Casco de olla, Traje de cuero, Soga trenzada, Tablones de cruce, Mochila reforzada.
 - **Práctica:** 3 casillas donde quieras.

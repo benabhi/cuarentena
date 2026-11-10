@@ -222,9 +222,7 @@ Después, tu epílogo (r198: [e950](#e950)–[e953](#e953), [e956](#e956) o [e95
 ### e941 · Solo
 *El final*
 
-Salís a la calle. Caminás entre los Callados quietos por el medio de la avenida, y ninguno te mira: sos el único ruido que queda. Te sentás en el cordón, en la esquina de tu refugio, y mirás el sol subir sobre Tolme. Cuarenta y un días. No hay nadie a quien contárselo.
-
-Quizás mañana. Quizás alguien, en otra azotea, encienda una luz y la apague tres veces. Hoy, por lo menos, respirás.
+Caminás entre los Callados quietos por el medio de la avenida y ninguno te mira: sos el único ruido que queda. Te sentás en el cordón de tu esquina a ver subir el sol. Cuarenta y un días, y nadie a quien contárselo. Quizás mañana alguien, en otra azotea, prenda una luz y la apague tres veces.
 
 ---
 
@@ -232,9 +230,7 @@ Quizás mañana. Quizás alguien, en otra azotea, encienda una luz y la apague t
 ### e942 · Unos pocos
 *El final*
 
-Salen de a uno, entornando los ojos. Se miran las caras sucias y la ropa con sangre que no es de ellos. Alguien se ríe, una risa corta que se rompe, y se abrazan en el medio de la calle.
-
-Faltan los otros. Van a faltar siempre. Pero son unos pocos, y unos pocos alcanzan para empezar.
+Salen entornando los ojos, con ropa manchada de sangre ajena. Alguien se ríe, una risa que se rompe, y se abrazan en el medio de la calle. Los otros van a faltar siempre. Pero unos pocos alcanzan para empezar.
 
 ---
 
@@ -242,9 +238,7 @@ Faltan los otros. Van a faltar siempre. Pero son unos pocos, y unos pocos alcanz
 ### e943 · El grupo
 *El final*
 
-La Puerta está trabada con cuerpos. Salen por el Techo, pasándose a los chicos de mano en mano. Arriba son muchos, más de los que pensabas: se cuentan y se vuelven a contar, y cada vez alguien llora.
-
-Desde la azotea se ven otras azoteas, con otra gente. Saludan. Durante cuarenta días, Tolme fue una ciudad de gente encerrada. Hoy es una ciudad que se saluda de techo a techo. Alguien propone hacer un asado. Nadie dice que no.
+La Puerta está trabada con cuerpos: salen por el Techo, pasándose a los chicos de mano en mano. Arriba son más de los que pensabas, y desde otras azoteas los saludan. Tolme fue cuarenta días una ciudad de gente encerrada; hoy se saluda de techo a techo. Alguien propone un asado. Nadie dice que no.
 
 ---
 
@@ -252,9 +246,7 @@ Desde la azotea se ven otras azoteas, con otra gente. Saludan. Durante cuarenta 
 ### e944 · La cura
 *El final · con `LA_CURA`*
 
-Seis ampollas de L-40, un litro de sangre de alguien que no se enferma y tres días sin dormir en una cocina. Funcionó: no devuelve a nadie, pero en los recién mordidos apaga la Fiebre. Ahora los vivos de Tolme tienen algo que nadie más en el mundo tiene.
-
-Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscarlo, y esta vez vos ponés las condiciones.
+Seis ampollas de L-40, sangre de alguien que no se enferma y tres días sin dormir en una cocina. No devuelve a nadie, pero en los recién mordidos apaga la Fiebre. Leé esto **además** de tu final: en tu epílogo, el mundo viene a buscarla, y vos ponés las condiciones.
 
 ---
 
@@ -262,9 +254,9 @@ Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscarlo, y 
 ### e945 · La Marea ciega
 *El final · Secreto 5*
 
-**Con `PASTOR_MUERTO`:** a media mañana los Callados se dispersan como hojas, sin rumbo. Sin el que los guiaba, son muertos que siguen el ruido, y en Tolme ya se aprendió a no hacerlo. La Marea no va a volver a juntarse.
+**Con `PASTOR_MUERTO`:** a media mañana los Callados se dispersan sin rumbo, como hojas. La Marea no va a volver a juntarse.
 
-**Si el Pastor sigue vivo:** lo ves en la esquina, de traje, con la corbata floja. Inclina la cabeza, como pensando, y se va hacia el norte, y detrás de él empiezan a salir de todas las calles. Sabe dónde estás. Va a volver.
+**Si el Pastor sigue vivo:** lo ves en la esquina, con la corbata floja. Inclina la cabeza y se va hacia el norte, y detrás de él salen de todas las calles. Sabe dónde estás.
 
 Leé esto **además** de tu final.
 
@@ -274,9 +266,7 @@ Leé esto **además** de tu final.
 ### e946 · Los que se quedaron
 *El final · en lugar de tu final*
 
-Pudiste irte, o casi, y te quedaste con los que no podían: los de fiebre, el que no iba a pasar el control, la que no quería firmar. Tolme sigue cerrada. Pero adentro hay gente que va a arreglar las cañerías, plantar la huerta y abrir la escuela, porque alguien tiene que quedarse.
-
-Los que se quedaron con vos son los salvados de este final: con 4 o más, leé **El grupo** ([e943](#e943)); con menos, **Unos pocos** ([e942](#e942)).
+Pudiste irte y te quedaste con los que no podían: los de fiebre, el que no iba a pasar el control. Tolme sigue cerrada, pero adentro hay gente que va a plantar la huerta y abrir la escuela. Los que se quedaron con vos son los salvados: con 4 o más, **El grupo** ([e943](#e943)); con menos, **Unos pocos** ([e942](#e942)).
 
 ---
 
@@ -284,9 +274,7 @@ Los que se quedaron con vos son los salvados de este final: con 4 o más, leé *
 ### e947 · Ceniza
 *El final · Secreto 2*
 
-El fuego pasó al mediodía y duró hasta la noche, rugiendo sobre tu cabeza como un tren. Cuando salís, Tolme es gris: calles, árboles, Callados. No queda nadie de pie. Salvo ustedes.
-
-Caminan hacia el norte, por el muro abierto, entre contenedores ennegrecidos. Nadie sabe que existen. Eso, de ahora en más, es una ventaja. Leé esto **además** de tu final.
+El fuego rugió sobre tu cabeza del mediodía a la noche. Cuando salís, todo es gris, y no queda nadie de pie salvo ustedes. Caminan hacia el norte por el muro abierto. Nadie sabe que existen, y eso es una ventaja. Leé esto **además** de tu final.
 
 ---
 
@@ -294,9 +282,7 @@ Caminan hacia el norte, por el muro abierto, entre contenedores ennegrecidos. Na
 ### e948 · El mundo sabe
 *El final · Secreto 3*
 
-La mujer de la cámara llora mientras filma. Los de traje amarillo se suben a las camionetas y alguien les grita «¡asesinos!» desde una ventana, y después toda la cuadra. En una semana, el Comando no existe más. En un mes, hay un juicio, y vos llevás los papeles, las fotos y la lista.
-
-Tolme, por primera vez, hace ruido, y el ruido llega lejos. Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
+Los de traje amarillo se suben a las camionetas y toda la cuadra les grita «¡asesinos!». En una semana el Comando no existe; en un mes hay un juicio, y vos llevás los papeles. Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
 
 ---
 
@@ -304,83 +290,76 @@ Tolme, por primera vez, hace ruido, y el ruido llega lejos. Leé esto **en lugar
 ### e949 · Empezar de nuevo
 *El final · Secreto 4*
 
-No viene nadie. Afuera no hay afuera. Entonces, Tolme es el afuera. Contá lo que tenés:
-
-- **Cada instalación** es una pieza de la ciudad nueva.
-- **Cada facción en paz** (Reputación 0 o más) es un barrio que trabaja con el tuyo.
-- **Con `LAS_SEMILLAS_DE_ROSA`**, en primavera hay tomates.
-- **Con `TU_VOZ_EN_LA_RADIO`**, la AM 870 repite tu voz, que dice dónde juntarse.
-
-Con 6 instalaciones o más y paz con tres facciones, Tolme se salva: no como era, como va a ser. Si no, se salvan ustedes, que no es poco. Leé esto **además** de tu final.
+No viene nadie. Entonces, Tolme es el afuera. Cada instalación es una pieza de la ciudad nueva y cada facción en paz (Reputación 0+), un barrio que trabaja con el tuyo. Con `LAS_SEMILLAS_DE_ROSA`, en primavera hay tomates; con `TU_VOZ_EN_LA_RADIO`, la AM 870 repite tu voz. Con 6 instalaciones y paz con tres facciones, Tolme se salva; si no, se salvan ustedes. Leé esto **además** de tu final.
 
 ---
 
 ## Los epílogos
 
-*Leé tu epílogo aunque no hayas llegado al amanecer: entonces es lo que cuentan de vos los que llegaron.*
+*Leé tu epílogo aunque no hayas llegado al amanecer: es lo que cuentan de vos.*
 
 <a id="e950"></a>
 ### e950 · El epílogo de La lista
 *Epílogo · Juramento*
 
-- **0–1.** No volvés a pisar un hospital. La lista está en un cajón que no abrís.
-- **2–3.** Seguís cuidando, en otra ciudad, en el turno noche. En el bolsillo, siempre, una lista de nombres.
-- **4–5.** Abrís una enfermería en la planta baja del Central y enseñás a curar: «Acá no se muere nadie en nuestro turno».
-- **6.** Encontrás a todos los de la lista, vivos y muertos. A los vivos los visitás cada día 0. Les decís que es por el control. Saben que no.
-- **Con `LA_LISTA_SIGUE`**, si no llegaste: alguien la encuentra en tu bolsillo, con una tilde en cada nombre y uno más al final, con otra letra: el tuyo.
+- **0–1.** No volvés a pisar un hospital.
+- **2–3.** Seguís cuidando en otra ciudad, con una lista en el bolsillo.
+- **4–5.** Abrís una enfermería en el Central: «Acá no se muere nadie en nuestro turno».
+- **6.** Cada día 0 visitás a todos los de la lista. Les decís que es por el control.
+- **Con `LA_LISTA_SIGUE`**, si no llegaste: tu lista tiene una tilde en cada nombre y uno más, con otra letra: el tuyo.
 
 <a id="e951"></a>
 ### e951 · El epílogo de La obra
 *Epílogo · Cimientos*
 
-- **0–1.** No volvés a construir nada. Cada pared que tocás vibra como el muro.
-- **2–3.** Afuera te pagan un silencio. Lo donás entero, con otro nombre, a los sobrevivientes de Tolme.
-- **4–5.** Reconstruís la escuela, el hospital, Los Bloques: paredes que no son para encerrar a nadie.
-- **6.** Desarmás el muro, contenedor por contenedor. El del tramo siete lo pintan de colores y lo ponen en la plaza: «Para que no se olvide».
-- **Con `TRAMO_NUEVE_SOLDADO`:** los de afuera no pueden abrir el tramo nueve y tienen que entrar por la puerta, a la vista de todos.
+- **0–1.** No volvés a construir nada.
+- **2–3.** Donás con otro nombre lo que te pagan por callar.
+- **4–5.** Reconstruís la escuela y Los Bloques: paredes que no encierran a nadie.
+- **6.** Desarmás el muro. El tramo siete, pintado, queda en la plaza: «Para que no se olvide».
+- **Con `TRAMO_NUEVE_SOLDADO`:** los de afuera tienen que entrar por la puerta, a la vista de todos.
 
 <a id="e952"></a>
 ### e952 · El epílogo de La orden
 *Epílogo · Deber*
 
-- **0–1.** Te vas lejos. Algunas noches sacás el sobre del cajón y lo mirás.
-- **2–3.** Declarás lo del día 2, lo de la nena, lo del sobre. Te dan las gracias en un papel con el mismo sello rojo.
-- **4–5.** Con un brazalete y un silbato, sos la autoridad de alguien que estuvo ahí. Cuando hay un problema, te llaman.
-- **6.** El día 41 levantás la barrera del Puesto Norte: «pasen, no corran, pasen». La foto está en todos lados.
-- **Con `SIN_ORDEN`:** el sobre roto en ocho pedazos termina, años después, en un museo.
+- **0–1.** Te vas lejos con el sobre en un cajón.
+- **2–3.** Declarás. Te agradecen en un papel con el mismo sello rojo.
+- **4–5.** Con un silbato y un brazalete, sos a quien llaman cuando hay un problema.
+- **6.** El día 41 levantás la barrera del Puesto Norte. La foto está en todos lados.
+- **Con `SIN_ORDEN`:** el sobre roto termina en un museo.
 
 <a id="e953"></a>
 ### e953 · El epílogo de El pedido
 *Epílogo · Ruta*
 
-- **0–1.** Tirás la caja al río desde el puente. Da igual si la abriste.
-- **2–3.** Cada vez que nadie atiende un timbre, esperás un minuto de más. Sabés por qué.
-- **4–5.** Armás la primera red de mensajería entre barrios: pibes en bicicleta que llevan remedios y noticias de techo a techo.
-- **6.** Completás la tanda. Una mañana, el celular sin señal se prende solo: «¡Gracias por tu entrega! ★★★★★». Nadie te cree.
-- **Si la caja sigue en tu mochila:** la tenés en un estante. «Ese es mi último pedido.»
+- **0–1.** Tirás la caja al río desde el puente.
+- **2–3.** Cuando nadie atiende un timbre, esperás un minuto de más.
+- **4–5.** Armás una red de pibes en bicicleta que llevan remedios de techo a techo.
+- **6.** Un día el celular sin señal se prende: «¡Gracias por tu entrega! ★★★★★».
+- **Si la caja sigue en tu mochila:** está en un estante. «Ese es mi último pedido.»
 
 <a id="e956"></a>
 ### e956 · El epílogo de El que falta
 *Epílogo · Esperanza*
 
-- **0–1.** Dejás de buscar porque ya no podés. Cada tanto ves una campera parecida y te das vuelta. Nunca es.
-- **2–3.** Buscás de a ratos en las listas y las paredes. Un día dejás de ir. Un día volvés.
-- **4–5.** Abrís en la Municipalidad una oficina de «Personas buscadas». Encontrás a muchos. A algunos, vivos.
-- **6.** Lo encontraste, o supiste qué le pasó. Pintás su nombre en la pared del refugio y, abajo, los de todos los que encontraste buscándolo.
-- **Si está entre los salvados:** del otro lado del muro, no te suelta la mano hasta el primer pueblo.
-- **Con `TE_ESPERA_AFUERA`:** en el Puesto Norte hay alguien con un cartel de cartón con tu nombre.
-- **Con `LO_DESPEDISTE`:** lo enterrás en el Parque. Cada día 0 vas y le contás cómo está todo.
+- **0–1.** Dejás de buscar. Cada campera parecida te da vuelta la cabeza.
+- **2–3.** Buscás de a ratos. Un día dejás de ir; otro día volvés.
+- **4–5.** Abrís una oficina de «Personas buscadas». Encontrás a muchos.
+- **6.** Pintás su nombre en la pared del refugio, y abajo, los de los que encontraste buscándolo.
+- **Si está entre los salvados:** no te suelta la mano hasta el primer pueblo.
+- **Con `TE_ESPERA_AFUERA`:** en el Puesto Norte, alguien tiene un cartel con tu nombre.
+- **Con `LO_DESPEDISTE`:** cada día 0 vas al Parque y le contás cómo está todo.
 
 <a id="e957"></a>
 ### e957 · El epílogo de Lo que hiciste
 *Epílogo · Culpa (cuanto más baja, mejor)*
 
-- **6.** No se lo contás a nadie. Algunas noches te despertás con la mano en la traba.
-- **4–5.** Se lo contás, años después, a un desconocido en un bar. Esa noche dormís un poco mejor.
-- **2–3.** Hacés todos los días una cosa chica por alguien que no conocés. No alcanza. Lo hacés igual.
-- **0–1.** Volvés, contás lo que hiciste con nombre y apellido y pagás, de a poco, durante años.
-- **Con `TE_PERDONASTE`:** la última noche contás lo que hiciste antes de la cuarentena. No te tiembla la voz.
-- **Con `LO_NEGASTE`:** quien lo sabía lo cuenta en una entrevista, años después. No dice tu nombre. No hace falta.
+- **6.** No se lo contás a nadie, y dormís con la mano en la traba.
+- **4–5.** Se lo contás a un desconocido en un bar. Esa noche dormís mejor.
+- **2–3.** Hacés cada día algo chico por un desconocido. No alcanza. Lo hacés igual.
+- **0–1.** Lo confesás con nombre y apellido y pagás, de a poco, durante años.
+- **Con `TE_PERDONASTE`:** lo contás la última noche, sin que te tiemble la voz.
+- **Con `LO_NEGASTE`:** quien lo sabía lo cuenta años después, sin tu nombre.
 
 ---
 
@@ -388,104 +367,51 @@ Con 6 instalaciones o más y paz con tres facciones, Tolme se salva: no como era
 ### e954 · Lo que fue de los tuyos
 *Epílogo · El grupo*
 
-Por cada sobreviviente con nombre entre los salvados, una línea:
+Una línea por cada sobreviviente con nombre entre los salvados:
 
-- **Don Ernesto** maneja la primera locomotora que sale de Tolme con pasajeros.
-- **Lucía** abre la Escuela N.º 9 el primer lunes; con `LOS_TRES_ALUMNOS`, tres se sientan adelante, como siempre.
-- **El Chino Morales** pone una parrilla en la esquina y nunca cobra a los de la Noche 40.
-- **Ana y Bruno** crecen; Bruno se hace bombero. Con `BRUNO_LO_HIZO`, tarda años y se hace enfermero. Con `BRUNO_LO_VIO`, solo habla de esa noche con Ana.
-- **Pocho** tiene una sola llave, la de la casa de Daiana; con `EL_HIJO_DE_POCHO`, Thiago aprende a caminar agarrado de su dedo.
+- **Don Ernesto** maneja el primer tren que sale de Tolme.
+- **Lucía** abre la Escuela N.º 9; con `LOS_TRES_ALUMNOS`, tres se sientan adelante.
+- **El Chino** nunca cobra el asado a los de la Noche 40.
+- **Bruno** se hace bombero (enfermero, con `BRUNO_LO_HIZO`; con `BRUNO_LO_VIO`, solo habla de esa noche con Ana).
+- **Pocho** tiene una sola llave; con `EL_HIJO_DE_POCHO`, Thiago camina agarrado de su dedo.
 - **Rita** vuelve a curar perros.
-- **Gustavo** lleva las cuentas de la ciudad nueva, con una columna más: «Días desde la Noche 40».
-- **La Tana** va a Las Lomas y no cuenta qué pasó; con `ROLO_MUERTO`, se queda y se anota en cada guardia.
-- **Mateo** termina la tesis ante un tribunal que no sabe qué decir.
-- **Doña Rosa** planta las semillas. El tomate de Aurelio da tomates.
-- **Iván** duerme ocho horas. Todas las noches.
-- **Celeste** canta los viernes en un bar del Puerto y siempre termina con «Volver».
-- **El Ruso**, si volvió, maneja un taxi nuevo y cuenta la última carrera, cada vez más larga.
+- **Gustavo** suma una columna: «Días desde la Noche 40».
+- **La Tana** va a Las Lomas; con `ROLO_MUERTO`, se queda y hace todas las guardias.
+- **Mateo** termina la tesis.
+- **Doña Rosa** cosecha los tomates de Aurelio.
+- **Iván** duerme ocho horas.
+- **Celeste** canta los viernes en el Puerto y termina con «Volver».
+- **El Ruso** cuenta la última carrera, cada vez más larga.
 - **Hernán** predica sobre los que abrieron la puerta.
-- **Valeria** vuelve a ponerse el casco. Gauna se lo da en la mano.
-- **Facu** sale a la calle todos los días, a veces solo para mirar el cielo.
-- **La doctora Ríos** declara. Lo que le pase lo decide alguien que no estuvo en Tolme.
-- **El Negro** duerme al pie de tu cama y levanta una oreja cuando golpean.
+- **Valeria** recibe el casco de manos de Gauna.
+- **Facu** sale todos los días a mirar el cielo.
+- **La doctora Ríos** declara.
+- **El Negro** duerme al pie de tu cama.
 
-Y los que no tienen ficha, pero estuvieron:
+Y los que no tienen ficha:
 
-- **Matías** (`MATIAS_EL_FARMACEUTICO`) reabre la Farmacia Central; le tiembla el pulso con la campanita.
-- **El camillero** (`EL_CAMILLERO`) vuelve al Central sin turno, y se queda igual.
-- **El doctor Pereyra** (`EL_DOCTOR_PEREYRA`) publica sus notas y nunca dice qué hizo con el del sótano.
-- **El jardinero** (`EL_JARDINERO`) planta pasto en la plaza del Casco. Nadie lo pisa.
-- **El organillero** (`EL_ORGANILLERO`) toca los domingos en tu esquina las canciones de la cuarentena.
-- **El que estaba preso** (`EL_PRESO`) se presenta el día 42 en una comisaría vacía y se va a su casa.
-- **El desertor** (`DESERTOR_DEL_CORDON`) entierra el uniforme en el Parque.
-- **Los del balcón** (`LOS_DEL_BALCON`) juegan al truco; hacen trampa los tres.
-- **Los del velero** (`LOS_DEL_VELERO`) te mandan una postal: su pueblo sigue ahí.
-- **Los estudiantes** (`LOS_ESTUDIANTES`) escriben la historia de la cuarentena, con un capítulo para vos.
-- **La mujer de la habitación 9** (`EL_BEBE`) le pone a su hijo el nombre de quien abrió la puerta.
-- **Luna** (`LA_NENA_DE_LUNA`): la nena llora fuerte. Ya no importa.
-- **Los Quiroga** (`LOS_QUIROGA`) encuentran su casa como la dejaron; los chicos extrañan el refugio.
-- **Los chicos del hogar** (`LOS_CHICOS_DEL_HOGAR`) tienen su primera foto juntos, con vos en el medio.
-- **Los veinte** (`LOS_VEINTE`) se juntan cada día 41. Cada año son menos y ponen las mismas sillas.
+- `MATIAS_EL_FARMACEUTICO` reabre la Farmacia Central. `EL_CAMILLERO` vuelve al Central sin turno.
+- `EL_DOCTOR_PEREYRA` publica sus notas y calla lo del sótano. `EL_JARDINERO` planta pasto que nadie pisa.
+- `EL_ORGANILLERO` toca los domingos en tu esquina. `EL_PRESO` se presenta en una comisaría vacía.
+- `DESERTOR_DEL_CORDON` entierra el uniforme. `LOS_DEL_BALCON` juegan al truco con trampa.
+- `LOS_DEL_VELERO` te mandan una postal. `LOS_ESTUDIANTES` escriben la historia, con un capítulo tuyo.
+- `EL_BEBE` lleva el nombre de quien abrió la puerta. `LA_NENA_DE_LUNA` llora fuerte, y ya no importa.
+- `LOS_QUIROGA` extrañan el refugio. `LOS_CHICOS_DEL_HOGAR` tienen su primera foto juntos.
+- `LOS_VEINTE` se juntan cada día 41, con las mismas sillas.
 
 <a id="e955"></a>
 ### e955 · Lo que Tolme recuerda
 *Epílogo · La ciudad*
 
-Por cada Marca de tu hoja que esté en esta lista, leé su línea. Si no tenés ninguna, Tolme no se acuerda de vos. A lo mejor está bien así.
+Por cada Marca tuya de esta lista, leé su línea. Si no tenés ninguna, Tolme no se acuerda de vos.
 
-**El fuego y el ruido**
+**El fuego y el ruido.** `ARDIO_LA_FABRICA`: los chicos juegan a «la noche que ardió». `VOLO_EL_GAS`: el pozo tiene peces y tu nombre mal escrito. `LA_BODA`: su foto es la primera que se imprime. `DON_CACHO`: un año después vuelve, y te trae algo. `LA_7012`: tiene flores en la cabina. `SENALES_AL_HELICOPTERO`: una foto de una sábana empieza a hacer preguntas. `LLAMASTE_POR_RADIO`: algunos siguieron tu voz y llegaron. `LAS_LUCES_DE_TOLME`: nadie entiende los círculos de tu mapa. `LA_SENORA_SE_EQUIVOCA`: nadie te cree que contaba mal. `LA_SENORA_CALLADA`: ese día la ciudad empezó a hablar sola.
 
-- `ARDIO_LA_FABRICA` · En La Fabril los chicos juegan a «la noche que ardió», y se pelean por hacer de vos.
-- `VOLO_EL_GAS` · El pozo del gas se llena de lluvia y de peces, con tu nombre mal escrito en un cartel.
-- `LA_BODA` · La foto de la boda es la primera que se imprime en Tolme después de la cuarentena.
-- `DON_CACHO` · Un año después, el camión de Don Cacho vuelve tocando bocina, y te trae algo.
-- `LA_7012` · La 7012 se queda en el Puerto con flores en la cabina. Nadie se anima a moverla.
-- `SENALES_AL_HELICOPTERO` · En un archivo del Comando, una foto de una sábana en una azotea empieza a hacer preguntas.
-- `LLAMASTE_POR_RADIO` · Río abajo, alguien se acuerda de una voz que daba una dirección. Algunos llegaron.
-- `LAS_LUCES_DE_TOLME` · Tu mapa de luces sigue en una pared. Nadie entiende los círculos.
-- `LA_SENORA_SE_EQUIVOCA` · Lo vas a decir en todas las entrevistas: la Señora contaba mal. Nadie te cree.
-- `LA_SENORA_CALLADA` · El día en que la radio se calló es el día en que la ciudad empezó a hablar sola.
+**La gente.** `DUDA_DEL_PRIMERO`: todavía te despierta. `LOS_VIEJOS_DE_LA_VELA`: alguien cambia la vela. `TRUEQUE_GENEROSO`: en otra ciudad te cuentan como un cuento. `PERDONASTE_UN_ROBO`: el que robó hace todas las guardias. `MANO_DURA`: funcionó, y nadie te quiere. `ASAMBLEA`: la primera acta lleva tu nombre. `EL_DIA_QUE_SE_FUERON`: una carta dice «perdón» cuatro veces. `RACIONES_A_LA_VISTA`: se sigue sirviendo a la vista. `LOS_PESCADORES`: el primer pescado es tuyo. `LOS_DEL_BLOQUE_B`: siguen arriba, por las dudas. `ESCONDITE_DE_SAQUEADORES`: nunca sabrás si callar salvó a alguien. `LIBERASTE_A_LAS_COCINERAS`: tu plato no se cobra. `ESCONDISTE_AL_INMUNE`: al margen del informe dice «escondido».
 
-**La gente**
+**Las facciones.** `RUMOR_DE_LOS_LOBOS`: en Las Lomas nadie habla, y eso responde. `TE_VIERON_LOS_LOBOS`: no sabés por qué te dejaron. `LE_PAGAS_A_LOS_LOBOS`: otros les siguen pagando. `RECHAZASTE_A_LOS_LOBOS`: los chicos cuentan los tiros en tu puerta. `LES_ROBASTE_EL_CUARTEL`: los Bomberos se van cuando te nombran. `LA_SEPTIMA_ES_NUESTRA`: el informe escribe mal tu nombre. `NO_CENSADO`: tu refugio no existe en ninguna lista. `PEAJE`: lo contás como un chiste. No lo fue.
 
-- `DUDA_DEL_PRIMERO` · Todavía te despertás pensando en lo que te hizo dudar aquella primera noche.
-- `LOS_VIEJOS_DE_LA_VELA` · La vela sigue prendida en esa ventana. Alguien la cambia.
-- `TRUEQUE_GENEROSO` · En otra ciudad, una familia cuenta que en Tolme alguien les dio de comer sin pedir nada.
-- `PERDONASTE_UN_ROBO` · El que robó es el último en irse de cada guardia.
-- `MANO_DURA` · Funcionó. Nadie se acuerda de vos con cariño.
-- `ASAMBLEA` · El refugio sigue votando todo; la primera acta dice tu nombre.
-- `EL_DIA_QUE_SE_FUERON` · Uno de los que se fueron te escribe «perdón» cuatro veces.
-- `RACIONES_A_LA_VISTA` · La comida se sigue sirviendo a la vista de todos, aunque sobre.
-- `LOS_PESCADORES` · Los pescadores te guardan el primer pescado de cada temporada.
-- `LOS_DEL_BLOQUE_B` · Las doce familias siguen arriba, con la escalera cortada, por las dudas.
-- `ESCONDITE_DE_SAQUEADORES` · Nunca vas a saber si callarte salvó a alguien.
-- `LIBERASTE_A_LAS_COCINERAS` · Abren un comedor en Los Bloques. Tu plato no se cobra.
-- `ESCONDISTE_AL_INMUNE` · El informe dice «no fue recuperado». Al margen, a mano: «escondido».
-
-**Las facciones**
-
-- `RUMOR_DE_LOS_LOBOS` · En Las Lomas nadie quiere hablar del tema, y eso ya es una respuesta.
-- `TE_VIERON_LOS_LOBOS` · Los Lobos te dejaron entrar a Las Lomas. Todavía no sabés por qué.
-- `LE_PAGAS_A_LOS_LOBOS` · Después del día 41, otros siguen pagándoles a otros.
-- `RECHAZASTE_A_LOS_LOBOS` · Los chicos meten los dedos en los agujeros de tu puerta para contar los tiros.
-- `LES_ROBASTE_EL_CUARTEL` · Cuando alguien te nombra, los Bomberos se levantan y se van.
-- `LA_SEPTIMA_ES_NUESTRA` · El informe sobre «la toma de la Comisaría 7.ª» escribe mal tu nombre. Mejor.
-- `NO_CENSADO` · Tu refugio no existe en ninguna lista, y los suyos tienen que demostrar que vivieron.
-- `PEAJE` · Pagaste peaje en una ciudad sin rutas. Lo contás como un chiste. No lo fue.
-
-**Los lugares**
-
-- `EL_OSO` · El oso sigue en su jaula con la puerta abierta. Vos le llevás comida.
-- `EL_OSO_LIBRE` · Hay un oso en el Parque, y ya no hay Callados en el Parque.
-- `EL_SERENO` · El sereno te guarda un lugar al lado de los tuyos.
-- `EL_TREN_SELLADO` · El tren sigue en la vía 4. Nadie quiere ser el que lo abra.
-- `VAGON_DE_LA_C` · Cuando el subte vuelve, al vagón de la C lo rodean.
-- `LA_ZORRA` · La zorra, pintada de amarillo, la empujan los chicos los domingos.
-- `LLAVES_DEL_PORTERO` · Las llaves del portero cuelgan en la puerta del refugio. Por las dudas.
-- `EL_AGUA_VUELVE` · La tarde del agua, los chicos se bañaron en la vereda con Callados a dos cuadras.
-- `SIN_CAMPANA` · En San Lázaro, a las doce, alguien golpea una olla.
-- `GIMNASIO_QUEMADO` · El gimnasio negro tiene una placa: «Nunca más».
-- `EL_CAMION` · Al camión del Comando alguien le pinta: «ESTO NOS DIERON».
+**Los lugares.** `EL_OSO`: le llevás comida a la jaula abierta. `EL_OSO_LIBRE`: ya no hay Callados en el Parque. `EL_SERENO`: te guarda un lugar. `EL_TREN_SELLADO`: nadie quiere abrirlo. `VAGON_DE_LA_C`: el subte lo rodea. `LA_ZORRA`: los chicos la empujan los domingos. `LLAVES_DEL_PORTERO`: cuelgan en tu puerta. `EL_AGUA_VUELVE`: los chicos se bañaron en la vereda. `SIN_CAMPANA`: a las doce golpean una olla. `GIMNASIO_QUEMADO`: una placa dice «Nunca más». `EL_CAMION`: alguien le pinta «ESTO NOS DIERON».
 
 ---
 

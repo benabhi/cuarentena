@@ -154,8 +154,11 @@ def leer_tablas(ev):
     tablas, lugares = {}, {}
     for b, e in BARRIOS.items():
         filas = {}
-        for m in re.finditer(r'^\| (\d+) \| \[(e\d{3})\]', ev[e], re.M):
+        # tablas de encuentro a cuatro columnas: | n | [eXXX] | n | [eYYY] |
+        for m in re.finditer(r'^\| (\d+) \| \[(e\d{3})\]\(#e\d{3}\)(?: \| (\d+) \| \[(e\d{3})\])?', ev[e], re.M):
             filas[int(m.group(1))] = m.group(2)
+            if m.group(3):
+                filas[int(m.group(3))] = m.group(4)
         tablas[b] = filas
         base = int(e[1:])
         for k in range(1, 10):

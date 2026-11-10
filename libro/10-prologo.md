@@ -33,13 +33,11 @@ Con tu Hoja de protagonista lista (r100), andá a la entrada de tu **Motivo** (r
 ### e002 · El pabellón 4
 *Sanidad · Hospital Central · ◷ 0*
 
-Camas llenas, gente en los pasillos envuelta en frazadas grises, todos con cuarenta y uno de fiebre. Vos estás acá por lo que dice tu fila de r104.
+Gente en los pasillos envuelta en frazadas, todos con cuarenta y uno de fiebre. A las cuatro de la mañana, los monitores se quedan, de a uno, en una línea.
 
-A las cuatro de la mañana, el silencio. Los monitores pitan cada vez más rápido y, de a uno, se quedan en una línea.
+Raquel, la jefa de enfermeras, te pone en la mano la lista de los doce del pabellón: «Cuidalos». Anotá `LISTA_DEL_PABELLON`.
 
-Raquel, la jefa de enfermeras, te pone una hoja de cuaderno en la mano: los doce del pabellón, con la cama, el nombre y la medicación. «Cuidalos», dice, y se va. Anotá `LISTA_DEL_PABELLON`.
-
-A las cinco, la cama 12 se sienta. El señor Aguirre, setenta y un años, te mira con los ojos blancos y se baja arrastrando el suero, hacia la cama 11.
+A las cinco, el señor Aguirre, cama 12, se sienta, te mira con los ojos blancos y va hacia la cama 11 arrastrando el suero.
 
 Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
@@ -56,9 +54,7 @@ Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
 A las seis te despierta el ingeniero Duarte, llorando: Ramírez, de la cuadrilla, amaneció muerto, y según la mujer se levantó y la mordió.
 
-Afuera suena una alarma de auto. Un hombre en pijama camina hacia el ruido, descalzo sobre los vidrios. Detrás vienen dos más.
-
-En tu campera hay una copia del contrato: «Obra de contención, accesos norte. Plazo de ejecución: diecinueve días». Anotá `CONTRATO_DEL_MURO`.
+Afuera, un hombre en pijama camina descalzo sobre los vidrios hacia una alarma. En tu campera, el contrato: «Obra de contención, accesos norte. Plazo de ejecución: diecinueve días». Anotá `CONTRATO_DEL_MURO`.
 
 Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
@@ -72,7 +68,7 @@ Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 ### e004 · El cordón
 *El Perímetro · Puesto de control Norte · ◷ 0*
 
-Día 2. Estás en el Puesto Norte por lo que dice tu fila de r104. Soldados, contenedores apilados con grúas, alambre de púas, y una fila de autos que quiere salir.
+Día 2. Soldados, contenedores apilados y una fila de autos que quiere salir.
 
 A las tres llega a tus manos un sobre marrón con un sello rojo: «Para ejecutar al recibir la señal. No lo abra antes». Anotá `ORDEN_SELLADA`.
 
@@ -88,9 +84,9 @@ A las cinco, un auto de la fila acelera contra la barrera. Los soldados disparan
 ### e005 · El último pedido
 *El Casco · ◷ 0*
 
-La avenida está vacía y el asfalto brilla. En la mochila, la caja: una conservadora blanca con precinto rojo. LAB. VIROLOGÍA · CU · NO ABRIR · CADENA DE FRÍO. Destinatario: «Dr. M. Salas». Anotá `CAJA_PRECINTADA`.
+En la mochila, una conservadora blanca con precinto rojo: LAB. VIROLOGÍA · CU · NO ABRIR · CADENA DE FRÍO. Destinatario: «Dr. M. Salas». Anotá `CAJA_PRECINTADA`.
 
-En la esquina, un hombre de cara a la persiana del kiosco, con la frente apoyada en el metal. Otro, igual, frente a la Municipalidad. Cuando pasás, los dos giran la cabeza a la vez, hacia tus pasos.
+En la esquina, dos hombres con la frente apoyada en las persianas giran la cabeza a la vez, hacia tus pasos.
 
 Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
@@ -104,7 +100,7 @@ Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 ### e006 · El que no llegó
 *Tu barrio · ◷ 0*
 
-A las once y media: «Ya salgo. Está todo muy raro. Te quiero». A las doce, otro mensaje que no termina de cargar. Después, sin red.
+A las once y media: «Ya salgo. Está todo muy raro. Te quiero». Después, sin red.
 
 Andá a **[e840](#e840)** para saber a quién esperabas y dónde estaba. Después volvé.
 
@@ -120,7 +116,7 @@ Son las tres. Afuera alguien grita, lejos, y deja de gritar. Es tu primera **pru
 ### e007 · Lo que hiciste
 *Tolme · ◷ 0*
 
-Lo hiciste rápido, como se hacen las cosas que no se pueden deshacer. Te tiemblan las manos. Nadie te vio, o alguien sí.
+Lo hiciste rápido, como se hacen las cosas que no se pueden deshacer.
 
 Andá a **[e850](#e850)**: qué hiciste, dónde y quién lo sabe. Después volvé.
 
@@ -167,11 +163,9 @@ Te muerdan o no, leé la regla de la **Fiebre** (r191): en Tolme todos la saben 
 ### e009 · La Señora
 *Tolme · ◷ 0*
 
-Pasan dos días que no vas a recordar bien (si venís del cordón, ya pasaron). Volvés a tu barrio por calles que ya no son las mismas. El martes cortan los teléfonos; el miércoles, internet. El miércoles a la noche, por una radio a pilas, una voz de locutora vieja, tranquila:
+Pasan dos días que no vas a recordar bien. Cortan los teléfonos y después internet. El miércoles, por una radio a pilas, una voz de locutora vieja, tranquila:
 
 > *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
-
-Un pitido. La voz otra vez. Toda la noche.
 
 A la mañana, carteles amarillos en todos los postes: **CUARENTENA: 40 DÍAS.** Debajo, con aerosol rojo: *¿Y DESPUÉS QUÉ?*
 
@@ -183,7 +177,7 @@ No vas a aguantar cuarenta días en un baño. Este es el **mapa de Tolme** (r150
 ### e010 · Un lugar donde quedarse
 *Tolme · ◷ 0*
 
-Seis lugares en Tolme podrían aguantar, pero la ciudad ya está cortada. Tenés **tres candidatos** (r170):
+Seis lugares podrían aguantar, pero la ciudad ya está cortada. Tenés **tres candidatos** (r170):
 
 1. **El de cerca:** el de tu barrio, o el más cercano.
 2. **El de tu Motivo:** adonde te lleva tu historia.
@@ -220,11 +214,11 @@ Andá a la entrada del elegido y, cuando te lo diga, volvé a **[e011](#e011)**.
 ### e011 · Adentro
 *Tu refugio · ◷ 0*
 
-Huele a encierro y a humedad. Cerrás la puerta y escuchás. Nada. Tu corazón. Un caño que gotea.
+Cerrás la puerta y escuchás. Tu corazón. Un caño que gotea.
 
 Primero, **revisar** (r160) los placares, depósitos y cajones, con el tipo y el stock de tu refugio. **Rápido** (r161) tacha 1 casilla y tira una vez en su tabla (r162); **a fondo**, 2 casillas y tres tiradas, con ruido. Hoy revisá a fondo sin tiempo ni Ruido: es el día 0 y nadie mira. Los materiales van a la Hoja del refugio (r165); los objetos, a tu Mochila (r164).
 
-Después pintá tu primera **marca de búsqueda** (r163) en el mapa: una X con un 0 arriba, el stock que quedó a la izquierda y, a la derecha, tu nombre. Es tuyo. → **[e012](#e012)**.
+Después pintá tu primera **marca de búsqueda** (r163): una X con un 0 arriba y tu nombre. Es tuyo. → **[e012](#e012)**.
 
 ---
 
@@ -283,11 +277,11 @@ Nadie contesta. → **[e015](#e015)**.
 ### e015 · Desde arriba
 *Tu refugio · ◷ 0*
 
-Al amanecer subís a lo más alto del refugio. Humo en tres barrios. Un helicóptero lejos, que no se acerca. Y al norte, el **muro**: contenedores de colores apilados de a tres, con torres de vigía cada doscientos metros.
+Al amanecer subís a lo más alto. Humo en tres barrios y, al norte, el **muro**: contenedores apilados de a tres.
 
 Tirá los tres barrios del humo en r155 (si se repite uno, o sale el de tu refugio, tirá otra vez) y marcalos con una llama. Allí cada lugar tiene **1 casilla de stock menos**, pero la primera vez que llegás no tirás encuentro: el fuego espantó a los Callados.
 
-Del otro lado del muro el campo está negro. Te lleva un rato entender que no está quemado. Está lleno de gente. Millones, quietos, de cara a la ciudad.
+Del otro lado, el campo está negro. No está quemado: está lleno de gente. Millones, quietos, de cara a la ciudad.
 
 Esa es la **Marea**. Llega en la **Noche 40** (r220). Abajo, en una radio, la Señora dice:
 

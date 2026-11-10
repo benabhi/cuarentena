@@ -40,3 +40,16 @@
 | 95 apéndices | 4.405 | 2.000 |
 | 96 índice de Marcas | 1.623 | 1.400 |
 | **Total** | **117.620** | **~74.700** |
+
+## Primera pasada y medición (2026-11-10)
+
+Primera pasada hecha en todos los capítulos: de 117.600 a **85.600 palabras** (−27 %), sin perder reglas, tablas, opciones ni Marcas (commit b5bca55).
+
+**Medición con la letra de Caribdis.** Se compuso el texto de los dos libros con `estilo.css` de Caribdis, en dos columnas, sin arte ni rellenos:
+
+| Libro | Palabras | Páginas de texto corrido | Libro real |
+|---|---:|---:|---:|
+| Caribdis | 66.300 | 149 | 200 (con arte, hojas, rellenos) |
+| Cuarentena hoy | 85.600 | 202 | ~270 estimadas |
+
+Las dos llevan unas 430 palabras por página de texto corrido, así que la cuenta es lineal: **para entrar en 200 páginas con la letra de Caribdis, Cuarentena tiene que quedar en unas 64.000 palabras**, casi lo mismo que Caribdis. Con 75.000 saldrían unas 235 páginas.

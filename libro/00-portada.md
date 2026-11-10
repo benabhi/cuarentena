@@ -63,4 +63,4 @@
 | [e800](#e800)–[e858](#e858) | Historias personales |
 | [e900](#e900)–[e991](#e991) | La Noche 40 y los finales |
 
-**Apéndices:** hojas para imprimir, mapa de Tolme, resumen de reglas, bestiario e índice de Marcas.
+**Apéndices:** hojas para imprimir, mapa de Tolme, resumen de reglas e índice de Marcas.

@@ -4,7 +4,7 @@
 ### e100 · La Procesión
 *Un barrio con Procesión · ◷ 0*
 
-Primero es el olor. Después, miles de pies descalzos sobre el asfalto. Doblás la esquina y la avenida entera está llena de cabezas y de hombros que se rozan, caminando todos para el mismo lado. No te vieron. Todavía.
+Primero el olor. Después, la avenida entera llena de hombros que se rozan, todos hacia el mismo lado. No te vieron. Todavía.
 
 Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 
@@ -21,7 +21,7 @@ Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 ### e101 · La gran Procesión pasa por tu puerta
 *Tu refugio · ◷ 6*
 
-No es una Procesión: es un río. Pasa por tu puerta de sol a sol, sin un hueco. Las paredes vibran. Nadie sale, nadie habla, nadie cocina.
+Un río que pasa por tu puerta de sol a sol. Las paredes vibran. Nadie habla.
 
 `[Sigilo]` por el grupo (+1 con Cortinas negras; Desventaja con más de 6 personas o el Negro sin `NEGRO_CON_BOZAL`):
 
@@ -36,8 +36,6 @@ No es una Procesión: es un río. Pasa por tu puerta de sol a sol, sin un hueco.
 <a id="e110"></a>
 ### e110 · El Subsuelo
 *Subsuelo · ◷ 0*
-
-Humedad, óxido y agua quieta. El eco hace que tus pasos suenen como los de otro.
 
 Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin Linterna, todo tiene Desventaja.
 
@@ -56,7 +54,7 @@ Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin 
 ### e111 · El andén vacío
 *Subsuelo · ◷ 0*
 
-Un andén de la línea C con la publicidad todavía iluminada por una batería que se muere. Un hombre sonriente te ofrece un crédito personal. No hay nadie. Llegás.
+Un andén con la publicidad todavía iluminada: un hombre sonriente te ofrece un crédito. No hay nadie. Llegás.
 
 ---
 
@@ -64,7 +62,7 @@ Un andén de la línea C con la publicidad todavía iluminada por una batería q
 ### e112 · El vagón detenido
 *Subsuelo · ◷ 0 · stock ▢▢*
 
-Un tren quedó en el túnel con las puertas abiertas: bolsos, mochilas, y gente sentada con la cabeza apoyada en el vidrio.
+Un tren con las puertas abiertas, y gente sentada con la cabeza apoyada en el vidrio.
 
 **Revisar** como una Vivienda (r161), y anotá `VAGON_DE_LA_C` y su stock en el mapa. En cada revisión, con 1–2 en 1d6 uno de los sentados se despierta: **Callados ×1 · Encima**. O seguir de largo.
 
@@ -74,7 +72,7 @@ Un tren quedó en el túnel con las puertas abiertas: bolsos, mochilas, y gente 
 ### e113 · Agua negra
 *Subsuelo · ◷ 1*
 
-El túnel se hunde y el agua llega a la cintura, fría, quieta, sin fondo. Algo flota.
+El agua llega a la cintura. Algo flota.
 
 - **Cruzar:** `[Físico]`. Con 10+, cruzás. Con 7–9, se mojan 2 casilleros al azar: los Víveres, Fármacos y Electrónica que haya ahí se pierden. Con 6−, lo mismo y 1 Herida. En Etapa III o más, algo te roza la pierna → [e118](#e118).
 - **Volver** al barrio de donde saliste.
@@ -85,7 +83,7 @@ El túnel se hunde y el agua llega a la cintura, fría, quieta, sin fondo. Algo 
 ### e114 · Los del túnel
 *Subsuelo · ◷ 1*
 
-Velas en un andén abandonado: colchones, carpas, una olla en un calentador. Una docena de personas viven abajo desde el día 1, guiadas por una mujer con casco de obrero: **la Topo**.
+Velas, colchones y una olla en un andén: una docena de personas viven abajo, guiadas por **la Topo**, de casco de obrero.
 
 —Acá abajo no llegan los de la radio. Ni los mudos, casi nunca. ¿Qué traés?
 
@@ -119,7 +117,7 @@ Tres túneles, ningún cartel. `[Calle]` (con `MAPA_DEL_SUBSUELO`, llegás sin t
 ### e117 · El techo del túnel
 *Subsuelo · ◷ 0*
 
-En Etapa I, es [e115](#e115). Algo cambia de lugar arriba tuyo, entre los cables. Los Acechadores nunca hacen ruido.
+En Etapa I, es [e115](#e115). Algo cambia de lugar arriba tuyo, entre los cables.
 
 > **Acechador ×1 · Lejos** ([e724](#e724)) · escena: Túnel
 
@@ -143,7 +141,7 @@ Si venís del agua ([e113](#e113)), empiezan **Encima**.
 ### e119 · El nido
 *Subsuelo · ◷ 0*
 
-Una estación entera de Callados dormidos. Cientos, de pie contra las paredes, en los bancos, en las vías. Si es que duermen. Tenés que cruzar el andén.
+Una estación de cientos de Callados dormidos, si es que duermen. Tenés que cruzar el andén.
 
 `[Sigilo]`, sin luz (con Linterna, Desventaja). Con 10+, cruzás. Con 7–9, pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen. Con 6−, **Callados ×4d6 · Cerca**: solo queda escapar.
 
@@ -167,7 +165,7 @@ En Etapa I o II, es [e115](#e115) con el doble. Un Bruto ([e726](#e726)) atascad
 ### e121 · El cuarto de máquinas
 *Subsuelo · ◷ 1*
 
-Una puerta de chapa entreabierta: PELIGRO ALTA TENSIÓN. Adentro, tableros, generadores muertos y una mesa con mapas de Tolme marcados en rojo, un termo y una radio militar. Alguien trabajó acá. Alguien que sabía lo que iba a pasar.
+PELIGRO ALTA TENSIÓN. Adentro, mapas de Tolme marcados en rojo y una radio militar. Alguien que sabía lo que iba a pasar trabajó acá.
 
 - **Los papeles:** una pista ([e560](#e560)); otra si ya habías estado.
 - **La radio:** con `[Mecánica]` 10+ anda un minuto. Una conversación cifrada y una palabra que se repite: «Pastor». Anotá `PISTA_PASTOR`.
@@ -181,7 +179,7 @@ Una puerta de chapa entreabierta: PELIGRO ALTA TENSIÓN. Adentro, tableros, gene
 ### e130 · Las Azoteas
 *Azoteas · ◷ 0*
 
-Arriba, la ciudad es otra: tanques, antenas, palomas, sábanas tendidas que se mueven solas. Desde acá se ve venir lo que viene.
+Tanques, antenas, sábanas tendidas. Desde acá se ve venir lo que viene.
 
 En cada viaje, 1d6: solo con un **1** hay encuentro (otro 1d6: 1 [e131](#e131) · 2 [e132](#e132) · 3 [e133](#e133) · 4 [e134](#e134) · 5 [e135](#e135) · 6 [e136](#e136)). Y siempre podés **mirar**: humo, luz o movimiento en los barrios vecinos.
 
@@ -191,7 +189,7 @@ En cada viaje, 1d6: solo con un **1** hay encuentro (otro 1d6: 1 [e131](#e131) �
 ### e131 · El tablón podrido
 *Azoteas · ◷ 0*
 
-El tablón entre dos edificios cruje de una forma que no te gusta. `[Físico]` (con tus propios Tablones, no tirás). Con 7–9, se te cae 1 casillero. Con 6−, se parte: caés un piso, 2 Heridas, y estás en la Calle de este barrio (tirá en su tabla).
+El tablón cruje. `[Físico]` (con tus propios Tablones, no tirás). Con 7–9, se te cae 1 casillero. Con 6−, se parte: caés un piso, 2 Heridas, y estás en la Calle de este barrio (tirá en su tabla).
 
 ---
 
@@ -199,7 +197,7 @@ El tablón entre dos edificios cruje de una forma que no te gusta. `[Físico]` (
 ### e132 · La huerta de arriba
 *Azoteas · ◷ 1 · stock ▢▢*
 
-Entre tanques de agua, una huerta en cajones: tomates, lechugas pasadas, un zapallo enorme. Nadie la cuida hace días.
+Una huerta en cajones que nadie cuida hace días.
 
 Cada revisión: 2 Víveres y una casilla. Y semillas: la Huerta ([e752](#e752)) produce +1 desde su primera noche. Anotá `LA_HUERTA_DE_ARRIBA` y el barrio.
 
@@ -247,7 +245,7 @@ Desde la terraza más alta se ve casi toda Tolme. 1d6: **1–2**, todas las Proc
 ### e140 · La noche te agarra afuera
 *Donde estés · de noche*
 
-El sol se va y estás lejos. Las calles de Tolme, de noche, son de ellos. Tirá 1d6 (+1 con `LA_TOPO` en un barrio con Subsuelo; −1 en Etapa III o IV):
+De noche, las calles son de ellos. Tirá 1d6 (+1 con `LA_TOPO` en un barrio con Subsuelo; −1 en Etapa III o IV):
 
 | 1d6 | 1 o menos | 2 | 3 | 4 | 5 | 6 o más |
 |---|---|---|---|---|---|---|
@@ -261,7 +259,7 @@ Comés de tu Mochila o perdés 1 Reserva. Al alba, robás la carta donde estés.
 ### e141 · Un baño con traba
 *Donde estés · de noche*
 
-Una puerta, una traba, un inodoro para sentarse. Dormís a los saltos, con el cuchillo en la mano. No pasa nada: al alba, +1 Ánimo.
+Una traba y un inodoro. Dormís a los saltos. No pasa nada: al alba, +1 Ánimo.
 
 ---
 
@@ -281,7 +279,7 @@ Sopa (+1 Reserva sin gastar Víveres), frazada y sillón. A la mañana, 1 Víver
 ### e143 · Adentro de un auto
 *Donde estés · de noche*
 
-Un auto con las puertas sanas. Te acostás atrás, bajo una manta que huele a perro. Afuera, a cada rato, pasan.
+Te acostás atrás, bajo una manta que huele a perro. Afuera, pasan.
 
 `[Sigilo]`. Con 6−, a las tres uno se apoya en el vidrio y te mira. Otro. Otro. **Callados ×1d6 · Cerca**, y las puertas aguantan dos rondas antes de que lleguen a Encima. O arrancás el auto ([r157](#r157)) si tiene nafta (1–3 en 1d6) y te vas a un vecino con +2 Ruido.
 
@@ -319,7 +317,7 @@ Vivos: r300 con la postura Hablar. Son tres y estás a oscuras: si termina en pe
 ### e150 · Silencio
 *Calle · ◷ 0*
 
-Autos con el parabrisas cubierto de hojas, un semáforo que cambia para nadie, un gato. En una pared, con aerosol: DIOS NO ESTÁ. Llegás sin problemas.
+Un semáforo que cambia para nadie. En una pared: DIOS NO ESTÁ. Llegás sin problemas.
 
 ---
 
@@ -327,7 +325,7 @@ Autos con el parabrisas cubierto de hojas, un semáforo que cambia para nadie, u
 ### e151 · Unos pocos
 *Calle · ◷ 0*
 
-Callados dispersos: uno de cara a una pared, otro sentado en el cordón, otro mirando una vidriera. No te vieron.
+Callados dispersos, de cara a las paredes. No te vieron.
 
 > **Callados ×1d6 · Lejos**
 
@@ -386,7 +384,7 @@ Una vidriera intacta, con abrigo, mochilas y linternas. La puerta tiene reja y c
 ### e156 · El que corre
 *Calle · ◷ 0*
 
-Uno viene corriendo por el medio de la calle, con jogging y los auriculares colgando. Es un Fresco ([e721](#e721)).
+Uno viene corriendo, con jogging y los auriculares colgando: un Fresco ([e721](#e721)).
 
 > **Fresco ×1 · Lejos**, y detrás, **Callados ×1d6 · Lejos**
 
@@ -396,7 +394,7 @@ Uno viene corriendo por el medio de la calle, con jogging y los auriculares colg
 ### e157 · El Hinchado en la vereda
 *Calle · ◷ 0*
 
-Uno hinchado como un globo, verde, con la ropa reventada en las costuras, apoyado en un poste. Un Hinchado ([e722](#e722)).
+Un Hinchado ([e722](#e722)) apoyado en un poste.
 
 1. **Rodearlo.** `[Sigilo]`: con 6−, camina hacia vos: **Hinchado ×1 · Cerca**.
 2. **Reventarlo de lejos** `[Puntería]`: con 10+, revienta donde está, pero +2 Ruido y en 1d6 rondas llegan **Callados ×1d6** por el olor. Con 7–9, lo mismo, y la bilis te salpica: Desventaja hasta bañarte (1 Víver). Con 6−, sigue viniendo.
@@ -408,7 +406,7 @@ Uno hinchado como un globo, verde, con la ropa reventada en las costuras, apoyad
 ### e158 · El perro
 *Calle · ◷ 0*
 
-Un perro negro, flaco, con un collar sin chapa, te sigue hace dos cuadras. No ladra. Mueve la cola con miedo. Si no conocés al Negro → [e651](#e651). Si ya lo conocés, es otro perro.
+Un perro negro y flaco te sigue hace dos cuadras, moviendo la cola con miedo. Si no conocés al Negro → [e651](#e651). Si ya lo conocés, es otro perro.
 
 ---
 
@@ -462,7 +460,7 @@ No se los deja atrás corriendo: subí, cerrá una puerta o peleá.
 ### e163 · El grande
 *Calle · ◷ 0*
 
-En Etapa I o II, es [e159](#e159). Un hombre que era enorme y ahora es más, con la piel tirante y violácea, arrastrando un pedazo de reja enganchado en el brazo.
+En Etapa I o II, es [e159](#e159). Un hombre enorme y violáceo, arrastrando un pedazo de reja.
 
 > **Bruto ×1 · Lejos** ([e726](#e726))
 
@@ -472,7 +470,7 @@ En Etapa I o II, es [e159](#e159). Un hombre que era enorme y ahora es más, con
 ### e164 · El que escupe
 *Calle · ◷ 0*
 
-En Etapa I o II, es [e159](#e159). Un chistido, y una mancha verde que hace burbujear el capó al lado tuyo. Desde un balcón, un Escupidor ([e727](#e727)).
+En Etapa I o II, es [e159](#e159). Una mancha verde hace burbujear el capó al lado tuyo: un Escupidor ([e727](#e727)) en un balcón.
 
 > **Escupidor ×1 · Lejos**, que no avanza, y **Callados ×1d6 · Lejos** por la calle.
 
@@ -494,7 +492,7 @@ Si ganás, una tirada por cuerpo en la tabla de equipo del Blindado.
 ### e166 · La que llora
 *Calle · ◷ 0*
 
-Fuera de la Etapa IV, es [e159](#e159). Una mujer con un vestido blanco sucio, sentada en medio de la calle, llorando. Es el único ruido de la cuadra. A su alrededor, en cien metros, nada vivo y nada muerto. Es la Viuda ([e730](#e730)): leé su ficha antes de elegir.
+Fuera de la Etapa IV, es [e159](#e159). Una mujer sentada en medio de la calle, llorando, y en cien metros nada vivo ni muerto. Es la Viuda ([e730](#e730)): leé su ficha antes de elegir.
 
 1. **Rodear la cuadra.** ◷ 1, `[Sigilo]`. Con 6−, levanta la cabeza y deja de llorar: combate.
 2. **Volver.** ◷ 1.
@@ -514,7 +512,7 @@ Al final de la avenida, una mancha oscura que ocupa todo el ancho. Una Procesió
 ### e168 · La mochila de otro
 *Calle · ◷ 0*
 
-Un cuerpo boca abajo, con una mochila de camping puesta. No se movió en todo el rato que lo miraste.
+Un cuerpo boca abajo, con una mochila de camping puesta.
 
 `[Medicina]` o `[Calle]`: con 7+, está muerto muerto. Dos tiradas de Vivienda (r162) y, con 5–6 en 1d6, la mochila sirve (+2 casilleros). Con 6−, te acercás igual: con 1–3 se levanta (**Callados ×1 · Encima**); si no, lo mismo que con 7+.
 

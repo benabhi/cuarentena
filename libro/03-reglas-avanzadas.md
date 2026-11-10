@@ -3,11 +3,11 @@
 <a id="r140"></a>
 ### r140 · Cuándo hay combate
 
-Hay combate cuando un evento lo dice o cuando una Procesión te alcanza. Los Callados casi nunca vienen de a uno: el combate se cuenta en **cuántos son** y **a qué distancia están**.
+Hay combate cuando un evento lo dice o una Procesión te alcanza. Se cuenta en **cuántos son** y **a qué distancia están**:
 
 > **Callados ×5 · Lejos**
 
-Son cinco Callados comunes, a distancia Lejos. Los infectados especiales tienen nombre y ficha propia (e720–e731):
+Los infectados especiales tienen ficha propia (e720–e731):
 
 > **Bruto ×1 · Cerca** · **Callados ×3 · Lejos**
 
@@ -66,8 +66,6 @@ Al final de cada ronda, **cada Callado Encima** te ataca: 1d6 por cada uno, como
 | 4–5 | Un golpe: 1 Herida |
 | 6 | **Los dientes.** 1 Herida, y otro 1d6: con 1–3, **arañazo** (prueba de Fiebre, r191); con 4–6, **mordida** (empieza la Fiebre, r191) |
 
-Ese segundo dado es el momento más largo del juego. Tiralo despacio.
-
 **Protección:** ropa gruesa, cascos, chalecos y armaduras **restan 1** a cada dado (un 6 con protección −1 es un golpe, sin segundo dado). Ninguna resta más de 2, y dos protecciones de la misma parte del cuerpo no se suman. Con compañeros, los que están Encima se reparten como elijas, de a dos por persona como mucho.
 
 <a id="r145"></a>
@@ -78,27 +76,10 @@ El Ruido de la pelea se suma al **Ruido del barrio** (r154), y el barrio respond
 - Al **llegar a 3**, aparecen **Callados ×1d3 · Lejos**.
 - Al **llegar a 6**, llega una **Procesión**: el combate termina como esté → [e100](#e100).
 
-Matar con una escopeta es fácil. Salir vivo del barrio después, no.
-
 <a id="r146"></a>
 ### r146 · Los infectados especiales
 
-Cada uno cambia las reglas del combate. Consultá su ficha antes de elegir.
-
-| Infectado | Ficha | Etapa | En una línea |
-|---|---|---|---|
-| Callado | [e720](#e720) | I | Lento, en grupo, sigue el ruido |
-| Fresco | [e721](#e721) | I | Corre: avanza dos pasos por ronda |
-| Hinchado | [e722](#e722) | I | Si revienta Cerca o Encima, bilis: +2 Ruido y Desventaja |
-| Chillona | [e723](#e723) | II | Grita: +2 Ruido cada ronda que sigue viva |
-| Acechador | [e724](#e724) | II | Salta de Lejos a Encima |
-| Sabueso | [e725](#e725) | II | Jauría: no se los deja atrás corriendo |
-| Bruto | [e726](#e726) | III | Rompe puertas y barricadas; Aguante 4 |
-| Escupidor | [e727](#e727) | III | Ácido de Lejos |
-| Ahogado | [e728](#e728) | III | En el agua te arrastra |
-| Blindado | [e729](#e729) | III | −1 al Daño de las armas de mano |
-| La Viuda | [e730](#e730) | IV | No la molestes |
-| El Pastor | [e731](#e731) | IV | Piensa |
+Cada uno cambia las reglas del combate: consultá su ficha (e720–e731) antes de elegir. Aparecen según la Etapa (r135).
 
 <a id="r147"></a>
 ### r147 · Pelear con vivos
@@ -130,16 +111,7 @@ Los que te acompañan (r185) actúan después de vos: atacan con su Pelea o su P
 <a id="r150"></a>
 ### r150 · El mapa de Tolme
 
-Tolme no se recorre en casillas. El mapa es un **plano de red**, como el de un subte: cada barrio es una estación y las líneas de colores dicen cómo se llega de uno a otro (r151). Cada barrio tiene una tabla de encuentros (la primera entrada de su bloque) y varios **lugares**, cada uno con su evento, su **tipo** (para el botín) y su **stock** (r160).
-
-| Barrio | Bloque | Barrio | Bloque |
-|---|---|---|---|
-| El Casco | [e200](#e200) | La Estación | [e320](#e320) |
-| Sanidad | [e220](#e220) | El Mercado | [e340](#e340) |
-| El Puerto | [e240](#e240) | Ciudad Universitaria | [e360](#e360) |
-| La Fabril | [e260](#e260) | La Costanera | [e380](#e380) |
-| Los Bloques | [e280](#e280) | Cementerio y Parque | [e400](#e400) |
-| Las Lomas | [e300](#e300) | El Perímetro | [e420](#e420) |
+El mapa es un **plano de red**, como el de un subte: cada barrio es una estación y las líneas dicen cómo se llega (r151). Cada barrio tiene una tabla de encuentros (la primera entrada de su bloque: e200, e220… e420, de veinte en veinte) y varios **lugares** con su **tipo** y su **stock** (r160).
 
 <a id="r151"></a>
 ### r151 · Las tres capas
@@ -205,7 +177,7 @@ Con **3**, aparecen Callados (r145); con **6**, una Procesión ([e100](#e100)). 
 <a id="r155"></a>
 ### r155 · Las Procesiones
 
-Columnas de cientos de Callados que cruzan la ciudad en silencio. Son **fichas** en el mapa. Para ubicar una, tirá 2d6:
+Columnas de cientos de Callados, en silencio. Son **fichas** en el mapa. Para ubicar una, tirá 2d6:
 
 | 2d6 | Barrio | 2d6 | Barrio |
 |---|---|---|---|
@@ -230,8 +202,6 @@ Columnas de cientos de Callados que cruzan la ciudad en silencio. Son **fichas**
 
 <a id="r157"></a>
 ### r157 · Vehículos
-
-Hay autos por todos lados; casi ninguno sirve.
 
 - **Arrancar:** `[Mecánica]` y 1 Combustible. Con 10+, arranca; con 7–9, arranca con un ruido horrible (+2 Ruido); con 6−, no arranca y gastaste la nafta.
 - **Andar:** ◷ 1 cada dos barrios por la Calle, +2 Ruido por barrio, 1 Combustible por salida. Nunca por el Subsuelo ni las Azoteas.
@@ -260,7 +230,7 @@ Hay autos por todos lados; casi ninguno sirve.
 
 > **e202 · Farmacia Central** · *El Casco · Farmacia · stock ▢▢▢*
 
-El **tipo** dice en qué tabla de botín tirás (r162). El **stock** son las casillas ▢: cada revisión tacha algunas. Copialo en tu mapa la primera vez. Además del saqueo, cada lugar tiene sus personas, peligros, puertas y secretos.
+El **tipo** dice en qué tabla de botín tirás (r162). El **stock** son las casillas ▢: cada revisión tacha algunas.
 
 <a id="r161"></a>
 ### r161 · Revisar rápido o a fondo
@@ -317,7 +287,7 @@ Lo que encontrás ocupa Mochila (r164) hasta que lo descargás en el refugio.
 
 **Objeto útil (1d6):** 1 Linterna · 2 Soga · 3 Cuchillo (Daño 1, Cerca, nunca se rompe) · 4 Radio a pilas (escuchás a la Señora: [e054](#e054)) · 5 Mochila de camping (+2 casilleros) · 6 Un manual ([e770](#e770)).
 
-**La marca de búsqueda.** Al terminar de revisar un lugar, pintá en el mapa una **X** con el **día** arriba, el **stock** que queda a la izquierda y lo que encontraste adentro a la derecha. Es lo que hacían los rescatistas en las puertas, y es tu cuenta de la ciudad.
+**La marca de búsqueda.** Al terminar de revisar un lugar, pintá en el mapa una **X** con el **día** arriba, el **stock** que queda a la izquierda y lo que encontraste adentro a la derecha. Como los rescatistas en las puertas.
 
 <a id="r164"></a>
 ### r164 · Cargar: la Mochila
@@ -351,12 +321,10 @@ Ocho **materiales**: **Madera · Metal · Tela · Químicos · Sujeción · Elec
 
 **El refugio mismo** se desarma una vez: **6 Madera** en total. Tachá «Desarmado» en la Hoja del refugio.
 
-**Desarmar afuera:** al revisar una Vivienda, una Oficina o un Comercio, podés romper los muebles ahí: cada persona carga **2 Madera** (1 casillero). Una vez por lugar, **+1 Ruido**. Así se levantan las barricadas en Tolme: con las puertas de los que ya no están.
+**Desarmar afuera:** al revisar una Vivienda, una Oficina o un Comercio, podés romper los muebles ahí: cada persona carga **2 Madera** (1 casillero). Una vez por lugar, **+1 Ruido**.
 
 <a id="r166"></a>
 ### r166 · Comerciar
-
-No hay plata que valga: se cambian cosas.
 
 - **Valor:** 1 Víver = 1 material = 2 Munición. Fármacos, Antivirales y Combustible valen el doble.
 - `[Labia]`: con 10+, conseguís uno más de lo que das; con 7–9, el cambio es justo; con 6−, te cobran uno de más o no quieren.
@@ -369,18 +337,7 @@ No hay plata que valga: se cambian cosas.
 <a id="r170"></a>
 ### r170 · Elegir el refugio
 
-En el prólogo (e010) elegís dónde resistir. Cada refugio tiene su barrio, sus frentes, sus ventajas y sus problemas.
-
-| Refugio | Barrio | Entrada |
-|---|---|---|
-| Parroquia de San Lázaro | El Casco | [e440](#e440) |
-| Supermercado Del Barrio | El Mercado | [e450](#e450) |
-| Comisaría 7.ª | La Estación | [e460](#e460) |
-| Escuela N.º 9 | Los Bloques | [e470](#e470) |
-| Cuartel de Bomberos de la calle Brown | El Puerto | [e480](#e480) |
-| Edificio Sarmiento | Sanidad | [e490](#e490) |
-
-Anotá en la Hoja del refugio sus frentes, Resistencias, Víveres, materiales y reglas propias.
+En el prólogo (e010) elegís dónde resistir, entre seis refugios (e440–e490). Anotá en la Hoja del refugio sus frentes, Resistencias, Víveres, materiales y reglas propias.
 
 <a id="r171"></a>
 ### r171 · Los frentes
@@ -402,27 +359,12 @@ Cada frente tiene **2 espacios de trampa**. Las trampas se fabrican (e741) y col
 <a id="r173"></a>
 ### r173 · Instalaciones
 
-Mejoras del refugio que se construyen una vez cada una (e750–e761).
-
-| Instalación | Qué hace | Receta |
-|---|---|---|
-| Despensa | Los Víveres no se pudren (r177) | [e750](#e750) |
-| Cisterna | Los días de lluvia, +2 Víveres | [e751](#e751) |
-| Huerta | Habilita el puesto Huerta | [e752](#e752) |
-| Enfermería | Habilita el puesto Enfermería y +1 a curar | [e753](#e753) |
-| Taller | +1 a las recetas en el refugio; algunas lo exigen | [e754](#e754) |
-| Cocina a leña | Habilita el puesto Cocina | [e755](#e755) |
-| Dormitorio | +1 Ánimo al dormir; +1 Moral al construirlo | [e756](#e756) |
-| Cortinas negras | −1 Rastro | [e757](#e757) |
-| Vigía | −1 al sondeo; ves dónde están las Procesiones | [e758](#e758) |
-| Radio | Mirás la próxima carta una vez por día | [e759](#e759) |
-| Generador | Electricidad para Taladro, Soldadora y Radio. +2 Rastro | [e760](#e760) |
-| Último Cuarto | La habitación final de la Noche 40: Resistencia 6 | [e761](#e761) |
+Doce mejoras que se construyen una vez cada una, con su receta (e750–e761): Despensa, Cisterna, Huerta, Enfermería, Taller, Cocina a leña, Dormitorio, Cortinas negras, Vigía, Radio, Generador y **Último Cuarto**, la habitación final de la Noche 40.
 
 <a id="r174"></a>
 ### r174 · El Rastro
 
-El **Rastro** (0–10) es cuánto sabe la ciudad de tu refugio: el humo, la luz en las ventanas, el generador, la gente que entra y sale.
+El **Rastro** (0–10) es cuánto sabe la ciudad de tu refugio.
 
 | Sube el Rastro | Baja el Rastro |
 |---|---|
@@ -496,7 +438,7 @@ Quien vuelve tarde de una expedición (r185) no tiene puesto esa noche.
 <a id="r182"></a>
 ### r182 · La Moral del grupo
 
-La **Moral** (0–10) es si el grupo cree que vale la pena seguir. Empieza en 5.
+La **Moral** (0–10) empieza en 5.
 
 | Baja la Moral | Sube la Moral |
 |---|---|
@@ -611,21 +553,12 @@ El **Ánimo** (0–6) es tu cabeza.
 <a id="r196"></a>
 ### r196 · Marcas
 
-Las **Marcas** (`MAYÚSCULAS_CON_GUIONES`) guardan la memoria de la partida: a quién ayudaste, qué viste, qué prometiste. «Anotá `MARCA`»: escribila. «Si tenés `MARCA`»: mirá tu hoja. Las que terminan en guion bajo (`PERDIDO_`, `TOMADO_`) se completan con un nombre. El índice del final dice dónde se gana y dónde se consulta cada una.
+Las **Marcas** (`MAYÚSCULAS_CON_GUIONES`) guardan la memoria de la partida. «Anotá `MARCA`»: escribila; «si tenés `MARCA`»: mirá tu hoja. Las que terminan en guion bajo (`PERDIDO_`) se completan con un nombre. El índice del final dice dónde se gana y se consulta cada una.
 
 <a id="r197"></a>
 ### r197 · Las facciones
 
-Cuatro grupos se reparten Tolme. Tu **Reputación** con cada uno va de −3 a +3, empieza en 0 y se mueve **una vez por evento**.
-
-| Facción | Dónde | Entrada |
-|---|---|---|
-| **La Parroquia** | Catedral, El Casco | [e660](#e660) |
-| **Los Bomberos** | Cuartel Central, La Fabril | [e670](#e670) |
-| **Los Lobos** | Barrio cerrado, Las Lomas | [e680](#e680) |
-| **El Destacamento** | Campamento militar, El Perímetro | [e690](#e690) |
-
-Con **+3** son tus aliados: algunos pueden venir a la Noche 40. Con **−3**, tus enemigos: vienen a buscarte.
+Cuatro grupos se reparten Tolme: **la Parroquia** ([e660](#e660)), **los Bomberos** ([e670](#e670)), **los Lobos** ([e680](#e680)) y **el Destacamento** ([e690](#e690)). Tu **Reputación** con cada uno va de −3 a +3, empieza en 0 y se mueve **una vez por evento**. Con **+3** son tus aliados: algunos pueden venir a la Noche 40. Con **−3**, tus enemigos: vienen a buscarte.
 
 <a id="r198"></a>
 ### r198 · Tu historia personal
