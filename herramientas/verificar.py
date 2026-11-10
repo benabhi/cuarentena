@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verifica el libro de Caribdis: enlaces rotos, entradas duplicadas, huérfanas y Marcas.
+"""Verifica el libro de Cuarentena: enlaces rotos, entradas duplicadas, huérfanas y Marcas.
 
 Uso: python3 verificar.py [carpeta_libro] [--montar salida.md]
 """
@@ -16,10 +16,20 @@ marks_given = defaultdict(set)
 marks_used = defaultdict(set)
 cur = None
 text_all = ''
+# En Cuarentena se usa el voseo: «anotá», «ganás», «empezás con».
+GIVE_RX = r'(?i)(anot[aá]|gan[aá]s?|empez[aá]s con|escrib[ií]|la Marca|son `)'
+ASK_RX = r'(?i)(ten[eé]s|tengas|sin `|con `|borr[aá])'
+NO_SON_MARCAS = {'MARCA', 'MAYÚSCULAS_CON_GUIONES'}
+# Marcas de registro: se anotan para la memoria de la partida y no hace falta consultarlas.
+SOLO_REGISTRO = ('ENFERMERA_', 'ALBANIL_', 'AGENTE_', 'REPARTIDORA_')
+# Las tablas de origen de los protagonistas dan una Marca por fila.
+GIVEN_BY_TABLE = {'r101', 'r102', 'r103', 'r104'}
 
 for f in files:
     s = open(f, encoding='utf-8').read()
     text_all += s + '\n\n'
+    if f.endswith('96-indice-marcas.md'):
+        continue          # el índice enlaza todo: no cuenta para huérfanas
     for line in s.splitlines():
         m = re.search(r'<a id="([re]\d{3})"></a>', line)
         if m:
@@ -33,8 +43,15 @@ for f in files:
         # bare references like "→ e214", "(r140)", "· e214`" also count as links
         for t in re.findall(r'(?<![\w#\[])([re]\d{3})(?![\w\]])', line):
             links[t].add(cur or os.path.basename(f))
-        for mk in re.findall(r'`([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ0-9_]{2,})`', line):
-            if re.search(r'(anota|gana|Gana|Anota)[^.]*`' + re.escape(mk) + '`', line):
+        for m in re.finditer(r'`([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ0-9_]{2,})`', line):
+            mk = m.group(1)
+            if mk in NO_SON_MARCAS:
+                continue
+            # Se mira solo la oración en la que aparece la Marca, hasta la Marca.
+            pre = re.split(r'\. |\|', line[:m.start()])[-1]
+            give = [g.end() for g in re.finditer(GIVE_RX, pre)]
+            ask = [a.end() for a in re.finditer(ASK_RX, pre)]
+            if cur in GIVEN_BY_TABLE or (give and (not ask or give[-1] > ask[-1])):
                 marks_given[mk].add(cur)
             else:
                 marks_used[mk].add(cur)
@@ -50,12 +67,12 @@ for b in broken:
     print('  ', b, '<-', ', '.join(sorted(x for x in links[b] if x)))
 print(f'Duplicados ({len(dups)}):', dups)
 print(f'Huérfanas ({len(orphans)}):', orphans)
-never_used = sorted(m for m in marks_given if m not in marks_used and not m.startswith('FRAGMENTO_') and not m.startswith('RUTA_'))
-never_given = sorted(m for m in marks_used if m not in marks_given and not m.endswith('_'))
+never_used = sorted(m for m in marks_given if m not in marks_used and not m.endswith('_') and not m.startswith(SOLO_REGISTRO))
+prefijos = [p for p in marks_given if p.endswith('_')] + [p for p in marks_used if p.endswith('_')]
+never_given = sorted(m for m in marks_used if m not in marks_given and not m.endswith('_') and not any(m.startswith(p) for p in prefijos))
 print(f'Marcas que se ganan y nunca se consultan ({len(never_used)}):', ', '.join(never_used))
 print(f'Marcas consultadas que nunca se ganan explícitamente ({len(never_given)}):', ', '.join(never_given))
-frags = sorted(m for m in marks_given if m.startswith('FRAGMENTO_'))
-print(f'Fragmentos distintos: {len(frags)}')
+print(f'Marcas distintas: {len(set(marks_given) | set(marks_used))}')
 
 if '--montar' in sys.argv:
     out = sys.argv[sys.argv.index('--montar') + 1]

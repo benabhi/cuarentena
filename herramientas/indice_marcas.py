@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Regenera libro/91-indice-marcas.md a partir de las Marcas citadas en el libro."""
+"""Regenera libro/96-indice-marcas.md a partir de las Marcas citadas en el libro."""
 import re, glob, os
 from collections import defaultdict
 base = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'libro')
 usos = defaultdict(set)
 NO_SON_MARCAS = {'MARCA', 'VERSALITAS'}
 for f in sorted(glob.glob(os.path.join(base, '*.md'))):
-    if f.endswith('91-indice-marcas.md'):
+    if f.endswith('96-indice-marcas.md'):
         continue
     cur = None
     for line in open(f, encoding='utf-8'):
@@ -19,9 +19,9 @@ for f in sorted(glob.glob(os.path.join(base, '*.md'))):
                     continue      # ejemplos del texto y prefijos (FRAGMENTO_, PERDIDO_)
                 usos[mk].add(cur)
 out = ['', '---', '', '## Índice de Marcas', '',
-       '*Dónde aparece cada Marca. Útil para saber qué abre lo que llevas anotado.*', '',
+       '*Dónde aparece cada Marca. Útil para saber qué abre lo que llevás anotado.*', '',
        '| Marca | Entradas |', '|---|---|']
 for mk in sorted(usos):
     out.append(f'| `{mk}` | ' + ' · '.join(f'[{e}](#{e})' for e in sorted(usos[mk])) + ' |')
-open(os.path.join(base, '91-indice-marcas.md'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
+open(os.path.join(base, '96-indice-marcas.md'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
 print(len(usos), 'marcas')

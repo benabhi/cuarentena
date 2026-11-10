@@ -4,7 +4,7 @@
 
 Juego de rol en solitario de supervivencia en una ciudad sellada. Un libro de **UtopIA**.
 
-> **Estado:** en diseño (fase 2 del manifiesto de UtopIA). El plan está en [`docs/plan-de-diseno.md`](docs/plan-de-diseno.md) y el mundo en [`docs/biblia-del-mundo.md`](docs/biblia-del-mundo.md).
+> **Estado:** texto completo (fase 3 del manifiesto de UtopIA): 118 reglas y 522 eventos en [`libro/`](libro/), unas 107.000 palabras, sin enlaces rotos ni Marcas sueltas (`python3 herramientas/verificar.py`). El plan está en [`docs/plan-de-diseno.md`](docs/plan-de-diseno.md) y el mundo en [`docs/biblia-del-mundo.md`](docs/biblia-del-mundo.md). Lo que sigue: simulador, auditoría, maqueta y arte.
 
 Este repositorio va a contener todo lo necesario para recrear el manual en PDF (A4, 200 páginas) y la app para jugarlo.
 
