@@ -3,7 +3,7 @@
 <a id="r140"></a>
 ### r140 · Cuándo hay combate
 
-Hay combate cuando un evento lo dice o una Procesión te alcanza. Se cuenta en **cuántos son** y **a qué distancia están**, y los especiales tienen ficha propia (e720–e731):
+Hay combate cuando un evento lo dice o una Procesión te alcanza. Se anota **cuántos son** y **a qué distancia están** (los especiales tienen ficha, e720–e731):
 
 > **Bruto ×1 · Cerca** · **Callados ×3 · Lejos**
 
@@ -105,7 +105,7 @@ Los que te acompañan (r185) actúan después de vos: atacan con su Pelea o su P
 <a id="r150"></a>
 ### r150 · El mapa de Tolme
 
-El mapa es un **plano de red**, como el de un subte: cada barrio es una estación y las líneas dicen cómo se llega (r151). Cada barrio tiene una tabla de encuentros (la primera entrada de su bloque: e200, e220… e420, de veinte en veinte) y varios **lugares** con su **tipo** y su **stock** (r160).
+El mapa es un **plano de red**: cada barrio es una estación y las líneas dicen cómo se llega (r151). Cada barrio tiene una tabla de encuentros (la primera entrada de su bloque: e200, e220… e420, de veinte en veinte) y varios **lugares** con su **tipo** y su **stock** (r160).
 
 <a id="r151"></a>
 ### r151 · Las tres capas
@@ -119,7 +119,7 @@ Las conexiones de cada barrio están en el mapa y en la primera entrada de su bl
 <a id="r152"></a>
 ### r152 · Moverse
 
-- **A pie:** Calle ◷ 1 y +1 Ruido, con tabla del barrio (r153); Azoteas ◷ 2, encuentro solo con 1 en 1d6 ([e130](#e130)); Subsuelo ◷ 1, siempre [e110](#e110).
+- **A pie:** Calle y Subsuelo ◷ 1; Azoteas ◷ 2 (r151).
 - **En vehículo** (r157), ◷ 1 cada dos barrios, +2 Ruido (o el del vehículo, e712) y +1 a la tabla. **En bicicleta,** ◷ 1 (con Atajos, dos barrios) y sin Ruido.
 - Ir de un lugar a otro del mismo barrio no cuesta tiempo.
 - **En grupo**, todos van al paso del más lento.

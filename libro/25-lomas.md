@@ -6,7 +6,7 @@
 ### e300 · Las Lomas: llegar
 *Las Lomas · ◷ 0*
 
-Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o más). Con `HANDY_DE_LOS_LOBOS`, sabés dónde andan las patrullas: −1.
+Al llegar por la Calle, **1d6 + la Etapa** (r153). Con `HANDY_DE_LOS_LOBOS`, sabés dónde andan las patrullas: −1.
 
 | Resultado | Encuentro | Resultado | Encuentro |
 |---|---|---|---|

@@ -69,3 +69,21 @@ El autor eligió bajar a **~64.000 palabras** sin perder mecánicas. Estado: **7
 **Medición** (mismo método que arriba, cada capítulo empieza en página nueva): **170 páginas** de texto corrido contra 149 de Caribdis. La comparación exagera la diferencia: las hojas de protagonista, refugio y grupo (unas 4 páginas) se arman aparte en la maqueta, y el catálogo, las plantillas y el índice de Marcas van a tres columnas y cuerpo 8, como en Caribdis, donde Cuarentena ahorra más porque su catálogo es el doble. Equivalente estimado: unas **164 páginas** contra 149.
 
 **Lo que falta para 64.000:** unas 6.500 palabras más. Candidatos: sobrevivientes (11 páginas), historias (12), catálogo, baraja y calle. La alternativa es usar menos láminas a página entera que Caribdis: cada lámina menos es una página de texto más.
+
+## Cuarta pasada y presupuesto de páginas (2026-11-10)
+
+El autor pidió reducir más sin perder calidad, con las hojas de juego dentro del libro y lugar para algunas láminas. Cuarta pasada: color de sobrevivientes, baraja y calle; tablas chicas a líneas (la crisis, el sondeo, la noche afuera, el Subsuelo, los especiales de la cuadra); la línea de encuentro de cada barrio remite a r153. Quedan **70.200 palabras** y la medición da **167 páginas** de texto corrido (Caribdis: 149).
+
+**Dónde está el piso.** Lo que queda son reglas, opciones, tablas y la frase de color que da identidad a cada lugar. Recortar más ya es sacar eventos u opciones, que es justo lo que da rejugabilidad.
+
+**Presupuesto para 200 páginas** (cómo se reparte Caribdis: 19 páginas casi sin texto, 65 con imagen o aire, 99 llenas):
+
+| Parte | Páginas |
+|---|---:|
+| Tapa, créditos y logo, índice, separadores de parte, contratapa | ~9 |
+| Láminas a página entera | ~8 |
+| Texto (167 medidas, con las hojas de juego; catálogo, plantillas e índice de Marcas a tres columnas: −6) | ~161 |
+| Viñetas, aperturas de capítulo y aire | ~22 |
+| **Total** | **200** |
+
+Caribdis dejó unas 51 páginas para arte y aire; Cuarentena, con más reglas, deja unas 39. La cuenta final la da la maqueta real: si sobra, se ajusta página por página como en Caribdis (una línea menos en el evento que desborda), no con recortes generales.

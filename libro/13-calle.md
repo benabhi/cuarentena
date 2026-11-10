@@ -4,7 +4,7 @@
 ### e100 · La Procesión
 *Un barrio con Procesión · ◷ 0*
 
-Primero el olor. Después, la avenida entera llena de hombros que se rozan. No te vieron.
+La avenida entera llena de hombros que se rozan. No te vieron.
 
 Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 
@@ -37,14 +37,7 @@ Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 
 Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin Linterna, todo tiene Desventaja.
 
-| Resultado | Encuentro | Resultado | Encuentro |
-|---|---|---|---|
-| 2 o menos | [e111](#e111) | 8 | [e117](#e117) |
-| 3 | [e112](#e112) | 9 | [e118](#e118) |
-| 4 | [e113](#e113) | 10 | [e119](#e119) |
-| 5 | [e114](#e114) | 11 | [e120](#e120) |
-| 6 | [e115](#e115) | 12 o más | [e121](#e121) |
-| 7 | [e116](#e116) | | |
+**2 o menos** [e111](#e111) · **3** [e112](#e112) · **4** [e113](#e113) · **5** [e114](#e114) · **6** [e115](#e115) · **7** [e116](#e116) · **8** [e117](#e117) · **9** [e118](#e118) · **10** [e119](#e119) · **11** [e120](#e120) · **12 o más** [e121](#e121).
 
 ---
 
@@ -52,7 +45,7 @@ Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin 
 ### e111 · El andén vacío
 *Subsuelo · ◷ 0*
 
-Un andén vacío, con la publicidad todavía iluminada. Llegás.
+Un andén vacío, con la publicidad iluminada. Llegás.
 
 ---
 
@@ -237,9 +230,7 @@ Desde la terraza más alta, 1d6: **1–2**, todas las Procesiones del mapa, y un
 
 Tirá 1d6 (+1 con `LA_TOPO` en un barrio con Subsuelo; −1 en Etapa III o IV):
 
-| 1d6 | 1 o menos | 2 | 3 | 4 | 5 | 6 o más |
-|---|---|---|---|---|---|---|
-| Dónde | [e144](#e144) | [e143](#e143) | [e141](#e141) | [e145](#e145) | [e141](#e141) | [e142](#e142) |
+**1 o menos** [e144](#e144) · **2** [e143](#e143) · **3** [e141](#e141) · **4** [e145](#e145) · **5** [e141](#e141) · **6 o más** [e142](#e142).
 
 Comés de tu Mochila o perdés 1 Reserva. Al alba, robás la carta donde estés.
 
@@ -295,7 +286,7 @@ Una linterna te encandila: «Esto ya tiene dueño». Vivos: r300 con la postura 
 ### e150 · Silencio
 *Calle · ◷ 0*
 
-Un semáforo que cambia para nadie. Llegás sin problemas.
+Un semáforo que cambia para nadie. Llegás.
 
 ---
 

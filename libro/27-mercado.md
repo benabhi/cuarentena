@@ -6,7 +6,7 @@
 ### e340 · El Mercado: llegar
 *El Mercado · ◷ 0*
 
-Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o más). Con `HUMO_EN_EL_MERCADO`, podés seguir el humo ([e024](#e024)).
+Al llegar por la Calle, **1d6 + la Etapa** (r153). Con `HUMO_EN_EL_MERCADO`, podés seguir el humo ([e024](#e024)).
 
 | Resultado | Encuentro | Resultado | Encuentro |
 |---|---|---|---|

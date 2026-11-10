@@ -6,7 +6,7 @@
 ### e280 · Los Bloques: llegar
 *Los Bloques · ◷ 0*
 
-Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o más).
+Al llegar por la Calle, **1d6 + la Etapa** (r153).
 
 | Resultado | Encuentro | Resultado | Encuentro |
 |---|---|---|---|

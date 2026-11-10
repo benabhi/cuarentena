@@ -6,7 +6,7 @@
 ### e220 · Sanidad: llegar
 *Sanidad · ◷ 0*
 
-Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o más). En Sanidad, **+1** más: siempre.
+Al llegar por la Calle, **1d6 + la Etapa** (r153). En Sanidad, **+1** más: siempre.
 
 | Resultado | Encuentro | Resultado | Encuentro |
 |---|---|---|---|

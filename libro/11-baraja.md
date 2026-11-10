@@ -40,7 +40,7 @@ Enfrente, una mujer mayor muestra un cartón: NECESITO REMEDIOS PARA LA PRESIÓN
 ### e023 · El camión de reparto
 *Un barrio vecino · ◷ 0*
 
-Un camión de supermercado volcado. Tirá cuál de tus barrios vecinos por la Calle. Hasta el final de la carta siguiente, tiene un lugar más:
+Un camión volcado. Tirá cuál de tus barrios vecinos por la Calle. Hasta el final de la carta siguiente, tiene un lugar más:
 
 > **Camión volcado** · *Almacén · stock ▢▢▢*
 
@@ -68,7 +68,7 @@ Un lugar que ya tiene tu marca de búsqueda recupera **1 casilla de stock** (2 s
 ### e026 · Papeles
 *Tu refugio · ◷ 0*
 
-Entre facturas y cartas de amor, 1d6: con 1–3, un **manual** ([e770](#e770)); con 4–5, una nota sobre la cuarentena: una pista ([e560](#e560)); con 6, un mapa del Subsuelo a mano: anotá `MAPA_DEL_SUBSUELO` (sin Linterna, ya no tenés Desventaja para orientarte allá abajo, solo para pelear).
+Entre papeles viejos, 1d6: con 1–3, un **manual** ([e770](#e770)); con 4–5, una nota sobre la cuarentena: una pista ([e560](#e560)); con 6, un mapa del Subsuelo a mano: anotá `MAPA_DEL_SUBSUELO` (sin Linterna, ya no tenés Desventaja para orientarte allá abajo, solo para pelear).
 
 ---
 
@@ -206,8 +206,6 @@ Una pareja, una abuela y tres chicos se sientan enfrente, mirando tu puerta.
 ### e038 · La venda
 *Tu refugio · ◷ 0*
 
-Alguien usa manga larga aunque hace calor.
-
 - **Con `MORDIDO_EN_SECRETO_`:** es esa persona, con Fiebre 2 (o la que tenga). Se descubre.
 - **Sin ella:** 1d6. Con 1–3, un sobreviviente al azar que no dijo nada: Fiebre 2. Con 4–6, falsa alarma, pero el miedo queda: −1 Moral.
 
@@ -244,8 +242,6 @@ Las Procesiones se mueven. Por cada ficha, 1d6: con **1–2**, avanza un barrio 
 ### e041 · Huellas en el barro
 *Tu refugio · ◷ 0*
 
-Huellas descalzas en círculos alrededor del refugio.
-
 Esta noche hay **sondeo seguro** ([e072](#e072)); con la carta 4 o más, al frente más débil. Borrar las huellas con lavandina (1 Químicos, ◷ 1): el sondeo se tira normal y el Rastro baja 1.
 
 ---
@@ -254,7 +250,7 @@ Esta noche hay **sondeo seguro** ([e072](#e072)); con la carta 4 o más, al fren
 ### e042 · La Procesión pasa
 *Tu refugio · ◷ 0*
 
-Tarda una hora en pasar por tu puerta. Poné una Procesión en el barrio de tu refugio (si había una, es doble). Mientras pasa:
+Poné una Procesión en el barrio de tu refugio (si había una, es doble). Mientras pasa:
 
 1. **Todos quietos.** `[Sigilo]`, con Desventaja si hay más de 4 personas o está el Negro sin `NEGRO_CON_BOZAL`. Con 10+, pasa de largo. Con 7–9, un rezagado golpea la Puerta: −1 Resistencia. Con 6−, un estornudo, un chico que llora, una olla: sondeo seguro esta noche, con +2 al daño ([e072](#e072)).
 2. **Desviarla** (r156) con un Señuelo que alguien lleva por las Azoteas o el Subsuelo. `[Sigilo]`: con 7+, se va detrás; con 6−, se va igual, y el que lo llevó vuelve con 1 Herida (con 1 en 1d6, no vuelve).
@@ -277,14 +273,7 @@ Tres tipos con caños y un revólver: «Esta cuadra es nuestra».
 ### e044 · Algo en la cuadra
 *Barrio de tu refugio · ◷ 0*
 
-1d6 según la Etapa:
-
-| Etapa | 1–3 | 4–6 |
-|---|---|---|
-| I | Fresco ([e721](#e721)) | Hinchado ([e722](#e722)) |
-| II | Chillona ([e723](#e723)) | Sabuesos ×1d6 ([e725](#e725)) |
-| III | Bruto ([e726](#e726)) | Escupidor ([e727](#e727)) |
-| IV | La Viuda ([e730](#e730)) | Blindados ×2 ([e729](#e729)) |
+1d6 según la Etapa (1–3 / 4–6): **I** Fresco ([e721](#e721)) / Hinchado ([e722](#e722)) · **II** Chillona ([e723](#e723)) / Sabuesos ×1d6 ([e725](#e725)) · **III** Bruto ([e726](#e726)) / Escupidor ([e727](#e727)) · **IV** La Viuda ([e730](#e730)) / Blindados ×2 ([e729](#e729)).
 
 1. **Salir a matarlo.** Combate Lejos, en la calle. Si ganás, +1 Ánimo (y +1 Rastro con armas de fuego).
 2. **Esperar.** Sondeo seguro esta noche ([e072](#e072)); si sale 5 en el tipo, es este.
@@ -295,8 +284,6 @@ Tres tipos con caños y un revólver: «Esta cuadra es nuestra».
 <a id="e045"></a>
 ### e045 · El rastro de sangre
 *Tu refugio · ◷ 0*
-
-Gotas de sangre hasta tu puerta.
 
 - Esta noche, el Rastro cuenta **+3** para el sondeo. **Limpiar** (1 Químicos, ◷ 1): solo +1.
 - **Etapa II o más:** al mediodía, Sabuesos ×1d6 llegan a tu puerta. Combate Cerca en la vereda, o atrancar y esperar: −1d6 a la Puerta, y se van.
@@ -322,7 +309,7 @@ Amanecen en la puerta: **Callados ×2d6**, empujando despacio.
 - Mientras estén, **no salís por la Calle** (sí por Azoteas o Subsuelo, si el refugio tiene salida).
 - Cada anochecer, la Puerta pierde 1 por cada 3 Callados.
 - **Desde arriba,** con armas a distancia: combate Lejos, y no avanzan. El Ruido cuenta como siempre.
-- **Abrir y pelear:** combate Cerca. Mala idea. A veces la única.
+- **Abrir y pelear:** combate Cerca.
 - **Esperar:** cada alba, con 4–6 en 1d6, se van.
 
 ---
@@ -338,8 +325,6 @@ Tirá el barrio en r155: queda **en llamas** (r159). Si es el tuyo o uno vecino,
 <a id="e049"></a>
 ### e049 · La Marea empuja
 *El Perímetro · ◷ 0*
-
-Una sección del muro cedió, y antes de que la taparan entraron miles.
 
 - **Dos Procesiones** nuevas en el Perímetro.
 - Anotá `EL_MURO_CEDIO`: en la Noche 40, la primera oleada tiene +2 a la Fuerza.
@@ -391,7 +376,7 @@ Con cualquier radio: *«Habla la Radio Oficial del Comando de Emergencia…»*
 
 Mirá la próxima carta (r136) y devolvela. Después, 1d6:
 
-- **1–2 · Zonas a evitar:** nombra un barrio. Procesión nueva ahí (r155). Al menos lo sabés.
+- **1–2 · Zonas a evitar:** nombra un barrio. Procesión nueva ahí (r155).
 - **3–4 · Pronóstico:** «Lloviznas aisladas». Nunca acierta.
 - **5 · Algo distinto:** debajo de la voz, alguien tose. Un perro. Un auto. Una pista ([e560](#e560)).
 - **6 · El conteo:** «Faltan…» y un número. Si no coincide con las cartas del mazo, anotá `LA_SENORA_SE_EQUIVOCA`.
@@ -437,7 +422,7 @@ Pasa bajo, sin insignias, y tira volantes amarillos:
 ### e058 · El muro cruje
 *Tolme · ◷ 0*
 
-Toda la noche, golpes sordos desde el muro. Cada persona pierde 1 Ánimo, o la Moral baja 1 (elegís).
+Golpes sordos desde el muro toda la noche. Cada persona pierde 1 Ánimo, o la Moral baja 1 (elegís).
 
 Si hoy estás en el Perímetro, o alguien sube con binoculares, ves la grieta: anotá `GRIETA_EN_EL_MURO`. Si ya la tenías, cede → [e049](#e049).
 
@@ -488,7 +473,7 @@ Una explosión sorda: alguien voló la bóveda del Banco Provincia. Si vas hoy a
 ### e063 · Sota de Copas · La boda
 *Tu refugio · ◷ 0*
 
-Dos del grupo se quieren casar. Sí, ahora. (Con menos de 2 sobrevivientes, son vecinos que te piden de testigo: ◷ 2, +1 Ánimo y 1 Víver de torta.)
+Dos del grupo se quieren casar. (Con menos de 2 sobrevivientes, son vecinos que te piden de testigo: ◷ 2, +1 Ánimo y 1 Víver de torta.)
 
 1. **Fiesta grande.** 3 Víveres, música, baile. +3 Moral, +1 Ánimo para todos, +2 Rastro. Si Celeste canta, es la mejor noche de la cuarentena: anotá `LA_BODA`.
 2. **Fiesta chica.** 1 Víver y un discurso: `[Labia]`. Con 10+, +2 Moral; si no, +1, porque se rieron igual.
@@ -548,7 +533,7 @@ Una columna de miles cruza la ciudad. Hasta el alba, **El Perímetro, La Fabril,
 ### e068 · Rey de Espadas · El Pastor
 *Tolme · ◷ 0*
 
-El de la Guardia vio a uno detenerse en una esquina y elegir. Detrás de él, la Procesión entera giró a la vez.
+El de la Guardia vio a uno detenerse en una esquina y elegir; la Procesión entera giró detrás.
 
 Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). En la Etapa IV, cada Procesión que avance hacia tu refugio un día de Espadas avanza **dos** barrios. Con `PISTA_PASTOR` → [e575](#e575).
 

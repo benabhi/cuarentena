@@ -12,7 +12,7 @@
 ### e600 · Don Ernesto
 *Sobreviviente · ◷ 0*
 
-Setenta y dos años, gorra del Ferrocarril, aceitando una pieza en la cabina de una locomotora. «Cuarenta y un años en el ferrocarril. No me voy a ir de acá para morirme en otro lado».
+Setenta y dos años, gorra del Ferrocarril, en la cabina de una locomotora. «No me voy a ir de acá para morirme en otro lado».
 
 **Para que venga:** `[Labia]`. Con 10+, viene. Con 7–9, si le prometés volver por la locomotora: anotá `PROMESA_ERNESTO`. Con sus pastillas (1 Fármacos), sin prueba.
 
@@ -25,7 +25,7 @@ Setenta y dos años, gorra del Ferrocarril, aceitando una pieza en la cabina de 
 ### e601 · El corazón
 *Don Ernesto · ◷ 0*
 
-A la mañana no se levanta, la mano en el pecho. «No es nada».
+No se levanta, la mano en el pecho. «No es nada».
 
 1. **Atenderlo,** `[Medicina]` (+1 con Enfermería). Con 10+, mañana está bien. Con 7–9, sin puestos 2 noches. Con 6−, muere esa noche: −2 Moral (−3 con `PROMESA_ERNESTO` sin cumplir).
 2. **Salir hoy** a una Farmacia o un Hospital. Si volvés antes de la noche con 1 Fármacos, se estabiliza; si no, como la 1 con 6−.
@@ -46,7 +46,7 @@ A la mañana no se levanta, la mano en el pecho. «No es nada».
 ### e603 · Lucía
 *Sobreviviente · ◷ 0*
 
-La maestra de 4.º B, con una lista en birome. «Me faltan tres: Tomás, Agustina y Sol. A estos no vino nadie a buscarlos».
+La maestra de 4.º B, con una lista: «Me faltan tres. A estos no vino nadie a buscarlos».
 
 **Para que venga:** si le prometés ayudarla. Si es tu conocida (r103), sin pedir nada.
 
@@ -78,7 +78,7 @@ Anotá `LOS_TRES_ALUMNOS`. Con Lucía, en el lugar de cada uno, preguntás (◷ 
 ### e606 · El Chino Morales
 *Sobreviviente · ◷ 0*
 
-Delantal de parrillero y un cuchillo de asado, cocinando chorizos en una oficina trabada. «¿Tenés hambre? Yo no».
+Delantal de parrillero, cocinando chorizos en una oficina trabada. «¿Tenés hambre?».
 
 **Para que venga:** `[Labia]`. Con 10+, trae 4 Víveres. Con 7–9, viene, pero esos Víveres son suyos. Con 6−, te convida un chorizo (+1 Reserva) y te echa.
 
@@ -91,7 +91,7 @@ Delantal de parrillero y un cuchillo de asado, cocinando chorizos en una oficina
 ### e607 · Lo que falta
 *El Chino Morales · ◷ 0*
 
-Debajo del colchón del Chino, un hueco con latas, un salame y dos botellas de vino.
+Debajo del colchón del Chino, latas y un salame.
 
 1. **Hablarle solo,** `[Labia]`. Con 7+, te cuenta que vio a su hermano morirse de hambre en una cola del Mercado; devuelve todo (+3 Víveres) y deja de esconder. Con 6−, devuelve todo y no te habla una semana.
 2. **Decirlo delante de todos.** +3 Víveres, −1 Moral, y pasa de Glotón a Testarudo.
@@ -109,7 +109,7 @@ Debajo del colchón del Chino, un hueco con latas, un salame y dos botellas de v
 ### e609 · Ana y Bruno
 *Sobrevivientes · ◷ 0*
 
-Debajo de una mesa, una nena de nueve y su hermano de catorce con un cuchillo atado a un palo de escoba. «Mamá está en el hospital. Dijo que volvía».
+Debajo de una mesa, una nena de nueve y su hermano de catorce con una lanza de escoba. «Mamá dijo que volvía».
 
 **Para que vengan:** `[Labia]`, o dejar 1 Víver y esperar (◷ 1). Con 7+, vienen. Con 6−, se escapan; la próxima vez que r180 dé «un sobreviviente», son ellos, sin prueba.
 
@@ -132,7 +132,7 @@ Al alba, una nota: «Fui a buscar a mamá. Cuiden a Ana».
 ### e611 · La guardia de pediatría
 *Sanidad · Hospital Central · ◷ 1*
 
-Dibujos de animales, camillas chiquitas y, al fondo, una enfermera de espaldas. 1d6:
+Camillas chiquitas y, al fondo, una enfermera de espaldas. 1d6:
 
 - **1–3 · Es ella, y no es ella.** **Callada ×1 · Cerca**, con el gafete «G. Sosa». Si Bruno está, decide: lo hace él (no se defiende) o vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: pasa a Testarudo con Pelea 2.
 - **4–5 · No es ella.** Su cuaderno: «Día 4. Me quedo con los chicos de la sala 3». +1 Moral al volver.
@@ -144,7 +144,7 @@ Dibujos de animales, camillas chiquitas y, al fondo, una enfermera de espaldas. 
 ### e612 · Pocho
 *Sobreviviente · ◷ 0*
 
-Un cerrajero gordo y pelado entre cientos de llaves con etiqueta. «Tengo la llave de medio barrio. Y no sirve para nada».
+Un cerrajero entre cientos de llaves con etiqueta. «Tengo la llave de medio barrio. Y no sirve para nada».
 
 **Para que venga:** `[Labia]` con +1. Con 7+, viene con su tablero. Con 6−, te da tres llaves: tres lugares del Casco o Los Bloques que revisás sin Ruido.
 
@@ -158,7 +158,7 @@ Un cerrajero gordo y pelado entre cientos de llaves con etiqueta. «Tengo la lla
 ### e613 · Para quién roba Pocho
 *Pocho · ◷ 0*
 
-De madrugada, saliendo por la ventana con 2 Víveres, 1 Fármacos y leche en polvo.
+De madrugada, sale por la ventana con 2 Víveres y 1 Fármacos.
 
 1. **Seguirlo,** `[Sigilo]`, ◷ 2. Deja la mochila en una puerta de Los Bloques: abre una mujer con un bebé, su ex y su hijo. Con 6−, te ve y te lo cuenta él. Anotá `EL_HIJO_DE_POCHO`.
 2. **Pararlo.** Te cuenta todo. Anotá `EL_HIJO_DE_POCHO`.
@@ -179,7 +179,7 @@ Daiana, veinte años, y Thiago, cuatro meses, detrás de una cómoda.
 ### e615 · Rita
 *Sobreviviente · ◷ 0*
 
-Guardapolvo verde de veterinaria y una venda en el antebrazo. «Un perro. El día 1. Estoy bien».
+Veterinaria, con una venda en el antebrazo. «Un perro. Estoy bien».
 
 **Para que venga:** `[Labia]` 7+, o un lugar para dormir. Con 6−, aparece en tu refugio al día siguiente.
 
@@ -211,7 +211,7 @@ Por el espejo ves la herida: una mordida humana. «Tengo fiebre desde el día 2.
 ### e618 · Gustavo
 *Sobreviviente · ◷ 0*
 
-Traje gris, encerrado en una oficina de vidrio con la foto de una nena. «Mi hija está en el colegio inglés de Las Lomas».
+Traje gris, encerrado en una oficina con la foto de una nena. «Mi hija está en el colegio inglés de Las Lomas».
 
 **Para que venga:** si le prometés ir a Las Lomas.
 
@@ -235,7 +235,7 @@ Su planilla tiene una última columna: «Probabilidad de que siga viva».
 ### e620 · La hija de Gustavo
 *Las Lomas · Saint Andrew's School · ◷ 1*
 
-En la capilla atrancada, una docena de chicos de uniforme y una profesora con un palo de hockey. Gustavo dice un nombre. 1d6:
+En la capilla atrancada, chicos de uniforme y una profesora con un palo de hockey. 1d6:
 
 - **1–2 · No está.** Su madre la buscó el día 1. Gustavo pasa de Cobarde a Frío.
 - **3–5 · Está.** Anotá `LA_HIJA_DE_GUSTAVO`: viene (Cocina, Huerta o Descanso). +3 Moral.
@@ -247,7 +247,7 @@ En la capilla atrancada, una docena de chicos de uniforme y una profesora con un
 ### e621 · La Tana
 *Sobreviviente · ◷ 0*
 
-Delantal de goma y una cuchilla: tres Callados, tres golpes. «Los Lobos se llevaron mi puesto. Y a mi marido». En la cámara de frío, alguien golpea.
+Carnicera: tres Callados, tres golpes. «Los Lobos se llevaron mi puesto. Y a mi marido». En la cámara de frío, alguien golpea.
 
 **Para que venga:** si estás contra los Lobos (no con Reputación +1). Si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede), sin prueba.
 
@@ -281,7 +281,7 @@ La Tana grita su nombre en la garita de los Lobos ([e305](#e305)). Sale Rolo con
 ### e624 · Mateo
 *Sobreviviente · ◷ 0*
 
-Un estudiante flaco con guantes de látex revuelve una olla que humea violeta. «No toques nada. En serio».
+Un estudiante con guantes de látex revuelve una olla que humea violeta. «No toques nada».
 
 **Para que venga:** `[Labia]` 7+, o mostrarle algo del laboratorio (una pista, `EL_NIVEL_3`, `LOTE_40`).
 
@@ -295,7 +295,7 @@ Un estudiante flaco con guantes de látex revuelve una olla que humea violeta. �
 ### e625 · Lo que vio Mateo
 *Mateo · ◷ 0*
 
-«Dos semanas antes del día 0 llegaron camiones del Comando al Laboratorio, cajas refrigeradas. Y una noche vi a la doctora Ríos llorando en el baño». Una pista ([e560](#e560)). Si Ríos está en el grupo, se miran: anotá `MATEO_Y_RIOS`.
+«Dos semanas antes del día 0 llegaron cajas refrigeradas del Comando. Y vi a la doctora Ríos llorando». Una pista ([e560](#e560)). Si Ríos está en el grupo, se miran: anotá `MATEO_Y_RIOS`.
 
 <a id="e626"></a>
 ### e626 · El análisis
@@ -309,7 +309,7 @@ Una ampolla de L-40 y dos noches en el Taller. «No es una vacuna. Es una copia 
 ### e627 · Doña Rosa
 *Sobreviviente · ◷ 0*
 
-Ochenta años, mate y tortas fritas, una huerta entera en dos metros de balcón. En la pieza del fondo, algo golpea la cama contra la pared. «Es Aurelio. Mi marido. Está enfermo».
+Ochenta años y una huerta en dos metros de balcón. En la pieza del fondo, algo golpea la cama. «Es Aurelio. Está enfermo».
 
 **Para que venga:** sin Aurelio, no → [e628](#e628).
 
@@ -323,7 +323,7 @@ Ochenta años, mate y tortas fritas, una huerta entera en dos metros de balcón.
 ### e628 · Aurelio
 *Doña Rosa · ◷ 0*
 
-Atado con medias de nylon, ojos blancos. Ella le cambia la camisa todos los días.
+Atado con medias de nylon. Ella le cambia la camisa todos los días.
 
 1. **Pedirle permiso,** `[Labia]` con Desventaja. Con 7+, «hacelo rápido»: lo entierra en la maceta más grande y viene. −1 Ánimo. Con 6−, otro día.
 2. **Llevarlo** atado a una silla de ruedas. −1 Moral, y en cada sondeo que entra, con 1 en 1d6, se suelta: **Callado ×1 · Encima**. Anotá `AURELIO_EN_EL_REFUGIO`.
@@ -341,7 +341,7 @@ Un frasco con sobrecitos: «Tomate de Aurelio», «Zapallo». «Por si yo no lle
 ### e630 · Iván
 *Sobreviviente · ◷ 0*
 
-Un soldado de veinticinco con media botella de ginebra, en una torre, con un fusil con mira. «El día 3 me ordenaron tirar a cualquiera que se acercara al muro. Y tiré».
+Un soldado de veinticinco con una ginebra, en una torre. «El día 3 me ordenaron tirar a cualquiera que se acercara al muro. Y tiré».
 
 **Para que venga:** `[Labia]`. Con 10+, con el fusil (Daño 3, Lejos, 2 manos, +2 Ruido) y 6 Munición. Con 7–9, sin el fusil. Con `BUSCADO`, sin prueba: «Vos también te fuiste».
 
@@ -365,7 +365,7 @@ Ocampo baja solo del jeep, con una foto. «Busco al cabo Iván Medina».
 ### e632 · Lo que vio Iván
 *Iván · ◷ 0*
 
-«A las seis llegó la orden: fuego a discreción. A las seis y cuarto, los primeros autos, familias con las balizas puestas. A las seis y media, otra orden: no registrar». Una pista ([e560](#e560)). Esa noche duerme: deja de ser Insomne.
+«A las seis, fuego a discreción. A las seis y cuarto, familias con las balizas puestas. A las seis y media: no registrar». Una pista ([e560](#e560)). Esa noche duerme: deja de ser Insomne.
 
 ---
 
@@ -373,7 +373,7 @@ Ocampo baja solo del jeep, con una foto. «Busco al cabo Iván Medina».
 ### e633 · Celeste
 *Sobreviviente · ◷ 0*
 
-Vestido de lentejuelas, un bolero en un escenario sin luz, y los Callados del salón la miran quietos. «Si me callo, se mueven».
+Un bolero en un escenario sin luz, y los Callados del salón la miran quietos. «Si me callo, se mueven».
 
 **Para que venga:** sacala cuando deje de cantar: **Callados ×1d6 · Cerca**, escena Pasillo (r331).
 
@@ -387,7 +387,7 @@ Vestido de lentejuelas, un bolero en un escenario sin luz, y los Callados del sa
 ### e634 · El silencio
 *Celeste · ◷ 0*
 
-Tararea todo el tiempo, y a la noche algo se para a escuchar: las noches que hace Guardia, +1 al sondeo (r175).
+Tararea todo el tiempo: las noches que hace Guardia, +1 al sondeo (r175).
 
 1. **Pedirle que se calle,** `[Labia]`. Con 7+, canta solo en el baño: ya no suma, pero no hace Guardia nunca. Con 6−, −1 Moral.
 2. **Dejarla.** +1 Moral ahora.
@@ -405,7 +405,7 @@ La noche 39 canta «Volver» como si hubiera doscientas personas. +3 Moral, todo
 ### e636 · El Ruso
 *Sobreviviente · ◷ 0*
 
-Campera de cuero y escarbadientes, en un taxi con un partido grabado en la radio. «Medio tanque, en esta ciudad, es un helicóptero».
+Campera de cuero, en un taxi con un partido grabado. «Medio tanque, en esta ciudad, es un helicóptero».
 
 **Para que venga:** un lugar y comida. Para el taxi → [e637](#e637).
 
@@ -418,7 +418,7 @@ Campera de cuero y escarbadientes, en un taxi con un partido grabado en la radio
 ### e637 · El taxi
 *El Ruso · ◷ 0*
 
-Un Peugeot 504 forrado en peluche. Anotá `EL_TAXI` (3 Combustible). Con el Ruso al volante, a un barrio vecino por la Calle en ◷ 1 (su tabla con +1), 4 personas y 12 casilleros; +2 Ruido al llegar, 1 Combustible cada dos viajes. Nadie más lo maneja.
+Un 504 forrado en peluche. Anotá `EL_TAXI` (3 Combustible). Con el Ruso al volante, a un barrio vecino por la Calle en ◷ 1 (su tabla con +1), 4 personas y 12 casilleros; +2 Ruido al llegar, 1 Combustible cada dos viajes. Nadie más lo maneja.
 
 <a id="e638"></a>
 ### e638 · La última carrera
@@ -435,7 +435,7 @@ Un Peugeot 504 forrado en peluche. Anotá `EL_TAXI` (3 Combustible). Con el Ruso
 ### e639 · Hernán
 *Sobreviviente · ◷ 0*
 
-Camisa abotonada hasta arriba y voz de radio: el pastor de Los Bloques. «Esto es el Juicio. Hay que estar preparados».
+El pastor de Los Bloques, voz de radio. «Esto es el Juicio. Hay que estar preparados».
 
 **Para que venga:** si su iglesia cayó ([e285](#e285) desde la Etapa III, o un evento), o `[Labia]` 10+ con una pista: «Esto lo hicieron personas».
 
@@ -447,8 +447,6 @@ Camisa abotonada hasta arriba y voz de radio: el pastor de Los Bloques. «Esto e
 <a id="e640"></a>
 ### e640 · El sermón
 *Hernán · ◷ 0*
-
-El domingo predica los cuarenta días del Diluvio.
 
 1. **Dejarlo,** cada semana: con 1–2 en 1d6, −1 Moral; con 3–6, +1. Los Creyentes, siempre +1.
 2. **Pedirle que no,** `[Labia]`. Con 7+, predica en otro cuarto, sin efecto. Con 6−, −1 Moral.
@@ -470,7 +468,7 @@ El domingo predica los cuarenta días del Diluvio.
 ### e642 · Valeria
 *Sobreviviente · ◷ 0*
 
-Pantalones de bombero y una quemadura que le sube por el cuello. «Era bombera. Ya no».
+Una quemadura que le sube por el cuello. «Era bombera. Ya no».
 
 **Para que venga:** `[Labia]` con +1, o una receta pendiente para hacer. Con Reputación +2 con los Bomberos, no.
 
@@ -501,7 +499,7 @@ Después de un 7+, podés dejar que vuelva al cuartel: +3 Reputación, sin perde
 ### e645 · Facu
 *Sobreviviente · ◷ 0*
 
-Diecisiete años, capucha, cuatro monitores. No sale de su cuarto desde el día 0. «Armé una radio con la PC. Escucho cosas».
+Diecisiete años, capucha. No sale de su cuarto desde el día 0. «Armé una radio con la PC. Escucho cosas».
 
 **Para que venga:** `[Labia]` con Desventaja. Con 6−, te da 2 Electrónica y una pista ([e560](#e560)).
 
@@ -531,7 +529,7 @@ En una azotea, Facu se saca la capucha. Pasa de Cobarde a Curioso, +1 Moral, y t
 ### e648 · La doctora Ríos
 *Sobreviviente · ◷ 0*
 
-Pelo gris, dormida en el piso de su oficina abrazada a una notebook. Levanta la pistola sin abrir los ojos. Es Elena Ríos, la directora del Laboratorio.
+Dormida en el piso de su oficina, abrazada a una notebook, levanta la pistola sin abrir los ojos: Elena Ríos, directora del Laboratorio.
 
 **Para que venga:** `[Labia]` con Desventaja; sin ella con 4 pistas o `EL_NIVEL_3`: «Ya sabés. Entonces da igual».
 
@@ -544,8 +542,6 @@ Pelo gris, dormida en el piso de su oficina abrazada a una notebook. Levanta la 
 <a id="e649"></a>
 ### e649 · La notebook
 *La doctora Ríos · ◷ 0*
-
-Una noche, mientras ella hace Guardia, la notebook queda sobre la mesa.
 
 1. **Abrirla,** `[Mecánica]` con Desventaja (sin ella con Facu). Con 7+, mails con el Comando: dos pistas ([e560](#e560)). Si se entera (1–3 en 1d6), −1 Moral y deja de hablarte.
 2. **Preguntarle,** `[Labia]`. Con 10+, una pista y anotá `RIOS_CONFIA`. Con 7–9, «todavía no». Con 6−, se encierra.
@@ -567,7 +563,7 @@ Una noche, mientras ella hace Guardia, la notebook queda sobre la mesa.
 ### e651 · El Negro
 *Sobreviviente · ◷ 0*
 
-Un perro negro con una chapita: «Si me encontrás, llamá a Marcos». Te gruñe, te huele, mueve la cola.
+Un perro negro con una chapita: «Si me encontrás, llamá a Marcos».
 
 **Para que venga:** 1 Víver. Con `EL_NEGRO`, ya es tuyo.
 
