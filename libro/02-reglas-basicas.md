@@ -23,7 +23,7 @@ Cuando un texto dice **→ e030**, andá al evento e030 y leelo. Cuando dice **(
 
 - **Tres dados de seis caras** (d6). «2d6» significa tirar dos y sumarlos. «d66» significa tirar dos dados distintos: el primero son las decenas y el segundo las unidades (de 11 a 66).
 - **Una baraja española de 40 cartas** (sin ochos ni nueves). Es el reloj del juego (r131). Si no tenés, usá la tabla de r137.
-- La **Hoja de protagonista**, la **Hoja del refugio** y el **Mapa de Corinto** (Apéndices), un lápiz y una goma.
+- La **Hoja de protagonista**, la **Hoja del refugio** y el **Mapa de Tolme** (Apéndices), un lápiz y una goma.
 - Un papel doblado para el **Secreto** (r109).
 - Unas fichas o monedas para las **Procesiones** del mapa (r155).
 
@@ -78,7 +78,7 @@ Cada evento indica bajo su título **dónde ocurre** y **cuánto tiempo gasta**:
 <a id="r100"></a>
 ### r100 · Crear a tu protagonista
 
-Elegís a **una de cuatro personas** comunes que estaban en Corinto el día del brote. Cada una tiene su manera de sobrevivir, su debilidad y una historia propia que la ciudad le va a ir contando (e800–e838).
+Elegís a **una de cuatro personas** comunes que estaban en Tolme el día del brote. Cada una tiene su manera de sobrevivir, su debilidad y una historia propia que la ciudad le va a ir contando (e800–e838).
 
 1. **Elegí protagonista:** la Enfermera (r101), el Albañil (r102), la Agente (r103) o la Repartidora (r104).
 2. **Anotá sus Habilidades** (r107). Todas empiezan en 0, salvo las que indica tu protagonista.
@@ -136,7 +136,7 @@ Elegís a **una de cuatro personas** comunes que estaban en Corinto el día del 
 
 > *«Me dieron un sobre y un fusil. Devolví el fusil.»*
 
-**Sofía Leiva**, 31 años. Agente de la policía de Corinto. El día 2 estaba en el cordón del puesto Norte cuando le entregaron una orden sellada para «ejecutar al recibir la señal». Esa noche abandonó su puesto. El sobre sigue cerrado en su campera.
+**Sofía Leiva**, 31 años. Agente de la policía de Tolme. El día 2 estaba en el cordón del puesto Norte cuando le entregaron una orden sellada para «ejecutar al recibir la señal». Esa noche abandonó su puesto. El sobre sigue cerrado en su campera.
 
 - **Habilidades:** Puntería 3, Pelea 2.
 - **Ventaja · Reglamentaria:** empezás con una **pistola** (Daño 2, Ruido 3, Lejos) y **6 de Munición**. Los soldados del Destacamento te reconocen el uniforme: en los eventos con ellos, podés usar Puntería en lugar de Labia para imponerte.
@@ -229,7 +229,7 @@ Una Habilidad en 0 no te impide intentar nada: solo tirás 2d6 sin sumar. Alguna
 <a id="r109"></a>
 ### r109 · El Secreto
 
-Nadie en Corinto sabe por qué la cuarentena dura cuarenta días, quién habla en la radio ni qué hay del otro lado del muro. Vos tampoco: tiraste el **Secreto** sin mirar. Las pistas que juntes en la ciudad (e560–e579) te van a acercar a la verdad, y el final la va a revelar.
+Nadie en Tolme sabe por qué la cuarentena dura cuarenta días, quién habla en la radio ni qué hay del otro lado del muro. Vos tampoco: tiraste el **Secreto** sin mirar. Las pistas que juntes en la ciudad (e560–e579) te van a acercar a la verdad, y el final la va a revelar.
 
 Cuando el libro te diga **«abrí el Secreto»**, desdoblá el papel y andá al evento que te indique. Nunca lo abras antes.
 

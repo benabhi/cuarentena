@@ -194,7 +194,7 @@ Un Bruto ([e726](#e726)) atascado en un túnel de servicio, golpeando las parede
 ### e121 · El cuarto de máquinas
 *Subsuelo · ◷ 1*
 
-Una puerta de chapa con un cartel de PELIGRO ALTA TENSIÓN entreabierta. Adentro, un cuarto de máquinas del subte con tableros, generadores muertos y una mesa. En la mesa, mapas de Corinto con marcas en rojo, un termo y una radio militar apagada.
+Una puerta de chapa con un cartel de PELIGRO ALTA TENSIÓN entreabierta. Adentro, un cuarto de máquinas del subte con tableros, generadores muertos y una mesa. En la mesa, mapas de Tolme con marcas en rojo, un termo y una radio militar apagada.
 
 Alguien estuvo trabajando acá. Alguien que sabía lo que iba a pasar.
 
@@ -285,7 +285,7 @@ Vivos: usá r300. Si sale Quieren venir con vos, se viene uno solo: Nico, 15 añ
 ### e136 · La vista
 *Azoteas · ◷ 1*
 
-Desde la terraza más alta del barrio se ve casi toda Corinto. Te quedás un rato. Ves cosas.
+Desde la terraza más alta del barrio se ve casi toda Tolme. Te quedás un rato. Ves cosas.
 
 Tirá 1d6: **1–2**, ves dónde están todas las Procesiones del mapa (si jugás con fichas tapadas, destapalas) y una que no estaba (r155). **3–4**, ves humo de cocina en un barrio: hay vivos ahí (anotá el barrio; la próxima vez que llegues, en lugar de tirar, podés usar r300 con Hablar). **5**, ves el muro y la Marea del otro lado. Es más grande que la última vez. −1 Ánimo. **6**, ves algo raro en el Perímetro: camiones militares entrando, no saliendo. Una pista ([e560](#e560)).
 
@@ -297,7 +297,7 @@ Tirá 1d6: **1–2**, ves dónde están todas las Procesiones del mapa (si jugá
 ### e140 · La noche te agarra afuera
 *Donde estés · de noche*
 
-El sol se va y estás lejos. Las calles de Corinto, de noche, son de ellos.
+El sol se va y estás lejos. Las calles de Tolme, de noche, son de ellos.
 
 Buscá dónde pasarla. Tirá 1d6 (+1 si tenés `LA_TOPO` y estás en un barrio con Subsuelo; −1 si es la Etapa III o IV):
 
@@ -614,7 +614,7 @@ Un cuerpo boca abajo en la vereda, con una mochila de camping todavía puesta. N
 ### e169 · Lo que escriben en las paredes
 *Calle · ◷ 0*
 
-Las paredes de Corinto hablan. Aerosol, marcador, carbón, sangre. Tirá 1d6:
+Las paredes de Tolme hablan. Aerosol, marcador, carbón, sangre. Tirá 1d6:
 
 - **1** · «MARTA, ESTAMOS EN LA CATEDRAL. MAMÁ». Si sos la Enfermera, −1 Ánimo: no es para vos.
 - **2** · Un mapa dibujado con flechas: «AGUA →». Te dice dónde hay una canilla que funciona: +2 Víveres si gastás ◷ 1.

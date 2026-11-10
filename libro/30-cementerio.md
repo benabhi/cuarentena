@@ -1,6 +1,6 @@
 ## Barrio 11 · Cementerio y Parque
 
-*El cementerio de la ciudad, con sus bóvedas y sus cipreses, y al lado, el Parque Municipal: el vivero, el zoológico, el anfiteatro, los lagos. El lugar más verde y más silencioso de Corinto. Lo que se muere acá, se queda acá.*
+*El cementerio de la ciudad, con sus bóvedas y sus cipreses, y al lado, el Parque Municipal: el vivero, el zoológico, el anfiteatro, los lagos. El lugar más verde y más silencioso de Tolme. Lo que se muere acá, se queda acá.*
 
 <a id="e400"></a>
 ### e400 · Cementerio y Parque: llegar

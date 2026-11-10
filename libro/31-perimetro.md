@@ -1,6 +1,6 @@
 ## Barrio 12 · El Perímetro
 
-*El borde norte de Corinto, donde la ciudad se termina contra el muro: contenedores apilados de a tres, alambre de púas, torres de vigía, el puesto de control de la ruta y, del lado de adentro, el campamento del ejército. Del otro lado, la Marea. Se la escucha. Siempre.*
+*El borde norte de Tolme, donde la ciudad se termina contra el muro: contenedores apilados de a tres, alambre de púas, torres de vigía, el puesto de control de la ruta y, del lado de adentro, el campamento del ejército. Del otro lado, la Marea. Se la escucha. Siempre.*
 
 <a id="e420"></a>
 ### e420 · El Perímetro: llegar

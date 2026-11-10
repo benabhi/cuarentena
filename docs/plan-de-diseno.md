@@ -31,11 +31,11 @@
 
 ## 1. La trama
 
-**El brote.** Un lunes de otoño, en **Corinto** (nombre provisional de la ciudad, ver §11), la gente empieza a morir de una fiebre que dura una noche. A la mañana siguiente, los muertos se levantan. No gritan. No hablan. Caminan. La gente los llama **los Callados**.
+**El brote.** Un lunes de otoño, en **Tolme** (nombre provisional de la ciudad, ver §11), la gente empieza a morir de una fiebre que dura una noche. A la mañana siguiente, los muertos se levantan. No gritan. No hablan. Caminan. La gente los llama **los Callados**.
 
 **El cerco.** En tres días el ejército levanta un muro de contenedores, alambre y hormigón alrededor de la ciudad, corta los puentes y apaga los teléfonos. Lo único que queda es una voz en la radio, repetida cada hora:
 
-> *«Por disposición del Comando de Emergencia, la ciudad de Corinto permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
+> *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
 
 **La Marea.** Afuera del muro, toda la región se convirtió. Millones de Callados se juntan contra el perímetro atraídos por el ruido de la ciudad. Los vigías del muro lo saben: el muro no va a aguantar cuarenta días. La horda que entre esa noche, la **Marea**, va a barrer la ciudad de punta a punta.
 
@@ -199,7 +199,7 @@ Como en Caribdis, una tabla de **postura** (Hablar, Esquivar, Luchar, Observar) 
 
 ---
 
-## 5. El mapa: Corinto en tres capas (r150–r159)
+## 5. El mapa: Tolme en tres capas (r150–r159)
 
 ### 5.1 Cómo es el mapa
 
@@ -275,7 +275,7 @@ Los cuatro arcos personales llevan a distintas pistas sobre el Secreto. El final
 8. **Crafteo con caminos alternativos:** casi todo se puede fabricar de dos o tres maneras.
 9. **Marcas** que reabren eventos lejanos.
 
-### 6.3 Facciones de Corinto
+### 6.3 Facciones de Tolme
 
 | Facción | Quiénes | Qué quieren |
 |---|---|---|
@@ -416,7 +416,7 @@ Huele a alcohol y a algo dulce que no querés reconocer.
 
 ## 13. Pendiente de decidir (con mi recomendación)
 
-1. **Nombre de la ciudad.** Recomiendo **Corinto** (seco, antiguo, sin tribu). Alternativas: **Puerto Ceniza**, **Valdeolmos**, **Santa Bárbara del Río**.
+1. **Nombre de la ciudad.** Recomiendo **Tolme** (seco, antiguo, sin tribu). Alternativas: **Puerto Ceniza**, **Valdeolmos**, **Santa Bárbara del Río**.
 2. **Lema.** Recomiendo «Cuarenta días encerrados. Después, la Marea.».
 3. **Voz del libro.** Caribdis usa «tú». Recomiendo **voseo rioplatense** («sos», «tenés») para darle identidad propia y cercanía de barrio.
 4. **La Baraja española como reloj** (con tabla alternativa de dados). Recomiendo que sí: es la mecánica que más identidad le da.

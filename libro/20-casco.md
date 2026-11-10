@@ -32,7 +32,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e201 · La Catedral
 *El Casco · La Parroquia · sin stock*
 
-La Catedral de Corinto tiene las puertas cerradas con cadenas por dentro y sacos de arena hasta la mitad de la altura. En los escalones, un cartel pintado a mano: AQUÍ HAY LUGAR PARA TODOS. SIN ARMAS. Arriba, en el campanario, alguien con binoculares te mira.
+La Catedral de Tolme tiene las puertas cerradas con cadenas por dentro y sacos de arena hasta la mitad de la altura. En los escalones, un cartel pintado a mano: AQUÍ HAY LUGAR PARA TODOS. SIN ARMAS. Arriba, en el campanario, alguien con binoculares te mira.
 
 Es la casa de **la Parroquia** ([e660](#e660)).
 
@@ -116,7 +116,7 @@ Ocho pisos de un hotel que tuvo tiempos mejores. En el lobby, un piano de cola c
 ### e207 · El Banco Provincia
 *El Casco · Oficina · stock ▢▢*
 
-El banco más viejo de Corinto. Las puertas de vidrio blindado están intactas y cerradas. Adentro, del otro lado del vidrio, un hombre de traje te hace señas desesperadas: que te vayas, que no, que te vayas.
+El banco más viejo de Tolme. Las puertas de vidrio blindado están intactas y cerradas. Adentro, del otro lado del vidrio, un hombre de traje te hace señas desesperadas: que te vayas, que no, que te vayas.
 
 1. **Golpear el vidrio.** Te abre. Es Gustavo → [e618](#e618).
 2. **Entrar por la ventana del baño**, en el pasaje de atrás. `[Físico]`. Con 7+, entrás y podés revisar (r161). Con 6−, 1 Herida.
@@ -166,7 +166,7 @@ Una ambulancia cruzada en la Plaza San Martín, con las puertas de atrás abiert
 ### e213 · La plaza de los zapatos
 *El Casco · ◷ 0*
 
-La Plaza de Mayo de Corinto está llena de zapatos. Cientos. De todos los tamaños. Por donde pasó una Procesión, quedan los zapatos.
+La Plaza de Mayo de Tolme está llena de zapatos. Cientos. De todos los tamaños. Por donde pasó una Procesión, quedan los zapatos.
 
 Y en el medio de la plaza, junto a la fuente seca, una Procesión **dormida**. Quieta. De pie.
 

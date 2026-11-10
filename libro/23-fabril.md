@@ -1,6 +1,6 @@
 ## Barrio 4 · La Fabril
 
-*Galpones, chimeneas apagadas, playones de camiones, talleres, depósitos. El barrio que hacía las cosas de Corinto. Para quien sabe usar las manos, es el paraíso: hierro, madera, químicos, herramientas. Y los Bomberos, que llegaron primero.*
+*Galpones, chimeneas apagadas, playones de camiones, talleres, depósitos. El barrio que hacía las cosas de Tolme. Para quien sabe usar las manos, es el paraíso: hierro, madera, químicos, herramientas. Y los Bomberos, que llegaron primero.*
 
 <a id="e260"></a>
 ### e260 · La Fabril: llegar
@@ -176,6 +176,6 @@ Trajiste una Procesión hasta la fábrica de pinturas (con un Señuelo, una alar
 
 Tenés que prender fuego desde afuera: un Molotov, una bengala, un fósforo y un reguero de solvente. `[Puntería]` o `[Supervivencia]`.
 
-- *10+:* la fábrica explota. Se ve desde toda Corinto. La Procesión desaparece del mapa. La Fabril queda **en llamas** (r159). +2 Rastro. +2 Moral cuando lo contás en el refugio. Anotá `ARDIO_LA_FABRICA`.
+- *10+:* la fábrica explota. Se ve desde toda Tolme. La Procesión desaparece del mapa. La Fabril queda **en llamas** (r159). +2 Rastro. +2 Moral cuando lo contás en el refugio. Anotá `ARDIO_LA_FABRICA`.
 - *7–9:* igual, pero la onda te alcanza: 2 Heridas.
 - *6−:* no prende. La Procesión empieza a salir. → [e100](#e100).

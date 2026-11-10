@@ -1,6 +1,6 @@
 # Los Seis Tesoros
 
-*Seis cosas que alguien perdió, dejó o escondió en Corinto. Seis cosas que pueden cambiar la Noche 40. Ninguna está sola: cada Tesoro tiene su dueño, su guardia o su precio.*
+*Seis cosas que alguien perdió, dejó o escondió en Tolme. Seis cosas que pueden cambiar la Noche 40. Ninguna está sola: cada Tesoro tiene su dueño, su guardia o su precio.*
 
 **Cómo funcionan.** Al preparar la partida tiraste dónde está cada Tesoro (r110). Cuando llegás a ese lugar, la entrada del lugar te manda acá. Cada Tesoro se encuentra **una sola vez**: después, anotá su Marca y el lugar vuelve a ser normal. **Volver al refugio con un Tesoro** vale +2 Moral (r182). Si un Tesoro no se puede llevar entero, la Moral sube cuando llega la primera parte.
 
@@ -193,7 +193,7 @@ Viene con 30 Munición propia, que solo sirve para ella (no cuenta para los fusi
 
 **En el refugio:** podés emplazarla en un frente (◷ 1, no en el Subsuelo): anotá `AMETRALLADORA_EN_` y el frente. En un sondeo a ese frente, el sondeo no hace daño (pero +2 Rastro por los tiros). **En la Noche 40**, mientras le quede munición, ese frente tiene **+4 a la defensa** en cada oleada, y gasta 6 Munición por oleada.
 
-**Si la sacás de paseo**, es la mejor forma de que todo Corinto sepa dónde estás.
+**Si la sacás de paseo**, es la mejor forma de que todo Tolme sepa dónde estás.
 
 ---
 
@@ -282,7 +282,7 @@ Anotá `LA_RADIO_DEL_AFICIONADO`. Desde ahora:
 | 1 | Nada. Estática en todas las bandas. −1 Ánimo para quien escuchaba. |
 | 2 | Un barco en el río, en inglés, pidiendo permiso para pasar. Alguien le contesta: «Negativo. Zona de exclusión». |
 | 3 | Otra ciudad. Una mujer que llama a los suyos desde un techo, a ochocientos kilómetros. También tienen un muro. +1 Ánimo: no estás solo. |
-| 4 | Un grupo de Corinto que usa un handy. Sabés dónde están: hay vivos en un barrio al azar (r180, la próxima vez que vayas, llegan con vos con 4–6 en 1d6). |
+| 4 | Un grupo de Tolme que usa un handy. Sabés dónde están: hay vivos en un barrio al azar (r180, la próxima vez que vayas, llegan con vos con 4–6 en 1d6). |
 | 5 | La frecuencia del Comando → [e542](#e542). |
 | 6 | Alguien que te contesta. → [e543](#e543), una sola vez. Si ya la leíste, como el 5. |
 
@@ -306,7 +306,7 @@ Ya sabés que lo saben.
 ### e543 · Alguien que contesta
 *La radio del aficionado · ◷ 0*
 
-«... Corinto, ¿me copia? Corinto, acá Tigre Dos, desde la otra orilla. ¿Hay alguien?»
+«... Tolme, ¿me copia? Tolme, acá Tigre Dos, desde la otra orilla. ¿Hay alguien?»
 
 Es una mujer. Tiene un barco pesquero y dos hijos, y desde hace tres semanas cruza de noche hasta la escollera para ver si alguien hace señas. No viene nadie. Los militares de las lanchas la corrieron dos veces.
 
@@ -324,7 +324,7 @@ Si tenés `LA_LUZ_DE_ENFRENTE` ([e384](#e384)), la reconocés: era ella la que e
 
 Un vehículo blindado de transporte de tropas, verde, de ocho ruedas, con una torreta y una ametralladora sin munición. La escotilla de atrás está abierta. Adentro, asientos para ocho, un olor a gasoil y a sangre vieja, y un casco en el piso. Tiene las llaves puestas. No arranca.
 
-Es lo más parecido a un tanque que hay en Corinto.
+Es lo más parecido a un tanque que hay en Tolme.
 
 Tirá 1d6:
 
@@ -352,7 +352,7 @@ Cuando arranca, anotá `EL_BLINDADO` → [e552](#e552).
 ### e552 · El blindado en marcha
 *El blindado · ◷ 0*
 
-El motor ruge. Todo Corinto lo escucha. No importa: adentro de esto, no importa.
+El motor ruge. Todo Tolme lo escucha. No importa: adentro de esto, no importa.
 
 Con `EL_BLINDADO`:
 

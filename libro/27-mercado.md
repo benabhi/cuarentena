@@ -1,6 +1,6 @@
 ## Barrio 8 · El Mercado
 
-*El barrio comercial nuevo: el Hipermercado Zeta, el Shopping Paseo Sur, el mayorista, los galpones de bebidas, una galería de electrodomésticos. Acá había más comida que en todo el resto de Corinto junto, y lo sabía todo el mundo. Las primeras dos semanas fueron una guerra. Ahora, quedan las góndolas y lo que nadie encontró.*
+*El barrio comercial nuevo: el Hipermercado Zeta, el Shopping Paseo Sur, el mayorista, los galpones de bebidas, una galería de electrodomésticos. Acá había más comida que en todo el resto de Tolme junto, y lo sabía todo el mundo. Las primeras dos semanas fueron una guerra. Ahora, quedan las góndolas y lo que nadie encontró.*
 
 <a id="e340"></a>
 ### e340 · El Mercado: llegar

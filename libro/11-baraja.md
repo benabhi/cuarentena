@@ -73,7 +73,7 @@ Anotá `HUMO_EN_EL_MERCADO`. Hasta el alba siguiente, si llegás al Mercado, en 
 
 <a id="e025"></a>
 ### e025 · Una puerta sin marca
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Uno del grupo vuelve de la vereda con una noticia: hay un lugar que nadie revisó. Un local con la persiana baja, una casa con las rejas cerradas, un depósito en un pasillo.
 
@@ -95,9 +95,9 @@ Tirá 1d6: con 1–3, es un **manual** ([e770](#e770)); con 4–5, es una nota s
 
 <a id="e027"></a>
 ### e027 · Lo que cayó del cielo
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
-Un helicóptero cruza la ciudad bajo, al alba, y deja caer algo con un paracaídas naranja. Lo ve todo Corinto. Lo ve también lo que no es gente.
+Un helicóptero cruza la ciudad bajo, al alba, y deja caer algo con un paracaídas naranja. Lo ve todo Tolme. Lo ve también lo que no es gente.
 
 Tirá 2d6 en la tabla de Procesiones (r155): ahí cayó. Si es el barrio de tu refugio, cayó en la vereda.
 
@@ -113,7 +113,7 @@ Si llegás antes que nadie, revisarlo te da **2 Antivirales, 4 Víveres y 6 Muni
 ### e028 · El croquis
 *Tu refugio · ◷ 0*
 
-Alguien deslizó un papel por debajo de la puerta durante la noche. Es un croquis a lápiz de una manzana de Corinto, con una cruz en una casa y una frase: «Mi viejo guardaba todo. Yo ya no puedo ir. Que le sirva a alguien.»
+Alguien deslizó un papel por debajo de la puerta durante la noche. Es un croquis a lápiz de una manzana de Tolme, con una cruz en una casa y una frase: «Mi viejo guardaba todo. Yo ya no puedo ir. Que le sirva a alguien.»
 
 Tirá 2d6 en la tabla de Procesiones (r155) para saber en qué barrio está (si sale el Perímetro, tirá de nuevo). Ese barrio tiene, hasta el final de la partida, un lugar más:
 
@@ -125,7 +125,7 @@ Además, la primera vez que la revises, encontrás una caja de herramientas: una
 
 <a id="e029"></a>
 ### e029 · Tres días de lluvia
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Llueve fuerte, gris, sin parar. Los Callados se quedan quietos debajo de los aleros, empapados, mirando la nada. La ciudad entera huele a tierra mojada y a otra cosa.
 
@@ -139,7 +139,7 @@ Llueve fuerte, gris, sin parar. Los Callados se quedan quietos debajo de los ale
 ### e030 · Copas: día de gente
 *Al alba · ◷ 0*
 
-En Corinto todavía hay gente. Para bien y para mal. Tirá 1d6.
+En Tolme todavía hay gente. Para bien y para mal. Tirá 1d6.
 
 | 1d6 | Leve (1–3) | Fuerte (4–7) |
 |---|---|---|
@@ -156,7 +156,7 @@ En Corinto todavía hay gente. Para bien y para mal. Tirá 1d6.
 ### e031 · Golpean la puerta
 *Tu refugio · ◷ 0*
 
-Tres golpes, una pausa, tres golpes. Así golpean los vivos en Corinto: lo aprendió todo el mundo en dos semanas.
+Tres golpes, una pausa, tres golpes. Así golpean los vivos en Tolme: lo aprendió todo el mundo en dos semanas.
 
 Tirá en la tabla de sobrevivientes (r180) y andá a su entrada. Si la carta es 4 o más, son **dos**: tirá dos veces (andá a la primera entrada y, cuando termine, a la segunda).
 
@@ -194,7 +194,7 @@ Alguien del grupo cumple años. No lo dijo, pero otro se acordó. Hay una vela d
 ### e034 · Alguien no se levanta
 *Tu refugio · ◷ 0*
 
-Un sobreviviente (el que elijas, o vos si estás solo) amanece con escalofríos, tos y dolor de huesos. No es la Fiebre: no lo mordieron. Es una gripe, la humedad, el frío del piso. Pero en Corinto todo da miedo.
+Un sobreviviente (el que elijas, o vos si estás solo) amanece con escalofríos, tos y dolor de huesos. No es la Fiebre: no lo mordieron. Es una gripe, la humedad, el frío del piso. Pero en Tolme todo da miedo.
 
 - **Curarlo:** `[Medicina]` y 1 Fármacos. Con 7+, se repone en un día. Con 6−, se repone igual, pero no puede hacer puesto hoy ni mañana.
 - **Dejarlo descansar:** no hace puesto por dos noches. Si es Doña Rosa o Don Ernesto (los viejos), tirá 1d6: con 1, empeora; necesita 2 Fármacos o se muere en dos días.
@@ -392,7 +392,7 @@ Amanecen en la puerta. **Callados ×2d6** quietos frente al refugio, empujando d
 
 <a id="e048"></a>
 ### e048 · Fuego
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Una columna de humo negro. Se quema algo grande, cerca. El viento trae ceniza.
 
@@ -435,7 +435,7 @@ El clima, las paredes, la radio, el muro. Tirá 1d6.
 
 <a id="e051"></a>
 ### e051 · Llovizna
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Llovizna fina, todo el día. Los vidrios empañados. La ciudad suena distinta: gotas en los techos de chapa, en los autos, en las bolsas de basura.
 
@@ -455,7 +455,7 @@ Tirá 1d6: **1** una herramienta (la que elijas) se pierde o se parte. **2** una
 
 <a id="e053"></a>
 ### e053 · Helada
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 La noche fue de cero grados y el día no mejora. El aliento se ve adentro del refugio. Los Callados se mueven más lento, con escarcha en el pelo.
 
@@ -484,7 +484,7 @@ Mirá la próxima carta del mazo (r136) y devolvela. Después, tirá 1d6:
 
 <a id="e055"></a>
 ### e055 · Tormenta
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Viento del sur, lluvia horizontal, chapas que vuelan. Un árbol de la plaza cae sobre un auto y la alarma suena una hora entera hasta que se le muere la batería.
 
@@ -510,9 +510,9 @@ El agua sube por los desagües. En una hora hay un palmo de agua marrón en la p
 
 <a id="e057"></a>
 ### e057 · El helicóptero
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
-Pasa bajo. Gris, sin insignias, con la puerta lateral abierta. Alguien mira la ciudad con binoculares. Después tiran volantes: miles de papeles amarillos que caen sobre Corinto como hojas.
+Pasa bajo. Gris, sin insignias, con la puerta lateral abierta. Alguien mira la ciudad con binoculares. Después tiran volantes: miles de papeles amarillos que caen sobre Tolme como hojas.
 
 > **COMANDO DE EMERGENCIA · DISPOSICIÓN N.º 9**
 > La cuarentena continúa según lo previsto. No se acerquen al perímetro. No hagan señales. La ayuda llegará.
@@ -525,7 +525,7 @@ Pasa bajo. Gris, sin insignias, con la puerta lateral abierta. Alguien mira la c
 
 <a id="e058"></a>
 ### e058 · El muro cruje
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Toda la noche, desde el norte, golpes sordos. Como un tambor enorme y lento. Es el muro: millones de cuerpos empujando contra los contenedores, todos al mismo tiempo, sin parar.
 
@@ -539,7 +539,7 @@ Si ya tenías `GRIETA_EN_EL_MURO`, esta vez cede: andá a [e049](#e049).
 
 <a id="e059"></a>
 ### e059 · Un día quieto
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Sale el sol. No pasa nada. No hay ruidos, no hay humo, no hay radio. Durante un rato largo, alguien del grupo se ríe de algo que dijo otro, y todos se ríen, y nadie sabe bien de qué.
 
@@ -557,7 +557,7 @@ Sale el sol. No pasa nada. No hay ruidos, no hay humo, no hay radio. Durante un 
 
 Una camioneta destartalada frena en tu esquina a media mañana y toca bocina, ¡bocina!, dos veces cortas. Un hombre de bigote y campera de cuero se baja con las manos en alto y una sonrisa de vendedor de autos.
 
-—¡Don Cacho, el último comerciante de Corinto! Compro, vendo, cambio. Tengo de todo. Diez minutos y me voy, antes de que vengan los mudos.
+—¡Don Cacho, el último comerciante de Tolme! Compro, vendo, cambio. Tengo de todo. Diez minutos y me voy, antes de que vengan los mudos.
 
 Tenés **10 minutos**: podés hacer **hasta 4 cambios** (r166), a valor justo y sin prueba. Tiene: Antivirales (2), Munición (12), una herramienta al azar (r202), una Mochila de camping, Combustible (3), un manual ([e770](#e770)) y 6 Víveres. Acepta cualquier material, Fármacos, armas y, sobre todo, alcohol (cada Químicos cuenta doble para él).
 
@@ -567,7 +567,7 @@ La bocina se escuchó: +1 Rastro. Cuando se va, dice: «¡Nos vemos en la próxi
 
 <a id="e061"></a>
 ### e061 · Caballo de Oros · El convoy
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 La Señora interrumpe su comunicado: «Atención. Un convoy de abastecimiento del Comando ingresará hoy por el acceso Norte y descargará en la Terminal de trenes. Los vecinos podrán retirar una ración por grupo familiar. Mantengan la calma.»
 
@@ -621,7 +621,7 @@ No entran. No hay comida para veinte. No hay camas para veinte. Pero están ahí
 ### e065 · Rey de Copas · La asamblea
 *El Casco · ◷ 0*
 
-Un chico en bicicleta deja una invitación escrita a mano, con el sello de la parroquia: «El padre Anselmo convoca a todos los grupos de Corinto a una asamblea en la Catedral, hoy al mediodía. Sin armas. Hablemos de la noche cuarenta.»
+Un chico en bicicleta deja una invitación escrita a mano, con el sello de la parroquia: «El padre Anselmo convoca a todos los grupos de Tolme a una asamblea en la Catedral, hoy al mediodía. Sin armas. Hablemos de la noche cuarenta.»
 
 1. **Ir.** Anotá `LA_ASAMBLEA_HOY` y viajá a la Catedral ([e201](#e201)): llegar por la Calle no tira en la tabla del Casco hoy. Al llegar → [e664](#e664). Al alba siguiente, borrá la Marca.
 2. **Mandar a alguien.** Un sobreviviente con Labia 2 o más va por vos. Vuelve a la noche con noticias: +1 Reputación con la Parroquia y una pista ([e560](#e560)).
@@ -646,7 +646,7 @@ A la mañana hay alguien parado frente a la puerta. Quieto, de cara a la madera,
 
 <a id="e067"></a>
 ### e067 · Caballo de Espadas · La gran Procesión
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Desde arriba se ve. Una Procesión como nunca: una columna de miles, ancha como la avenida, que entra por el Perímetro y cruza la ciudad de punta a punta. Va a tardar todo el día en pasar.
 
@@ -659,7 +659,7 @@ Hoy, la gran Procesión recorre, en este orden: **El Perímetro, La Fabril, La E
 
 <a id="e068"></a>
 ### e068 · Rey de Espadas · El Pastor
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Alguien del grupo vuelve pálido de la Guardia de la mañana. Vio uno caminar derecho. Erguido, sin arrastrar los pies. Vio uno detenerse en una esquina, mirar para los dos lados y elegir. Vio uno abrir una puerta con el picaporte.
 
@@ -673,9 +673,9 @@ Si tenés `PISTA_PASTOR`, ya sabés lo que es → [e575](#e575).
 
 <a id="e069"></a>
 ### e069 · Sota de Bastos · El apagón
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
-A las ocho de la noche se apaga todo. Las pocas luces que quedaban en Corinto (la Catedral, el hospital, el campamento del Perímetro, algún edificio con grupo electrógeno) se apagan al mismo tiempo, como si alguien hubiera bajado una palanca.
+A las ocho de la noche se apaga todo. Las pocas luces que quedaban en Tolme (la Catedral, el hospital, el campamento del Perímetro, algún edificio con grupo electrógeno) se apagan al mismo tiempo, como si alguien hubiera bajado una palanca.
 
 Durante una hora, la ciudad entera está a oscuras. Después, de a una, vuelven algunas: las de los que tienen generador.
 
@@ -687,7 +687,7 @@ Durante una hora, la ciudad entera está a oscuras. Después, de a una, vuelven 
 
 <a id="e070"></a>
 ### e070 · Caballo de Bastos · El incendio grande
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Empieza en una estación de servicio y el viento hace el resto. A media mañana hay tres manzanas en llamas, a mediodía hay diez. El humo tapa el sol.
 
@@ -702,11 +702,11 @@ Las Procesiones de los barrios en llamas se dispersan: mové cada una a un barri
 
 <a id="e071"></a>
 ### e071 · Rey de Bastos · La señal
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 La Señora cambia el mensaje. Por primera vez en todos estos días, dice otra cosa:
 
-> *«Atención, Corinto. Se habilitará un corredor de evacuación para personas sin síntomas. Los interesados deberán presentarse en el puerto, muelle tres, en la fecha que se informará oportunamente. Repito…»*
+> *«Atención, Tolme. Se habilitará un corredor de evacuación para personas sin síntomas. Los interesados deberán presentarse en el puerto, muelle tres, en la fecha que se informará oportunamente. Repito…»*
 
 No dice la fecha. Repite y repite, toda la noche.
 

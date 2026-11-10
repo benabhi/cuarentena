@@ -1,6 +1,6 @@
 ## Barrio 10 · La Costanera
 
-*La rambla junto al río, con su baranda de hierro, los carritos de choripán abandonados, el club náutico, la planta potabilizadora, el faro y un parque de diversiones que abría solo los fines de semana. El agua potable de Corinto salía de acá.*
+*La rambla junto al río, con su baranda de hierro, los carritos de choripán abandonados, el club náutico, la planta potabilizadora, el faro y un parque de diversiones que abría solo los fines de semana. El agua potable de Tolme salía de acá.*
 
 <a id="e380"></a>
 ### e380 · La Costanera: llegar
@@ -55,7 +55,7 @@ Un club con amarras, una guardería de lanchas en seco, un restaurante con vista
 ### e383 · La planta potabilizadora
 *La Costanera · Taller · stock ▢▢▢*
 
-Piletas de decantación al aire libre, tanques, cañerías, un edificio de bombas con tableros y una torre de control. De acá salía el agua de Corinto. Ahora las bombas están paradas y el agua de las piletas se pudre al sol.
+Piletas de decantación al aire libre, tanques, cañerías, un edificio de bombas con tableros y una torre de control. De acá salía el agua de Tolme. Ahora las bombas están paradas y el agua de las piletas se pudre al sol.
 
 **Tesoro:** si en tu mapa el Generador industrial está acá (r110) → [e510](#e510).
 
@@ -74,7 +74,7 @@ Un faro de ladrillo blanco y rojo en la punta de la escollera, con una escalera 
 **Tesoro:** si en tu mapa la Radio del aficionado está acá (r110) → [e540](#e540).
 
 - **Revisar** (r161).
-- **Subir a la lámpara:** ◷ 1. Desde arriba se ve todo Corinto, el río y el muro. Mirá las Procesiones (como [e136](#e136) con un 1).
+- **Subir a la lámpara:** ◷ 1. Desde arriba se ve todo Tolme, el río y el muro. Mirá las Procesiones (como [e136](#e136) con un 1).
 - **Encender el faro:** la lámpara funciona con una batería de auto o el Generador. Si la encendés, anotá `EL_FARO_ENCENDIDO`: se ve desde cualquier lado de noche, y del otro lado del río. Solo la primera vez, tirá 1d6: con 1–3, todas las Procesiones del mapa se mueven un barrio hacia la Costanera (r156); con 4–5, eso y una lancha militar se acerca a mirar con un reflector, y se va (una pista, [e560](#e560)); con 6, del otro lado del río, en la otra ciudad, alguien enciende una luz y la apaga tres veces. No estás solo en el mundo. +2 Moral. Anotá `LA_LUZ_DE_ENFRENTE`.
 
 ---
@@ -86,7 +86,7 @@ Un faro de ladrillo blanco y rojo en la punta de la escollera, con una escalera 
 Una vuelta al mundo, una montaña rusa chica, autitos chocadores y un tren fantasma. Las luces de colores están apagadas. En el tren fantasma, los monstruos de cartón siguen en sus lugares, y algunos de los otros también.
 
 - **Revisar** (r161), en los kioscos y la boletería.
-- **La vuelta al mundo:** es la estructura más alta de la Costanera. Si la hacés girar (con Generador o una batería, `[Mecánica]`), la música de la feria suena en todo el barrio y las luces se encienden. Es la mejor trampa de Corinto: cualquier Procesión que esté a dos barrios o menos viene acá y se queda dando vueltas alrededor durante 1d6 días (r156). +2 Rastro. Anotá `LA_FERIA_ENCENDIDA`.
+- **La vuelta al mundo:** es la estructura más alta de la Costanera. Si la hacés girar (con Generador o una batería, `[Mecánica]`), la música de la feria suena en todo el barrio y las luces se encienden. Es la mejor trampa de Tolme: cualquier Procesión que esté a dos barrios o menos viene acá y se queda dando vueltas alrededor durante 1d6 días (r156). +2 Rastro. Anotá `LA_FERIA_ENCENDIDA`.
 - **El tren fantasma:** si entrás (◷ 1), **Callados ×1d6 · Cerca**, escena Túnel (r336). En la salida, la primera vez, alguien escondió una mochila con 3 Antivirales y una nota: «Para mi hijo, si vuelve.» Anotá `EL_TREN_FANTASMA`: la mochila ya no está las otras veces.
 
 ---

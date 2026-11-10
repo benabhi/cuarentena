@@ -1,6 +1,6 @@
 # El catálogo
 
-*Todo lo que se puede agarrar, ponerse, fabricar o temer en Corinto. Las armas y los objetos, las fichas de los infectados (como las que llenaban en la morgue del Central mientras hubo morgue), las recetas del taller y los manuales que las enseñan.*
+*Todo lo que se puede agarrar, ponerse, fabricar o temer en Tolme. Las armas y los objetos, las fichas de los infectados (como las que llenaban en la morgue del Central mientras hubo morgue), las recetas del taller y los manuales que las enseñan.*
 
 ---
 
@@ -62,7 +62,7 @@ Matan de lejos y de a varios. Gastan 1 Munición por ataque (r205) y avisan a to
 ### e702 · Arcos, ballestas y gomeras
 *Catálogo · Armas*
 
-Silenciosas y de lejos: lo que más vale en Corinto. Se usan con `[Puntería]`. Gastan **saetas** (o piedras), que se recuperan: después de un combate que ganaste, recuperás la mitad (r205).
+Silenciosas y de lejos: lo que más vale en Tolme. Se usan con `[Puntería]`. Gastan **saetas** (o piedras), que se recuperan: después de un combate que ganaste, recuperás la mitad (r205).
 
 | Arma | Daño | Ruido | Alcance | Usos | Notas |
 |---|---|---|---|---|---|
@@ -113,7 +113,7 @@ Lo que nadie debería tener en una ciudad.
 ### e709 · Armas con nombre
 *Catálogo · Armas*
 
-Algunas armas de Corinto tienen historia. Aparecen una sola vez.
+Algunas armas de Tolme tienen historia. Aparecen una sola vez.
 
 | Arma | Dónde | Qué tiene de especial |
 |---|---|---|
@@ -174,7 +174,7 @@ La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna c
 ### e712 · Vehículos
 *Catálogo · Objetos*
 
-Un vehículo te lleva rápido, pero todo Corinto lo escucha llegar: al llegar, la tabla del barrio tiene +1 (r152).
+Un vehículo te lleva rápido, pero todo Tolme lo escucha llegar: al llegar, la tabla del barrio tiene +1 (r152).
 
 | Vehículo | Personas | Carga | Ruido al llegar | Combustible | Dónde |
 |---|---|---|---|---|---|
@@ -186,7 +186,7 @@ Un vehículo te lleva rápido, pero todo Corinto lo escucha llegar: al llegar, l
 | Autobomba | 6 | 20 | +3 | 1 por viaje de ida y vuelta | Cuartel ([e481](#e481)) |
 | Blindado | 8 | 30 | +4 | 1 por barrio | Tesoro ([e552](#e552)) |
 | Lancha | 4 | 10 | +1 | 2 por viaje | Club náutico ([e382](#e382)). Solo por el río |
-| La 7012 | — | — | Todo Corinto | 4 | Don Ernesto ([e602](#e602)). Una sola vez |
+| La 7012 | — | — | Todo Tolme | 4 | Don Ernesto ([e602](#e602)). Una sola vez |
 
 - **Un viaje** es ida a un barrio vecino por la Calle, en ◷ 1, salvo que el vehículo diga otra cosa. El Ruido de la tabla reemplaza al +2 de r152.
 - **Un vehículo no entra** a las Azoteas ni al Subsuelo, ni a un barrio con una Procesión en la Calle (o sí, pero entonces es [e100](#e100)).
@@ -376,7 +376,7 @@ Una mujer sentada en el suelo, en el medio de la calle, en el medio de una habit
 
 - **Conducta:** si no la molestás, **no hace nada**. La molestás si la tocás, si le apuntás con luz, si hacés Ruido 2 o más a menos de una cuadra, si la atacás. Entonces deja de llorar, se levanta y salta: **Encima**, de una. Cada ronda Encima, tirá 1d6 por ella dos veces en la tabla de mordidas, sin que la protección reste.
 - **Cómo:** no la molestes. De verdad. Si tenés que matarla, desde Lejos, con lo más grande que tengas, y que el primer golpe la mate (Daño 6 en una sola ronda: una granada, la ametralladora, dos tiros de escopeta juntos).
-- **Observación:** mientras llora, el lugar está vacío: es el lugar más seguro de Corinto, si no hacés nada.
+- **Observación:** mientras llora, el lugar está vacío: es el lugar más seguro de Tolme, si no hacés nada.
 - **En la Noche 40:** no viene con la Marea. Se sienta en la vereda y llora. Si alguien del grupo sale (un Cobarde que huye, alguien que hace ruido en la vereda), → combate.
 
 ---
@@ -779,7 +779,7 @@ Un folleto del Estado de hace cuarenta años, de la Guerra Fría: «Qué hacer e
 ### e779 · El cuaderno de alguien
 *Catálogo · Manuales*
 
-Un cuaderno Rivadavia de tapa dura, de los de la escuela, lleno con letra apretada, dibujos, flechas, tachones, manchas de sangre seca. Lo escribió alguien que sobrevivió los primeros veinte días en Corinto. La última página dice: «Mañana voy a buscar a mi vieja al Central. Si alguien encuentra esto, todo lo que sé está acá».
+Un cuaderno Rivadavia de tapa dura, de los de la escuela, lleno con letra apretada, dibujos, flechas, tachones, manchas de sangre seca. Lo escribió alguien que sobrevivió los primeros veinte días en Tolme. La última página dice: «Mañana voy a buscar a mi vieja al Central. Si alguien encuentra esto, todo lo que sé está acá».
 
 - **Recetas:** Lanza de caño, Lanzallamas de fumigadora, Brazales de chapa, Casco de olla, Traje de cuero, Soga trenzada, Tablones de cruce, Mochila reforzada.
 - **Práctica:** 3 casillas donde quieras.

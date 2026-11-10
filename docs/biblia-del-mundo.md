@@ -5,7 +5,7 @@
 
 ---
 
-## La ciudad: Corinto (provisional)
+## La ciudad: Tolme (provisional)
 
 Una ciudad portuaria mediana, de unos 600 000 habitantes, sobre la desembocadura de un río ancho y marrón. Podría estar en cualquier país del Cono Sur: colectivos, kioscos, monoblocks, una catedral neogótica, un puerto que ya no trabaja como antes, un club de barrio con pileta. Es otoño: días templados, noches frías, lloviznas largas.
 
@@ -169,7 +169,7 @@ Ver el plan, §7.1. Nombres fijos: **Parroquia de San Lázaro**, **Supermercado 
 - **Formularios del Comando** como cajas de reglas (con número de disposición).
 - **Notas pegadas con cinta** y páginas de cuaderno para las citas y los diarios.
 - **Las X de búsqueda** en aerosol para marcar lugares saqueados y como icono.
-- **Mapa de red** de Corinto, estilo plano de subte, a doble página.
+- **Mapa de red** de Tolme, estilo plano de subte, a doble página.
 - **Fichas de infectado** con forma de ficha clínica de la morgue (fácilmente distinguibles).
 - Páginas disruptivas: el comunicado del Comando en negativo, el mapa a doble página, la Noche 40 y el amanecer.
 

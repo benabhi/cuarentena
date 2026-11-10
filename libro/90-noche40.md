@@ -129,7 +129,7 @@ Si la Moral llega a 0 en la Noche 40, no hay crisis (e080): hay desbande. Tirá 
 ### e912 · La hora más oscura
 *La Noche 40 · ◷ 0*
 
-Las tres de la mañana. Ya no se oye el muro: se oye la ciudad entera. Todo Corinto está lleno de Callados. Los de la Marea, los de las Procesiones, los del barrio, los de tu cuadra. Algunos tienen caras que conocés.
+Las tres de la mañana. Ya no se oye el muro: se oye la ciudad entera. Todo Tolme está lleno de Callados. Los de la Marea, los de las Procesiones, los del barrio, los de tu cuadra. Algunos tienen caras que conocés.
 
 Afuera, contra la Puerta, uno golpea con la palma abierta, despacio, como pidiendo permiso. Es alguien que se fue del grupo (si tenés algún `PERDIDO_`, es esa persona). −1 Ánimo.
 
@@ -140,7 +140,7 @@ Afuera, contra la Puerta, uno golpea con la palma abierta, despacio, como pidien
 1. **Aguantar.** No hacés nada distinto. Los que quedan se miran. Nadie habla.
 2. **Hacer ruido en otro lado.** Alguien sale por el Techo o el Subsuelo con un Señuelo, una bocina, una olla y una cuchara, y se lleva a la Marea dos cuadras más allá. Tiene que ser un voluntario (o vos). `[Sigilo]` o `[Físico]`. Con 10+, vuelve: la próxima oleada tiene la mitad de Fuerza. Con 7–9, la próxima oleada tiene la mitad de Fuerza, y el voluntario no vuelve hasta el amanecer (tirá 1d6 al amanecer: con 4–6, aparece). Con 6−, la próxima oleada tiene la mitad de Fuerza. El voluntario no vuelve. Si eras vos → [e990](#e990).
 3. **Rezar, cantar, contar chistes.** `[Labia]`. Con 7+, +2 Moral y cada defensor +1 en la próxima oleada. Con 6−, nada.
-4. **Si tenés `TIGRE_DOS`** y una radio: la llamás. «Tigre Dos, acá Corinto. Estamos vivos.» Una voz te contesta entre la estática: «Al amanecer, en la escollera. Aguanten». +3 Moral. Al amanecer, el barco está ([e930](#e930)).
+4. **Si tenés `TIGRE_DOS`** y una radio: la llamás. «Tigre Dos, acá Tolme. Estamos vivos.» Una voz te contesta entre la estática: «Al amanecer, en la escollera. Aguanten». +3 Moral. Al amanecer, el barco está ([e930](#e930)).
 5. **Si tenés la barcaza lista** (`BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE`) y no la usaste antes: ya es tarde para llegar al Puerto. Pero si los que no pelean subieron antes de la Noche 40 ([e254](#e254)), ahora mismo están en el medio del río, mirando la ciudad. +1 Moral.
 
 ---
@@ -219,7 +219,7 @@ Algunos Secretos y Marcas te mandan a un final propio (e944–e949). Si te toca 
 
 **Tu partida en números.** Si querés compararla con otras: 10 puntos por cada salvado (2 por cada persona de los grupos de arriba), 5 por cada instalación, 5 por cada Tesoro (`EL_CAMION`, `EL_GENERADOR_INDUSTRIAL`, `LA_ARMERIA`, `EL_BOTIQUIN`, `LA_RADIO_DEL_AFICIONADO`, `EL_BLINDADO`), 3 por cada pista, la Moral final y tu contador personal × 5. Anotala en la última página de tu hoja.
 
-Después, leé tu epílogo ([e950](#e950)), el de los tuyos ([e954](#e954)) y lo que Corinto recuerda ([e955](#e955)).
+Después, leé tu epílogo ([e950](#e950)), el de los tuyos ([e954](#e954)) y lo que Tolme recuerda ([e955](#e955)).
 
 ---
 
@@ -229,7 +229,7 @@ Después, leé tu epílogo ([e950](#e950)), el de los tuyos ([e954](#e954)) y lo
 
 Salís a la calle. Nadie te sigue. Caminás entre los Callados quietos, despacio, por el medio de la avenida, y ninguno te mira. Ya no hay ruido que te delate: sos el único ruido que queda.
 
-Te sentás en el cordón de la vereda, en la esquina de tu refugio, y mirás el sol subir sobre Corinto. Cuarenta y un días. Lo lograste.
+Te sentás en el cordón de la vereda, en la esquina de tu refugio, y mirás el sol subir sobre Tolme. Cuarenta y un días. Lo lograste.
 
 No hay nadie a quien contárselo.
 
@@ -261,7 +261,7 @@ La Puerta no se puede abrir: está trabada con cuerpos. Salen por el Techo, de a
 
 Desde la azotea se ven otras azoteas. En algunas, otra gente. Saludan. Alguien grita algo que no se entiende. Alguien contesta.
 
-Durante cuarenta días, Corinto fue una ciudad de gente encerrada. Hoy, a la mañana, es una ciudad de gente que se saluda de techo a techo.
+Durante cuarenta días, Tolme fue una ciudad de gente encerrada. Hoy, a la mañana, es una ciudad de gente que se saluda de techo a techo.
 
 Alguien propone hacer un asado. Nadie dice que no.
 
@@ -277,7 +277,7 @@ Funcionó.
 
 No en todos: en los recién mordidos, en los que tienen la Fiebre todavía baja. No devuelve a nadie. Pero detiene la Fiebre, y la baja, y la apaga.
 
-En Corinto hay doscientos mil Callados y quizás cinco mil vivos. Ahora los vivos tienen algo que nadie más en el mundo tiene.
+En Tolme hay doscientos mil Callados y quizás cinco mil vivos. Ahora los vivos tienen algo que nadie más en el mundo tiene.
 
 Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscar lo que hiciste. Esta vez, sos vos quien pone las condiciones.
 
@@ -287,7 +287,7 @@ Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscar lo qu
 ### e945 · La Marea ciega
 *El final · Secreto 5*
 
-**Con `PASTOR_MUERTO`:** a media mañana, los Callados empiezan a moverse. No hacia vos: hacia ningún lado. Se dispersan por la ciudad como hojas, sin rumbo, chocando entre ellos, perdidos. Sin el que los guiaba, son lo que eran al principio: muertos que siguen el ruido. Y el ruido, en Corinto, ya se aprendió a no hacerlo.
+**Con `PASTOR_MUERTO`:** a media mañana, los Callados empiezan a moverse. No hacia vos: hacia ningún lado. Se dispersan por la ciudad como hojas, sin rumbo, chocando entre ellos, perdidos. Sin el que los guiaba, son lo que eran al principio: muertos que siguen el ruido. Y el ruido, en Tolme, ya se aprendió a no hacerlo.
 
 La Marea no va a volver a juntarse. No hay quién la junte.
 
@@ -305,7 +305,7 @@ Leé esto **además** de tu final.
 
 No te fuiste. Pudiste, o casi, y no te fuiste: te quedaste con los que no podían irse, con los que tenían fiebre, con el que no iba a pasar el control, con la que no quería firmar.
 
-Corinto sigue cerrada. El muro sigue ahí. Del otro lado, alguien sigue mirando.
+Tolme sigue cerrada. El muro sigue ahí. Del otro lado, alguien sigue mirando.
 
 Pero adentro hay gente. Gente que no se va a ir. Que va a arreglar las cañerías, plantar la huerta, abrir la escuela, enterrar a los muertos en el cementerio con un sereno que se acuerda de los nombres. Gente que eligió quedarse, porque alguien tiene que quedarse.
 
@@ -319,7 +319,7 @@ Contá a los que se quedaron con vos: son los salvados de este final. Si son 4 o
 
 El fuego pasó a las doce del mediodía y duró hasta la noche. Desde abajo, desde la cripta, desde el tanque, desde el sótano inundado, lo escuchaste rugir sobre tu cabeza como un tren que no terminaba de pasar.
 
-Cuando salís, Corinto es gris. Las calles, los techos, los árboles, los Callados. Todo es ceniza. El viento la levanta en remolinos. No queda nadie de pie: ni vivos ni muertos.
+Cuando salís, Tolme es gris. Las calles, los techos, los árboles, los Callados. Todo es ceniza. El viento la levanta en remolinos. No queda nadie de pie: ni vivos ni muertos.
 
 Salvo ustedes.
 
@@ -341,7 +341,7 @@ En tres días, la cara de la doctora Ríos está en todos los noticieros del mun
 
 A vos te llaman a declarar. Llevás los papeles, el expediente, las fotos, la lista. Hablás cuatro horas. Cuando terminás, en la sala no se oye nada.
 
-Corinto, por primera vez, hace ruido. Y el ruido llega lejos.
+Tolme, por primera vez, hace ruido. Y el ruido llega lejos.
 
 Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
 
@@ -353,16 +353,16 @@ Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
 
 No viene nadie. No va a venir nunca. Afuera no hay afuera.
 
-Entonces, Corinto es el afuera.
+Entonces, Tolme es el afuera.
 
 Contá lo que tenés:
 
 - **Cada instalación** es una pieza de la ciudad nueva: la Huerta da de comer, la Cisterna da de beber, la Enfermería cura, el Taller arregla, la Radio llama a otros.
-- **Cada facción** con la que estás en paz (Reputación 0 o más) es un barrio que trabaja con el tuyo. Con las cuatro, Corinto tiene un gobierno, una iglesia, unos bomberos y una policía, para bien y para mal.
+- **Cada facción** con la que estás en paz (Reputación 0 o más) es un barrio que trabaja con el tuyo. Con las cuatro, Tolme tiene un gobierno, una iglesia, unos bomberos y una policía, para bien y para mal.
 - **Con `LAS_SEMILLAS_DE_ROSA`**, en primavera hay tomates.
 - **Con `TU_VOZ_EN_LA_RADIO`**, la AM 870 ya no repite a la Señora: repite tu voz, que dice dónde juntarse.
 
-Si tenés 6 instalaciones o más y paz con tres facciones: Corinto se salva. No como era: como va a ser.
+Si tenés 6 instalaciones o más y paz con tres facciones: Tolme se salva. No como era: como va a ser.
 
 Si no: se salvan ustedes. Que no es poco.
 
@@ -376,9 +376,9 @@ Leé esto **además** de tu final.
 ### e950 · El epílogo de la Enfermera
 *Epílogo · Juramento*
 
-- **Juramento 0–1.** Marta no vuelve a trabajar de enfermera. Se muda a un pueblo chico, cerca del río, y cuida un jardín. No habla de Corinto. Cuando alguien en el pueblo se enferma, no abre la puerta.
+- **Juramento 0–1.** Marta no vuelve a trabajar de enfermera. Se muda a un pueblo chico, cerca del río, y cuida un jardín. No habla de Tolme. Cuando alguien en el pueblo se enferma, no abre la puerta.
 - **Juramento 2–3.** Marta vuelve al hospital, al de otra ciudad, al turno noche. Las otras enfermeras la miran con respeto y un poco de miedo. En el bolsillo del guardapolvo, siempre, una lista de nombres. La cambia cada semana. Nunca la tira.
-- **Juramento 4–5.** Marta se queda en Corinto y abre la Enfermería en la planta baja del Central. Va gente de todos los barrios. Enseña a curar a los que quieren aprender. Al año, tiene doce enfermeras. Les dice a todas lo mismo: «Acá no se muere nadie en nuestro turno».
+- **Juramento 4–5.** Marta se queda en Tolme y abre la Enfermería en la planta baja del Central. Va gente de todos los barrios. Enseña a curar a los que quieren aprender. Al año, tiene doce enfermeras. Les dice a todas lo mismo: «Acá no se muere nadie en nuestro turno».
 - **Juramento 6.** Marta encuentra a todos los de su lista. A los vivos y a los muertos. Les lleva flores al cementerio, a los que tienen tumba. A los vivos, los visita una vez por año, el día 0. Ella les dice que es por el control. Ellos saben que no.
 - **Con `LA_LISTA_SIGUE`**, si Marta no llegó al amanecer: alguien del grupo sigue la lista por ella. La encuentra completa en el bolsillo de un guardapolvo, con una tilde al lado de cada nombre.
 
@@ -389,8 +389,8 @@ Leé esto **además** de tu final.
 *Epílogo · Cimientos*
 
 - **Cimientos 0–1.** Tito no vuelve a construir. Nada. Ni una pared, ni una repisa. Su mujer le pregunta por qué, y él no sabe explicárselo: cada vez que agarra una cuchara de albañil, siente el metal tibio del muro vibrando contra la palma.
-- **Cimientos 2–3.** Tito vuelve con su familia, del otro lado. Le pagan una indemnización. La acepta. La dona entera, sin decirle a nadie, a un fondo para los sobrevivientes de Corinto. Firma con otro nombre.
-- **Cimientos 4–5.** Tito se queda en Corinto y reconstruye. Primero la escuela, después el hospital, después las casas de Los Bloques. Su cuadrilla son los que sobrevivieron. Hacen paredes que no son para encerrar a nadie.
+- **Cimientos 2–3.** Tito vuelve con su familia, del otro lado. Le pagan una indemnización. La acepta. La dona entera, sin decirle a nadie, a un fondo para los sobrevivientes de Tolme. Firma con otro nombre.
+- **Cimientos 4–5.** Tito se queda en Tolme y reconstruye. Primero la escuela, después el hospital, después las casas de Los Bloques. Su cuadrilla son los que sobrevivieron. Hacen paredes que no son para encerrar a nadie.
 - **Cimientos 6.** Tito desarma el muro. Contenedor por contenedor, soldadura por soldadura, con los mismos electrodos con los que lo armó. Tarda dos años. Cuando sale el último, el del tramo siete, se sienta en el piso y llora como no lloró nunca. Después lo pintan de colores y lo ponen en la plaza. Abajo, una placa: «Para que no se olvide».
 - **Con `TRAMO_NUEVE_SOLDADO`:** el día 41, los de afuera intentan abrir el tramo nueve y no pueden. Tienen que entrar por la puerta, a la vista de todos.
 
@@ -402,7 +402,7 @@ Leé esto **además** de tu final.
 
 - **Deber 0–1.** Sofía devuelve la placa. Nadie le pregunta por qué. Se va a vivir lejos, a un lugar donde no la conozcan. Todavía tiene el sobre, cerrado o abierto. Algunas noches lo saca del cajón y lo mira.
 - **Deber 2–3.** Sofía declara en el juicio, o en la investigación, o en la oficina de alguien que tenía que saber. Cuenta lo del día 2, lo de la nena, lo del sobre. No la condenan. No la felicitan. Sigue siendo policía, en otra ciudad, en una comisaría chica, de día.
-- **Deber 4–5.** Sofía se queda en Corinto. No hay policía, así que es la policía. Con un brazalete, sin uniforme. No lleva armas: lleva un silbato y la autoridad de alguien que estuvo ahí. Cuando hay un problema en un barrio, la llaman a ella.
+- **Deber 4–5.** Sofía se queda en Tolme. No hay policía, así que es la policía. Con un brazalete, sin uniforme. No lleva armas: lleva un silbato y la autoridad de alguien que estuvo ahí. Cuando hay un problema en un barrio, la llaman a ella.
 - **Deber 6.** El día 41, en el Puesto Norte, Sofía levanta la barrera. Lo cuentan todos los que pasaron: una piba con el chaleco de otro talle, parada al lado de la garita, mirando a los soldados a los ojos, diciendo «pasen, pasen, no corran, pasen». La foto de ese momento la sacó alguien con un celular. Está en todos lados.
 - **Con `SIN_ORDEN`:** el sobre, roto en ocho pedazos, lo guarda alguien del grupo en un frasco. Años después, lo donan a un museo.
 
@@ -412,9 +412,9 @@ Leé esto **además** de tu final.
 ### e953 · El epílogo de la Repartidora
 *Epílogo · Ruta*
 
-- **Ruta 0–1.** Juli no vuelve a subirse a una bici. La vende, o la deja apoyada en una pared de Corinto, y se va. La caja, si la tiene, la tira al río desde el puente, sin abrirla. O abierta. Da igual.
+- **Ruta 0–1.** Juli no vuelve a subirse a una bici. La vende, o la deja apoyada en una pared de Tolme, y se va. La caja, si la tiene, la tira al río desde el puente, sin abrirla. O abierta. Da igual.
 - **Ruta 2–3.** Juli sigue repartiendo, del otro lado. Otra aplicación, otra bici, otras calles. Cada vez que alguien no atiende el timbre, espera un minuto más de lo que tiene que esperar.
-- **Ruta 4–5.** Juli arma en Corinto la primera red de mensajería entre barrios: pibes en bicicleta que llevan cartas, remedios, semillas, noticias, de techo a techo y de puerta a puerta. Les enseña los atajos. Les dice que siempre aprieten el botón verde.
+- **Ruta 4–5.** Juli arma en Tolme la primera red de mensajería entre barrios: pibes en bicicleta que llevan cartas, remedios, semillas, noticias, de techo a techo y de puerta a puerta. Les enseña los atajos. Les dice que siempre aprieten el botón verde.
 - **Ruta 6.** Juli completa la lista. Cada pedido, entregado. El botón verde, apretado cinco veces. El celular sigue sin señal, pero una mañana, sola en su cuarto, la pantalla se prende y dice: «¡Gracias por tu entrega! Calificación: ★★★★★». Nadie le cree. Ella tampoco. Pero lo vio.
 - **Si la caja sigue en tu mochila:** la tiene en un estante de su casa. Nunca la abre (o nunca la vuelve a abrir). A veces, cuando viene alguien, la señala y dice: «Ese es mi último pedido».
 
@@ -426,7 +426,7 @@ Leé esto **además** de tu final.
 
 Por cada sobreviviente con nombre que esté entre los salvados, una línea:
 
-- **Don Ernesto** maneja, una vez más, una locomotora. La primera que sale de Corinto con pasajeros. Hace sonar la bocina en cada paso a nivel.
+- **Don Ernesto** maneja, una vez más, una locomotora. La primera que sale de Tolme con pasajeros. Hace sonar la bocina en cada paso a nivel.
 - **Lucía** abre la Escuela N.º 9 el primer lunes. Vienen once chicos. Con `LOS_TRES_ALUMNOS`, tres de ellos se sientan adelante, como siempre. Pasa lista. Cuando alguien no contesta, deja un silencio.
 - **El Chino Morales** pone una parrilla en la esquina del refugio. Nunca cobra a los que estuvieron en la Noche 40.
 - **Ana y Bruno** crecen. Bruno se hace bombero. Ana dibuja la Noche 40 en el colegio, y la maestra la manda a la psicóloga, y la psicóloga guarda el dibujo. Con `BRUNO_LO_HIZO`, Bruno no se hace bombero: no se hace nada durante mucho tiempo, y después, de golpe, enfermero. Con `BRUNO_LO_VIO`, no habla de esa noche con nadie, salvo con Ana.
@@ -442,7 +442,7 @@ Por cada sobreviviente con nombre que esté entre los salvados, una línea:
 - **Hernán** sigue predicando. Ya no habla del Juicio. Habla de los que abrieron la puerta para que entraran otros.
 - **Valeria** vuelve a ponerse el casco. Gauna se lo da en la mano.
 - **Facu** sale a la calle todos los días. Algunos días, solo para mirar el cielo.
-- **La doctora Ríos** declara. Lo que le pase después lo decide alguien que no estuvo en Corinto.
+- **La doctora Ríos** declara. Lo que le pase después lo decide alguien que no estuvo en Tolme.
 - **El Negro** duerme al pie de tu cama. Cuando alguien golpea la puerta, levanta una oreja. Nada más.
 
 Y los que no tienen ficha, pero estuvieron:
@@ -464,29 +464,29 @@ Y los que no tienen ficha, pero estuvieron:
 - **Los veinte** (`LOS_VEINTE`): cada año, el día 41, se juntan en el refugio. Cada año son menos. Cada año ponen la misma cantidad de sillas.
 
 <a id="e955"></a>
-### e955 · Lo que Corinto recuerda
+### e955 · Lo que Tolme recuerda
 *Epílogo · La ciudad*
 
-Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las colas, en los velorios, en los bares que vuelven a abrir. Por cada Marca de tu hoja que esté en esta lista, leé su línea. Si no tenés ninguna, Corinto no se acuerda de vos. A lo mejor está bien así.
+Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las colas, en los velorios, en los bares que vuelven a abrir. Por cada Marca de tu hoja que esté en esta lista, leé su línea. Si no tenés ninguna, Tolme no se acuerda de vos. A lo mejor está bien así.
 
 **El fuego y el ruido**
 
 - `ARDIO_LA_FABRICA` · Durante años, en La Fabril, los chicos juegan a «la noche que ardió». Siempre hay uno que hace de vos, y siempre se pelean por quién.
 - `VOLO_EL_GAS` · El pozo del depósito de gas se llena de agua de lluvia. Alguien le tira peces. Alguien le pone tu nombre, mal escrito, en un cartel de madera.
-- `LA_BODA` · La foto de la boda, sacada con un celular que tenía 4 % de batería, es la primera que se imprime en Corinto después de la cuarentena. Está colgada en la Municipalidad.
-- `DON_CACHO` · Un año después, el camión de Don Cacho vuelve a pasar por Corinto, tocando la bocina. Nadie sabe cómo salió. Él no lo cuenta. Te trae algo.
+- `LA_BODA` · La foto de la boda, sacada con un celular que tenía 4 % de batería, es la primera que se imprime en Tolme después de la cuarentena. Está colgada en la Municipalidad.
+- `DON_CACHO` · Un año después, el camión de Don Cacho vuelve a pasar por Tolme, tocando la bocina. Nadie sabe cómo salió. Él no lo cuenta. Te trae algo.
 - `LA_7012` · La locomotora 7012 se queda en el Puerto, oxidada, con flores en la cabina. Nadie la mueve. Nadie se anima.
 - `SENALES_AL_HELICOPTERO` · En un archivo del Comando hay una foto borrosa de una sábana blanca en una azotea. Alguien, años después, la encuentra, y empieza a hacer preguntas.
-- `LLAMASTE_POR_RADIO` · En los pueblos río abajo hay gente que se acuerda de una voz que decía una dirección de Corinto. Algunos fueron. Algunos llegaron.
+- `LLAMASTE_POR_RADIO` · En los pueblos río abajo hay gente que se acuerda de una voz que decía una dirección de Tolme. Algunos fueron. Algunos llegaron.
 - `LAS_LUCES_DE_CORINTO` · Encuentran tu mapa de las luces de la ciudad pegado en una pared. Cada luz tiene una cruz o un círculo. Nadie sabe qué querían decir los círculos.
 - `LA_SENORA_SE_EQUIVOCA` · Fuiste de los primeros en darte cuenta de que la Señora contaba mal. Lo vas a decir en todas las entrevistas, y en ninguna te van a creer.
-- `LA_SENORA_CALLADA` · Corinto se acuerda del día en que la radio se calló. Lo cuentan como el día en que la ciudad empezó a hablar sola.
+- `LA_SENORA_CALLADA` · Tolme se acuerda del día en que la radio se calló. Lo cuentan como el día en que la ciudad empezó a hablar sola.
 
 **La gente**
 
 - `DUDA_DEL_PRIMERO` · Nunca supiste qué te hizo dudar aquella primera noche. Algunas noches, todavía, te despertás pensando en eso.
 - `LOS_VIEJOS_DE_LA_VELA` · La vela sigue prendida en la ventana de esa casa. Alguien la cambia. Nadie sabe quién.
-- `TRUEQUE_GENEROSO` · Una familia que nunca supo tu nombre cuenta, en otra ciudad, que en Corinto alguien les dio de comer sin pedir nada. Los nietos creen que es un cuento.
+- `TRUEQUE_GENEROSO` · Una familia que nunca supo tu nombre cuenta, en otra ciudad, que en Tolme alguien les dio de comer sin pedir nada. Los nietos creen que es un cuento.
 - `PERDONASTE_UN_ROBO` · El que robó aquella vez se queda en el refugio después del día 41. Es el último en irse de cada guardia. No hace falta que diga por qué.
 - `MANO_DURA` · Funcionó. Todos se acuerdan de que funcionó. Nadie se acuerda de vos con cariño.
 - `ASAMBLEA` · El refugio sigue votando todo, hasta el menú. Las actas están escritas a mano, en un cuaderno Rivadavia, y la primera dice tu nombre.
@@ -500,7 +500,7 @@ Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las cola
 
 **Las facciones**
 
-- `RUMOR_DE_LOS_LOBOS` · Nunca se supo si era verdad. En Las Lomas nadie quiere hablar del tema, y eso, para Corinto, ya es una respuesta.
+- `RUMOR_DE_LOS_LOBOS` · Nunca se supo si era verdad. En Las Lomas nadie quiere hablar del tema, y eso, para Tolme, ya es una respuesta.
 - `TE_VIERON_LOS_LOBOS` · Los Lobos sabían que entrabas a Las Lomas. Te dejaron. Todavía no sabés por qué.
 - `LE_PAGAS_A_LOS_LOBOS` · Pagaste para que te dejaran en paz. Te dejaron. Después del día 41, otros siguen pagándoles, a otros, por lo mismo.
 - `RECHAZASTE_A_LOS_LOBOS` · La puerta que no pudieron romper los Lobos tiene todavía los agujeros de los tiros. Los chicos del barrio meten los dedos adentro, para contarlos.
@@ -518,7 +518,7 @@ Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las cola
 - `VAGON_DE_LA_C` · El vagón de la línea C sigue en el túnel, con los sentados adentro. Cuando el subte vuelve a andar, lo dejan ahí y lo rodean.
 - `LA_ZORRA` · La zorra de las vías queda en la Estación, pintada de amarillo. Los chicos la empujan los domingos, de un andén al otro.
 - `LLAVES_DEL_PORTERO` · El manojo de llaves del portero cuelga de un clavo en la puerta del refugio. Nadie lo saca. Por las dudas.
-- `EL_AGUA_VUELVE` · Corinto se acuerda de la tarde en que salió agua de las canillas. Todos los chicos de la ciudad salieron a bañarse a la vereda, con Callados a dos cuadras.
+- `EL_AGUA_VUELVE` · Tolme se acuerda de la tarde en que salió agua de las canillas. Todos los chicos de la ciudad salieron a bañarse a la vereda, con Callados a dos cuadras.
 - `SIN_CAMPANA` · La parroquia de San Lázaro nunca vuelve a tener campana. A las doce, en lugar de la campana, alguien golpea una olla.
 - `GIMNASIO_QUEMADO` · El gimnasio de la Escuela N.º 9 queda negro. Cuando la escuela vuelve a abrir, ponen una placa en la puerta. No dice qué pasó: dice «Nunca más».
 - `EL_CAMION` · El camión del Comando se queda donde lo dejaste, vacío, con las puertas abiertas. Alguien le pinta encima, en letras grandes: «ESTO NOS DIERON».
@@ -532,7 +532,7 @@ Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las cola
 ### e960 · Las salidas
 *Éxodo · ◷ 0*
 
-El muro rodea la ciudad por el norte, el este y el oeste. Al sur está el río, ancho, marrón, con lanchas militares que patrullan de noche. El muro no llega al agua: termina en una escollera. Esa es la grieta de Corinto.
+El muro rodea la ciudad por el norte, el este y el oeste. Al sur está el río, ancho, marrón, con lanchas militares que patrullan de noche. El muro no llega al agua: termina en una escollera. Esa es la grieta de Tolme.
 
 En el **modo Éxodo** (r210), ganás si cruzás el perímetro **antes de la Noche 40** con al menos un sobreviviente. Con el Secreto 2 ([e582](#e582)), estas salidas están abiertas en cualquier modo.
 
@@ -559,7 +559,7 @@ En el **modo Éxodo** (r210), ganás si cruzás el perímetro **antes de la Noch
 ### e961 · Del otro lado
 *Éxodo · El final*
 
-El agua está fría. El motor tose. Las luces de Corinto, las pocas que quedan, se van haciendo chicas detrás de ustedes. Nadie habla. Nadie quiere ser el que lo diga primero.
+El agua está fría. El motor tose. Las luces de Tolme, las pocas que quedan, se van haciendo chicas detrás de ustedes. Nadie habla. Nadie quiere ser el que lo diga primero.
 
 Y después, del otro lado, una costa. Árboles. Una ruta. Un cartel de una estación de servicio, apagado. Una casa con una luz.
 
@@ -567,7 +567,7 @@ Lo lograron.
 
 Contá a los que cruzaron y leé **Solo** ([e941](#e941)), **Unos pocos** ([e942](#e942)) o **El grupo** ([e943](#e943)). Después, abrí el Secreto ([e570](#e570)) y leé solo **La verdad**: la parte del día 41 ya no es para ustedes. Pero la vas a escuchar por la radio, en algún pueblo, dentro de unos días. Y vas a apagar la radio.
 
-Después, tu epílogo ([e950](#e950)) y lo que Corinto recuerda ([e955](#e955)).
+Después, tu epílogo ([e950](#e950)) y lo que Tolme recuerda ([e955](#e955)).
 
 ---
 
@@ -579,13 +579,13 @@ Después, tu epílogo ([e950](#e950)) y lo que Corinto recuerda ([e955](#e955)).
 
 No duele tanto como pensabas. O sí, pero dura poco.
 
-Lo último que ves es lo que tengas más cerca: una cara, una pared que hiciste, el techo del refugio con su mancha de humedad en forma de mapa, el cielo de Corinto, gris, sin pájaros.
+Lo último que ves es lo que tengas más cerca: una cara, una pared que hiciste, el techo del refugio con su mancha de humedad en forma de mapa, el cielo de Tolme, gris, sin pájaros.
 
 Lo último que escuchás es tu propio corazón. Después, nada.
 
 **Tu partida terminó.**
 
-- **Si fue antes de la Noche 40:** en Corinto sigue la cuarentena. Tu refugio queda con los que quedaron. Quizás aguanten. Quizás no. Nunca lo vas a saber.
+- **Si fue antes de la Noche 40:** en Tolme sigue la cuarentena. Tu refugio queda con los que quedaron. Quizás aguanten. Quizás no. Nunca lo vas a saber.
 - **Si fue en la Noche 40:** al amanecer, alguien que se escondió sale a la calle y cuenta lo que hiciste. Contá a los que se salvaron igual (e940), aunque vos no estés: tu final es el de ellos.
 - Leé tu epílogo ([e950](#e950)) con tu contador **menos 1**.
 

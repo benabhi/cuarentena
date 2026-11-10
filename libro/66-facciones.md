@@ -1,6 +1,6 @@
 # Las facciones
 
-*Cuatro grupos se reparten lo que queda de Corinto. Una iglesia que no cierra la puerta, unos bomberos que cobran el agua, una banda de seguridad privada que se quedó con un barrio entero, y lo que queda del ejército mirando el muro. Ninguno es bueno del todo. Ninguno es malo del todo. Todos van a estar la Noche 40.*
+*Cuatro grupos se reparten lo que queda de Tolme. Una iglesia que no cierra la puerta, unos bomberos que cobran el agua, una banda de seguridad privada que se quedó con un barrio entero, y lo que queda del ejército mirando el muro. Ninguno es bueno del todo. Ninguno es malo del todo. Todos van a estar la Noche 40.*
 
 **Cómo se usan.** La Reputación con cada facción va de −3 a +3 (r197). Cada facción tiene su **casa** (la entrada que leés cuando vas a verlos), su **visita** (cuando vienen ellos), sus **pedidos** (trabajos que suben la Reputación) y su **ataque** (cuando llegás a −3). Lo que hace cada una en la Noche 40 está en [e905](#e905).
 
@@ -88,7 +88,7 @@ Tirá 1d6:
 ### e664 · La asamblea
 *El Casco · La Catedral · ◷ 3*
 
-La nave central, con los bancos corridos hacia los costados. Doscientas personas sentadas en el piso. En el altar, una mesa larga, y detrás de la mesa, las cuatro facciones de Corinto: el padre Anselmo en el medio; la comandante Gauna con dos bomberos; un hombre de Rolo Benítez con chaleco y anteojos de sol, que no se saca; y, en la punta, un cabo del Destacamento que mira todo el tiempo el reloj.
+La nave central, con los bancos corridos hacia los costados. Doscientas personas sentadas en el piso. En el altar, una mesa larga, y detrás de la mesa, las cuatro facciones de Tolme: el padre Anselmo en el medio; la comandante Gauna con dos bomberos; un hombre de Rolo Benítez con chaleco y anteojos de sol, que no se saca; y, en la punta, un cabo del Destacamento que mira todo el tiempo el reloj.
 
 El padre Anselmo abre:
 
@@ -214,7 +214,7 @@ La barrera se levanta. Dos de chaleco te revisan (te sacan las armas: te las dev
 
 **Rolo Benítez** está en la casa del club house, al lado de la pileta, en reposera. Cuarenta y cinco años, musculoso, chaleco táctico, anteojos de sol aunque esté nublado.
 
-—Bienvenido a la única parte de Corinto que funciona —dice—. Acá hay de todo. Todo tiene precio.
+—Bienvenido a la única parte de Tolme que funciona —dice—. Acá hay de todo. Todo tiene precio.
 
 **Qué podés hacer** (◷ 1 cada cosa):
 
@@ -347,7 +347,7 @@ Si esto pasa en la calle, es una emboscada. Si pasa en tu refugio, es una guerra
 ### e690 · El campamento del Perímetro
 *El Perímetro · El Destacamento · ◷ 0*
 
-Te paran en la entrada. Te revisan. Te toman la temperatura con una pistola en la frente. Si tenés Fiebre 1 o más, no entrás: «Vuelva cuando esté sano». Si no, te llevan a una carpa con una mesa plegable y un mapa de Corinto lleno de alfileres de colores.
+Te paran en la entrada. Te revisan. Te toman la temperatura con una pistola en la frente. Si tenés Fiebre 1 o más, no entrás: «Vuelva cuando esté sano». Si no, te llevan a una carpa con una mesa plegable y un mapa de Tolme lleno de alfileres de colores.
 
 El **sargento Ocampo** tiene cuarenta y ocho años, la cara quemada por el sol, la barba de una semana y la mirada de alguien que hace un mes que no recibe una orden que tenga sentido.
 

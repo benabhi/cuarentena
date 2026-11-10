@@ -1,6 +1,6 @@
 ## Barrio 6 · Las Lomas
 
-*Casas grandes con piletas, jardines con riego automático que ya no riega, un club de golf, un colegio bilingüe y un barrio cerrado con guardia en la entrada. Los ricos de Corinto vivían acá, lejos de todo. Ahora, también lejos de todo. Los Lobos mandan.*
+*Casas grandes con piletas, jardines con riego automático que ya no riega, un club de golf, un colegio bilingüe y un barrio cerrado con guardia en la entrada. Los ricos de Tolme vivían acá, lejos de todo. Ahora, también lejos de todo. Los Lobos mandan.*
 
 <a id="e300"></a>
 ### e300 · Las Lomas: llegar

@@ -10,7 +10,7 @@
 > Es lo que tenían que esperar los barcos frente a Venecia, en tiempos de la peste,
 > antes de que alguien los dejara tocar tierra.
 >
-> Nadie se acordaba de eso en Corinto. Hasta que lo dijo la radio.
+> Nadie se acordaba de eso en Tolme. Hasta que lo dijo la radio.
 
 ---
 
@@ -21,7 +21,7 @@
 | Sección | Dónde |
 |---|---|
 | Disposición N.º 1 | El comunicado |
-| Corinto | La ciudad y sus tres alturas |
+| Tolme | La ciudad y sus tres alturas |
 | Lo que sabemos de los Callados | Notas de una enfermera |
 | La Señora | Transcripción de la AM 870 |
 
@@ -53,7 +53,7 @@
 | [e001](#e001)–[e013](#e013) | Prólogo: el día 0 |
 | [e020](#e020)–[e089](#e089) | La Baraja, los sondeos y el grupo |
 | [e100](#e100)–[e169](#e169) | La calle, las Azoteas y el Subsuelo |
-| [e200](#e200)–[e436](#e436) | Los doce barrios de Corinto |
+| [e200](#e200)–[e436](#e436) | Los doce barrios de Tolme |
 | [e440](#e440)–[e493](#e493) | Los refugios |
 | [e500](#e500)–[e552](#e552) | Los Seis Tesoros |
 | [e560](#e560)–[e586](#e586) | El Secreto |
@@ -63,4 +63,4 @@
 | [e800](#e800)–[e838](#e838) | Historias personales |
 | [e900](#e900)–[e991](#e991) | La Noche 40 y los finales |
 
-**Apéndices:** hojas para imprimir, mapa de Corinto, resumen de reglas, bestiario e índice de Marcas.
+**Apéndices:** hojas para imprimir, mapa de Tolme, resumen de reglas, bestiario e índice de Marcas.

@@ -1,6 +1,6 @@
 # El Secreto
 
-*Por qué cuarenta días. Qué hay del otro lado del muro. Quién habla en la AM 870. Al preparar la partida tiraste un dado sin mirarlo y lo doblaste en un papel (r109). Ese papel es la verdad de esta Corinto. En otra partida, la verdad va a ser otra.*
+*Por qué cuarenta días. Qué hay del otro lado del muro. Quién habla en la AM 870. Al preparar la partida tiraste un dado sin mirarlo y lo doblaste en un papel (r109). Ese papel es la verdad de esta Tolme. En otra partida, la verdad va a ser otra.*
 
 ---
 
@@ -57,7 +57,7 @@ Cuatro papeles. Cuatro voces. Juntos, empiezan a tener forma. Todavía no es la 
 ### e563 · Todo
 *El Secreto · 6 pistas · ◷ 0*
 
-Ya no es una sombra. Lo ves entero, desde el principio: la fecha del muro, la orden sellada, las ampollas, la voz, los números. Te quedás despierto toda la noche mirando el techo. A la mañana sabés algo que casi nadie en Corinto sabe, y tenés que decidir qué hacer con eso.
+Ya no es una sombra. Lo ves entero, desde el principio: la fecha del muro, la orden sellada, las ampollas, la voz, los números. Te quedás despierto toda la noche mirando el techo. A la mañana sabés algo que casi nadie en Tolme sabe, y tenés que decidir qué hacer con eso.
 
 Anotá `LA_VERDAD_ENTERA`. −1 Ánimo: hay cosas que es mejor no saber.
 
@@ -173,7 +173,7 @@ Adentro hay un rack de equipos con luces verdes, un aire acondicionado que todav
 No hay nadie. No hubo nadie nunca.
 
 1. **Dejarla hablar.** La ciudad necesita creer en algo. +1 Ánimo. −1 Moral cuando se lo contás al grupo, o ninguna si no se lo contás.
-2. **Apagarla.** La AM 870 se calla por primera vez desde el día del brote. En toda Corinto, la gente se queda mirando las radios. −1 Reputación con la Parroquia (la Señora era su esperanza). Al alba siguiente, todas las facciones saben que algo cambió: anotá `LA_SENORA_CALLADA`.
+2. **Apagarla.** La AM 870 se calla por primera vez desde el día del brote. En toda Tolme, la gente se queda mirando las radios. −1 Reputación con la Parroquia (la Señora era su esperanza). Al alba siguiente, todas las facciones saben que algo cambió: anotá `LA_SENORA_CALLADA`.
 3. **Grabar tu propio mensaje** (◷ 1, `[Labia]`). Contale a la ciudad la verdad: que no viene nadie, que hay que juntarse, dónde estás. Con 10+, +1 Reputación con las cuatro facciones, y en los próximos 3 albas, con 4–6 en 1d6, llega alguien al refugio (r180). +3 Rastro. Con 7–9, eso, pero solo +1 con dos facciones a elección. Con 6−, la voz te sale quebrada; algunos te creen. +3 Rastro igual. Anotá `TU_VOZ_EN_LA_RADIO`.
 
 ---
@@ -183,7 +183,7 @@ No hay nadie. No hubo nadie nunca.
 *El Secreto · 1 · Revelación*
 
 > COMANDO DE EMERGENCIA · DISPOSICIÓN RESERVADA N.º 40
-> El período de observación de la zona Corinto se fija en cuarenta (40) días a partir del cierre del cordón. Transcurrido el plazo, se habilitará un corredor sanitario en el Puesto Norte. Serán evacuadas las personas que superen el control sanitario. Las personas con temperatura superior a 37,5 °C o lesiones compatibles no serán evacuadas bajo ninguna circunstancia.
+> El período de observación de la zona Tolme se fija en cuarenta (40) días a partir del cierre del cordón. Transcurrido el plazo, se habilitará un corredor sanitario en el Puesto Norte. Serán evacuadas las personas que superen el control sanitario. Las personas con temperatura superior a 37,5 °C o lesiones compatibles no serán evacuadas bajo ninguna circunstancia.
 
 **La verdad.** La cuarentena era honesta. Cruel, pero honesta. Cuarenta días es lo que tarda en mostrarse el último caso. El día 41 abren el Puesto Norte. La Señora no mentía: la ayuda llega. Pero no para todos.
 
@@ -210,9 +210,9 @@ Contá a los que pasan: son los **salvados** para el final ([e940](#e940)). Si e
 *El Secreto · 2 · Revelación*
 
 > COMANDO DE EMERGENCIA · DISPOSICIÓN RESERVADA N.º 41
-> Vencido el plazo de contención sin indicios de remisión, se procederá a la esterilización térmica de la zona Corinto. Las unidades del cordón se replegarán a la línea B a las 06:00 del día 41. No se prevé evacuación.
+> Vencido el plazo de contención sin indicios de remisión, se procederá a la esterilización térmica de la zona Tolme. Las unidades del cordón se replegarán a la línea B a las 06:00 del día 41. No se prevé evacuación.
 
-**La verdad.** No viene nadie. Nunca iba a venir nadie. El muro no era para contener a los muertos de afuera: era para que no salieran los de adentro. El día 41, a las doce del mediodía, los aviones pasan sobre Corinto y la ciudad se prende fuego de punta a punta. Sobrevivir a la Marea no alcanza: hay que salir.
+**La verdad.** No viene nadie. Nunca iba a venir nadie. El muro no era para contener a los muertos de afuera: era para que no salieran los de adentro. El día 41, a las doce del mediodía, los aviones pasan sobre Tolme y la ciudad se prende fuego de punta a punta. Sobrevivir a la Marea no alcanza: hay que salir.
 
 **Antes de la Noche 40**
 
@@ -239,7 +239,7 @@ Al amanecer, después de la Marea, se escucha un zumbido de motores lejos, muy a
 > D−21: cierre perimetral. D0: liberación controlada (vector: red de agua, sector Fabril). D+2: cuarentena. Observación: 40 días.
 > Responsable científica: Dra. E. Ríos. Supervisión: Comando de Emergencia.
 
-**La verdad.** No fue un accidente. El muro se empezó a construir tres semanas antes del brote. El Laboratorio soltó algo en el agua de la Fabril para ver qué pasaba en una ciudad cerrada, y lo que pasó fue mucho más de lo que esperaban. Los cuarenta días son el tiempo de observación. Corinto es el experimento. Y alguien en tu grupo lo sabía.
+**La verdad.** No fue un accidente. El muro se empezó a construir tres semanas antes del brote. El Laboratorio soltó algo en el agua de la Fabril para ver qué pasaba en una ciudad cerrada, y lo que pasó fue mucho más de lo que esperaban. Los cuarenta días son el tiempo de observación. Tolme es el experimento. Y alguien en tu grupo lo sabía.
 
 **Quién lo sabía.** El primero de esta lista que esté en tu grupo:
 
@@ -258,7 +258,7 @@ Al amanecer, después de la Marea, se escucha un zumbido de motores lejos, muy a
 A las nueve llegan los observadores: camionetas blancas, trajes amarillos, cajas de muestras. Vienen a contar.
 
 - **Si tenés `EL_MUNDO_SABE`:** detrás de ellos vienen periodistas, una ambulancia de la Cruz Roja, una mujer con una cámara que llora. Todos tus vivos son salvados, y el final es **«El mundo sabe»** ([e948](#e948)).
-- **Si no:** los observadores te ofrecen salir a cambio de que firmes un papel y te dejes tomar muestras toda la vida. Si firmás, tus vivos son salvados. Si no firmás, te quedás en Corinto, que ya no le interesa a nadie: el final es **«Los que se quedaron»** ([e946](#e946)).
+- **Si no:** los observadores te ofrecen salir a cambio de que firmes un papel y te dejes tomar muestras toda la vida. Si firmás, tus vivos son salvados. Si no firmás, te quedás en Tolme, que ya no le interesa a nadie: el final es **«Los que se quedaron»** ([e946](#e946)).
 
 ---
 
@@ -269,14 +269,14 @@ A las nueve llegan los observadores: camionetas blancas, trajes amarillos, cajas
 > «... Permanezca en su domicilio. No abra la puerta a personas con fiebre. La ayuda llegará. Este es un mensaje del Comando de Emergencia...»
 > Archivo: comunicado_final_v3.wav · Duración: 04:12 · Creado: día −5 · Reproducciones: 912
 
-**La verdad.** La Señora es una grabación. Se grabó cinco días antes del brote, por si acaso, y la dejaron sonando cuando se fueron. Afuera no hay nadie que vaya a venir: el brote no se quedó en Corinto. El muro se rompió en otro lado, en otras ciudades, en todas. El país cayó. Corinto, con su muro, es de los últimos lugares que quedan. Ganar no es que te rescaten. Ganar es empezar de nuevo.
+**La verdad.** La Señora es una grabación. Se grabó cinco días antes del brote, por si acaso, y la dejaron sonando cuando se fueron. Afuera no hay nadie que vaya a venir: el brote no se quedó en Tolme. El muro se rompió en otro lado, en otras ciudades, en todas. El país cayó. Tolme, con su muro, es de los últimos lugares que quedan. Ganar no es que te rescaten. Ganar es empezar de nuevo.
 
 **Antes de la Noche 40**
 
 - Podés encontrar la planta transmisora → [e579](#e579). Con `FRECUENCIAS_DEL_COMANDO`, la libreta del radioaficionado dice de dónde sale la señal: la encontrás sin gastar las ◷ 2 de búsqueda.
 - **Con `LA_SENORA_SE_EQUIVOCA`:** ya lo sospechabas, y el grupo también. En [e579](#e579), contarlo no baja la Moral.
 - El **Destacamento** no lo sabe. Si se lo contás a Ocampo (`[Labia]`), con 7+ el Destacamento se queda en la ciudad después del día 41, y en la Noche 40 pelea con vos ([e905](#e905)) sin tirar. +2 Reputación. Con 6−, no te cree: −1 Reputación.
-- **Con `LA_VERDAD_ENTERA`:** sabés que la Marea es lo que queda de la gente de afuera. Después de la Noche 40, no va a venir otra. Si sobrevivís, Corinto es tuya.
+- **Con `LA_VERDAD_ENTERA`:** sabés que la Marea es lo que queda de la gente de afuera. Después de la Noche 40, no va a venir otra. Si sobrevivís, Tolme es tuya.
 
 **El día 41**
 
@@ -308,7 +308,7 @@ Tus vivos son todos **salvados**: nadie se los va a llevar, nadie los va a quema
 
 **El día 41**
 
-- **Con `PASTOR_MUERTO`:** al amanecer, las calles están llenas de Callados quietos, parados, sin rumbo, que no saben a dónde ir. Los vivos de Corinto empiezan a salir. El final es **«La Marea ciega»** ([e945](#e945)): tus vivos son salvados.
+- **Con `PASTOR_MUERTO`:** al amanecer, las calles están llenas de Callados quietos, parados, sin rumbo, que no saben a dónde ir. Los vivos de Tolme empiezan a salir. El final es **«La Marea ciega»** ([e945](#e945)): tus vivos son salvados.
 - **Si el Pastor sigue vivo:** al amanecer lo ves desde la ventana. Está parado en la esquina, mirando tu refugio. Después se da vuelta y se va, despacio. Tus vivos son salvados, pero en el final leé también el párrafo **«Él te recuerda»** ([e945](#e945)).
 
 ---
@@ -320,7 +320,7 @@ Tus vivos son todos **salvados**: nadie se los va a llevar, nadie los va a quema
 > BANCO DE SANGRE · HOSPITAL CENTRAL
 > Donantes sin seroconversión tras exposición documentada: 20 (veinte). Frecuencia estimada en población: 1 cada 900. Notificar al Comando. Prioridad máxima. Recuperar sujetos vivos.
 
-**La verdad.** Hay gente que no se convierte. Los muerde un Callado, les sube la Fiebre, y la Fiebre baja sola. El Comando lo sabe desde la primera semana y los busca: una sola persona inmune vale más que toda Corinto. Uno de tus sobrevivientes es inmune.
+**La verdad.** Hay gente que no se convierte. Los muerde un Callado, les sube la Fiebre, y la Fiebre baja sola. El Comando lo sabe desde la primera semana y los busca: una sola persona inmune vale más que toda Tolme. Uno de tus sobrevivientes es inmune.
 
 **Quién es el inmune.** El primero de esta lista que esté vivo en tu grupo:
 

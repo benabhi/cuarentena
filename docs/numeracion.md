@@ -49,8 +49,8 @@ e560 una pista · e561 dos pistas · e562 cuatro · e563 seis · e570 abrir el S
 ## Final
 e900 La Noche 40 · e901 especiales · e905 aliados · e910 después de la 2.ª oleada · e912 después de la 4.ª · e920 brecha · e925 última puerta · e930 amanecer
 e940 contar a los salvados · e941 Solo · e942 Unos pocos · e943 El grupo · e944 La cura · e945 La Marea ciega · e946 Los que se quedaron · e947 Ceniza · e948 El mundo sabe · e949 Empezar de nuevo
-e950–e953 epílogos de protagonista · e954 lo que fue de los tuyos · e955 lo que Corinto recuerda
+e950–e953 epílogos de protagonista · e954 lo que fue de los tuyos · e955 lo que Tolme recuerda
 e960 salidas del Éxodo · e961 del otro lado · e990 la muerte · e991 la conversión
 
 ## Apéndices
-95-apendices.md: hojas (protagonista, refugio, grupo), plano de Corinto y guía de lugares, resumen de reglas, bestiario y recetario de bolsillo · 96-indice-marcas.md (generado con herramientas/indice_marcas.py)
+95-apendices.md: hojas (protagonista, refugio, grupo), plano de Tolme y guía de lugares, resumen de reglas, bestiario y recetario de bolsillo · 96-indice-marcas.md (generado con herramientas/indice_marcas.py)

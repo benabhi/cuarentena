@@ -142,9 +142,9 @@ Los sobrevivientes que te acompañan (r185) actúan después de vos. Cada uno, e
 ## La ciudad
 
 <a id="r150"></a>
-### r150 · El mapa de Corinto
+### r150 · El mapa de Tolme
 
-Corinto no se recorre en casillas. El mapa es un **plano de red**, como el de un subte: cada barrio es una estación, y las líneas de colores dicen cómo se llega de uno a otro.
+Tolme no se recorre en casillas. El mapa es un **plano de red**, como el de un subte: cada barrio es una estación, y las líneas de colores dicen cómo se llega de uno a otro.
 
 - Cada **barrio** tiene una tabla de encuentros (la primera entrada de su bloque) y varios **lugares** con nombre: farmacias, galpones, hospitales, casas.
 - Cada **lugar** tiene su evento, su **tipo** (para el botín) y su **stock** (r160).
@@ -402,7 +402,7 @@ Ocho **materiales** se cuentan en la hoja del refugio:
 
 **El refugio mismo** se desarma una sola vez: sus muebles, puertas de adentro y bancos dan **6 Madera** en total. Tachá la casilla «Desarmado» de la Hoja del refugio. Todo lo demás de la tabla viene de lo que traés de afuera.
 
-**Desarmar afuera:** en una Vivienda, una Oficina o un Comercio, cuando lo revisás (r161) podés romper los muebles ahí mismo y cargarte la madera: vos y cada persona que va con vos se llevan **2 Madera** cada uno (1 casillero). Se puede una vez por lugar, y hace ruido: **+1 Ruido**. Así se levantan las barricadas en Corinto: con las puertas y las mesas de los que ya no están.
+**Desarmar afuera:** en una Vivienda, una Oficina o un Comercio, cuando lo revisás (r161) podés romper los muebles ahí mismo y cargarte la madera: vos y cada persona que va con vos se llevan **2 Madera** cada uno (1 casillero). Se puede una vez por lugar, y hace ruido: **+1 Ruido**. Así se levantan las barricadas en Tolme: con las puertas y las mesas de los que ya no están.
 
 <a id="r166"></a>
 ### r166 · Comerciar
@@ -525,7 +525,7 @@ Los **Víveres** son la comida y el agua del refugio, en una sola cuenta.
 <a id="r180"></a>
 ### r180 · Los sobrevivientes
 
-En Corinto quedan vivos. Algunos te van a encontrar a vos; a otros los vas a encontrar vos. Hay **18 sobrevivientes** con nombre (e600–e653), cada uno con:
+En Tolme quedan vivos. Algunos te van a encontrar a vos; a otros los vas a encontrar vos. Hay **18 sobrevivientes** con nombre (e600–e653), cada uno con:
 
 - una **Habilidad fuerte** (en 2 o 3; las demás en 0),
 - un **rasgo** (Valiente, Cobarde, Glotón, Insomne, Creyente, Ladrón, Optimista, Fanfarrón, Testarudo, Curioso, Frío, Leal),
@@ -696,7 +696,7 @@ Las **Marcas** son palabras clave en `MAYÚSCULAS_CON_GUIONES`. Guardan la memor
 <a id="r197"></a>
 ### r197 · Las facciones
 
-Cuatro grupos organizados se reparten Corinto. Tu **Reputación** con cada uno va de −3 a +3 y empieza en 0.
+Cuatro grupos organizados se reparten Tolme. Tu **Reputación** con cada uno va de −3 a +3 y empieza en 0.
 
 | Facción | Dónde | Entrada |
 |---|---|---|

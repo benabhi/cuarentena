@@ -20,7 +20,7 @@ Le quedan 2 horas. Volver por las Azoteas cuesta 2. Por la Calle, 1, pero suma R
 <a id="r200"></a>
 ### r200 · Fabricar es sobrevivir
 
-En Corinto nada de lo que necesitás está en una góndola. Las barricadas, las trampas, las armas silenciosas, la munición, las medicinas, la huerta, el generador: todo se arma con lo que hay. El **taller** es el corazón del juego.
+En Tolme nada de lo que necesitás está en una góndola. Las barricadas, las trampas, las armas silenciosas, la munición, las medicinas, la huerta, el generador: todo se arma con lo que hay. El **taller** es el corazón del juego.
 
 Para fabricar algo necesitás:
 

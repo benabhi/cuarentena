@@ -1,6 +1,6 @@
 # Los sobrevivientes
 
-*Dieciocho personas que siguen vivas en Corinto por terquedad, por suerte o porque alguien las cuidó. No son soldados. Son un jubilado ferroviario, una maestra, un cerrajero, una carnicera, dos hermanos, un perro. Cada uno llega con lo que sabe, lo que le falta y lo que esconde.*
+*Dieciocho personas que siguen vivas en Tolme por terquedad, por suerte o porque alguien las cuidó. No son soldados. Son un jubilado ferroviario, una maestra, un cerrajero, una carnicera, dos hermanos, un perro. Cada uno llega con lo que sabe, lo que le falta y lo que esconde.*
 
 **Cómo se lee un sobreviviente.** Cada uno tiene tres entradas: el **encuentro** (cómo lo conocés y qué hace falta para que venga), su **necesidad** (el problema que trae) y su **desenlace** (cómo termina su historia, si llega). En la ficha del encuentro está todo lo que hay que anotar en la Hoja del refugio: Habilidad fuerte, rasgo, qué hace en la Noche 40 y **cuándo** leer su necesidad. Las demás Habilidades de un sobreviviente valen 0.
 

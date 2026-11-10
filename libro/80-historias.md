@@ -116,7 +116,7 @@ Es la primera vez en un mes que hacés algo que sabés hacer.
 
 `[Medicina]` (+1 si sos Partera, `ENFERMERA_PARTERA`; +1 con Botiquín).
 
-- **Con 10+:** una nena. Llora fuerte, demasiado fuerte para Corinto. Luna se ríe y llora. Vienen al refugio las dos. +2 Juramento, +2 Moral. Anotá `LA_NENA_DE_LUNA`. El llanto: +1 Rastro.
+- **Con 10+:** una nena. Llora fuerte, demasiado fuerte para Tolme. Luna se ríe y llora. Vienen al refugio las dos. +2 Juramento, +2 Moral. Anotá `LA_NENA_DE_LUNA`. El llanto: +1 Rastro.
 - **Con 7–9:** una nena, y Luna sangra mucho. 2 Fármacos para pararlo. Si los tenés, como con 10+, pero +1 Juramento. Si no, Luna muere esa noche y la nena vive: +1 Juramento, −2 Ánimo.
 - **Con 6−:** las dos se complican. Hacés todo. Al amanecer, una de las dos vive (elegí cuál). Tachá a Luna. −1 Ánimo.
 

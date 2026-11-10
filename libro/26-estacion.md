@@ -1,6 +1,6 @@
 ## Barrio 7 · La Estación
 
-*La terminal de trenes de Corinto, con su bóveda de hierro y vidrio, las cocheras del subte, los depósitos ferroviarios, los hoteles de paso y el correo central. Todo lo que llegaba y se iba de la ciudad pasaba por acá. Ahora no llega ni se va nada. Abajo, la línea C conecta con medio Corinto.*
+*La terminal de trenes de Tolme, con su bóveda de hierro y vidrio, las cocheras del subte, los depósitos ferroviarios, los hoteles de paso y el correo central. Todo lo que llegaba y se iba de la ciudad pasaba por acá. Ahora no llega ni se va nada. Abajo, la línea C conecta con medio Tolme.*
 
 <a id="e320"></a>
 ### e320 · La Estación: llegar

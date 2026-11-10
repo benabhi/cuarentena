@@ -7,7 +7,7 @@
 > **COMANDO DE EMERGENCIA · REPÚBLICA**
 > **DISPOSICIÓN N.º 1 · CORINTO · DÍA 2**
 >
-> Por razones de salud pública, la ciudad de Corinto y su ejido quedan sometidos a **cuarentena sanitaria** por un período de **cuarenta (40) días** a partir de la presente.
+> Por razones de salud pública, la ciudad de Tolme y su ejido quedan sometidos a **cuarentena sanitaria** por un período de **cuarenta (40) días** a partir de la presente.
 >
 > 1. Permanezca en su domicilio.
 > 2. No abra la puerta a personas con fiebre.
@@ -19,9 +19,9 @@
 
 ---
 
-## Corinto
+## Tolme
 
-Corinto es una ciudad como cualquier otra. Seiscientas mil personas sobre la desembocadura de un río ancho y marrón, un puerto que trabajó mejor en otros tiempos, una catedral neogótica que se ve desde todos lados, monoblocks, kioscos, un club con pileta, un shopping que abrió hace tres años y una línea de subte que nunca terminó de funcionar.
+Tolme es una ciudad como cualquier otra. Seiscientas mil personas sobre la desembocadura de un río ancho y marrón, un puerto que trabajó mejor en otros tiempos, una catedral neogótica que se ve desde todos lados, monoblocks, kioscos, un club con pileta, un shopping que abrió hace tres años y una línea de subte que nunca terminó de funcionar.
 
 Es otoño. Los días son templados, las noches frías, y llovizna seguido.
 
@@ -68,7 +68,7 @@ Vos empezás el día 0.
 
 *Transcripción de la AM 870, Radio Oficial del Comando de Emergencia. Se repite cada hora.*
 
-> «Buenas tardes. Habla la Radio Oficial del Comando de Emergencia. Por disposición número uno, la ciudad de Corinto permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. Zonas a evitar: Sanidad, el Perímetro norte, la Estación. El pronóstico para mañana es de lloviznas aisladas, con una mínima de seis grados. La ayuda llegará. Faltan treinta y siete días.»
+> «Buenas tardes. Habla la Radio Oficial del Comando de Emergencia. Por disposición número uno, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. Zonas a evitar: Sanidad, el Perímetro norte, la Estación. El pronóstico para mañana es de lloviznas aisladas, con una mínima de seis grados. La ayuda llegará. Faltan treinta y siete días.»
 
 La gente la llama **la Señora**. Tiene una voz tranquila, de locutora de las de antes. Nadie sabe si es una persona o una grabación. Algunos dicen que se le escucha la respiración. Otros, que el pronóstico nunca acierta.
 
@@ -78,7 +78,7 @@ La gente la llama **la Señora**. Tiene una voz tranquila, de locutora de las de
 
 Del otro lado del muro, toda la región se convirtió. Millones de Callados caminan hacia el único lugar que todavía hace ruido: la ciudad sellada. Se amontonan contra los contenedores, contra el alambre, contra el hormigón. Los soldados de las torres de vigía lo saben. Lo saben también los que se acercaron al muro a mirar.
 
-El muro no va a aguantar cuarenta días. Cuando ceda, la horda va a entrar de golpe y va a barrer Corinto de punta a punta.
+El muro no va a aguantar cuarenta días. Cuando ceda, la horda va a entrar de golpe y va a barrer Tolme de punta a punta.
 
 Le dicen **la Marea**.
 

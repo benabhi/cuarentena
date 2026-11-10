@@ -1,6 +1,6 @@
 # CUARTA PARTE · APÉNDICES
 
-*Hojas para fotocopiar, el plano de Corinto y todo lo que conviene tener a mano en la mesa. Las hojas se pueden imprimir desde la app o copiar a mano en un cuaderno: con lápiz, que acá todo se borra.*
+*Hojas para fotocopiar, el plano de Tolme y todo lo que conviene tener a mano en la mesa. Las hojas se pueden imprimir desde la app o copiar a mano en un cuaderno: con lápiz, que acá todo se borra.*
 
 ---
 
@@ -195,9 +195,9 @@ ______________________________________________________________________
 
 ---
 
-## El plano de Corinto
+## El plano de Tolme
 
-*Corinto no se recorre en casillas: es una red, como el plano de un subte. Las doce estaciones son los barrios. La línea amarilla es la Calle, la gris son las Azoteas y la roja es el Subsuelo (r151). En la doble página del plano, cada barrio tiene espacio para pintar las X de búsqueda de sus lugares (r163) y poner las fichas de las Procesiones.*
+*Tolme no se recorre en casillas: es una red, como el plano de un subte. Las doce estaciones son los barrios. La línea amarilla es la Calle, la gris son las Azoteas y la roja es el Subsuelo (r151). En la doble página del plano, cada barrio tiene espacio para pintar las X de búsqueda de sus lugares (r163) y poner las fichas de las Procesiones.*
 
 ### Las líneas
 

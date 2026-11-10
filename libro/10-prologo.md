@@ -8,11 +8,11 @@
 
 <a id="e001"></a>
 ### e001 · Lunes
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Es lunes y llovizna. En la radio de un colectivo hablan de fútbol, de un choque en la autopista y, al final, casi como una curiosidad, de «un aumento de consultas por cuadros febriles en las guardias de la ciudad». El locutor se ríe de algo que dice su compañero. Nadie en el colectivo levanta la vista del celular.
 
-Esa noche, en Corinto, se mueren cuatro mil personas.
+Esa noche, en Tolme, se mueren cuatro mil personas.
 
 A la mañana siguiente, se levantan.
 
@@ -69,7 +69,7 @@ En tu campera hay una copia del contrato de la obra del norte. «Obra de contenc
 ### e004 · El cordón
 *El Perímetro · Puesto de control Norte · ◷ 0*
 
-Día 2. Te mandaron al puesto Norte con un chaleco antibalas que no es de tu talle y nadie que te explique nada. Hay soldados, contenedores apilados con grúas, rollos de alambre de púas, y del otro lado de la ruta, una fila de autos que quiere salir de Corinto y no la dejan.
+Día 2. Te mandaron al puesto Norte con un chaleco antibalas que no es de tu talle y nadie que te explique nada. Hay soldados, contenedores apilados con grúas, rollos de alambre de púas, y del otro lado de la ruta, una fila de autos que quiere salir de Tolme y no la dejan.
 
 A las tres de la tarde, un teniente te da un sobre marrón con un sello rojo. «Para ejecutar al recibir la señal, agente. No lo abra antes.» Anotá `ORDEN_SELLADA`.
 
@@ -89,7 +89,7 @@ Los soldados miran al teniente. El teniente te mira a vos.
 ### e005 · El último pedido
 *El Casco · ◷ 0*
 
-El celular vibra en el soporte del manubrio: «Pedido cancelado». Es el tercero de la noche. La aplicación dice que no hay repartos activos en Corinto, y en la avenida no hay un auto. Lloviznó y el asfalto brilla.
+El celular vibra en el soporte del manubrio: «Pedido cancelado». Es el tercero de la noche. La aplicación dice que no hay repartos activos en Tolme, y en la avenida no hay un auto. Lloviznó y el asfalto brilla.
 
 En tu mochila térmica sigue la caja del sábado: una conservadora blanca, chica, con un precinto rojo y una etiqueta que dice LAB. VIROLOGÍA · CU · NO ABRIR · CADENA DE FRÍO. El destinatario, un tal «Dr. M. Salas», nunca atendió el timbre. La empresa te dijo que la tuvieras vos hasta el lunes. Ya es lunes. Anotá `CAJA_PRECINTADA`.
 
@@ -107,7 +107,7 @@ Cuando pasás, los dos giran la cabeza al mismo tiempo. Hacia el ruido de tu cad
 
 <a id="e006"></a>
 ### e006 · El primero
-*Corinto · ◷ 0 · escena: Pasillo*
+*Tolme · ◷ 0 · escena: Pasillo*
 
 No importa dónde estés: el primero siempre es alguien. Una vecina, un paciente, un hombre de traje con el portafolio todavía en la mano. Te tiene acorralado en un pasillo, una escalera, un zaguán. Y detrás de él, otro.
 
@@ -121,7 +121,7 @@ Esto es un **combate** (r140). Leé las reglas mientras lo jugás:
 - Los que están **Encima**, al final de la ronda, **muerden** (r144): tirá 1d6 por cada uno (como mucho dos). 1–3 nada; 4–5 un golpe (1 Herida); 6, los dientes: 1 Herida y otro dado, que dice si fue un arañazo o una mordida.
 - Si preferís, podés **retroceder** `[Físico]` o **esconderte** `[Sigilo]` (r142), pero en un pasillo no hay mucho lugar.
 
-Si te muerden o te arañan, leé ya la regla de la **Fiebre** (r191). Si no te pasa nada, leela igual: en Corinto, todo el mundo la sabe de memoria.
+Si te muerden o te arañan, leé ya la regla de la **Fiebre** (r191). Si no te pasa nada, leela igual: en Tolme, todo el mundo la sabe de memoria.
 
 - **Si ganás o escapás:** te quedás temblando, con algo en la mano que antes era otra cosa. Marcá una casilla de práctica en Pelea, ganes como ganes: esto no se olvida. → **[e007](#e007)**.
 - **Si caés:** te arrastra alguien. No sabés quién. Te despertás en el piso de un baño con 3 Heridas marcadas y la puerta trabada desde adentro. → **[e007](#e007)**.
@@ -130,11 +130,11 @@ Si te muerden o te arañan, leé ya la regla de la **Fiebre** (r191). Si no te p
 
 <a id="e007"></a>
 ### e007 · La Señora
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Pasan dos días que no vas a recordar bien. Comés lo que encontrás, dormís de a ratos, ves cosas desde las ventanas. El martes cortan los teléfonos. El miércoles, internet. El miércoles a la noche, por una radio a pilas, una voz de mujer tranquila, de locutora vieja, dice:
 
-> *«Por disposición del Comando de Emergencia, la ciudad de Corinto permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
+> *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
 
 Después de la voz, un pitido. Después, la voz otra vez. Toda la noche.
 
@@ -142,13 +142,13 @@ Por la mañana, alguien pegó carteles amarillos en todos los postes de la cuadr
 
 Necesitás un lugar. Uno de verdad: con paredes gruesas, con puertas que cierren, con lugar para más gente que vos. No vas a aguantar cuarenta días solo en un baño.
 
-Esto es el **mapa de Corinto** (r150). Miralo: doce barrios unidos por tres clases de líneas, la **Calle**, las **Azoteas** y el **Subsuelo** (r151). Todavía no lo vas a recorrer. Primero, el refugio. → **[e008](#e008)**.
+Esto es el **mapa de Tolme** (r150). Miralo: doce barrios unidos por tres clases de líneas, la **Calle**, las **Azoteas** y el **Subsuelo** (r151). Todavía no lo vas a recorrer. Primero, el refugio. → **[e008](#e008)**.
 
 ---
 
 <a id="e008"></a>
 ### e008 · Un lugar donde quedarse
-*Corinto · ◷ 0*
+*Tolme · ◷ 0*
 
 Lo pensás mucho. Seis lugares que conocés, seis lugares que podrían aguantar. Cada uno tiene sus paredes, sus puertas y sus problemas (r170). Leé las seis entradas antes de elegir: cada una te dice qué tiene, qué le falta y qué hay que anotar en la **Hoja del refugio**.
 
@@ -246,7 +246,7 @@ Nadie contesta. → **[e013](#e013)**.
 ### e013 · Desde arriba
 *Tu refugio · ◷ 0*
 
-Al amanecer subís al lugar más alto que tenga el refugio: el campanario, la azotea, un tanque de agua. Desde ahí se ve casi toda Corinto. Humo en tres barrios. Un helicóptero lejos, que no se acerca. Y al norte, en el horizonte, el **muro**: una línea de contenedores de colores apilados de a tres, con torres de vigía cada doscientos metros.
+Al amanecer subís al lugar más alto que tenga el refugio: el campanario, la azotea, un tanque de agua. Desde ahí se ve casi toda Tolme. Humo en tres barrios. Un helicóptero lejos, que no se acerca. Y al norte, en el horizonte, el **muro**: una línea de contenedores de colores apilados de a tres, con torres de vigía cada doscientos metros.
 
 Del otro lado del muro, el campo está negro. Te lleva un rato entender que no está quemado. Está lleno de gente. Millones. Quietos, de cara a la ciudad. Como si esperaran algo.
 

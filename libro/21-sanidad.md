@@ -1,6 +1,6 @@
 ## Barrio 2 · Sanidad
 
-*El barrio de los hospitales. El Hospital Central, la Clínica San Roque, la Facultad de Medicina, la morgue. Acá empezó todo, y acá está todo lo que necesitás para curarte. Por eso es el barrio con más Callados de Corinto: todos los que se murieron en las guardias siguen en las guardias.*
+*El barrio de los hospitales. El Hospital Central, la Clínica San Roque, la Facultad de Medicina, la morgue. Acá empezó todo, y acá está todo lo que necesitás para curarte. Por eso es el barrio con más Callados de Tolme: todos los que se murieron en las guardias siguen en las guardias.*
 
 <a id="e220"></a>
 ### e220 · Sanidad: llegar
@@ -34,7 +34,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 
 Doce pisos de hospital. Ambulancias abandonadas en la rampa de la guardia, camillas en la vereda, una carpa sanitaria del Comando derrumbada sobre sí misma. Las puertas automáticas de la guardia se abren y se cierran solas, una y otra vez, sobre un cuerpo atascado en el riel.
 
-Adentro hay cientos. Lo sabe todo Corinto.
+Adentro hay cientos. Lo sabe todo Tolme.
 
 **Tesoro:** si en tu mapa el Generador industrial está acá (r110) → [e510](#e510).
 

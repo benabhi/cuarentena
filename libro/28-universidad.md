@@ -62,7 +62,7 @@ FM 99.1, «La Radio de la Universidad». Un estudio con vidrio, una consola, mic
 **Tesoro:** si en tu mapa la Radio del aficionado está acá (r110) → [e540](#e540).
 
 - **Revisar** (r161).
-- **Hablar por la radio:** la FM 99.1 se escucha en toda Corinto. Podés decir lo que quieras. → [e375](#e375).
+- **Hablar por la radio:** la FM 99.1 se escucha en toda Tolme. Podés decir lo que quieras. → [e375](#e375).
 - **Apagar la zamba.** Hace semanas que suena. Un barrio de silencio. Si la apagás, los Callados que estaban quietos alrededor del edificio escuchando (sí, escuchando) se dispersan: una Procesión nueva sale de la Ciudad Universitaria hacia un barrio vecino al azar.
 
 ---
@@ -157,9 +157,9 @@ Si sale un 1–2 en 1d6 al irte, las cámaras de aislamiento no estaban vacías:
 ### e375 · Al aire
 *Ciudad Universitaria · Radio universitaria · ◷ 1*
 
-Te sentás frente al micrófono. La luz roja de AL AIRE se enciende. En algún lugar de Corinto, alguien con una radio a pilas va a escuchar tu voz.
+Te sentás frente al micrófono. La luz roja de AL AIRE se enciende. En algún lugar de Tolme, alguien con una radio a pilas va a escuchar tu voz.
 
-1. **Llamar a los sobrevivientes** a tu refugio. Mañana y pasado, cada alba, tirá 1d6: con 4–6, llega alguien (r180). Pero +3 Rastro: todo Corinto sabe dónde estás. Anotá `LLAMASTE_POR_RADIO`.
+1. **Llamar a los sobrevivientes** a tu refugio. Mañana y pasado, cada alba, tirá 1d6: con 4–6, llega alguien (r180). Pero +3 Rastro: todo Tolme sabe dónde estás. Anotá `LLAMASTE_POR_RADIO`.
 2. **Contar lo que sabés** (si tenés 2 pistas o más). Contás lo del muro, lo del laboratorio, lo de los cuarenta días. +1 Reputación con la Parroquia y los Bomberos; −1 con el Destacamento. Anotá `LA_VERDAD_AL_AIRE`.
 3. **Poner música.** Una hora de música fuerte en toda la ciudad. Todas las Procesiones del mapa se mueven un barrio hacia la Ciudad Universitaria (r156). Es una forma de limpiar tu barrio. La radio queda prendida: los próximos 3 días, la Ciudad Universitaria tiene una Procesión doble.
 4. **Hablarle a la Señora.** En la AM 870 no te va a escuchar. Pero quizás la Señora escucha la FM. Decí lo que quieras. Al alba siguiente, si escuchás la AM 870 ([e054](#e054)), el mensaje de la Señora tiene un segundo de silencio después de «La ayuda llegará». Una pista ([e560](#e560)).
