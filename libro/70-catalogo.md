@@ -1,6 +1,6 @@
 # El catálogo
 
-*Todo lo que se puede agarrar, ponerse, fabricar o temer en Tolme. Las armas y los objetos, las fichas de los infectados (como las que llenaban en la morgue del Central mientras hubo morgue), las recetas del taller y los manuales que las enseñan.*
+*Todo lo que se puede agarrar, ponerse, fabricar o temer en Tolme: armas, objetos, las fichas de los infectados, las recetas del taller y los manuales que las enseñan.*
 
 ---
 
@@ -212,9 +212,9 @@ Un vehículo te lleva rápido, pero todo Tolme lo escucha llegar: al llegar, la 
 
 ## Los infectados
 
-*Las fichas que siguen son copia de las que llenaba el personal de la morgue del Hospital Central durante la primera semana, cuando todavía se llenaban fichas. Las observaciones de combate las agregó alguien después, a mano.*
+*Copias de las fichas que llenaba la morgue del Central la primera semana, cuando todavía se llenaban fichas. Las observaciones de combate las agregó alguien después, a mano.*
 
-Cada ficha dice la **Etapa** en la que empieza a aparecer, el **Aguante** (el Daño que hace falta para matarlo, r143), su **conducta** y qué hace **en la Noche 40** si aparece en una oleada ([e901](#e901)).
+Cada ficha dice la **Etapa** en que aparece, el **Aguante** (el Daño para matarlo, r143), su **conducta** y qué hace **en la Noche 40** si llega en una oleada ([e901](#e901)).
 
 ---
 
@@ -224,10 +224,9 @@ Cada ficha dice la **Etapa** en la que empieza a aparecer, el **Aguante** (el Da
 
 > **Aguante:** 1 · **Avance:** 1 paso por ronda · **Vienen:** de a muchos
 
-Ojos blancos, boca abierta, sin sonido. Caminan arrastrando los pies, con la ropa que tenían el día que se convirtieron: delantales, uniformes, pijamas, trajes de novia. No gritan. No gimen. Se acercan. Siguen el ruido como el agua sigue la pendiente: sin pensar, sin parar. Cuando no hay ruido, se quedan quietos donde estén, durante días. Quietos en una esquina. Quietos frente a una puerta. Quietos en la cama.
+Ojos blancos, boca abierta, sin sonido, con la ropa del día en que se convirtieron: delantales, pijamas, trajes de novia. Siguen el ruido como el agua sigue la pendiente. Sin ruido, se quedan quietos donde estén durante días.
 
-- **Conducta:** todo lo de r140–r145. El Ruido los llama.
-- **Observación:** si no hacés ruido, no te oyen. Si no te oyen, no te buscan. Si te ven, vienen.
+- **Conducta:** todo lo de r140–r145. Si no te oyen, no te buscan. Si te ven, vienen.
 - **Los que fueron alguien:** matar a uno que conocías, −1 Ánimo (r194).
 - **En la Noche 40:** son la Marea.
 
@@ -239,12 +238,10 @@ Ojos blancos, boca abierta, sin sonido. Caminan arrastrando los pies, con la rop
 
 > **Aguante:** 1 · **Avance:** 2 pasos por ronda · **Vienen:** solos o de a dos
 
-Los recién convertidos. Todavía tienen color en la cara, todavía tienen la ropa limpia, y todavía tienen las piernas de cuando estaban vivos: corren. Corren torpes, con los brazos colgando, pero corren. Con los días se les endurecen los músculos y se vuelven Callados como todos.
+Los recién convertidos: todavía tienen color en la cara y las piernas de cuando estaban vivos. Corren, torpes, con los brazos colgando. En la Etapa III, un Fresco quiere decir que alguien acaba de morir cerca.
 
-- **Conducta:** avanza **dos pasos** por ronda: de Lejos a Encima en una sola ronda.
-- **Cómo:** pegarle primero. Si lo dejás llegar, ya llegó.
-- **Observación:** cuantos más días pasan, menos Frescos hay. En la Etapa III y IV, un Fresco quiere decir que alguien acaba de morir cerca.
-- **En la Noche 40:** la oleada en la que aparece tiene +2 de Fuerza.
+- **Conducta:** de Lejos a Encima en una sola ronda. Pegale primero: si llega, ya llegó.
+- **En la Noche 40:** su oleada tiene +2 de Fuerza.
 
 ---
 
@@ -254,12 +251,11 @@ Los recién convertidos. Todavía tienen color en la cara, todavía tienen la ro
 
 > **Aguante:** 2 · **Avance:** 1 paso cada dos rondas · **Vienen:** solos
 
-Gordo de gases, verde, con la piel tirante y brillante, la ropa reventada en las costuras. Huele a lo que es. Camina despacio, balanceándose, como un globo de agua.
+Verde, tirante y brillante, con la ropa reventada en las costuras. Camina como un globo de agua. Huele a lo que es.
 
-- **Conducta:** si muere a **Cerca** o **Encima**, revienta: una bilis negra y caliente que salpica todo. **+2 Ruido** y **Desventaja** en todas las pruebas el resto del combate (no ves nada, no podés respirar). Si estás Encima, además, prueba de Fiebre como un arañazo.
-- **Cómo:** desde Lejos. Una piedra, una saeta, un disparo. O no matarlo y rodearlo: es lento.
-- **Observación:** el fuego lo hace explotar donde esté, y la explosión prende lo que tenga cerca.
-- **En la Noche 40:** si explota contra un frente, el frente pierde 1 Resistencia, pero la oleada pierde 1 de Fuerza (los Callados de alrededor quedan ciegos).
+- **Conducta:** si muere a **Cerca** o **Encima**, revienta: **+2 Ruido** y **Desventaja** en todo el resto del combate. Encima, además, prueba de Fiebre como un arañazo. El fuego lo hace explotar donde esté.
+- **Cómo:** desde Lejos, o rodearlo: es lento.
+- **En la Noche 40:** si explota contra un frente, el frente pierde 1, pero la oleada pierde 1 de Fuerza.
 
 ---
 
@@ -269,12 +265,11 @@ Gordo de gases, verde, con la piel tirante y brillante, la ropa reventada en las
 
 > **Aguante:** 2 · **Avance:** no avanza · **Vienen:** sola, con Callados
 
-La única que hace ruido. Siempre son mujeres, o eso dicen. Flacas, con el pelo largo, la boca abierta más de lo que debería abrirse una boca. Cuando te ve, se queda quieta y grita. Un grito largo, agudo, que no termina, que no respira. Se escucha a cuatro cuadras.
+La única que hace ruido. Flaca, de pelo largo, con la boca abierta más de lo que se abre una boca. Cuando te ve, grita: un grito agudo que no respira y se oye a cuatro cuadras.
 
-- **Conducta:** no avanza. Cada ronda que siga viva, **+2 Ruido** (r145). Los Callados del barrio vienen a ella.
-- **Cómo:** matarla primero, aunque esté Lejos y tengas otros más cerca. O irte del barrio.
-- **Observación:** con la boca tapada (una bolsa, una tela, `[Pelea]` desde Encima con 10+), el grito se corta. Pero hay que llegar a ella.
-- **En la Noche 40:** la oleada en la que aparece tiene +1 de Fuerza y la siguiente también: los llama a todos.
+- **Conducta:** cada ronda que siga viva, **+2 Ruido** (r145). Tapándole la boca (`[Pelea]` desde Encima con 10+), se corta.
+- **Cómo:** matarla primero, aunque haya otros más cerca. O irte del barrio.
+- **En la Noche 40:** su oleada y la siguiente tienen +1 de Fuerza.
 
 ---
 
@@ -284,12 +279,11 @@ La única que hace ruido. Siempre son mujeres, o eso dicen. Flacas, con el pelo 
 
 > **Aguante:** 2 · **Avance:** de Lejos a Encima de un salto · **Vienen:** solos, en la oscuridad
 
-Los que se quedaron en la oscuridad: en el subte, en los sótanos, en las cúpulas, en las azoteas. Flacos, pálidos, con los dedos largos y las uñas negras, en cuclillas, quietos durante horas. Se mueven distinto: saltan. Desde arriba, desde atrás, desde donde no estabas mirando.
+Los que se quedaron en el subte, los sótanos y las cúpulas: pálidos, dedos largos, en cuclillas durante horas. No salen al sol. Nunca.
 
-- **Conducta:** la primera ronda, salta de **Lejos a Encima** sin pasar por Cerca. Si tenés luz (Linterna) apuntándole, no salta: avanza como un Callado.
-- **Cómo:** no ir solo. Si está Encima, tu compañero le pega sin prueba de Pelea la primera vez (r148): sabe dónde está.
-- **Observación:** no salen al sol. Nunca.
-- **En la Noche 40:** entra por el **Techo**, aunque la oleada no haya salido por el Techo. Si el Techo tiene 5 o más de Resistencia, no entra.
+- **Conducta:** la primera ronda salta de **Lejos a Encima**; con una Linterna apuntándole, avanza como un Callado.
+- **Cómo:** no ir solo. Encima de vos, tu compañero le pega sin prueba la primera vez (r148).
+- **En la Noche 40:** entra por el **Techo**, aunque la oleada no salga por ahí, salvo que tenga 5 o más.
 
 ---
 
@@ -299,12 +293,11 @@ Los que se quedaron en la oscuridad: en el subte, en los sótanos, en las cúpul
 
 > **Aguante:** 1 cada uno · **Avance:** 2 pasos por ronda · **Vienen:** en jauría
 
-Perros. Los de la calle, los de las casas, los de la brigada canina. Se convirtieron igual que la gente, pero no se volvieron lentos: siguen corriendo, siguen oliendo, siguen cazando en grupo. No ladran.
+Perros de la calle, de las casas, de la brigada. No se volvieron lentos: siguen oliendo y cazando en grupo. No ladran.
 
-- **Conducta:** avanzan **dos pasos** por ronda. **No se los puede dejar atrás:** Retroceder (r142) no sirve contra ellos, y Esconderte tiene Desventaja (te huelen).
-- **Cómo:** subir alto (una escalera, un auto, una azotea) o cerrar una puerta. No trepan.
-- **Observación:** siguen el rastro de sangre: si tenés una Herida sin curar, te encuentran.
-- **En la Noche 40:** la oleada en la que aparecen elige el frente más débil, como si hubiera salido un 6.
+- **Conducta:** Retroceder (r142) no sirve, y Esconderte tiene Desventaja. Con una Herida sin curar, te encuentran.
+- **Cómo:** subir alto o cerrar una puerta. No trepan.
+- **En la Noche 40:** su oleada elige el frente más débil, como con un 6.
 
 ---
 
@@ -314,12 +307,11 @@ Perros. Los de la calle, los de las casas, los de la brigada canina. Se convirti
 
 > **Aguante:** 4 · **Avance:** 1 paso por ronda · **Vienen:** solos
 
-Alguien que era grande y ahora es enorme. La infección le hinchó los músculos hasta reventarle la ropa, la piel violácea, las venas como cables. Arrastra lo que se le enganchó en el camino: una reja, una puerta, un pedazo de auto. No corre. No hace falta.
+Alguien grande que ahora es enorme: piel violácea, venas como cables, arrastrando una reja o media puerta. No corre. No le hace falta.
 
-- **Conducta:** las puertas cerradas, las barricadas y las trampas no lo frenan: las rompe. Donde hay un Bruto, ninguna puerta cuenta como «cerrada» (r141). Si está Encima, cada golpe (un 4 o un 5 en la tabla de mordidas) son 2 Heridas.
-- **Cómo:** fuego (no lo frena, pero el Daño sigue: cada ronda en llamas, 1 Daño), trampas grandes (Foso de estacas: 2 Daño), armas pesadas. O huir: es lento.
-- **Observación:** en un sondeo, el frente que golpea pierde 3 de Resistencia, no 1 ([e075](#e075)).
-- **En la Noche 40:** la oleada en la que aparece hace +3 de daño al frente si entra. El Foso de estacas y las Rejas soldadas le hacen la mitad.
+- **Conducta:** donde hay un Bruto, ninguna puerta cuenta como cerrada (r141). Encima, un 4 o 5 en la tabla de mordidas son 2 Heridas. En un sondeo, el frente pierde 3 ([e075](#e075)).
+- **Cómo:** fuego (1 Daño por ronda en llamas), el Foso de estacas (2 Daño), armas pesadas, o huir.
+- **En la Noche 40:** su oleada hace +3 de daño si entra; el Foso y las Rejas soldadas le hacen la mitad.
 
 ---
 
@@ -329,11 +321,10 @@ Alguien que era grande y ahora es enorme. La infección le hinchó los músculos
 
 > **Aguante:** 2 · **Avance:** no avanza · **Vienen:** solos, en alto
 
-Flaco, con el cuello hinchado como un sapo y la boca negra. Se queda arriba: en un balcón, en un techo, en lo alto de un colectivo. Y escupe. Un chorro verde que humea, que agujerea el metal, que quema la piel hasta el hueso.
+Cuello hinchado como un sapo, boca negra, en un balcón o un techo. Escupe un chorro verde que agujerea el metal.
 
-- **Conducta:** no avanza. Desde **Lejos**, cada ronda, tirá 1d6: con 4–6, te escupe. 1 Herida (la protección no sirve: el ácido pasa) y tu protección pierde 1 uso (si es de Usos ∞, deja de servir: el ácido la come).
-- **Cómo:** desde Lejos y rápido. O ponerte a cubierto: detrás de un auto, debajo de un toldo, adentro de un local; a cubierto, solo te escupe con 6.
-- **En la Noche 40:** el frente al que escupe pierde 1 Resistencia antes de la oleada, y las trampas de ese frente pierden 1 de valor.
+- **Conducta:** desde **Lejos**, cada ronda, con 4–6 en 1d6 te escupe: 1 Herida que la protección no frena, y la protección pierde 1 uso (si es de Usos ∞, deja de servir). A cubierto, solo con 6.
+- **En la Noche 40:** antes de la oleada, su frente pierde 1 y sus trampas pierden 1 de valor.
 
 ---
 
@@ -343,11 +334,11 @@ Flaco, con el cuello hinchado como un sapo y la boca negra. Se queda arriba: en 
 
 > **Aguante:** 2 · **Avance:** 1 paso por ronda, 2 en el agua · **Vienen:** del agua
 
-Los que cayeron al río, a las cloacas inundadas, a las piletas. Blancos, hinchados de agua, con algas en el pelo. Pesados como bolsas de arena mojada. Debajo del agua no los ves. Arriba del agua, ya es tarde.
+Blancos, hinchados de agua, con algas en el pelo. Debajo del agua no los ves; arriba, ya es tarde.
 
-- **Conducta:** en el agua (Subsuelo inundado, el río, el muelle, una pileta), avanza **dos pasos**. Si está Encima y estás en el agua, te arrastra: en lugar de la tabla de mordidas, `[Físico]`; con 6−, te hunde: 1 Herida y no podés atacar esa ronda.
-- **Cómo:** salir del agua. **Los Ahogados no trepan**: un murallón, una escalera, el techo de un auto.
-- **En la Noche 40:** entra por el **Subsuelo**, y solo por ahí. Si tu refugio no tiene Subsuelo, no aparece.
+- **Conducta:** en el agua avanza dos pasos, y Encima te arrastra: en lugar de la tabla de mordidas, `[Físico]`; con 6−, 1 Herida y no atacás esa ronda.
+- **Cómo:** salir del agua. **No trepan.**
+- **En la Noche 40:** solo por el **Subsuelo**. Sin Subsuelo, no aparece.
 
 ---
 
@@ -357,12 +348,12 @@ Los que cayeron al río, a las cloacas inundadas, a las piletas. Blancos, hincha
 
 > **Aguante:** 2 · **Avance:** 1 paso por ronda · **Vienen:** en fila, de a varios
 
-Policías del cordón, soldados, guardias de seguridad, gente con traje de protección del Laboratorio. Se convirtieron con el equipo puesto: cascos, chalecos, escudos, viseras, guantes. Caminan en fila, como en un operativo. A veces todavía tienen el arma colgada.
+Policías, soldados, guardias y trajes amarillos del Laboratorio, convertidos con el equipo puesto. Caminan en fila, como en un operativo.
 
-- **Conducta:** las **armas de mano** le hacen **1 Daño menos** (un cuchillo no le hace nada). Las armas de fuego, normal.
-- **Cómo:** armas de fuego, fuego, la palanca para sacarle el casco (◷ 0, Encima, `[Pelea]`: con 7+, deja de ser Blindado).
-- **Observación:** muerto, se le puede sacar el equipo. Tirá 1d6: 1–3, un casco; 4–5, un chaleco antibala; 6, un arma de fuego (revólver o fusil) con 1d6 de Munición.
-- **En la Noche 40:** la oleada en la que aparecen no pierde Fuerza por las trampas del frente (pasan por encima).
+- **Conducta:** las armas de mano le hacen 1 Daño menos.
+- **Cómo:** fuego, armas de fuego, o la palanca (Encima, `[Pelea]`, ◷ 0): con 7+, le sacás el casco y deja de ser Blindado.
+- **Muerto,** 1d6: 1–3 un casco; 4–5 un chaleco; 6 un revólver o fusil con 1d6 Munición.
+- **En la Noche 40:** su oleada no pierde Fuerza por las trampas.
 
 ---
 
@@ -372,12 +363,11 @@ Policías del cordón, soldados, guardias de seguridad, gente con traje de prote
 
 > **Aguante:** 6 · **Avance:** de Lejos a Encima de un salto, si la molestás · **Vienen:** sola
 
-Una mujer sentada en el suelo, en el medio de la calle, en el medio de una habitación, llorando. El único llanto de la ciudad. Un llanto de persona. Alrededor de ella, en cien metros, no hay nada: ni vivos ni Callados. Los Callados la evitan. Eso debería decirte algo.
+Una mujer sentada en medio de la calle, llorando: el único llanto de persona que queda en la ciudad. En cien metros no hay nada. Los Callados la evitan. Eso debería decirte algo.
 
-- **Conducta:** si no la molestás, **no hace nada**. La molestás si la tocás, si le apuntás con luz, si hacés Ruido 2 o más a menos de una cuadra, si la atacás. Entonces deja de llorar, se levanta y salta: **Encima**, de una. Cada ronda Encima, tirá 1d6 por ella dos veces en la tabla de mordidas, sin que la protección reste.
-- **Cómo:** no la molestes. De verdad. Si tenés que matarla, desde Lejos, con lo más grande que tengas, y que el primer golpe la mate (Daño 6 en una sola ronda: una granada, la ametralladora, dos tiros de escopeta juntos).
-- **Observación:** mientras llora, el lugar está vacío: es el lugar más seguro de Tolme, si no hacés nada.
-- **En la Noche 40:** no viene con la Marea. Se sienta en la vereda y llora. Si alguien del grupo sale (un Cobarde que huye, alguien que hace ruido en la vereda), → combate.
+- **Conducta:** si no la molestás, no hace nada. La molestás si la tocás, la iluminás, la atacás o hacés Ruido 2 a menos de una cuadra. Entonces salta **Encima**, y cada ronda tira dos veces en la tabla de mordidas sin que la protección reste.
+- **Cómo:** no la molestes. Si hay que matarla, desde Lejos y de un golpe (Daño 6 en una ronda). Mientras llora, es el lugar más seguro de Tolme.
+- **En la Noche 40:** llora en la vereda. Si alguien sale o hace ruido ahí, combate.
 
 ---
 
@@ -387,12 +377,12 @@ Una mujer sentada en el suelo, en el medio de la calle, en el medio de una habit
 
 > **Aguante:** 5 · **Avance:** el que quiere · **Vienen:** adelante de una Procesión doble
 
-Un hombre alto, de traje oscuro, con la corbata floja. Camina erguido, sin arrastrar los pies. Se detiene en las esquinas y mira para los dos lados. Abre puertas con el picaporte. Inclina la cabeza para escuchar. Elige. Detrás de él, la Procesión entera gira al mismo tiempo.
+Alto, de traje oscuro y corbata floja. Camina erguido, abre puertas con el picaporte, inclina la cabeza para escuchar. Elige. Detrás de él, la Procesión entera gira a la vez.
 
-- **Conducta:** **piensa**. En combate, no avanza: se queda en Lejos y los demás avanzan por él. Cada ronda, después de tu acción, elige: o los Callados avanzan **dos pasos**, o se cubren detrás de él (las armas de fuego tienen −1 Daño contra el grupo). No muerde: si llega a estar Encima, se aparta y deja lugar a otro.
-- **Cómo:** sin la Procesión. Solo, desde lejos, con un tiro limpio (`[Puntería]` con Desventaja salvo fusil, ballesta o rifle; Daño 5 en un solo golpe) o con un cebo ([e577](#e577)).
-- **Observación:** si te ve, te recuerda: anotá `EL_PASTOR_SABE`. Desde ese día, cada vez que una Procesión se mueva, va hacia tu refugio si puede.
-- **En la Noche 40:** si vive y lo viste, puede aparecer en una oleada: lo que hace está en [e901](#e901). Con el Secreto 5, además, [e585](#e585).
+- **Conducta:** **piensa**. Se queda en Lejos; cada ronda, después de tu acción, elige: los Callados avanzan **dos pasos** o se cubren detrás de él (−1 Daño de las armas de fuego). No muerde.
+- **Cómo:** solo, de lejos, con un tiro limpio (`[Puntería]` con Desventaja salvo fusil, ballesta o rifle; Daño 5 de un golpe) o con un cebo ([e577](#e577)).
+- **Si te ve,** anotá `EL_PASTOR_SABE`: desde ese día, cada Procesión que se mueve va hacia tu refugio si puede.
+- **En la Noche 40:** [e901](#e901); con el Secreto 5, también [e585](#e585).
 
 ---
 
@@ -554,8 +544,6 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 
 > **Despensa** · 3 Madera, 1 Metal · Martillo · ◷ 2 · `[Oficio]` · Los Víveres no se pudren (r177): podés guardar todos los que tengas. *Manual de carpintería y obra* ([e772](#e772)).
 
-Estantes, tapas, latas apiladas, una tranca contra las ratas. El primer lugar del refugio que parece una casa.
-
 ---
 
 <a id="e751"></a>
@@ -563,8 +551,6 @@ Estantes, tapas, latas apiladas, una tranca contra las ratas. El primer lugar de
 *Catálogo · Instalaciones*
 
 > **Cisterna** · 2 Metal, 2 Sujeción, un tanque o tres bidones grandes · Llave inglesa · ◷ 3 · `[Oficio]` · Los días de lluvia (una carta que diga lluvia o tormenta), +2 Víveres. *La huerta en el balcón* ([e776](#e776)).
-
-Canaletas, caños, un filtro de arena y carbón. Cuando llueve, el refugio entero escucha el agua caer en el tanque y sonríe.
 
 ---
 
@@ -583,8 +569,6 @@ Canaletas, caños, un filtro de arena y carbón. Cuando llueve, el refugio enter
 *Catálogo · Instalaciones*
 
 > **Enfermería** · 2 Madera, 2 Tela, 2 Fármacos, un Botiquín · Sin herramientas · ◷ 2 · `[Medicina]` (Medicina 1) · Habilita el puesto Enfermería (r181) y +1 a curar en el refugio. *Manual de primeros auxilios del Ejército* ([e771](#e771)).
-
-Dos camas, una mesa limpia, una lámpara, una palangana con agua hervida. Y alguien que se acuerda de lavarse las manos.
 
 ---
 
@@ -610,8 +594,6 @@ Dos camas, una mesa limpia, una lámpara, una palangana con agua hervida. Y algu
 
 > **Dormitorio** · 4 Tela, 2 Madera · Martillo · ◷ 2 · Sin prueba · +1 Ánimo a todos al dormir (r194) y +1 Moral al construirlo. *Manual de carpintería y obra* ([e772](#e772)).
 
-Colchones en el piso, mantas, una cortina para separar a los que roncan. Una foto pegada en la pared de cada uno.
-
 ---
 
 <a id="e757"></a>
@@ -627,8 +609,6 @@ Colchones en el piso, mantas, una cortina para separar a los que roncan. Una fot
 *Catálogo · Instalaciones*
 
 > **Vigía** · 3 Madera, 1 Sujeción, Soga · Martillo · ◷ 2 · `[Oficio]` · −1 a la tirada de sondeo (r175). Cada alba, ves si hay Procesiones en los barrios vecinos. *Manual de carpintería y obra* ([e772](#e772)).
-
-Una plataforma en el techo, un banquito, una frazada, unos binoculares si hay. El que hace la Guardia ve venir las cosas.
 
 ---
 
@@ -656,7 +636,7 @@ Una plataforma en el techo, un banquito, una frazada, unos binoculares si hay. E
 
 > **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (con *Ojo de obra*, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. *Manual de carpintería y obra* ([e772](#e772)).
 
-El cuarto más chico, el que no tiene ventanas. Las paredes reforzadas, la puerta doble, una tranca de fierro. Agua, una linterna, un balde. Nadie quiere entrar ahí. Todos saben que, si las cosas salen mal, es donde van a estar al amanecer.
+El cuarto más chico, sin ventanas. Nadie quiere entrar ahí. Todos saben que, si las cosas salen mal, es donde van a estar al amanecer.
 
 ---
 
@@ -666,7 +646,7 @@ El cuarto más chico, el que no tiene ventanas. Las paredes reforzadas, la puert
 ### e770 · Un manual
 *Catálogo · Manuales*
 
-Encontraste un libro, un cuaderno, una fotocopia anillada. Tirá 1d6:
+Un libro, un cuaderno, una fotocopia anillada. 1d6:
 
 | 1d6 | Manual |
 |---|---|
@@ -675,11 +655,9 @@ Encontraste un libro, un cuaderno, una fotocopia anillada. Tirá 1d6:
 | 3 | *Manual de mecánica del automotor* ([e773](#e773)) |
 | 4 | *Química para el secundario* ([e774](#e774)) |
 | 5 | *Manual de electricidad domiciliaria* ([e775](#e775)) |
-| 6 | Tirá otra vez: 1–2 *La huerta en el balcón* ([e776](#e776)); 3–4 *Manual del cazador* ([e777](#e777)); 5 *Manual de defensa civil* ([e778](#e778)); 6 *El cuaderno de alguien* ([e779](#e779)) |
+| 6 | Otra vez: 1–2 *La huerta en el balcón* ([e776](#e776)); 3–4 *Manual del cazador* ([e777](#e777)); 5 *Manual de defensa civil* ([e778](#e778)); 6 *El cuaderno de alguien* ([e779](#e779)) |
 
-Si ya tenés ese manual, es otra copia: 2 Tela (papel) o, si querés, dáselo a una facción (+1 Reputación con la Parroquia o los Bomberos).
-
-**Leer un manual** lleva ◷ 1 en el refugio. Aprendés todas sus recetas (r203) y marcás las casillas de práctica que diga (r124). Un manual ocupa 1 casillero.
+Una copia repetida son 2 Tela, o +1 Reputación si se la das a la Parroquia o los Bomberos. **Leerlo** (◷ 1, en el refugio) te enseña todas sus recetas (r203) y marca sus casillas de práctica (r124). Ocupa 1 casillero.
 
 ---
 
@@ -687,11 +665,11 @@ Si ya tenés ese manual, es otra copia: 2 Tela (papel) o, si querés, dáselo a 
 ### e771 · Manual de primeros auxilios del Ejército
 *Catálogo · Manuales*
 
-Tapa verde, letras doradas, ilustraciones en blanco y negro de soldados vendando soldados. En la primera página, alguien escribió con birome: «Capítulo 4: torniquetes. LEER».
+Tapa verde y soldados vendando soldados. En la primera página, en birome: «Capítulo 4: torniquetes. LEER».
 
 - **Recetas:** Alcohol destilado, Camilla, Enfermería.
 - **Práctica:** 2 casillas de Medicina.
-- **Además:** limpiar un arañazo (r191) con este manual a mano tiene +1.
+- **Además:** limpiar un arañazo (r191) con el manual a mano tiene +1.
 
 ---
 
@@ -699,7 +677,7 @@ Tapa verde, letras doradas, ilustraciones en blanco y negro de soldados vendando
 ### e772 · Manual de carpintería y obra
 *Catálogo · Manuales*
 
-Un manual de la Escuela Técnica, con tablas de medidas, nudos de carpintero, encofrados, dibujos de mampostería. Huele a aserrín.
+Un manual de la Escuela Técnica, con nudos y encofrados. Huele a aserrín.
 
 - **Recetas:** Chapas atornilladas, Tapiado de ladrillos, Foso de estacas, Despensa, Taller, Dormitorio, Vigía, Último Cuarto.
 - **Práctica:** 2 casillas de Oficio.
@@ -710,7 +688,7 @@ Un manual de la Escuela Técnica, con tablas de medidas, nudos de carpintero, en
 ### e773 · Manual de mecánica del automotor
 *Catálogo · Manuales*
 
-Grasa en todas las páginas. Despieces de motores, diagramas eléctricos, una tabla de torques que alguien subrayó con fibrón.
+Grasa en todas las páginas y una tabla de torques subrayada con fibrón.
 
 - **Recetas:** Maza de bulón, Machete de elástico, Generador.
 - **Práctica:** 2 casillas de Mecánica.
@@ -722,7 +700,7 @@ Grasa en todas las páginas. Despieces de motores, diagramas eléctricos, una ta
 ### e774 · Química para el secundario
 *Catálogo · Manuales*
 
-Un libro de texto de cuarto año, con la tabla periódica en la contratapa y los nombres de tres generaciones de alumnos en la primera página. Alguien marcó con lápiz el capítulo de «Reacciones exotérmicas».
+Un libro de cuarto año, con el capítulo de «Reacciones exotérmicas» marcado en lápiz.
 
 - **Recetas:** Molotov, Bomba de clavos, Recarga de cartuchos, Alcohol destilado.
 - **Práctica:** 1 casilla de Mecánica y 1 de Medicina.
@@ -733,7 +711,7 @@ Un libro de texto de cuarto año, con la tabla periódica en la contratapa y los
 ### e775 · Manual de electricidad domiciliaria
 *Catálogo · Manuales*
 
-«Hágalo usted mismo». Un manual de bolsillo, con un señor sonriente de mameluco en la tapa y diagramas de tableros, llaves térmicas y empalmes.
+«Hágalo usted mismo», con un señor sonriente de mameluco en la tapa.
 
 - **Recetas:** Garrafa trampa, Linterna de dínamo, Radio, Generador.
 - **Práctica:** 2 casillas de Mecánica.
@@ -744,11 +722,11 @@ Un libro de texto de cuarto año, con la tabla periódica en la contratapa y los
 ### e776 · La huerta en el balcón
 *Catálogo · Manuales*
 
-Un libro de jardinería urbana con fotos a color de tomates en macetas, lechugas en cajones de verdura, aromáticas en latas. Alguien le pegó adentro un sobre de semillas de albahaca.
+Tomates en macetas y lechugas en cajones de verdura, a todo color.
 
 - **Recetas:** Huerta, Cisterna, Conservas.
 - **Práctica:** 2 casillas de Supervivencia.
-- **Además:** el sobre de semillas: alcanza para una Huerta.
+- **Además:** adentro hay un sobre de semillas de albahaca: alcanza para una Huerta.
 
 ---
 
@@ -756,7 +734,7 @@ Un libro de jardinería urbana con fotos a color de tomates en macetas, lechugas
 ### e777 · Manual del cazador
 *Catálogo · Manuales*
 
-Revista de caza y pesca encuadernada, de los años ochenta. Trampas, nudos, señuelos, cómo hacer un arco con una rama, cómo destripar una liebre.
+Una revista de caza y pesca encuadernada, de los ochenta.
 
 - **Recetas:** Gomera, Arco de caño, Ballesta de resortes, Saetas, Trampa para palomas, Caña de pescar.
 - **Práctica:** 1 casilla de Puntería y 1 de Supervivencia.
@@ -767,11 +745,11 @@ Revista de caza y pesca encuadernada, de los años ochenta. Trampas, nudos, señ
 ### e778 · Manual de defensa civil
 *Catálogo · Manuales*
 
-Un folleto del Estado de hace cuarenta años, de la Guerra Fría: «Qué hacer en caso de emergencia». Cómo armar un refugio, cómo tapiar una ventana, cómo hacer una cocina sin humo. Abajo, en letra chica, el sello del Comando de Emergencia. El mismo sello.
+Un folleto de la Guerra Fría: «Qué hacer en caso de emergencia». Abajo, el sello del Comando. El mismo sello.
 
 - **Recetas:** Rejas soldadas, Alambre de púas, Pasillo de fuego, Cocina a leña, Cortinas negras.
 - **Práctica:** 1 casilla de Oficio y 1 de Supervivencia.
-- **Además:** en la página 40, una hoja suelta: «Protocolo de contención de zona. Plazo de observación: 40 días». Una pista ([e560](#e560)).
+- **Además:** en la página 40, una hoja suelta: «Protocolo de contención. Plazo de observación: 40 días». Una pista ([e560](#e560)).
 
 ---
 
@@ -779,8 +757,8 @@ Un folleto del Estado de hace cuarenta años, de la Guerra Fría: «Qué hacer e
 ### e779 · El cuaderno de alguien
 *Catálogo · Manuales*
 
-Un cuaderno Rivadavia de tapa dura, de los de la escuela, lleno con letra apretada, dibujos, flechas, tachones, manchas de sangre seca. Lo escribió alguien que sobrevivió los primeros veinte días en Tolme. La última página dice: «Mañana voy a buscar a mi vieja al Central. Si alguien encuentra esto, todo lo que sé está acá».
+Un cuaderno Rivadavia con letra apretada y sangre seca, de alguien que sobrevivió veinte días. La última página: «Mañana voy a buscar a mi vieja al Central».
 
 - **Recetas:** Lanza de caño, Lanzallamas de fumigadora, Brazales de chapa, Casco de olla, Traje de cuero, Soga trenzada, Tablones de cruce, Mochila reforzada.
 - **Práctica:** 3 casillas donde quieras.
-- **Además:** −1 Ánimo cuando lo terminás de leer. No vas a saber nunca si encontró a su vieja.
+- **Además:** −1 Ánimo al terminarlo. Nunca vas a saber si la encontró.

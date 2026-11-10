@@ -1,6 +1,6 @@
 # CUARTA PARTE · APÉNDICES
 
-*Hojas para fotocopiar, el plano de Tolme y todo lo que conviene tener a mano en la mesa. Las hojas se pueden imprimir desde la app o copiar a mano en un cuaderno: con lápiz, que acá todo se borra.*
+*Hojas para fotocopiar, el plano de Tolme y lo que conviene tener a mano. Con lápiz: acá todo se borra.*
 
 ---
 
@@ -48,7 +48,7 @@
 |---|---|---|---|
 | ▢ ▢ ▢ ▢ ▢ ▢ | ▢ ▢ ▢ ▢ ▢ ▢ | __________ | Calle · Azoteas · Subsuelo |
 
-*El Ruido vuelve a 0 cada vez que entrás al refugio. Con 3 aparecen Callados; con 6, la Procesión (r154).*
+*El Ruido vuelve a 0 en el refugio. Con 3, Callados; con 6, la Procesión (r154).*
 
 **Mochila** (8 casilleros, r164)
 
@@ -155,7 +155,7 @@ ______________________________________________________________________
 
 **Pistas** (e560; en cada casilla, la letra del color: C, L o A) ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ · **El Secreto** (r109, se tira al abrirlo): ____
 
-*Con 2 pistas, [e561](#e561). Con 4, [e562](#e562): podés abrirlo y mover el dado un lugar. Con 6, [e563](#e563): lo abrís y lo movés hasta dos. Solo podés terminar en una verdad de un color que tengas.*
+*Con 2 pistas, [e561](#e561). Con 4, [e562](#e562): abrirlo y mover el dado uno. Con 6, [e563](#e563): moverlo hasta dos, a un color que tengas.*
 
 **Los cuarenta días** (si no tenés baraja, tachá acá: r137)
 
@@ -199,7 +199,7 @@ ______________________________________________________________________
 
 ## El plano de Tolme
 
-*Tolme no se recorre en casillas: es una red, como el plano de un subte. Las doce estaciones son los barrios. La línea amarilla es la Calle, la gris son las Azoteas y la roja es el Subsuelo (r151). En la doble página del plano, cada barrio tiene espacio para pintar las X de búsqueda de sus lugares (r163) y poner las fichas de las Procesiones.*
+*Tolme es una red, como el plano de un subte: doce estaciones, una por barrio. Amarillo es la Calle, gris las Azoteas, rojo el Subsuelo (r151). Cada barrio tiene lugar para las X de búsqueda (r163) y las fichas de Procesión.*
 
 ### Las líneas
 
@@ -223,11 +223,11 @@ ______________________________________________________________________
 | Túnel de las cocheras | La Estación — La Fabril |
 | Pluvial del oeste | Los Bloques — Cementerio y Parque |
 
-*Las Lomas y El Perímetro no tienen Subsuelo. Allá abajo, en los barrios ricos y en el muro, no hay nada: el que lo hizo se aseguró.*
+*Las Lomas y El Perímetro no tienen Subsuelo.*
 
 ### Guía de lugares
 
-*El tipo dice en qué tabla de botín tirás (r162). Las casillas son el stock con que empieza cada lugar (r160).*
+*Tipo: la tabla de botín (r162). Casillas: el stock inicial (r160).*
 
 | Barrio | Lugar | Tipo | Stock |
 |---|---|---|---|
@@ -401,7 +401,7 @@ ______________________________________________________________________
 
 ## Bestiario de bolsillo
 
-*Copiado de las fichas de la morgue (e720–e731). Lo que importa, en una línea.*
+*Las fichas de la morgue (e720–e731), en una línea.*
 
 | Infectado | Etapa | Aguante | Avance | Cómo | En la Noche 40 |
 |---|---|---|---|---|---|
@@ -422,7 +422,7 @@ ______________________________________________________________________
 
 ## Recetario de bolsillo
 
-*Lo que se puede hacer con lo que hay. Las **básicas** (●) las conoce todo el mundo; las demás, se aprenden (r203). Cada receta completa está en el catálogo.*
+*Las **básicas** (●) las conoce todo el mundo; las demás se aprenden (r203). La receta completa está en el catálogo.*
 
 | Receta | Materiales | ◷ | Qué da | Dónde |
 |---|---|---|---|---|

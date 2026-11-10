@@ -1,25 +1,25 @@
 # Los sobrevivientes
 
-*Dieciocho personas que siguen vivas en Tolme por terquedad, por suerte o porque alguien las cuidó. No son soldados. Son un jubilado ferroviario, una maestra, un cerrajero, una carnicera, dos hermanos, un perro. Cada uno llega con lo que sabe, lo que le falta y lo que esconde.*
+*Dieciocho personas que siguen vivas en Tolme por terquedad, por suerte o porque alguien las cuidó. No son soldados: un ferroviario jubilado, una maestra, un cerrajero, una carnicera, dos hermanos, un perro. Cada uno llega con lo que sabe, lo que le falta y lo que esconde.*
 
-**Cómo se lee un sobreviviente.** Cada uno tiene tres entradas: el **encuentro** (cómo lo conocés y qué hace falta para que venga), su **necesidad** (el problema que trae) y su **desenlace** (cómo termina su historia, si llega). En la ficha del encuentro está todo lo que hay que anotar en la Hoja del refugio: Habilidad fuerte, rasgo, qué hace en la Noche 40 y **cuándo** leer su necesidad. Las demás Habilidades de un sobreviviente valen 0.
+**Cómo se lee un sobreviviente.** Tiene un **encuentro** (cómo viene), una **necesidad** (el problema que trae) y un **desenlace** (cómo termina su historia). La ficha dice todo lo que anotás en la Hoja del refugio: su Habilidad fuerte (las demás valen 0), su rasgo, qué hace en la Noche 40 y cuándo leer su necesidad.
 
 **Los rasgos.** Cada rasgo cambia algo, siempre:
 
 | Rasgo | Qué hace |
 |---|---|
-| **Valiente** | No huye nunca (r185). En la Noche 40, +1 a la defensa del frente donde esté |
-| **Cobarde** | Huye con 1–2 en 1d6 cuando aparece un especial (r185). En la Noche 40 no defiende la primera oleada: se esconde |
-| **Glotón** | Los días de Oros come 2 Víveres en lugar de 1 |
-| **Insomne** | Puede hacer Guardia y otro puesto la misma noche, pero nunca recupera Ánimo con Descanso |
-| **Creyente** | Los entierros y las fiestas dan +1 Moral más. Si la Moral baja a 2, con 1–2 en 1d6 se va a la Parroquia |
-| **Ladrón** | Se guarda cosas (r185). En el refugio, cada carta de Oros, con 1 en 1d6 falta 1 material |
-| **Optimista** | Una vez por semana, evita una pérdida de Moral (la que elijas) |
-| **Fanfarrón** | Si sale con vos, +1 Ruido. Pero los vivos le creen: +1 a Hablar (r300) |
-| **Testarudo** | Elige su puesto la primera noche y lo hace siempre. Si se lo cambiás, −1 Moral. Nunca huye |
-| **Curioso** | Si revisa con vos, +1 a una tirada de botín. Con 1 en 1d6, toca lo que no debía: +1 Ruido |
-| **Frío** | Las muertes no le bajan el Ánimo. Con él en el grupo, la primera muerte de cada Etapa cuesta 1 Moral menos |
-| **Leal** | Si caés Muriendo (r190) y está con vos, te saca. Nunca se va por una crisis de Moral (e080) |
+| **Valiente** | No huye nunca (r185). En la Noche 40, +1 a la defensa de su frente |
+| **Cobarde** | Huye con 1–2 en 1d6 ante un especial (r185). No defiende la primera oleada |
+| **Glotón** | Los días de Oros come 2 Víveres |
+| **Insomne** | Hace Guardia y otro puesto la misma noche; nunca recupera Ánimo con Descanso |
+| **Creyente** | Entierros y fiestas dan +1 Moral más. Con Moral 2, se va a la Parroquia con 1–2 en 1d6 |
+| **Ladrón** | Se guarda cosas (r185). Cada carta de Oros, con 1 en 1d6 falta 1 material |
+| **Optimista** | Una vez por semana evita una pérdida de Moral |
+| **Fanfarrón** | +1 Ruido si sale con vos, pero +1 a Hablar (r300) |
+| **Testarudo** | Elige su puesto la primera noche y lo hace siempre (cambiárselo: −1 Moral). Nunca huye |
+| **Curioso** | +1 a una tirada de botín si revisa con vos; con 1 en 1d6, +1 Ruido |
+| **Frío** | Las muertes no le bajan el Ánimo; la primera muerte de cada Etapa cuesta 1 Moral menos |
+| **Leal** | Si caés Muriendo (r190) con él al lado, te saca. No se va por crisis de Moral ([e080](#e080)) |
 
 ---
 
@@ -27,16 +27,14 @@
 ### e600 · Don Ernesto
 *Sobreviviente · ◷ 0*
 
-Un viejo de setenta y dos años con overol azul, gorra del Ferrocarril y bigote blanco, sentado en la cabina de una locomotora diésel, aceitando una pieza con un trapo. Tiene una radio a pilas al lado, con la Señora hablando bajito. No se sobresalta cuando te ve.
+Setenta y dos años, gorra del Ferrocarril y bigote blanco, aceitando una pieza en la cabina de una locomotora con la Señora sonando bajito. «Cuarenta y un años en el ferrocarril. No me voy a ir de acá para morirme en otro lado».
 
-—Cuarenta y un años en el ferrocarril —dice—. Esta la manejé yo, en el ochenta y nueve. No me voy a ir de acá para morirme en otro lado.
-
-**Para que venga:** `[Labia]`. Con 10+, viene. Con 7–9, viene si le prometés volver por la locomotora (anotá `PROMESA_ERNESTO`). Con 6−, no viene hoy; podés volver a intentar otro día. Si le traés sus pastillas (1 Fármacos), viene sin prueba.
+**Para que venga:** `[Labia]`. Con 10+, viene. Con 7–9, si le prometés volver por la locomotora: anotá `PROMESA_ERNESTO`. Con 6−, otro día. Con sus pastillas (1 Fármacos), sin prueba.
 
 > **Don Ernesto** · **Mecánica 3** · Testarudo
-> **Necesidad:** sus pastillas del corazón. Cada vez que salga un **7** (de cualquier palo), necesita 1 Fármacos. Si no hay → [e601](#e601).
-> **En la Noche 40:** entre oleadas ([e910](#e910)), repara un frente: +2 Resistencia, una vez.
-> **Desenlace:** cuando lleve 10 cartas en el grupo → [e602](#e602).
+> **Necesidad:** sus pastillas del corazón. Cada **7** de cualquier palo, 1 Fármacos; si no hay → [e601](#e601).
+> **En la Noche 40:** entre oleadas ([e910](#e910)), una vez, +2 Resistencia a un frente.
+> **Desenlace:** a las 10 cartas en el grupo → [e602](#e602).
 
 ---
 
@@ -44,10 +42,10 @@ Un viejo de setenta y dos años con overol azul, gorra del Ferrocarril y bigote 
 ### e601 · El corazón
 *Don Ernesto · ◷ 0*
 
-A la mañana, Ernesto no se levanta. Está sentado en el colchón, pálido, con la mano en el pecho y la frente mojada. «No es nada», dice. Es algo.
+A la mañana no se levanta: pálido, la mano en el pecho. «No es nada». Es algo.
 
-1. **Atenderlo.** `[Medicina]` (+1 con Enfermería). Con 10+, se estabiliza: mañana está bien. Con 7–9, se estabiliza, pero no hace puestos por 2 noches. Con 6−, muere esa noche, tranquilo, con la radio al lado. −2 Moral. Si tenía `PROMESA_ERNESTO` sin cumplir, −1 más.
-2. **Salir a buscar las pastillas.** Hoy mismo: una salida a una Farmacia o un Hospital. Si volvés antes de la noche con 1 Fármacos, se estabiliza sin prueba. Si no, como la opción 1 con 6−.
+1. **Atenderlo,** `[Medicina]` (+1 con Enfermería). Con 10+, mañana está bien. Con 7–9, sin puestos 2 noches. Con 6−, muere esa noche con la radio al lado: −2 Moral (−3 con `PROMESA_ERNESTO` sin cumplir).
+2. **Salir hoy** a una Farmacia o un Hospital. Si volvés antes de la noche con 1 Fármacos, se estabiliza; si no, como la 1 con 6−.
 
 ---
 
@@ -55,13 +53,11 @@ A la mañana, Ernesto no se levanta. Está sentado en el colchón, pálido, con 
 ### e602 · La 7012
 *Don Ernesto · ◷ 0*
 
-Una noche, mientras cenan, Ernesto deja la cuchara.
+Ernesto deja la cuchara. «La 7012 tiene dos mil litros de gasoil. Y un alternador que alimenta un tren entero».
 
-—La locomotora —dice—. La 7012. Tiene el tanque lleno. Dos mil litros de gasoil. Y un alternador que alimenta un tren entero.
-
-1. **Ir con él.** Al Depósito ferroviario o a la estación ([e320](#e320)), con Ernesto y otra persona, ◷ 4. Allá, `[Mecánica]` de Ernesto (3). Con 7+, desarman lo que sirve: **8 Combustible** y el alternador, que cuenta como un **Generador** (e760) sin construirlo. Si tenías `PROMESA_ERNESTO`, está cumplida: +1 Moral. Con 6−, traen solo el Combustible.
-2. **Hacerla andar.** Ernesto no quiere desarmarla. Quiere que ande una vez más. `[Mecánica]` de Ernesto con Desventaja, 4 Combustible, ◷ 4. Con 7+, la 7012 arranca y avanza por las vías, con la bocina sonando, desde la Estación hacia el Puerto: todas las Procesiones de la Estación, la Fabril y el Mercado la siguen (r156) y quedan en el Puerto 1d6 días. +2 Moral. Ernesto llora. Anotá `LA_7012`.
-3. **Decirle que no.** Testarudo como es, va solo a la noche. Tirá 1d6: con 1–3, no vuelve. Con 4–6, vuelve a la madrugada con 4 Combustible y sin decir nada.
+1. **Desarmarla,** con Ernesto y otro, en la Estación ([e320](#e320)), ◷ 4, con su `[Mecánica]`. Con 7+, **8 Combustible** y un **Generador** ([e760](#e760)) sin construir; si tenías `PROMESA_ERNESTO`, está cumplida: +1 Moral. Con 6−, solo el Combustible.
+2. **Hacerla andar una vez más:** su `[Mecánica]` con Desventaja, 4 Combustible, ◷ 4. Con 7+, sale con la bocina sonando hacia el Puerto, y las Procesiones de la Estación, la Fabril y el Mercado la siguen (r156) y se quedan allá 1d6 días. +2 Moral; Ernesto llora. Anotá `LA_7012`.
+3. **Decirle que no.** Va solo a la noche: con 1–3 en 1d6 no vuelve; con 4–6, vuelve con 4 Combustible sin decir nada.
 
 ---
 
@@ -69,16 +65,14 @@ Una noche, mientras cenan, Ernesto deja la cuchara.
 ### e603 · Lucía
 *Sobreviviente · ◷ 0*
 
-Una mujer de cuarenta, con anteojos atados con un cordón y un guardapolvo blanco manchado de tierra, que tiene en la mano una lista con nombres escritos con birome azul. Es la maestra de 4.º B de la Escuela N.º 9. Te mira como mira a los chicos que llegan tarde: sin enojo, esperando una explicación.
+La maestra de 4.º B, con anteojos atados con un cordón y una lista escrita en birome. «Me faltan tres: Tomás, Agustina y Sol. A estos no vino nadie a buscarlos».
 
-—Me faltan tres —dice—. Tomás, Agustina y Sol. Los demás los entregué a los padres. A estos tres no vino nadie a buscarlos.
-
-**Para que venga:** viene si le prometés ayudarla a buscarlos. Si es tu conocida del barrio (r103), viene sin pedir nada.
+**Para que venga:** si le prometés ayudarla. Si es tu conocida (r103), sin pedir nada.
 
 > **Lucía** · **Labia 3** · Optimista
-> **Necesidad:** sus tres alumnos. Cuando lleve 3 cartas en el grupo → [e604](#e604).
-> **En la Noche 40:** mientras Lucía esté viva, la Moral no puede bajar de 2 durante la noche.
-> **Desenlace:** cuando hayas resuelto a los tres → [e605](#e605).
+> **Necesidad:** sus alumnos. A las 3 cartas → [e604](#e604).
+> **En la Noche 40:** mientras viva, la Moral no baja de 2.
+> **Desenlace:** con los tres resueltos → [e605](#e605).
 
 ---
 
@@ -86,19 +80,11 @@ Una mujer de cuarenta, con anteojos atados con un cordón y un guardapolvo blanc
 ### e604 · Tomás, Agustina y Sol
 *Lucía · ◷ 0*
 
-Lucía te muestra la lista. Al lado de cada nombre, con letra chiquita, anotó lo que sabe.
+Anotá `LOS_TRES_ALUMNOS`. Con Lucía, en el lugar de cada uno, podés preguntar (◷ 1) y tirar 1d6:
 
-- **Tomás**, 9 años, «el que se escapaba al recreo». Vivía en el monoblock F de Los Bloques.
-- **Agustina**, 10, «la que leía en voz alta». Su abuela iba a misa en la Catedral.
-- **Sol**, 9, «la que no hablaba». La última vez que la vieron fue en la escuela, el día 7.
-
-Anotá `LOS_TRES_ALUMNOS`. Cuando estés con Lucía en **Los Bloques**, en la **Catedral** ([e201](#e201)) o en la **Escuela N.º 9** ([e470](#e470)), podés preguntar por uno (◷ 1). Tirá 1d6:
-
-- **Tomás (Los Bloques):** 1–3, lo encontrás, vivo, con una banda de pibes del monoblock. Se queda con ellos, pero Lucía lo abraza diez minutos. 4–5, vivo, y viene con vos (un chico: no hace puestos, come 1 Víver). 6, convertido, en el hueco de la escalera. Lucía no te deja hacerlo a vos.
-- **Agustina (la Catedral):** 1–4, está con la Parroquia, con su abuela. Bien. +1 Reputación con la Parroquia. 5–6, la abuela murió; Agustina viene con vos (un chico).
-- **Sol (la Escuela):** está en el gimnasio. Si el gimnasio sigue cerrado (sin `GIMNASIO_ABIERTO` ni `GIMNASIO_QUEMADO`), está adentro ([e472](#e472)). Si lo abriste o lo quemaste, Lucía ya sabe. Si la escuela no es tu refugio, el gimnasio está igual, cerrado: lo podés abrir como visitante, con las mismas opciones de [e472](#e472).
-
-Marcá cada uno como resuelto.
+- **Tomás,** 9, «el que se escapaba al recreo», en **Los Bloques**. 1–3, vivo con una banda del monoblock; se queda con ellos, pero Lucía lo abraza diez minutos. 4–5, viene con vos (un chico: sin puestos, come 1 Víver). 6, convertido en el hueco de la escalera; Lucía no te deja hacerlo a vos.
+- **Agustina,** 10, «la que leía en voz alta», en la **Catedral** ([e201](#e201)). 1–4, con su abuela y la Parroquia: +1 Reputación. 5–6, la abuela murió; viene con vos.
+- **Sol,** 9, «la que no hablaba», en la **Escuela N.º 9** ([e470](#e470)). Está en el gimnasio: si sigue cerrado (sin `GIMNASIO_ABIERTO` ni `GIMNASIO_QUEMADO`), usá [e472](#e472), aunque no sea tu refugio. Si no, Lucía ya sabe.
 
 ---
 
@@ -106,10 +92,10 @@ Marcá cada uno como resuelto.
 ### e605 · La lista
 *Lucía · ◷ 0*
 
-Lucía dobla la lista en cuatro y la guarda en el bolsillo del guardapolvo. No la vuelve a sacar.
+Lucía dobla la lista y no la vuelve a sacar.
 
-- **Si encontró vivo a uno o más:** «Bueno», dice, y se ríe por primera vez desde que la conocés. Desde ahora, cada noche que Lucía esté en Descanso o en Cocina, +1 Moral (una vez por semana). +2 Moral ahora.
-- **Si no encontró vivo a ninguno:** esa noche, Lucía se sienta en el patio con la lista. `[Labia]` tuya. Con 7+, te deja sentarte al lado. No dicen nada. Sigue siendo Optimista, pero distinto. Con 6−, al alba ya no está: dejó la lista en tu almohada. −2 Moral. `PERDIDO_LUCIA`.
+- **Si encontró vivo a alguno,** se ríe por primera vez: +2 Moral, y una vez por semana, con Lucía en Descanso o Cocina, +1 Moral.
+- **Si no,** se sienta en el patio con la lista. `[Labia]`: con 7+, te deja sentarte al lado, sin hablar. Con 6−, al alba se fue y dejó la lista en tu almohada: −2 Moral (`PERDIDO_LUCIA`).
 
 ---
 
@@ -117,17 +103,13 @@ Lucía dobla la lista en cuatro y la guarda en el bolsillo del guardapolvo. No l
 ### e606 · El Chino Morales
 *Sobreviviente · ◷ 0*
 
-Un hombre ancho, con remera de un club de fútbol, delantal de parrillero y un cuchillo de asado en la mano, cocinando chorizos en un calentador en una oficina trabada con un escritorio. Huele tan bien que te duele el estómago.
+Delantal de parrillero, remera de fútbol y un cuchillo de asado, cocinando chorizos en una oficina trabada. Detrás, cerveza, latas, carbón. «¿Tenés hambre? Yo no».
 
-—¿Tenés hambre? —dice, sin soltar el cuchillo—. Yo no. Yo tengo esto.
-
-Detrás de él hay cajas de cerveza, latas, una bolsa de carbón. Tiene más comida que nadie que hayas visto.
-
-**Para que venga:** `[Labia]`. Con 10+, viene y trae 4 Víveres. Con 7–9, viene, pero quiere su propio rincón y su propia comida (los 4 Víveres son suyos: no los cuentes). Con 6−, te convida un chorizo (+1 Reserva) y te dice que te vayas.
+**Para que venga:** `[Labia]`. Con 10+, trae 4 Víveres. Con 7–9, viene, pero esos 4 Víveres son suyos. Con 6−, te convida un chorizo (+1 Reserva) y te echa.
 
 > **El Chino Morales** · **Supervivencia 3** · Glotón
-> **Necesidad:** esconde comida. Cuando lleve 7 cartas en el grupo → [e607](#e607).
-> **En la Noche 40:** entre oleadas ([e910](#e910)), da de comer a todos: +1 Ánimo a cada defensor, una vez.
+> **Necesidad:** esconde comida. A las 7 cartas → [e607](#e607).
+> **En la Noche 40:** entre oleadas, una vez, +1 Ánimo a cada defensor.
 > **Desenlace:** el primer día de Copas después de [e607](#e607) → [e608](#e608).
 
 ---
@@ -136,13 +118,11 @@ Detrás de él hay cajas de cerveza, latas, una bolsa de carbón. Tiene más com
 ### e607 · Lo que falta
 *El Chino Morales · ◷ 0*
 
-Faltan Víveres. No muchos: dos, tres. Pero faltan desde hace días, y todos se miran.
+Faltan Víveres hace días. Debajo del colchón del Chino, un hueco con latas, un salame y dos botellas de vino.
 
-Debajo del colchón del Chino hay un hueco en el piso con latas, un salame, galletitas, dos botellas de vino. Su reserva.
-
-1. **Hablarle solo.** `[Labia]`. Con 7+, se pone colorado y te lo explica: en el día 3 vio a su hermano morirse de hambre en la cola del Mercado. Devuelve todo (+3 Víveres) y deja de esconder. Con 6−, devuelve todo y deja de hablarte por una semana.
-2. **Decírselo delante de todos.** Devuelve todo (+3 Víveres). −1 Moral: nadie quería saber. El Chino deja de ser Glotón y pasa a ser Testarudo: no se lo va a perdonar.
-3. **Hacerte el que no viste.** Sigue escondiendo. Cada carta de Oros, −1 Víver. Pero en la Noche 40, la reserva del Chino aparece: +4 Víveres entre oleadas.
+1. **Hablarle solo,** `[Labia]`. Con 7+, te cuenta que el día 3 vio a su hermano morirse de hambre en una cola del Mercado; devuelve todo (+3 Víveres) y deja de esconder. Con 6−, devuelve todo y no te habla una semana.
+2. **Decirlo delante de todos.** +3 Víveres, −1 Moral, y pasa de Glotón a Testarudo: no te lo perdona.
+3. **No haber visto nada.** Cada carta de Oros, −1 Víver. En la Noche 40 aparece su reserva: +4 Víveres entre oleadas.
 
 ---
 
@@ -150,11 +130,7 @@ Debajo del colchón del Chino hay un hueco en el piso con latas, un salame, gall
 ### e608 · El asado
 *El Chino Morales · ◷ 0*
 
-—Mañana hay asado —dice el Chino—. No me pregunten de qué.
-
-Necesita 3 Víveres, 2 Madera o 1 Combustible, y la mitad del día (◷ 3, el Chino y una persona más). Si lo hacés, a la noche hay asado: fuego, olor, gente alrededor de la parrilla. +3 Moral y todo el grupo recupera 1 Ánimo. Pero el humo y el olor se van a seis cuadras: +2 Rastro.
-
-Si no lo hacés, el Chino se encoge de hombros. «Otro día.» No hay otro día.
+«Mañana hay asado. No me pregunten de qué». Con 3 Víveres, 2 Madera o 1 Combustible, el Chino y otro, ◷ 3: +3 Moral, todos recuperan 1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «Otro día». No hay otro día.
 
 ---
 
@@ -162,20 +138,15 @@ Si no lo hacés, el Chino se encoge de hombros. «Otro día.» No hay otro día.
 ### e609 · Ana y Bruno
 *Sobrevivientes · ◷ 0*
 
-Dos chicos debajo de una mesa. Una nena de nueve años, abrazada a una mochila de unicornios, y un pibe de catorce con un palo de escoba con un cuchillo atado en la punta, que se para delante de ella cuando te ve. Tiene la cara sucia y la mandíbula apretada.
+Debajo de una mesa, una nena de nueve con una mochila de unicornios y su hermano de catorce con un cuchillo atado a un palo de escoba. «No te acerques», dice Bruno. «Mamá está en el hospital. Dijo que volvía», dice Ana.
 
-—No te acerques —dice Bruno.
+**Para que vengan:** `[Labia]`, o dejar 1 Víver y esperar (◷ 1). Con 7+, vienen. Con 6−, se escapan por la ventana; la próxima vez que r180 dé «un sobreviviente», son ellos, sin prueba.
 
-—Mamá está en el hospital —dice Ana—. Dijo que volvía.
-
-**Para que vengan:** `[Labia]` o dejarles comida y esperar (◷ 1, 1 Víver). Con 7+, vienen. Con 6−, Bruno agarra a Ana y se escapan por la ventana: la próxima vez que salga «un sobreviviente» en la tabla de r180, son ellos de nuevo, y vienen sin prueba.
-
-> **Ana y Bruno** · dos personas, comen 1 Víver cada uno
-> **Bruno:** **Sigilo 2** · Valiente. Hace puestos como cualquiera.
-> **Ana:** Cobarde. No hace Guardia ni Obra; puede hacer Cocina, Huerta o Descanso. Cuando Ana está bien, todos están un poco mejor: con Ana en el refugio, las fiestas dan +1 Moral más.
-> **Necesidad:** su madre. Cuando lleve 4 cartas en el grupo → [e610](#e610).
-> **En la Noche 40:** Bruno defiende; Ana va al Último Cuarto antes que nadie. Si Ana muere, −3 Moral.
-> **Desenlace:** en la guardia de pediatría del Hospital Central ([e611](#e611)).
+> **Ana y Bruno** · dos personas, 1 Víver cada uno
+> **Bruno:** **Sigilo 2** · Valiente. **Ana:** Cobarde; solo Cocina, Huerta o Descanso. Con Ana, las fiestas dan +1 Moral más.
+> **Necesidad:** su madre. A las 4 cartas → [e610](#e610).
+> **En la Noche 40:** Bruno defiende; Ana va primero al Último Cuarto. Si Ana muere, −3 Moral.
+> **Desenlace:** la guardia de pediatría ([e611](#e611)).
 
 ---
 
@@ -183,10 +154,10 @@ Dos chicos debajo de una mesa. Una nena de nueve años, abrazada a una mochila d
 ### e610 · Bruno se va
 *Ana y Bruno · ◷ 0*
 
-Al alba, Bruno no está. Ana llora en el colchón. Dejó una nota con letra grande: «Fui a buscar a mamá. No me sigan. Cuiden a Ana».
+Al alba, una nota con letra grande: «Fui a buscar a mamá. No me sigan. Cuiden a Ana».
 
-1. **Seguirlo.** Hoy mismo, al **Hospital Central** (Sanidad). Si llegás antes del anochecer, lo encontrás en la puerta de la guardia, escondido detrás de una ambulancia, mirando para adentro. → [e611](#e611) con él.
-2. **No seguirlo.** Tirá 1d6 al anochecer: con 1–3, Bruno no vuelve (`PERDIDO_BRUNO`, −2 Moral, y Ana deja de hablar: ya no da +1 a las fiestas). Con 4–6, vuelve, solo, con los ojos rojos y sin decir nada: anotá `BRUNO_LO_VIO`. No hace falta [e611](#e611).
+1. **Seguirlo** hoy al Hospital Central. Antes del anochecer, lo encontrás detrás de una ambulancia → [e611](#e611) con él.
+2. **No seguirlo.** Al anochecer, 1d6: con 1–3 no vuelve; −2 Moral, Ana deja de hablar y pierde su +1 (`PERDIDO_BRUNO`). Con 4–6, vuelve solo con los ojos rojos: anotá `BRUNO_LO_VIO`.
 
 ---
 
@@ -194,13 +165,11 @@ Al alba, Bruno no está. Ana llora en el colchón. Dejó una nota con letra gran
 ### e611 · La guardia de pediatría
 *Sanidad · Hospital Central · ◷ 1*
 
-El pasillo de la guardia de pediatría tiene dibujos de animales en las paredes y camillas chiquitas. Al fondo, en la sala de enfermeras, hay una mujer con uniforme de enfermera, sentada de espaldas, con la cofia puesta.
+Dibujos de animales, camillas chiquitas y, al fondo, una enfermera de espaldas con la cofia puesta. 1d6:
 
-Tirá 1d6:
-
-- **1–3 · Es ella, y no es ella.** Se da vuelta. Es una **Callada ×1 · Cerca**, con el gafete «G. Sosa · Enfermería». Bruno grita. Si Bruno está acá, él decide: o lo hace él (Pelea 0, pero ella no se defiende) o lo hacés vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: se vuelve Testarudo y gana Pelea 2.
-- **4–5 · No es ella.** Es otra enfermera, muerta en la silla. En el escritorio, un cuaderno con la última anotación de la madre: «Día 4. Me quedo con los chicos de la sala 3. Bruno: cuidá a tu hermana. Te quiero». Bruno se lo guarda. +1 Moral cuando vuelven.
-- **6 · Es ella. Viva.** Graciela Sosa, enfermera, flaca, con una herida mal cosida en el brazo, que no dejó de cuidar a los chicos de la sala 3 en un mes. Ya no queda ninguno. Viene con vos: sobreviviente con **Medicina 2**, rasgo Leal. +3 Moral. Ana no la suelta.
+- **1–3 · Es ella, y no es ella.** **Callada ×1 · Cerca**, con el gafete «G. Sosa». Si Bruno está, decide: lo hace él (no se defiende) o vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: pasa a Testarudo con Pelea 2.
+- **4–5 · No es ella.** En el escritorio, su cuaderno: «Día 4. Me quedo con los chicos de la sala 3. Bruno: cuidá a tu hermana». +1 Moral al volver.
+- **6 · Es ella, viva.** Graciela Sosa, con una herida mal cosida, cuidó a los chicos de la sala 3 un mes entero. Viene: **Medicina 2**, Leal. +3 Moral. Ana no la suelta.
 
 ---
 
@@ -208,17 +177,15 @@ Tirá 1d6:
 ### e612 · Pocho
 *Sobreviviente · ◷ 0*
 
-Un hombre gordo, pelado, de unos cincuenta, sentado en un banco de su propia cerrajería con un manojo de llaves en cada mano. Tiene la mirada perdida en la vidriera. En las paredes, cientos de llaves colgadas con etiquetas escritas a mano: «Sra. Peralta 3.º B», «Kiosco Rubén», «Escuela 9 · portón».
+Un cerrajero gordo y pelado entre cientos de llaves con etiqueta: «Sra. Peralta 3.º B», «Escuela 9 · portón». «Tengo la llave de medio barrio. Y no sirve para nada».
 
-—Tengo la llave de medio barrio —dice, sin mirarte—. Y no sirve para nada.
-
-**Para que venga:** `[Labia]` con +1. Con 7+, viene, con su tablero de llaves en una valija. Con 6−, no viene, pero te da tres llaves: tres lugares del Casco o de Los Bloques que revisás sin forzar nada (sin Ruido).
+**Para que venga:** `[Labia]` con +1. Con 7+, viene con su tablero. Con 6−, te da tres llaves: tres lugares del Casco o Los Bloques que revisás sin Ruido.
 
 > **Pocho** · **Oficio 3** · Ladrón
-> **Las llaves:** con Pocho, las puertas cerradas, los candados y las cajas fuertes se abren sin prueba (◷ 1). En el Casco y en Los Bloques, todos los lugares tienen +1 casilla de stock la primera vez que van con él: tiene la llave de un depósito que nadie vio.
-> **Necesidad:** roba. Cuando lleve 6 cartas en el grupo → [e613](#e613).
-> **En la Noche 40:** cierra el Último Cuarto con una cerradura que no se fuerza: +1 Resistencia.
-> **Desenlace:** después de [e613](#e613), la próxima vez que vayan juntos a Los Bloques → [e614](#e614).
+> **Las llaves:** puertas, candados y cajas fuertes se abren sin prueba (◷ 1). En el Casco y Los Bloques, cada lugar tiene +1 casilla de stock la primera vez que va con él.
+> **Necesidad:** roba. A las 6 cartas → [e613](#e613).
+> **En la Noche 40:** el Último Cuarto tiene +1 Resistencia.
+> **Desenlace:** después de [e613](#e613), en Los Bloques con él → [e614](#e614).
 
 ---
 
@@ -226,11 +193,11 @@ Un hombre gordo, pelado, de unos cincuenta, sentado en un banco de su propia cer
 ### e613 · Para quién roba Pocho
 *Pocho · ◷ 0*
 
-Lo encontrás a la madrugada, saliendo por la ventana del baño con una mochila llena: 2 Víveres, 1 Fármacos, una lata de leche en polvo.
+De madrugada, saliendo por la ventana del baño con 2 Víveres, 1 Fármacos y leche en polvo.
 
-1. **Seguirlo.** `[Sigilo]`, ◷ 2. Con 7+, lo seguís hasta un departamento de Los Bloques: deja la mochila en la puerta, golpea dos veces y se va. Abre una mujer con un bebé. Es su ex. El bebé es de él. Anotá `EL_HIJO_DE_POCHO`. Con 6−, te ve y te lo cuenta él, avergonzado.
-2. **Pararlo.** «¿A dónde vas con eso?» Pocho se sienta en el piso y te lo cuenta todo: el bebé, la ex, Los Bloques. Anotá `EL_HIJO_DE_POCHO`.
-3. **Echarlo.** Se va con lo que tiene puesto, sin las llaves. −1 Moral. `PERDIDO_POCHO`.
+1. **Seguirlo,** `[Sigilo]`, ◷ 2. Deja la mochila en una puerta de Los Bloques, golpea dos veces y se va. Abre una mujer con un bebé: su ex, y su hijo. Con 6−, te ve y te lo cuenta él. Anotá `EL_HIJO_DE_POCHO`.
+2. **Pararlo.** Se sienta en el piso y te cuenta todo. Anotá `EL_HIJO_DE_POCHO`.
+3. **Echarlo,** sin las llaves. −1 Moral (`PERDIDO_POCHO`).
 
 ---
 
@@ -238,11 +205,10 @@ Lo encontrás a la madrugada, saliendo por la ventana del baño con una mochila 
 ### e614 · El bebé
 *Pocho · Los Bloques · ◷ 1*
 
-El departamento de la ex de Pocho tiene la puerta reforzada con una cómoda. Se llama Daiana. Tiene veinte años y un bebé de cuatro meses que se llama Thiago.
+Daiana, veinte años, y Thiago, cuatro meses, detrás de una cómoda.
 
-1. **Traerlos al refugio.** Daiana duda; Pocho la mira. Vienen: 2 personas más (Daiana hace puestos como cualquiera; el bebé no). +1 Rastro (el bebé llora). Pocho deja de ser Ladrón y pasa a ser Leal. +2 Moral.
-2. **Dejarles comida** (3 Víveres) y que Pocho los visite cada semana (◷ 2 cada vez). Pocho sigue siendo Ladrón, pero ya no te roba a vos. +1 Moral.
-**Con la opción 2, al llegar la Noche 40:** si no están en el refugio, Pocho se va con ellos al atardecer del día 39. No vuelve. Pero te deja el tablero de llaves.
+1. **Traerlos:** Daiana hace puestos; el bebé no. +1 Rastro (llora), +2 Moral, y Pocho pasa de Ladrón a Leal.
+2. **Dejarles 3 Víveres** y que Pocho los visite (◷ 2 por semana). Ya no te roba a vos. +1 Moral. Pero el día 39 se va con ellos y no vuelve; te deja el tablero.
 
 ---
 
@@ -250,17 +216,15 @@ El departamento de la ex de Pocho tiene la puerta reforzada con una cómoda. Se 
 ### e615 · Rita
 *Sobreviviente · ◷ 0*
 
-Una mujer de treinta y cinco, alta, con el pelo corto, un guardapolvo verde de veterinaria y una escoba con un cuchillo atado en la punta. Está despierta: se nota que hace días que está despierta. Tiene una venda en el antebrazo izquierdo.
+Guardapolvo verde de veterinaria, una escoba con un cuchillo y una venda en el antebrazo. Hace días que no duerme. «Un perro. El día 1. Estoy bien».
 
-—Un perro —dice, antes de que preguntes—. El día 1. Un perro del barrio. Estoy bien.
-
-**Para que venga:** viene con 7+ en `[Labia]` o si le ofrecés un lugar para dormir. Con 6−, no confía: te sigue de lejos y aparece en tu refugio al día siguiente, sin avisar.
+**Para que venga:** `[Labia]` 7+, o un lugar para dormir. Con 6−, te sigue de lejos y aparece en tu refugio al día siguiente.
 
 > **Rita** · **Medicina 2** · Insomne
-> **Sabe de animales:** con Rita, los Sabuesos ([e725](#e725)) tienen −1 de Aguante (sabe dónde pegar), y el Negro ([e651](#e651)) la sigue a todos lados.
-> **Necesidad:** la mordida. Cuando lleve 3 cartas en el grupo → [e616](#e616).
-> **En la Noche 40:** atiende heridos entre oleadas: cura 1 Herida a alguien, una vez por pausa.
-> **Desenlace:** la primera vez que alguien del grupo sea mordido con ella en el refugio → [e617](#e617).
+> **Animales:** con ella, los Sabuesos ([e725](#e725)) tienen −1 Aguante, y el Negro ([e651](#e651)) la sigue a todos lados.
+> **Necesidad:** la mordida. A las 3 cartas → [e616](#e616).
+> **En la Noche 40:** en cada pausa, cura 1 Herida.
+> **Desenlace:** la primera mordida en el grupo con ella en el refugio → [e617](#e617).
 
 ---
 
@@ -268,17 +232,13 @@ Una mujer de treinta y cinco, alta, con el pelo corto, un guardapolvo verde de v
 ### e616 · No era un perro
 *Rita · ◷ 0*
 
-A la noche, Rita se cambia la venda en el baño con la puerta abierta. Ves la herida: no es una mordida de perro. Es una mordida humana, con los bordes negros.
+Por el espejo del baño ves la herida: una mordida humana de bordes negros. «Tengo fiebre desde el día 2. Llegó a tres y se quedó ahí. No sé por qué».
 
-Rita te mira por el espejo.
+Anotá `LA_FIEBRE_DE_RITA`: su Fiebre es 3 y no sube, salvo otra mordida.
 
-—Tengo fiebre desde el día 2 —dice—. Llegó a tres y se quedó ahí. No baja. No sube. No sé por qué.
-
-Anotá `LA_FIEBRE_DE_RITA`. Su Fiebre es 3 y **no sube**, salvo que la vuelvan a morder.
-
-1. **Contárselo al grupo.** −1 Moral: tienen miedo. Alguien propone encerrarla. `[Labia]`: con 7+, Rita se queda en el grupo como siempre. Con 6−, Rita duerme en una habitación con llave (no hace Guardia).
-2. **Guardar el secreto.** Rita te lo agradece. Si alguien más se entera (un evento o una crisis de Moral), −2 Moral en lugar de −1.
-3. **Echarla.** Se va sin discutir. −1 Ánimo. `PERDIDO_RITA`.
+1. **Contarlo.** −1 Moral. `[Labia]`: con 6−, duerme con llave y no hace Guardia.
+2. **Guardar el secreto.** Si se sabe (un evento, una crisis de Moral), −2 Moral.
+3. **Echarla.** −1 Ánimo (`PERDIDO_RITA`).
 
 ---
 
@@ -286,15 +246,7 @@ Anotá `LA_FIEBRE_DE_RITA`. Su Fiebre es 3 y **no sube**, salvo que la vuelvan a
 ### e617 · Rita opera
 *Rita · ◷ 0*
 
-—Dame el brazo —dice Rita—. Ahora. Mientras no sube.
-
-Rita amputó patas de caballo, colas de perro, una vez la mano de un hombre que se metió en el corral de un toro. Con ella, la **amputación** (r192) tiene +1, y si la Fiebre todavía es 1, la hace sin prueba (cuenta como 10+).
-
-Y después de operar, mientras se lava las manos, Rita dice algo que se te queda:
-
-—La fiebre del mordido tiene la misma curva que la mía. Hasta el tres. Después yo sigo y ellos no. Algo tengo yo que ellos no.
-
-Una pista ([e560](#e560)).
+«Dame el brazo. Ahora, mientras no sube». Con Rita, la **amputación** (r192) tiene +1, y con Fiebre 1 sale sola, como un 10+. Después, lavándose las manos: «La curva de ellos es la mía hasta el tres. Después yo sigo y ellos no». Una pista ([e560](#e560)).
 
 ---
 
@@ -302,18 +254,16 @@ Una pista ([e560](#e560)).
 ### e618 · Gustavo
 *Sobreviviente · ◷ 0*
 
-Un hombre de traje gris, sin corbata, con un maletín, encerrado en una oficina de vidrio desde hace días. Tiene la camisa sucia, los zapatos lustrados y una foto de una nena de doce años pegada al vidrio, de este lado, para verla.
+Traje gris, zapatos lustrados, días encerrado en una oficina de vidrio con la foto de una nena pegada para verla. «Mi hija está en el colegio inglés de Las Lomas. El día 0 era un día de clases».
 
-—Mi hija está en Las Lomas —dice—. En el colegio inglés. El día 0 era un día de clases normal.
-
-**Para que venga:** viene si le prometés ir a Las Lomas. Si no, se queda.
+**Para que venga:** si le prometés ir a Las Lomas.
 
 > **Gustavo** · **sin Habilidad** · Cobarde
-> **Aprende rápido:** la tercera noche que hace el mismo puesto, gana 2 en la Habilidad de ese puesto (Guardia: Puntería; Obra: Oficio; Taller: Mecánica; Cocina o Huerta: Supervivencia; Enfermería: Medicina). Solo una vez.
-> **Lleva las cuentas:** con Gustavo en el refugio, los Víveres se pudren con más de 14, no con más de 10.
-> **Necesidad:** su hija. Cuando estés con él en el Saint Andrew's School de Las Lomas → [e620](#e620).
-> **En la Noche 40:** Cobarde, pero no con su hija en el refugio: si `LA_HIJA_DE_GUSTAVO`, defiende la primera oleada igual.
-> **Desenlace:** después de 10 cartas en el grupo, si nunca fueron a Las Lomas → [e619](#e619).
+> **Aprende rápido:** la tercera noche en el mismo puesto, gana 2 en su Habilidad (Guardia: Puntería; Obra: Oficio; Taller: Mecánica; Cocina o Huerta: Supervivencia; Enfermería: Medicina). Una vez.
+> **Las cuentas:** los Víveres se pudren con más de 14, no de 10.
+> **Necesidad:** su hija → [e620](#e620), en el colegio con él.
+> **En la Noche 40:** con `LA_HIJA_DE_GUSTAVO`, defiende la primera oleada.
+> **Desenlace:** a las 10 cartas, si nunca fueron a Las Lomas → [e619](#e619).
 
 ---
 
@@ -321,12 +271,10 @@ Un hombre de traje gris, sin corbata, con un maletín, encerrado en una oficina 
 ### e619 · El contador
 *Gustavo · ◷ 0*
 
-Gustavo no se queja. Gustavo lleva las cuentas: cuántos Víveres, cuántas noches, cuántos días faltan. Lo tiene todo anotado en una planilla con columnas. Una noche te la muestra. En la última columna, escribió: «Probabilidad de que siga viva».
+Te muestra su planilla de Víveres y noches. La última columna dice: «Probabilidad de que siga viva». «Ya sé que no la vamos a ir a buscar. Lo entiendo».
 
-—Ya sé que no la vamos a ir a buscar —dice—. Está bien. Lo entiendo.
-
-1. **Ir mañana.** Le das la mano. Mañana, Las Lomas → [e620](#e620) cuando llegues al colegio.
-2. **Decirle la verdad.** «No podemos.» `[Labia]`. Con 7+, Gustavo dobla la planilla y la guarda. Deja de ser Cobarde: pasa a ser Frío. Con 6−, a la madrugada se va solo. `PERDIDO_GUSTAVO`. −1 Moral.
+1. **Ir mañana** → [e620](#e620).
+2. **Decirle que no se puede,** `[Labia]`. Con 7+, dobla la planilla y pasa de Cobarde a Frío. Con 6−, se va solo de madrugada: −1 Moral (`PERDIDO_GUSTAVO`).
 
 ---
 
@@ -334,13 +282,11 @@ Gustavo no se queja. Gustavo lleva las cuentas: cuántos Víveres, cuántas noch
 ### e620 · La hija de Gustavo
 *Las Lomas · Saint Andrew's School · ◷ 1*
 
-En la capilla del colegio, en el piso, hay colchonetas, mantas y una docena de chicos con uniforme bordó y una profesora de inglés, vieja, con un palo de hockey. Atrancaron la puerta con los bancos. Hace un mes que viven ahí, comiendo de la cantina.
+En la capilla atrancada, una docena de chicos de uniforme bordó y una profesora vieja con un palo de hockey. Gustavo dice un nombre. 1d6:
 
-Gustavo llama a la hija por el nombre. Tirá 1d6:
-
-- **1–2 · No está.** La profesora dice que los padres de algunos vinieron a buscarlos el día 1. La de Gustavo, también: vino la madre. No saben a dónde fueron. Gustavo se sienta en un banco de la capilla. Deja de ser Cobarde y pasa a ser Frío.
-- **3–5 · Está.** Una nena corre por el pasillo. Gustavo se cae de rodillas. Anotá `LA_HIJA_DE_GUSTAVO`: se viene con ustedes (una chica: hace Cocina, Huerta o Descanso). +3 Moral.
-- **6 · Están todos.** La hija, la profesora y once chicos. La profesora te pide que te los lleves: no pueden quedarse más. Si los llevás, +4 personas para el refugio (cuentan como 4 sobrevivientes comunes, sin puestos de Guardia ni Obra los chicos), +3 Rastro y +4 Moral. Si no, la profesora entiende, y Gustavo se queda con ellos: `PERDIDO_GUSTAVO`.
+- **1–2 · No está.** Su madre la buscó el día 1. Gustavo se sienta en un banco y pasa de Cobarde a Frío.
+- **3–5 · Está.** Gustavo cae de rodillas. Anotá `LA_HIJA_DE_GUSTAVO`: viene (Cocina, Huerta o Descanso). +3 Moral.
+- **6 · Están todos,** y no pueden quedarse más. Si te los llevás, +4 sobrevivientes (los chicos, sin Guardia ni Obra), +3 Rastro, +4 Moral. Si no, Gustavo se queda con ellos (`PERDIDO_GUSTAVO`).
 
 ---
 
@@ -348,19 +294,15 @@ Gustavo llama a la hija por el nombre. Tirá 1d6:
 ### e621 · La Tana
 *Sobreviviente · ◷ 0*
 
-Una mujer grandota de cincuenta, con delantal de goma, botas de lluvia y una cuchilla de carnicero en la mano derecha. Mata a tres Callados que tiene encima sin apuro, con tres golpes secos, uno cada uno, y se limpia la cuchilla en el delantal.
+Delantal de goma, botas de lluvia y una cuchilla. Mata a tres Callados con tres golpes secos y se limpia en el delantal. «Los Lobos se llevaron mi puesto. Y a mi marido, que no les quiso dar la llave de la cámara. Ahí está, mirá». En la cámara de frío, alguien golpea.
 
-—Los Lobos se llevaron todo lo que tenía mi puesto —dice—. Y a mi marido, que no quiso darles la llave de la cámara. Ahí está, mirá.
-
-Señala la cámara de frío del fondo. Hay alguien adentro, golpeando la puerta.
-
-**Para que venga:** viene si le decís que estás en contra de los Lobos (si tenés Reputación +1 o más con ellos, no viene). Si le ayudás a terminar con lo que hay en la cámara (◷ 1, **Callado ×1 · Cerca**, ella no puede), viene sin prueba.
+**Para que venga:** si estás contra los Lobos (no con Reputación +1). Si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede), sin prueba.
 
 > **La Tana** · **Pelea 3** · Valiente
-> **La cuchilla:** su cuchilla de carnicero es Daño 2, Cerca, nunca se rompe. No la presta.
-> **Necesidad:** la venganza. Cuando lleve 6 cartas en el grupo → [e622](#e622).
-> **En la Noche 40:** en el frente más débil. +2 a la defensa (Valiente incluido).
-> **Desenlace:** si sale [e622](#e622) y elegiste ir → [e623](#e623).
+> **La cuchilla:** Daño 2, Cerca, nunca se rompe. No la presta.
+> **Necesidad:** venganza. A las 6 cartas → [e622](#e622).
+> **En la Noche 40:** en el frente más débil, +2 (con Valiente).
+> **Desenlace:** [e623](#e623).
 
 ---
 
@@ -368,13 +310,11 @@ Señala la cámara de frío del fondo. Hay alguien adentro, golpeando la puerta.
 ### e622 · La Tana afila la cuchilla
 *La Tana · ◷ 0*
 
-Toda la noche, en la cocina, se escucha la piedra de afilar. Al alba, la Tana está vestida, con la cuchilla en la cintura y una mochila.
+Toda la noche, la piedra de afilar. Al alba: «Voy a Las Lomas. Rolo Benítez me debe un marido».
 
-—Voy a Las Lomas —dice—. Rolo Benítez me debe un marido.
-
-1. **Ir con ella.** → [e623](#e623).
-2. **Convencerla de esperar.** `[Labia]` con Desventaja. Con 10+, deja la mochila. «Después de la noche cuarenta, entonces.» Si llegan vivos al amanecer, la Tana se va a Las Lomas en el epílogo. Con 7–9, se queda, pero deja de hablarte: −1 Moral. Con 6−, como la opción 3.
-3. **Dejarla ir.** Se va sola. Tirá 1d6 al anochecer: con 1–4, no vuelve (`PERDIDO_TANA`, −1 Moral). Con 5–6, vuelve con la cuchilla roja y una camioneta de los Lobos con el tanque lleno. −2 Reputación con los Lobos. No cuenta nada.
+1. **Ir con ella** → [e623](#e623).
+2. **Que espere,** `[Labia]` con Desventaja. Con 10+, «después de la noche cuarenta, entonces»: se va en el epílogo. Con 7–9, se queda sin hablarte: −1 Moral. Con 6−, como la 3.
+3. **Dejarla ir.** Con 1–4 en 1d6 no vuelve: −1 Moral (`PERDIDO_TANA`). Con 5–6, vuelve con la cuchilla roja y una camioneta de los Lobos: −2 Reputación con ellos.
 
 ---
 
@@ -382,14 +322,11 @@ Toda la noche, en la cocina, se escucha la piedra de afilar. Al alba, la Tana es
 ### e623 · Rolo Benítez
 *La Tana · Las Lomas · ◷ 0*
 
-Llegan al barrio cerrado de los Lobos ([e305](#e305)) con la Tana adelante. La Tana no se esconde: camina hasta la garita y grita el nombre de Rolo.
+La Tana camina hasta la garita de los Lobos ([e305](#e305)) y grita su nombre. Sale Rolo, chaleco táctico y anteojos de sol, con seis de los suyos. Se ríe.
 
-Rolo sale. Un tipo de cuarenta y cinco, musculoso, con chaleco táctico y anteojos de sol, rodeado de seis de los suyos. Se ríe.
+Con Reputación −2 con los Lobos o `LOBOS_DEBILITADOS`, los suyos no pelean por él y baja solo. Si no, te apuntan → [e687](#e687).
 
-- **Si tenés Reputación −2 o menos con los Lobos, o `LOBOS_DEBILITADOS`:** los suyos se miran. Algunos no van a pelear por él. Rolo baja a pelear solo.
-- **Si no:** te apuntan. Tenés que salir de ahí → [e687](#e687).
-
-**Si Rolo pelea solo:** combate de la Tana contra **Rolo** (Pelea 3, Aguante 4, cuchillo de combate Daño 2). Podés ayudarla: si lo hacés, los Lobos te disparan (1 Herida cada uno de los que ayuden, sin prueba). Si la Tana gana, Rolo cae. Los Lobos se quedan mirando. Nadie hace nada. Anotá `ROLO_MUERTO`: los Lobos se dispersan en 1d6 días (→ `LOBOS_DERROTADOS` cuando pasen). La Tana se sienta en el cordón, llora y vuelve con vos. Deja de ser Valiente: pasa a ser Leal. Si la Tana pierde, muere: −2 Moral, y Rolo te deja ir «para que lo cuentes».
+**Rolo solo:** la Tana contra **Rolo** (Pelea 3, Aguante 4, Daño 2). Si ayudás, cada uno que ayude recibe 1 Herida. Si gana, anotá `ROLO_MUERTO`: los Lobos se dispersan en 1d6 días, y entonces anotá `LOBOS_DERROTADOS`. La Tana llora en el cordón y pasa de Valiente a Leal. Si pierde, muere: −2 Moral, y Rolo te deja ir «para que lo cuentes».
 
 ---
 
@@ -397,17 +334,15 @@ Rolo sale. Un tipo de cuarenta y cinco, musculoso, con chaleco táctico y anteoj
 ### e624 · Mateo
 *Sobreviviente · ◷ 0*
 
-Un estudiante flaco, de veintipico, con anteojos de marco grueso, guantes de látex, barbijo y una remera de una banda que no conocés. Revuelve una olla con algo que humea violeta. En la pared, una tabla periódica y una lista escrita con fibrón: «Nitrato · Azúcar · Clorato · NO MEZCLAR CON AGUA».
+Un estudiante flaco con anteojos de marco grueso y guantes de látex revuelve una olla que humea violeta. En la pared: «Nitrato · Azúcar · Clorato · NO MEZCLAR CON AGUA». «No toques nada. En serio».
 
-—No toques nada —dice—. En serio, nada.
-
-**Para que venga:** `[Labia]` o mostrarle algo del laboratorio (una pista, `EL_NIVEL_3`, `LOTE_40`). Con 7+, viene con su olla y su cuaderno.
+**Para que venga:** `[Labia]` 7+, o mostrarle algo del laboratorio (una pista, `EL_NIVEL_3`, `LOTE_40`).
 
 > **Mateo** · **Mecánica 3** · Curioso
-> **Química:** con Mateo, la Molotov, la Bomba de clavos (e744), el Alcohol destilado (e747) y el Hervir agua con cloro (sin Combustible, con los Químicos de [e383](#e383)) se hacen sin prueba, y cada uno da uno más.
-> **Necesidad:** sabe algo del laboratorio. Cuando lleve 5 cartas en el grupo → [e625](#e625).
-> **En la Noche 40:** hace 2 Molotov entre oleadas, si hay 1 Combustible y 1 Químicos.
-> **Desenlace:** si tenés `AMPOLLAS_L40` o `LOTE_40` y un Taller, → [e626](#e626).
+> **Química:** la Molotov, la Bomba de clavos ([e744](#e744)), el Alcohol ([e747](#e747)) y el Hervir agua con cloro ([e383](#e383)) salen sin prueba y con una unidad más.
+> **Necesidad:** sabe algo. A las 5 cartas → [e625](#e625).
+> **En la Noche 40:** 2 Molotov entre oleadas, con 1 Combustible y 1 Químicos.
+> **Desenlace:** con `AMPOLLAS_L40` o `LOTE_40` y un Taller → [e626](#e626).
 
 ---
 
@@ -415,11 +350,9 @@ Un estudiante flaco, de veintipico, con anteojos de marco grueso, guantes de lá
 ### e625 · Lo que vio Mateo
 *Mateo · ◷ 0*
 
-Mateo no duerme. Lo encontrás en la cocina a las tres de la mañana, con el cuaderno abierto.
+A las tres de la mañana, en la cocina: «Hacía la tesis de noche en el Laboratorio. Dos semanas antes del día 0 llegaron camiones del Comando, cajas refrigeradas. Y una noche vi a la doctora Ríos llorando en el baño».
 
-—Hacía la tesis en el Laboratorio —dice—. De noche, porque de día no me dejaban usar el cromatógrafo. Dos semanas antes del día 0 empezaron a llegar camiones del Comando. Cajas refrigeradas. Gente que no era de la facultad. Y una noche vi a la doctora Ríos llorando en el baño.
-
-Una pista ([e560](#e560)). Si tenés a la doctora Ríos en el grupo, se miran. Nadie dice nada. Anotá `MATEO_Y_RIOS`.
+Una pista ([e560](#e560)). Si Ríos está en el grupo, se miran: anotá `MATEO_Y_RIOS`.
 
 ---
 
@@ -427,15 +360,9 @@ Una pista ([e560](#e560)). Si tenés a la doctora Ríos en el grupo, se miran. N
 ### e626 · El análisis
 *Mateo · Taller · ◷ 0*
 
-Mateo arma un laboratorio en el taller con lo que hay: frascos, una garrafa, el calentador, papel de filtro, una balanza de cocina.
+Una ampolla de L-40 y dos noches de Mateo en el Taller. Sale con los ojos rojos: «No es una vacuna. Es una copia de algo que tiene la sangre de alguien. Algo que no se enferma».
 
-—Dame dos días —dice—. Y una ampolla.
-
-Gastás una ampolla de L-40 y dos noches de Mateo en el puesto Taller. Al final, Mateo sale con los ojos rojos:
-
-—No es una vacuna. Es una copia. Alguien quiso copiar algo que tiene la sangre de alguien. Algo que no se enferma.
-
-Dos pistas ([e560](#e560)). Desde ahora, la tirada de probar una ampolla ([e532](#e532)) tiene +1.
+Dos pistas ([e560](#e560)), y probar una ampolla ([e532](#e532)) tiene +1.
 
 ---
 
@@ -443,19 +370,15 @@ Dos pistas ([e560](#e560)). Desde ahora, la tirada de probar una ampolla ([e532]
 ### e627 · Doña Rosa
 *Sobreviviente · ◷ 0*
 
-Una abuela de ochenta años, chiquita, de batón floreado y pantuflas, que te tira una llave atada a un pañuelo desde el balcón del tercero. Cuando subís, te espera en la puerta con un mate y unas tortas fritas. El departamento está impecable. En el balcón hay macetas con tomates, lechuga, perejil, ajíes. Una huerta entera en dos metros cuadrados.
+Ochenta años, batón floreado, mate y tortas fritas. En dos metros de balcón, una huerta entera. En la pieza del fondo, algo golpea la cama contra la pared. «Es Aurelio. Mi marido. Está enfermo».
 
-En la habitación del fondo, algo golpea la cama contra la pared.
+**Para que venga:** sin Aurelio, no → [e628](#e628).
 
-—Es Aurelio —dice Doña Rosa—. Mi marido. Está enfermo.
-
-**Para que venga:** no viene sin Aurelio → [e628](#e628).
-
-> **Doña Rosa** · **Supervivencia 3** (huerta) · Creyente
-> **La huerta de Rosa:** con Doña Rosa en el puesto Huerta, la Huerta produce +2 Víveres (no +1), y la Huerta (e752) se construye con la mitad de los materiales: trae sus macetas.
+> **Doña Rosa** · **Supervivencia 3** · Creyente
+> **Su huerta:** en el puesto Huerta da +2 Víveres, y la Huerta ([e752](#e752)) cuesta la mitad: trae sus macetas.
 > **Necesidad:** Aurelio → [e628](#e628).
-> **En la Noche 40:** reza. Antes de la primera oleada, +1 Moral.
-> **Desenlace:** cuando lleve 10 cartas en el grupo → [e629](#e629).
+> **En la Noche 40:** reza: +1 Moral antes de la primera oleada.
+> **Desenlace:** a las 10 cartas → [e629](#e629).
 
 ---
 
@@ -463,13 +386,11 @@ En la habitación del fondo, algo golpea la cama contra la pared.
 ### e628 · Aurelio
 *Doña Rosa · ◷ 0*
 
-Aurelio está atado a la cama con medias de nylon y un cinturón. Fue colectivero cuarenta años. Ahora tiene los ojos blancos y la boca abierta, y tironea de las ataduras sin parar, sin hacer ruido, como si manejara.
+Atado con medias de nylon, ojos blancos, tironea sin ruido, como si todavía manejara el colectivo. Ella le cambia la camisa todos los días.
 
-Doña Rosa le cambia la camisa todos los días.
-
-1. **Pedirle permiso.** `[Labia]` con Desventaja. Con 7+, Doña Rosa te mira mucho rato y dice «Hacelo rápido». Lo hacés. Doña Rosa lo entierra en la maceta más grande del balcón, con un tomate arriba. Viene con vos. −1 Ánimo para vos. Con 6−, no viene. Podés volver a intentarlo otro día.
-2. **Llevarlo.** Lo atan a una silla de ruedas y se lo llevan al refugio. Doña Rosa viene. Pero Aurelio está en el refugio: −1 Moral (el miedo), y cada vez que un sondeo entra, tirá 1d6; con 1, Aurelio se suelta: **Callado ×1 · Encima** en el refugio. Anotá `AURELIO_EN_EL_REFUGIO`.
-3. **Dejarla.** Le dejás algo (1 Víver) y te vas. Te regala un plantín: +1 Víver la primera noche que tengas Huerta.
+1. **Pedirle permiso,** `[Labia]` con Desventaja. Con 7+, «Hacelo rápido». Lo entierra en la maceta más grande, con un tomate arriba, y viene. −1 Ánimo para vos. Con 6−, otro día.
+2. **Llevarlo** atado a una silla de ruedas. Viene ella; −1 Moral, y cada sondeo que entra, con 1 en 1d6, se suelta: **Callado ×1 · Encima**. Anotá `AURELIO_EN_EL_REFUGIO`.
+3. **Dejarla** con 1 Víver. Te regala un plantín: +1 Víver la primera noche con Huerta.
 
 ---
 
@@ -477,13 +398,7 @@ Doña Rosa le cambia la camisa todos los días.
 ### e629 · Las semillas de Rosa
 *Doña Rosa · ◷ 0*
 
-Doña Rosa te llama a la huerta. Tiene un frasco de vidrio con semillas, separadas en sobrecitos de papel con su letra: «Tomate de Aurelio», «Zapallo», «Albahaca de la vecina».
-
-—Por si yo no llego —dice—. Esto hay que plantarlo en primavera.
-
-Anotá `LAS_SEMILLAS_DE_ROSA`. En el final, si hay vivos al amanecer, el epílogo tiene una huerta. +1 Moral.
-
-Si tenés `AURELIO_EN_EL_REFUGIO`, Doña Rosa te pide que lo hagas ahora. Lo hacés. Lo entierra en la huerta. −1 Moral y +1 Moral: las dos cosas.
+Un frasco con sobrecitos: «Tomate de Aurelio», «Zapallo», «Albahaca de la vecina». «Por si yo no llego. Esto se planta en primavera». Anotá `LAS_SEMILLAS_DE_ROSA`: +1 Moral, y si hay vivos al amanecer, el epílogo tiene una huerta. Con `AURELIO_EN_EL_REFUGIO`, te pide que lo hagas ahora, y lo entierra en la huerta: −1 Moral y +1 Moral, las dos cosas.
 
 ---
 
@@ -491,17 +406,15 @@ Si tenés `AURELIO_EN_EL_REFUGIO`, Doña Rosa te pide que lo hagas ahora. Lo hac
 ### e630 · Iván
 *Sobreviviente · ◷ 0*
 
-Un soldado de veinticinco años, sin casco, con el uniforme abierto y una botella de ginebra por la mitad, sentado en la plataforma de la torre de vigía con las piernas colgando. Tiene un fusil al lado y una mira telescópica. Te ve subir y no te apunta.
+Un soldado de veinticinco con el uniforme abierto y media botella de ginebra, en la plataforma de la torre, con un fusil con mira. No te apunta. «El día 3 me ordenaron tirar a cualquiera que se acercara al muro. Y tiré».
 
-—El día 3 me dieron la orden de tirar a cualquiera que se acercara al muro —dice—. Y tiré.
-
-**Para que venga:** `[Labia]`. Con 10+, viene con el fusil (Daño 3, Lejos, 2 manos, +2 Ruido) y 6 Munición. Con 7–9, viene sin el fusil: lo deja tirado en la torre. Con 6−, se queda. Si tenés `BUSCADO`, viene sin prueba: «Vos también te fuiste».
+**Para que venga:** `[Labia]`. Con 10+, con el fusil (Daño 3, Lejos, 2 manos, +2 Ruido) y 6 Munición. Con 7–9, sin el fusil. Con `BUSCADO`, sin prueba: «Vos también te fuiste».
 
 > **Iván** · **Puntería 3** · Insomne
-> **El desertor:** lo busca el Destacamento. Mientras esté con vos, −1 Reputación con el Destacamento cada vez que la ganes (no baja de −3).
-> **Necesidad:** los que lo buscan. Cuando lleve 5 cartas en el grupo → [e631](#e631).
-> **En la Noche 40:** tira desde el Techo: en las tres primeras oleadas, +2 a la defensa de cualquier frente (gasta 2 Munición por oleada).
-> **Desenlace:** después de [e631](#e631), si sigue con vos → [e632](#e632).
+> **Desertor:** cada Reputación que ganás con el Destacamento, −1 (hasta −3).
+> **Necesidad:** lo buscan. A las 5 cartas → [e631](#e631).
+> **En la Noche 40:** desde el Techo, +2 a cualquier frente en las tres primeras oleadas (2 Munición cada una).
+> **Desenlace:** después de [e631](#e631) → [e632](#e632).
 
 ---
 
@@ -509,15 +422,11 @@ Un soldado de veinticinco años, sin casco, con el uniforme abierto y una botell
 ### e631 · Los que buscan a Iván
 *Iván · ◷ 0*
 
-Un jeep del Destacamento frena en tu cuadra. El sargento Ocampo baja solo, sin casco. Tiene una foto.
+Ocampo baja solo del jeep, con una foto. «Busco al cabo Iván Medina. Desertó el día 9». Iván lo mira por la mira desde el entrepiso.
 
-—Busco al cabo Iván Medina. Desertó el día 9. Si lo ven, avisen.
-
-Iván está en el entrepiso, con el fusil, mirándolo por la mira.
-
-1. **Negarlo.** `[Labia]`. Con 7+, Ocampo se va. Mira para arriba antes de subir al jeep. Sabe. Con 6−, Ocampo te dice: «La próxima vez no vengo solo». −1 Reputación con el Destacamento.
-2. **Entregarlo.** Iván baja con las manos en alto. No te mira. Se lo llevan. +2 Reputación con el Destacamento. −2 Moral. `PERDIDO_IVAN`.
-3. **Que Iván decida.** Iván baja. Habla con Ocampo diez minutos, en la vereda. Después, Ocampo le da la mano y se va. Iván vuelve: «Le dije que el día 40 voy a estar en el muro, con ellos». Anotá `IVAN_VUELVE_AL_MURO`: en la Noche 40 no está con vos, pero el Destacamento gana +1 Reputación con vos y viene a ayudarte en una oleada ([e905](#e905)).
+1. **Negarlo,** `[Labia]`. Con 7+, se va; mira para arriba antes. Sabe. Con 6−, «La próxima no vengo solo»: −1 Reputación.
+2. **Entregarlo.** No te mira. +2 Reputación, −2 Moral (`PERDIDO_IVAN`).
+3. **Que decida él.** Hablan diez minutos en la vereda. «Le dije que el día 40 voy a estar en el muro». Anotá `IVAN_VUELVE_AL_MURO`: esa noche no está con vos, pero +1 Reputación con el Destacamento, y vienen en una oleada ([e905](#e905)).
 
 ---
 
@@ -525,11 +434,7 @@ Iván está en el entrepiso, con el fusil, mirándolo por la mira.
 ### e632 · Lo que vio Iván
 *Iván · ◷ 0*
 
-Iván no duerme. Nunca. Una noche, en la Guardia, te lo cuenta.
-
-—El día 3, a las seis de la tarde, llegó una orden por radio: «Cerrar el cordón. Fuego a discreción». A las seis y cuarto llegaron los primeros autos. Familias. Venían con las balizas puestas. Y a las seis y media llegó otra orden: «No registrar». Eso es lo que me quedó. Que no lo registráramos.
-
-Una pista ([e560](#e560)). Iván deja de ser Insomne: duerme esa noche, por primera vez en un mes.
+En la Guardia: «A las seis llegó la orden: fuego a discreción. A las seis y cuarto, los primeros autos, familias con las balizas puestas. A las seis y media, otra orden: no registrar. Eso me quedó». Una pista ([e560](#e560)). Esa noche duerme, por primera vez en un mes: deja de ser Insomne.
 
 ---
 
@@ -537,18 +442,14 @@ Una pista ([e560](#e560)). Iván deja de ser Insomne: duerme esa noche, por prim
 ### e633 · Celeste
 *Sobreviviente · ◷ 0*
 
-Una mujer de cincuenta, con un vestido de lentejuelas, tacos en la mano y el rímel corrido, cantando un bolero en un escenario sin luz, con un micrófono que no está enchufado a nada. Canta bien. Canta muy bien. Los Callados del salón están parados, quietos, mirándola.
+Vestido de lentejuelas, rímel corrido, un bolero en un escenario sin luz con un micrófono desenchufado. Canta muy bien, y los Callados del salón la miran, quietos. «Es lo único que sé hacer, querido. Si me callo, se mueven».
 
-Cuando termina la canción, te mira.
-
-—Es lo único que sé hacer, querido. Y si me callo, se mueven.
-
-**Para que venga:** viene si alguien la saca de ahí cuando deje de cantar: **Callados ×1d6 · Cerca** en cuanto se calla, escena Pasillo (r331). Si sobreviven, viene.
+**Para que venga:** sacala cuando deje de cantar: **Callados ×1d6 · Cerca**, escena Pasillo (r331).
 
 > **Celeste** · **Labia 3** · Optimista
-> **La voz:** las fiestas, los entierros y los cumpleaños dan +1 Moral más con Celeste. Y hablar con el grupo (r183) tiene +1 si ella está.
-> **Necesidad:** no puede estar en silencio. Cuando lleve 4 cartas en el grupo → [e634](#e634).
-> **En la Noche 40:** canta entre oleadas: +1 Moral en cada pausa ([e910](#e910)).
+> **La voz:** fiestas, entierros y cumpleaños dan +1 Moral más, y hablar con el grupo (r183) tiene +1.
+> **Necesidad:** no puede callarse. A las 4 cartas → [e634](#e634).
+> **En la Noche 40:** +1 Moral en cada pausa ([e910](#e910)).
 > **Desenlace:** la noche 39 → [e635](#e635).
 
 ---
@@ -557,13 +458,11 @@ Cuando termina la canción, te mira.
 ### e634 · El silencio
 *Celeste · ◷ 0*
 
-Celeste tararea. Todo el tiempo: mientras cocina, mientras lava, mientras hace la Guardia. Bajito. Un bolero, una zamba, un tango. Y a la noche, del otro lado de la puerta, algo se para a escuchar.
+Tararea todo el tiempo. Y a la noche, del otro lado de la puerta, algo se para a escuchar: las noches que hace Guardia, +1 al sondeo (r175).
 
-Desde que llegó, +1 a la tirada de sondeo (r175) las noches que Celeste hace Guardia.
-
-1. **Pedirle que se calle.** `[Labia]`. Con 7+, lo intenta. No puede: le tiemblan las manos, se pone a llorar. Llega a un acuerdo: solo canta en el sótano, o en el baño, con la puerta cerrada. Ya no suma al sondeo, pero no hace Guardia nunca. Con 6−, se ofende: «Si no les gusta, me voy». No se va, pero −1 Moral.
-2. **Dejarla.** Sigue sumando +1 al sondeo cuando hace Guardia. Pero el grupo la necesita: +1 Moral ahora.
-3. **Enseñarle a usarlo.** Si alguna vez necesitás un Señuelo, Celeste puede ser uno: desde un balcón, a dos cuadras, canta. Una Procesión se mueve un barrio hacia donde está ella (r156). Celeste vuelve con 4–6 en 1d6.
+1. **Pedirle que se calle,** `[Labia]`. Con 7+, canta solo en el baño: ya no suma, pero no hace Guardia nunca. Con 6−, «si no les gusta, me voy»: −1 Moral.
+2. **Dejarla.** +1 Moral ahora.
+3. **Usarla de Señuelo:** desde un balcón a dos cuadras, una Procesión avanza un barrio hacia ella (r156). Vuelve con 4–6 en 1d6.
 
 ---
 
@@ -571,13 +470,7 @@ Desde que llegó, +1 a la tirada de sondeo (r175) las noches que Celeste hace Gu
 ### e635 · La última canción
 *Celeste · ◷ 0*
 
-La noche 39 nadie duerme. Celeste se pinta los labios, se pone el vestido de lentejuelas, se sienta en una silla en el medio de todos y canta. No bajito. Canta como cantaba en el bar, como si hubiera doscientas personas. Canta «Volver».
-
-Se escucha en cinco cuadras. No importa.
-
-+3 Moral. Todos recuperan 2 Ánimo. +1 Rastro.
-
-En la Noche 40, la primera oleada viene por el frente donde esté Celeste: ella lo pidió. Si sobrevive, el epílogo de Celeste es una canción.
+La noche 39, Celeste se pinta los labios y canta «Volver» como si hubiera doscientas personas. Se escucha a cinco cuadras. No importa. +3 Moral, todos recuperan 2 Ánimo, +1 Rastro. La primera oleada viene por su frente: ella lo pidió. Si sobrevive, su epílogo es una canción.
 
 ---
 
@@ -585,17 +478,14 @@ En la Noche 40, la primera oleada viene por el frente donde esté Celeste: ella 
 ### e636 · El Ruso
 *Sobreviviente · ◷ 0*
 
-Un hombre de cincuenta, con campera de cuero, cadena de oro, bigote y un escarbadientes, sentado en el asiento de un taxi negro y amarillo con las puertas abiertas y la radio puesta en un partido de fútbol que es una grabación de hace años.
+Campera de cuero, cadena de oro y un escarbadientes, en un taxi con un partido grabado en la radio. «Medio tanque, en esta ciudad, es un helicóptero. ¿A dónde lo llevo, jefe?».
 
-—El taxi tiene medio tanque —dice—. Medio tanque, en esta ciudad, es un helicóptero. ¿A dónde lo llevo, jefe?
-
-**Para que venga:** viene si le ofrecés un lugar y comida. Si le pedís el taxi, primero → [e637](#e637).
+**Para que venga:** un lugar y comida. Para el taxi → [e637](#e637).
 
 > **El Ruso** · **Calle 3** · Fanfarrón
-> **El taxi:** → [e637](#e637).
-> **Necesidad:** habla demasiado. Con él, cada salida es +1 Ruido (Fanfarrón). Pero conoce todos los atajos: con él, cuando llegás a un barrio por la Calle, la tabla del barrio tiene −1.
-> **En la Noche 40:** → [e638](#e638), si el taxi anda.
-> **Desenlace:** en la Noche 40.
+> **Atajos:** al llegar a un barrio por la Calle, su tabla tiene −1.
+> **Necesidad:** habla demasiado (+1 Ruido por salida).
+> **En la Noche 40 y desenlace:** si el taxi anda → [e638](#e638).
 
 ---
 
@@ -603,13 +493,7 @@ Un hombre de cincuenta, con campera de cuero, cadena de oro, bigote y un escarba
 ### e637 · El taxi
 *El Ruso · ◷ 0*
 
-Un Peugeot 504 de 1993, con el tablero forrado en peluche, un rosario colgando del espejo y una foto de dos chicos en el parasol.
-
-Anotá `EL_TAXI` (tiene 3 Combustible). Con el Ruso al volante:
-
-- **Viajar:** a un barrio vecino por la Calle en ◷ 1 (la tabla del barrio, con +1), con hasta 4 personas y 12 casilleros de carga. +2 Ruido al llegar. 1 Combustible cada dos viajes.
-- **Si se queda sin Combustible**, el Ruso lo empuja hasta el refugio y no se calla en tres días.
-- **Si alguien más quiere manejar,** el Ruso no lo deja. Nunca.
+Un Peugeot 504 forrado en peluche, con un rosario y una foto de dos chicos en el parasol. Anotá `EL_TAXI` (3 Combustible). Con el Ruso al volante, a un barrio vecino por la Calle en ◷ 1 (su tabla con +1), con 4 personas y 12 casilleros; +2 Ruido al llegar, 1 Combustible cada dos viajes. Sin nafta, lo empuja hasta el refugio y no se calla en tres días. Nadie más lo maneja. Nunca.
 
 ---
 
@@ -617,12 +501,10 @@ Anotá `EL_TAXI` (tiene 3 Combustible). Con el Ruso al volante:
 ### e638 · La última carrera
 *El Ruso · La Noche 40 · ◷ 0*
 
-Antes de la primera oleada, el Ruso se pone la campera y te pide las llaves que ya tiene.
+«Yo los llevo. Les pongo la bocina, las balizas, y me los llevo al puerto. Es un viaje más».
 
-—Mirá —dice—. Yo los llevo. Les pongo la bocina, les prendo las balizas y me los llevo para el puerto. ¿Cuántos viajes hice en treinta años? Este es uno más.
-
-1. **Dejarlo ir.** El taxi sale con la bocina trabada, las balizas y la radio a todo volumen, y la primera oleada lo sigue: **la Marea tiene 1 oleada menos.** Tirá 1d6 al amanecer: con 6, el Ruso vuelve caminando, sin taxi, con una botella y un cuento larguísimo. Con 1–5, no vuelve. `PERDIDO_RUSO`. Si no vuelve, su epílogo es el taxi.
-2. **No dejarlo.** El Ruso se encoge de hombros y se queda a defender con vos (+1 a la defensa, una oleada). El taxi queda en la puerta.
+1. **Dejarlo ir.** La primera oleada sigue al taxi: **1 oleada menos.** Al amanecer, con 6 en 1d6 vuelve caminando con un cuento larguísimo; si no, su epílogo es el taxi (`PERDIDO_RUSO`).
+2. **No dejarlo.** Se queda: +1 a la defensa en una oleada.
 
 ---
 
@@ -630,17 +512,14 @@ Antes de la primera oleada, el Ruso se pone la campera y te pide las llaves que 
 ### e639 · Hernán
 *Sobreviviente · ◷ 0*
 
-Un hombre de cuarenta, flaco, con camisa blanca abotonada hasta arriba, una Biblia bajo el brazo y una voz de radio. Es el pastor de la iglesia evangélica de Los Bloques. Tiene a treinta personas viviendo en el templo, comiendo de una olla, rezando tres veces por día.
+Camisa abotonada hasta arriba, una Biblia y voz de radio: el pastor evangélico de Los Bloques, con treinta personas en su templo. «Esto es el Juicio. No hay que tener miedo. Hay que estar preparados».
 
-—Esto es el Juicio —dice, con calma—. No hay que tener miedo. Hay que estar preparados.
-
-**Para que venga:** solo viene si su iglesia se pierde (si vas a la iglesia, [e285](#e285), en la Etapa III o más: el templo cayó y él es el único que salió; o si te lo dice un evento), o con `[Labia]` 10+ y una pista del Secreto: «Esto no es el Juicio. Esto lo hicieron personas».
+**Para que venga:** si su iglesia cayó ([e285](#e285) desde la Etapa III, o un evento), o `[Labia]` 10+ con una pista: «Esto lo hicieron personas».
 
 > **Hernán** · **Labia 3** · Creyente
-> **La palabra:** con Hernán, hablar con el grupo (r183) tiene +1, y la tabla de crisis de Moral (e080) tiene −1 (un 0 cuenta como 1).
-> **Necesidad:** cree que la Marea es el Juicio. Cuando lleve 5 cartas en el grupo → [e640](#e640).
-> **En la Noche 40:** antes de la primera oleada → [e641](#e641).
-> **Desenlace:** en la Noche 40.
+> **La palabra:** hablar con el grupo (r183) tiene +1, y la crisis de Moral ([e080](#e080)) tiene −1.
+> **Necesidad:** cree que es el Juicio. A las 5 cartas → [e640](#e640).
+> **En la Noche 40 y desenlace:** antes de la primera oleada → [e641](#e641).
 
 ---
 
@@ -648,11 +527,11 @@ Un hombre de cuarenta, flaco, con camisa blanca abotonada hasta arriba, una Bibl
 ### e640 · El sermón
 *Hernán · ◷ 0*
 
-El domingo, Hernán reúne a todos en el lugar más grande del refugio y predica. Habla del Arca, de los cuarenta días del Diluvio, de los cuarenta años en el desierto. Algunos lloran. Algunos se van.
+El domingo predica: el Arca, los cuarenta días del Diluvio. Algunos lloran. Algunos se van.
 
-1. **Dejarlo predicar.** Cada semana. Tirá 1d6 cada vez: con 1–2, alguien discute: −1 Moral. Con 3–6, +1 Moral. Los Creyentes del grupo, siempre +1.
-2. **Pedirle que no lo haga.** `[Labia]`. Con 7+, predica solo para los que quieran, en otro cuarto. Sin efecto. Con 6−, Hernán dice que no le pueden pedir eso. −1 Moral.
-3. **Discutir con él delante de todos** (con 2 pistas o más). «Esto no es el Juicio.» `[Labia]` contra la fe: con Desventaja. Con 10+, Hernán se queda callado mucho rato. Al día siguiente, deja de ser Creyente y pasa a ser Valiente. Con 7–9, no contesta. Sigue siendo Creyente, pero predica en voz baja: en la opción 1, el 1–2 ya no resta Moral. Con 6−, el grupo se parte: −2 Moral.
+1. **Dejarlo,** cada semana: con 1–2 en 1d6, −1 Moral; con 3–6, +1. Los Creyentes, siempre +1.
+2. **Pedirle que no,** `[Labia]`. Con 7+, predica en otro cuarto, sin efecto. Con 6−, −1 Moral.
+3. **Discutirle** (2 pistas), `[Labia]` con Desventaja. Con 10+, calla mucho rato y pasa de Creyente a Valiente. Con 7–9, predica bajito: el 1–2 ya no resta. Con 6−, el grupo se parte: −2 Moral.
 
 ---
 
@@ -660,19 +539,11 @@ El domingo, Hernán reúne a todos en el lugar más grande del refugio y predica
 ### e641 · Abrir las puertas
 *Hernán · La Noche 40 · ◷ 0*
 
-Cuando empieza el ruido del muro, Hernán se pone de pie.
+«Hay que abrir las puertas. Que nos encuentre esperando». Camina hacia la Puerta. Si dejó de ser Creyente, se para al lado con un hacha: Puerta +1 en todas las oleadas. Si no:
 
-—Hay que abrir las puertas —dice—. Que nos encuentre limpios. Que nos encuentre esperando.
-
-Y camina hacia la Puerta.
-
-- **Si Hernán dejó de ser Creyente** ([e640](#e640), opción 3): esto no pasa. Se para al lado de la Puerta con un hacha. +1 a la defensa de la Puerta en todas las oleadas.
-
-Si no:
-
-1. **Pararlo con palabras.** `[Labia]`. Con 10+, se detiene. Llora. Se queda a rezar con los Creyentes en el Último Cuarto: +1 Moral. Con 7–9, se detiene, pero no defiende. Con 6−, como la opción 3.
-2. **Pararlo con el cuerpo.** `[Físico]`. Con 7+, lo tirás al piso y lo atan. No defiende. −1 Moral. Con 6−, como la opción 3.
-3. **No llegás.** Hernán corre los cerrojos de la Puerta. La Puerta empieza la Noche 40 con −3 Resistencia. Hernán sale a la calle con los brazos abiertos. No vuelve. `PERDIDO_HERNAN`.
+1. **Pararlo con palabras,** `[Labia]`. Con 10+, reza en el Último Cuarto: +1 Moral. Con 7–9, no defiende. Con 6−, como la 3.
+2. **Pararlo con el cuerpo,** `[Físico]`. Con 7+, lo atan: no defiende, −1 Moral. Con 6−, como la 3.
+3. **No llegás.** Corre los cerrojos: Puerta −3. Sale con los brazos abiertos. `PERDIDO_HERNAN`.
 
 ---
 
@@ -680,19 +551,15 @@ Si no:
 ### e642 · Valeria
 *Sobreviviente · ◷ 0*
 
-Una mujer de treinta, alta y fuerte, con el pelo atado y los pantalones de un traje de bombero con los tiradores caídos, arreglando algo, siempre arreglando algo. Tiene una cicatriz de quemadura en el cuello que le sube hasta la oreja.
+Pantalones de bombero con los tiradores caídos, una quemadura que le sube por el cuello hasta la oreja, siempre arreglando algo. «Era bombera. Ya no».
 
-—Era bombera —dice—. Ya no.
-
-No dice más.
-
-**Para que venga:** `[Labia]` con +1, o si le das algo que hacer (cualquier receta pendiente). Si tenés Reputación +2 o más con los Bomberos, no viene: «No quiero ver a Gauna».
+**Para que venga:** `[Labia]` con +1, o una receta pendiente para hacer. Con Reputación +2 con los Bomberos, no: «No quiero ver a Gauna».
 
 > **Valeria** · **Físico 3** · Valiente
-> **Bombera:** con Valeria, el fuego (incendios, Molotov, Escupidores) hace 1 Herida menos, y defender el refugio del fuego tiene +1.
-> **Necesidad:** sabe por qué se fue de los Bomberos. Cuando lleve 6 cartas en el grupo → [e643](#e643).
-> **En la Noche 40:** en la Puerta. +2 a la defensa (Valiente incluido).
-> **Desenlace:** cuando vea a Gauna o el cuartel de la calle Brown → [e644](#e644).
+> **Bombera:** con ella, el fuego hace 1 Herida menos, y defender el refugio del fuego tiene +1.
+> **Necesidad:** por qué se fue. A las 6 cartas → [e643](#e643).
+> **En la Noche 40:** en la Puerta, +2 (con Valiente).
+> **Desenlace:** al ver a Gauna o el cuartel de la calle Brown → [e644](#e644).
 
 ---
 
@@ -700,13 +567,7 @@ No dice más.
 ### e643 · El galpón 7
 *Valeria · ◷ 0*
 
-—El día 2 —dice Valeria, una noche, sin que nadie le pregunte— nos llamaron por un incendio en el galpón 7 del puerto. Había gente adentro. Cuarenta, cincuenta. Habían encerrado ahí a los enfermos del barrio. Algunos ya se estaban convirtiendo.
-
-Se toca la cicatriz.
-
-—Gauna dio la orden de no entrar. «Dejalo arder.» Yo entré. Saqué a dos. Uno de los dos me mordió el traje. No me llegó a la piel. Me fui esa noche.
-
-Una pista ([e560](#e560)): alguien prendió el fuego antes de que llegaran los bomberos, y no fue un accidente. −1 Reputación con los Bomberos si se lo contás a alguien.
+«El día 2 nos llamaron por el galpón 7. Habían encerrado ahí a los enfermos del barrio. Gauna dijo "dejalo arder". Yo entré. Saqué a dos. Uno me mordió el traje. Me fui esa noche». Una pista ([e560](#e560)): alguien prendió ese fuego a propósito. Si lo contás, −1 Reputación con los Bomberos.
 
 ---
 
@@ -714,15 +575,12 @@ Una pista ([e560](#e560)): alguien prendió el fuego antes de que llegaran los b
 ### e644 · Valeria y Gauna
 *Valeria · ◷ 0*
 
-Gauna y Valeria se miran. Gauna es la primera en hablar.
+«Hiciste bien en entrar», dice Gauna. «Yo no podía mandar a nadie». «No», dice Valeria.
 
-—Hiciste bien en entrar —dice—. Yo no podía mandar a nadie. Cuatro bomberos para cincuenta personas que se estaban convirtiendo. Habrías hecho lo mismo.
+1. **Que se arreglen,** `[Labia]` de Valeria, con +2 si tenés Reputación +1 con los Bomberos. Con 7+, se abrazan, cortas: +2 Reputación, y en la Noche 40 los Bomberos vienen por ella ([e905](#e905)). Con 6−, Valeria se va del lugar, pero sigue con vos.
+2. **Meterte,** `[Labia]`. Con 10+, como la 1 con 7+. Con 6−, «¿y vos quién sos?»: −1 Reputación.
 
-—No —dice Valeria.
-
-1. **Que se arreglen solas.** `[Labia]` de Valeria (0) con +2 si tenés Reputación +1 o más con los Bomberos. Con 7+, se abrazan, cortas, como dos bomberas. +2 Reputación con los Bomberos. Valeria sigue con vos, pero en la Noche 40 los Bomberos vienen a ayudarte por ella ([e905](#e905)). Con 6−, Valeria da media vuelta y se va del lugar. Sigue con vos.
-2. **Meterte.** «Las dos tienen razón.» `[Labia]`. Con 10+, como la opción 1 con 7+. Con 6−, Gauna te mira: «¿Y vos quién sos?». −1 Reputación con los Bomberos.
-**Después de la opción 1 con 7+,** podés dejar que Valeria vuelva al cuartel. +3 Reputación con los Bomberos. `PERDIDO_VALERIA`, pero no baja la Moral: se fue a donde tenía que estar.
+Después de un 7+, podés dejar que vuelva al cuartel: +3 Reputación, sin perder Moral (`PERDIDO_VALERIA`).
 
 ---
 
@@ -730,17 +588,15 @@ Gauna y Valeria se miran. Gauna es la primera en hablar.
 ### e645 · Facu
 *Sobreviviente · ◷ 0*
 
-Un pibe de diecisiete, pálido como un fantasma, con auriculares en el cuello, ojeras de mapache y un buzo con capucha. Está en un cuarto con cuatro monitores, una computadora abierta, cables por todos lados, latas de energizante apiladas en pirámide y la ventana tapada con papel de aluminio. No salió de ese cuarto desde el día 0. Ni una vez.
+Diecisiete años, capucha, ojeras, cuatro monitores y una pirámide de latas de energizante. No sale de su cuarto desde el día 0. «Armé una radio con la PC. Escucho cosas».
 
-—Armé una radio —dice, sin mirarte—. Con partes de la PC. Escucho cosas. ¿Querés escuchar?
+**Para que venga:** `[Labia]` con Desventaja. Con 6−, te da 2 Electrónica y una pista ([e560](#e560)).
 
-**Para que venga:** `[Labia]` con Desventaja (no quiere salir). Con 7+, viene, con su radio y una mochila de cables. Con 6−, no viene, pero te da 2 Electrónica y te dice qué escuchó: una pista ([e560](#e560)).
-
-> **Facu** · **Mecánica 2** (electrónica) · Cobarde
-> **La radio de Facu:** con Facu, la Radio (e759) se construye sin Electrónica, y la Linterna de dínamo (e749) sin prueba.
-> **Necesidad:** no quiere salir. Cuando lleve 4 cartas en el grupo → [e646](#e646).
-> **En la Noche 40:** si la Radio está hecha, escucha al Destacamento: antes de cada oleada, sabés por qué frente viene (tirás el frente antes de decidir dónde van los defensores).
-> **Desenlace:** si sale de expedición con vos tres veces → [e647](#e647).
+> **Facu** · **Mecánica 2** · Cobarde
+> **Electrónica:** la Radio ([e759](#e759)) no lleva Electrónica y la Linterna de dínamo ([e749](#e749)) sale sin prueba.
+> **Necesidad:** no quiere salir. A las 4 cartas → [e646](#e646).
+> **En la Noche 40:** con Radio, tirás el frente de cada oleada antes de ubicar a los defensores.
+> **Desenlace:** tres salidas con vos → [e647](#e647).
 
 ---
 
@@ -748,11 +604,11 @@ Un pibe de diecisiete, pálido como un fantasma, con auriculares en el cuello, o
 ### e646 · El cuarto
 *Facu · ◷ 0*
 
-Facu se encierra en un cuarto del refugio con sus cables y no sale. No come con los demás. No hace puestos, salvo Taller.
+Se encierra con sus cables. No come con nadie.
 
-1. **Dejarlo.** Facu hace Taller todas las noches. No hace otra cosa. Está bien así.
-2. **Sacarlo a la fuerza.** −1 Moral. Facu hace los puestos que le digas, pero con 1 en 1d6 cada noche, se quiebra: no hace nada.
-3. **Llevarlo de expedición.** «Te necesito.» `[Labia]`. Con 7+, sale. Con 6−, no sale hoy. Cada vez que salga con vos, marcá una casilla: con tres → [e647](#e647).
+1. **Dejarlo.** Hace Taller todas las noches y nada más.
+2. **Sacarlo a la fuerza.** −1 Moral. Hace cualquier puesto, pero cada noche, con 1 en 1d6, se quiebra.
+3. **Llevarlo,** `[Labia]`. «Te necesito». Marcá cada salida con él; con tres → [e647](#e647).
 
 ---
 
@@ -760,11 +616,7 @@ Facu se encierra en un cuarto del refugio con sus cables y no sale. No come con 
 ### e647 · El sol
 *Facu · ◷ 0*
 
-En la tercera salida, en una azotea, Facu se para en el borde y se queda mirando. La ciudad. El río. El sol. Se saca la capucha.
-
-—Me había olvidado de que existía esto —dice.
-
-Facu deja de ser Cobarde y pasa a ser Curioso. +1 Moral. Y Facu te muestra algo que armó: un detector de movimiento con un sensor de alarma de auto. Cuenta como una trampa que no ocupa espacio en un frente: avisa, y en un sondeo a ese frente, −1 de daño.
+En una azotea, Facu se saca la capucha. «Me había olvidado de que existía esto». Pasa de Cobarde a Curioso, +1 Moral, y te da un sensor de alarma de auto: una trampa sin espacio en un frente, con −1 al daño de los sondeos.
 
 ---
 
@@ -772,19 +624,15 @@ Facu deja de ser Cobarde y pasa a ser Curioso. +1 Moral. Y Facu te muestra algo 
 ### e648 · La doctora Ríos
 *Sobreviviente · ◷ 0*
 
-Una mujer de cincuenta y cinco, de guardapolvo, con el pelo gris recogido, sentada en el piso de su oficina, abrazada a una notebook, con una pistola en el regazo. Duerme. Cuando abrís la puerta, levanta la pistola sin abrir los ojos.
+Pelo gris, guardapolvo, dormida en el piso de su oficina abrazada a una notebook. Levanta la pistola sin abrir los ojos. «Si viene el Comando, no me encuentran viva». Es la directora del Laboratorio, Elena Ríos.
 
-—No me voy a ir de acá —dice—. Si viene el Comando, no me encuentran viva.
-
-Es la directora del Laboratorio de Virología. Es la doctora Elena Ríos.
-
-**Para que venga:** `[Labia]` con Desventaja. Con 7+, viene con la notebook y la pistola. Con 4 pistas o más, o con `EL_NIVEL_3`, sin Desventaja: «Ya sabés. Entonces da igual».
+**Para que venga:** `[Labia]` con Desventaja; sin ella con 4 pistas o `EL_NIVEL_3`: «Ya sabés. Entonces da igual».
 
 > **La doctora Ríos** · **Medicina 3** · Fría
-> **La doctora:** con ella, la Enfermería (e753) da +1 más, y curar la Fiebre con Antivirales da un día más (la Fiebre no sube por 2 días con un Antiviral).
-> **Necesidad:** sabe. Cuando lleve 3 cartas en el grupo → [e649](#e649).
-> **En la Noche 40:** en el Último Cuarto, con los heridos. Nadie se convierte esa noche en el Último Cuarto mientras ella viva.
-> **Desenlace:** después de [e649](#e649), cuando tengas 4 pistas o más → [e650](#e650).
+> **La doctora:** la Enfermería ([e753](#e753)) da +1 más, y un Antiviral frena la Fiebre 2 días.
+> **Necesidad:** sabe. A las 3 cartas → [e649](#e649).
+> **En la Noche 40:** mientras viva, nadie se convierte en el Último Cuarto.
+> **Desenlace:** después de [e649](#e649), con 4 pistas → [e650](#e650).
 
 ---
 
@@ -792,11 +640,11 @@ Es la directora del Laboratorio de Virología. Es la doctora Elena Ríos.
 ### e649 · La notebook
 *La doctora Ríos · ◷ 0*
 
-La doctora no suelta la notebook. Ni para dormir. Una noche, mientras ella hace la Guardia, la notebook queda sobre la mesa.
+Una noche, mientras ella hace Guardia, la notebook queda sobre la mesa.
 
-1. **Abrirla.** Tiene clave. `[Mecánica]` con Desventaja (sin Desventaja con Facu). Con 7+, entrás: carpetas, planillas, videos de cámaras de laboratorio, mails con el Comando. Dos pistas ([e560](#e560)). Si la doctora se entera (1–3 en 1d6), −1 Moral y deja de hablarte.
-2. **Preguntarle.** `[Labia]`. Con 10+, te muestra una carpeta: una pista ([e560](#e560)) y anotá `RIOS_CONFIA`. Con 7–9, «Todavía no». Con 6−, se encierra con la notebook.
-3. **No tocarla.** Al día siguiente, la doctora te dice: «Gracias». Anotá `RIOS_CONFIA`.
+1. **Abrirla,** `[Mecánica]` con Desventaja (sin ella con Facu). Con 7+, planillas, videos y mails con el Comando: dos pistas ([e560](#e560)). Si se entera (1–3 en 1d6), −1 Moral y deja de hablarte.
+2. **Preguntarle,** `[Labia]`. Con 10+, una pista y anotá `RIOS_CONFIA`. Con 7–9, «todavía no». Con 6−, se encierra.
+3. **No tocarla.** Al día siguiente: «Gracias». Anotá `RIOS_CONFIA`.
 
 ---
 
@@ -804,17 +652,11 @@ La doctora no suelta la notebook. Ni para dormir. Una noche, mientras ella hace 
 ### e650 · La confesión
 *La doctora Ríos · ◷ 0*
 
-—Me dijeron que era una vacuna —dice la doctora Ríos—. Que había una cepa en otro país, que teníamos que tener una respuesta. Me dieron plata, equipo, el Laboratorio entero. Me dieron cuarenta días.
+«Me dijeron que era una vacuna. Me dieron plata, equipo, el Laboratorio entero. Me dieron cuarenta días. Firmé todo. Hasta lo que no leí». Una pista ([e560](#e560)); con `RIOS_CONFIA`, dos.
 
-Se saca los anteojos.
-
-—Firmé todo. Hasta lo que no leí.
-
-Una pista ([e560](#e560)). Si tenés `RIOS_CONFIA`, dos.
-
-1. **Perdonarla.** No es tu lugar perdonar a nadie, pero lo hacés igual. La doctora deja de ser Fría y pasa a ser Leal. Si tu Secreto resulta ser el 3, la confrontación de [e583](#e583) es con 10+ automático.
-2. **Contárselo al grupo.** El grupo decide. `[Labia]`. Con 7+, se queda, pero duerme sola. Con 6−, la echan: `PERDIDO_RIOS`, −1 Moral.
-3. **Entregarla.** Al Destacamento (+3 Reputación) o a la Parroquia (+2 Reputación, la juzgan en la Catedral). `PERDIDO_RIOS`.
+1. **Perdonarla.** Pasa de Fría a Leal, y si tu Secreto es el 3, la confrontación de [e583](#e583) es un 10+.
+2. **Que decida el grupo,** `[Labia]`. Con 7+, se queda y duerme sola. Con 6−, la echan: −1 Moral (`PERDIDO_RIOS`).
+3. **Entregarla** al Destacamento (+3 Reputación) o a la Parroquia (+2, la juzgan en la Catedral). `PERDIDO_RIOS`.
 
 ---
 
@@ -822,16 +664,15 @@ Una pista ([e560](#e560)). Si tenés `RIOS_CONFIA`, dos.
 ### e651 · El Negro
 *Sobreviviente · ◷ 0*
 
-Un perro mestizo, negro, mediano, con las orejas paradas, el pelo duro y una cicatriz en el hocico. Tiene un collar rojo con una chapita: «NEGRO · Si me encontrás, llamá a Marcos». Te gruñe. Después te huele. Después mueve la cola.
+Un perro negro, mestizo, con una cicatriz en el hocico y una chapita: «NEGRO · Si me encontrás, llamá a Marcos». Te gruñe, te huele, mueve la cola.
 
-**Para que venga:** si le das de comer (1 Víver), viene. Si tenés `EL_NEGRO`, ya es tuyo.
+**Para que venga:** 1 Víver. Con `EL_NEGRO`, ya es tuyo.
 
 > **El Negro** · perro · Leal
-> **El perro:** no hace puestos salvo Guardia. Come 1 Víver cada dos días. Nunca es sorprendido: en las emboscadas, el Negro ladra antes. Pero si sale con vos, +1 Ruido.
-> **En la Guardia:** el Negro cuenta como un guardia (−1 al sondeo) y además no ocupa el límite de −2.
-> **El bozal:** 1 Tela y 1 Sujeción, ◷ 1, una vez: anotá `NEGRO_CON_BOZAL`. Atado y con bozal, no ladra ni suma Ruido, pero tampoco avisa en las emboscadas.
-> **Necesidad:** → [e652](#e652), la primera vez que salga con vos.
-> **En la Noche 40:** → [e653](#e653).
+> **El perro:** solo hace Guardia, donde cuenta como guardia (−1 al sondeo) fuera del límite de −2. Come 1 Víver cada dos días. Nunca te sorprenden con él, pero suma +1 Ruido si sale.
+> **El bozal** (1 Tela, 1 Sujeción, ◷ 1): anotá `NEGRO_CON_BOZAL`. Sin Ruido, pero tampoco avisa.
+> **Necesidad:** la primera salida con vos → [e652](#e652).
+> **En la Noche 40:** [e653](#e653).
 
 ---
 
@@ -839,11 +680,7 @@ Un perro mestizo, negro, mediano, con las orejas paradas, el pelo duro y una cic
 ### e652 · El que avisa
 *El Negro · ◷ 0*
 
-En la calle, el Negro se para en seco. Las orejas para adelante. Un gruñido bajito, desde la panza. No ladra. Mira una esquina.
-
-Tres segundos después, por esa esquina, aparecen Callados.
-
-Desde ahora, cuando salís con el Negro, **en cada encuentro de la Calle podés evitar el primer combate** si te escondés a tiempo (`[Sigilo]` con +2). Y si un día querés que ladre, ladra: es un Señuelo de una sola vez por salida (+2 Ruido donde estés, y una Procesión cercana se mueve un barrio hacia vos, r156).
+El Negro se para en seco, gruñe bajito, mira una esquina. Tres segundos después aparecen Callados. Desde ahora, con él, podés evitar el primer combate de cada encuentro de la Calle escondiéndote (`[Sigilo]` con +2). Y una vez por salida, si lo dejás ladrar, es un Señuelo: +2 Ruido, y una Procesión cercana avanza un barrio hacia vos (r156).
 
 ---
 
@@ -851,8 +688,8 @@ Desde ahora, cuando salís con el Negro, **en cada encuentro de la Calle podés 
 ### e653 · El Negro en la Noche 40
 *El Negro · La Noche 40 · ◷ 0*
 
-El Negro no ladra en toda la noche. Está parado al lado de la Puerta, con el lomo erizado, temblando.
+No ladra en toda la noche. Tiembla al lado de la Puerta, con el lomo erizado.
 
-- **Antes de la primera oleada:** el Negro sabe por dónde vienen. Corre a ese frente y se para ahí. Tirás el frente de la primera oleada **antes** de poner a los defensores.
-- **Si hay una brecha** ([e920](#e920)): el Negro sale a pelear. Tirá 1d6: con 1–3, muere ahí, y la brecha tarda una ronda más en llegar al grupo (los defensores tienen +2 en esa brecha). −2 Moral. Con 4–6, vuelve, lastimado, a lamerte la mano.
-- **Al amanecer**, si está vivo, es el primero en salir a la calle. Y el último en volver.
+- **Antes de la primera oleada,** corre al frente por donde vienen: tirás ese frente antes de ubicar a los defensores.
+- **En una brecha** ([e920](#e920)) sale a pelear. Con 1–3 en 1d6 muere ahí, y los defensores tienen +2 en esa brecha: −2 Moral. Con 4–6, vuelve lastimado a lamerte la mano.
+- **Al amanecer,** si vive, es el primero en salir. Y el último en volver.

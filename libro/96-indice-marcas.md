@@ -9,13 +9,12 @@
 |---|---|
 | `AMBULANCIA_12` | [e212](#e212) · [e960](#e960) |
 | `AMPOLLAS_L40` | [e532](#e532) · [e586](#e586) · [e624](#e624) |
-| `ANTEOJOS` | [e205](#e205) · [r105](#r105) |
+| `ANTEOJOS` | [r105](#r105) · [r108](#r108) |
 | `APODO_MEDICINA` | [r127](#r127) |
-| `APODO_SIGILO` | [r127](#r127) |
 | `ARDIO_LA_FABRICA` | [e274](#e274) · [e955](#e955) |
 | `ARMERIA_DE_LA_SEPTIMA` | [e461](#e461) · [e463](#e463) |
 | `ASAMBLEA` | [e084](#e084) · [e955](#e955) |
-| `ASMA` | [e214](#e214) · [r105](#r105) |
+| `ASMA` | [r105](#r105) · [r108](#r108) |
 | `AURELIO_EN_EL_REFUGIO` | [e628](#e628) · [e629](#e629) |
 | `AVISO_DE_LOS_LOBOS` | [e035](#e035) · [e046](#e046) · [e079](#e079) · [e681](#e681) · [e682](#e682) |
 | `AYUDASTE_EN_EL_MURO` | [e433](#e433) · [e581](#e581) |
@@ -124,7 +123,7 @@
 | `LA_CAJA_ABIERTA` | [e837](#e837) · [e838](#e838) |
 | `LA_CURA` | [e586](#e586) · [e944](#e944) |
 | `LA_ESCOLLERA` | [e383](#e383) · [e960](#e960) |
-| `LA_ESPALDA` | [e222](#e222) · [r105](#r105) |
+| `LA_ESPALDA` | [r105](#r105) · [r108](#r108) |
 | `LA_FERIA_ENCENDIDA` | [e385](#e385) · [e435](#e435) · [e900](#e900) |
 | `LA_FIEBRE_DE_RITA` | [e586](#e586) · [e616](#e616) |
 | `LA_FOTO` | [e812](#e812) · [r106](#r106) |
@@ -225,7 +224,7 @@
 | `QUIROGA_DERIVADO` | [e804](#e804) · [e807](#e807) |
 | `RACIONES_A_LA_VISTA` | [e082](#e082) · [e955](#e955) |
 | `RADIO_POLICIAL` | [e822](#e822) · [r106](#r106) |
-| `RAMPA_DESTRUIDA` | [e434](#e434) · [e435](#e435) · [e900](#e900) |
+| `RAMPA_DESTRUIDA` | [e435](#e435) · [e900](#e900) |
 | `RECHAZASTE_A_LOS_LOBOS` | [e687](#e687) · [e905](#e905) · [e955](#e955) |
 | `REFORZASTE_EL_MURO` | [e435](#e435) · [e900](#e900) |
 | `RIOS_CONFIA` | [e649](#e649) · [e650](#e650) |

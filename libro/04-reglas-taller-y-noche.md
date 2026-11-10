@@ -5,13 +5,13 @@
 
 *Nadia Correa es Adulta, maestra de cuarto grado (`OFICIO_DOCENCIA`), de Los Bloques. Su Motivo es El que falta: busca a su hermano Ezequiel, que la noche del brote trabajaba de sereno en El Puerto; ya tiene 1 señal. Su debilidad es el Asma. Es el día 7 y tiene su refugio en la Escuela N.º 9, en su propio barrio, con tres sobrevivientes: Lucía, el Chino y Pocho. Hay 5 Víveres y la Moral está en 4.*
 
-**El alba.** Nadia roba la carta del día: el **3 de Oros**. Es un día de hallazgo, leve: tira 1d6 en la columna Leve de [e020](#e020) y saca un 4. El evento le dice que el Chino vio humo en el Mercado: alguien cocinó anoche. Después, el grupo come: 4 personas, 4 Víveres. Quedan 1. Hay que salir a buscar comida. Nadia mira el mapa: el Puerto, donde puede seguir el rastro de Ezequiel, queda para el otro lado. Hoy manda el estómago.
+**El alba.** Nadia roba el **3 de Oros**: hallazgo, leve. Tira en la columna Leve de [e020](#e020): el Chino vio humo en el Mercado. Después, el grupo come 4 Víveres. Queda 1. El Puerto, donde sigue el rastro de Ezequiel, queda para el otro lado. Hoy manda el estómago.
 
-**Las horas de luz.** Nadia sale con Pocho. Van por las **Azoteas** hasta El Mercado: ◷ 2, sin Ruido y sin encuentro salvo con un 1 (sale un 5). Nadia lleva la soga. Si tuviera *Atajos* le costaría 1, pero Pocho no los tiene, y el grupo va al paso del más lento. Bajan en el **Hipermercado Zeta**. El stock dice ▢▢▢. Nadia revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en la tabla de Almacén. Saca 3, 6 y 1: 2 Víveres, 4 Víveres o un Carrito (elige los Víveres) y nada. Seis Víveres: tres casilleros de su Mochila, y Pocho carga el resto.
+**Las horas de luz.** Sale con Pocho por las **Azoteas** hasta El Mercado: ◷ 2, sin Ruido, y el 5 en 1d6 no trae encuentro. Bajan en el **Hipermercado Zeta** (stock ▢▢▢) y Nadia revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en Almacén. Saca 3, 6 y 1: seis Víveres. Tres casilleros para ella, el resto para Pocho.
 
-Le quedan 2 horas. Volver por las Azoteas cuesta 2; por la Calle, 1, pero suma Ruido y encuentro, y Nadia no tiene inhalador: si hay que correr, corre con Desventaja. Vuelve por arriba. Pinta la marca de búsqueda en el mapa: una X con un 7 arriba, «1» a la izquierda, «nadie» a la derecha y, abajo, con letras grandes, EZEQUIEL ([e842](#e842)). Es el primer nombre que pinta en la Etapa: hace un palito en la hoja.
+Le quedan 2 horas. Por la Calle tardaría 1, pero con Ruido, encuentro y sin inhalador. Vuelve por arriba. En el mapa pinta la marca de búsqueda: una X con un 7, «1» a la izquierda, «nadie» a la derecha y, abajo, EZEQUIEL ([e842](#e842)). Primer nombre que pinta en la Etapa: un palito.
 
-**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral: queda en 5, y mañana el grupo come un Víver menos), Pocho hace Obra con 1 Madera (+1 a la Puerta) y Nadia descansa: no le quedan horas para hablar con el grupo, que con *Lista de presentes* le habría salido fácil. El sondeo: Rastro 3 (empezó en 2, uno de la Escuela y uno por estar en su barrio, y subió una vez), Nadia tira 2d6 − 1 por la guardia y saca un 6. No pasa nada. Quedan treinta y tres cartas. Mañana es el día 8: el grupo le va a poner un apodo, y casi todos sus palitos de la Semana están en Labia.
+**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral, y mañana comen un Víver menos), Pocho hace Obra (+1 a la Puerta) y Nadia descansa. Sondeo: Rastro 3; tira 2d6 − 1 por la guardia y saca 6. Nada. Quedan treinta y tres cartas. Mañana el grupo le pone un apodo, y casi todos sus palitos están en Labia.
 
 ---
 
@@ -20,22 +20,14 @@ Le quedan 2 horas. Volver por las Azoteas cuesta 2; por la Calle, 1, pero suma R
 <a id="r200"></a>
 ### r200 · Fabricar es sobrevivir
 
-En Tolme nada de lo que necesitás está en una góndola. Las barricadas, las trampas, las armas silenciosas, la munición, las medicinas, la huerta, el generador: todo se arma con lo que hay. El **taller** es el corazón del juego.
+En Tolme nada de lo que necesitás está en una góndola: barricadas, trampas, armas silenciosas, munición, remedios, la huerta, el generador. Todo se arma con lo que hay. El **taller** es el corazón del juego.
 
-Para fabricar algo necesitás:
-
-1. **Conocer la receta** (r203).
-2. **Los materiales**, en la hoja del refugio o en tu Mochila (r165).
-3. **Las herramientas** que pide (r202).
-4. **La Habilidad mínima** que pide.
-5. **El tiempo** (◷).
-
-Las recetas están en el catálogo (e740–e761) y en el resumen de r207.
+Para fabricar necesitás **conocer la receta** (r203), **los materiales** (r165), **las herramientas** (r202), **la Habilidad mínima** y **el tiempo** (◷). Las recetas están en e740–e761, resumidas en r207.
 
 <a id="r202"></a>
 ### r202 · Herramientas
 
-Las herramientas no se gastan: se tienen o no se tienen. Cada una ocupa 1 casillero si la llevás encima.
+Las herramientas no se gastan. Encima, ocupan 1 casillero.
 
 | Herramienta | Sirve para |
 |---|---|
@@ -55,39 +47,29 @@ Las herramientas no se gastan: se tienen o no se tienen. Cada una ocupa 1 casill
 <a id="r203"></a>
 ### r203 · Conocer recetas
 
-- **Recetas básicas:** las conoce todo el mundo. En el catálogo dicen *básica*.
-- **Manuales:** cada manual que encontrás (e770–e779) enseña algunas recetas. Quedan anotadas para siempre aunque pierdas el libro.
-- **Gente que sabe:** mientras un sobreviviente que conoce una receta esté en el grupo, el grupo la conoce. Si se va o muere, la receta se va con él, salvo que alguien la haya fabricado con él al menos una vez (anotala).
-- **Eventos:** algunos lugares y personas te la enseñan.
-
-Anotá las recetas en la hoja del refugio, con su número.
+- **Básicas:** las conoce todo el mundo.
+- **Manuales** (e770–e779): lo que enseñan queda anotado aunque pierdas el libro.
+- **Gente que sabe:** el grupo conoce las recetas de sus sobrevivientes. Si alguien se va o muere, su receta se va, salvo que la hayan fabricado juntos alguna vez.
+- **Eventos:** algunos lugares y personas te enseñan una.
 
 <a id="r204"></a>
 ### r204 · Fabricar
 
-1. Comprobá que tenés todo lo que pide la receta.
-2. Gastá los materiales y el tiempo (◷).
-3. Si la receta pide una **prueba**, tirala. Con 10+, sale bien; con 7–9, sale bien pero gastás 1 material más de los que pide (el que elijas); con 6−, gastás la mitad de los materiales (redondeando hacia abajo) y no sale.
-4. Anotá el resultado: el objeto en tu Mochila o en el refugio, la Resistencia en el frente, la instalación en la hoja.
+Gastá los materiales y el tiempo. Si la receta pide **prueba**: con 10+, sale; con 7–9, sale y gastás 1 material más (elegís); con 6−, no sale y perdés la mitad de los materiales, redondeando hacia abajo.
 
-- **Descuentos:** si algo te deja construir una receta con **la mitad de los materiales** (un generador chico, el patio de la Escuela, Doña Rosa), esos descuentos no se suman: como mucho, la mitad, redondeando hacia arriba.
-- **En el refugio con Taller:** +1 a las pruebas de las recetas.
-- **De noche, el puesto Taller** fabrica una receta de ◷ 2 o menos sin gastar tus horas (r181).
-- **Lejos del refugio** solo podés fabricar recetas que no pidan Taller, con lo que llevás encima.
+- **Descuentos** de «la mitad de los materiales» (el patio de la Escuela, Doña Rosa…) no se suman: como mucho la mitad, redondeando hacia arriba.
+- **Con Taller,** +1 a las pruebas de recetas. **De noche,** el puesto Taller fabrica una receta de ◷ 2 o menos (r181).
+- **Lejos del refugio,** solo recetas que no pidan Taller, con lo que llevás encima.
 
 <a id="r205"></a>
 ### r205 · Munición
 
-La **Munición** es una sola cuenta para todas las armas de fuego: 1 por disparo.
-
-- Se encuentra en armerías, comisarías, el Perímetro y en los cuerpos de soldados.
-- Se **recarga** con la receta Recarga de cartuchos ([e745](#e745)).
-- Las **saetas** de la ballesta se recuperan: después de un combate que ganaste, recuperás la mitad de las que tiraste.
+La **Munición** es una sola cuenta para todas las armas de fuego: 1 por disparo. Está en armerías, comisarías, el Perímetro y los cuerpos de soldados, y se recarga con [e745](#e745). Las **saetas** de ballesta se recuperan: tras un combate ganado, vuelve la mitad.
 
 <a id="r206"></a>
 ### r206 · Reparar
 
-Un arma o una protección rota (Usos 0) se repara en el refugio: ◷ 1 y 1 material del que esté hecha (Metal o Madera). Vuelve a sus Usos completos. Cada vez que se repara, sus Usos máximos bajan 1. Cuando llegan a 0, ya no tiene arreglo: desarmala (r165).
+Un arma o protección rota (Usos 0) se repara en el refugio con ◷ 1 y 1 Metal o Madera: vuelve a sus Usos completos, pero su máximo baja 1. En 0, no tiene arreglo: desarmala (r165).
 
 <a id="r207"></a>
 ### r207 · El recetario
@@ -137,7 +119,7 @@ Variante para partidas largas o repetidas. Al preparar, tirá 1d6 y, por cada pu
 <a id="r213"></a>
 ### r213 · Reglas de la casa
 
-Este libro es tuyo. Si una regla te molesta, cambiala y anotalo en la hoja. Tres sugerencias que se probaron:
+Este libro es tuyo: si una regla te molesta, cambiala. Tres que se probaron:
 
 - **Sin Fiebre secreta:** los sobrevivientes siempre te dicen si los mordieron.
 - **Baraja abierta:** podés mirar la próxima carta siempre. El juego se vuelve un rompecabezas.
@@ -150,12 +132,10 @@ Este libro es tuyo. Si una regla te molesta, cambiala y anotalo en la hoja. Tres
 <a id="r220"></a>
 ### r220 · La Noche 40
 
-Cuando robás la carta cuarenta, ese es el último día. Resolvé la carta, comé, usá tus 6 horas de luz como siempre… y prepará todo. Esa noche no hay puestos, ni producción, ni sondeo: hay **Marea**.
+La carta cuarenta es el último día. Resolvela, comé, usá tus 6 horas… y prepará todo. Esa noche no hay puestos, producción ni sondeo: hay **Marea**.
 
-Al caer la noche:
-
-1. **Contá a tu gente.** Todos los que estén en el refugio defienden. Los que estén afuera, no llegan.
-2. **Asigná defensores:** cada persona (vos incluido) va a un frente: Puerta, Ventanas, Techo o Subsuelo. Los que no pueden pelear (niños, heridos Graves) van al Último Cuarto.
+1. **Contá a tu gente.** Defienden los que están en el refugio; los de afuera no llegan.
+2. **Asigná defensores:** cada persona (vos incluido) va a un frente. Los que no pueden pelear (chicos, Graves) van al Último Cuarto.
 3. **Repartí lo que tengas:** armas, Molotovs, Munición, trampas colocadas.
 4. **Calculá las oleadas** (r221).
 5. Andá a **[e900](#e900)**.
@@ -163,9 +143,9 @@ Al caer la noche:
 <a id="r221"></a>
 ### r221 · Las oleadas
 
-La Marea no llega toda junta: llega por **oleadas**, como el agua que sube.
+La Marea llega por **oleadas**, como el agua que sube.
 
-**Cuántas:** 3 + (Rastro ÷ 3, redondeando hacia abajo). Con Rastro 0–2, 3 oleadas; con 3–5, 4; con 6–8, 5; con 9–10, 6. Algunos eventos y el Secreto suman o restan.
+**Cuántas:** 3 + Rastro ÷ 3, redondeando hacia abajo (Rastro 0–2: 3; 3–5: 4; 6–8: 5; 9–10: 6). Algunos eventos y el Secreto suman o restan.
 
 **Cada oleada:**
 
@@ -195,9 +175,9 @@ La Marea no llega toda junta: llega por **oleadas**, como el agua que sube.
 <a id="r223"></a>
 ### r223 · Brecha y Último Cuarto
 
-Cuando un frente cae, los Callados entran. Andá a [e920](#e920): ahí decidís si peleás en la brecha, si tapás el hueco con lo que tengas o si todos se encierran en el **Último Cuarto**.
+Cuando un frente cae, los Callados entran → [e920](#e920): peleás en la brecha, tapás el hueco o se encierran todos en el **Último Cuarto**.
 
-- **El Último Cuarto** es la habitación donde termina la noche. Su Resistencia es 6 si lo construiste ([e761](#e761)); si no, 2. Una vez adentro, todas las oleadas que faltan golpean el Último Cuarto, y su defensa son los que están adentro.
+- **El Último Cuarto** tiene Resistencia 6 si lo construiste ([e761](#e761)); si no, 2. Una vez adentro, las oleadas que faltan lo golpean a él, y lo defienden los que están adentro.
 - **Si el Último Cuarto cae**, es el fin → [e925](#e925).
 
 <a id="r224"></a>

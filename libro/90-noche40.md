@@ -1,6 +1,6 @@
 # La Noche 40
 
-*Cuarenta días. Cuarenta cartas. Hoy no hay alba que robar. Hoy la Señora no dice cuántos días faltan. Hoy, a la caída del sol, desde el norte, el sonido cambia.*
+*Cuarenta días. Hoy no hay alba que robar. Hoy la Señora no dice cuántos días faltan. Hoy, a la caída del sol, desde el norte, el sonido cambia.*
 
 ---
 
@@ -8,13 +8,9 @@
 ### e900 · La Noche 40
 *Tu refugio · ◷ noche*
 
-A las siete de la tarde se calla todo. Los perros. Los pájaros. El viento. Hasta la Señora, en la AM 870, se calla en el medio de una frase. Después, desde el norte, un ruido que empieza como un trueno lejos y no termina: metal que se dobla, que se arranca, que cae. El muro.
+A las siete de la tarde se calla todo: los perros, el viento, hasta la Señora en la AM 870, en el medio de una frase. Después, desde el norte, metal que se dobla y cae. El muro. A las ocho, el primero aparece en la esquina. Detrás de él, la calle entera.
 
-A las ocho, el primero aparece en la esquina.
-
-Detrás de él, la calle entera se llena.
-
-**Antes de la primera oleada** (r220):
+**Antes de la primera oleada:**
 
 1. **Contá a tu gente** y asigná a cada uno a un frente o al Último Cuarto (r220).
 2. **Calculá las oleadas** (r221): 3 + (Rastro ÷ 3).
@@ -33,13 +29,13 @@ Detrás de él, la calle entera se llena.
 | `SABES_POR_DONDE` | La primera oleada no viene por el frente que elijas |
 | `LOS_PLANOS_DEL_MURO` (con `EL_MURO_CEDIO`) | La primera oleada no elige el frente más débil: un 6 se vuelve a tirar |
 | `ESCALERA_CORTADA` (Edificio Sarmiento) | La primera brecha no llega al grupo ([e491](#e491)) |
-| `CERCO_ELECTRICO` | Ese frente, +3 a la defensa en cada oleada (1 Combustible por oleada) ([e512](#e512)) |
+| `CERCO_ELECTRICO` | Ese frente, +3 en cada oleada (1 Combustible por oleada) ([e512](#e512)) |
 | `AMETRALLADORA_EN_` un frente | Ese frente, +4 en cada oleada (6 Munición por oleada) ([e523](#e523)) |
 | `EL_BLINDADO` | +3 Resistencia a la Puerta o las Ventanas, o una carga ([e552](#e552)) |
 | `LA_AUTOBOMBA` | Una vez, +3 a la defensa de la Puerta ([e481](#e481)) |
 | `DIENTES_EN_LAS_TRAMPAS` | Las Tablas de clavos y los Fosos de estacas valen +1 |
 | `DESAGUE_TAPADO` | El Subsuelo pierde 1 Resistencia menos en cada oleada que lo golpee |
-| Escuela N.º 9 sin `PUERTAS_TAPIADAS` | La Puerta, −2 a la defensa en cada oleada que la golpee ([e471](#e471)) |
+| Escuela N.º 9 sin `PUERTAS_TAPIADAS` | La Puerta, −2 en cada oleada que la golpee ([e471](#e471)) |
 | `LOS_DE_LA_CUADRA` | Si siguen vivos, +2 a la defensa de la Puerta en todas las oleadas |
 | `LOS_DEL_SIETE` | Con 4–6 en 1d6, +1 a la defensa de las Ventanas en todas las oleadas ([e493](#e493)) |
 | `EL_PASTOR_SABE`, con el Pastor vivo | La primera oleada va al frente más débil |
@@ -48,11 +44,11 @@ Detrás de él, la calle entera se llena.
 | `LO_DEJASTE_ADENTRO`, si tu refugio queda en ese barrio | En la tercera oleada, tres golpes despacio en la puerta del Último Cuarto: −1 Ánimo ([e846](#e846)) |
 | `MIEDO` | Mientras tu Ánimo sea 3 o menos, tu prueba en un frente tiene Desventaja (r105) |
 
-4. **Los sobrevivientes con algo para la Noche 40** (lo dice su ficha, e600–e653): leelo ahora. Si tenés al Ruso con el taxi, a Hernán o a Celeste, sus entradas se leen antes de la primera oleada ([e638](#e638), [e641](#e641), [e635](#e635)).
-5. **Los aliados:** mirá quién viene → [e905](#e905).
-6. **Tu historia:** tu Motivo tiene su momento esta noche → [e906](#e906). Anotá en qué oleada.
+4. **Los sobrevivientes con algo para la Noche 40** (lo dice su ficha, e600–e653): leelo ahora. El Ruso con el taxi, Hernán y Celeste van antes de la primera oleada ([e638](#e638), [e641](#e641), [e635](#e635)).
+5. **Los aliados** → [e905](#e905).
+6. **Tu Motivo** tiene su momento esta noche → [e906](#e906). Anotá en qué oleada.
 
-La Noche 40 no tiene horas: tiene oleadas. Empezá la primera (r221). Después de la **segunda**, leé [e910](#e910). Después de la **cuarta**, [e912](#e912). Si un frente cae, [e920](#e920). Si sobrevivís a la última, [e930](#e930).
+La Noche 40 no tiene horas: tiene oleadas (r221). Después de la **segunda**, [e910](#e910). Después de la **cuarta**, [e912](#e912). Si un frente cae, [e920](#e920). Si sobrevivís a la última, [e930](#e930).
 
 ---
 
@@ -60,7 +56,7 @@ La Noche 40 no tiene horas: tiene oleadas. Empezá la primera (r221). Después d
 ### e901 · Lo que viene con la Marea
 *La Noche 40 · Especiales*
 
-Con un 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tirá 1d6:
+Con 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tirá 1d6:
 
 | 1d6 | Especial | En esta oleada |
 |---|---|---|
@@ -69,9 +65,9 @@ Con un 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tir
 | 3 | **Acechadores** ([e724](#e724)) | Entran por el Techo, sea cual sea el frente, salvo Techo 5 o más |
 | 4 | **Escupidor** ([e727](#e727)) | Antes de la oleada, el frente pierde 1 Resistencia y sus trampas, 1 de valor |
 | 5 | **Blindados** ([e729](#e729)) | Las trampas de ese frente no restan |
-| 6 | Tirá otra vez: **1–2 Ahogados** ([e728](#e728), por el Subsuelo; si no hay Subsuelo, nada); **3–4 Sabuesos** ([e725](#e725), al frente más débil); **5 Frescos** ([e721](#e721), +2 de Fuerza); **6 el Pastor** ([e731](#e731)) si sigue vivo y lo viste (`VISTE_AL_PASTOR`); si no, un Bruto |
+| 6 | Tirá otra vez: **1–2 Ahogados** ([e728](#e728), por el Subsuelo; si no hay, nada); **3–4 Sabuesos** ([e725](#e725), al frente más débil); **5 Frescos** ([e721](#e721), +2 de Fuerza); **6 el Pastor** ([e731](#e731)) si sigue vivo y tenés `VISTE_AL_PASTOR`; si no, un Bruto |
 
-**El Pastor en la Marea.** Si aparece, se queda en la esquina, mirando. Esta oleada y todas las que siguen eligen el frente más débil. Si tenés un arma de Lejos y alguien en el Techo, una vez: `[Puntería]` con Desventaja (sin Desventaja con `SABES_DEL_PASTOR`, fusil o ballesta). Con 10+, cae: anotá `PASTOR_MUERTO` y la Marea pierde 1 oleada (la última). Con 7–9, lo herís: se va de la esquina, y las oleadas que siguen vuelven a tirar el frente como siempre. Con 6−, te ve: la próxima oleada viene al frente del que disparó.
+**El Pastor en la Marea.** Se queda en la esquina, mirando, y desde esta oleada todas eligen el frente más débil. Con un arma de Lejos y alguien en el Techo, una vez: `[Puntería]` con Desventaja (sin ella con `SABES_DEL_PASTOR`, fusil o ballesta). Con 10+, cae: anotá `PASTOR_MUERTO` y la Marea pierde la última oleada. Con 7–9, lo herís y se va: las oleadas vuelven a tirar el frente. Con 6−, te ve: la próxima viene al frente del que disparó.
 
 **La Viuda** no viene con la Marea ([e730](#e730)). Si la viste en la Etapa IV, está sentada en la vereda de enfrente.
 
@@ -81,24 +77,20 @@ Con un 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tir
 ### e905 · Los que vienen a ayudar
 *La Noche 40 · Aliados*
 
-En el medio del ruido, de golpe, otro ruido: una sirena, una campana, motores, tiros que no vienen de tu refugio.
-
-Una facción viene a ayudarte si cumple **una** de estas:
+En el medio del ruido, otro ruido: una sirena, una campana, motores, tiros que no son tuyos. Una facción viene si cumple **una** de estas:
 
 - **Reputación +3** con vos.
-- **`EL_PACTO`** ([e664](#e664)) y Reputación +1 o más.
-- Algo que lo diga: `IVAN_VUELVE_AL_MURO` (el Destacamento), Valeria y Gauna en paz ([e644](#e644)) (los Bomberos), `TRATO_DEL_INMUNE`, el plan de Ocampo rechazado ([e694](#e694), opción 2).
+- **`EL_PACTO`** ([e664](#e664)) y Reputación +1 o más. Sin Reputación +3, tirá 1d6: con 1–3 llega después de la segunda oleada.
+- Algo que lo diga: `IVAN_VUELVE_AL_MURO` (Destacamento), Valeria y Gauna en paz ([e644](#e644)) (Bomberos), `TRATO_DEL_INMUNE`, el plan de Ocampo rechazado ([e694](#e694), opción 2).
 
-**Los que no vienen nunca:** los Bomberos, si tenés `LES_ROBASTE_EL_CUARTEL`; el Destacamento, si tenés `LA_SEPTIMA_ES_NUESTRA`; los Lobos, si tenés `RECHAZASTE_A_LOS_LOBOS`. Y al revés: con `LE_PAGAS_A_LOS_LOBOS`, los Lobos vienen como si tuvieras Reputación +3 (cuidan al que les paga), y cobran igual.
-
-Si viene con `EL_PACTO` pero sin Reputación +3, tirá 1d6: con 1–3, llega tarde (después de la segunda oleada); con 4–6, llega a tiempo.
+**No vienen nunca:** los Bomberos con `LES_ROBASTE_EL_CUARTEL`; el Destacamento con `LA_SEPTIMA_ES_NUESTRA`; los Lobos con `RECHAZASTE_A_LOS_LOBOS`. Con `LE_PAGAS_A_LOS_LOBOS`, los Lobos vienen como con Reputación +3, y cobran igual.
 
 | Facción | Qué hace |
 |---|---|
-| **La Parroquia** | No pelea: no tienen armas. Llegan veinte personas con palas, mantas mojadas y agua. Después de cada oleada, reparan +2 Resistencia a un frente y curan 1 Herida a alguien. Y rezan: +1 Moral |
-| **Los Bomberos** | Una autobomba en la esquina. +3 a la defensa del frente que elijas, en todas las oleadas, y una vez, el cañón de agua: la oleada que elijas pierde 1d6 de Fuerza |
-| **Los Lobos** | Dos camionetas con ametralladoras improvisadas. +4 a la defensa del frente que elijas, en todas las oleadas. Pero al amanecer cobran: la mitad de tus Víveres y materiales, o un Tesoro. Si no pagás, −3 Reputación y el epílogo tiene una deuda |
-| **El Destacamento** | No vienen: están en el muro. Pero el muro aguanta más con ellos. La Marea tiene **1 oleada menos**. Si además tenés `OCAMPO_DE_TU_LADO`, Ocampo manda un jeep con dos soldados: +2 a la defensa de un frente |
+| **La Parroquia** | No pelea. Veinte personas con palas, mantas mojadas y agua: después de cada oleada, +2 Resistencia a un frente, 1 Herida curada y +1 Moral |
+| **Los Bomberos** | Una autobomba en la esquina: +3 al frente que elijas en todas las oleadas, y una vez, el cañón de agua: una oleada pierde 1d6 de Fuerza |
+| **Los Lobos** | Dos camionetas con ametralladoras: +4 al frente que elijas en todas las oleadas. Al amanecer cobran la mitad de tus Víveres y materiales, o un Tesoro. Si no pagás, −3 Reputación y el epílogo tiene una deuda |
+| **El Destacamento** | Están en el muro, y el muro aguanta más: **1 oleada menos**. Con `OCAMPO_DE_TU_LADO`, además, un jeep con dos soldados: +2 a un frente |
 
 **Sin aliados:** la Noche 40 es tuya y de los tuyos. Como siempre.
 
@@ -108,16 +100,16 @@ Si viene con `EL_PACTO` pero sin Reputación +3, tirá 1d6: con 1–3, llega tar
 ### e906 · Tu historia en la Noche 40
 *La Noche 40 · Tu Motivo*
 
-La Marea no sabe quién sos. La noche, sí. Buscá tu Motivo: dice en qué momento llega tu escena y qué cambia según tu contador (r198).
+La Marea no sabe quién sos. La noche, sí. Tu escena llega en este momento y cambia según tu contador (r198):
 
 | Motivo | Cuándo | Qué pasa |
 |---|---|---|
-| **La lista** | Después de la primera oleada | Alguien de la lista que esté en el grupo pide ir al frente más débil: «Me salvaste una vez». Si lo dejás, ese frente tiene +2 en la próxima oleada, y tirá 1d6: con 1–2, cae Herido. Con **Juramento 4 o más**, no hace falta tirar: vuelve entero. Si no hay nadie de la lista, nadie pide nada, y eso también pesa: −1 Ánimo |
-| **La obra** | Antes de la segunda oleada | El tramo 7 cede, como sabías. Con **Cimientos 4 o más**, lo esperabas: la oleada entra desordenada, −2 de Fuerza. Con **Cimientos 2 o menos**, entra de golpe: +2 de Fuerza |
-| **La orden** | Antes de la tercera oleada | Una radio suena en el refugio: la señal. Con **Deber 4 o más**, el teniente del muro te reconoce y desvía un pelotón: +3 a la defensa del frente que elijas en esa oleada. Con `SOBRE_CERRADO`, además, +1 Moral: el grupo vio que lo cuidaste hasta el final. Con **Deber 2 o menos**, nadie contesta |
-| **El pedido** | Antes de la cuarta oleada (o la última, si hay menos) | Un hombre con barbijo baja por el Techo y pide la caja. Si se la das, se va por los techos con una bengala y se lleva parte de la oleada: −3 de Fuerza; borrá `CAJA_PRECINTADA`. Si no, se queda a pelear: +1 defensor en el Techo. Con **Ruta 4 o más**, es uno de tus destinatarios: te da las dos cosas |
-| **El que falta** | En la última oleada | Si está en el grupo, pelea a tu lado: +2 a tu frente. Si nunca lo encontraste y tu **Esperanza es 4 o más**, alguien grita tu nombre desde la esquina: +2 Ánimo y +1 a tu prueba en esa oleada. Con `LO_DEJASTE_ADENTRO`, los tres golpes de la tabla de e900 |
-| **Lo que hiciste** | En la primera oleada que abra una brecha ([e920](#e920)), o en la última | Alguien golpea la puerta pidiendo entrar, con alguien en brazos, como el día 0. **Abrir:** −2 Culpa, el frente pierde 1 Resistencia más y entra un sobreviviente común. **No abrir:** +2 Culpa. Con `TE_PERDONASTE`, abrís sin pensarlo, y el frente no pierde nada |
+| **La lista** | Después de la primera oleada | Alguien de la lista pide ir al frente más débil: +2 a ese frente en la próxima oleada, y con 1–2 en 1d6 cae Herido (con **Juramento 4+**, vuelve entero). Si no hay nadie de la lista: −1 Ánimo |
+| **La obra** | Antes de la segunda oleada | El tramo 7 cede. Con **Cimientos 4+**, la oleada entra desordenada: −2 de Fuerza. Con **Cimientos 2−**, entra de golpe: +2 |
+| **La orden** | Antes de la tercera oleada | Suena la radio. Con **Deber 4+**, el teniente desvía un pelotón: +3 al frente que elijas (con `SOBRE_CERRADO`, también +1 Moral). Con **Deber 2−**, nadie contesta |
+| **El pedido** | Antes de la cuarta (o la última) | Un hombre con barbijo baja por el Techo y pide la caja. Si se la das, se lleva parte de la oleada con una bengala: −3 de Fuerza; borrá `CAJA_PRECINTADA`. Si no, pelea: +1 defensor en el Techo. Con **Ruta 4+**, las dos cosas |
+| **El que falta** | En la última oleada | Si está en el grupo, +2 a tu frente. Si no y tu **Esperanza es 4+**, alguien grita tu nombre: +2 Ánimo y +1 a tu prueba. Con `LO_DEJASTE_ADENTRO`, los tres golpes de e900 |
+| **Lo que hiciste** | En la primera brecha ([e920](#e920)) o en la última oleada | Alguien golpea con alguien en brazos, como el día 0. **Abrir:** −2 Culpa, el frente pierde 1 Resistencia más y entra un sobreviviente común. **No abrir:** +2 Culpa. Con `TE_PERDONASTE`, abrís y el frente no pierde nada |
 
 ---
 
@@ -125,24 +117,20 @@ La Marea no sabe quién sos. La noche, sí. Buscá tu Motivo: dice en qué momen
 ### e910 · Después de la segunda oleada
 *La Noche 40 · ◷ 0*
 
-Una calma. No es que se fueron: están ahí, del otro lado de la Puerta, del otro lado de las tablas, apretándose, empujando, sin hacer ruido. Pero por un minuto, nadie golpea.
+Una calma. Siguen ahí, del otro lado de las tablas, empujando sin ruido. Alguien pregunta qué hora es. Las diez y cuarto. Faltan ocho horas para el sol.
 
-Alguien llora bajito. Alguien se ríe sin motivo. Alguien pregunta qué hora es. Las diez y cuarto. Faltan ocho horas para que salga el sol.
-
-**Primero**, la pausa de siempre (r224): cada uno hace una cosa. Además, las habilidades de los sobrevivientes que dicen «entre oleadas» o «en cada pausa» (Don Ernesto repara, el Chino da de comer, Rita cura, Celeste canta, Mateo hace Molotovs).
-
-**Después**, tirá 1d6:
+**Primero**, la pausa (r224), con las habilidades «entre oleadas» de los sobrevivientes. **Después**, tirá 1d6:
 
 | 1d6 | Lo que pasa |
 |---|---|
-| 1 | **El mordido.** Alguien del grupo se saca la venda. Lo mordieron en la primera oleada y no dijo nada. Tiene Fiebre 1, y en la Noche 40 la Fiebre sube 1 por oleada. Decidí: encerrarlo en un cuarto (no defiende), dejarlo pelear hasta que no pueda, o terminar con él ahora (−2 Moral, −1 Ánimo). Si tenés a la doctora Ríos o la maña *Manos de guardia*, ya lo sabías: tenés una oleada más para decidir |
-| 2 | **La radio.** La AM 870 vuelve. «La ayuda llegará.» Todos se quedan quietos escuchando. Tirá `[Labia]`: con 7+, +1 Moral; con 6−, alguien rompe la radio contra la pared: −1 Moral |
-| 3 | **Golpean.** No son Callados: golpean tres veces y gritan. Una familia que corrió por la calle entre los Callados y llegó a tu puerta. Abrir la Puerta (◷ 0): `[Físico]` con dos personas; con 7+, entran tres personas (1 defiende), con 6−, entran ellos y una oleada chica: **Callados ×1d6 · Encima** adentro. No abrir: −2 Moral. −1 Ánimo para vos |
-| 4 | **El fuego.** Una Molotov, una vela, una garrafa: algo se prendió. Un frente al azar pierde 1 Resistencia. Apagarlo: `[Supervivencia]` o `[Físico]`, +1 con Valeria o Cisterna. Con 6−, pierde 2 más |
-| 5 | **El que no aguanta.** Alguien con Ánimo 1 o menos, o el más Cobarde del grupo, quiere salir corriendo por el Techo. Pararlo: `[Labia]`. Con 6−, sale. No vuelve. −1 Moral |
-| 6 | **La canción.** Nadie sabe quién empieza. Una canción de cancha, una de cuna, un himno. La cantan todos, bajito. +2 Moral. Los Callados de la Puerta se quedan quietos un minuto: la próxima oleada tiene −1 de Fuerza |
+| 1 | **El mordido.** Alguien se saca la venda: lo mordieron en la primera oleada. Fiebre 1, que sube 1 por oleada. Encerrarlo (no defiende), dejarlo pelear o terminar con él (−2 Moral, −1 Ánimo). Con la doctora Ríos o *Manos de guardia*, tenés una oleada más para decidir |
+| 2 | **La radio.** «La ayuda llegará.» `[Labia]`: con 7+, +1 Moral; con 6−, alguien rompe la radio contra la pared: −1 Moral |
+| 3 | **Golpean.** Una familia que corrió entre los Callados. Abrir: `[Físico]` con dos personas; con 7+, entran tres (1 defiende); con 6−, entran con **Callados ×1d6 · Encima**. No abrir: −2 Moral y −1 Ánimo |
+| 4 | **El fuego.** Un frente al azar pierde 1 Resistencia. Apagarlo: `[Supervivencia]` o `[Físico]` (+1 con Valeria o Cisterna); con 6−, pierde 2 más |
+| 5 | **El que no aguanta.** El de Ánimo más bajo, o el más Cobarde, quiere huir por el Techo. `[Labia]`; con 6−, se va y no vuelve: −1 Moral |
+| 6 | **La canción.** De cancha, de cuna, un himno, bajito. +2 Moral, y la próxima oleada tiene −1 de Fuerza |
 
-Si la Moral llega a 0 en la Noche 40, no hay crisis (e080): hay desbande. Tirá 1d6 por cada sobreviviente: con 1–2, se esconde y no defiende más.
+Si la Moral llega a 0 esta noche, no hay crisis (e080): hay desbande. Tirá 1d6 por sobreviviente: con 1–2, se esconde y no defiende más.
 
 ---
 
@@ -150,19 +138,15 @@ Si la Moral llega a 0 en la Noche 40, no hay crisis (e080): hay desbande. Tirá 
 ### e912 · La hora más oscura
 *La Noche 40 · ◷ 0*
 
-Las tres de la mañana. Ya no se oye el muro: se oye la ciudad entera. Todo Tolme está lleno de Callados. Los de la Marea, los de las Procesiones, los del barrio, los de tu cuadra. Algunos tienen caras que conocés.
+Las tres de la mañana. Se oye la ciudad entera. Contra la Puerta, uno golpea con la palma abierta, despacio, como pidiendo permiso: alguien que se fue del grupo (si tenés algún `PERDIDO_`, es esa persona). −1 Ánimo.
 
-Afuera, contra la Puerta, uno golpea con la palma abierta, despacio, como pidiendo permiso. Es alguien que se fue del grupo (si tenés algún `PERDIDO_`, es esa persona). −1 Ánimo.
+**Primero**, la pausa (r224). **Después**, elegí una:
 
-**Primero**, la pausa (r224).
-
-**Después**, elegí una:
-
-1. **Aguantar.** No hacés nada distinto. Los que quedan se miran. Nadie habla.
-2. **Hacer ruido en otro lado.** Alguien sale por el Techo o el Subsuelo con un Señuelo, una bocina, una olla y una cuchara, y se lleva a la Marea dos cuadras más allá. Tiene que ser un voluntario (o vos). `[Sigilo]` o `[Físico]`. Con 10+, vuelve: la próxima oleada tiene la mitad de Fuerza. Con 7–9, la próxima oleada tiene la mitad de Fuerza, y el voluntario no vuelve hasta el amanecer (tirá 1d6 al amanecer: con 4–6, aparece). Con 6−, la próxima oleada tiene la mitad de Fuerza. El voluntario no vuelve. Si eras vos → [e990](#e990).
-3. **Rezar, cantar, contar chistes.** `[Labia]`. Con 7+, +2 Moral y cada defensor +1 en la próxima oleada. Con 6−, nada.
-4. **Si tenés `TIGRE_DOS`** y una radio: la llamás. «Tigre Dos, acá Tolme. Estamos vivos.» Una voz te contesta entre la estática: «Al amanecer, en la escollera. Aguanten». +3 Moral. Al amanecer, el barco está ([e930](#e930)).
-5. **Si tenés la barcaza lista** (`BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE`) y no la usaste antes: ya es tarde para llegar al Puerto. Pero si los que no pelean subieron antes de la Noche 40 ([e254](#e254)), ahora mismo están en el medio del río, mirando la ciudad. +1 Moral.
+1. **Aguantar.** Nadie habla.
+2. **Hacer ruido en otro lado.** Un voluntario (o vos) sale por el Techo o el Subsuelo con un Señuelo y se lleva a la Marea dos cuadras: `[Sigilo]` o `[Físico]`. Pase lo que pase, la próxima oleada tiene la mitad de Fuerza. Con 10+, vuelve. Con 7–9, aparece al amanecer con 4–6 en 1d6. Con 6−, no vuelve; si eras vos → [e990](#e990).
+3. **Rezar, cantar, contar chistes.** `[Labia]`: con 7+, +2 Moral y cada defensor +1 en la próxima oleada.
+4. **Con `TIGRE_DOS`** y una radio: «Tigre Dos, acá Tolme. Estamos vivos.» «Al amanecer, en la escollera. Aguanten.» +3 Moral, y al amanecer el barco está ([e930](#e930)).
+5. **Con la barcaza lista** (`BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE`): si los que no pelean subieron antes ([e254](#e254)), ahora están en el medio del río, mirando la ciudad. +1 Moral.
 
 ---
 
@@ -170,17 +154,15 @@ Afuera, contra la Puerta, uno golpea con la palma abierta, despacio, como pidien
 ### e920 · Brecha
 *La Noche 40 · ◷ 0*
 
-El frente cede. Primero un ruido de madera, después un ruido de metal, y después el ruido que no hacen: entran sin gritar, uno detrás del otro, empujados por los de atrás.
+El frente cede. Madera, metal, y después el ruido que no hacen: entran sin gritar, empujados por los de atrás. Elegí una:
 
-Tenés una ronda para decidir. Elegí una:
+1. **Pelear en la brecha.** Los defensores de ese frente combaten contra **Callados ×(lo que faltó × 2) · Cerca**, escena Pasillo. Pueden venir los de otros frentes (que quedan vacíos en la próxima oleada). Si ganan, el frente vuelve a Resistencia 1. Si no, opción 3 con 1 Herida cada uno.
+2. **Tapar el hueco.** 2 Madera o 2 Metal (o la heladera) y `[Oficio]` o `[Físico]`. Con 10+, Resistencia 3. Con 7–9, 1. Con 6−, opción 3, y quien lo intentó tira en Mordidas (r144).
+3. **Al Último Cuarto.** Los defensores del frente roto tiran una vez en Mordidas mientras corren. Desde ahora, todas las oleadas golpean el Último Cuarto (r223): Resistencia 6 si lo construiste ([e761](#e761)), 2 si no. Las trampas no sirven adentro.
 
-1. **Pelear en la brecha.** Los defensores de ese frente combaten contra **Callados ×(la diferencia que faltó, por 2) · Cerca**, escena Pasillo. Los de otros frentes pueden venir (dejan su frente sin defensores en la próxima oleada). Si ganan, tapan el hueco con los cuerpos y lo que haya: el frente vuelve a Resistencia 1. Si no, opción 3, con 1 Herida cada uno.
-2. **Tapar el hueco.** 2 Madera o 2 Metal (o un mueble grande, o la heladera), y `[Oficio]` o `[Físico]`. Con 10+, el frente vuelve a Resistencia 3. Con 7–9, a 1. Con 6−, no alcanza: opción 3, y quien lo intentó tira en la tabla de Mordidas (r144).
-3. **Al Último Cuarto.** Todos adentro (los que lleguen: los defensores del frente roto tiran una vez en la tabla de Mordidas mientras corren). Cerrás la puerta. Desde ahora, todas las oleadas que faltan golpean el Último Cuarto (r223). Su Resistencia es 6 si lo construiste ([e761](#e761)); si no, 2. Las trampas no sirven adentro. Los defensores son los que entraron.
-
-- **Si tenés `ESCALERA_CORTADA`** y es la primera brecha: no pasa nada de esto. Suben hasta el corte y se amontonan. La oleada se pierde ([e491](#e491)).
+- **Con `ESCALERA_CORTADA`**, en la primera brecha se amontonan en el corte y la oleada se pierde ([e491](#e491)).
 - **Si el Negro está vivo** → [e653](#e653).
-- **Si la brecha es en el Subsuelo** y el refugio es la Parroquia con `CRIPTA_TAPIADA`, la brecha no llega: solo se pierde la cripta. El frente queda en 0, pero no entran.
+- **Brecha en el Subsuelo** de la Parroquia con `CRIPTA_TAPIADA`: se pierde la cripta, el frente queda en 0, pero no entran.
 
 Si el Último Cuarto cae → [e925](#e925).
 
@@ -190,15 +172,11 @@ Si el Último Cuarto cae → [e925](#e925).
 ### e925 · La última puerta
 *La Noche 40 · Último Cuarto · ◷ 0*
 
-La puerta del Último Cuarto se dobla. Las bisagras saltan una por una. Por la rendija aparecen dedos, muchos dedos, y una cara pegada a la madera, mirando adentro con los ojos blancos.
+Las bisagras saltan una por una. Por la rendija, dedos, y una cara de ojos blancos pegada a la madera. No hay más cuartos. Elegí la última:
 
-No hay más cuartos.
-
-Elegí una, la última:
-
-1. **Pelear hasta el final.** Combate contra **Callados ×3d6 · Encima**, sin retroceder, sin esconderse. Si ganás (si de verdad ganás), la oleada se termina, y el Último Cuarto, sin puerta, sigue en pie con Resistencia 0: si quedan oleadas, la próxima te encuentra. Si no hay más, → [e930](#e930).
-2. **Por el techo.** Si el cuarto tiene una ventana alta, una claraboya, un ducto: `[Físico]`. Con 10+, salís vos y uno más, al techo, y ahí esperan el amanecer, mirando la calle. Los demás tiran 1d6 cada uno: con 5–6, se esconden y sobreviven. → [e930](#e930) con los que queden. Con 6−, no llegás: → [e990](#e990).
-3. **Abrazar a los tuyos.** Apagás la linterna. Te sentás en el piso con el que tengas más cerca. Esperás. → [e990](#e990).
+1. **Pelear hasta el final.** **Callados ×3d6 · Encima**, sin retroceder. Si ganás, el cuarto sigue en pie con Resistencia 0: si quedan oleadas, la próxima te encuentra; si no, → [e930](#e930).
+2. **Por el techo.** Con una ventana alta o un ducto: `[Físico]`. Con 10+, salís vos y uno más y esperan el amanecer arriba; los demás sobreviven con 5–6 en 1d6 → [e930](#e930). Con 6−, → [e990](#e990).
+3. **Abrazar a los tuyos.** Apagás la linterna y te sentás con el que tengas más cerca → [e990](#e990).
 
 ---
 
@@ -206,19 +184,15 @@ Elegí una, la última:
 ### e930 · El amanecer
 *Día 41 · ◷ 0*
 
-El cielo se pone gris del lado del río. Después, naranja. Las calles siguen llenas, pero ya no empujan. Se quedan quietos, como se quedan quietos de día, de cara a las paredes, de cara a la Puerta, de cara a nada.
-
-Sale el sol. Entra por las rendijas de las tablas, por los agujeros de la Puerta, por la ventana alta del Último Cuarto. Te da en la cara.
-
-Estás vivo.
+El cielo se pone gris del lado del río, después naranja. Las calles siguen llenas, pero ya no empujan. El sol entra por las rendijas de las tablas y te da en la cara. Estás vivo.
 
 **El día 41**, en este orden:
 
-1. **Contá a tu gente.** Todos los que estén vivos en el refugio (y los que salvaste antes: los de la barcaza, el voluntario que volvió). Vos incluido.
-2. **Abrí el Secreto**, si no lo abriste ([e570](#e570)), y leé su parte **«El día 41»** (e581–e586). Te dice quiénes son los **salvados** y, a veces, a qué final ir.
-3. **Si tenés `TIGRE_DOS`** y la llamaste en la Noche 40 ([e912](#e912)): a las siete, en la escollera, un barco pesquero con un nombre pintado a mano en la proa. Los que lleguen a la escollera (◷ 2 desde cualquier barrio; tirá encuentro una vez, con −2) y quepan (seis), se van río abajo. Esos son salvados, sea cual sea el Secreto.
-4. **Si tu Motivo es La orden** y tenés `LEISTE_LA_ORDEN` u `OCAMPO_DE_TU_LADO`, y llegás al Puesto Norte: [e826](#e826).
-5. **Contá a los salvados** y andá a **[e940](#e940)**.
+1. **Contá a tu gente**, vos incluido, más los que salvaste antes (la barcaza, el voluntario que volvió).
+2. **Abrí el Secreto**, si no lo abriste ([e570](#e570)), y leé **«El día 41»** (e581–e586): te dice quiénes son los **salvados** y, a veces, a qué final ir.
+3. **Con `TIGRE_DOS`** y la llamada de [e912](#e912): a las siete, un pesquero en la escollera. Los que lleguen (◷ 2, un encuentro con −2) y quepan (seis) son salvados, sea cual sea el Secreto.
+4. **Con La orden** y `LEISTE_LA_ORDEN` u `OCAMPO_DE_TU_LADO`, si llegás al Puesto Norte: [e826](#e826).
+5. **Contá a los salvados** → [e940](#e940).
 
 ---
 
@@ -226,7 +200,7 @@ Estás vivo.
 ### e940 · Los que quedaron
 *El final · ◷ 0*
 
-Contá a los **salvados**: las personas que el Secreto deja ir, quedarse o salir (vos incluido, si estás entre ellos).
+Contá a los **salvados**, vos incluido si estás entre ellos:
 
 | Salvados | Final |
 |---|---|
@@ -234,13 +208,13 @@ Contá a los **salvados**: las personas que el Secreto deja ir, quedarse o salir
 | 2 o 3 | **Unos pocos** ([e942](#e942)) |
 | 4 o más | **El grupo** ([e943](#e943)) |
 
-Algunos Secretos y Marcas te mandan a un final propio (e944–e949). Si te toca uno, leelo **además** del de esta tabla, salvo que diga «en lugar de».
+Algunos Secretos y Marcas te mandan a un final propio (e944–e949): leelo **además**, salvo que diga «en lugar de».
 
-**Los que llegaron en grupo** cuentan por todas sus personas, si están entre los salvados: `LOS_DEL_BALCON` 3, `LOS_DEL_VELERO` 2, `LOS_ESTUDIANTES` 2, `EL_BEBE` 2, `LA_NENA_DE_LUNA` uno más (la nena), `LOS_QUIROGA` 6, `LOS_CHICOS_DEL_HOGAR` 6, `LOS_VEINTE` 20, `LOS_PIBES` 2, `LOS_DEL_MUELLE` los que sean.
+**Los grupos** cuentan por todas sus personas: `LOS_DEL_BALCON` 3, `LOS_DEL_VELERO` 2, `LOS_ESTUDIANTES` 2, `EL_BEBE` 2, `LA_NENA_DE_LUNA` uno más, `LOS_QUIROGA` 6, `LOS_CHICOS_DEL_HOGAR` 6, `LOS_VEINTE` 20, `LOS_PIBES` 2, `LOS_DEL_MUELLE` los que sean.
 
-**Tu partida en números.** Si querés compararla con otras: 10 puntos por cada salvado (2 por cada persona de los grupos de arriba), 5 por cada instalación, 5 por cada Tesoro (`EL_CAMION`, `EL_GENERADOR_INDUSTRIAL`, `LA_ARMERIA`, `EL_BOTIQUIN`, `LA_RADIO_DEL_AFICIONADO`, `EL_BLINDADO`), 3 por cada pista, la Moral final y tu contador personal × 5. Anotala en la última página de tu hoja.
+**Tu partida en números**, para compararla con otras: 10 puntos por salvado (2 por persona de los grupos), 5 por instalación, 5 por Tesoro (`EL_CAMION`, `EL_GENERADOR_INDUSTRIAL`, `LA_ARMERIA`, `EL_BOTIQUIN`, `LA_RADIO_DEL_AFICIONADO`, `EL_BLINDADO`), 3 por pista, la Moral final y tu contador × 5.
 
-Después, leé tu epílogo (el de tu Motivo, r198: [e950](#e950)–[e953](#e953), [e956](#e956) o [e957](#e957)), el de los tuyos ([e954](#e954)) y lo que Tolme recuerda ([e955](#e955)).
+Después, tu epílogo (r198: [e950](#e950)–[e953](#e953), [e956](#e956) o [e957](#e957)), el de los tuyos ([e954](#e954)) y lo que Tolme recuerda ([e955](#e955)).
 
 ---
 
@@ -248,15 +222,9 @@ Después, leé tu epílogo (el de tu Motivo, r198: [e950](#e950)–[e953](#e953)
 ### e941 · Solo
 *El final*
 
-Salís a la calle. Nadie te sigue. Caminás entre los Callados quietos, despacio, por el medio de la avenida, y ninguno te mira. Ya no hay ruido que te delate: sos el único ruido que queda.
+Salís a la calle. Caminás entre los Callados quietos por el medio de la avenida, y ninguno te mira: sos el único ruido que queda. Te sentás en el cordón, en la esquina de tu refugio, y mirás el sol subir sobre Tolme. Cuarenta y un días. No hay nadie a quien contárselo.
 
-Te sentás en el cordón de la vereda, en la esquina de tu refugio, y mirás el sol subir sobre Tolme. Cuarenta y un días. Lo lograste.
-
-No hay nadie a quien contárselo.
-
-Quizás mañana. Quizás haya otro, en otro barrio, en otra azotea, mirando el mismo sol. Quizás alguien encienda una luz en la otra orilla y la apague tres veces.
-
-Hoy, por lo menos, respirás.
+Quizás mañana. Quizás alguien, en otra azotea, encienda una luz y la apague tres veces. Hoy, por lo menos, respirás.
 
 ---
 
@@ -264,13 +232,9 @@ Hoy, por lo menos, respirás.
 ### e942 · Unos pocos
 *El final*
 
-Salen de a uno, entornando los ojos, como si el sol doliera. Se miran las caras sucias, las manos rotas, la ropa con sangre que no es de ellos. Nadie dice nada durante un rato largo.
+Salen de a uno, entornando los ojos. Se miran las caras sucias y la ropa con sangre que no es de ellos. Alguien se ríe, una risa corta que se rompe, y se abrazan en el medio de la calle.
 
-Después, alguien se ríe. Una risa corta, que se rompe. Y después se abrazan, los que quedan, en el medio de la calle, entre los Callados quietos que ya no les importan.
-
-Faltan los otros. Van a faltar siempre. Cada uno lleva una lista: los nombres de los que no llegaron. La van a llevar el resto de su vida.
-
-Pero son unos pocos. Y unos pocos alcanzan para empezar.
+Faltan los otros. Van a faltar siempre. Pero son unos pocos, y unos pocos alcanzan para empezar.
 
 ---
 
@@ -278,13 +242,9 @@ Pero son unos pocos. Y unos pocos alcanzan para empezar.
 ### e943 · El grupo
 *El final*
 
-La Puerta no se puede abrir: está trabada con cuerpos. Salen por el Techo, de a uno, ayudándose, pasándose a los chicos de mano en mano. Arriba, en la azotea, son muchos. Más de los que pensabas. Se cuentan, y vuelven a contarse, y cada vez el número es el mismo, y cada vez alguien llora.
+La Puerta está trabada con cuerpos. Salen por el Techo, pasándose a los chicos de mano en mano. Arriba son muchos, más de los que pensabas: se cuentan y se vuelven a contar, y cada vez alguien llora.
 
-Desde la azotea se ven otras azoteas. En algunas, otra gente. Saludan. Alguien grita algo que no se entiende. Alguien contesta.
-
-Durante cuarenta días, Tolme fue una ciudad de gente encerrada. Hoy, a la mañana, es una ciudad de gente que se saluda de techo a techo.
-
-Alguien propone hacer un asado. Nadie dice que no.
+Desde la azotea se ven otras azoteas, con otra gente. Saludan. Durante cuarenta días, Tolme fue una ciudad de gente encerrada. Hoy es una ciudad que se saluda de techo a techo. Alguien propone hacer un asado. Nadie dice que no.
 
 ---
 
@@ -292,15 +252,9 @@ Alguien propone hacer un asado. Nadie dice que no.
 ### e944 · La cura
 *El final · con `LA_CURA`*
 
-Seis ampollas de L-40 y un litro de sangre de alguien que no se enferma. Una cocina convertida en laboratorio. Una enfermera, o una viróloga, o un estudiante de química, despiertos durante tres días.
+Seis ampollas de L-40, un litro de sangre de alguien que no se enferma y tres días sin dormir en una cocina. Funcionó: no devuelve a nadie, pero en los recién mordidos apaga la Fiebre. Ahora los vivos de Tolme tienen algo que nadie más en el mundo tiene.
 
-Funcionó.
-
-No en todos: en los recién mordidos, en los que tienen la Fiebre todavía baja. No devuelve a nadie. Pero detiene la Fiebre, y la baja, y la apaga.
-
-En Tolme hay doscientos mil Callados y quizás cinco mil vivos. Ahora los vivos tienen algo que nadie más en el mundo tiene.
-
-Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscar lo que hiciste. Esta vez, sos vos quien pone las condiciones.
+Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscarlo, y esta vez vos ponés las condiciones.
 
 ---
 
@@ -308,13 +262,9 @@ Leé esto **además** de tu final. En tu epílogo, el mundo viene a buscar lo qu
 ### e945 · La Marea ciega
 *El final · Secreto 5*
 
-**Con `PASTOR_MUERTO`:** a media mañana, los Callados empiezan a moverse. No hacia vos: hacia ningún lado. Se dispersan por la ciudad como hojas, sin rumbo, chocando entre ellos, perdidos. Sin el que los guiaba, son lo que eran al principio: muertos que siguen el ruido. Y el ruido, en Tolme, ya se aprendió a no hacerlo.
+**Con `PASTOR_MUERTO`:** a media mañana los Callados se dispersan como hojas, sin rumbo. Sin el que los guiaba, son muertos que siguen el ruido, y en Tolme ya se aprendió a no hacerlo. La Marea no va a volver a juntarse.
 
-La Marea no va a volver a juntarse. No hay quién la junte.
-
-**Él te recuerda** (si el Pastor sigue vivo): lo ves desde la ventana, en la esquina, de traje, con la corbata floja. Te mira. Inclina la cabeza para un costado, como pensando. Después se da vuelta y se va, despacio, hacia el norte, y detrás de él, desde todas las calles, empiezan a salir.
-
-Sabe dónde estás. Va a volver. No esta noche. No la próxima. Pero va a volver.
+**Si el Pastor sigue vivo:** lo ves en la esquina, de traje, con la corbata floja. Inclina la cabeza, como pensando, y se va hacia el norte, y detrás de él empiezan a salir de todas las calles. Sabe dónde estás. Va a volver.
 
 Leé esto **además** de tu final.
 
@@ -324,13 +274,9 @@ Leé esto **además** de tu final.
 ### e946 · Los que se quedaron
 *El final · en lugar de tu final*
 
-No te fuiste. Pudiste, o casi, y no te fuiste: te quedaste con los que no podían irse, con los que tenían fiebre, con el que no iba a pasar el control, con la que no quería firmar.
+Pudiste irte, o casi, y te quedaste con los que no podían: los de fiebre, el que no iba a pasar el control, la que no quería firmar. Tolme sigue cerrada. Pero adentro hay gente que va a arreglar las cañerías, plantar la huerta y abrir la escuela, porque alguien tiene que quedarse.
 
-Tolme sigue cerrada. El muro sigue ahí. Del otro lado, alguien sigue mirando.
-
-Pero adentro hay gente. Gente que no se va a ir. Que va a arreglar las cañerías, plantar la huerta, abrir la escuela, enterrar a los muertos en el cementerio con un sereno que se acuerda de los nombres. Gente que eligió quedarse, porque alguien tiene que quedarse.
-
-Contá a los que se quedaron con vos: son los salvados de este final. Si son 4 o más, leé también **El grupo** ([e943](#e943)); si son menos, **Unos pocos** ([e942](#e942)).
+Los que se quedaron con vos son los salvados de este final: con 4 o más, leé **El grupo** ([e943](#e943)); con menos, **Unos pocos** ([e942](#e942)).
 
 ---
 
@@ -338,17 +284,9 @@ Contá a los que se quedaron con vos: son los salvados de este final. Si son 4 o
 ### e947 · Ceniza
 *El final · Secreto 2*
 
-El fuego pasó a las doce del mediodía y duró hasta la noche. Desde abajo, desde la cripta, desde el tanque, desde el sótano inundado, lo escuchaste rugir sobre tu cabeza como un tren que no terminaba de pasar.
+El fuego pasó al mediodía y duró hasta la noche, rugiendo sobre tu cabeza como un tren. Cuando salís, Tolme es gris: calles, árboles, Callados. No queda nadie de pie. Salvo ustedes.
 
-Cuando salís, Tolme es gris. Las calles, los techos, los árboles, los Callados. Todo es ceniza. El viento la levanta en remolinos. No queda nadie de pie: ni vivos ni muertos.
-
-Salvo ustedes.
-
-Caminan hacia el norte, por la ruta, por el medio del muro abierto, entre los contenedores ennegrecidos. Nadie los frena. Nadie los está esperando. Nadie sabe que existen.
-
-Eso, de ahora en más, es una ventaja.
-
-Leé esto **además** de tu final.
+Caminan hacia el norte, por el muro abierto, entre contenedores ennegrecidos. Nadie sabe que existen. Eso, de ahora en más, es una ventaja. Leé esto **además** de tu final.
 
 ---
 
@@ -356,15 +294,9 @@ Leé esto **además** de tu final.
 ### e948 · El mundo sabe
 *El final · Secreto 3*
 
-La mujer de la cámara llora mientras filma. El periodista no sabe qué preguntar. Los de traje amarillo se suben a las camionetas sin decir nada, y alguien les grita «¡asesinos!» desde una ventana, y después otro, y después toda la cuadra.
+La mujer de la cámara llora mientras filma. Los de traje amarillo se suben a las camionetas y alguien les grita «¡asesinos!» desde una ventana, y después toda la cuadra. En una semana, el Comando no existe más. En un mes, hay un juicio, y vos llevás los papeles, las fotos y la lista.
 
-En tres días, la cara de la doctora Ríos está en todos los noticieros del mundo. En una semana, el Comando de Emergencia no existe más. En un mes, hay un juicio.
-
-A vos te llaman a declarar. Llevás los papeles, el expediente, las fotos, la lista. Hablás cuatro horas. Cuando terminás, en la sala no se oye nada.
-
-Tolme, por primera vez, hace ruido. Y el ruido llega lejos.
-
-Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
+Tolme, por primera vez, hace ruido, y el ruido llega lejos. Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
 
 ---
 
@@ -372,74 +304,83 @@ Leé esto **en lugar de** la parte final del Secreto, y además de tu final.
 ### e949 · Empezar de nuevo
 *El final · Secreto 4*
 
-No viene nadie. No va a venir nunca. Afuera no hay afuera.
+No viene nadie. Afuera no hay afuera. Entonces, Tolme es el afuera. Contá lo que tenés:
 
-Entonces, Tolme es el afuera.
-
-Contá lo que tenés:
-
-- **Cada instalación** es una pieza de la ciudad nueva: la Huerta da de comer, la Cisterna da de beber, la Enfermería cura, el Taller arregla, la Radio llama a otros.
-- **Cada facción** con la que estás en paz (Reputación 0 o más) es un barrio que trabaja con el tuyo. Con las cuatro, Tolme tiene un gobierno, una iglesia, unos bomberos y una policía, para bien y para mal.
+- **Cada instalación** es una pieza de la ciudad nueva.
+- **Cada facción en paz** (Reputación 0 o más) es un barrio que trabaja con el tuyo.
 - **Con `LAS_SEMILLAS_DE_ROSA`**, en primavera hay tomates.
-- **Con `TU_VOZ_EN_LA_RADIO`**, la AM 870 ya no repite a la Señora: repite tu voz, que dice dónde juntarse.
+- **Con `TU_VOZ_EN_LA_RADIO`**, la AM 870 repite tu voz, que dice dónde juntarse.
 
-Si tenés 6 instalaciones o más y paz con tres facciones: Tolme se salva. No como era: como va a ser.
-
-Si no: se salvan ustedes. Que no es poco.
-
-Leé esto **además** de tu final.
+Con 6 instalaciones o más y paz con tres facciones, Tolme se salva: no como era, como va a ser. Si no, se salvan ustedes, que no es poco. Leé esto **además** de tu final.
 
 ---
 
 ## Los epílogos
 
+*Leé tu epílogo aunque no hayas llegado al amanecer: entonces es lo que cuentan de vos los que llegaron.*
+
 <a id="e950"></a>
 ### e950 · El epílogo de La lista
 *Epílogo · Juramento*
 
-*Leé tu epílogo en segunda persona aunque no hayas llegado al amanecer: entonces es lo que cuentan de vos los que llegaron.*
-
-- **Juramento 0–1.** No volvés a pisar un hospital. Te mudás a un pueblo chico, cerca del río, y cuidás un jardín. No hablás de Tolme. La lista la quemaste, o la perdiste, o la tenés en un cajón que no abrís. Cuando alguien en el pueblo se enferma, no abrís la puerta.
-- **Juramento 2–3.** Seguís cuidando, de una forma o de otra. Si eras de la salud, volvés al turno noche, en otra ciudad; si no, te anotás de voluntario en el primer hospital que te acepta. En el bolsillo, siempre, una lista de nombres. La cambiás cada semana. Nunca la tirás.
-- **Juramento 4–5.** Te quedás en Tolme y abrís una enfermería en la planta baja del Central. Va gente de todos los barrios. Enseñás a curar a los que quieren aprender, aunque a vos te haya enseñado la ciudad. Al año, son doce. Les decís a todos lo mismo: «Acá no se muere nadie en nuestro turno».
-- **Juramento 6.** Encontrás a todos los de la lista. A los vivos y a los muertos. A los que tienen tumba, les llevás flores. A los vivos, los visitás una vez por año, el día 0. Les decís que es por el control. Saben que no.
-- **Con `LA_LISTA_SIGUE`**, si no llegaste al amanecer: alguien del grupo sigue la lista por vos. La encuentra en tu bolsillo, completa, con una tilde al lado de cada nombre y uno más al final, escrito con otra letra: el tuyo.
-
----
+- **0–1.** No volvés a pisar un hospital. La lista está en un cajón que no abrís.
+- **2–3.** Seguís cuidando, en otra ciudad, en el turno noche. En el bolsillo, siempre, una lista de nombres.
+- **4–5.** Abrís una enfermería en la planta baja del Central y enseñás a curar: «Acá no se muere nadie en nuestro turno».
+- **6.** Encontrás a todos los de la lista, vivos y muertos. A los vivos los visitás cada día 0. Les decís que es por el control. Saben que no.
+- **Con `LA_LISTA_SIGUE`**, si no llegaste: alguien la encuentra en tu bolsillo, con una tilde en cada nombre y uno más al final, con otra letra: el tuyo.
 
 <a id="e951"></a>
 ### e951 · El epílogo de La obra
 *Epílogo · Cimientos*
 
-- **Cimientos 0–1.** No volvés a construir. Nada. Ni una pared, ni una repisa. Te preguntan por qué, y no sabés explicarlo: cada vez que apoyás la mano en una pared, sentís el metal tibio del muro vibrando contra la palma.
-- **Cimientos 2–3.** Te vas del otro lado. Te pagan una indemnización, o un premio, o un silencio. Lo aceptás. Lo donás entero, sin decírselo a nadie, a un fondo para los sobrevivientes de Tolme. Firmás con otro nombre.
-- **Cimientos 4–5.** Te quedás en Tolme y reconstruís. Primero la escuela, después el hospital, después las casas de Los Bloques. Tu cuadrilla son los que sobrevivieron. Hacen paredes que no son para encerrar a nadie.
-- **Cimientos 6.** Desarmás el muro. Contenedor por contenedor, soldadura por soldadura. Tardan dos años. Cuando sale el último, el del tramo siete, te sentás en el piso y llorás como no lloraste nunca. Después lo pintan de colores y lo ponen en la plaza. Abajo, una placa: «Para que no se olvide».
-- **Con `TRAMO_NUEVE_SOLDADO`:** el día 41, los de afuera intentan abrir el tramo nueve y no pueden. Tienen que entrar por la puerta, a la vista de todos.
-
----
+- **0–1.** No volvés a construir nada. Cada pared que tocás vibra como el muro.
+- **2–3.** Afuera te pagan un silencio. Lo donás entero, con otro nombre, a los sobrevivientes de Tolme.
+- **4–5.** Reconstruís la escuela, el hospital, Los Bloques: paredes que no son para encerrar a nadie.
+- **6.** Desarmás el muro, contenedor por contenedor. El del tramo siete lo pintan de colores y lo ponen en la plaza: «Para que no se olvide».
+- **Con `TRAMO_NUEVE_SOLDADO`:** los de afuera no pueden abrir el tramo nueve y tienen que entrar por la puerta, a la vista de todos.
 
 <a id="e952"></a>
 ### e952 · El epílogo de La orden
 *Epílogo · Deber*
 
-- **Deber 0–1.** Te vas lejos, a un lugar donde no te conozcan. Todavía tenés el sobre, cerrado o abierto. Algunas noches lo sacás del cajón y lo mirás.
-- **Deber 2–3.** Declarás en el juicio, o en la investigación, o en la oficina de alguien que tenía que saber. Contás lo del día 2, lo de la nena, lo del sobre. No te condenan. No te felicitan. Te dan las gracias por escrito, en un papel con el mismo sello rojo.
-- **Deber 4–5.** Te quedás en Tolme. No hay policía, ni jueces, ni nadie que dé órdenes, así que la gente te viene a buscar a vos. Con un brazalete, sin uniforme, sin armas: un silbato y la autoridad de alguien que estuvo ahí. Cuando hay un problema en un barrio, te llaman.
-- **Deber 6.** El día 41, en el Puesto Norte, levantás la barrera. Lo cuentan todos los que pasaron: alguien con el sobre en la mano, parado al lado de la garita, mirando a los soldados a los ojos, diciendo «pasen, pasen, no corran, pasen». La foto de ese momento la sacó alguien con un celular. Está en todos lados.
-- **Con `SIN_ORDEN`:** el sobre, roto en ocho pedazos, lo guarda alguien del grupo en un frasco. Años después, lo donan a un museo.
-
----
+- **0–1.** Te vas lejos. Algunas noches sacás el sobre del cajón y lo mirás.
+- **2–3.** Declarás lo del día 2, lo de la nena, lo del sobre. Te dan las gracias en un papel con el mismo sello rojo.
+- **4–5.** Con un brazalete y un silbato, sos la autoridad de alguien que estuvo ahí. Cuando hay un problema, te llaman.
+- **6.** El día 41 levantás la barrera del Puesto Norte: «pasen, no corran, pasen». La foto está en todos lados.
+- **Con `SIN_ORDEN`:** el sobre roto en ocho pedazos termina, años después, en un museo.
 
 <a id="e953"></a>
 ### e953 · El epílogo de El pedido
 *Epílogo · Ruta*
 
-- **Ruta 0–1.** Te vas de Tolme sin mirar atrás. La caja, si la tenés, la tirás al río desde el puente, sin abrirla. O abierta. Da igual.
-- **Ruta 2–3.** Del otro lado, cada vez que alguien no atiende el timbre, esperás un minuto más de lo que tenés que esperar. No sabés por qué. Sí sabés.
-- **Ruta 4–5.** Armás en Tolme la primera red de mensajería entre barrios: pibes en bicicleta que llevan cartas, remedios, semillas, noticias, de techo a techo y de puerta a puerta. Les enseñás los atajos. Les decís que siempre tachen el pedido, aunque nadie lo vaya a revisar.
-- **Ruta 6.** Completás la tanda. Cada pedido, entregado. Una mañana, en tu cuarto, el celular sin señal se prende solo y dice: «¡Gracias por tu entrega! Calificación: ★★★★★». Nadie te cree. Vos tampoco. Pero lo viste.
-- **Si la caja sigue en tu mochila:** la tenés en un estante. Nunca la abrís (o nunca la volvés a abrir). A veces, cuando viene alguien, la señalás y decís: «Ese es mi último pedido».
+- **0–1.** Tirás la caja al río desde el puente. Da igual si la abriste.
+- **2–3.** Cada vez que nadie atiende un timbre, esperás un minuto de más. Sabés por qué.
+- **4–5.** Armás la primera red de mensajería entre barrios: pibes en bicicleta que llevan remedios y noticias de techo a techo.
+- **6.** Completás la tanda. Una mañana, el celular sin señal se prende solo: «¡Gracias por tu entrega! ★★★★★». Nadie te cree.
+- **Si la caja sigue en tu mochila:** la tenés en un estante. «Ese es mi último pedido.»
+
+<a id="e956"></a>
+### e956 · El epílogo de El que falta
+*Epílogo · Esperanza*
+
+- **0–1.** Dejás de buscar porque ya no podés. Cada tanto ves una campera parecida y te das vuelta. Nunca es.
+- **2–3.** Buscás de a ratos en las listas y las paredes. Un día dejás de ir. Un día volvés.
+- **4–5.** Abrís en la Municipalidad una oficina de «Personas buscadas». Encontrás a muchos. A algunos, vivos.
+- **6.** Lo encontraste, o supiste qué le pasó. Pintás su nombre en la pared del refugio y, abajo, los de todos los que encontraste buscándolo.
+- **Si está entre los salvados:** del otro lado del muro, no te suelta la mano hasta el primer pueblo.
+- **Con `TE_ESPERA_AFUERA`:** en el Puesto Norte hay alguien con un cartel de cartón con tu nombre.
+- **Con `LO_DESPEDISTE`:** lo enterrás en el Parque. Cada día 0 vas y le contás cómo está todo.
+
+<a id="e957"></a>
+### e957 · El epílogo de Lo que hiciste
+*Epílogo · Culpa (cuanto más baja, mejor)*
+
+- **6.** No se lo contás a nadie. Algunas noches te despertás con la mano en la traba.
+- **4–5.** Se lo contás, años después, a un desconocido en un bar. Esa noche dormís un poco mejor.
+- **2–3.** Hacés todos los días una cosa chica por alguien que no conocés. No alcanza. Lo hacés igual.
+- **0–1.** Volvés, contás lo que hiciste con nombre y apellido y pagás, de a poco, durante años.
+- **Con `TE_PERDONASTE`:** la última noche contás lo que hiciste antes de la cuarentena. No te tiembla la voz.
+- **Con `LO_NEGASTE`:** quien lo sabía lo cuenta en una entrevista, años después. No dice tu nombre. No hace falta.
 
 ---
 
@@ -447,134 +388,104 @@ Leé esto **además** de tu final.
 ### e954 · Lo que fue de los tuyos
 *Epílogo · El grupo*
 
-Por cada sobreviviente con nombre que esté entre los salvados, una línea:
+Por cada sobreviviente con nombre entre los salvados, una línea:
 
-- **Don Ernesto** maneja, una vez más, una locomotora. La primera que sale de Tolme con pasajeros. Hace sonar la bocina en cada paso a nivel.
-- **Lucía** abre la Escuela N.º 9 el primer lunes. Vienen once chicos. Con `LOS_TRES_ALUMNOS`, tres de ellos se sientan adelante, como siempre. Pasa lista. Cuando alguien no contesta, deja un silencio.
-- **El Chino Morales** pone una parrilla en la esquina del refugio. Nunca cobra a los que estuvieron en la Noche 40.
-- **Ana y Bruno** crecen. Bruno se hace bombero. Ana dibuja la Noche 40 en el colegio, y la maestra la manda a la psicóloga, y la psicóloga guarda el dibujo. Con `BRUNO_LO_HIZO`, Bruno no se hace bombero: no se hace nada durante mucho tiempo, y después, de golpe, enfermero. Con `BRUNO_LO_VIO`, no habla de esa noche con nadie, salvo con Ana.
-- **Pocho** cambia todas las cerraduras de su vida por una sola llave, la de la casa donde viven Daiana y Thiago. Con `EL_HIJO_DE_POCHO`, Thiago aprende a caminar agarrado de su dedo.
-- **Rita** vuelve a curar perros. Le sube la fiebre, de vez en cuando, hasta tres. Nunca más.
-- **Gustavo** lleva las cuentas de la ciudad nueva, o de su casa, con su hija, si la encontró. La planilla tiene una columna nueva: «Días desde la Noche 40».
-- **La Tana** va a Las Lomas, si no fue antes. Lo que pasa allá, no lo cuenta. Con `ROLO_MUERTO`, ya no tiene nada que hacer allá: se queda, y es la primera en anotarse para cada guardia, aunque ya no haya guardias.
-- **Mateo** termina la tesis. La firma un tribunal de tres profesores que no saben qué decir.
-- **Doña Rosa** planta las semillas en primavera. El tomate de Aurelio da tomates.
-- **Iván** duerme. Ocho horas. Todas las noches.
-- **Celeste** canta en un bar, en la esquina del Puerto, los viernes. Siempre termina con «Volver».
-- **El Ruso**, si volvió, maneja un taxi nuevo, y cuenta la historia de la última carrera a cada pasajero, cada vez más larga.
-- **Hernán** sigue predicando. Ya no habla del Juicio. Habla de los que abrieron la puerta para que entraran otros.
+- **Don Ernesto** maneja la primera locomotora que sale de Tolme con pasajeros.
+- **Lucía** abre la Escuela N.º 9 el primer lunes; con `LOS_TRES_ALUMNOS`, tres se sientan adelante, como siempre.
+- **El Chino Morales** pone una parrilla en la esquina y nunca cobra a los de la Noche 40.
+- **Ana y Bruno** crecen; Bruno se hace bombero. Con `BRUNO_LO_HIZO`, tarda años y se hace enfermero. Con `BRUNO_LO_VIO`, solo habla de esa noche con Ana.
+- **Pocho** tiene una sola llave, la de la casa de Daiana; con `EL_HIJO_DE_POCHO`, Thiago aprende a caminar agarrado de su dedo.
+- **Rita** vuelve a curar perros.
+- **Gustavo** lleva las cuentas de la ciudad nueva, con una columna más: «Días desde la Noche 40».
+- **La Tana** va a Las Lomas y no cuenta qué pasó; con `ROLO_MUERTO`, se queda y se anota en cada guardia.
+- **Mateo** termina la tesis ante un tribunal que no sabe qué decir.
+- **Doña Rosa** planta las semillas. El tomate de Aurelio da tomates.
+- **Iván** duerme ocho horas. Todas las noches.
+- **Celeste** canta los viernes en un bar del Puerto y siempre termina con «Volver».
+- **El Ruso**, si volvió, maneja un taxi nuevo y cuenta la última carrera, cada vez más larga.
+- **Hernán** predica sobre los que abrieron la puerta.
 - **Valeria** vuelve a ponerse el casco. Gauna se lo da en la mano.
-- **Facu** sale a la calle todos los días. Algunos días, solo para mirar el cielo.
-- **La doctora Ríos** declara. Lo que le pase después lo decide alguien que no estuvo en Tolme.
-- **El Negro** duerme al pie de tu cama. Cuando alguien golpea la puerta, levanta una oreja. Nada más.
+- **Facu** sale a la calle todos los días, a veces solo para mirar el cielo.
+- **La doctora Ríos** declara. Lo que le pase lo decide alguien que no estuvo en Tolme.
+- **El Negro** duerme al pie de tu cama y levanta una oreja cuando golpean.
 
 Y los que no tienen ficha, pero estuvieron:
 
-- **Matías** (`MATIAS_EL_FARMACEUTICO`) reabre la Farmacia Central. Le tiembla el pulso cada vez que suena la campanita de la puerta.
-- **El camillero** (`EL_CAMILLERO`) vuelve al Hospital Central el primer día. Le dicen que no hay turno para él. Se queda igual.
-- **El doctor Pereyra** (`EL_DOCTOR_PEREYRA`) publica sus notas sobre el Callado del sótano. Lo invitan a congresos. Nunca dice qué hizo con él.
-- **El jardinero** (`EL_JARDINERO`) planta pasto en la plaza del Casco. No deja que nadie lo pise. Nadie lo pisa.
-- **El organillero** (`EL_ORGANILLERO`) toca en la esquina del refugio todos los domingos. Las canciones son las mismas de la cuarentena. Nadie le pide otras.
-- **El que estaba preso** (`EL_PRESO`) se presenta en la comisaría el día 42. No hay nadie que lo reciba. Se va a su casa.
-- **El desertor** (`DESERTOR_DEL_CORDON`) se saca el uniforme y lo entierra en el Parque. Cuando le preguntan qué hacía antes, dice: «Nada».
-- **Los del balcón** (`LOS_DEL_BALCON`): el abuelo les enseña a los nietos a jugar al truco. Hacen trampa los tres.
-- **Los del velero** (`LOS_DEL_VELERO`) se van río arriba, a ver si su pueblo sigue ahí. Te mandan una postal. Sigue.
-- **Los estudiantes** (`LOS_ESTUDIANTES`) vuelven a la Ciudad Universitaria y escriben, entre todos, la historia de la cuarentena. Hay un capítulo con tu nombre.
-- **La mujer de la habitación 9** (`EL_BEBE`) le pone a su hijo el nombre de la persona que abrió la puerta.
-- **Luna y su nena** (`LA_NENA_DE_LUNA`): la nena llora fuerte, demasiado fuerte. Ya no importa.
-- **Los Quiroga** (`LOS_QUIROGA`) vuelven a su casa y la encuentran como la dejaron. Los chicos lloran por el refugio.
-- **Los chicos del hogar** (`LOS_CHICOS_DEL_HOGAR`) tienen, por primera vez, una foto de todos juntos. Vos estás en el medio.
-- **Los veinte** (`LOS_VEINTE`): cada año, el día 41, se juntan en el refugio. Cada año son menos. Cada año ponen la misma cantidad de sillas.
+- **Matías** (`MATIAS_EL_FARMACEUTICO`) reabre la Farmacia Central; le tiembla el pulso con la campanita.
+- **El camillero** (`EL_CAMILLERO`) vuelve al Central sin turno, y se queda igual.
+- **El doctor Pereyra** (`EL_DOCTOR_PEREYRA`) publica sus notas y nunca dice qué hizo con el del sótano.
+- **El jardinero** (`EL_JARDINERO`) planta pasto en la plaza del Casco. Nadie lo pisa.
+- **El organillero** (`EL_ORGANILLERO`) toca los domingos en tu esquina las canciones de la cuarentena.
+- **El que estaba preso** (`EL_PRESO`) se presenta el día 42 en una comisaría vacía y se va a su casa.
+- **El desertor** (`DESERTOR_DEL_CORDON`) entierra el uniforme en el Parque.
+- **Los del balcón** (`LOS_DEL_BALCON`) juegan al truco; hacen trampa los tres.
+- **Los del velero** (`LOS_DEL_VELERO`) te mandan una postal: su pueblo sigue ahí.
+- **Los estudiantes** (`LOS_ESTUDIANTES`) escriben la historia de la cuarentena, con un capítulo para vos.
+- **La mujer de la habitación 9** (`EL_BEBE`) le pone a su hijo el nombre de quien abrió la puerta.
+- **Luna** (`LA_NENA_DE_LUNA`): la nena llora fuerte. Ya no importa.
+- **Los Quiroga** (`LOS_QUIROGA`) encuentran su casa como la dejaron; los chicos extrañan el refugio.
+- **Los chicos del hogar** (`LOS_CHICOS_DEL_HOGAR`) tienen su primera foto juntos, con vos en el medio.
+- **Los veinte** (`LOS_VEINTE`) se juntan cada día 41. Cada año son menos y ponen las mismas sillas.
 
 <a id="e955"></a>
 ### e955 · Lo que Tolme recuerda
 *Epílogo · La ciudad*
 
-Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las colas, en los velorios, en los bares que vuelven a abrir. Por cada Marca de tu hoja que esté en esta lista, leé su línea. Si no tenés ninguna, Tolme no se acuerda de vos. A lo mejor está bien así.
+Por cada Marca de tu hoja que esté en esta lista, leé su línea. Si no tenés ninguna, Tolme no se acuerda de vos. A lo mejor está bien así.
 
 **El fuego y el ruido**
 
-- `ARDIO_LA_FABRICA` · Durante años, en La Fabril, los chicos juegan a «la noche que ardió». Siempre hay uno que hace de vos, y siempre se pelean por quién.
-- `VOLO_EL_GAS` · El pozo del depósito de gas se llena de agua de lluvia. Alguien le tira peces. Alguien le pone tu nombre, mal escrito, en un cartel de madera.
-- `LA_BODA` · La foto de la boda, sacada con un celular que tenía 4 % de batería, es la primera que se imprime en Tolme después de la cuarentena. Está colgada en la Municipalidad.
-- `DON_CACHO` · Un año después, el camión de Don Cacho vuelve a pasar por Tolme, tocando la bocina. Nadie sabe cómo salió. Él no lo cuenta. Te trae algo.
-- `LA_7012` · La locomotora 7012 se queda en el Puerto, oxidada, con flores en la cabina. Nadie la mueve. Nadie se anima.
-- `SENALES_AL_HELICOPTERO` · En un archivo del Comando hay una foto borrosa de una sábana blanca en una azotea. Alguien, años después, la encuentra, y empieza a hacer preguntas.
-- `LLAMASTE_POR_RADIO` · En los pueblos río abajo hay gente que se acuerda de una voz que decía una dirección de Tolme. Algunos fueron. Algunos llegaron.
-- `LAS_LUCES_DE_TOLME` · Encuentran tu mapa de las luces de la ciudad pegado en una pared. Cada luz tiene una cruz o un círculo. Nadie sabe qué querían decir los círculos.
-- `LA_SENORA_SE_EQUIVOCA` · Fuiste de los primeros en darte cuenta de que la Señora contaba mal. Lo vas a decir en todas las entrevistas, y en ninguna te van a creer.
-- `LA_SENORA_CALLADA` · Tolme se acuerda del día en que la radio se calló. Lo cuentan como el día en que la ciudad empezó a hablar sola.
+- `ARDIO_LA_FABRICA` · En La Fabril los chicos juegan a «la noche que ardió», y se pelean por hacer de vos.
+- `VOLO_EL_GAS` · El pozo del gas se llena de lluvia y de peces, con tu nombre mal escrito en un cartel.
+- `LA_BODA` · La foto de la boda es la primera que se imprime en Tolme después de la cuarentena.
+- `DON_CACHO` · Un año después, el camión de Don Cacho vuelve tocando bocina, y te trae algo.
+- `LA_7012` · La 7012 se queda en el Puerto con flores en la cabina. Nadie se anima a moverla.
+- `SENALES_AL_HELICOPTERO` · En un archivo del Comando, una foto de una sábana en una azotea empieza a hacer preguntas.
+- `LLAMASTE_POR_RADIO` · Río abajo, alguien se acuerda de una voz que daba una dirección. Algunos llegaron.
+- `LAS_LUCES_DE_TOLME` · Tu mapa de luces sigue en una pared. Nadie entiende los círculos.
+- `LA_SENORA_SE_EQUIVOCA` · Lo vas a decir en todas las entrevistas: la Señora contaba mal. Nadie te cree.
+- `LA_SENORA_CALLADA` · El día en que la radio se calló es el día en que la ciudad empezó a hablar sola.
 
 **La gente**
 
-- `DUDA_DEL_PRIMERO` · Nunca supiste qué te hizo dudar aquella primera noche. Algunas noches, todavía, te despertás pensando en eso.
-- `LOS_VIEJOS_DE_LA_VELA` · La vela sigue prendida en la ventana de esa casa. Alguien la cambia. Nadie sabe quién.
-- `TRUEQUE_GENEROSO` · Una familia que nunca supo tu nombre cuenta, en otra ciudad, que en Tolme alguien les dio de comer sin pedir nada. Los nietos creen que es un cuento.
-- `PERDONASTE_UN_ROBO` · El que robó aquella vez se queda en el refugio después del día 41. Es el último en irse de cada guardia. No hace falta que diga por qué.
-- `MANO_DURA` · Funcionó. Todos se acuerdan de que funcionó. Nadie se acuerda de vos con cariño.
-- `ASAMBLEA` · El refugio sigue votando todo, hasta el menú. Las actas están escritas a mano, en un cuaderno Rivadavia, y la primera dice tu nombre.
-- `EL_DIA_QUE_SE_FUERON` · Los que se fueron del refugio aquella vez no vuelven. Uno te escribe, meses después. La carta dice «perdón» cuatro veces y no dice de qué.
-- `RACIONES_A_LA_VISTA` · En el refugio la comida se sigue sirviendo a la vista de todos, aunque ya sobre. Es una costumbre. Nadie se acuerda de por qué empezó.
-- `LOS_PESCADORES` · Los pescadores del Puerto vuelven al agua el primer mes. Te guardan el primer pescado de cada temporada.
-- `LOS_DEL_BLOQUE_B` · Las doce familias del bloque B siguen viviendo arriba, con la escalera cortada, por las dudas. Bajan los domingos. Te saludan por tu nombre.
-- `ESCONDITE_DE_SAQUEADORES` · Sabías dónde vivían y no se lo dijiste a nadie. Nunca vas a saber si eso salvó a alguien o no.
-- `LIBERASTE_A_LAS_COCINERAS` · Las mujeres que sacaste del barrio cerrado abren un comedor en Los Bloques. Tu plato no se cobra. Nunca.
-- `ESCONDISTE_AL_INMUNE` · Los papeles del Comando dicen que el sujeto «no fue recuperado». En la casilla de observaciones alguien escribió, a mano, una sola palabra: «escondido».
+- `DUDA_DEL_PRIMERO` · Todavía te despertás pensando en lo que te hizo dudar aquella primera noche.
+- `LOS_VIEJOS_DE_LA_VELA` · La vela sigue prendida en esa ventana. Alguien la cambia.
+- `TRUEQUE_GENEROSO` · En otra ciudad, una familia cuenta que en Tolme alguien les dio de comer sin pedir nada.
+- `PERDONASTE_UN_ROBO` · El que robó es el último en irse de cada guardia.
+- `MANO_DURA` · Funcionó. Nadie se acuerda de vos con cariño.
+- `ASAMBLEA` · El refugio sigue votando todo; la primera acta dice tu nombre.
+- `EL_DIA_QUE_SE_FUERON` · Uno de los que se fueron te escribe «perdón» cuatro veces.
+- `RACIONES_A_LA_VISTA` · La comida se sigue sirviendo a la vista de todos, aunque sobre.
+- `LOS_PESCADORES` · Los pescadores te guardan el primer pescado de cada temporada.
+- `LOS_DEL_BLOQUE_B` · Las doce familias siguen arriba, con la escalera cortada, por las dudas.
+- `ESCONDITE_DE_SAQUEADORES` · Nunca vas a saber si callarte salvó a alguien.
+- `LIBERASTE_A_LAS_COCINERAS` · Abren un comedor en Los Bloques. Tu plato no se cobra.
+- `ESCONDISTE_AL_INMUNE` · El informe dice «no fue recuperado». Al margen, a mano: «escondido».
 
 **Las facciones**
 
-- `RUMOR_DE_LOS_LOBOS` · Nunca se supo si era verdad. En Las Lomas nadie quiere hablar del tema, y eso, para Tolme, ya es una respuesta.
-- `TE_VIERON_LOS_LOBOS` · Los Lobos sabían que entrabas a Las Lomas. Te dejaron. Todavía no sabés por qué.
-- `LE_PAGAS_A_LOS_LOBOS` · Pagaste para que te dejaran en paz. Te dejaron. Después del día 41, otros siguen pagándoles, a otros, por lo mismo.
-- `RECHAZASTE_A_LOS_LOBOS` · La puerta que no pudieron romper los Lobos tiene todavía los agujeros de los tiros. Los chicos del barrio meten los dedos adentro, para contarlos.
-- `LES_ROBASTE_EL_CUARTEL` · Los Bomberos no te nombran. Cuando alguien te nombra delante de ellos, se levantan y se van.
-- `LA_SEPTIMA_ES_NUESTRA` · El Destacamento escribió un informe sobre «la toma de la Comisaría 7.ª por civiles armados». Tu nombre está mal escrito. Mejor.
-- `NO_CENSADO` · En la lista oficial del Comando, tu refugio no existe. En el censo de después, tampoco. Los que vivieron ahí tienen que demostrar que estuvieron vivos.
-- `PEAJE` · Pagaste peaje en una ciudad sin rutas. Lo vas a contar como un chiste. No lo fue.
+- `RUMOR_DE_LOS_LOBOS` · En Las Lomas nadie quiere hablar del tema, y eso ya es una respuesta.
+- `TE_VIERON_LOS_LOBOS` · Los Lobos te dejaron entrar a Las Lomas. Todavía no sabés por qué.
+- `LE_PAGAS_A_LOS_LOBOS` · Después del día 41, otros siguen pagándoles a otros.
+- `RECHAZASTE_A_LOS_LOBOS` · Los chicos meten los dedos en los agujeros de tu puerta para contar los tiros.
+- `LES_ROBASTE_EL_CUARTEL` · Cuando alguien te nombra, los Bomberos se levantan y se van.
+- `LA_SEPTIMA_ES_NUESTRA` · El informe sobre «la toma de la Comisaría 7.ª» escribe mal tu nombre. Mejor.
+- `NO_CENSADO` · Tu refugio no existe en ninguna lista, y los suyos tienen que demostrar que vivieron.
+- `PEAJE` · Pagaste peaje en una ciudad sin rutas. Lo contás como un chiste. No lo fue.
 
 **Los lugares**
 
-- `EL_OSO` · El oso del zoológico sigue en su jaula, gordo, viejo, con la puerta abierta. Nadie se acerca. Vos sí, a veces, con algo de comer.
-- `EL_OSO_LIBRE` · En el Parque hay un oso. Los chicos lo ven de lejos, entre los árboles. Los Callados del Parque, en cambio, no se ven más.
-- `EL_SERENO` · El sereno del cementerio sigue ahí. Te tiene guardado un lugar al lado de los tuyos. No te lo dice. Lo sabés.
-- `EL_TREN_SELLADO` · El tren que sellaste sigue en la vía 4. Las cadenas aguantan. Los que están adentro, también. Nadie quiere ser el que lo abra.
-- `VAGON_DE_LA_C` · El vagón de la línea C sigue en el túnel, con los sentados adentro. Cuando el subte vuelve a andar, lo dejan ahí y lo rodean.
-- `LA_ZORRA` · La zorra de las vías queda en la Estación, pintada de amarillo. Los chicos la empujan los domingos, de un andén al otro.
-- `LLAVES_DEL_PORTERO` · El manojo de llaves del portero cuelga de un clavo en la puerta del refugio. Nadie lo saca. Por las dudas.
-- `EL_AGUA_VUELVE` · Tolme se acuerda de la tarde en que salió agua de las canillas. Todos los chicos de la ciudad salieron a bañarse a la vereda, con Callados a dos cuadras.
-- `SIN_CAMPANA` · La parroquia de San Lázaro nunca vuelve a tener campana. A las doce, en lugar de la campana, alguien golpea una olla.
-- `GIMNASIO_QUEMADO` · El gimnasio de la Escuela N.º 9 queda negro. Cuando la escuela vuelve a abrir, ponen una placa en la puerta. No dice qué pasó: dice «Nunca más».
-- `EL_CAMION` · El camión del Comando se queda donde lo dejaste, vacío, con las puertas abiertas. Alguien le pinta encima, en letras grandes: «ESTO NOS DIERON».
-
----
-
-
-<a id="e956"></a>
-### e956 · El epílogo de El que falta
-*Epílogo · Esperanza*
-
-- **Esperanza 0–1.** Dejás de buscar. No porque lo encontraste: porque ya no podés. Te vas de Tolme con su foto en la billetera, y cada tanto, en una calle de otra ciudad, ves una campera parecida y te das vuelta. Nunca es.
-- **Esperanza 2–3.** Seguís buscando de a ratos, como se buscan las cosas que uno sabe que no va a encontrar. Las listas del Comando, los hospitales de afuera, los nombres en las paredes que nadie borró. Un día dejás de ir. Un día volvés a ir.
-- **Esperanza 4–5.** Te quedás en Tolme y abrís una oficina en la Municipalidad: un escritorio, un cuaderno y una pared llena de fotos. «Personas buscadas.» Vienen de todos los barrios. Encontrás a muchos. A algunos, vivos.
-- **Esperanza 6.** Lo encontraste, o encontraste lo que le pasó, y eso te alcanzó para seguir. Pintás su nombre en la pared del refugio, grande, donde lo veas todos los días, y abajo, con letra chica, el de todos los que encontraste buscándolo.
-- **Si llegó vivo y está entre los salvados:** se van juntos. En la ruta, del otro lado del muro, te agarra la mano y no te la suelta hasta el primer pueblo.
-- **Con `TE_ESPERA_AFUERA`:** del otro lado del Puesto Norte, entre la gente que espera, hay alguien con un cartel de cartón con tu nombre escrito con fibrón.
-- **Con `LO_DESPEDISTE`:** lo enterrás en el Parque, debajo de un árbol que eligió alguien que lo conocía. Cada año, el día 0, vas. Te sentás. Le contás cómo está todo.
-
----
-
-<a id="e957"></a>
-### e957 · El epílogo de Lo que hiciste
-*Epílogo · Culpa*
-
-*Este contador va al revés: cuanto más baja, mejor.*
-
-- **Culpa 6.** Nunca se lo contás a nadie. Te vas lejos y vivís una vida chica y ordenada, sin puertas que dejar abiertas. A veces, de noche, te despertás con la mano en la traba.
-- **Culpa 4–5.** Se lo contás a una sola persona, años después, en un bar, porque no te conoce. Te escucha. Te dice que cualquiera habría hecho lo mismo. No le creés, pero esa noche dormís un poco mejor.
-- **Culpa 2–3.** Te quedás en Tolme. Hacés, todos los días, una cosa chica por alguien que no conocés: abrir, compartir, esperar. No alcanza. Lo hacés igual.
-- **Culpa 0–1.** Volvés al lugar. Le contás a quien corresponda lo que hiciste, con nombre y apellido, y aceptás lo que venga. Lo que viene es menos de lo que esperabas, y más de lo que podés pagar. Lo pagás igual, de a poco, durante años.
-- **Con `TE_PERDONASTE`:** en el refugio, la última noche, alguien te pregunta qué hiciste antes de la cuarentena. Le contás. No te tiembla la voz.
-- **Con `LO_NEGASTE`:** la persona que lo sabía lo cuenta, en una entrevista, años después. No dice tu nombre. No hace falta.
+- `EL_OSO` · El oso sigue en su jaula con la puerta abierta. Vos le llevás comida.
+- `EL_OSO_LIBRE` · Hay un oso en el Parque, y ya no hay Callados en el Parque.
+- `EL_SERENO` · El sereno te guarda un lugar al lado de los tuyos.
+- `EL_TREN_SELLADO` · El tren sigue en la vía 4. Nadie quiere ser el que lo abra.
+- `VAGON_DE_LA_C` · Cuando el subte vuelve, al vagón de la C lo rodean.
+- `LA_ZORRA` · La zorra, pintada de amarillo, la empujan los chicos los domingos.
+- `LLAVES_DEL_PORTERO` · Las llaves del portero cuelgan en la puerta del refugio. Por las dudas.
+- `EL_AGUA_VUELVE` · La tarde del agua, los chicos se bañaron en la vereda con Callados a dos cuadras.
+- `SIN_CAMPANA` · En San Lázaro, a las doce, alguien golpea una olla.
+- `GIMNASIO_QUEMADO` · El gimnasio negro tiene una placa: «Nunca más».
+- `EL_CAMION` · Al camión del Comando alguien le pinta: «ESTO NOS DIERON».
 
 ---
 
@@ -584,42 +495,32 @@ Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las cola
 ### e960 · Las salidas
 *Éxodo · ◷ 0*
 
-El muro rodea la ciudad por el norte, el este y el oeste. Al sur está el río, ancho, marrón, con lanchas militares que patrullan de noche. El muro no llega al agua: termina en una escollera. Esa es la grieta de Tolme.
-
-En el **modo Éxodo** (r210), ganás si cruzás el perímetro **antes de la Noche 40** con al menos un sobreviviente. Con el Secreto 2 ([e582](#e582)), estas salidas están abiertas en cualquier modo.
+El muro rodea Tolme por tres lados. Al sur está el río, con lanchas militares de noche, y el muro termina en una escollera: la grieta de la ciudad. En el **modo Éxodo** (r210), ganás si cruzás **antes de la Noche 40** con al menos un sobreviviente. Con el Secreto 2 ([e582](#e582)), estas salidas se abren en cualquier modo.
 
 | Salida | Qué hace falta | Cuántos | Prueba al salir |
 |---|---|---|---|
-| **A pie por la escollera** | `LA_ESCOLLERA` ([e383](#e383)), de noche | 4 | Todos `[Sigilo]`; con 6−, la lancha te ve: esa persona no sale (vuelve con 1 Herida, o no vuelve con 1 en 1d6) |
-| **La lancha** | `LA_LANCHA` ([e382](#e382)), 2 Combustible | 4 | `[Mecánica]` o `[Sigilo]` de quien maneje; con 6−, una lancha militar dispara: 1 Herida a cada uno, pero salen |
-| **Tigre Dos** | `TIGRE_DOS` ([e543](#e543)) y una radio para avisarle | 6 | Ninguna: ella sabe por dónde |
-| **La barcaza** | `BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE` ([e254](#e254)) | 30 | `[Mecánica]`; con 6−, salen igual, pero la mitad de los que van con vos no llegan a subir (+Procesión en el Puerto) |
-| **El ferry** | `EL_FERRY` ([e255](#e255)) | Todos | `[Labia]` (calmar a la gente en el muelle); con 6−, salen, pero hay una avalancha: 1d6 personas caen al agua |
-| **La autobomba por la escollera** | `LA_AUTOBOMBA` ([e481](#e481)) y `LA_ESCOLLERA` | 6 | `[Mecánica]`; con 6−, la autobomba se queda en el agua y hay que nadar: `[Físico]` cada uno |
-| **El blindado** | `EL_BLINDADO` ([e552](#e552)) y `LA_ESCOLLERA` | 8 | `[Mecánica]`; con 6−, llegás, pero 1d3 heridos en el choque contra la barrera de la costa |
-| **El plan de Ocampo** | [e694](#e694), opción 1 | Vos y 4 | Ninguna: van con el Destacamento |
-| **El corredor** | `EL_CORREDOR` y el ferry (con Reputación +2 con el Destacamento) | Todos los que tengan Fiebre 0 | El control sanitario (como en [e581](#e581)) |
+| **A pie por la escollera** | `LA_ESCOLLERA` ([e383](#e383)), de noche | 4 | Todos `[Sigilo]`; con 6−, esa persona vuelve con 1 Herida (o no vuelve, con 1 en 1d6) |
+| **La lancha** | `LA_LANCHA` ([e382](#e382)), 2 Combustible | 4 | `[Mecánica]` o `[Sigilo]`; con 6−, disparos: 1 Herida a cada uno, pero salen |
+| **Tigre Dos** | `TIGRE_DOS` ([e543](#e543)) y una radio | 6 | Ninguna |
+| **La barcaza** | `BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE` ([e254](#e254)) | 30 | `[Mecánica]`; con 6−, la mitad no llega a subir (+Procesión en el Puerto) |
+| **El ferry** | `EL_FERRY` ([e255](#e255)) | Todos | `[Labia]`; con 6−, avalancha: 1d6 personas caen al agua |
+| **La autobomba** | `LA_AUTOBOMBA` ([e481](#e481)) y `LA_ESCOLLERA` | 6 | `[Mecánica]`; con 6−, se queda en el agua: `[Físico]` cada uno |
+| **El blindado** | `EL_BLINDADO` ([e552](#e552)) y `LA_ESCOLLERA` | 8 | `[Mecánica]`; con 6−, 1d3 heridos contra la barrera |
+| **El plan de Ocampo** | [e694](#e694), opción 1 | Vos y 4 | Ninguna |
+| **El corredor** | `EL_CORREDOR` y el ferry (Reputación +2 con el Destacamento) | Los de Fiebre 0 | El control sanitario ([e581](#e581)) |
 
-- **Salir** cuesta el día entero (◷ 6) y hay que estar todos juntos en el barrio de la salida al anochecer.
-- **Con un vehículo** (`LA_4X4`, `CAMIONETA_DE_LOS_SOSA`, `EL_TAXI`, `AMBULANCIA_12`, `CARRITO_DE_GOLF`): el grupo llega al barrio de la salida sin tirar encuentros, y los heridos Graves pueden ir. Cada persona ocupa cuatro casilleros de la carga del vehículo.
-- **Los que no caben** se quedan. Cada uno que dejes, −1 Ánimo para vos, salvo que lo elija.
+- **Salir** cuesta ◷ 6, todos juntos en el barrio de la salida al anochecer.
+- **Con un vehículo** (`LA_4X4`, `CAMIONETA_DE_LOS_SOSA`, `EL_TAXI`, `AMBULANCIA_12`, `CARRITO_DE_GOLF`), el grupo llega sin encuentros y los heridos Graves pueden ir; cada persona ocupa cuatro casilleros de carga.
+- **Los que no caben** se quedan: −1 Ánimo por cada uno, salvo que lo elija.
 - Al otro lado → [e961](#e961).
-
----
 
 <a id="e961"></a>
 ### e961 · Del otro lado
 *Éxodo · El final*
 
-El agua está fría. El motor tose. Las luces de Tolme, las pocas que quedan, se van haciendo chicas detrás de ustedes. Nadie habla. Nadie quiere ser el que lo diga primero.
+El agua está fría. Las luces de Tolme se hacen chicas detrás. Nadie habla. Del otro lado, una costa, una ruta, una casa con una luz. Lo lograron.
 
-Y después, del otro lado, una costa. Árboles. Una ruta. Un cartel de una estación de servicio, apagado. Una casa con una luz.
-
-Lo lograron.
-
-Contá a los que cruzaron y leé **Solo** ([e941](#e941)), **Unos pocos** ([e942](#e942)) o **El grupo** ([e943](#e943)). Después, abrí el Secreto ([e570](#e570)) y leé solo **La verdad**: la parte del día 41 ya no es para ustedes. Pero la vas a escuchar por la radio, en algún pueblo, dentro de unos días. Y vas a apagar la radio.
-
-Después, tu epílogo (el de tu Motivo, r198) y lo que Tolme recuerda ([e955](#e955)).
+Contá a los que cruzaron y leé **Solo** ([e941](#e941)), **Unos pocos** ([e942](#e942)) o **El grupo** ([e943](#e943)). Abrí el Secreto ([e570](#e570)) y leé solo **La verdad**: el día 41 lo vas a escuchar por la radio en algún pueblo, y vas a apagarla. Después, tu epílogo (r198) y lo que Tolme recuerda ([e955](#e955)).
 
 ---
 
@@ -629,38 +530,24 @@ Después, tu epílogo (el de tu Motivo, r198) y lo que Tolme recuerda ([e955](#e
 ### e990 · La muerte
 *El final*
 
-No duele tanto como pensabas. O sí, pero dura poco.
-
-Lo último que ves es lo que tengas más cerca: una cara, una pared que hiciste, el techo del refugio con su mancha de humedad en forma de mapa, el cielo de Tolme, gris, sin pájaros.
-
-Lo último que escuchás es tu propio corazón. Después, nada.
+No duele tanto como pensabas. Lo último que ves es lo que tengas más cerca: una cara, una pared que hiciste, la mancha de humedad del techo con forma de mapa. Lo último que escuchás es tu corazón.
 
 **Tu partida terminó.**
 
-- **Si fue antes de la Noche 40:** en Tolme sigue la cuarentena. Tu refugio queda con los que quedaron. Quizás aguanten. Quizás no. Nunca lo vas a saber.
-- **Si fue en la Noche 40:** al amanecer, alguien que se escondió sale a la calle y cuenta lo que hiciste. Contá a los que se salvaron igual (e940), aunque vos no estés: tu final es el de ellos.
-- Leé tu epílogo (el de tu Motivo, r198) con tu contador **un paso peor** (la Culpa, uno más).
+- **Antes de la Noche 40:** tu refugio queda con los que quedaron. Nunca vas a saber si aguantaron.
+- **En la Noche 40:** al amanecer, alguien que se escondió cuenta lo que hiciste. Contá a los salvados igual ([e940](#e940)): tu final es el de ellos.
+- Leé tu epílogo (r198) con tu contador **un paso peor** (la Culpa, uno más).
 
-**Variante · El relevo.** Si no querés que termine, un sobreviviente con nombre que esté en el refugio toma tu lugar: usá sus Habilidades (las de su ficha, más 2 puntos donde quieras), Heridas 5, Ánimo 3. No tiene arco ni contador: su epílogo es su línea de [e954](#e954). La Moral baja 3.
-
----
+**Variante · El relevo.** Un sobreviviente con nombre que esté en el refugio toma tu lugar: sus Habilidades más 2 puntos, Heridas 5, Ánimo 3. No tiene arco ni contador: su epílogo es su línea de [e954](#e954). La Moral baja 3.
 
 <a id="e991"></a>
 ### e991 · La conversión
 *El final*
 
-La Fiebre llega a seis a la madrugada. Primero, el calor. Después, el frío. Después, un silencio que empieza adentro de la cabeza y se va extendiendo, como la ciudad cuando se apagan las luces de a una.
-
-Ya no tenés miedo. Ya no tenés nada.
-
-Si alguien está con vos, tiene una última decisión que tomar, y la toma.
-
-Si no hay nadie, te levantás. Despacio. Caminás hasta la puerta. Te quedás ahí, de cara a la madera, con la frente apoyada. Esperando algo que no sabés qué es. Escuchando.
+La Fiebre llega a seis a la madrugada. Primero el calor, después el frío, después un silencio que se extiende como la ciudad cuando se apagan las luces. Si alguien está con vos, toma la última decisión. Si no, caminás hasta la puerta y te quedás ahí, con la frente apoyada en la madera, escuchando.
 
 **Tu partida terminó.**
 
-- Si alguien del grupo sigue vivo, cada vez que alguien vuelva al refugio, te va a encontrar en la puerta. Ellos deciden qué hacer con vos.
-- En la Noche 40, si el refugio todavía resiste, sos uno de los de la primera oleada. Siempre lo fuiste.
-- Leé tu epílogo (el de tu Motivo, r198) con tu contador **dos pasos peor** (la Culpa, dos más).
-
-**Variante · El relevo** ([e990](#e990)): también se puede usar acá.
+- Si alguien del grupo sigue vivo, cada vez que vuelva al refugio te va a encontrar en la puerta. Ellos deciden.
+- En la Noche 40, si el refugio resiste, sos uno de la primera oleada. Siempre lo fuiste.
+- Leé tu epílogo (r198) con tu contador **dos pasos peor** (la Culpa, dos más). Se puede usar **El relevo** ([e990](#e990)).
