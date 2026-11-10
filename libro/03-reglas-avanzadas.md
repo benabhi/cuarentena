@@ -33,7 +33,7 @@ En cada ronda elegís **una** acción:
 
 1. **Atacar** con tu arma (r143).
 2. **Retroceder** `[Físico]`: con 10+, todos los Callados retroceden un paso; con 7–9, también, pero soltás algo (1 casillero de la Mochila, el que elijas) o te llevás 1 Herida; con 6−, no ganás nada.
-3. **Esconderte** `[Sigilo]` (solo si nadie está Encima): con 10+, salís del combate; con 7–9, salís, pero el barrio queda alerta: +1 Ruido; con 6−, te encuentran y avanzan dos pasos.
+3. **Esconderte** `[Sigilo]` (solo si nadie está Encima): con 10+, salís del combate; con 7–9, salís, pero el barrio queda alerta: +1 Ruido; con 6−, te encuentran y avanzan un paso.
 4. **Usar algo:** cerrar una puerta, tirar un Molotov, prender un señuelo, empujar un mueble. El objeto o el evento dicen qué pasa.
 5. **Cambiar de capa:** si el lugar lo permite (una escalera a la azotea, una tapa de alcantarilla), te vas del combate por otra capa (r151). Cuesta una ronda en la que los Callados avanzan igual.
 
@@ -64,16 +64,17 @@ Los **infectados especiales** tienen **Aguante**: el Daño que hace falta para m
 <a id="r144"></a>
 ### r144 · Mordidas y arañazos
 
-Al final de cada ronda, **cada Callado que está Encima** te ataca: tirá 1d6 por cada uno (como mucho **tres**, porque no caben más alrededor tuyo; los demás esperan su turno).
+Al final de cada ronda, **cada Callado que está Encima** te ataca: tirá 1d6 por cada uno (como mucho **dos**, porque no caben más agarrándote a la vez; los demás empujan detrás y esperan su turno).
 
 | 1d6 | Resultado |
 |---|---|
 | 1–3 | Te soltás. Nada. |
-| 4 | Un golpe: 1 Herida |
-| 5 | **Arañazo:** 1 Herida y prueba de Fiebre (r191) |
-| 6 | **Mordida:** 1 Herida y empieza la Fiebre (r191) |
+| 4–5 | Un golpe: 1 Herida |
+| 6 | **Los dientes.** 1 Herida, y tirá otro 1d6: con 1–3, es un **arañazo** (prueba de Fiebre, r191); con 4–6, es una **mordida** (empieza la Fiebre, r191) |
 
-**Protección:** la ropa gruesa, los cascos, los chalecos y las armaduras fabricadas **restan 1** a cada dado (con un 6 y protección −1, es un arañazo; con dos protecciones −2, es un golpe). Ninguna protección resta más de 2. Algunas protegen solo la cabeza o solo los brazos: el objeto lo dice.
+Ese segundo dado es el momento más largo del juego. Tiralo despacio.
+
+**Protección:** la ropa gruesa, los cascos, los chalecos y las armaduras fabricadas **restan 1** a cada dado (con un 6 y protección −1, es un golpe y no hay segundo dado). Ninguna protección resta más de 2. Algunas protegen solo la cabeza o solo los brazos: el objeto lo dice.
 
 Si un compañero está a tu lado, los que están Encima se reparten entre los dos como vos elijas (r148).
 
@@ -82,7 +83,7 @@ Si un compañero está a tu lado, los que están Encima se reparten entre los do
 
 El Ruido de la pelea se suma al **Ruido del barrio** (r154), y el barrio responde en el momento:
 
-- Cuando el Ruido **llega a 3**, aparecen **Callados ×1d6** a distancia Lejos.
+- Cuando el Ruido **llega a 3**, aparecen **Callados ×1d3** a distancia Lejos: los que estaban más cerca.
 - Cuando el Ruido **llega a 6**, llega una **Procesión**: el combate termina como esté y andá a [e100](#e100). Si ya hay una Procesión en el barrio, te encuentra a vos.
 
 Matar con una escopeta es fácil. Salir vivo del barrio después, no.
@@ -126,7 +127,7 @@ Los vivos tienen **Aguante** como los especiales: `Lobos ×3 · Aguante 2 cada u
 Los sobrevivientes que te acompañan (r185) actúan después de vos. Cada uno, en su turno, ataca con su arma usando su Pelea o su Puntería, o hace otra acción que vos elijas.
 
 - Comparten las distancias contigo.
-- Los que están Encima se reparten entre todos como elijas, de a tres por persona como mucho.
+- Los que están Encima se reparten entre todos como elijas, de a dos por persona como mucho.
 - Un compañero tiene **3 casillas de Heridas**. Cuando las llena, cae: si sobrevive al combate, vive Grave; si lo muerden, se infecta (r186).
 
 <a id="r149"></a>
@@ -398,6 +399,8 @@ Ocho **materiales** se cuentan en la hoja del refugio:
 | Ropa, cortinas, colchones | 2 Tela |
 | Un arma rota | 1 Metal |
 
+**Desarmar afuera:** en una Vivienda, una Oficina o un Comercio, cuando lo revisás (r161) podés romper los muebles ahí mismo y cargarte la madera: cada persona del grupo se lleva **2 Madera** (1 casillero). Hace ruido: **+1 Ruido**, una vez por lugar. Así se levantan las barricadas en Corinto: con las puertas y las mesas de los que ya no están.
+
 <a id="r166"></a>
 ### r166 · Comerciar
 
@@ -551,7 +554,7 @@ Cada noche, cada persona del refugio tiene **un puesto**:
 | **Taller** | Instalación Taller | Fabrica una receta de ◷ 2 o menos que conozca alguien del grupo, con los materiales del refugio |
 | **Cocina** | Cocina a leña y 2 Víveres | +1 Moral, y esa alba el grupo come 1 Víver menos en total |
 | **Enfermería** | Instalación Enfermería | Cura 1 Herida a alguien (2 si su Medicina es 2 o más) |
-| **Huerta** | Instalación Huerta | +1 Víver (con Supervivencia 2 o más, +2) |
+| **Huerta** | Instalación Huerta | +1 Víver (con Supervivencia 2 o más, +2). Como mucho dos personas por noche |
 | **Descanso** | Nada | Recupera 1 Ánimo o 1 Herida Magullado |
 
 Los puestos los hace la gente que está en el refugio. Quien te acompaña de expedición (r185) no tiene puesto esa noche si vuelve tarde.
@@ -636,6 +639,8 @@ Tus casillas de Heridas, en orden: **Magullado, Lastimado, Herido, Grave, Murien
 ### r192 · Amputar
 
 Amputar una mano, un brazo, un pie o una pierna corta la Fiebre si la mordida estuvo ahí y la Fiebre es 2 o menos.
+
+**¿Dónde te mordió?** Cuando empieza una Fiebre por mordida, tirá 1d6: **1–2** un brazo o una mano, **3–4** una pierna o un pie, **5** el hombro (se amputa el brazo entero: la prueba tiene Desventaja), **6** el cuello o la cara (no hay nada que cortar). Anotalo.
 
 - Lo hace otra persona con `[Medicina]`, ◷ 2, 2 Fármacos, una herramienta de corte (hacha, serrucho, bisturí) y fuego o un torniquete.
 - **10+:** la Fiebre vuelve a 0. Te quedan 2 casillas de Heridas llenas.

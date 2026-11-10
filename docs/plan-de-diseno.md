@@ -182,7 +182,7 @@ Los Callados no vienen de a uno. El combate se mide en **número** y **distancia
 - **Distancias:** **Lejos**, **Cerca** y **Encima**. Cada ronda, los Callados avanzan un paso (salvo que una barricada, una trampa o el agua los frene).
 - **Tu acción por ronda:** Atacar · Retroceder (ganás un paso, `[Físico]`) · Esconderse (`[Sigilo]`, salen de combate si no te vieron) · Usar algo (molotov, señuelo, puerta) · Huir por otra capa (subir a una azotea, bajar a una alcantarilla).
 - **Atacar:** prueba de Pelea o Puntería. Con 10+, el arma mata su **Daño** en Callados; con 7–9, mata su Daño pero pagás el precio del arma (Ruido o Desgaste); con 6−, nada.
-- **Lo que está Encima muerde:** al final de la ronda, cada Callado que está Encima hace una tirada de **Mordida** (1d6: 6 muerde, 4–5 araña, 1–3 nada; la armadura y la ropa gruesa restan).
+- **Lo que está Encima muerde:** al final de la ronda, cada Callado que está Encima (como mucho dos) hace una tirada de **Mordida** (1d6: 1–3 nada, 4–5 golpe, 6 los dientes: otro 1d6 dice si es arañazo o mordida; la armadura y la ropa gruesa restan). *Ajustado en la fase 5: ver `docs/simulacion.md`.*
 - **Cada disparo trae más:** el Ruido de las armas de fuego se suma en la misma pelea. Si el Ruido llega a 3 o a 6, llegan refuerzos. Matar con una escopeta es fácil; salir vivo del barrio después, no.
 - **Especiales:** los infectados especiales tienen una ficha propia con su conducta (la Chillona grita y suma Ruido; el Acechador te salta de Lejos a Encima; el Bruto rompe barricadas; la Viuda no ataca si no la molestás).
 - **Gente:** contra saqueadores y otros vivos se usa el mismo sistema, pero los vivos se rinden, negocian, huyen o te disparan de Lejos.

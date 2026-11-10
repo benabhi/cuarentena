@@ -1,921 +1,1724 @@
 #!/usr/bin/env python3
-"""Simulador de Caribdis: juega miles de partidas con un jugador automático.
+"""Simulador de Cuarentena: juega miles de partidas con un jugador automático.
 
-Lee los eventos del libro (libro/*.md) y resuelve sus opciones con un intérprete
-aproximado: pruebas `[Atributo · N]`, Heridas, Chatarra, Canto, Alerta, Reloj,
-combates, saltos → eXXX y calidades de sistema. El motor del día (r130–r213) está
-programado a mano. No es el libro entero (las Marcas casi no se siguen), pero mide
-el ritmo, la economía y la mortalidad del sistema.
+Lee el libro (libro/*.md): las tablas de cada barrio, los lugares con su tipo y su
+stock, las fichas de los refugios, las tablas de la Baraja y los eventos. Resuelve
+las opciones de los eventos con un intérprete aproximado (pruebas `[Habilidad]`,
+ramas 10+ / 7–9 / 6−, Víveres, materiales, Heridas, Ruido, Rastro, Moral, combates
+«Callados ×N · Distancia», saltos → eXXX). El motor del día, el saqueo, el combate,
+la Fiebre, el refugio, los puestos, el sondeo, el taller y la Noche 40 están
+programados a mano siguiendo las reglas r100–r225.
+
+No juega el libro entero (casi no sigue Marcas), pero mide el ritmo, la economía,
+la mortalidad y, sobre todo, cuántas veces se llega vivo al amanecer del día 41.
 
 Uso:
-    python3 herramientas/simulador.py                 # 3000 partidas por protagonista
-    python3 herramientas/simulador.py -n 500 --prota piloto --semilla 7
-    python3 herramientas/simulador.py --traza         # narra una partida día a día
+    python3 herramientas/simulador.py                  # 2000 partidas por protagonista
+    python3 herramientas/simulador.py -n 500 --prota enfermera --semilla 7
+    python3 herramientas/simulador.py --traza          # narra una partida día a día
 """
 import argparse, glob, os, random, re, statistics as st
 from collections import Counter, defaultdict
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ATTRS = ('Vigor', 'Reflejos', 'Ingenio', 'Voluntad')
-SISTEMAS = ('Casco', 'Motor', 'Navegación', 'Soporte vital', 'Combustible')
-CAL = {'Precaria': 11, 'Sólida': 9, 'Excelente': 7}
-ORDEN_CAL = ['Precaria', 'Sólida', 'Excelente']
-VECINAS = {1: (2, 3, 4), 2: (1, 3, 6), 3: (1, 2, 8), 4: (1, 5, 7),
-           5: (4, 6, 7), 6: (2, 5, 8), 7: (4, 5, 8), 8: (3, 6, 7)}
-NOMBRE_REG = {1: 'Dunas', 2: 'Cementerio', 3: 'Salinas', 4: 'Cañones', 5: 'Bosque',
-              6: 'Ciudad', 7: 'Torres', 8: 'Polo'}
-TABLA = {1: 'e200', 2: 'e220', 3: 'e240', 4: 'e300', 5: 'e260', 6: 'e320', 7: 'e340', 8: 'e280'}
-PIEZA_REG = {1: 'Hueso', 2: 'Cobre', 3: 'Cristal', 4: 'Cobre', 5: 'Cristal', 6: 'Luz', 7: 'Luz', 8: 'Cristal'}
-RESCATE = {'Casco': 'e560', 'Motor': 'e562', 'Navegación': 'e564', 'Soporte vital': 'e566', 'Combustible': 'e568'}
-SYS_DE_EVENTO = {'e560': 'Casco', 'e561': 'Casco', 'e562': 'Motor', 'e563': 'Motor', 'e564': 'Navegación',
-                 'e565': 'Navegación', 'e566': 'Soporte vital', 'e567': 'Soporte vital',
-                 'e568': 'Combustible', 'e569': 'Combustible', 'e404': 'Casco', 'e414': 'Motor',
-                 'e416': 'Soporte vital', 'e242': 'Combustible', 'e405': 'Combustible', 'e261': 'Soporte vital',
-                 'e329': 'Casco', 'e613': 'Navegación', 'e426': 'Navegación', 'e432': 'Motor'}
-TRIPU = ['Iria', 'Bruno', 'Amara', 'Noemí', 'Tadeo', 'Lio']
+HABS = ('Pelea', 'Puntería', 'Sigilo', 'Físico', 'Oficio', 'Mecánica', 'Medicina', 'Supervivencia', 'Labia', 'Calle')
+MATS = ('Madera', 'Metal', 'Tela', 'Químicos', 'Sujeción', 'Electrónica', 'Combustible', 'Fármacos')
+FRENTES = ('Puerta', 'Ventanas', 'Techo', 'Subsuelo')
+HERRAMIENTAS = ('Martillo', 'Serrucho', 'Llave inglesa', 'Palanca', 'Taladro', 'Máquina de coser')
+
+BARRIOS = {'Casco': 'e200', 'Sanidad': 'e220', 'Puerto': 'e240', 'Fabril': 'e260', 'Bloques': 'e280',
+           'Lomas': 'e300', 'Estación': 'e320', 'Mercado': 'e340', 'Universidad': 'e360',
+           'Costanera': 'e380', 'Cementerio': 'e400', 'Perímetro': 'e420'}
+CALLE = {'Casco': ('Sanidad', 'Puerto', 'Bloques', 'Estación', 'Mercado'),
+         'Sanidad': ('Casco', 'Bloques', 'Universidad'), 'Puerto': ('Casco', 'Fabril', 'Costanera'),
+         'Fabril': ('Puerto', 'Estación', 'Perímetro'), 'Bloques': ('Casco', 'Sanidad', 'Mercado', 'Cementerio'),
+         'Lomas': ('Universidad', 'Cementerio', 'Perímetro'), 'Estación': ('Casco', 'Fabril', 'Mercado'),
+         'Mercado': ('Casco', 'Bloques', 'Estación'), 'Universidad': ('Sanidad', 'Lomas', 'Costanera'),
+         'Costanera': ('Puerto', 'Universidad'), 'Cementerio': ('Bloques', 'Lomas', 'Perímetro'),
+         'Perímetro': ('Fabril', 'Lomas', 'Cementerio')}
+AZOTEAS = {'Casco': ('Sanidad', 'Bloques', 'Mercado'), 'Sanidad': ('Casco', 'Bloques'),
+           'Bloques': ('Casco', 'Sanidad', 'Mercado'), 'Mercado': ('Casco', 'Bloques')}
+PROCESION_2D6 = {2: 'Perímetro', 3: 'Cementerio', 4: 'Lomas', 5: 'Costanera', 6: 'Bloques', 7: 'Casco',
+                 8: 'Sanidad', 9: 'Mercado', 10: 'Estación', 11: 'Fabril'}
+REFUGIOS = {'e440': 'Casco', 'e450': 'Mercado', 'e460': 'Estación', 'e470': 'Bloques', 'e480': 'Puerto',
+            'e490': 'Sanidad'}
+NOMBRE_REF = {'e440': 'Parroquia', 'e450': 'Supermercado', 'e460': 'Comisaría', 'e470': 'Escuela',
+              'e480': 'Cuartel', 'e490': 'Sarmiento'}
+TESOROS = {  # r110
+    'camion': ('e343', 'e323', 'e242', 'e265', 'e283', 'e421'),
+    'generador': ('e263', 'e221', 'e322', 'e206', 'e383', 'e303'),
+    'armeria': ('e421', 'e204', 'e302', 'e422', 'e305', 'e244'),
+    'botiquin': ('e225', 'e423', 'e361', 'e222', 'e202', 'e224'),
+    'radio': ('e205', 'e281', 'e363', 'e384', 'e424', 'e304'),
+    'blindado': ('e422', 'e322', 'e244', 'e265', 'e382', 'e323')}
+
+# protagonistas (r101–r104): Habilidades, los 2 puntos libres, Heridas, armas y orígenes (1d6)
+PROTAS = {
+    'enfermera': dict(hab={'Medicina': 3, 'Labia': 2}, extra=('Pelea', 'Sigilo'), maxh=5, armas=[],
+                      origen=[('Medicina', 'botiquin'), ('Labia', None), ('Sigilo', 'linterna'), ('Oficio', None),
+                              ('Calle', None), ('Supervivencia', None)]),
+    'albanil': dict(hab={'Oficio': 3, 'Físico': 2, 'Mecánica': 1}, extra=('Pelea', 'Sigilo'), maxh=5, armas=[],
+                    origen=[('Mecánica', None), ('Mecánica', 'prot'), ('Labia', None), ('Oficio', 'martillo'),
+                            ('Pelea', None), ('Supervivencia', None)]),
+    'agente': dict(hab={'Puntería': 3, 'Pelea': 2}, extra=('Sigilo', 'Físico'), maxh=5,
+                   armas=[dict(n='pistola', d=2, r=3, alc='L', usos=None, fuego=True)],
+                   origen=[('Calle', 'prot'), ('Supervivencia', 'perro'), ('Físico', None), ('Oficio', None),
+                           ('Puntería', 'muni'), ('Labia', None)]),
+    'repartidora': dict(hab={'Calle': 3, 'Sigilo': 2, 'Físico': 2}, extra=('Pelea', 'Oficio'), maxh=4, armas=[],
+                        origen=[('Mecánica', 'prot'), ('Sigilo', None), ('Físico', None), ('Labia', 'superv'),
+                                ('Mecánica', 'quimica'), ('Físico', None)]),
+}
+
+TIPO_BOTIN = {'Farmacia': 'farmacia', 'Almacén': 'almacen', 'Ferretería': 'ferreteria', 'Hospital': 'hospital',
+              'Policía': 'policia', 'Armería': 'policia', 'Vivienda': 'vivienda', 'Oficina': 'oficina',
+              'Taller': 'taller', 'Comercio': 'comercio', 'El Destacamento': 'policia'}
 
 
-def dist(a, b):
-    vistos, frontera, d = {a}, [a], 0
-    while frontera:
-        if b in frontera:
-            return d
-        d += 1
-        nueva = []
-        for x in frontera:
-            for v in VECINAS[x]:
-                if v not in vistos:
-                    vistos.add(v); nueva.append(v)
-        frontera = nueva
-    return 99
+def d6(r):
+    return r.randint(1, 6)
 
 
-def paso_hacia(a, b):
-    return min(VECINAS[a], key=lambda v: (dist(v, b), v))
-
-
-# ---------------------------------------------------------------- lectura del libro
 def leer_eventos():
     texto = ''
     for f in sorted(glob.glob(os.path.join(RAIZ, 'libro', '*.md'))):
+        if f.endswith('96-indice-marcas.md'):
+            continue
         texto += open(f, encoding='utf-8').read() + '\n'
-    partes = re.split(r'<a id="(e\d{3})"></a>', texto)
+    partes = re.split(r'<a id="([re]\d{3})"></a>', texto)
     ev = {}
     for i in range(1, len(partes), 2):
-        cuerpo = partes[i + 1]
-        if partes[i] not in ev or len(cuerpo.strip()) > len(ev[partes[i]].strip()):
-            ev[partes[i]] = cuerpo
+        if partes[i] not in ev or len(partes[i + 1].strip()) > len(ev[partes[i]].strip()):
+            ev[partes[i]] = partes[i + 1]
     return ev
 
 
 def leer_tablas(ev):
-    tablas = {}
-    for reg, e in TABLA.items():
+    tablas, lugares = {}, {}
+    for b, e in BARRIOS.items():
         filas = {}
-        for m in re.finditer(r'^\| (\d+) \|(.+)\|$', ev[e], re.M):
-            celdas = [c.strip() for c in m.group(2).split('|')]
-            filas[int(m.group(1))] = [re.search(r'e\d{3}', c).group(0) if re.search(r'e\d{3}', c) else None
-                                      for c in celdas]
-        tablas[reg] = filas
-    return tablas
+        for m in re.finditer(r'^\| (\d+) \| \[(e\d{3})\]', ev[e], re.M):
+            filas[int(m.group(1))] = m.group(2)
+        tablas[b] = filas
+        base = int(e[1:])
+        for k in range(1, 10):
+            pid = f'e{base + k}'
+            if pid not in ev:
+                continue
+            m = re.search(r'^\*([^*\n]+)\*', ev[pid], re.M)
+            if not m or 'stock' not in m.group(1):
+                continue
+            campos = [c.strip() for c in m.group(1).split('·')]
+            stock = m.group(1).count('▢')
+            tipo = campos[1] if len(campos) > 1 else ''
+            lugares[pid] = dict(barrio=b, tipo=TIPO_BOTIN.get(tipo, 'vivienda'), stock=stock)
+    return tablas, lugares
 
 
-RE_ENEMIGO = re.compile(r'\*{0,2}([A-ZÁÉÍÓÚÑ][^·*\n|]{1,60}?)\*{0,2} · Ataque (\d+) · Blind\. (\d+) · Heridas (\d+)((?: · )?(?:\[[^\]\n]+\])*)')
-RE_PRUEBA = re.compile(r'\[(Vigor|Reflejos|Ingenio|Voluntad) · (\d+)(?: · (Desv|Vent)\.?)?\]')
-RE_REQ = re.compile(r'\b(Si tienes|si tienes|Si llevas|si llevas|Necesitas|necesitas|Si eres|si eres|Solo si|solo si|'
-                    r'Con Reputación|con Reputación|\(si |Requiere|Si has|si has|Si ya|Si te|Si no tienes|'
-                    r'Si lees|si lees|Mientras|la Mente,|el Nativo,|el Piloto,)')
+def leer_refugios(ev):
+    refs = {}
+    for e, b in REFUGIOS.items():
+        t = ev[e]
+        fr = {}
+        for f in FRENTES:
+            m = re.search(r'\*\*' + f + r'\*\* (\d+)', t)
+            fr[f] = int(m.group(1)) if m else 0
+        viv = int(re.search(r'\*\*Víveres:\*\* (\d+)', t).group(1))
+        mats = Counter()
+        lm = re.search(r'\*\*Materiales:\*\* ([^\n]+)', t)
+        muni = 0
+        if lm:
+            for n, mat in re.findall(r'(\d+) (' + '|'.join(MATS) + ')', lm.group(1)):
+                mats[mat] += int(n)
+            mm = re.search(r'(\d+) (?:de )?Munición', lm.group(1))
+            muni = int(mm.group(1)) if mm else 0
+        ras = re.search(r'\*\*Rastro inicial:\*\* (\d+)', t)
+        refs[e] = dict(barrio=b, frentes=fr, viv=viv, mats=mats, muni=muni, rastro=int(ras.group(1)) if ras else 1)
+    return refs
 
 
-def enemigo_de(texto):
-    m = RE_ENEMIGO.search(texto)
-    if not m:
-        return None
-    return {'n': m.group(1).strip(), 'atk': int(m.group(2)), 'bl': int(m.group(3)), 'h': int(m.group(4)),
-            'tags': set(re.findall(r'\[([^\]]+)\]', m.group(5) or ''))}
+def leer_baraja(ev):
+    tab = {}
+    for palo, e in (('Oros', 'e020'), ('Copas', 'e030'), ('Espadas', 'e040'), ('Bastos', 'e050')):
+        filas = {}
+        for m in re.finditer(r'^\| (\d) \| \[(e\d{3})\]\(#e\d{3}\) \| \[(e\d{3})\]', ev[e], re.M):
+            filas[int(m.group(1))] = (m.group(2), m.group(3))
+        tab[palo] = filas
+    return tab
 
 
-def opciones_de(cuerpo):
-    """Devuelve la lista de opciones numeradas [(titulo, texto)] del evento."""
-    ops = []
-    for m in re.finditer(r'^(\d+)\. \*\*(.+?)\*\*(.*?)(?=^\d+\. \*\*|^---|^\*\*Mientras|\Z)', cuerpo, re.M | re.S):
-        ops.append((m.group(2), m.group(3)))
-    return ops
+# ---------------------------------------------------------------- intérprete de eventos
+RE_TEST = re.compile(r'`\[(' + '|'.join(HABS) + r')([^\]`]*)\]`')
+RE_COMB = re.compile(r'\*\*\s*(Callados|Frescos?|Hinchados?|Chillonas?|Acechador(?:es)?|Sabuesos?|Brutos?|'
+                     r'Escupidor(?:es)?|Ahogados?|Blindados?|Vivos|Lobos|[Ss]oldados)\s*×\s*\(?([0-9d +Etapa]+?)\)?\s*'
+                     r'(?:·\s*Aguante (\d+)[^·*]*)?·\s*(?:[^*·]*·\s*)?(Lejos|Cerca|Encima)')
+ESPECIAL = {'Callados': (1, 1), 'Fresco': (1, 2), 'Frescos': (1, 2), 'Hinchado': (2, 1), 'Hinchados': (2, 1),
+            'Chillona': (2, 0), 'Chillonas': (2, 0), 'Acechador': (2, 3), 'Acechadores': (2, 3), 'Sabueso': (1, 2),
+            'Sabuesos': (1, 2), 'Bruto': (4, 1), 'Brutos': (4, 1), 'Escupidor': (2, 0), 'Escupidores': (2, 0),
+            'Ahogado': (2, 1), 'Ahogados': (2, 1), 'Blindado': (2, 1), 'Blindados': (2, 1),
+            'Vivos': (2, 1), 'Lobos': (2, 1), 'soldados': (2, 1), 'Soldados': (2, 1)}
+DIST = {'Lejos': 0, 'Cerca': 1, 'Encima': 2}
+NEG_CTX = re.compile(r'(−|perd[eé]s|pag[aá]|\bdas\b|[Dd]ales|[Dd]arles|dale\b|cuesta|gast[aá]|come|entreg|dej[aá]s|'
+                     r'[Pp]agar|mand[aá]s|cambi|[Ll]e das|por día|necesit|[Ll]e mandás|cobra|ofrec|piden|'
+                     r'quier|[Dd]ar\b|vale|valen|cuenta como|[Cc]on \d+ |y \d+ (?=\w+ más)|Si tenés)')
 
 
-def ramas(texto):
-    """Separa una opción en (cabecera, éxito pleno, éxito, fallo)."""
-    t = texto
-    def corta(et):
-        i = t.find(et)
-        return i
-    i_pl = corta('*Éxito pleno:*'); i_ex = corta('*Éxito:*'); i_fa = corta('*Fallo:*')
-    marcas = sorted([(i, k) for i, k in ((i_pl, 'pl'), (i_ex, 'ex'), (i_fa, 'fa')) if i >= 0])
+def tirada_cantidad(txt, r, etapa):
+    txt = txt.replace(' ', '')
+    if 'Etapa' in txt:
+        return d6(r) + etapa
+    m = re.fullmatch(r'(\d*)d6', txt)
+    if m:
+        return sum(d6(r) for _ in range(int(m.group(1) or 1)))
+    m = re.fullmatch(r'(\d+)', txt)
+    return int(m.group(1)) if m else 1
+
+
+def ramas(t):
+    marcas = []
+    for pat, et in ((r'\*10\+:\*', '10'), (r'\*7–9:\*', '79'), (r'\*6−:\*', '6'), (r'\*7\+:\*', '7p'),
+                    (r'[Cc]on 10\+[,:]', '10'), (r'[Cc]on 7–9[,:]', '79'), (r'[Cc]on 7\+[,:]', '7p'),
+                    (r'[Cc]on 6−[,:]', '6')):
+        for m in re.finditer(pat, t):
+            marcas.append((m.start(), m.end(), et))
+    marcas.sort()
     if not marcas:
-        return t, None, None, None
+        return t, {}
     cab = t[:marcas[0][0]]
     trozos = {}
-    for j, (i, k) in enumerate(marcas):
+    for j, (i, fin_et, et) in enumerate(marcas):
         fin = marcas[j + 1][0] if j + 1 < len(marcas) else len(t)
-        trozos[k] = t[i:fin]
-    return cab, trozos.get('pl'), trozos.get('ex'), trozos.get('fa')
+        if et not in trozos:
+            trozos[et] = t[fin_et:fin]
+    return cab, trozos
 
 
-def num(p, t, grupo=1):
-    return sum(int(m.group(grupo)) for m in re.finditer(p, t))
+def suma_ctx(pat, t):
+    tot = 0
+    for m in re.finditer(pat, t):
+        n = int(m.group(1))
+        ctx = t[max(0, m.start() - 28):m.start()]
+        tot += -n if NEG_CTX.search(ctx) else n
+    return tot
 
 
 def efectos(t):
-    """Interpreta los efectos de un trozo de texto."""
     e = Counter()
-    limpio = re.sub(r'\b(cura|curas|recuperas|Cura|Curas|Recuperas)\s+(\d+)\s+Heridas?', '', t)
-    e['curas'] = num(r'\b(?:cura|curas|recuperas|Cura|Curas|Recuperas)\s+(\d+)\s+Heridas?', t)
-    e['heridas'] = num(r'(?<![+−-])\b(\d+) Heridas?\b', limpio) + num(r'(?<![+−-])\b(\d+) Daños?\b(?! de nave)', limpio)
-    e['chatarra'] = num(r'\+(\d+) Chatarra', t) + num(r'[Gg]anas? (\d+) Chatarra', t) - num(r'[Pp]ierdes (\d+) Chatarra', t) \
-        - num(r'[Pp]aga(?:r|s)? (\d+) Chatarra', t)
-    e['raciones'] = num(r'\+(\d+) Raci', t) - num(r'[Pp]ierdes (\d+) Raci', t)
-    e['aire'] = num(r'\+(\d+) Aire', t) - num(r'[Pp]ierdes (\d+) Aire', t)
-    e['energia'] = num(r'\+(\d+) Energía', t) - num(r'[Pp]ierdes (\d+) Energía', t)
-    c = num(r'\+(\d+) Canto', t) - num(r'[−-](\d+) (?:de )?Canto', t) - num(r'[Bb]ajas? (\d+) (?:de )?Canto', t)
-    if c == 0 and not re.search(r'Canto', t):
-        c = t.count('♫')
-    e['canto'] = c
-    a = num(r'\+(\d+) Alerta', t) - num(r'[Bb]aja (\d+) (?:de )?(?:la )?Alerta', t)
-    if a == 0:
-        a = t.count('◉')
-    e['alerta'] = a
-    e['reloj'] = -t.count('⌛ +1') - num(r'[Rr]eloj baja (\d+)', t)
-    e['temple'] = num(r'\+(\d+) Temple', t) - num(r'[−-](\d+) Temple', t)
-    e['reliquia'] = len(re.findall(r'reliquia sin identificar|[Gg]anas una reliquia|una reliquia\b', t))
-    e['frag'] = len(set(re.findall(r'FRAGMENTO_[A-ZÁÉÍÓÚÑ_]+', t)))
-    e['hito'] = t.count('★')
-    for f, k in (('Hijos', 'rep_hijos'), ('Desguaces', 'rep_desg'), ('Coro', 'rep_coro'), ('Vigías', 'rep_vig')):
-        e[k] = num(r'\+(\d+) de Reputación con (?:los |el )?' + f, t) - num(r'[−-](\d+) de Reputación con (?:los |el )?' + f, t)
-    m = re.search(r'→ \[(e\d{3})\]', t)
-    e_goto = m.group(1) if m else None
-    m = re.search(r'\*\*(?:(Casco|Motor|Navegación|Soporte vital|Combustible) )?(Precari[oa]|Sólid[oa]|Excelente)\*\*', t)
-    cal = None
-    if m:
-        g = m.group(2)
-        cal = 'Precaria' if g.startswith('Precari') else ('Sólida' if g.startswith('Sólid') else 'Excelente')
-        cal = (m.group(1), cal)
-    return e, e_goto, cal
+    e['ruido'] = sum(int(x) for x in re.findall(r'\+(\d+) Ruido', t))
+    e['rastro'] = sum(int(x) for x in re.findall(r'\+(\d+) Rastro', t)) - sum(int(x) for x in re.findall(r'−(\d+) Rastro', t))
+    e['moral'] = sum(int(x) for x in re.findall(r'\+(\d+) Moral', t)) - sum(int(x) for x in re.findall(r'−(\d+) Moral', t))
+    e['animo'] = sum(int(x) for x in re.findall(r'\+(\d+) Ánimo', t)) - sum(int(x) for x in re.findall(r'−(\d+) Ánimo', t))
+    e['rep'] = sum(int(x) for x in re.findall(r'\+(\d+) (?:de )?Reputación', t)) - \
+        sum(int(x) for x in re.findall(r'−(\d+) (?:de )?Reputación', t))
+    limpio = re.sub(r'(borr[aá]s|cur[aá]s?|recuper[aá]s?|cura|casillas? de) \d+ Heridas?', '', t)
+    e['heridas'] = sum(int(x) for x in re.findall(r'(?<![+\d])(\d+) Heridas?\b', limpio))
+    e['curas'] = sum(int(x) for x in re.findall(r'(?:borr[aá]s|cur[aá]s?|recuper[aá]s?|cura) (\d+) Heridas?', t))
+    e['viv'] = max(-4, min(6, suma_ctx(r'(\d+) Víver(?:es)?', t)))
+    for mat in MATS:
+        e[mat] = max(-3, min(4, suma_ctx(r'(\d+) ' + mat, t)))
+    e['Antiviral'] = max(-1, min(2, suma_ctx(r'(\d+) Antivirales?', t))) + (1 if re.search(r'\bun Antiviral\b', t) else 0)
+    e['muni'] = max(-6, min(12, suma_ctx(r'(\d+) (?:de )?Munición', t)))
+    e['azar'] = len(re.findall(r'material(?:es)? al azar', t))
+    e['pista'] = len(re.findall(r'[Uu]na pista', t)) + 2 * len(re.findall(r'[Dd]os pistas', t))
+    e['muerde'] = len(re.findall(r'empieza la Fiebre|te muerde|te mordió', t))
+    e['arana'] = len(re.findall(r'prueba de Fiebre', t))
+    e['surv'] = 1 if re.search(r'se une|se suma|se queda con (?:ustedes|vos)|vienen? al refugio|\(r180\)|r304|'
+                                r'es un sobreviviente|un sobreviviente con', t) else 0
+    e['res_menos'] = sum(int(x) for x in re.findall(r'pierde (\d+) (?:de )?Resistencia', t))
+    e['res_mas'] = sum(int(x) for x in re.findall(r'\+(\d+) (?:de )?Resistencia', t))
+    e['manual'] = 1 if re.search(r'un manual|\[e770\]', t) else 0
+    e['herr'] = 1 if re.search(r'[Uu]na herramienta|herramienta al azar', t) else 0
+    arma = re.search(r'\b(una escopeta|un revólver|un rifle|un fusil|un hacha|un machete|un bate|una pistola)\b', t)
+    e['arma'] = 1 if arma else 0
+    combates = []
+    for m in RE_COMB.finditer(t):
+        combates.append((m.group(1), m.group(2), int(m.group(3)) if m.group(3) else None, DIST[m.group(4)]))
+    m = re.search(r'→ \*{0,2}\[(e\d{3})\]', t)
+    return e, combates, (m.group(1) if m else None), (arma.group(1) if arma else '')
+
+
+def valor(e, combates):
+    v = (1.0 * e['viv'] + 0.8 * sum(e[m] for m in MATS if m != 'Fármacos') + 1.6 * e['Fármacos'] +
+         3 * e['Antiviral'] + 0.25 * e['muni'] + 0.8 * e['azar'] - 2.2 * e['heridas'] + 1.5 * e['curas'] -
+         0.7 * e['ruido'] - 1.3 * e['rastro'] + 1.1 * e['moral'] + 0.5 * e['animo'] + 1.2 * e['pista'] +
+         3 * e['surv'] - 8 * e['muerde'] - 2.5 * e['arana'] + 0.6 * e['res_mas'] - 1.0 * e['res_menos'] +
+         1.5 * e['manual'] + 1.2 * e['herr'] + 2 * e['arma'] + 0.4 * e['rep'])
+    for nombre, cant, ag, dist in combates:
+        n = 3.5 if 'd6' in cant or 'Etapa' in cant else (int(re.sub(r'\D', '', cant) or 1))
+        a = ag or ESPECIAL.get(nombre, (1, 1))[0]
+        v -= 0.9 * n * a + 1.0 * dist
+    return v
+
+
+def opciones(cuerpo):
+    ops = []
+    for m in re.finditer(r'^(?:\d+\.|-) \*\*(.+?)\*\*(.*?)(?=^\d+\. \*\*|^- \*\*|^---|\Z)', cuerpo, re.M | re.S):
+        tit, txt = m.group(1), m.group(2)
+        if re.match(r'(Si |si |Con |Solo |Tesoro|Lugares|Refugio|Conexiones|Los lugares|Tu contador|Cómo|Qué |Antes)', tit):
+            continue
+        if re.search(r'Si sos|Si tenés|si tenés|Necesitás|necesitás|Solo si|solo si|Si ya|Si llevás|si llevás|'
+                     r'Con Palanca|Si el barrio|Si es |Requiere', tit + txt[:60]):
+            continue
+        if re.search(r'Revisar|Revisás', tit) and '(r161)' in tit + txt[:40]:
+            continue
+        ops.append((tit, txt))
+    return ops
 
 
 # ---------------------------------------------------------------- estado
-class Muerte(Exception):
-    pass
+class Fin(Exception):
+    def __init__(self, causa):
+        super().__init__(causa)
+        self.causa = causa
+
+
+class Volver(Exception):
+    """e100, opción 5: das la vuelta y la salida termina."""
+
+
+class Caida(Exception):
+    """Llenaste la última casilla: Muriendo (r190). El combate termina (r149)."""
+    def __init__(self, causa):
+        super().__init__(causa)
+        self.causa = causa
+
+
+class Surv:
+    __slots__ = ('n', 'hab', 'lvl', 'h', 'fiebre', 'arma', 'grave', 'hambre')
+
+    def __init__(self, n, r):
+        self.n = n
+        self.hab = r.choice(HABS)
+        self.lvl = r.choice((2, 2, 3))
+        self.h = 0
+        self.fiebre = 0
+        self.arma = r.choice((1, 1, 2))
+        self.grave = False
+        self.hambre = 0
+
+    def pel(self):
+        return self.lvl if self.hab in ('Pelea', 'Puntería', 'Físico') else 0
 
 
 class Partida:
-    def __init__(self, prota, ev, tablas, rng, traza=False, estrategia='normal'):
-        self.p, self.ev, self.tablas, self.r = prota, ev, tablas, rng
-        self.traza, self.estr = traza, estrategia
-        self.at = {'Vigor': 3, 'Reflejos': 3, 'Ingenio': 3, 'Voluntad': 3}
-        if prota == 'piloto':
-            self.at.update(Vigor=2, Reflejos=4, Ingenio=4, Voluntad=2); self.at['Reflejos'] += 1
-        elif prota == 'nativo':
-            self.at.update(Vigor=4, Reflejos=3, Ingenio=2, Voluntad=3); self.at['Vigor'] += 1
-        else:
-            self.at.update(Vigor=2, Reflejos=3, Ingenio=4, Voluntad=3); self.at['Ingenio'] += 1; self.at['Voluntad'] -= 1
-        self.her = 0; self.temple = 2; self.temple_max = 3
-        self.aire = 6 if prota == 'piloto' else 0
-        self.energia = 3 if prota == 'piloto' else (6 if prota == 'mente' else 0)
-        self.raciones = 0 if prota == 'mente' else 5
-        self.canto = 0; self.chatarra = 3; self.alerta = 1; self.reloj = 60; self.dia = 0
-        self.baliza = True; self.region = 1; self.arma = 1 if prota != 'mente' else 1
-        self.blind = 2 if prota == 'mente' else 0
-        self.rep = {'hijos': 1 if prota == 'nativo' else 0, 'desg': -1 if prota == 'nativo' else 0, 'coro': 0, 'vig': 0}
-        self.sis = {}                       # sistema -> [estado, calidad]  estado: llevado / instalado
-        self.hall = defaultdict(list)       # región -> ['sis:Casco', 'trip:Iria', ...]
-        for s in SISTEMAS:
-            self.hall[self.r.randint(1, 8)].append('sis:' + s)
-        for t in TRIPU:
-            self.hall[self.r.randint(1, 8)].append('trip:' + t)
-        self.compas = []; self.cicatriz = []; self.lealtad = {}; self.comp_her = {}
-        if prota == 'piloto':
-            t = self.r.choice(TRIPU)
-            for reg in self.hall.values():
-                if 'trip:' + t in reg:
-                    reg.remove('trip:' + t)
-            self.compas.append(t); self.lealtad[t] = 2; self.comp_her[t] = 0
-        self.reliquias = 0; self.frag = 0; self.deuda = False; self.quilla = False
-        self.stats = Counter(); self.fin = None; self.danos = None; self.canto6 = 0; self.caidas = 0
-        self.dia_sistemas = {}
-        self.reglas_v2 = estrategia != 'v1'
-        self.despensa = 15 if self.reglas_v2 else 0
-        self.max_compas = {'normal': 1, 'sola': 0, 'grupo': 2}.get(estrategia, 1)
+    def __init__(self, datos, prota, r, refugio=None, traza=False, ajustes=None):
+        self.ev, self.tablas, lugares, self.refs, self.baraja = datos
+        self.r, self.traza = r, traza
+        self.aj = dict(AJUSTES, **(ajustes or {}))
+        self.prota = prota
+        P = PROTAS[prota]
+        self.hab = Counter({h: 0 for h in HABS})
+        self.hab.update(P['hab'])
+        self.practica = Counter()
+        self.maxh = P['maxh']
+        self.h = 0
+        self.fiebre = 0
+        self.reservas = 6
+        self.animo = 4
+        self.prot = 0
+        self.revistas = 0
+        self.vendas = 0
+        self.armas = [dict(a) for a in P['armas']] + [dict(n='improvisada', d=1, r=0, alc='C', usos=None, fuego=False)]
+        if self.aj['arma_ini']:
+            self.armas.append(dict(n='caño', d=self.aj['arma_ini'], r=0, alc='C', usos=6, fuego=False))
+        self.muni = 6 if prota == 'agente' else 0
+        self.herr = set()
+        self.manuales = set()
+        self.antiv = 0
+        self.linterna = False
+        self.soga = False
+        self.molotov = 0
+        self.pistas = 0
+        self.rep = 0
+        self.grupo = []
+        self.nombres = iter(f's{i}' for i in range(1000))
+        hab, obj = P['origen'][d6(r) - 1]
+        self.hab[hab] += 1
+        if obj == 'botiquin':
+            self.herr.add('Botiquín')
+        elif obj == 'martillo':
+            self.herr.add('Martillo')
+        elif obj == 'linterna':
+            self.linterna = True
+        elif obj == 'prot':
+            self.prot = 1
+        elif obj == 'muni':
+            self.muni += 6
+        elif obj == 'perro':
+            s = Surv('Negro', r); s.hab, s.lvl, s.arma = 'Pelea', 2, 2; self.grupo.append(s)
+        elif obj == 'superv':
+            self.grupo.append(Surv('Lucía', r))
+        elif obj == 'quimica':
+            self.manuales.add(774)
+        for h in P['extra']:
+            self.hab[h] = min(4, self.hab[h] + 1)
+        self.lugares = {k: dict(v) for k, v in lugares.items()}
+        self.ref_id = refugio or r.choice(sorted(REFUGIOS))
+        R = self.refs[self.ref_id]
+        self.home = R['barrio']
+        self.frentes = dict(R['frentes'])
+        self.sin_subsuelo = self.frentes['Subsuelo'] == 0
+        self.trampas = {f: [] for f in FRENTES}
+        self.mats = Counter(R['mats'])
+        self.muni += R['muni']
+        self.viv = R['viv']
+        self.rastro = R['rastro']
+        self.moral = 5
+        self.inst = set()
+        if self.ref_id == 'e480':
+            self.inst |= {'Cisterna', 'Vigía'}
+        if self.ref_id == 'e460':                       # patrulleros, escopeta y el Negro
+            self.herr.add('Botiquín')
+            self.arma('una escopeta')
+            if not any(x.n == 'Negro' for x in self.grupo):
+                s = Surv('Negro', r); s.hab, s.lvl, s.arma = 'Pelea', 2, 2; self.grupo.append(s)
+        if self.ref_id == 'e450':                       # el revólver de Don Ramón
+            self.arma('un revólver')
+            self.muni += 3
+        self.desarmar = self.aj['desarmar']
+        self.muebles = set()
+        self.semillas = False
+        self.mudo = False
+        self.tesoro = {t: r.choice(lugs) for t, lugs in TESOROS.items()}
+        self.tesoros = set()
+        self.procs = Counter()
+        for _ in range(2):
+            self.procs[self.proc_barrio()] += 1
+        self.mazo = [(p, v) for p in ('Oros', 'Copas', 'Espadas', 'Bastos') for v in range(1, 13) if v not in (8, 9)]
+        r.shuffle(self.mazo)
+        self.dia = 0
+        self.secreto = d6(r)
+        self.secreto_abierto = False
+        self.stats = Counter()
+        self.ruido = 0
+        self.barrio = self.home
+        self.compas = []
+        self.en_noche40 = False
 
-    # ----- utilidades
+    # ------------------------------------------------------------ utilidades
     def log(self, *a):
         if self.traza:
-            print(f'  [día {self.dia:2d} · Reloj {self.reloj:2d} · {NOMBRE_REG[self.region]:10s}]', *a)
+            print('   ', *a)
 
-    def pen(self):
-        return {0: 0, 1: 0, 2: -1, 3: -2, 4: -2}[min(self.her, 4)]
+    @property
+    def etapa(self):
+        return min(4, 1 + (self.dia - 1) // 10) if self.dia else 1
 
-    def d2(self, modo=None):
-        if modo is None:
-            return self.r.randint(1, 6) + self.r.randint(1, 6)
-        d = sorted(self.r.randint(1, 6) for _ in range(3))
-        return d[1] + d[2] if modo == 'V' else d[0] + d[1]
+    def gente(self):
+        return 1 + len(self.grupo)
 
-    def prob(self, attr, dif, modo=None):
-        base = self.at[attr] + self.pen()
-        n = dif - base
-        tabla = {None: P2, 'V': PV, 'D': PD}[modo]
-        return tabla.get(max(2, min(13, n)), 0.0) if n <= 12 else 0.0
+    def frs(self):
+        return [f for f in FRENTES if not (f == 'Subsuelo' and self.sin_subsuelo)]
 
-    def prueba(self, attr, dif, modo=None, importante=False):
-        """Devuelve 'pl', 'ex' o 'fa'. Gasta Temple en las importantes."""
-        total = self.d2(modo) + self.at[attr] + self.pen()
-        self.stats['pruebas'] += 1
-        if total < dif and self.temple > (0 if importante else 1):
-            self.temple -= 1; self.stats['temple_gastado'] += 1
-            total = self.d2(modo) + self.at[attr] + self.pen()
-        if total >= dif + 3:
-            return 'pl'
-        return 'ex' if total >= dif else 'fa'
+    def proc_barrio(self):
+        t = d6(self.r) + d6(self.r)
+        if t == 12:
+            return 'Puerto' if d6(self.r) <= 3 else 'Universidad'
+        return PROCESION_2D6[t]
 
-    def herir(self, n, fuente=''):
-        for _ in range(n):
-            if n >= 2 and self.compas and self.r.random() < .5:
-                c = self.compas[0]; self.comp_her[c] += 1; n -= 1
-                if self.comp_her[c] >= 3:
-                    self.compas.remove(c)
-                    if self.r.randint(1, 6) <= 2:
-                        self.stats['tripulantes_muertos'] += 1
-                    else:
-                        self.cicatriz.append(c)
-                continue
-            if self.her >= 4:
-                self.caer(fuente)
-            else:
-                self.her += 1
+    def prueba(self, hab, desv=False, vent=False, bonus=0):
+        if self.h >= self.maxh - 2 or self.reservas == 0 or self.animo == 0 or self.fiebre >= 4:
+            desv = True
+        if desv and vent:
+            desv = vent = False
+        dados = sorted(d6(self.r) for _ in range(3 if desv or vent else 2))
+        if desv:
+            dados = dados[:2]
+        elif vent:
+            dados = dados[-2:]
+        t = sum(dados) + self.hab[hab] + min(2, bonus)
+        if t <= 6:
+            self.practica[hab] += 1
+            if self.practica[hab] >= 3 and self.hab[hab] < 5:
+                self.practica[hab] = 0
+                self.hab[hab] += 1
+        return t
 
-    def caer(self, fuente):
-        self.caidas += 1
-        if self.temple <= 0:
-            self.fin = 'muerte'; self.muerte_por = fuente
-            raise Muerte()
-        self.temple -= 1; self.reloj -= 2; self.raciones = 0; self.chatarra = 0
-        self.log('cae y se despierta en Crítico')
-
-    def subir_alerta(self, n=1):
-        for _ in range(max(0, n)):
-            if self.alerta >= 4:
-                self.reloj -= 2; self.stats['reloj_por_alerta'] += 2
-            else:
-                self.alerta += 1
-
-    def subir_canto(self, n):
-        self.canto = max(0, self.canto + n)
-        if self.canto >= 6:
-            self.canto6 += 1; self.canto = 4; self.log('Canto 6')
-            self.stats['canto6'] += 1
-
-    def aplicar(self, e):
-        if e['curas']:
-            self.her = max(0, self.her - e['curas'])
-        if e['heridas']:
-            self.herir(e['heridas'], 'evento')
-        self.chatarra = max(0, self.chatarra + e['chatarra'])
-        self.raciones = max(0, min(8, self.raciones + e['raciones']))
-        if self.p == 'piloto':
-            self.aire = max(0, min(6, self.aire + e['aire']))
-        if self.p != 'nativo':
-            self.energia = max(0, min(6, self.energia + e['energia']))
-        if e['canto'] > 0:
-            self.subir_canto(e['canto'])
-        elif e['canto'] < 0:
-            self.canto = max(0, self.canto + e['canto'])
-        if e['alerta'] > 0:
-            self.subir_alerta(e['alerta'])
-        elif e['alerta'] < 0:
-            self.alerta = max(2 if self.baliza else 1, self.alerta + e['alerta'])
-        self.reloj += e['reloj']
-        self.temple = max(0, min(self.temple_max, self.temple + e['temple']))
-        self.reliquias += e['reliquia']; self.frag += e['frag']
-        for k in ('hijos', 'desg', 'coro', 'vig'):
-            self.rep[k] = max(-3, min(3, self.rep[k] + e['rep_' + k]))
-        for _ in range(e['hito']):
-            self.mejora()
-
-    def mejora(self):
-        self.stats['mejoras'] += 1
-        for a in ('Ingenio', 'Reflejos', 'Voluntad', 'Vigor'):
-            if self.at[a] < 5:
-                self.at[a] += 1; return
-        if self.temple_max < 4:
-            self.temple_max += 1
-
-    # ----- combate (r140–r146)
-    def ataque(self):
-        base = max(self.at['Vigor'], self.at['Reflejos']) + self.arma
-        return base + sum(2 if c == 'Bruno' else 1 for c in self.compas) + self.pen()
-
-    def combate(self, en, emboscada=False):
-        self.stats['combates'] += 1
-        h = en['h']; rondas = 0; bl = en['bl'] + (1 if 'Antiguo' in en['tags'] else 0)
-        if emboscada:
-            self.herir(1, en['n'])
-        while h > 0:
-            rondas += 1
-            if self.her >= 3 and h > 1 and rondas > 1:
-                modo = 'D' if 'Rápido' in en['tags'] else ('V' if 'Lio' in self.compas else None)
-                if self.prueba('Reflejos', 9, modo) != 'fa':
-                    self.stats['huidas'] += 1
-                    if rondas > 3: self.subir_alerta(1)
-                    return 'huye'
-                self.herir(1, en['n'])
-                continue
-            yo = self.d2('D' if emboscada and rondas == 1 else None) + self.ataque()
-            el = self.d2() + en['atk']
-            dif = abs(yo - el)
-            dano = 0 if dif == 0 else (1 if dif <= 3 else (2 if dif <= 6 else 3))
-            if yo > el:
-                d = max(dano - bl, 1 if dif >= 4 else 0)
-                if 'Enjambre' in en['tags']:
-                    d = min(d, 1)
-                h -= d
-            elif el > yo:
-                d = max(dano - self.blind, 1 if dif >= 4 else 0)
-                if 'Grande' in en['tags'] and dif >= 7:
-                    d += 1
-                if 'Cantor' in en['tags']:
-                    self.subir_canto(1)
-                if d:
-                    self.herir(d, en['n'])
-            if rondas > 12:
-                break
-        if rondas > 3:
-            self.subir_alerta(1)
-        if 'Náufrago' in en['tags'] or 'Máquina' in en['tags']:
-            self.chatarra += (self.r.randint(1, 6) + 1) // 2
-        self.stats['combates_ganados'] += 1
-        return 'gana'
-
-    def p_combate(self, en):
-        """Estimación barata de victoria sin perder más de 2 Heridas."""
-        a = self.ataque() - en['atk']
-        rondas = en['h'] / max(.6, 1 + a * .25)
-        perdidas = rondas * max(.15, .5 - a * .08) * max(.3, 1 - self.blind * .35)
-        return perdidas
-
-    # ----- eventos
-    def valor(self, e, cal, sistema):
-        v = 0.0
-        v -= e['heridas'] * (2.5 + 1.5 * self.her) - e['curas'] * 2
-        v += e['chatarra'] * .8 + e['raciones'] * .4 + e['aire'] * .5 * (self.p == 'piloto') + e['energia'] * .3
-        v -= e['canto'] * (1 + .4 * self.canto) + e['alerta'] * 1.2 - e['reloj'] * 1.5 + e['temple'] * -1.5
-        v += e['reliquia'] * 2 + e['frag'] * 1 + e['hito'] * 2
-        if cal and sistema and self.necesita(sistema):
-            v += 14 + 4 * ORDEN_CAL.index(cal[1])
-        return v
-
-    def necesita(self, s):
-        return s not in self.sis
-
-    def evento(self, eid, prof=0, sistema=None):
-        if self.fin or prof > 4 or eid not in self.ev:
-            return
-        self.stats['eventos'] += 1
-        self.vistos[eid] += 1
-        cuerpo = self.ev[eid]
-        sistema = sistema or SYS_DE_EVENTO.get(eid)
-        cab_ev = cuerpo.split('\n1. **')[0]
-        ops = opciones_de(cuerpo)
-        enem_ev = enemigo_de(cuerpo)
-        if not ops:
-            e, goto, cal = efectos(cab_ev)
-            self.aplicar(e)
-            if enem_ev and re.search(r'[Cc]ombate', cab_ev):
-                self.combate(enem_ev)
-            if goto:
-                self.evento(goto, prof + 1, sistema)
-            return
-        mejor, mejor_v = None, -1e9
-        for tit, txt in ops:
-            cab, pl, ex, fa = ramas(txt)
-            if RE_REQ.search(tit + ' ' + cab[:120]):
-                continue
-            coste = re.match(r'\s*(\d+) Chatarra', cab)
-            if coste and int(coste.group(1)) > self.chatarra:
-                continue
-            m = RE_PRUEBA.search(cab)
-            en = enemigo_de(txt) or (enem_ev if re.search(r'[Cc]ombate|Luchar', tit + cab) else None)
-            if m:
-                attr, dif = m.group(1), int(m.group(2))
-                modo = 'D' if m.group(3) == 'Desv' or (attr == 'Voluntad' and '♫' in cab and self.canto >= 3) else None
-                p = self.prob(attr, dif, modo); ppl = self.prob(attr, dif + 3, modo)
-                e_ex, _, c_ex = efectos(ex or cab); e_pl, _, c_pl = efectos(pl or ex or cab)
-                e_fa, _, c_fa = efectos(fa or '')
-                if '⚔' in cab and not e_fa['heridas']: e_fa['heridas'] += 1
-                e_fa['alerta'] += cab.count('◉'); e_fa['canto'] += cab.count('♫')
-                v = ppl * self.valor(e_pl, c_pl, sistema) + (p - ppl) * self.valor(e_ex, c_ex, sistema) \
-                    + (1 - p) * self.valor(e_fa, c_fa, sistema)
-            else:
-                e0, _, c0 = efectos(txt)
-                v = self.valor(e0, c0, sistema)
-                if en:
-                    v -= self.p_combate(en) * (3 + self.her) - 2
-            if v > mejor_v:
-                mejor, mejor_v = (tit, txt), v
-        if mejor is None:
-            mejor = ops[-1]
-        tit, txt = mejor
-        cab, pl, ex, fa = ramas(txt)
-        m = RE_PRUEBA.search(cab)
-        if m:
-            modo = 'D' if m.group(3) == 'Desv' or (m.group(1) == 'Voluntad' and '♫' in cab and self.canto >= 3) else None
-            if m.group(1) == 'Ingenio' and re.search(r'Noemí', cab) and 'Noemí' in self.compas:
-                modo = 'V'
-            res = self.prueba(m.group(1), int(m.group(2)), modo, importante=bool(sistema))
-            trozo = {'pl': pl or ex, 'ex': ex, 'fa': fa}[res] or ''
-            e, goto, cal = efectos(trozo)
-            if res == 'fa':
-                if '⚔' in cab and not e['heridas']: e['heridas'] += 1
-                e['alerta'] += cab.count('◉'); e['canto'] += cab.count('♫')
-            coste = re.match(r'\s*(\d+) Chatarra', cab)
-            if coste: e['chatarra'] -= int(coste.group(1))
-            self.aplicar(e)
-            en = enemigo_de(trozo) or (enem_ev if res == 'fa' and re.search(r'[Cc]ombate', trozo) else None)
-            if en:
-                self.combate(en, emboscada='Emboscada' in trozo)
+    def mejor_arma(self, lejos):
+        if lejos:
+            cand = [a for a in self.armas if a['alc'] == 'L' and (not a['fuego'] or self.muni > 0)]
         else:
-            e, goto, cal = efectos(txt)
-            self.aplicar(e)
-            en = enemigo_de(txt) or (enem_ev if re.search(r'[Cc]ombate|Luchar', tit + cab) else None)
-            if en:
-                if self.combate(en) != 'gana':
-                    cal = None
-        if cal and sistema:
-            self.conseguir(cal[0] or sistema, cal[1], eid)
-        if goto and not self.fin:
-            self.evento(goto, prof + 1, sistema)
-
-    def conseguir(self, s, cal, fuente):
-        if s not in SISTEMAS and s != 'Personal':
-            return
-        if s in self.sis:
-            return
-        self.sis[s] = ['llevado', cal]; self.dia_sistemas[s] = self.dia
-        self.stats['via_' + ('rescate' if fuente in RESCATE.values() or fuente[:3] == 'e56' else fuente)] += 1
-        for reg in self.hall.values():
-            if 'sis:' + s in reg:
-                reg.remove('sis:' + s)
-        self.log(f'consigue {s} {cal} ({fuente})')
-
-    # ----- acciones del día
-    def encuentro(self, columna=None):
-        tira = self.d2()
-        col = (columna or self.alerta) - 1
-        eid = self.tablas[self.region].get(tira, [None] * 4)[col]
-        self.stats['encuentros'] += 1
-        if eid:
-            self.evento(eid)
-
-    def viajar(self, destino):
-        self.stats['acc_viajar'] += 1
-        if self.p == 'nativo':
-            ok = True
-        else:
-            ok = self.prueba('Ingenio', 9, 'V' if 'Amara' in self.compas and False else None) != 'fa'
-        if ok or self.r.randint(1, 6) <= 3:
-            if not ok:
-                if self.p == 'mente': self.energia = max(0, self.energia - 1)
-                else: self.raciones = max(0, self.raciones - 1)
-            self.region = destino
-        self.encuentro()
-
-    def explorar(self):
-        self.stats['acc_explorar'] += 1
-        res = self.prueba('Ingenio', 9, 'V' if 'Amara' in self.compas and self.region in (6, 7) else None)
-        if res == 'fa':
-            self.encuentro(); return
-        if res == 'pl':
-            if self.p == 'mente': self.energia = min(6, self.energia + 1)
-            else: self.raciones = min(8, self.raciones + 1)
-        aqui = self.hall[self.region]
-        sis = [h for h in aqui if h.startswith('sis:')]
-        per = [h for h in aqui if h == 'personal']
-        tri = [h for h in aqui if h.startswith('trip:')]
-        if sis:
-            s = sis[0][4:]; self.log('rescate de', s)
-            self.evento(RESCATE[s], sistema=s)
-            if s not in self.sis:      # el pecio no salió bien: queda tachado
-                aqui.remove(sis[0]); self.stats['rescate_perdido'] += 1
-        elif per:
-            aqui.remove('personal')
-            cal = self.r.randint(1, 6)
-            self.conseguir('Personal', 'Precaria' if cal <= 2 else ('Sólida' if cal <= 5 else 'Excelente'), 'historia')
-        elif tri:
-            t = tri[0][5:]; aqui.remove(tri[0]); self.stats['tripulantes'] += 1
-            if len(self.compas) < self.max_compas:
-                self.compas.append(t); self.lealtad[t] = 2; self.comp_her[t] = 0
-            else:
-                self.cicatriz.append(t)
-            self.log('encuentra a', t)
-        elif self.p != 'mente' and self.raciones <= 2:
-            self.raciones = min(8, self.raciones + (3 if self.p == 'nativo' else 2))
-        else:
-            self.pecio()
-
-    def pecio(self):
-        self.stats['pecios'] += 1
-        tipo = self.r.randint(1, 6) if self.region not in (6, 7) else 5
-        if self.region == 2:
-            tipo = max(tipo, self.r.randint(1, 6))
-        guard = {1: (2, 0, 3, {'Bestia', 'Enjambre'}), 2: (3, 0, 2, {'Cantor'}), 3: (4, 2, 2, {'Máquina'}),
-                 4: (2, 1, 2, {'Máquina'}), 5: (4, 2, 3, {'Máquina', 'Antiguo'}), 6: (5, 1, 3, {'Bestia', 'Grande'})}[tipo]
-        if tipo == 5:
-            self.subir_canto(1)
-        for sala in range(1, 5):
-            t = self.d2()
-            if sala == 2 and t in (3, 4, 5):
-                t = 2
-            if t == 2:
-                g = guard
-                if self.combate({'n': 'guardián', 'atk': g[0], 'bl': g[1], 'h': g[2], 'tags': g[3]}) != 'gana':
-                    return
-            elif t in (3, 4):
-                if self.prueba('Reflejos', 9) == 'fa':
-                    self.herir(1, 'trampa')
-                    if t == 4: return
-            elif t == 5: self.chatarra += 1
-            elif t in (6, 8): self.chatarra += 2 + (tipo == 1) + ('Noemí' in self.compas)
-            elif t == 7:
-                if self.p == 'piloto' and self.aire < 4: self.aire = min(6, self.aire + 2)
-                elif self.p == 'mente': self.energia = min(6, self.energia + 2)
-                else: self.raciones = min(8, self.raciones + 2 * (1 + (tipo == 2)))
-            elif t == 9 or (t == 10 and tipo == 5 and self.r.random() < .5):
-                self.arma = max(self.arma, self.r.choice([1, 1, 1, 2, 2, 2])) if self.r.random() < .5 else self.arma
-                self.stats['equipo'] += 1
-            elif t == 10: self.reliquias += 1
-            elif t == 11: self.evento(f'e{500 + (tipo - 1) * 3 + self.r.choice([0, 0, 0, 1, 1, 2]):03d}')
-            elif t == 12:
-                if self.r.randint(1, 6) >= 4: self.chatarra += 5; self.reliquias += 1
-            if self.fin or self.her >= 2 or self.alerta >= 4:
-                return
-
-    def descansar(self):
-        self.stats['acc_descansar'] += 1
-        en_cicatriz = self.region == 1
-        cubierto = en_cicatriz
-        if self.p != 'mente':
-            self.her = max(0, self.her - (2 if cubierto else 1) - ('Iria' in self.compas or 'Iria' in self.cicatriz))
-        elif self.chatarra > 0 or en_cicatriz:
-            gratis = 1 if en_cicatriz else 0
-            pagar = min(self.her - gratis, self.chatarra)
-            self.her = max(0, self.her - gratis - max(0, pagar)); self.chatarra -= max(0, pagar)
-        self.temple = min(self.temple_max, self.temple + 1)
-        if en_cicatriz: self.canto = max(0, self.canto - 1)
-        if 'Tadeo' in self.compas: self.canto = max(0, self.canto - 1)
-        for c in self.compas: self.comp_her[c] = 0
-        if not cubierto and self.d2() >= 10:
-            self.encuentro()
-
-    def visitar(self):
-        """Asentamiento: compra, sanador, descanso a cubierto y una vía de sistema si la hay."""
-        self.stats['acc_visitar'] += 1
-        reg = self.region
-        # comprar comida/aire
-        if self.p != 'mente':
-            while self.raciones < 5 and self.chatarra >= 1:
-                self.chatarra -= 1; self.raciones += 2 if reg != 4 else 4
-        if self.p == 'piloto' and reg != 4:
-            if self.aire < 6 and self.chatarra >= 1: self.chatarra -= 1; self.aire = 6
-        if self.p != 'nativo' and self.energia < 6 and self.chatarra >= 1:
-            self.chatarra -= 1; self.energia = 6
-        # sanador
-        while self.her >= 2 and self.chatarra >= 2 and self.p != 'mente':
-            self.chatarra -= 2; self.her = max(0, self.her - 2)
-        if self.canto >= 4 and self.chatarra >= 3:
-            self.chatarra -= 3; self.canto -= 2
-        # vías de sistema
-        if reg == 2:
-            if self.necesita('Combustible'):
-                if self.chatarra >= 12: self.chatarra -= 12; self.conseguir('Combustible', 'Sólida', 'e405')
-                elif self.estr != 'sin_deuda': self.deuda = True; self.conseguir('Combustible', 'Sólida', 'e405')
-            elif self.necesita('Casco') and self.chatarra >= 10:
-                self.chatarra -= 10; self.conseguir('Casco', 'Sólida', 'e404')
-            elif self.necesita('Casco') and self.chatarra >= 5 and self.reloj < 25:
-                self.chatarra -= 5; self.conseguir('Casco', 'Precaria', 'e404')
-        elif reg == 4:
-            self.quilla = True
-            if self.necesita('Soporte vital') and self.rep['hijos'] >= 1:
-                self.conseguir('Soporte vital', 'Excelente' if self.rep['hijos'] >= 3 else 'Sólida', 'e416')
-            elif self.necesita('Soporte vital') and self.chatarra >= 8:
-                self.chatarra -= 8; self.conseguir('Soporte vital', 'Sólida', 'e416')
-            elif self.necesita('Motor') and self.rep['hijos'] >= 1 and self.chatarra >= 6:
-                self.chatarra -= 6; self.reloj -= 1
-                r = self.prueba('Ingenio', 9, 'V' if 'Noemí' in self.compas else None, True)
-                self.conseguir('Motor', {'pl': 'Excelente', 'ex': 'Sólida', 'fa': 'Precaria'}[r], 'e414')
-            elif self.necesita('Motor'):
-                self.reloj -= 1
-                if self.prueba('Vigor', 9) != 'fa':
-                    self.conseguir('Motor', 'Sólida' if self.rep['hijos'] >= 2 else 'Precaria', 'e414')
-                else:
-                    self.herir(1, 'forja')
-        elif reg == 3 and self.necesita('Combustible'):
-            self.evento('e241', sistema='Combustible')
-        elif reg == 5 and self.necesita('Soporte vital'):
-            self.evento('e261', sistema='Soporte vital')
-        elif reg == 6 and self.necesita('Motor') and self.rep['vig'] >= 2:
-            self.conseguir('Motor', 'Excelente', 'e432')
-        elif reg == 7 and self.necesita('Navegación') and self.rep['coro'] >= 2:
-            self.conseguir('Navegación', 'Excelente', 'e426')
-        # descanso a cubierto
-        if self.p != 'mente':
-            self.her = max(0, self.her - 2)
-        self.temple = min(self.temple_max, self.temple + 1)
-
-    def instalar(self):
-        self.stats['acc_instalar'] += 1
-        s = next(k for k, v in self.sis.items() if v[0] == 'llevado')
-        modo = 'V' if ('Noemí' in self.compas or 'Noemí' in self.cicatriz or self.p == 'mente') else None
-        r = self.prueba('Ingenio', 9, modo)
-        if r == 'fa':
-            self.chatarra = max(0, self.chatarra - 1); return
-        cal = self.sis[s][1]
-        if r == 'pl':
-            cal = ORDEN_CAL[min(2, ORDEN_CAL.index(cal) + 1)]
-        self.sis[s] = ['instalado', cal]; self.mejora()
-        self.log('instala', s, cal)
-
-    def mejorar(self):
-        self.stats['acc_mejorar'] += 1
-        s = min((k for k, v in self.sis.items() if v[1] != 'Excelente'), key=lambda k: ORDEN_CAL.index(self.sis[k][1]))
-        self.chatarra -= 3
-        if self.prueba('Ingenio', 11) != 'fa':
-            self.sis[s][1] = ORDEN_CAL[ORDEN_CAL.index(self.sis[s][1]) + 1]
-
-    # ----- el despegue (e900)
-    def despegue(self, desesperado=False):
-        danos = 0
-        if self.deuda:
-            if self.chatarra >= 12: self.chatarra -= 12
-            else:
-                try:
-                    if self.combate({'n': 'Cobradores', 'atk': 4, 'bl': 2, 'h': 4, 'tags': {'Náufrago'}}) != 'gana':
-                        danos += 1
-                except Muerte:
-                    self.fin = None; danos += 1
-        pruebas = [('Motor', 'Ingenio'), ('Casco', 'Reflejos'), ('Navegación', 'Ingenio'), ('Canto', 'Voluntad'),
-                   ('Soporte vital', 'Vigor'), ('Combustible', 'Ingenio'),
-                   ('Personal', {'piloto': 'Reflejos', 'nativo': 'Voluntad', 'mente': 'Ingenio'}[self.p])]
-        self.her = 0
-        for s, attr in pruebas:
-            if s == 'Canto':
-                if 'Tadeo' in self.compas + self.cicatriz:
-                    continue
-                dif = 7 + self.canto
-            else:
-                if s not in self.sis or self.sis[s][0] != 'instalado':
-                    danos += 1; continue
-                dif = CAL[self.sis[s][1]]
-            modo = 'V' if (s == 'Casco' and self.p == 'piloto') or (s == 'Motor' and 'Noemí' in self.compas + self.cicatriz) \
-                or (s == 'Soporte vital' and 'Iria' in self.compas + self.cicatriz) else None
-            if self.prueba(attr, dif, modo, True) == 'fa':
-                danos += 1
-        if self.reloj <= 15 or self.baliza:
-            if self.prueba('Reflejos', 11, None, True) == 'fa':
-                danos += 2
-        self.danos = danos
-        if desesperado:
-            self.fin = 'desesperado_ok' if danos <= 4 else 'desesperado_mal'
-        else:
-            self.fin = 'despega' if danos <= 2 else ('despega_justo' if danos <= 4 else 'se_estrella')
-
-    # ----- el bucle
-    def amanecer(self):
-        self.dia += 1; self.reloj -= 1
-        if self.reloj <= 0:
-            self.fin = 'recolectores'; return
-        if self.p == 'piloto' and self.dia == 11:
-            self.hall[self.r.randint(1, 8)].append('personal')       # e800: la Caja negra
-        if self.p == 'mente' and self.reloj <= 30 and not self.__dict__.get('nucleo'):
-            self.nucleo = True; self.hall[self.r.randint(1, 8)].append('personal')   # e822
-        if self.p == 'nativo' and self.reloj <= 30 and 'Personal' not in self.sis:
-            self.conseguir('Personal', 'Sólida' if self.quilla else 'Precaria', 'e812')
-        cobijo = self.region == 1 or (self.region in (2, 4, 6, 7) and self.ultimo == 'visitar')
-        if self.region == 1 and self.p != 'mente' and self.despensa > 0:
-            self.despensa -= 1 + len(self.compas); self.despensa = max(0, self.despensa)
-            comen_fuera = False
-        else:
-            comen_fuera = True
-        if self.region == 7 and self.reglas_v2:
-            self.subir_canto(1)
-        if self.p != 'mente' and comen_fuera:
-            if self.raciones > 0: self.raciones -= 1
-            else: self.herir(1, 'hambre'); self.stats['hambre'] += 1
-        if self.p == 'piloto':
-            if self.region == 1: self.aire = 6
-            elif not cobijo:
-                if self.aire > 0: self.aire -= 1
-                else: self.herir(1, 'asfixia'); self.stats['asfixia'] += 1
-        if self.p == 'mente':
-            if self.region == 1: self.energia = 6
-            elif self.energia > 0: self.energia -= 1
-            else: self.herir(1, 'sin energía'); self.stats['sin_energia'] += 1
-        for c in list(self.compas if comen_fuera else []):
-            if self.raciones > 0 and self.p != 'mente': self.raciones -= 1
-            elif self.p == 'mente' and self.chatarra > 0 and self.r.random() < .5: self.chatarra -= 1
-            else:
-                self.lealtad[c] -= 1
-                if self.lealtad[c] <= 0:
-                    self.compas.remove(c); self.stats['tripulantes_perdidos'] += 1
-        if self.region == 1 and self.p == 'piloto':
-            self.aire = 6
-        pulso = self.r.randint(1, 6)
-        if pulso == 6 or (pulso == 5 and self.region == 7):
-            self.stats['pulsos'] += 1
-            self.evento(f'e02{self.r.randint(0, 5)}')
-
-    def objetivo(self):
-        """Región a la que ir: el Hallazgo o la vía de sistema más cercana."""
-        cand = []
-        for reg, lista in self.hall.items():
-            for h in lista:
-                if h.startswith('sis:') or h == 'personal':
-                    cand.append((dist(self.region, reg) - 0.5, reg))
-                elif h.startswith('trip:') and len(self.compas) + len(self.cicatriz) < 4:
-                    cand.append((dist(self.region, reg) + 1.5, reg))
-        if self.necesita('Combustible') and not any('sis:Combustible' in l for l in self.hall.values()):
-            cand.append((dist(self.region, 2) - 0.2, 2))
-        if self.necesita('Soporte vital') and not any('sis:Soporte vital' in l for l in self.hall.values()):
-            cand.append((dist(self.region, 4 if self.rep['hijos'] >= 1 or self.chatarra >= 8 else 5), 4 if self.rep['hijos'] >= 1 or self.chatarra >= 8 else 5))
-        if self.necesita('Casco') and not any('sis:Casco' in l for l in self.hall.values()):
-            cand.append((dist(self.region, 2) + (0 if self.chatarra >= 10 else 3), 2))
-        if self.necesita('Motor') and not any('sis:Motor' in l for l in self.hall.values()):
-            cand.append((dist(self.region, 4), 4))
-        if self.necesita('Navegación') and not any('sis:Navegación' in l for l in self.hall.values()):
-            cand.append((dist(self.region, 2) + 2, 2))   # sin rescate: explorar pecios del Cementerio
+            cand = [a for a in self.armas if not a['fuego'] or (a['alc'] == 'C' and self.muni > 0)]
         if not cand:
             return None
-        return min(cand)[1]
+        return max(cand, key=lambda a: (a['d'], -a['r']))
 
-    def asentamiento_aqui(self):
-        return self.region in (2, 4, 6, 7) or (self.region in (3, 5))
+    def herida(self, n=1, causa='heridas'):
+        self.h += n
+        if self.h >= self.maxh:
+            self.h = self.maxh
+            if self.en_noche40:
+                raise Fin(causa)
+            raise Caida(causa)
 
-    def decidir(self):
-        llevados = [k for k, v in self.sis.items() if v[0] == 'llevado']
-        instalados = [k for k, v in self.sis.items() if v[0] == 'instalado']
-        en_dunas = self.region == 1
-        if len(instalados) == 6 and en_dunas:
-            if self.chatarra >= 3 and self.reloj > 12 and any(v[1] == 'Precaria' for v in self.sis.values()) and self.estr != 'rapida':
-                return 'mejorar'
-            return 'despegar'
-        if en_dunas and self.reloj <= 6 and all(s in instalados for s in ('Casco', 'Motor', 'Combustible')):
-            return 'desesperado'
-        if en_dunas and llevados and not (self.her >= 3):
-            return 'instalar'
-        if en_dunas and self.baliza and self.estr != 'baliza' and self.dia > 1 and self.dia < 25:
-            return 'baliza'
-        if self.her >= 3 or (self.her >= 2 and en_dunas):
-            if self.region in (2, 4, 6) and self.rep_ok():
-                return 'visitar'
-            return 'descansar'
-        if self.p == 'piloto' and self.aire <= 1 and not en_dunas:
-            return 'visitar' if self.region in (2, 6, 7) and self.chatarra >= 1 and self.rep_ok() else 'ir:1'
-        if self.p == 'mente' and self.energia <= 1 and not en_dunas:
-            return 'visitar' if self.region in (2, 4, 6, 7) and self.chatarra >= 1 and self.rep_ok() else 'ir:1'
-        if self.p != 'mente' and self.raciones <= 1:
-            if self.region in (2, 4, 6, 7) and self.chatarra >= 1 and self.rep_ok(): return 'visitar'
-            return 'explorar'
-        if self.alerta >= 4 and self.region != 7:
-            return 'ocultarte'
-        pesado = any(self.sis[k][0] == 'llevado' and k in ('Motor', 'Combustible') for k in self.sis)
-        if llevados and (pesado or len(llevados) >= 2 or self.reloj < 20):
-            return 'ir:1'
-        if len(self.sis) >= 6 and llevados:
-            return 'ir:1'
-        obj = self.objetivo()
-        if obj is None:
-            return 'ir:1' if not en_dunas else 'explorar'
-        if obj == self.region:
-            hay = any(h.startswith('sis:') or h == 'personal' or h.startswith('trip:') for h in self.hall[self.region])
-            if not hay and self.region in (2, 3, 4, 5, 6, 7) and self.rep_ok():
-                if self.vistas[self.region] < 2:
-                    return 'visitar'
-            return 'explorar'
-        return f'ir:{obj}'
+    def caer(self, c, fuera):
+        """Muriendo (r190): solo te salva otro. Si nadie te cura antes del alba, morís (r195)."""
+        self.stats['caidas'] += 1
+        cerca = [s for s in self.compas if not s.grave] if fuera else [s for s in self.grupo if not s.grave]
+        if fuera:
+            d = self.distancias().get(self.barrio, 3)
+            if not cerca:
+                # te arrastrás: ◷ 2 por barrio, y cualquier cosa en el camino te termina
+                if d and (d6(self.r) <= d or any(self.procs[b] for b in CALLE[self.home] if b == self.barrio)):
+                    raise Fin(c.causa)
+            # en el refugio te esperan los de adentro
+            cerca = [s for s in self.grupo if not s.grave]
+        intentos = 0
+        while self.h >= self.maxh and intentos < 2 and cerca and self.curita():
+            intentos += 1
+            med = max([s.lvl for s in cerca if s.hab == 'Medicina'] + [0])
+            t = d6(self.r) + d6(self.r) + med + (1 if 'Botiquín' in self.herr else 0)
+            self.h -= 2 if t >= 10 else 1 if t >= 7 else 0
+        if self.h >= self.maxh and 'Enfermería' in self.inst and cerca:
+            self.h -= 1
+        if self.h >= self.maxh:
+            raise Fin(c.causa)
+        self.stats['rescatado'] += 1
+        self.ruido = 0
+        self.barrio = self.home
+        self.compas = []
 
-    def rep_ok(self):
-        f = {2: 'desg', 4: 'hijos', 6: 'vig', 7: 'coro'}.get(self.region)
-        return f is None or self.rep[f] > -2
+    def mordida_tabla(self, prot=None, bruto=False):
+        p = self.prot if prot is None else prot
+        bruto_d = d6(self.r)
+        if self.revistas and p < 2:
+            p += 1
+            if bruto_d >= 5:
+                self.revistas -= 1            # la armadura de revistas se gasta (e710)
+        x = bruto_d - min(2, p)
+        if x <= self.aj['nada']:
+            return
+        if self.aj['tabla'] == 'J':
+            # r144: 4–5 golpe; 6 arañazo; el segundo 6 de la misma ronda es mordida
+            if x <= 5:
+                self.herida(2 if bruto else 1, 'combate')
+            else:
+                self._seis = getattr(self, '_seis', 0) + 1
+                self.herida(1, 'combate')
+                if self._seis >= 2:
+                    self.mordida()
+                else:
+                    self.aranazo()
+            return
+        if self.aj['tabla'] == 'H':
+            # r144: 4–5 golpe; 6, otro 1d6: 1–3 arañazo, 4–6 mordida
+            if x <= 5:
+                self.herida(2 if bruto else 1, 'combate')
+            elif d6(self.r) <= 3:
+                self.herida(1, 'combate')
+                self.aranazo()
+            else:
+                self.herida(1, 'combate')
+                self.mordida()
+            return
+        if x == 4 or (x == 5 and self.aj['tabla'] == 'B'):
+            self.herida(2 if bruto else 1, 'combate')
+        elif x == 5 or (x == 6 and self.aj['tabla'] == 'C'):
+            self.herida(1, 'combate')
+            self.aranazo()
+        else:
+            self.herida(1, 'combate')
+            self.mordida()
+
+    def aranazo(self):
+        if self.mats['Fármacos'] > 0:
+            self.mats['Fármacos'] -= 1
+            med = max([self.hab['Medicina']] + [s.lvl for s in self.grupo if s.hab == 'Medicina'])
+            if d6(self.r) + d6(self.r) + med >= 7:
+                return
+        self.mordida()
+
+    def mordida(self):
+        if self.fiebre == 0:
+            self.fiebre = 1
+            self.stats['mordido'] += 1
+
+    # ------------------------------------------------------------ combate (r140–r149)
+    def combate(self, enemigos, compas=(), refugio=False):
+        """enemigos: lista de [n, aguante, dist, pasos, nombre]. True si ganás o escapás."""
+        grupo = [s for s in compas if not s.grave]
+        llegaron3 = self.ruido >= 3
+        self.stats['combates'] += 1
+        for ronda in range(14):
+            enemigos = [e for e in enemigos if e[0] > 0]
+            if not enemigos:
+                return True
+            encima = sum(e[0] for e in enemigos if e[2] == 2)
+            amenaza = sum(e[0] * e[1] for e in enemigos)
+            # lo que mato en dos rondas, yo y los míos (estimación del jugador)
+            mano = max([a['d'] for a in self.armas if not a['fuego']] + [1])
+            fuego = max([a['d'] for a in self.armas if a['fuego']] + [0]) if self.muni else 0
+            capacidad = 2 * (0.75 * max(mano, fuego) + sum(0.6 * s.arma for s in grupo))
+            apurado = self.h >= self.maxh - 2 and amenaza >= 3
+            if not refugio and encima == 0 and (apurado or amenaza > capacidad + 1) and \
+                    self.aj['esconderse']:
+                t = self.prueba('Sigilo')
+                if t >= 10:
+                    return True
+                if t >= 7:
+                    self.ruido += 1
+                    return True
+                for e in enemigos:
+                    e[2] = min(2, e[2] + self.aj['esc_fallo'])
+            else:
+                dmin = max(e[2] for e in enemigos)
+                arma = self.mejor_arma(dmin == 0) or (self.mejor_arma(False) if dmin > 0 else None)
+                if arma and not (dmin == 2 and arma['alc'] == 'L' and arma['fuego'] and arma['n'] != 'revólver'
+                                 and arma['n'] != 'pistola'):
+                    hab = 'Puntería' if arma['alc'] == 'L' or arma['fuego'] else 'Pelea'
+                    t = self.prueba(hab)
+                    dmg = arma['d']
+                    if t >= 10:
+                        hecho = dmg
+                    elif t >= 7:
+                        hecho = (dmg + 1) // 2
+                        if arma['usos'] is not None:
+                            arma['usos'] -= 1
+                        elif arma['fuego']:
+                            self.ruido += arma['r']
+                    else:
+                        hecho = 0
+                    if arma['fuego']:
+                        self.muni = max(0, self.muni - 1)
+                    self.ruido += arma['r']
+                    self.repartir(enemigos, hecho)
+                    if arma['usos'] is not None and arma['usos'] <= 0 and arma in self.armas:
+                        self.armas.remove(arma)
+                if dmin > 0:
+                    for s in grupo:
+                        t = self.r.randint(1, 6) + self.r.randint(1, 6) + s.pel()
+                        self.repartir(enemigos, s.arma if t >= 10 else (s.arma + 1) // 2 if t >= 7 else 0)
+            if not refugio:
+                for e in enemigos:
+                    if e[4].startswith('Chillona') and e[0] > 0:
+                        self.ruido += 2
+                if self.ruido >= 3 and not llegaron3:
+                    llegaron3 = True
+                    enemigos.append([(d6(self.r) + 1) // 2 if self.aj['spawn3'] else d6(self.r), 1, 0, 1, 'Callados'])
+                if self.ruido >= 6:
+                    self.ruido = 3
+                    return self.procesion(compas=compas)
+            for e in enemigos:
+                if e[0] <= 0:
+                    continue
+                if e[3] == 3:
+                    e[2] = 2
+                elif e[3] > 0:
+                    e[2] = min(2, e[2] + e[3])
+                if e[4].startswith('Escupidor') and d6(self.r) >= 4:
+                    self.herida(1, 'combate')
+            plazas = self.aj['encima']
+            self._seis = 0
+            for e in [e for e in enemigos if e[2] == 2 and e[0] > 0]:
+                for _ in range(min(e[0], self.aj['encima'] * (1 + len(grupo)))):
+                    if plazas > 0 and (not grupo or self.r.random() < 1 / (1 + len(grupo))):
+                        plazas -= 1
+                        self.mordida_tabla(bruto=e[4].startswith('Bruto'))
+                    elif grupo:
+                        s = self.r.choice(grupo)
+                        x = d6(self.r)
+                        if x >= 4:
+                            s.h += 1
+                            if x == 6 and s.fiebre == 0:
+                                s.fiebre = 1
+                            if s.h >= 3:
+                                grupo.remove(s)
+                                if d6(self.r) <= 3:
+                                    s.grave = True
+                                else:
+                                    self.perder(s, 'murió peleando')
+        return False
+
+    def repartir(self, enemigos, dmg):
+        for e in sorted(enemigos, key=lambda e: (-e[2], e[1])):
+            while dmg > 0 and e[0] > 0:
+                if dmg >= e[1]:
+                    dmg -= e[1]
+                    e[0] -= 1
+                    self.stats['muertos'] += 1
+                    if e[0] > 0:
+                        e[1] = ESPECIAL.get(e[4], (1, 1))[0] if e[4] not in ('Vivos', 'Lobos') else 2
+                else:
+                    e[1] -= dmg
+                    dmg = 0
+
+    def enemigos_de(self, combates):
+        res = []
+        for nombre, cant, ag, dist in combates:
+            n = tirada_cantidad(cant, self.r, self.etapa)
+            a, pasos = ESPECIAL.get(nombre, (1, 1))
+            if nombre in ('Vivos', 'Lobos', 'soldados', 'Soldados'):
+                a = ag or 2
+            res.append([min(n, 18), a, dist, pasos, nombre])
+        return res
+
+    def procesion(self, compas=(), volver=True):
+        self.stats['procesiones'] += 1
+        doble = self.procs[self.barrio] >= 2
+        if self.barrio in AZOTEAS and self.prueba('Físico', desv=doble) >= 7:
+            return True
+        if volver and self.aj['volver']:
+            # e100, opción 5: volvés por donde viniste; con 1–2 te sigue
+            self.stats['volvio'] += 1
+            if d6(self.r) >= 3:
+                raise Volver()
+            return self.procesion(compas, volver=False)
+        t = self.prueba('Sigilo', desv=doble)
+        if t >= 10:
+            self.ruido = 0
+            return True
+        if t >= 7:
+            return self.combate([[1, 1, 1, 1, 'Callados']], compas)
+        for _ in range(3):  # te huelen: solo queda escapar (r142, r149)
+            t = self.prueba('Físico')
+            if t >= 10:
+                return True
+            if t >= 7:
+                self.herida(1, 'procesión')
+                return True
+            self.mordida_tabla()
+        raise Fin('procesión')
+
+    # ------------------------------------------------------------ eventos
+    def evento(self, eid, prof=0, contexto='calle'):
+        if prof > 4 or eid not in self.ev:
+            return
+        n = int(eid[1:])
+        self.stats['eventos'] += 1
+        if eid == 'e100':
+            if contexto != 'refugio':
+                self.procesion(compas=self.compas)
+            return
+        if 560 <= n <= 563:
+            self.pistas += 1
+            return
+        if 570 <= n <= 599 or n >= 900 or (800 <= n <= 849 and prof > 1) or 440 <= n <= 499:
+            return
+        if 600 <= n <= 653:
+            if (n - 600) % 3 == 0 and len(self.grupo) < 12 and (self.prueba('Labia') >= 7 or d6(self.r) >= 3):
+                self.unir()
+            return
+        if 700 <= n <= 779:
+            if n == 770:
+                self.manual()
+            return
+        cuerpo = re.sub(r'^\*[^*\n]+\*$', '', self.ev[eid], count=1, flags=re.M)
+        ops = opciones(cuerpo)
+        if not ops:
+            texto = '\n'.join(l for l in cuerpo.splitlines() if not re.match(r'\s*-? ?\*\*Si ', l))
+            self.aplicar_rama(texto, prof, contexto)
+            return
+        mejor = max(ops, key=lambda o: self.valor_opcion(o[1]) + self.r.random() * 0.3)
+        self.aplicar_opcion(mejor[1], prof, contexto)
+
+    def valor_opcion(self, txt):
+        m = RE_TEST.search(txt)
+        cab, tr = ramas(txt)
+        if not m or not tr:
+            e, c, g, _ = efectos(txt)
+            return valor(e, c) + (0.3 if g else 0)
+        mod = self.hab[m.group(1)] + (-1 if 'Desv' in m.group(2) else 0)
+        p10 = sum(1 for a in range(1, 7) for b in range(1, 7) if a + b + mod >= 10) / 36
+        p7 = sum(1 for a in range(1, 7) for b in range(1, 7) if 7 <= a + b + mod <= 9) / 36
+        ec, cc, _, _ = efectos(cab)
+
+        def vr(k):
+            if k not in tr:
+                return 0
+            e, c, g, _ = efectos(tr[k])
+            return valor(e, c) + (0.3 if g else 0)
+        v10 = vr('10') if '10' in tr else vr('7p')
+        v79 = vr('79') if '79' in tr else (vr('7p') if '7p' in tr else v10 - 0.7)
+        return valor(ec, cc) + p10 * v10 + p7 * v79 + (1 - p10 - p7) * vr('6')
+
+    def aplicar_opcion(self, txt, prof, contexto):
+        m = RE_TEST.search(txt)
+        cab, tr = ramas(txt)
+        if not m or not tr:
+            self.aplicar_rama(txt, prof, contexto)
+            return
+        self.aplicar_rama(cab, prof, contexto, seguir=False)
+        hab = m.group(1)
+        bonus = sum(1 for s in self.compas if s.hab == hab and s.lvl >= 2)
+        t = self.prueba(hab, desv='Desv' in m.group(2), bonus=bonus)
+        if t >= 10:
+            k = '10' if '10' in tr else '7p'
+        elif t >= 7:
+            k = '79' if '79' in tr else ('7p' if '7p' in tr else '10')
+            if k == '10':
+                self.ruido += 1
+        else:
+            k = '6'
+        if k in tr:
+            self.aplicar_rama(tr[k], prof, contexto)
+
+    def aplicar_rama(self, txt, prof, contexto, seguir=True):
+        e, combates, goto, arma = efectos(txt)
+        self.ruido += e['ruido']
+        self.rastro = max(0, min(10, self.rastro + e['rastro']))
+        self.stats['rastro_eventos'] += e['rastro']
+        self.moral = max(0, min(10, self.moral + e['moral']))
+        self.animo = max(0, min(6, self.animo + e['animo']))
+        self.rep += e['rep']
+        self.pistas += e['pista']
+        self.viv = max(0, self.viv + e['viv'])
+        for mat in MATS:
+            self.mats[mat] = max(0, self.mats[mat] + e[mat])
+        for _ in range(e['azar']):
+            self.mats[MATS[d6(self.r) - 1]] += 1
+        self.antiv = max(0, self.antiv + e['Antiviral'])
+        self.muni = max(0, self.muni + e['muni'])
+        if e['manual']:
+            self.manual()
+        if e['herr']:
+            self.herr.add(HERRAMIENTAS[d6(self.r) - 1])
+        if arma:
+            self.arma(arma)
+        if e['res_mas']:
+            f = min(self.frs(), key=lambda f: self.frentes[f])
+            self.frentes[f] = min(10, self.frentes[f] + min(3, e['res_mas']))
+        if e['res_menos'] and contexto == 'refugio':
+            f = self.r.choice(self.frs())
+            self.frentes[f] = max(0, self.frentes[f] - min(3, e['res_menos']))
+        if e['curas']:
+            self.h = max(0, self.h - e['curas'])
+        if e['heridas']:
+            self.herida(min(2, e['heridas']), 'eventos')
+        if e['muerde']:
+            self.mordida()
+        elif e['arana']:
+            self.aranazo()
+        if e['surv'] and len(self.grupo) < 12:
+            self.unir()
+        if combates:
+            gente = self.grupo if contexto == 'refugio' else self.compas
+            if not self.combate(self.enemigos_de(combates), gente, refugio=(contexto == 'refugio')):
+                self.herida(1, 'combate')
+        if seguir and goto:
+            self.evento(goto, prof + 1, contexto)
+
+    def unir(self):
+        self.grupo.append(Surv(next(self.nombres), self.r))
+        if d6(self.r) == 6 and d6(self.r) >= 4:
+            self.semillas = True          # Doña Rosa (e627, e629) y otros
+        self.stats['unidos'] += 1
+        if self.stats['unidos'] % 3 == 0:
+            self.rastro = min(10, self.rastro + 1)
+            self.stats['rastro_gente'] += 1
+        if self.ref_id == 'e440' and d6(self.r) == 6:
+            self.grupo.append(Surv(next(self.nombres), self.r))
+            self.stats['unidos'] += 1
+
+    def perder(self, s, por):
+        if s in self.grupo:
+            self.grupo.remove(s)
+            self.moral = max(0, self.moral - 2)
+            self.animo = max(0, self.animo - 1)
+            self.stats['perdidos'] += 1
+            self.log(f'· se pierde {s.n} ({por})')
+
+    def manual(self):
+        x = d6(self.r)
+        self.manuales.add({1: 776, 2: 776, 3: 777, 4: 777, 5: 778, 6: 779}[d6(self.r)] if x == 6 else 770 + x)
+
+    def arma(self, n):
+        tabla = {'una escopeta': ('escopeta', 3, 3, 'C', True), 'un revólver': ('revólver', 2, 2, 'L', True),
+                 'un rifle': ('rifle', 2, 2, 'L', True), 'un fusil': ('fusil', 3, 2, 'L', True),
+                 'un hacha': ('hacha', 2, 0, 'C', False), 'un machete': ('machete', 2, 0, 'C', False),
+                 'un bate': ('bate', 2, 0, 'C', False), 'una pistola': ('pistola', 2, 2, 'L', True)}
+        if n in tabla:
+            nn, d, ru, alc, fu = tabla[n]
+            self.armas.insert(0, dict(n=nn, d=d, r=ru, alc=alc, usos=None if fu else 6, fuego=fu))
+
+    # ------------------------------------------------------------ saqueo (r160–r166)
+    def botin(self, tipo):
+        x = d6(self.r)
+        M, R = self.mats, self.r
+        if tipo == 'farmacia':
+            M['Fármacos'] += (0, 1, 2, 2, 0, 3)[x - 1]
+            if x == 4: M['Químicos'] += 1
+            if x == 5: self.antiv += 1
+        elif tipo == 'almacen':
+            self.viv += (0, 1, 2, 3, 2, 4)[x - 1]
+            if x == 5: M['Químicos'] += 1
+        elif tipo == 'ferreteria':
+            M['Sujeción'] += (1, 2, 0, 0, 1, 0)[x - 1]
+            if x == 3: M['Metal'] += 2
+            if x == 4: self.herr.add(HERRAMIENTAS[d6(R) - 1])
+            if x == 5: self.soga = True
+            if x == 6: M['Químicos'] += 2; self.linterna = True
+        elif tipo == 'hospital':
+            if x == 1 and not self.combate([[d6(R), 1, 1, 1, 'Callados']], self.compas):
+                self.herida(1, 'combate')
+            M['Fármacos'] += (0, 2, 0, 0, 3, 0)[x - 1]
+            if x == 3: self.antiv += 1
+            if x == 4: self.herr.add('Botiquín')
+            if x == 6: self.antiv += 2
+        elif tipo == 'policia':
+            self.muni += (0, 3, 0, 2, 4, 2)[x - 1]
+            if x == 3: self.prot = min(2, self.prot + 1)
+            if x == 4: self.arma('un revólver' if d6(R) <= 3 else 'una escopeta')
+            if x == 6: self.arma('un rifle')
+        elif tipo == 'vivienda':
+            self.viv += (0, 1, 0, 0, 0, 2)[x - 1]
+            if x == 3: M['Tela'] += 1; M['Madera'] += 1
+            if x == 4: M['Fármacos'] += 1
+            if x == 5:
+                y = d6(R)
+                if y == 1: self.linterna = True
+                elif y == 2: self.soga = True
+                elif y == 3: self.armas.insert(0, dict(n='cuchillo', d=1, r=0, alc='C', usos=None, fuego=False))
+                elif y == 6: self.manual()
+            if x == 6: M['Tela'] += 1
+        elif tipo == 'oficina':
+            if x == 2: M['Electrónica'] += 1
+            if x == 3: M['Tela'] += 2
+            if x == 4: M['Electrónica'] += 1; M['Metal'] += 1
+            if x == 5: self.manual()
+            if x == 6: M['Fármacos'] += 2
+        elif tipo == 'taller':
+            if x == 1: M['Metal'] += 1
+            if x == 2: M['Metal'] += 2
+            if x == 3: M['Combustible'] += 1
+            if x == 4: M['Químicos'] += 2
+            if x == 5: self.herr.add(HERRAMIENTAS[d6(R) - 1])
+            if x == 6: M['Electrónica'] += 2; M['Metal'] += 1
+        elif tipo == 'comercio':
+            if x == 2: M['Tela'] += 2
+            if x == 3: M['Electrónica'] += 1
+            if x == 4: self.prot = min(2, self.prot + 1)
+            if x == 5: self.viv += 1; M['Tela'] += 1
+            if x == 6: M['Tela'] += 1
+
+    def revisar(self, pid, fondo):
+        L = self.lugares[pid]
+        tiradas = 3 if fondo else 1
+        if fondo:
+            self.ruido += 1
+        if self.prueba('Calle') >= 10:
+            tiradas += 1
+        if L['stock'] <= 0:
+            for _ in range(2 if fondo else 1):
+                x = d6(self.r)
+                if x == 3:
+                    if not self.combate([[1, 1, 2, 1, 'Callados']], self.compas):
+                        self.herida(1, 'combate')
+                elif x == 4 and len(self.grupo) < 12:
+                    self.unir()
+                elif x == 5:
+                    self.mats[MATS[d6(self.r) - 1]] += 1
+                elif x == 6:
+                    self.pistas += 1
+            return
+        L['stock'] = max(0, L['stock'] - (2 if fondo else 1))
+        if self.aj['desarmar_afuera'] and L['tipo'] in ('vivienda', 'oficina', 'comercio') and \
+                self.mats['Madera'] < 8:
+            self.mats['Madera'] += 2 * (1 + len(self.compas)) if self.aj['desarmar_afuera'] == 'grupo' else 2  # muebles desarmados ahí (r165)
+            self.ruido += 1
+        if L['barrio'] in ('Mercado', 'Bloques', 'Cementerio') and L['tipo'] in ('comercio', 'almacen', 'vivienda') \
+                and d6(self.r) <= 2:
+            self.semillas = True          # verdulería, balcones, vivero (e752)
+        for _ in range(tiradas):
+            self.botin(L['tipo'])
+
+    # ------------------------------------------------------------ tesoros (e500–e552, simplificados)
+    def tesoro_en(self, pid):
+        for t, lugar in self.tesoro.items():
+            if lugar == pid and t not in self.tesoros:
+                return t
+        return None
+
+    def tomar_tesoro(self, t):
+        R = self.r
+        if t == 'camion':
+            if self.prueba('Mecánica') >= 7 or self.prueba('Oficio') >= 7:
+                self.tesoros.add(t); self.viv += 12
+        elif t == 'generador':
+            if self.prueba('Mecánica') >= 7:
+                self.tesoros.add(t); self.inst.add('Generador'); self.rastro = min(10, self.rastro + 2)
+        elif t == 'armeria':
+            if self.combate([[d6(R) + 2, 1, 1, 1, 'Callados']], self.compas):
+                self.tesoros.add(t); self.arma('un fusil'); self.muni += 18
+                for s in self.grupo[:3]:
+                    s.arma = max(s.arma, 2)
+        elif t == 'botiquin':
+            self.tesoros.add(t); self.herr.add('Botiquín'); self.mats['Fármacos'] += 4; self.antiv += 2
+        elif t == 'radio':
+            self.tesoros.add(t); self.pistas += 1
+        elif t == 'blindado':
+            if self.prueba('Mecánica') >= 7:
+                self.tesoros.add(t)
+        if t in self.tesoros:
+            self.moral = min(10, self.moral + 2)
+            self.stats['tesoros'] += 1
+            self.log(f'· TESORO: {t}')
+
+    # ------------------------------------------------------------ el alba (r131)
+    def alba(self):
+        palo, val = self.mazo.pop()
+        self.dia += 1
+        self.log(f'— Día {self.dia} · {val} de {palo} · Etapa {self.etapa} · Víveres {self.viv} · gente {self.gente()} · '
+                 f'H {self.h}/{self.maxh} · Fiebre {self.fiebre} · Rastro {self.rastro} · Moral {self.moral} · '
+                 f'{self.frentes} · mats {dict(+self.mats)}')
+        if palo == 'Espadas':
+            nuevo = Counter()
+            for b, k in self.procs.items():
+                for _ in range(k):
+                    nuevo[self.paso_hacia(b, self.home) if d6(self.r) <= 2 else self.r.choice(CALLE[b])] += 1
+            self.procs = nuevo
+            if 4 <= val <= 7:
+                self.procs[self.proc_barrio()] += 1
+        if self.etapa == 4:
+            self.procs['Perímetro'] += 1
+        if self.ref_id == 'e450':
+            if self.dia in (1, 11, 21, 31):
+                self.viv += 2 * (2 if self.dia == 1 else 1)   # el depósito del entrepiso
+            if self.dia in (5, 15, 25, 35):                   # e451: los que vienen por la comida
+                x = d6(self.r)
+                if x <= 4 and len(self.grupo) < 10:
+                    for _ in range(2):
+                        self.unir()                          # los hacés pasar
+                    self.rastro = min(10, self.rastro + 1)
+                else:
+                    self.viv = max(0, self.viv - (3 if x == 5 else 2))
+        if self.dia % 7 == 0:
+            self.rastro = max(0, self.rastro - 1)        # una semana sin salir de noche (r174)
+        if val <= 7:
+            eid = self.baraja[palo][d6(self.r)][0 if val <= 3 else 1]
+        else:
+            base = {'Oros': 60, 'Copas': 63, 'Espadas': 66, 'Bastos': 69}[palo]
+            eid = f'e0{base + {10: 0, 11: 1, 12: 2}[val]}'
+        self.ruido = 0
+        self.barrio = self.home
+        self.compas = []
+        try:
+            self.evento(eid, contexto='refugio')
+        except Volver:
+            pass
+        except Caida as c:
+            self.caer(c, fuera=False)
+        # comer (r131, r193)
+        need = self.gente()
+        come = min(self.viv, need)
+        self.viv -= come
+        falta = need - come
+        if falta:
+            self.moral = max(0, self.moral - 1)
+            self.stats['hambre'] += falta
+            for _ in range(falta):
+                # vos elegís quién pierde la Reserva (r131): el que más tiene
+                cand = [(6 - x.hambre, 1, x) for x in self.grupo] + [(self.reservas, 0, None)]
+                _, _, x = max(cand, key=lambda c: (c[0], c[1]))
+                if x is None:
+                    self.reservas = max(0, self.reservas - 1)
+                else:
+                    x.hambre = min(6, x.hambre + 1)
+        else:
+            sobra = self.viv
+            if self.reservas < 6 and sobra > 0:
+                self.viv -= 1; sobra -= 1
+                self.reservas += 1
+            for x in sorted(self.grupo, key=lambda x: -x.hambre):
+                if x.hambre and self.viv > 0 and sobra > 0:
+                    self.viv -= 1; sobra -= 1
+                    x.hambre -= 1
+        # Reservas 0: 1 Herida cada alba (r193)
+        if self.reservas == 0:
+            try:
+                self.herida(1, 'hambre')
+            except Caida as c:
+                self.caer(c, fuera=False)
+        for x in list(self.grupo):
+            if x.hambre >= 6:
+                x.h += 1
+                if x.h >= 3:
+                    self.perder(x, 'hambre')
+        if self.viv > 10 and 'Despensa' not in self.inst:
+            self.viv -= 1
+        # la Fiebre (r191)
+        if self.fiebre:
+            if self.antiv > 0:
+                self.antiv -= 1
+            else:
+                self.fiebre += 1
+                if self.fiebre >= 6:
+                    raise Fin('Fiebre')
+            if self.fiebre <= 2 and self.antiv == 0 and self.mats['Fármacos'] >= 2 and self.grupo \
+                    and self.r.random() < self.aj['amputable']:
+                self.amputar()
+        for s in list(self.grupo):
+            if s.fiebre:
+                if self.antiv > 1:
+                    self.antiv -= 1
+                else:
+                    s.fiebre += 1
+                    if s.fiebre >= 4:
+                        self.perder(s, 'Fiebre')
+
+    def amputar(self):
+        med = max([s.lvl for s in self.grupo if s.hab == 'Medicina'] + [0])
+        self.mats['Fármacos'] -= 2
+        t = d6(self.r) + d6(self.r) + med
+        self.fiebre = 0
+        self.stats['amputado'] += 1
+        for h in ('Pelea', 'Puntería', 'Oficio', 'Mecánica'):
+            self.hab[h] = max(0, self.hab[h] - 1)
+        if t >= 10:
+            self.h = max(self.h, 2)
+        elif t >= 7:
+            self.h = max(self.h, 3)
+            self.animo = max(0, self.animo - 1)
+        else:
+            self.h = self.maxh - 1
+            if self.mats['Fármacos'] == 0 and d6(self.r) <= 3:
+                raise Fin('amputación')
+
+    def paso_hacia(self, a, b, evitar=()):
+        if a == b:
+            return a
+        prev = {a: None}
+        cola = [a]
+        while cola:
+            x = cola.pop(0)
+            for v in CALLE[x]:
+                if v not in prev and (v not in evitar or v == b):
+                    prev[v] = x
+                    cola.append(v)
+        if b not in prev:
+            return self.paso_hacia(a, b)
+        x = b
+        while prev.get(x) not in (a, None):
+            x = prev[x]
+        return x
+
+    def distancias(self, desde=None, evitar=()):
+        desde = desde or self.home
+        dist = {desde: 0}
+        cola = [desde]
+        while cola:
+            x = cola.pop(0)
+            for v in CALLE[x]:
+                if v not in dist and v not in evitar:
+                    dist[v] = dist[x] + 1
+                    cola.append(v)
+        return dist
+
+    # ------------------------------------------------------------ las horas de luz (r133)
+    def luz(self):
+        horas = self.cuidar(6)
+        n = self.gente()
+        hambre = self.viv < self.aj['reserva_dias'] * n + 2
+        necesito = self.faltan_mats() and (min(self.frentes[f] for f in self.frs()) < 9 or
+                                           'Último Cuarto' not in self.inst)
+        farmacia = self.mats['Fármacos'] < 2 and self.dia % 3 == 0
+        solos = len(self.grupo) < self.aj['buscar_gente'] and self.dia % 2 == 0
+        salir = self.dia >= 2 and (hambre or necesito or farmacia or solos or
+                                   (self.aj['salir_siempre'] and self.dia % 2 == 1))
+        if self.h >= self.maxh - 2 or self.fiebre >= 4:
+            salir = hambre and self.viv < n
+        if self.dia >= 38:
+            salir = self.viv < n * (41 - self.dia)
+        if salir:
+            try:
+                horas = self.expedicion(horas, 'comida' if hambre else 'mats')
+            except Volver:
+                horas = max(0, horas - 3)
+                self.ruido = 0
+                self.barrio = self.home
+                self.compas = []
+            except Caida as c:
+                self.caer(c, fuera=True)
+                return
+        horas = self.construir(horas)
+        if horas >= 2 and self.animo <= 2:
+            self.animo += 1
+
+    def faltan_mats(self):
+        return self.mats['Madera'] + self.mats['Metal'] < 6 or self.mats['Sujeción'] < 2
+
+    def curita(self):
+        """Gasta una cura: Vendas hervidas primero (e713), después Fármacos."""
+        if self.vendas:
+            self.vendas -= 1
+            return True
+        if self.mats['Fármacos']:
+            self.mats['Fármacos'] -= 1
+            return True
+        return False
+
+    def cuidar(self, horas):
+        while horas > 0 and self.h >= 2 and self.vendas + self.mats['Fármacos'] > self.aj['reserva_cura'] and self.curita():
+            horas -= 1
+            med = max([self.hab['Medicina']] + [s.lvl for s in self.grupo if s.hab == 'Medicina'])
+            t = d6(self.r) + d6(self.r) + med + (1 if 'Botiquín' in self.herr else 0)
+            self.h = max(0, self.h - (2 if t >= 10 else 1 if t >= 7 else 0))
+        if horas >= 1 and self.moral <= 4 and self.grupo:
+            horas -= 1
+            t = self.prueba('Labia')
+            self.moral = max(0, min(10, self.moral + (1 if t >= 7 else -1 if t <= 6 else 0)))
+        return horas
+
+    def expedicion(self, horas, quiero):
+        self.ruido = 0
+        dist = self.distancias()
+        pesos = {'comida': {'almacen': 3, 'vivienda': 1.2, 'comercio': 0.6},
+                 'mats': {'taller': 2.5, 'ferreteria': 2.5, 'vivienda': 1.0, 'comercio': 1.0, 'oficina': 0.8,
+                          'farmacia': 1.4, 'hospital': 1.2, 'policia': 1.3, 'almacen': 1.2}}[quiero]
+        if self.aj['rodear']:
+            dist = self.distancias(evitar={b for b, k in self.procs.items() if k})
+        mejor, mv = None, 0.0
+        for pid, L in self.lugares.items():
+            d = dist.get(L['barrio'], 9)
+            if d > self.aj['radio'] or 2 * d + 2 > horas:
+                continue
+            v = pesos.get(L['tipo'], 0.5) * min(2, L['stock']) + (3 if self.tesoro_en(pid) else 0)
+            if self.procs[L['barrio']]:
+                v -= 2.5
+            v /= (1 + 0.6 * d)
+            if v > mv:
+                mejor, mv = pid, v
+        if not mejor:
+            return horas
+        dest = self.lugares[mejor]['barrio']
+        libres = [s for s in self.grupo if not s.grave and not s.fiebre]
+        self.compas = sorted(libres, key=lambda s: -s.pel())[:2] if len(libres) >= self.aj['min_compas'] else []
+        self.stats['salidas'] += 1
+        ruta, x = [], self.home
+        evitar = {b for b, k in self.procs.items() if k} if self.aj['rodear'] else set()
+        while x != dest:
+            x = self.paso_hacia(x, dest, evitar)
+            ruta.append(x)
+        for b in ruta:
+            horas -= 1
+            self.llegar(b)
+        L = self.lugares[mejor]
+        if not L.get('visto'):
+            L['visto'] = True
+            self.evento(mejor, contexto='calle')
+        t = self.tesoro_en(mejor)
+        if t:
+            self.tomar_tesoro(t)
+        fondo = horas - len(ruta) >= 2
+        self.revisar(mejor, fondo)
+        horas -= 2 if fondo else 1
+        otros = [p for p, l in self.lugares.items() if l['barrio'] == dest and p != mejor and l['stock'] > 0]
+        if otros and horas - len(ruta) >= 1:
+            p2 = max(otros, key=lambda p: pesos.get(self.lugares[p]['tipo'], 0.5))
+            if not self.lugares[p2].get('visto'):
+                self.lugares[p2]['visto'] = True
+                self.evento(p2, contexto='calle')
+            fondo = horas - len(ruta) >= 2
+            self.revisar(p2, fondo)
+            horas -= 2 if fondo else 1
+        for b in list(reversed(ruta[:-1])) + [self.home]:
+            horas -= 1
+            if b != self.home:
+                self.llegar(b)
+        if self.ruido >= 3:
+            if dest in CALLE[self.home] or dest == self.home:
+                self.rastro = min(10, self.rastro + 1)
+                self.stats['rastro_ruido'] += 1
+            if self.procs:
+                dd = self.distancias(dest)
+                cerca = min(self.procs, key=lambda b: dd.get(b, 9))
+                self.procs[cerca] -= 1
+                self.procs[self.paso_hacia(cerca, dest)] += 1
+                self.procs = +self.procs
+        self.ruido = 0
+        self.barrio = self.home
+        self.compas = []
+        return max(0, horas)
+
+    def llegar(self, b):
+        venia = self.barrio
+        self.barrio = b
+        azotea = b in AZOTEAS.get(venia, ()) and (self.soga or self.prota == 'repartidora')
+        if azotea:
+            if d6(self.r) == 1:
+                self.evento('e130', contexto='calle')
+            return
+        if self.procs[b]:
+            self.procesion(compas=self.compas)
+            return
+        self.ruido += 1
+        t = min(12, d6(self.r) + self.etapa + (1 if self.ruido >= 3 else 0))
+        eid = self.tablas[b].get(max(2, t))
+        if eid:
+            self.evento(eid, contexto='calle')
+
+    # ------------------------------------------------------------ el taller (r200–r207, e740–e761)
+    def construir(self, horas):
+        M = self.mats
+        frs = self.frs()
+        alb = 1 if self.prota == 'albanil' else 0
+
+        def hacer(h):
+            nonlocal horas
+            if horas >= h:
+                horas -= h
+                return True
+            return False
+
+        def instalar(nombre, hab='Oficio'):
+            if hab is None or self.prueba(hab, bonus=1 if 'Taller' in self.inst else 0) >= 7:
+                self.inst.add(nombre)
+                self.moral = min(10, self.moral + 1)
+                return True
+            return False
+        plan = []
+        if 'Último Cuarto' not in self.inst and self.dia >= self.aj['dia_uc']:
+            plan.append('Último Cuarto')
+        if self.aj['huerta'] and 'Huerta' not in self.inst and (self.semillas or 776 in self.manuales):
+            plan.insert(0, 'Huerta')
+        for i in ('Cocina a leña', 'Vigía', 'Cortinas negras', 'Despensa', 'Enfermería', 'Taller', 'Dormitorio'):
+            if i not in self.inst:
+                plan.append(i)
+        for inst in plan:
+            if inst == 'Último Cuarto' and M['Sujeción'] >= 2 and (M['Metal'] >= 4 or M['Madera'] >= 6) and hacer(4):
+                if M['Metal'] >= 4: M['Metal'] -= 4
+                else: M['Madera'] -= 6
+                M['Sujeción'] -= 2
+                instalar(inst)
+            elif inst == 'Huerta' and M['Madera'] >= 2 and hacer(3):
+                M['Madera'] -= 2
+                instalar(inst, 'Supervivencia')
+            elif inst == 'Cocina a leña' and M['Metal'] >= 3 and M['Madera'] >= 2 and hacer(3):
+                M['Metal'] -= 3; M['Madera'] -= 2          # con chimenea: cocinar no sube el Rastro
+                instalar(inst)
+            elif inst == 'Vigía' and M['Madera'] >= 3 and M['Sujeción'] >= 1 and self.soga and hacer(2):
+                M['Madera'] -= 3; M['Sujeción'] -= 1
+                instalar(inst)
+            elif inst == 'Cortinas negras' and M['Tela'] >= 4 and hacer(2):
+                M['Tela'] -= 4
+                instalar(inst, None)
+                self.rastro = max(0, self.rastro - 1)
+            elif inst == 'Despensa' and self.viv >= 9 and M['Madera'] >= 3 and M['Metal'] >= 1 and hacer(2):
+                M['Madera'] -= 3; M['Metal'] -= 1
+                instalar(inst)
+            elif inst == 'Enfermería' and 'Botiquín' in self.herr and M['Madera'] >= 2 and M['Tela'] >= 2 \
+                    and M['Fármacos'] >= 4 and hacer(2):
+                M['Madera'] -= 2; M['Tela'] -= 2; M['Fármacos'] -= 2
+                instalar(inst, 'Medicina')
+            elif inst == 'Taller' and M['Madera'] >= 3 and M['Metal'] >= 2 and len(self.herr) >= 2 and hacer(3):
+                M['Madera'] -= 3; M['Metal'] -= 2
+                instalar(inst)
+            elif inst == 'Dormitorio' and M['Tela'] >= 4 and M['Madera'] >= 2 and self.dia >= 10 and hacer(2):
+                M['Tela'] -= 4; M['Madera'] -= 2
+                instalar(inst, None)
+        if not self.mudo and self.rastro >= 6 and M['Madera'] >= 2 and M['Sujeción'] >= 2 and hacer(4):
+            M['Madera'] -= 2; M['Sujeción'] -= 2
+            if self.prueba('Oficio') >= 7:
+                self.mudo = True
+                self.rastro = max(0, self.rastro - 2)
+        if self.aj['basicas']:
+            if self.prot == 0 and not self.revistas and M['Tela'] >= 2 and hacer(1):
+                M['Tela'] -= 2
+                self.revistas = 3                       # Armadura de revistas (e710)
+            while self.vendas < 3 and M['Tela'] >= 1 and M['Combustible'] >= 1 and horas >= 1:
+                hacer(1)
+                M['Tela'] -= 1; M['Combustible'] -= 1
+                self.vendas += 1                        # Vendas hervidas (e713)
+        if not any(a['d'] >= 2 for a in self.armas) and M['Sujeción'] >= 1 and hacer(1):
+            M['Sujeción'] -= 1
+            self.armas.insert(0, dict(n='bate con clavos', d=2, r=0, alc='C', usos=4, fuego=False))
+        if 774 in self.manuales and M['Combustible'] and M['Químicos'] and M['Tela'] and self.dia >= 25 and hacer(1):
+            M['Combustible'] -= 1; M['Químicos'] -= 1; M['Tela'] -= 1
+            self.molotov += 2
+        if self.manuales - getattr(self, '_leidos', set()) and hacer(1):
+            self._leidos = set(self.manuales)
+        guardo = 2 if 'Último Cuarto' not in self.inst and self.dia >= self.aj['dia_uc'] - 6 else 0
+        M_suj = lambda: M['Sujeción'] - guardo >= 1
+        while horas > 0:
+            frs.sort(key=lambda f: self.frentes[f] + 2 * len(self.trampas[f]))
+            f = frs[0]
+            if self.frentes[f] >= 10 and all(len(self.trampas[x]) >= 2 for x in frs):
+                break
+            if f not in self.muebles and self.frentes[f] < 10 and hacer(1):
+                self.muebles.add(f)
+                t = self.prueba('Físico')
+                self.frentes[f] = min(10, self.frentes[f] + (2 if t >= 10 else 1) + alb)
+                if 7 <= t <= 9 and self.h < self.maxh - 2:
+                    self.h += 1
+                continue
+            if 772 in self.manuales and M['Metal'] >= 3 and M['Sujeción'] - guardo >= 2 and self.frentes[f] <= 7 and hacer(2):
+                M['Metal'] -= 3; M['Sujeción'] -= 2
+                if self.prueba('Oficio', desv='Taladro' not in self.herr) >= 7:
+                    self.frentes[f] = min(10, self.frentes[f] + 3 + alb)
+                continue
+            if M['Madera'] >= 2 and M_suj() and self.frentes[f] <= 8 and hacer(2):
+                M['Madera'] -= 2; M['Sujeción'] -= 1
+                self.frentes[f] = min(10, self.frentes[f] + 2 + alb)
+                continue
+            ft = min(frs, key=lambda x: len(self.trampas[x]))
+            if len(self.trampas[ft]) < 2 and 778 in self.manuales and M['Metal'] >= 2 and M_suj() and hacer(1):
+                M['Metal'] -= 2; M['Sujeción'] -= 1
+                self.trampas[ft].append(2)
+                continue
+            if len(self.trampas[ft]) < 2 and M['Madera'] >= 1 and M_suj() and hacer(1):
+                M['Madera'] -= 1; M['Sujeción'] -= 1
+                self.trampas[ft].append(1 + alb)
+                continue
+            if self.desarmar > 0 and hacer(1):
+                self.desarmar -= 1
+                M['Madera'] += 2
+                continue
+            break
+        return horas
+
+    # ------------------------------------------------------------ la noche (r134, r175, r181)
+    def noche(self):
+        M = self.mats
+        for s in self.grupo:
+            if s.grave:
+                s.h = max(0, s.h - 1)
+                s.grave = s.h > 1
+        libres = [s for s in self.grupo if not s.grave]
+        self.r.shuffle(libres)
+        guardia, cocina, huerta = 0, False, 0
+        for s in libres:
+            if guardia < (2 if self.rastro >= 4 else 1):
+                guardia += 1
+            elif 'Cocina a leña' in self.inst and self.viv >= 2 and not cocina:
+                cocina = True
+                self.moral = min(10, self.moral + 1)
+                self.viv += 1
+            elif 'Huerta' in self.inst and huerta < self.aj['jardineros']:
+                huerta += 1
+                self.viv += 2 if s.hab == 'Supervivencia' and s.lvl >= 2 else 1
+            elif 'Enfermería' in self.inst and self.h > 0 and s.hab == 'Medicina':
+                self.h = max(0, self.h - 2)
+            elif M['Madera'] or M['Metal']:
+                f = min(self.frs(), key=lambda f: self.frentes[f])
+                if self.frentes[f] < 10:
+                    if M['Madera']: M['Madera'] -= 1
+                    else: M['Metal'] -= 1
+                    self.frentes[f] += 1
+            else:
+                s.h = max(0, s.h - 1)
+        if self.prota == 'enfermera' and self.h > 0:
+            self.h -= 1
+        if 'Enfermería' in self.inst and self.h > 0:
+            self.h -= 1
+        if self.h == 1:
+            self.h = 0       # el Descanso borra Magullado
+        tir = d6(self.r) + d6(self.r) - min(2, guardia) - (1 if 'Vigía' in self.inst else 0) + \
+            (2 if self.procs[self.home] else 0)
+        if tir <= self.rastro:
+            try:
+                self.sondeo()
+            except Caida as c:
+                self.caer(c, fuera=False)
+        if self.procs[self.home]:
+            self.procs[self.home] -= 1
+            self.procs[self.r.choice(CALLE[self.home])] += 1
+            self.procs = +self.procs
+        if self.moral <= 2 and self.grupo:
+            self.crisis()
+        if self.moral == 0 and self.grupo:
+            for s in list(self.grupo):
+                if d6(self.r) <= 3:
+                    self.perder(s, 'se rompió el grupo')
+            self.moral = 3
+        if self.animo == 0:
+            self.stats['quiebre'] += 1
+            self.animo = 2
+
+    def sondeo(self):
+        self.stats['sondeos'] += 1
+        frs = self.frs()
+        f = {1: 'Puerta', 2: 'Puerta', 3: 'Ventanas', 4: 'Techo', 5: 'Subsuelo'}.get(d6(self.r))
+        if f not in frs:
+            f = min(frs, key=lambda f: self.frentes[f])
+        q = d6(self.r)
+        dmg = 1 if q <= 3 else 2 if q in (4, 5) else 1
+        if q == 5 and self.etapa == 3:
+            dmg = d6(self.r)
+        if q == 6 and d6(self.r) <= 2:
+            self.viv = max(0, self.viv - 2)
+        if self.ref_id == 'e450' and f == 'Ventanas' and self.frentes[f] < 5 and self.aj['vidriera']:
+            dmg += 1                                    # las vidrieras
+        if self.trampas[f]:
+            dmg = max(0, dmg - 1)
+            if d6(self.r) <= 3:
+                self.trampas[f].pop()
+        self.frentes[f] = max(0, self.frentes[f] - dmg)
+        if self.frentes[f] == 0:
+            self.stats['entraron'] += 1
+            if self.combate([[d6(self.r) + self.etapa, 1, 1, 1, 'Callados']], self.grupo, refugio=True):
+                self.frentes[f] = 1
+                self.moral = max(0, self.moral - 1)
+            else:
+                self.moral = max(0, self.moral - 3)
+                self.viv //= 2
+
+    def crisis(self):
+        self.stats['crisis'] += 1
+        x = d6(self.r)
+        if x <= 2 and self.grupo:
+            self.perder(self.r.choice(self.grupo), 'se fue')
+            self.moral += 2
+        elif x == 3:
+            self.viv = max(0, self.viv - 2)
+        elif x == 4:
+            self.moral = max(0, self.moral - 1)
+        elif self.prueba('Labia') >= 7:
+            self.moral += 1
+
+    # ------------------------------------------------------------ la Noche 40 (r220–r225, e900–e930)
+    def sacar(self, s, defensores, asign):
+        if s in defensores:
+            defensores.remove(s)
+        for lst in asign.values():
+            if s in lst:
+                lst.remove(s)
+
+    def noche40(self):
+        self.en_noche40 = True
+        R = self.r
+        frs = self.frs()
+        defensores = [s for s in self.grupo if not s.grave and not (s.fiebre >= 3)]
+        olas = 3 + self.rastro // 3 + self.aj['olas_extra']
+        aliado = 3 if self.rep >= self.aj['rep_aliado'] else 0
+        if aliado:
+            self.stats['aliados'] += 1
+        if 'blindado' in self.tesoros:
+            self.frentes['Puerta'] = min(10, self.frentes['Puerta'] + 3)
+        asign = {f: [] for f in frs}
+        for s in sorted(defensores, key=lambda s: -(s.arma + (1 if s.pel() >= 2 else 0))):
+            f = min(frs, key=lambda f: (len(asign[f]) - (1 if f == 'Puerta' else 0), self.frentes[f]))
+            asign[f].append(s)
+        yo = 'Puerta'
+        uc = None
+        bonus_def = 0
+        menos = 0
+        mitad = False
+        self.log(f'== NOCHE 40: {olas} oleadas · frentes {self.frentes} · trampas {self.trampas} · '
+                 f'defensores {len(defensores)} · Molotov {self.molotov} · Último Cuarto '
+                 f'{"sí" if "Último Cuarto" in self.inst else "no"} · aliados {aliado}')
+        for ola in range(1, olas + 1):
+            fuerza = d6(R) + d6(R) + ola - menos
+            menos = 0
+            if mitad:
+                fuerza = (fuerza + 1) // 2
+                mitad = False
+            esp = d6(R) >= 5
+            y = d6(R) if esp else 0
+            if uc is not None:
+                golpes = [('UC', fuerza)]
+            else:
+                ntir = 2 if ola >= 4 else 1
+                golpes = []
+                for k in range(ntir):
+                    f = {1: 'Puerta', 2: 'Puerta', 3: 'Ventanas', 4: 'Techo', 5: 'Subsuelo'}.get(d6(R))
+                    if f not in frs:
+                        f = min(frs, key=lambda f: self.frentes[f])
+                    F = fuerza if ntir == 1 else ((fuerza + 1) // 2 if k == 0 else fuerza // 2)
+                    golpes.append((f, F))
+            for f, F in golpes:
+                extra = 3 if y == 1 else 0
+                if y == 2:
+                    F += 1; menos = -1
+                if y == 6:
+                    F += 2
+                if y == 4 and f != 'UC':
+                    self.frentes[f] = max(0, self.frentes[f] - 1)
+                if f == 'UC':
+                    aqui = defensores
+                    dfn = uc + sum(s.arma + (1 if s.pel() >= 2 else 0) + bonus_def for s in aqui)
+                else:
+                    tramp = sum(self.trampas[f]) if y != 5 else 0
+                    self.trampas[f] = []
+                    aqui = asign[f]
+                    dfn = self.frentes[f] + tramp + aliado + \
+                        sum(s.arma + (1 if s.pel() >= 2 else 0) + bonus_def for s in aqui)
+                if f in ('UC', yo):
+                    arma = self.mejor_arma(self.muni > 0) or self.mejor_arma(False) or self.armas[-1]
+                    t = self.prueba('Puntería' if arma['fuego'] else 'Pelea')
+                    if arma['fuego']:
+                        self.muni = max(0, self.muni - 1)
+                    dfn += 2 * arma['d'] if t >= 10 else arma['d'] if t >= 7 else 0
+                    if t <= 6:
+                        self.herida(1, 'Noche 40')
+                if self.molotov and F > dfn - 2:
+                    usar = min(self.molotov, 2)
+                    self.molotov -= usar
+                    dfn += 3 * usar
+                if dfn >= F:
+                    if f == 'UC': uc -= 1
+                    else: self.frentes[f] -= 1
+                else:
+                    falta = F - dfn + extra
+                    if f == 'UC': uc -= falta
+                    else: self.frentes[f] -= falta
+                    for s in list(aqui):
+                        if d6(R) >= 4:
+                            s.h += 1
+                            if s.h >= 3:
+                                self.sacar(s, defensores, asign)
+                                self.perder(s, 'cayó en la Noche 40')
+                    if f in ('UC', yo):
+                        self.mordida_tabla()
+                if f != 'UC' and self.frentes[f] <= 0:       # brecha (e920)
+                    self.stats['brechas'] += 1
+                    M = self.mats
+                    if M['Madera'] + M['Metal'] >= 2:
+                        for _ in range(2):
+                            if M['Madera']: M['Madera'] -= 1
+                            else: M['Metal'] -= 1
+                        t = self.prueba('Oficio')
+                        if t >= 7:
+                            self.frentes[f] = 3 if t >= 10 else 1
+                            continue
+                        self.mordida_tabla()
+                    uc = (6 + (1 if self.prota == 'albanil' else 0)) if 'Último Cuarto' in self.inst else 2
+                    self.stats['al_ultimo_cuarto'] += 1
+                    for s in list(asign[f]):
+                        if d6(R) >= 4:
+                            s.h += 1
+                    if f == yo:
+                        self.mordida_tabla()
+                    break
+                if f == 'UC' and uc <= 0:                     # e925: por el techo
+                    self.stats['ultima_puerta'] += 1
+                    if self.prueba('Físico') >= 10:
+                        self.grupo = [s for s in self.grupo if d6(R) >= 5]
+                        self.stats['amanecer'] += 1
+                        return
+                    raise Fin('Noche 40')
+            # entre oleadas (r224)
+            bonus_def = 0
+            M = self.mats
+            if uc is None:
+                for f in sorted(frs, key=lambda f: self.frentes[f])[:1 + len(defensores) // 2]:
+                    if (M['Madera'] or M['Metal']) and self.frentes[f] < 7:
+                        if M['Madera']: M['Madera'] -= 1
+                        else: M['Metal'] -= 1
+                        self.frentes[f] += 2
+            elif M['Madera'] or M['Metal']:
+                if M['Madera']: M['Madera'] -= 1
+                else: M['Metal'] -= 1
+                uc += 2
+            if self.h >= 2 and M['Fármacos']:
+                M['Fármacos'] -= 1
+                if d6(R) + d6(R) + self.hab['Medicina'] >= 7:
+                    self.h -= 1
+            if ola == 2:                                      # e910
+                x = d6(R)
+                if x == 4 and uc is None:
+                    ff = R.choice(frs); self.frentes[ff] = max(0, self.frentes[ff] - 1)
+                elif x == 5 and defensores and self.prueba('Labia') <= 6:
+                    s = min(defensores, key=lambda s: s.pel())
+                    self.sacar(s, defensores, asign)
+                    self.perder(s, 'huyó')
+                elif x == 6:
+                    menos = 1
+                elif x == 1 and defensores:
+                    self.sacar(R.choice(defensores), defensores, asign)
+            if ola == 4:                                      # e912
+                if len(defensores) >= 4:
+                    vol = min(defensores, key=lambda s: s.pel())
+                    t = d6(R) + d6(R) + (vol.lvl if vol.hab in ('Sigilo', 'Físico') else 0)
+                    mitad = True
+                    if t <= 9:
+                        self.sacar(vol, defensores, asign)
+                        if t <= 6:
+                            self.perder(vol, 'voluntario')
+                elif self.prueba('Labia') >= 7:
+                    bonus_def = 1
+        self.stats['amanecer'] += 1
+
+    # ------------------------------------------------------------ el día 41 (e930, e581–e586)
+    def dia41(self):
+        R = self.r
+        s = self.secreto
+        if s == 1:
+            ok = self.fiebre == 0
+            return ok, (1 if ok else 0) + sum(1 for x in self.grupo if x.fiebre == 0), 'plazo' if ok else 'se quedaron'
+        if s == 2:
+            if self.secreto_abierto and R.random() < 0.75:
+                return True, 1 + sum(1 for x in self.grupo if R.random() < 0.8), 'éxodo'
+            ok = d6(R) >= 5 or (self.ref_id == 'e480' and d6(R) >= 4)
+            return ok, (1 if ok else 0) + sum(1 for x in self.grupo if d6(R) >= 5), 'ceniza'
+        return True, 1 + len(self.grupo), {3: 'ensayo', 4: 'empezar', 5: 'marea', 6: 'inmunes'}[s]
 
     def jugar(self):
-        self.vistos = Counter(); self.vistas = Counter(); self.ultimo = None
         try:
-            while not self.fin:
-                self.amanecer()
-                if self.fin:
+            while self.dia < 40:
+                self.alba()
+                if self.pistas >= 4 and not self.secreto_abierto:
+                    self.secreto_abierto = True
+                    self.stats['abrio_dia'] = self.dia
+                self.luz()
+                if self.dia == 40:
                     break
-                acc = self.decidir()
-                self.ultimo = acc.split(':')[0]
-                self.log(acc, f'H{self.her} T{self.temple} Ch{self.chatarra} R{self.raciones} A{self.aire} E{self.energia} '
-                              f'Canto{self.canto} Al{self.alerta} sis={len(self.sis)}')
-                if acc == 'despegar': self.despegue()
-                elif acc == 'desesperado': self.despegue(True)
-                elif acc == 'instalar': self.instalar()
-                elif acc == 'mejorar': self.mejorar()
-                elif acc == 'baliza':
-                    self.stats['acc_baliza'] += 1
-                    if self.prueba('Ingenio', 9) != 'fa': self.baliza = False
-                    else: self.subir_alerta(1)
-                elif acc == 'descansar': self.descansar()
-                elif acc == 'visitar': self.vistas[self.region] += 1; self.visitar()
-                elif acc == 'ocultarte':
-                    self.stats['acc_ocultarte'] += 1
-                    self.alerta = max(2 if self.baliza else 1, self.alerta - 1)
-                    if self.region != 1 and self.d2() >= 10: self.encuentro()
-                elif acc == 'explorar': self.explorar()
-                elif acc.startswith('ir:'):
-                    dest = int(acc[3:])
-                    self.viajar(paso_hacia(self.region, dest) if dest != self.region else self.region)
-                if self.dia > 120:
-                    self.fin = 'bucle'
-        except Muerte:
-            pass
-        return self
+                self.noche()
+            self.noche40()
+        except Fin as f:
+            self.log(f'** FIN: {f.causa} el día {self.dia}')
+            return dict(gano=False, salvado=False, causa=f.causa, dia=self.dia, gente=len(self.grupo),
+                        stats=self.stats, final='muerte', salvados=0, ref=self.ref_id, inst=len(self.inst),
+                        rastro=self.rastro)
+        ps, sal, final = self.dia41()
+        self.log(f'** AMANECER · final {final} · salvados {sal}')
+        return dict(gano=True, salvado=ps, causa=None, dia=41, gente=len(self.grupo), stats=self.stats, final=final,
+                    salvados=sal, ref=self.ref_id, inst=len(self.inst), rastro=self.rastro)
 
 
-# probabilidades de 2d6 / 3d6 (Ventaja/Desventaja) de sacar n o más
-def _tabla(modo):
-    c = Counter()
-    rng = range(1, 7)
-    if modo is None:
-        for a in rng:
-            for b in rng: c[a + b] += 1
-    else:
-        for a in rng:
-            for b in rng:
-                for d in rng:
-                    s = sorted((a, b, d)); c[s[1] + s[2] if modo == 'V' else s[0] + s[1]] += 1
-    tot = sum(c.values())
-    return {n: sum(v for k, v in c.items() if k >= n) / tot for n in range(-10, 14)}
-
-
-P2, PV, PD = _tabla(None), _tabla('V'), _tabla('D')
+AJUSTES = dict(desarmar=10, amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True)
 
 
 def informe(res, prota):
     n = len(res)
-    fines = Counter(p.fin for p in res)
-    ganadas = [p for p in res if p.fin in ('despega', 'despega_justo', 'desesperado_ok')]
-    print(f'\n=== {prota.upper()} · {n} partidas ===')
-    for k, v in fines.most_common():
-        print(f'  {k:16s} {v / n:6.1%}')
-    print(f'  victoria total   {len(ganadas) / n:6.1%}')
-    dias = [p.dia for p in res]
-    print(f'  días jugados     media {st.mean(dias):.1f} · mediana {st.median(dias)} · min {min(dias)} · max {max(dias)}')
-    if ganadas:
-        print(f'  Reloj al ganar   media {st.mean(p.reloj for p in ganadas):.1f}')
-        print(f'  daños de nave    {Counter(p.danos for p in ganadas if p.danos is not None).most_common()}')
-    print(f'  sistemas al final  media {st.mean(len(p.sis) for p in res):.2f} · instalados '
-          f'{st.mean(sum(v[0] == "instalado" for v in p.sis.values()) for p in res):.2f}')
-    for s in SISTEMAS + ('Personal',):
-        d = [p.dia_sistemas[s] for p in res if s in p.dia_sistemas]
-        if d:
-            print(f'    {s:14s} conseguido en {len(d) / n:5.1%} · día medio {st.mean(d):5.1f}')
-    tot = Counter()
-    for p in res:
-        tot.update(p.stats)
-    for k in sorted(tot):
-        if k == 'muerte_por':
-            continue
-        print(f'  {k:22s} {tot[k] / n:7.2f} por partida')
-    muertes = Counter(getattr(p, 'muerte_por', '?') for p in res if p.fin == 'muerte')
-    if muertes:
-        print('  causas de muerte ', muertes.most_common(6))
-    print(f'  caídas (r195)    {st.mean(p.caidas for p in res):.2f} · Canto 6: {st.mean(p.canto6 for p in res):.2f}')
-    print(f'  Chatarra final   {st.mean(p.chatarra for p in res):.1f} · reliquias {st.mean(p.reliquias for p in res):.1f}')
+    g = sum(r['gano'] for r in res)
+    s = sum(r['salvado'] for r in res)
+    causas = Counter(r['causa'] for r in res if not r['gano'])
+    dias = [r['dia'] for r in res if not r['gano']]
+    print(f'\n## {prota}  ({n} partidas)')
+    print(f'  Llegan al amanecer: {100 * g / n:.1f} %   ·   salvados según el Secreto: {100 * s / n:.1f} %')
+    if dias:
+        print(f'  Muertes: día medio {st.mean(dias):.1f}  ·  ' +
+              ', '.join(f'{k} {100 * v / n:.1f} %' for k, v in causas.most_common()))
+    vivos = [r for r in res if r['gano']]
+    if vivos:
+        print(f'  Al amanecer: {st.mean(r["gente"] for r in vivos):.1f} sobrevivientes · '
+              f'{st.mean(r["salvados"] for r in vivos):.1f} salvados · '
+              f'{st.mean(r["inst"] for r in vivos):.1f} instalaciones · Rastro {st.mean(r["rastro"] for r in vivos):.1f}')
+        print('  Finales: ' + ', '.join(f'{k} {100 * v / n:.0f} %' for k, v in Counter(r['final'] for r in res).most_common()))
+    S = Counter()
+    for r in res:
+        S.update(r['stats'])
+    print('  Por partida: ' + ' · '.join(f'{k} {S[k] / n:.1f}' for k in (
+        'salidas', 'eventos', 'combates', 'procesiones', 'sondeos', 'entraron', 'crisis', 'unidos', 'perdidos',
+        'mordido', 'amputado', 'hambre', 'tesoros', 'brechas', 'al_ultimo_cuarto', 'ultima_puerta', 'aliados',
+        'caidas', 'rescatado', 'volvio', 'rastro_eventos', 'rastro_gente', 'rastro_ruido')))
+    porref = defaultdict(list)
+    for r in res:
+        porref[NOMBRE_REF[r['ref']]].append(r['gano'])
+    print('  Por refugio: ' + ' · '.join(f'{k} {100 * sum(v) / len(v):.0f} %' for k, v in sorted(porref.items())))
+    return g / n, s / n
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('-n', type=int, default=3000)
-    ap.add_argument('--prota', choices=['piloto', 'nativo', 'mente', 'todos'], default='todos')
+    ap.add_argument('-n', type=int, default=2000)
+    ap.add_argument('--prota', choices=list(PROTAS))
+    ap.add_argument('--refugio', choices=list(REFUGIOS))
     ap.add_argument('--semilla', type=int, default=1)
     ap.add_argument('--traza', action='store_true')
-    ap.add_argument('--estrategia', default='normal')
     a = ap.parse_args()
-    ev = leer_eventos(); tablas = leer_tablas(ev)
-    rng = random.Random(a.semilla)
-    protas = ['piloto', 'nativo', 'mente'] if a.prota == 'todos' else [a.prota]
+    ev = leer_eventos()
+    tablas, lugares = leer_tablas(ev)
+    datos = (ev, tablas, lugares, leer_refugios(ev), leer_baraja(ev))
+    r = random.Random(a.semilla)
     if a.traza:
-        p = Partida(protas[0], ev, tablas, rng, traza=True, estrategia=a.estrategia).jugar()
-        print('FIN:', p.fin, 'día', p.dia, 'daños', p.danos)
+        p = Partida(datos, a.prota or 'enfermera', r, a.refugio, traza=True)
+        res = p.jugar()
+        print({k: v for k, v in res.items() if k != 'stats'}, dict(res['stats']))
         return
-    vistos = Counter()
-    for pr in protas:
-        res = [Partida(pr, ev, tablas, rng, estrategia=a.estrategia).jugar() for _ in range(a.n)]
-        for p in res: vistos.update(p.vistos)
-        informe(res, pr)
-    enc = {e for t in tablas.values() for f in t.values() for e in f if e}
-    nunca = sorted(e for e in enc if not vistos[e])
-    print(f'\nEventos de las tablas de encuentro: {len(enc)} · nunca visitados: {len(nunca)} {nunca[:20]}')
+    tot = []
+    for prota in ([a.prota] if a.prota else list(PROTAS)):
+        tot.append(informe([Partida(datos, prota, r, a.refugio).jugar() for _ in range(a.n)], prota))
+    print(f'\nMedia: llegan al amanecer {100 * st.mean(t[0] for t in tot):.1f} % · '
+          f'salvados {100 * st.mean(t[1] for t in tot):.1f} %')
 
 
 if __name__ == '__main__':

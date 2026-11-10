@@ -82,15 +82,15 @@ Lo bueno: es un supermercado. Lo malo: todo el barrio sabe que es un supermercad
 
 > **Ficha del refugio**
 > **Tipo:** Almacén / Súper · **Stock:** ▢▢▢
-> **Puerta** 3 · **Ventanas** 1 · **Techo** 4 · **Subsuelo** 4
+> **Puerta** 3 · **Ventanas** 3 · **Techo** 4 · **Subsuelo** 4
 > **Víveres:** 10 · **Materiales:** 1 Tela, 1 Químicos, 1 Combustible
-> **Rastro inicial:** 3
+> **Rastro inicial:** 2
 
 **Reglas propias**
 
 - **Don Ramón.** Antes de revisar en [e009](#e009), hay que sacarlo del depósito: **Callado ×1 · Cerca**, con delantal. Sin prueba si tenés un arma de Cerca; si no, `[Pelea]`. Si alguien del grupo lo conocía, −1 Ánimo para esa persona.
 - **Las vidrieras.** Las Ventanas son un **frente doble**: tiene 4 espacios de trampa en lugar de 2, pero cuando un sondeo o una oleada golpea las Ventanas, hace +1 de daño hasta que las Ventanas lleguen a Resistencia 5 o más.
-- **Todos saben.** Una vez por semana (el primer alba de cada Etapa y a mitad de cada una, es decir, en las cartas 1, 5, 11, 15, 21, 25, 31 y 35), alguien viene por la comida → [e451](#e451).
+- **Todos saben.** Una vez por Etapa, a mitad de cada una (en las cartas 5, 15, 25 y 35), alguien viene por la comida → [e451](#e451).
 - **La carnicería.** Tiene una cámara de frío → [e452](#e452).
 - **La cortina metálica.** Hace un ruido que se escucha a tres cuadras → [e453](#e453).
 

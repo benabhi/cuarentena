@@ -333,7 +333,7 @@ ______________________________________________________________________
 | Azoteas | ◷ 2 | 0 | Solo con 1 en 1d6 ([e130](#e130)) |
 | Subsuelo | ◷ 1 | 0 | Siempre ([e110](#e110)) |
 
-**Ruido 3:** Callados ×1d6 · Lejos. **Ruido 6:** la Procesión ([e100](#e100)). Al volver con Ruido 3+ de un barrio vecino, +1 Rastro. Las Procesiones siguen el ruido, se mueven los días de Espadas y no se cruzan por arriba ni por abajo.
+**Ruido 3:** Callados ×1d3 · Lejos. **Ruido 6:** la Procesión ([e100](#e100)). Al volver con Ruido 3+ de un barrio vecino, +1 Rastro. Las Procesiones siguen el ruido, se mueven los días de Espadas y no se cruzan por arriba ni por abajo.
 
 ### El combate (r140–r149)
 
@@ -342,12 +342,11 @@ ______________________________________________________________________
 > **Atacar:** 10+ matás tantos como el Daño · 7–9 la mitad (redondeando hacia arriba) y el precio del arma (un uso o el doble de Ruido) · 6− nada.
 > **Cada ataque suma el Ruido del arma.**
 
-| 1d6 por cada uno Encima (máx. 3) | |
+| 1d6 por cada uno Encima (máx. 2) | |
 |---|---|
 | 1–3 | Nada |
-| 4 | Golpe: 1 Herida |
-| 5 | Arañazo: 1 Herida y prueba de Fiebre |
-| 6 | Mordida: 1 Herida y Fiebre 1 |
+| 4–5 | Golpe: 1 Herida |
+| 6 | 1 Herida y otro 1d6: 1–3 arañazo (prueba de Fiebre), 4–6 mordida (Fiebre 1) |
 
 *Protección: −1 a cada dado por pieza, como mucho −2.*
 

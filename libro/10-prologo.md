@@ -118,7 +118,7 @@ Esto es un **combate** (r140). Leé las reglas mientras lo jugás:
 - Hay dos **distancias** que importan ahora: **Cerca** y **Encima** (r141). Al final de cada ronda, avanzan un paso.
 - En tu ronda **atacás** (r143): `[Pelea]` con lo que tengas a mano. Si no tenés arma, los puños tienen Daño 1. Agarrá algo: un matafuegos, un palo de escoba, una llave. Por ahora, cuenta como **Daño 1** y nunca se rompe.
 - Con **10+** matás tantos como el Daño. Con **7–9**, la mitad redondeando hacia arriba. Con **6−**, ninguno.
-- Los que están **Encima**, al final de la ronda, **muerden** (r144): tirá 1d6 por cada uno. 1–3 nada, 4 un golpe (1 Herida), 5 un arañazo, 6 una mordida.
+- Los que están **Encima**, al final de la ronda, **muerden** (r144): tirá 1d6 por cada uno (como mucho dos). 1–3 nada; 4–5 un golpe (1 Herida); 6, los dientes: 1 Herida y otro dado, que dice si fue un arañazo o una mordida.
 - Si preferís, podés **retroceder** `[Físico]` o **esconderte** `[Sigilo]` (r142), pero en un pasillo no hay mucho lugar.
 
 Si te muerden o te arañan, leé ya la regla de la **Fiebre** (r191). Si no te pasa nada, leela igual: en Corinto, todo el mundo la sabe de memoria.

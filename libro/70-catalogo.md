@@ -139,7 +139,7 @@ La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna c
 | Campera de cuero | −1 | ∞ | Comercio |
 | Chaleco antibala | −1 | ∞ | Policía, Armería. Contra vivos con armas de fuego, sus disparos te pegan con 6 (no con 5–6) |
 | Chaquetón de bombero | −1 | ∞ | Cuartel ([e480](#e480)). El fuego te hace 1 Herida menos |
-| Casco | — | ∞ | El primer golpe (un 4 en la tabla de mordidas) de cada combate no te hace nada |
+| Casco | — | ∞ | El primer golpe (un 4 o un 5 en la tabla de mordidas) de cada combate no te hace nada |
 | Armadura de revistas | −1 | 3 | *Receta básica* ([e746](#e746)). Cada vez que evita una mordida, pierde 1 uso |
 | Brazales de chapa | −1 | 6 | Receta ([e746](#e746)) |
 | Casco de olla | — | 3 | Receta ([e746](#e746)). Como un casco |
@@ -316,7 +316,7 @@ Perros. Los de la calle, los de las casas, los de la brigada canina. Se convirti
 
 Alguien que era grande y ahora es enorme. La infección le hinchó los músculos hasta reventarle la ropa, la piel violácea, las venas como cables. Arrastra lo que se le enganchó en el camino: una reja, una puerta, un pedazo de auto. No corre. No hace falta.
 
-- **Conducta:** las puertas cerradas, las barricadas y las trampas no lo frenan: las rompe. Donde hay un Bruto, ninguna puerta cuenta como «cerrada» (r141). Si está Encima, cada golpe (un 4 en la tabla de mordidas) son 2 Heridas.
+- **Conducta:** las puertas cerradas, las barricadas y las trampas no lo frenan: las rompe. Donde hay un Bruto, ninguna puerta cuenta como «cerrada» (r141). Si está Encima, cada golpe (un 4 o un 5 en la tabla de mordidas) son 2 Heridas.
 - **Cómo:** fuego (no lo frena, pero el Daño sigue: cada ronda en llamas, 1 Daño), trampas grandes (Foso de estacas: 2 Daño), armas pesadas. O huir: es lento.
 - **Observación:** en un sondeo, el frente que golpea pierde 1d6 de Resistencia, no 1.
 - **En la Noche 40:** la oleada en la que aparece hace +3 de daño al frente si entra. El Foso de estacas y las Rejas soldadas le hacen la mitad.
