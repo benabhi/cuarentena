@@ -1,0 +1,470 @@
+/* =====================================================================
+   CUARENTENA · estilo del manual (WeasyPrint)
+   Formato 170 × 240,4 mm (se amplía a A4 al exportar).
+   Risografía a dos tintas: negro y amarillo de señalización sobre papel crema.
+   Un rojo de alarma, muy poco: el Subsuelo, la Fiebre, las Marcas.
+   ===================================================================== */
+
+/* ---------- Fuentes ---------- */
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-300-normal.ttf); font-weight: 300; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-300-italic.ttf); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-400-normal.ttf); font-weight: 400; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-400-italic.ttf); font-weight: 400; font-style: italic; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-500-normal.ttf); font-weight: 500; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-600-normal.ttf); font-weight: 600; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-600-italic.ttf); font-weight: 600; font-style: italic; }
+@font-face { font-family: 'Spectral'; src: url(fuentes/spectral-700-normal.ttf); font-weight: 700; }
+@font-face { font-family: 'Anton'; src: url(fuentes/anton-400-normal.ttf); font-weight: 400; }
+@font-face { font-family: 'PT Sans Narrow'; src: url(fuentes/pt-sans-narrow-400-normal.ttf); font-weight: 400; }
+@font-face { font-family: 'PT Sans Narrow'; src: url(fuentes/pt-sans-narrow-700-normal.ttf); font-weight: 700; }
+@font-face { font-family: 'Special Elite'; src: url(fuentes/special-elite-400-normal.ttf); font-weight: 400; }
+@font-face { font-family: 'IBM Plex Mono'; src: url(fuentes/ibm-plex-mono-400-normal.ttf); font-weight: 400; }
+@font-face { font-family: 'IBM Plex Mono'; src: url(fuentes/ibm-plex-mono-500-normal.ttf); font-weight: 500; }
+@font-face { font-family: 'IBM Plex Mono'; src: url(fuentes/ibm-plex-mono-400-italic.ttf); font-weight: 400; font-style: italic; }
+
+:root {
+  --tinta: #161616;
+  --tinta-2: #45413a;
+  --amarillo: #f2c12e;
+  --amarillo-claro: #f7dc84;
+  --rojo: #c8381f;
+  --papel: #f4eedf;
+  --papel-2: #e8dfc8;
+  --gris: #8d877b;
+  --noche: #141414;
+  --serif: 'Spectral', 'DejaVu Serif', serif;
+  --titulo: 'Anton', 'DejaVu Sans Condensed', sans-serif;
+  --rotulo: 'PT Sans Narrow', 'DejaVu Sans Condensed', sans-serif;
+  --maquina: 'Special Elite', 'IBM Plex Mono', monospace;
+  --mono: 'IBM Plex Mono', 'DejaVu Sans Mono', monospace;
+}
+
+/* ---------- Páginas ---------- */
+@page {
+  size: 170mm 240.4mm;
+  margin: 19mm 15mm 19mm 18mm;
+  background: var(--papel);
+}
+@page :left {
+  margin-left: 15mm; margin-right: 18mm;
+  @top-left { content: string(ent, first) string(sep, first) string(ent, last); font: 400 9pt var(--titulo); color: var(--tinta); letter-spacing: .05em; vertical-align: bottom; padding-bottom: 2.4mm; }
+  @top-right { content: string(capitulo); font: 700 7pt var(--rotulo); color: var(--tinta-2); text-transform: uppercase; letter-spacing: .2em; vertical-align: bottom; padding-bottom: 2.6mm; }
+  @bottom-left { content: counter(page); font: 400 10pt/1 var(--titulo); color: var(--tinta); background: var(--amarillo); padding: 1.4mm 2mm 1.1mm; vertical-align: top; margin-top: 3mm; height: 5mm; }
+  @bottom-right { content: "Cuarentena  ·  " string(parte); font: 700 6.6pt var(--rotulo); color: var(--tinta-2); text-transform: uppercase; letter-spacing: .22em; vertical-align: top; padding-top: 4.2mm; }
+}
+@page :right {
+  margin-left: 18mm; margin-right: 15mm;
+  @top-left { content: string(capitulo); font: 700 7pt var(--rotulo); color: var(--tinta-2); text-transform: uppercase; letter-spacing: .2em; vertical-align: bottom; padding-bottom: 2.6mm; }
+  @top-right { content: string(ent, first) string(sep, first) string(ent, last); font: 400 9pt var(--titulo); color: var(--tinta); letter-spacing: .05em; vertical-align: bottom; padding-bottom: 2.4mm; }
+  @bottom-left { content: "Cuarentena  ·  " string(parte); font: 700 6.6pt var(--rotulo); color: var(--tinta-2); text-transform: uppercase; letter-spacing: .22em; vertical-align: top; padding-top: 4.2mm; }
+  @bottom-right { content: counter(page); font: 400 10pt/1 var(--titulo); color: var(--tinta); background: var(--amarillo); padding: 1.4mm 2mm 1.1mm; vertical-align: top; margin-top: 3mm; height: 5mm; }
+}
+@page lamina {
+  margin: 0; background: var(--noche);
+  @top-left { content: none; } @top-right { content: none; }
+  @bottom-left { content: none; background: none; } @bottom-right { content: none; background: none; } @bottom-center { content: none; }
+}
+@page portada {
+  margin: 0; background: var(--noche);
+  @top-left { content: none; } @top-right { content: none; }
+  @bottom-left { content: none; background: none; } @bottom-right { content: none; background: none; }
+}
+@page limpia {
+  @top-left { content: none; } @top-right { content: none; }
+  @bottom-left { content: none; background: none; } @bottom-right { content: none; background: none; }
+}
+@page oscura:left {
+  @top-left { color: var(--amarillo); } @top-right { color: #bdb6a6; }
+  @bottom-right { color: #bdb6a6; }
+}
+@page oscura:right {
+  @top-left { color: #bdb6a6; } @top-right { color: var(--amarillo); }
+  @bottom-left { color: #bdb6a6; }
+}
+/* la textura del papel cubre también los márgenes */
+@page :left { background: var(--papel) url(maqueta/papel.jpg) no-repeat; background-size: 170mm 240.4mm; background-position: -15mm -19mm; }
+@page :right { background: var(--papel) url(maqueta/papel.jpg) no-repeat; background-size: 170mm 240.4mm; background-position: -18mm -19mm; }
+@page oscura:left { background: var(--noche) url(maqueta/papel-oscuro.jpg) no-repeat; background-size: 170mm 240.4mm; background-position: -15mm -19mm; }
+@page oscura:right { background: var(--noche) url(maqueta/papel-oscuro.jpg) no-repeat; background-size: 170mm 240.4mm; background-position: -18mm -19mm; }
+@page lamina:left { background: var(--noche); }
+@page lamina:right { background: var(--noche); }
+@page portada:left { background: var(--noche); }
+@page portada:right { background: var(--noche); }
+@page hoja:left { @top-left { content: none; } }
+@page hoja:right { @top-right { content: none; } }
+
+html { font-family: var(--serif); font-size: 8.9pt; line-height: 1.42; color: var(--tinta); }
+body { margin: 0; hyphens: auto; -weasy-hyphens: auto; }
+p { margin: 0 0 .5em; text-align: justify; orphans: 2; widows: 2; }
+b, strong { font-weight: 700; color: #000; }
+em { font-style: italic; }
+a { color: inherit; text-decoration: none; }
+ul, ol { margin: .2em 0 .6em; padding-left: 1.2em; }
+ol, ul { break-before: auto; }
+li { margin-bottom: .22em; text-align: left; }
+li > p { margin: 0; }
+small { font-size: .82em; }
+
+/* ---------- Iconos y casillas ---------- */
+.ico { width: 1.05em; height: 1.05em; vertical-align: -0.17em; display: inline-block; color: var(--tinta); }
+.ico.sim { width: 1em; height: 1em; margin: 0 .08em 0 0; }
+.cas { display: inline-block; width: .78em; height: .78em; border: .75pt solid var(--tinta); background: rgba(255,255,255,.45);
+  margin: 0 .14em; vertical-align: -.06em; }
+
+/* ---------- Portada ---------- */
+.portada { page: portada; position: relative; width: 170mm; height: 240.4mm; overflow: hidden; break-after: page; }
+.portada-img { position: absolute; top: 0; left: 0; width: 170mm; height: 240.4mm; object-fit: cover; }
+.portada-titulo { position: absolute; top: 15mm; left: 13mm; right: 13mm; color: var(--tinta); }
+.portada-kicker { font: 700 9pt var(--rotulo); letter-spacing: .48em; text-transform: uppercase; color: var(--tinta); }
+.portada-nombre { font: 400 62pt/0.95 var(--titulo); letter-spacing: .02em; margin: 2mm 0 2mm -1mm; text-transform: uppercase; color: var(--tinta); }
+.portada-sub { font: 400 13pt var(--maquina); color: var(--tinta); }
+.portada-cinta { position: absolute; bottom: 14mm; left: -10mm; width: 190mm; height: 9mm; text-align: center;
+  background: repeating-linear-gradient(-45deg, var(--amarillo) 0 6mm, var(--tinta) 6mm 12mm);
+  font: 700 0pt var(--rotulo); }
+.portada-cinta::after { content: "TOLME · DÍA 0 · ZONA SELLADA"; display: inline-block; margin-top: 1.4mm; padding: .6mm 4mm;
+  background: var(--amarillo); color: var(--tinta); font: 700 9pt var(--rotulo); letter-spacing: .4em; }
+
+.pagina-epigrafe { page: lamina; width: 170mm; height: 240.4mm; background: var(--noche) url(maqueta/papel-oscuro.jpg); background-size: cover;
+  position: relative; break-after: page; }
+.epi-centro { position: absolute; top: 80mm; left: 20mm; width: 130mm; text-align: left; color: var(--papel); }
+.epi-centro p { text-align: left; font: 400 11.5pt/1.6 var(--maquina); color: var(--papel); }
+.epi-centro em { color: var(--amarillo); font-style: normal; }
+.epi-ico { width: 12mm; height: 12mm; color: var(--amarillo); margin-bottom: 6mm; }
+
+.pagina-creditos { page: limpia; break-after: page; padding-top: 62mm; text-align: center; }
+.cred-titulo { font: 400 40pt/1 var(--titulo); color: var(--tinta); text-transform: uppercase; letter-spacing: .03em; }
+.cred-sub { font: 400 10pt var(--maquina); margin: 2mm 0 6mm; }
+.cred-franja { height: 3mm; width: 60mm; margin: 0 auto 8mm; background: repeating-linear-gradient(-45deg, var(--amarillo) 0 2.2mm, var(--tinta) 2.2mm 4.4mm); }
+.pagina-creditos p { text-align: center; max-width: 105mm; margin: 0 auto 5mm; }
+.cred-peq { font-size: 7.2pt; color: var(--tinta-2); line-height: 1.6; }
+.cred-sello { margin-top: 22mm; text-align: center; }
+.cred-sello img { width: 30mm; height: auto; }
+.cred-sello-txt { font: 700 6.4pt var(--rotulo); text-transform: uppercase; letter-spacing: .24em; color: var(--tinta-2); margin-top: 1.6mm; }
+
+/* ---------- Índice ---------- */
+.indice { page: limpia; break-after: page; }
+.indice-tit { font: 400 32pt var(--titulo); color: var(--tinta); text-transform: uppercase; letter-spacing: .02em; margin: 0 0 6mm;
+  border-bottom: 3pt solid var(--tinta); padding-bottom: 1mm; string-set: capitulo attr(data-titulo); }
+.indice-cuerpo { columns: 2; column-gap: 9mm; }
+.ix-parte { font: 400 11pt var(--titulo); text-transform: uppercase; letter-spacing: .06em; color: var(--tinta); background: var(--amarillo);
+  padding: .6mm 2mm .3mm; margin: 3mm 0 1.2mm; break-after: avoid; }
+.ix-parte a::after { content: leader(" ") target-counter(attr(href), page); }
+.ix-cap { font: 400 8.5pt/1.3 var(--serif); margin: 0 0 .5mm; }
+.ix-cap a::after { content: leader(".") " " target-counter(attr(href), page); font: 400 9pt var(--titulo); color: var(--tinta); }
+
+/* ---------- Láminas y partes ---------- */
+.lamina { page: lamina; position: relative; width: 170mm; height: 240.4mm; overflow: hidden; break-before: page; break-after: page; }
+.lamina-img { position: absolute; top: 0; left: 0; width: 170mm; height: 240.4mm; object-fit: cover; }
+.velo-abajo { position: absolute; left: 0; top: 0; width: 170mm; height: 240.4mm;
+  background: linear-gradient(to top, rgba(20,20,20,.94) 0%, rgba(20,20,20,.6) 24%, rgba(20,20,20,0) 50%, rgba(20,20,20,0) 100%); }
+.velo-abajo.suave { background: linear-gradient(to top, rgba(20,20,20,.9) 0%, rgba(20,20,20,0) 32%, rgba(20,20,20,0) 100%); }
+.lamina-parte { string-set: parte attr(data-parte), capitulo ""; }
+.parte-rot { position: absolute; left: 14mm; right: 14mm; bottom: 16mm; color: var(--papel); }
+.parte-num { display: inline-block; font: 400 30pt/1 var(--titulo); color: var(--tinta); background: var(--amarillo); padding: 1.5mm 4mm .5mm; margin-bottom: 3mm; }
+.parte-tit { font: 400 50pt/0.95 var(--titulo); text-transform: uppercase; letter-spacing: .01em; margin: 0 0 6mm; color: var(--papel);
+  bookmark-level: 1; bookmark-label: attr(data-marca); }
+.cita-parte { margin: 0; padding-left: 5mm; border-left: 2.4pt solid var(--amarillo); max-width: 118mm; }
+.cita-parte p { font: 400 10.5pt/1.45 var(--maquina); text-align: left; color: var(--papel); margin: 0 0 2mm; }
+.cita-parte cite { font: 700 7.4pt var(--rotulo); text-transform: uppercase; letter-spacing: .2em; color: var(--amarillo); font-style: normal; }
+.lamina-rot { position: absolute; left: 14mm; right: 14mm; bottom: 15mm; color: var(--papel); }
+.lamina-kicker { font: 700 8pt var(--rotulo); letter-spacing: .4em; text-transform: uppercase; color: var(--amarillo); }
+.lamina-tit { font: 400 40pt/1 var(--titulo); text-transform: uppercase; letter-spacing: .01em; color: var(--papel); }
+/* doble página: la misma imagen, cada mitad en una página */
+.lamina.doble .doble-img { width: 340mm; height: 240.4mm; object-fit: cover; }
+.lamina.doble-der .doble-img { left: -170mm; }
+.doble-izq { break-before: left; }
+
+/* ---------- Cabeceras de capítulo ---------- */
+.cap-cab { margin: 0 0 5mm; string-set: capitulo attr(data-titulo); break-inside: avoid; break-after: avoid; }
+.cap-cab.salto { break-before: page; }
+.cap-cab:not(.salto) { margin-top: 6mm; padding-top: 3mm; border-top: 4pt solid var(--tinta); }
+.cap-kicker { font: 700 7pt var(--rotulo); text-transform: uppercase; letter-spacing: .38em; color: var(--tinta-2); }
+.cap-tit { display: inline-block; font: 400 26pt/1.05 var(--titulo); text-transform: uppercase; color: var(--tinta); margin: .8mm 0 2.6mm;
+  letter-spacing: .01em; background: var(--amarillo); padding: .6mm 2.4mm 0; bookmark-level: 2; bookmark-label: attr(data-marca); }
+.cap-cab.salto .cap-tit, .cap-cab.con-banda .cap-tit { font-size: 32pt; }
+.cap-cab.con-banda:not(.salto) { border-top: none; padding-top: 0; margin-top: 5mm; }
+.banda { height: 41mm; margin: 0 0 5mm; overflow: hidden; position: relative; border-bottom: 4pt solid var(--tinta); }
+.banda img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.epigrafe { margin: 0 0 3mm; padding: 0 0 0 4mm; border-left: 2.4pt solid var(--amarillo); max-width: 115mm; }
+.epigrafe p { font: 400 9.4pt/1.45 var(--maquina); text-align: left; margin: 0 0 1mm; color: var(--tinta-2); }
+.epigrafe cite { font: 700 6.8pt var(--rotulo); text-transform: uppercase; letter-spacing: .2em; color: var(--tinta); font-style: normal; }
+.cap-intro p { font-style: italic; color: var(--tinta-2); }
+
+/* ---------- Barrios ---------- */
+.barrio-cab { margin-bottom: 4mm; }
+.barrio-ficha { display: flex; align-items: stretch; }
+.bf-num { width: 25mm; flex: none; background: var(--tinta); color: var(--amarillo); text-align: center; font: 400 44pt/1 var(--titulo);
+  padding: 1.5mm 0 1mm; margin-right: 4.5mm; }
+.bf-num span { display: block; font: 700 7pt var(--rotulo); letter-spacing: .36em; text-transform: uppercase; color: var(--papel); margin-bottom: 1mm; }
+.barrio-tit { margin-top: 0; }
+.bf-lema { font: italic 400 10pt/1.38 var(--serif); color: var(--tinta-2); max-width: 118mm; }
+.tabla-region { margin-bottom: 5mm; }
+.tabla-region .entrada { margin: 0; }
+.tabla-region .entrada .cab { border-bottom: none; }
+.tabla-region .texto { columns: 1; }
+
+/* ---------- Flujo de texto ---------- */
+.flujo.col2 { columns: 2; column-gap: 6.5mm; column-rule: .5pt solid rgba(22,22,22,.28); }
+.flujo.col3 { columns: 3; column-gap: 4.5mm; column-rule: .5pt solid rgba(22,22,22,.24); font-size: 8pt; }
+
+/* ---------- Entradas ---------- */
+.entrada { margin: 0 0 4.2mm; string-set: ent attr(data-num), sep "  ·  "; }
+.entrada .cab { break-after: avoid; break-inside: avoid; border-bottom: 1.2pt solid var(--tinta); padding-bottom: .8mm; margin-bottom: 1.4mm;
+  display: flex; align-items: baseline; }
+.entrada .num { font: 400 12.5pt/1 var(--titulo); color: var(--amarillo); background: var(--tinta); padding: .9mm 1.4mm .4mm; margin-right: 2mm;
+  letter-spacing: .02em; }
+.entrada .num .pfx { font-size: .75em; margin-right: .2mm; color: var(--papel); }
+.regla .num { background: var(--amarillo); color: var(--tinta); }
+.regla .num .pfx { color: var(--tinta); }
+.entrada .tit { font: 700 10.4pt/1.12 var(--rotulo); text-transform: uppercase; letter-spacing: .05em; margin: 0; color: var(--tinta);
+  bookmark-level: 3; bookmark-label: attr(data-marca); }
+.tit .t-nota { font-style: normal; color: var(--tinta-2); font-size: .82em; }
+.meta { break-after: avoid; font: 700 7pt var(--rotulo); text-transform: uppercase; letter-spacing: .14em; color: var(--tinta-2); margin: 0 0 1.6mm; }
+.meta .tiempo { margin-left: 2.5mm; color: var(--tinta); }
+.meta .tiempo .ico { width: 1.1em; height: 1.1em; margin-right: .5mm; }
+.meta .stock { margin-left: 2.5mm; color: var(--tinta); }
+.meta .stock .cas { width: .9em; height: .9em; margin: 0 0 0 .5mm; }
+.texto > p:first-child { margin-top: 0; orphans: 3; }
+
+/* opciones numeradas */
+ol.opciones { list-style: none; padding-left: 0; counter-reset: op; margin: .4em 0 .6em; }
+ol.opciones > li { counter-increment: op; position: relative; padding-left: 6mm; margin-bottom: .45em; text-align: justify; }
+ol.opciones > li::before { content: counter(op); position: absolute; left: 0; top: .1em; width: 4.2mm; height: 4.2mm;
+  background: var(--tinta); color: var(--amarillo); font: 400 8pt/4.5mm var(--titulo); text-align: center; }
+ul { list-style: none; padding-left: 3.2mm; }
+ul > li { position: relative; }
+ul > li::before { content: ""; position: absolute; left: -3.1mm; top: .5em; width: 1.5mm; height: 1.5mm; background: var(--tinta); }
+
+/* pruebas, marcas, amenazas, referencias */
+.prueba { display: inline-block; white-space: nowrap; background: var(--tinta); color: var(--papel); padding: 0 1.2mm 0 .8mm;
+  font: 700 7.7pt/1.45 var(--rotulo); letter-spacing: .04em; vertical-align: .04em; }
+.prueba .ico { width: 1.05em; height: 1.05em; color: var(--amarillo); margin-right: .7mm; vertical-align: -.16em; }
+.prueba .mod { margin-left: 1mm; padding-left: 1mm; border-left: .5pt solid rgba(244,238,223,.5); font-weight: 400; color: var(--amarillo-claro); }
+.marca { hyphens: manual; -weasy-hyphens: manual; font: 500 .84em var(--mono); color: var(--tinta); background: var(--amarillo-claro);
+  padding: 0 .6mm; letter-spacing: -.01em; }
+.amenaza { white-space: nowrap; font: 700 .92em var(--rotulo); text-transform: uppercase; letter-spacing: .04em; border: .8pt solid var(--tinta);
+  padding: 0 1mm 0 .6mm; background: rgba(255,255,255,.4); }
+.amenaza .ico { width: 1em; height: 1em; vertical-align: -.14em; margin-right: .4mm; }
+.amenaza .am-x { font: 400 1.05em var(--titulo); margin: 0 .8mm 0 .6mm; }
+.amenaza .am-d { background: var(--tinta); color: var(--amarillo); padding: 0 .9mm; margin-right: -1mm; }
+.amenaza .am-encima { background: var(--rojo); color: #fff; }
+code { font: .86em var(--mono); background: rgba(22,22,22,.07); padding: 0 .4mm; }
+a.ref { font: 700 .95em var(--rotulo); color: var(--tinta); letter-spacing: .02em; border-bottom: 1.2pt solid var(--amarillo); }
+a.ref-r { border-bottom-style: dotted; border-bottom-color: var(--tinta-2); }
+a.ref.ir::before { content: "→ "; }
+.rot { font: 700 .86em var(--rotulo); text-transform: uppercase; letter-spacing: .08em; font-style: normal; }
+.rot::after { content: " ·"; color: rgba(22,22,22,.45); }
+
+/* citas «>»: fichas, actas, recetas */
+blockquote { margin: 2mm 0; }
+blockquote.cita-texto { padding: 0 0 0 3mm; border-left: 2pt solid var(--amarillo); }
+blockquote.cita-texto p { font: 400 8.6pt/1.5 var(--maquina); text-align: left; color: var(--tinta-2); }
+blockquote.clave { padding: 2mm 3mm 1.2mm; background: var(--amarillo); break-inside: avoid; }
+blockquote.clave p { text-align: left; margin: 0 0 .8mm; }
+blockquote.doc-oficial { padding: 3mm 3.5mm 2mm; border: 1pt solid var(--tinta); background: rgba(255,255,255,.4); break-inside: avoid;
+  position: relative; }
+blockquote.doc-oficial p, blockquote.doc-oficial li { font: 400 8.2pt/1.5 var(--maquina); text-align: left; }
+blockquote.doc-oficial strong { font-weight: 400; color: var(--tinta); }
+blockquote.doc-oficial::before { content: ""; display: block; height: 2.4mm; margin: -3mm -3.5mm 2.2mm;
+  background: repeating-linear-gradient(-45deg, var(--amarillo) 0 2mm, var(--tinta) 2mm 4mm); }
+.ficha { break-inside: avoid; padding: 2mm 2.6mm 1.4mm; border: 1pt solid var(--tinta); background: rgba(255,255,255,.42); }
+.ficha p { text-align: left; margin: 0; line-height: 1.5; }
+.ficha > p:first-child > strong:first-child { font: 400 10pt var(--titulo); letter-spacing: .03em; text-transform: uppercase; }
+.ficha-sobre { border-left: 4pt solid var(--tinta); }
+.ficha-refugio { border-top: 4pt solid var(--tinta); }
+.ficha-arma, .ficha-receta { border-left: 3pt solid var(--amarillo); padding: 1.4mm 2.4mm 1.2mm; }
+.ficha-arma > p:first-child > strong:first-child, .ficha-receta > p:first-child > strong:first-child { font: 700 9pt var(--rotulo); }
+blockquote.bq-amenaza { margin: 1.6mm 0; }
+blockquote.bq-amenaza p { text-align: left; }
+
+/* terminal y documentos de texto plano */
+pre.terminal { font: 400 7.3pt/1.5 var(--mono); background: var(--noche); color: var(--amarillo-claro); padding: 2.6mm 3mm; margin: 2mm 0 3mm;
+  white-space: pre-wrap; break-inside: avoid; }
+
+/* tablas */
+.tabla-env { margin: 1.6mm 0 3mm; break-inside: avoid; }
+.pre-tabla, .pre-lista { break-after: avoid; }
+.tabla-env.partible, .flujo .tabla-env.partible, .tabla-env.larga.partible { break-inside: auto; }
+.tabla-env tr { break-inside: avoid; }
+table.tabla thead { display: table-header-group; }
+table.tabla { width: 100%; border-collapse: collapse; font-size: 7.7pt; line-height: 1.3; }
+table.tabla th { font: 700 7.2pt var(--rotulo); text-transform: uppercase; letter-spacing: .1em; text-align: left; color: var(--papel);
+  background: var(--tinta); padding: 1mm 1.3mm; }
+table.tabla td { padding: .8mm 1.3mm; border-bottom: .5pt solid rgba(22,22,22,.28); vertical-align: top; text-align: left; }
+table.tabla tr:nth-child(even) td { background: rgba(242,193,46,.14); }
+table.tabla td:first-child { font-weight: 600; }
+table.tabla td, table.tabla th { hyphens: manual; -weasy-hyphens: manual; }
+table.aleatoria td:first-child { font: 400 9pt var(--titulo); text-align: center; width: 7mm; }
+.entrada .texto > ul:first-child > li:first-child, .entrada .texto > ol:first-child > li:first-child { break-after: avoid; }
+
+/* cajas de ayuda */
+.caja { break-inside: avoid; margin: 3mm 0 4mm; padding: 2.4mm 3mm 1.6mm; background: rgba(242,193,46,.2); border-top: 3pt solid var(--tinta); }
+.caja-cab { font: 700 8.6pt var(--rotulo); text-transform: uppercase; letter-spacing: .14em; color: var(--tinta); margin-bottom: 1.4mm; }
+.caja-cab .ico { width: 4.2mm; height: 4.2mm; margin-right: 1.4mm; vertical-align: -1.1mm; }
+.caja p, .caja li { font-size: 8.2pt; }
+.caja-ejemplo { background: rgba(22,22,22,.06); border-top-style: dashed; }
+.caja-recuerda { background: var(--amarillo); }
+.caja-consejo { background: rgba(255,255,255,.45); border: 1pt solid var(--tinta); border-top-width: 3pt; }
+
+/* citas sueltas */
+.cita-suelta { break-inside: avoid; margin: 3mm 8mm 5mm; padding: 3mm 0; text-align: center; border-top: 1pt solid var(--tinta); border-bottom: 1pt solid var(--tinta); }
+.cita-suelta p { font: 400 11pt/1.4 var(--maquina); text-align: center; margin: 0 0 1.2mm; }
+.cita-suelta cite { font: 700 6.8pt var(--rotulo); text-transform: uppercase; letter-spacing: .24em; font-style: normal; }
+.figura-ancha { margin: 2mm 0 5mm; break-inside: avoid; }
+.figura-ancha img { width: 100%; height: 70mm; object-fit: cover; display: block; border-bottom: 3pt solid var(--tinta); }
+.figura-ancha figcaption { font: 400 8.6pt var(--maquina); color: var(--tinta-2); margin-top: 1.4mm; }
+
+/* ---------- Grupos y apartados ---------- */
+.grupo { break-inside: avoid; break-after: avoid; margin: 5mm 0 4mm; }
+.grupo .g-tit { font: 400 17pt/1.05 var(--titulo); text-transform: uppercase; letter-spacing: .01em; margin: 0; color: var(--tinta); }
+.grupo-simple .g-tit { font-size: 15pt; border-bottom: 2.4pt solid var(--tinta); padding-bottom: .6mm; margin: 0 0 1.4mm; }
+.grupo-apartado { border-top: 4pt solid var(--tinta); padding-top: 2mm; }
+.grupo-apartado .g-tit { font-size: 20pt; display: inline-block; background: var(--amarillo); padding: .6mm 2.2mm 0; margin-bottom: 1.6mm; }
+.grupo p { margin: 1mm 0 0; font-style: italic; }
+.grupo-faccion { display: flex; align-items: center; background: var(--tinta); color: var(--papel); padding: 3mm 4mm; }
+.grupo-faccion .emblema { width: 15mm; height: 15mm; color: var(--amarillo); margin-right: 4mm; flex: none; }
+.grupo-faccion .g-tit { color: var(--amarillo); }
+.grupo-faccion p, .grupo-faccion strong { color: var(--papel); }
+.g-kicker { font: 700 6.8pt var(--rotulo); letter-spacing: .32em; text-transform: uppercase; color: var(--gris); }
+h3.g-caja { font: 400 10pt var(--titulo); text-transform: uppercase; letter-spacing: .06em; color: var(--tinta); background: var(--amarillo);
+  padding: .8mm 2mm .4mm; margin: 3mm 0 1.5mm; break-after: avoid; }
+
+/* ---------- El mundo: documentos ---------- */
+.flujo.mundo { }
+.doc { break-inside: avoid; margin: 0 0 7mm; }
+.doc-tit { font: 400 19pt/1 var(--titulo); text-transform: uppercase; color: var(--tinta); margin: 0 0 2.5mm; letter-spacing: .01em;
+  border-bottom: 3pt solid var(--tinta); padding-bottom: .8mm; }
+.doc-cuerpo > p { font-size: 9.2pt; line-height: 1.5; }
+.doc-cuerpo > p:first-child::first-letter { font: 400 26pt/0.9 var(--titulo); }
+.doc .tabla-env { margin-top: 2mm; }
+
+/* ---------- Zonas oscuras (la noche, el Secreto) ---------- */
+.zona-oscura { page: oscura; color: #e9e3d4; }
+.zona-oscura .cap-tit { color: var(--tinta); }
+.zona-oscura .cap-kicker { color: #bdb6a6; }
+.zona-oscura .cap-intro p, .zona-oscura .epigrafe p { color: #d6cfbf; }
+.zona-oscura .epigrafe cite { color: var(--amarillo); }
+.zona-oscura .flujo.col2 { column-rule-color: rgba(242,193,46,.3); }
+.zona-oscura .entrada .cab { border-bottom-color: var(--amarillo); }
+.zona-oscura .entrada .num { background: var(--amarillo); color: var(--tinta); }
+.zona-oscura .entrada .num .pfx { color: var(--tinta); }
+.zona-oscura .entrada .tit, .zona-oscura b, .zona-oscura strong { color: #fff; }
+.zona-oscura .meta { color: #bdb6a6; }
+.zona-oscura .meta .tiempo, .zona-oscura .meta .stock, .zona-oscura .ico { color: var(--amarillo); }
+.zona-oscura ol.opciones > li::before { background: var(--amarillo); color: var(--tinta); }
+.zona-oscura ul > li::before { background: var(--amarillo); }
+.zona-oscura .prueba { background: var(--amarillo); color: var(--tinta); }
+.zona-oscura .prueba .ico { color: var(--tinta); }
+.zona-oscura .prueba .mod { color: var(--tinta); border-left-color: rgba(22,22,22,.4); }
+.zona-oscura .marca { background: rgba(242,193,46,.22); color: var(--amarillo-claro); }
+.zona-oscura a.ref { color: #fff; }
+.zona-oscura .amenaza { border-color: #e9e3d4; background: none; }
+.zona-oscura .amenaza .ico { color: #e9e3d4; }
+.zona-oscura .cas { border-color: #e9e3d4; background: none; }
+.zona-oscura blockquote.cita-texto p { color: #d6cfbf; }
+.zona-oscura blockquote.doc-oficial, .zona-oscura .ficha { background: rgba(255,255,255,.05); border-color: #bdb6a6; }
+.zona-oscura blockquote.clave { background: var(--amarillo); color: var(--tinta); }
+.zona-oscura blockquote.clave strong { color: var(--tinta); }
+.zona-oscura table.tabla th { background: var(--amarillo); color: var(--tinta); }
+.zona-oscura table.tabla td { border-bottom-color: rgba(233,227,212,.25); }
+.zona-oscura table.tabla tr:nth-child(even) td { background: rgba(242,193,46,.08); }
+.zona-oscura .cap-cab:not(.salto) { border-top-color: var(--amarillo); }
+.zona-oscura .grupo .g-tit { color: var(--amarillo); }
+.zona-oscura .grupo-simple .g-tit { border-bottom-color: var(--amarillo); }
+
+/* ---------- Catálogo e índice de marcas ---------- */
+.col3 .entrada .num { font-size: 10.5pt; }
+.col3 .entrada .tit { font-size: 9pt; }
+.col3 .entrada { margin-bottom: 3mm; }
+.col3 .texto p { text-align: left; hyphens: auto; }
+.col3 .ficha { padding: 1.4mm 1.8mm 1mm; }
+.im-intro { font-style: italic; color: var(--tinta-2); }
+.im { font-size: 7pt; line-height: 1.32; text-align: left; margin: 0 0 1mm; break-inside: avoid; }
+.im .marca { font-size: 6.9pt; display: inline; }
+.im a.ref { font-size: 7pt; margin-right: .6mm; border-bottom-width: .8pt; }
+
+/* ---------- Plano ---------- */
+.pagina-mapa { page: limpia; break-before: page; break-after: page; string-set: capitulo attr(data-titulo); }
+.pm-tit { font: 400 34pt/1 var(--titulo); text-transform: uppercase; color: var(--tinta); display: inline-block; background: var(--amarillo);
+  padding: 1mm 3mm 0; margin-bottom: 3mm; }
+.mapa-grande { width: 126mm; height: auto; display: block; margin: 0 0 3mm; }
+.pm-texto p { font-size: 8pt; line-height: 1.4; margin-bottom: 1.2mm; }
+
+/* ---------- Hojas (apéndices) ---------- */
+.hoja { page: hoja; break-before: page; break-after: page; string-set: capitulo attr(data-titulo), ent "", sep ""; }
+.h-cab { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 4pt solid var(--tinta); padding-bottom: 1mm; margin-bottom: 3mm; }
+.h-tit { font: 400 24pt/1 var(--titulo); text-transform: uppercase; color: var(--tinta); }
+.h-ico { width: 8mm; height: 8mm; }
+.hoja p { text-align: left; margin: 2mm 0 1mm; font: 400 8pt var(--rotulo); }
+.hoja p strong { font: 700 8.6pt var(--rotulo); text-transform: uppercase; letter-spacing: .1em; }
+.hoja p em { font: italic 400 7.6pt var(--serif); }
+.hoja blockquote.doc-oficial { margin: 0 0 3mm; padding: 2.4mm 3mm 1.6mm; }
+.hoja blockquote.doc-oficial p { margin: 0; font-size: 8pt; }
+.hoja .tabla-env { margin: 1mm 0 2mm; }
+.hoja table.tabla { font: 400 7.8pt var(--rotulo); border: 1pt solid var(--tinta); }
+.hoja table.tabla td { padding: 1.5mm 1.4mm; border: .6pt solid rgba(22,22,22,.55); vertical-align: middle; }
+.hoja table.tabla tr:nth-child(even) td { background: none; }
+.hoja table.tabla td:first-child { font-weight: 700; }
+.hoja table.tabla td strong { text-transform: uppercase; letter-spacing: .06em; font-size: 7.6pt; }
+.hoja .cas { width: 3.1mm; height: 3.1mm; margin: 0 .5mm; vertical-align: -.7mm; }
+.hoja .marca { font-size: 7pt; }
+/* diario (páginas de relleno al final) */
+.diario-t { width: 100%; border-collapse: collapse; font: 700 7.4pt var(--rotulo); }
+.diario-t th { background: var(--tinta); color: var(--amarillo); text-transform: uppercase; letter-spacing: .14em; text-align: left; padding: 1.2mm 1.5mm; }
+.diario-t td { border-bottom: .6pt solid rgba(22,22,22,.55); border-right: .5pt solid rgba(22,22,22,.25); height: 12.4mm; }
+.diario-t td.dd-n { width: 10mm; } .diario-t td.dd-txt { width: 70mm; border-right: none; }
+
+/* ---------- Remates: viñetas y citas que cierran una sección ---------- */
+.remate-marca { height: 0; margin: 0; }
+.remate { display: flex; flex-direction: column; justify-content: center; break-inside: avoid; box-sizing: border-box; padding-top: 4mm; }
+.remate .rm-img { overflow: hidden; border: 1.4pt solid var(--tinta); margin: 2mm 0 0; }
+.remate .rm-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.remate-cita { margin: 0 auto; max-width: 110mm; text-align: center; padding: 3mm 0 0; border: 0; }
+.remate-cita .rc-orn { margin: 0 auto 2mm; width: 26mm; height: 2.2mm; background: repeating-linear-gradient(-45deg, var(--amarillo) 0 1.6mm, var(--tinta) 1.6mm 3.2mm); }
+.remate-cita .rc-orn .ico { display: none; }
+.remate-cita p { font: 400 11pt/1.45 var(--maquina); color: var(--tinta); margin: 0 0 1.5mm; text-align: center; hyphens: manual; }
+.remate-cita cite { font: 700 7pt var(--rotulo); text-transform: uppercase; letter-spacing: .2em; color: var(--tinta-2); font-style: normal; }
+.zona-oscura .remate .rm-img { border-color: var(--amarillo); }
+.zona-oscura .remate-cita p { color: #e9e3d4; }
+.zona-oscura .remate-cita cite { color: var(--amarillo); }
+
+/* rellenos de la columna corta */
+.relleno-col { break-inside: avoid; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; padding: 1mm 0 0; overflow: hidden; }
+.relleno-col.pie { justify-content: flex-start; padding-top: 2.5mm; }
+.relleno-col .rc-img { overflow: hidden; border: 1.2pt solid var(--tinta); margin: 0 0 3mm; }
+.relleno-col .rc-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.recuerda-mini { background: var(--amarillo); padding: 2.2mm 3mm 1.2mm; }
+.recuerda-mini .caja-cab { margin-bottom: 1mm; }
+.recuerda-mini p { font-size: 8.2pt; text-align: left; margin: 0 0 1mm; }
+.panel { background: var(--noche); color: var(--papel); padding: 2.8mm 3.5mm 2.2mm; border-top: 2.6mm solid var(--amarillo); }
+.ar-cab { font: 700 8pt var(--rotulo); text-transform: uppercase; letter-spacing: .2em; color: var(--amarillo); margin-bottom: 1.6mm; }
+.ar-cab .ico { width: 3.8mm; height: 3.8mm; margin-right: 1.2mm; vertical-align: -.8mm; color: var(--amarillo); }
+.panel table { width: 100%; border-collapse: collapse; margin: 0 0 1.6mm; }
+.panel th, .panel td { font: 400 8pt/1.3 var(--serif); padding: .7mm 0; border-bottom: .4pt dashed rgba(244,238,223,.3); text-align: left; vertical-align: top; background: none; color: var(--papel); }
+.panel th { font: 700 7.6pt/1.4 var(--rotulo); text-transform: uppercase; letter-spacing: .06em; color: var(--amarillo); width: 38%; padding-right: 2mm; }
+.panel .pn-pie { font: italic 400 7.8pt/1.3 var(--serif); color: rgba(244,238,223,.85); margin: 0; text-align: left; }
+.panel .ref { color: var(--papel); }
+.panel.tira { padding: 2mm 3.5mm 1.8mm; }
+.panel.tira .ar-cab { margin-bottom: .8mm; }
+.panel.tira .pn-pie { font-style: normal; color: var(--papel); }
+.panel .prueba { color: var(--papel); }
+.remate.tarjetas { flex-direction: row; align-items: stretch; justify-content: space-between; gap: 6.5mm; padding-top: 6mm; }
+.remate.tarjetas .panel { flex: 1 1 0; }
+[data-corte] { break-before: column; margin-top: 0 !important; }
+
+/* ---------- Contratapa ---------- */
+.contratapa { page: portada; position: relative; width: 170mm; height: 240.4mm; overflow: hidden; break-before: page; }
+.ct-texto { position: absolute; left: 14mm; right: 14mm; bottom: 14mm; color: var(--papel); background: rgba(20,20,20,.94);
+  padding: 7mm 8mm 6mm; border-top: 3mm solid var(--amarillo); }
+.ct-titulo { font: 400 30pt/1 var(--titulo); text-transform: uppercase; color: var(--amarillo); margin-bottom: 2mm; }
+.ct-gancho { font: 400 12pt/1.3 var(--maquina) !important; color: var(--papel) !important; margin-bottom: 4mm !important; }
+.ct-texto p { font: 400 9.2pt/1.5 var(--serif); color: var(--papel); text-align: left; margin: 0 0 2.6mm; }
+.ct-texto b { color: var(--amarillo); }
+.ct-datos { display: flex; justify-content: space-between; margin: 4mm 0; padding: 3mm 0; border-top: .6pt solid rgba(244,238,223,.4); border-bottom: .6pt solid rgba(244,238,223,.4); }
+.ct-dato { text-align: center; flex: 1; }
+.ct-dato .ico { width: 6mm; height: 6mm; color: var(--amarillo); display: block; margin: 0 auto 1.2mm; }
+.ct-dato span { font: 700 7.6pt var(--rotulo); text-transform: uppercase; letter-spacing: .12em; color: var(--papel); }
+.ct-pie { font: 700 6.8pt var(--rotulo) !important; text-transform: uppercase; letter-spacing: .18em; color: #bdb6a6 !important; text-align: center !important; margin: 0 !important; }
+.ct-sello { position: absolute; right: 14mm; top: 12mm; width: 20mm; height: auto; }
+
+.lamina-tit, .parte-tit, .cap-tit, .doc-tit, .g-tit { hyphens: manual; -weasy-hyphens: manual; }
