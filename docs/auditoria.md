@@ -2,6 +2,8 @@
 
 *Versión editable: https://claude.ai/artifact/KEwvbbUtWLDr23dMronwUz · 10 de noviembre de 2026 · la auditoría anterior (fase 6, ya aplicada) quedó en `auditoria-fase6.md`*
 
+> **Aplicada entera** el 10 de noviembre de 2026, a pedido del autor («arreglar todos»). B3 se dejó como estaba, como proponía el punto. El simulador, después de aplicarla, da 60,5 % (ver `simulacion.md`).
+
 ## Cómo leer esto
 
 **Qué revisé:**

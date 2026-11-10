@@ -76,6 +76,15 @@ MANAS_HAB = {  # r126
     'Pelea': ('La puerta',), 'Puntería': ('Pulso',), 'Sigilo': ('Sombra',), 'Físico': ('Pulmones',),
     'Oficio': ('Ojo de obra',), 'Mecánica': ('Puente', 'Cables'), 'Medicina': ('Manos de guardia', 'Recetario'),
     'Supervivencia': ('La olla grande',), 'Labia': ('Lista de presentes', 'El fiado'), 'Calle': ('Atajos',)}
+COLOR_BARRIO = {b: c for c, bs in (('C', ('Perímetro', 'Estación', 'Casco', 'Fabril')),
+                                    ('L', ('Sanidad', 'Universidad', 'Mercado', 'Bloques')),
+                                    ('A', ('Puerto', 'Costanera', 'Cementerio', 'Lomas'))) for b in bs}
+COLOR_VERDAD = {1: 'C', 2: 'C', 3: 'L', 4: 'L', 5: 'A', 6: 'A'}   # e560
+MOTIVO_REFUGIO = {'La lista': 'e490', 'La obra': 'e470', 'La orden': 'e460', 'El pedido': 'e480',
+                  'El que falta': 'e450', 'Lo que hiciste': 'e440'}            # e010
+CERCA_REFUGIO = {'Casco': 'e440', 'Sanidad': 'e490', 'Universidad': 'e490', 'Puerto': 'e480', 'Costanera': 'e480',
+                 'Estación': 'e460', 'Fabril': 'e460', 'Perímetro': 'e460', 'Bloques': 'e470', 'Lomas': 'e470',
+                 'Cementerio': 'e470', 'Mercado': 'e450'}
 BOLSILLO = ('mochila', 'cuchillo', 'linterna', 'farmaco', 'palanca', 'foto')   # r106, 1d6
 # el jugador automático reparte los puntos libres en este orden (y nunca pasa de 4)
 PREFERIDAS = ('Pelea', 'Sigilo', 'Medicina', 'Oficio', 'Físico', 'Labia', 'Puntería', 'Calle', 'Supervivencia', 'Mecánica')
@@ -106,7 +115,8 @@ def crear(r, fijo=None):
     for h in PREFERIDAS * 3:
         if libres == 0:
             break
-        if hab[h] < (2 if libres > 2 else 4) and hab[h] < 4:
+        en4 = sum(1 for v in hab.values() if v >= 4)
+        if hab[h] < (2 if libres > 2 else 4) and hab[h] < 4 and not (hab[h] == 3 and en4 >= 1):
             hab[h] += 1
             libres -= 1
     p['hab'] = hab
@@ -381,6 +391,7 @@ class Partida:
         self.soga = False
         self.molotov = 0
         self.pistas = 0
+        self.colores = set()
         self.rep = 0
         self.grupo = []
         self.nombres = iter(f's{i}' for i in range(1000))
@@ -418,7 +429,15 @@ class Partida:
             elif obj == 'manual':
                 self.manuales.add(774)
         self.lugares = {k: dict(v) for k, v in lugares.items()}
-        self.ref_id = refugio or r.choice(sorted(REFUGIOS))
+        if refugio:
+            self.ref_id = refugio
+        elif self.aj['tres_candidatos']:
+            cands = {CERCA_REFUGIO[P['barrio']], MOTIVO_REFUGIO[P['motivo']]}
+            while len(cands) < 3:
+                cands.add(sorted(REFUGIOS)[d6(r) - 1])
+            self.ref_id = r.choice(sorted(cands))
+        else:
+            self.ref_id = r.choice(sorted(REFUGIOS))
         R = self.refs[self.ref_id]
         self.home = R['barrio']
         self.frentes = dict(R['frentes'])
@@ -490,7 +509,7 @@ class Partida:
             return 'Puerto' if d6(self.r) <= 3 else 'Universidad'
         return PROCESION_2D6[t]
 
-    def prueba(self, hab, desv=False, vent=False, bonus=0, lejos=False):
+    def prueba(self, hab, desv=False, vent=False, bonus=0, lejos=False, gratis=False):
         if self.h >= self.maxh - 2 or self.reservas == 0 or self.animo == 0 or self.fiebre >= 4:
             desv = True
         if 'Miedo' in self.deb and hab in ('Pelea', 'Puntería') and self.animo <= 3:
@@ -505,10 +524,12 @@ class Partida:
         elif vent:
             dados = dados[-2:]
         t = sum(dados) + self.hab[hab] + min(2, bonus)
-        if t <= 6:
+        if self.aj['apodo_10'] and t >= 10 and self.dia <= 7 and not gratis:
+            self.semana[hab] += 1                   # r127: el palito, con 10+
+        if t <= 6 and not (gratis and self.aj['gratis_sin_practica']):
             self.practica[hab] += 1
-            if self.dia <= 7:
-                self.semana[hab] += 1               # r127: el palito de la primera semana
+            if self.dia <= 7 and not self.aj['apodo_10']:
+                self.semana[hab] += 1
             if self.practica[hab] >= 3 and self.hab[hab] < 5:
                 self.practica[hab] = 0
                 self.hab[hab] += 1
@@ -777,7 +798,7 @@ class Partida:
                 self.procesion(compas=self.compas)
             return
         if 560 <= n <= 563:
-            self.pistas += 1
+            self.pista()
             return
         if 570 <= n <= 599 or n >= 900 or (800 <= n <= 849 and prof > 1) or 440 <= n <= 499:
             return
@@ -847,7 +868,7 @@ class Partida:
         self.moral = max(0, min(10, self.moral + e['moral']))
         self.animo = max(0, min(6, self.animo + e['animo']))
         self.rep += e['rep']
-        self.pistas += e['pista']
+        self.pista(e['pista'])
         self.viv = max(0, self.viv + e['viv'])
         for mat in MATS:
             self.mats[mat] = max(0, self.mats[mat] + e[mat])
@@ -883,6 +904,11 @@ class Partida:
                 self.herida(1, 'combate')
         if seguir and goto:
             self.evento(goto, prof + 1, contexto)
+
+    def pista(self, n=1):
+        for _ in range(n):
+            self.pistas += 1
+            self.colores.add(COLOR_BARRIO.get(self.barrio, self.r.choice('CLA')))
 
     def unir(self):
         self.grupo.append(Surv(next(self.nombres), self.r))
@@ -982,7 +1008,7 @@ class Partida:
         tiradas = 3 if fondo else 1
         if fondo:
             self.ruido += 1
-        if self.prueba('Calle') >= 10:
+        if self.prueba('Calle', gratis=True) >= 10:
             tiradas += 1
         if L['stock'] <= 0:
             for _ in range(2 if fondo else 1):
@@ -995,7 +1021,7 @@ class Partida:
                 elif x == 5:
                     self.mats[MATS[d6(self.r) - 1]] += 1
                 elif x == 6:
-                    self.pistas += 1
+                    self.pista()
             return
         L['stock'] = max(0, L['stock'] - (2 if fondo else 1))
         if self.aj['desarmar_afuera'] and L['tipo'] in ('vivienda', 'oficina', 'comercio') and \
@@ -1031,7 +1057,7 @@ class Partida:
         elif t == 'botiquin':
             self.tesoros.add(t); self.herr.add('Botiquín'); self.mats['Fármacos'] += 4; self.antiv += 2
         elif t == 'radio':
-            self.tesoros.add(t); self.pistas += 1
+            self.tesoros.add(t); self.pista()
         elif t == 'blindado':
             if self.prueba('Mecánica') >= 7:
                 self.tesoros.add(t)
@@ -1146,8 +1172,8 @@ class Partida:
     def tu_historia(self):
         """Lo que es solo tuyo: el apodo (r127), las debilidades (r105) y El que falta (e840–e848)."""
         R, P = self.r, self.prota
-        if self.dia == 8 and self.semana:
-            self.apodo = self.semana.most_common(1)[0][0]
+        if self.dia == 8:
+            self.apodo = self.semana.most_common(1)[0][0] if self.semana else OFICIOS[P['oficio']][0]
         if self.dia > 1 and (self.dia - 1) % 10 == 0:       # sube la Etapa: alguna debilidad se supera
             for d in sorted(self.deb):
                 if R.random() < self.aj['superar']:
@@ -1168,10 +1194,17 @@ class Partida:
                 x = d6(R) - (1 if R.random() < 1 / 6 else 0) + (1 if 2 + self.falta >= 4 else 0)
                 x = max(1, min(6, x))
                 col = 0 if self.etapa <= 2 else 1 if self.etapa == 3 else 2
-                tabla = (('atrapado', 'faccion', 'solo', 'otro', 'gente', 'buscando'),
-                         ('mordido', 'atrapado', 'faccion', 'solo', 'otro', 'gente'),
-                         ('convertido', 'convertido', 'mordido', 'atrapado', 'faccion', 'otro'))[col]
+                if self.aj['falta_v2']:
+                    tabla = (('mordido', 'atrapado', 'faccion', 'solo', 'otro', 'gente'),
+                             ('convertido', 'mordido', 'atrapado', 'faccion', 'otro', 'gente'),
+                             ('convertido', 'convertido', 'mordido', 'atrapado', 'faccion', 'otro'))[col]
+                else:
+                    tabla = (('atrapado', 'faccion', 'solo', 'otro', 'gente', 'buscando'),
+                             ('mordido', 'atrapado', 'faccion', 'solo', 'otro', 'gente'),
+                             ('convertido', 'convertido', 'mordido', 'atrapado', 'faccion', 'otro'))[col]
                 self.encontrado = tabla[x - 1]
+                if self.aj['falta_v2'] and col == 1 and x == 6 and self.falta >= 5:
+                    self.encontrado = 'buscando'
                 self.stats['falta_' + self.encontrado] += 1
                 if self.encontrado in ('solo', 'gente', 'buscando', 'atrapado', 'faccion'):
                     sv = Surv('El que falta', R); sv.lvl = max(sv.lvl, 2); self.grupo.append(sv)
@@ -1515,7 +1548,8 @@ class Partida:
         for s in libres:
             if guardia < (2 if self.rastro >= 4 else 1):
                 guardia += 1
-            elif 'Cocina a leña' in self.inst and self.viv >= 2 and not cocina:
+            elif ('Cocina a leña' in self.inst or ('La olla grande' in self.manas and 'olla' in self.prota['objetos'])) \
+                    and self.viv >= 2 and not cocina:
                 cocina = True
                 self.moral = min(10, self.moral + 1)
                 self.viv += 1
@@ -1635,7 +1669,7 @@ class Partida:
                  f'defensores {len(defensores)} · Molotov {self.molotov} · Último Cuarto '
                  f'{"sí" if "Último Cuarto" in self.inst else "no"} · aliados {aliado}')
         for ola in range(1, olas + 1):
-            fuerza = d6(R) + d6(R) + ola - menos
+            fuerza = d6(R) + d6(R) + ola - menos - (1 if self.secreto == 1 and self.secreto_abierto else 0)
             menos = 0
             if mitad:
                 fuerza = (fuerza + 1) // 2
@@ -1772,8 +1806,12 @@ class Partida:
         """e570: el dado se tira al abrir; las pistas lo mueven (la rueda 1–6)."""
         x = d6(self.r)
         mover = 2 if self.pistas >= 6 else 1 if self.pistas >= 4 else 0
-        malos = {1: 2, 2: 3}                             # qué tan mala es cada verdad para el jugador
-        mejor = min((((x - 1 + k) % 6) + 1 for k in range(-mover, mover + 1)), key=lambda v: malos.get(v, 0))
+        malos = {1: 1, 2: 3}                             # qué tan mala es cada verdad para el jugador
+        cand = [((x - 1 + k) % 6) + 1 for k in range(-mover, mover + 1)]
+        if self.aj['colores']:
+            cand = [x] + [v for v in cand if COLOR_VERDAD[v] in self.colores]
+        mejor = min(cand, key=lambda v: (malos.get(v, 0), v != x))
+
         self.secreto = mejor
         self.stats[f'secreto_{mejor}'] += 1
 
@@ -1799,6 +1837,8 @@ class Partida:
                 if self.pistas >= self.aj['abrir'] and not self.secreto_abierto:
                     self.secreto_abierto = True
                     self.abrir_secreto()
+                    if self.secreto == 2:                    # e582: la armería del cordón, abierta
+                        self.arma('un fusil'); self.muni += 6
                     self.stats['abrio_dia'] = self.dia
                 self.luz()
                 if self.dia == 40:
@@ -1818,7 +1858,7 @@ class Partida:
 
 
 AJUSTES = dict(desarmar=10, amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True,
-               superar=0.25, senal=0.3, abrir=4, mayor_h=4, mayor_magullado=False, mayor_puntos=0)
+               superar=0.25, senal=0.3, abrir=4, apodo_10=True, gratis_sin_practica=True, colores=True, tres_candidatos=True, falta_v2=True, mayor_h=4, mayor_magullado=True, mayor_puntos=0)
 
 
 def informe(res, prota):

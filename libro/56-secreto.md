@@ -12,6 +12,16 @@ Encontraste algo que no cierra: un papel, una frase, una cara que mira para otro
 
 Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho). Las pistas son del grupo, no tuyas: si un sobreviviente encuentra una, también cuenta.
 
+**El color de la pista.** Adentro de la casilla, escribí la letra del barrio donde la encontraste. Cada color apunta a dos verdades (e570):
+
+| Color | Apunta a | Barrios |
+|---|---|---|
+| **C** · Comando | 1 El plazo · 2 La purga | El Perímetro, La Estación, El Casco, La Fabril |
+| **L** · Laboratorio | 3 El ensayo · 4 La voz grabada | Sanidad, Ciudad Universitaria, El Mercado, Los Bloques |
+| **A** · Afuera | 5 El Pastor · 6 Los inmunes | El Puerto, La Costanera, Cementerio y Parque, Las Lomas |
+
+Si la pista te llega en el refugio, de una carta o de alguien que te la cuenta, elegí vos el color. Dónde buscás es qué verdad vas a poder encontrar.
+
 - **Cada fuente da una sola pista.** El mismo papel leído dos veces es el mismo papel. Si ya sacaste la pista de un lugar o de un evento, no la vuelvas a marcar, salvo que la entrada diga «otra pista»: entonces esa fuente da dos.
 - **Si es tu 2.ª pista** → [e561](#e561).
 - **Si es tu 4.ª pista** → [e562](#e562).
@@ -72,7 +82,7 @@ Si todavía no abriste el Secreto, abrilo ahora → [e570](#e570): con 6 pistas,
 Desplegás todo sobre la mesa: los papeles, las fotos, lo que te dijeron, lo que viste. Ahora sí, la verdad tiene forma.
 
 1. **Tirá 1d6.**
-2. **Mové el resultado** según tus pistas: con **4 o 5**, podés moverlo **un** lugar en la tabla, hacia arriba o hacia abajo; con **6 o más**, hasta **dos** lugares. La tabla es una rueda: después del 6 viene el 1. Con menos de 4 pistas, el dado queda como salió.
+2. **Mové el resultado** según tus pistas: con **4 o 5**, podés moverlo **un** lugar en la tabla, hacia arriba o hacia abajo; con **6 o más**, hasta **dos** lugares. La tabla es una rueda: después del 6 viene el 1. Pero solo podés **terminar** en una verdad de un color que tengas en tus pistas (e560); si no, el dado queda como salió. Con menos de 4 pistas, el dado queda como salió.
 3. **Anotá el número** en la Hoja del refugio, al lado de las Pistas. Esa es la verdad de esta partida, y ya no cambia.
 
 | Secreto | La verdad | Entrada |
@@ -197,6 +207,7 @@ No hay nadie. No hubo nadie nunca.
 
 - Ahora sabés qué importa: **la Fiebre**. Cada persona del grupo que llegue al día 41 con Fiebre 0 se puede ir. Cuidá los Antivirales para los últimos días: si alguien tiene Fiebre al amanecer del día 41, se queda.
 - **Con Reputación +2 o más con el Destacamento** (o con `AYUDASTE_EN_EL_MURO` o `EL_CABO_GIMENEZ`): Ocampo te promete que en el control van a mirar para otro lado una vez. Anotá `OCAMPO_MIRA_PARA_OTRO_LADO`.
+- **Una noche más corta.** Los soldados del muro saben que mañana abren: en la Noche 40 tiran bengalas sobre la ciudad toda la noche. Cada oleada tiene **−1 a la Fuerza** (r221).
 - **Con `LA_VERDAD_ENTERA`:** sabés que el control lo hacen con termómetros, no con análisis. Una persona con Fiebre 1 o 2 que haya tomado un Antiviral esa misma mañana pasa el control.
 
 **El día 41**
@@ -223,6 +234,7 @@ Contá a los que pasan: son los **salvados** para el final ([e940](#e940)). Si e
 **Antes de la Noche 40**
 
 - **Todas las salidas del Éxodo** ([e960](#e960)) están abiertas para vos, aunque no juegues el modo Éxodo. Prepará una.
+- **Lo que dejan atrás.** El Destacamento se lleva lo que puede y abandona el resto. Si vas al Puesto Norte ([e421](#e421)) antes del día 40, la armería del cordón está abierta y sin guardia: una vez, sin prueba, te llevás un arma de fuego (e701) y 6 de Munición.
 - **Con `EL_SOLDADO_DEL_CONVOY`:** el papel que te dio el soldado tiene algo escrito atrás, con lápiz: los horarios de las lanchas del río. Las pruebas de la escollera y de la lancha ([e960](#e960)) tienen Ventaja.
 - **Contarlo.** Si lo contás por la radio (`LA_VERDAD_AL_AIRE`), las facciones lo saben: los Bomberos y la Parroquia intentan salir también, y en la Noche 40 no vienen a ayudarte ([e905](#e905)), salvo que tengas Reputación +3 con ellos.
 - **Con `LA_VERDAD_ENTERA`:** sabés que el Destacamento se repliega a las 06:00. A esa hora, el Puesto Norte queda vacío **antes** de que pase el fuego. Es una salida más: a pie, por la ruta, detrás de los soldados. Para usarla, el grupo tiene que pasar la Noche 40 escondido en el Puesto Norte, en el Perímetro, en lugar de defender el refugio: llegá antes del anochecer del día 40 y resolvé la noche como una noche afuera (r158), con Desventaja (la Marea pasa al lado). Los que siguen vivos a las 06:00 salen detrás de los soldados: son los **salvados**.

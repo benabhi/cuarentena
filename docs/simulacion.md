@@ -10,7 +10,35 @@ En cada partida, el simulador **crea una protagonista al azar** con r100–r106,
 
 Después juega los 40 días.
 
-## Resultado
+## Después de aplicar la auditoría de la fase 7
+
+*8000 partidas · semilla 41.* Aplicada la auditoría entera (`auditoria.md`):
+
+- el Mayor sin Lastimado;
+- la práctica y el apodo nuevos;
+- las pistas con color;
+- tres refugios candidatos;
+- la tabla nueva de El que falta;
+- La olla grande con la olla;
+- como mucho una Habilidad en 4.
+
+| | Antes | Después |
+|---|---|---|
+| **Llegan al amanecer** | 58,6 % | **60,5 %** |
+| Mayor / Joven / Adulto | 49 / 63 / 63 % | 54 / 65 / 63 % |
+| Oficio más bajo y más alto | Mecánica 49 % · Salud 66 % | Electricidad 55 % · Reparto y Seguridad 67 % |
+| Refugios | 49–63 % | 50–66 % (el Supermercado sigue último, a propósito) |
+| Apodo más común | Calle, 70 % | Físico, 38 % (Labia 21 %, Pelea 14 %, Mecánica 7 %, Oficio 6 %) |
+| Secreto (1 al 6) | 0 · 0 · 41 · 15 · 14 · 14 % | 15 · 1 · 22 · 14 · 15 · 19 % |
+| El que falta: mordido o convertido | 2 % | 5 % |
+
+**Lo que queda:**
+
+- **La purga** casi no sale (1 %). El jugador automático la esquiva siempre que puede, porque es la única verdad que exige una salida. Un jugador humano puede buscarla a propósito, ahora que deja la armería abierta.
+- **Las mañas ganadas** siguen siendo pocas (1,1 por protagonista). Las escenas ★ de los arcos no las mide el simulador, porque no juega los arcos.
+- **El simulador no juega** lo que sabés de tu barrio (r103), la escena del Motivo en la Noche 40 (e906), las enseñanzas de Lista de presentes ni el lugar al azar de las debilidades.
+
+## Resultado de la fase 7 (antes de aplicar la auditoría)
 
 | | Llegan al amanecer | Sobrevivientes al amanecer | Día medio de muerte |
 |---|---|---|---|

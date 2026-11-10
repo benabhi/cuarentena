@@ -314,7 +314,7 @@ Al entrar a un lugar con stock, elegís:
 - **Revisar rápido** · ◷ 1 · Tachás **1** casilla y tirás **una vez** en la tabla de su tipo.
 - **Revisar a fondo** · ◷ 2 · ☊ +1 Ruido · Tachás **2** casillas y tirás **tres veces**.
 
-Si `[Calle]` sale 10+ antes de revisar (es gratis, una vez por lugar y por visita), tirás una vez más.
+Si `[Calle]` sale 10+ antes de revisar (es gratis, una vez por lugar y por visita, y no marca práctica: r124), tirás una vez más.
 
 **Sin stock** (todas las casillas tachadas), cada revisión es una sorpresa: tirá 1d6.
 
@@ -543,6 +543,8 @@ En Tolme quedan vivos. Algunos te van a encontrar a vos; a otros los vas a encon
 | 5 | Doña Rosa ([e627](#e627)) | Mateo ([e624](#e624)) | La doctora Ríos ([e648](#e648)) |
 | 6 | Iván ([e630](#e630)) | Celeste ([e633](#e633)) | El Negro ([e651](#e651)) |
 
+**Edades** (para r101): son **mayores** Don Ernesto, Doña Rosa y la doctora Ríos; son **jóvenes** Mateo e Iván; Ana y Bruno y Facu son **chicos**, y el Negro es un perro. Todos los demás son **adultos**.
+
 Cada sobreviviente nuevo en el refugio come 1 Víver por día, ocupa una cama y suma su puesto. Cada tres nuevos, el Rastro sube 1.
 
 <a id="r181"></a>
@@ -609,7 +611,7 @@ Podés salir con **hasta dos sobrevivientes**. Te ayudan en las pruebas (r122), 
 <a id="r190"></a>
 ### r190 · Heridas y curación
 
-Tus casillas de Heridas, en orden: **Magullado, Lastimado, Herido, Grave, Muriendo** (si sos Mayor, no tenés Magullado: r101).
+Tus casillas de Heridas, en orden: **Magullado, Lastimado, Herido, Grave, Muriendo** (si sos Mayor, no tenés Lastimado: r101).
 
 - **Grave:** Desventaja en todas las pruebas de Físico, Pelea y Sigilo.
 - **Muriendo:** solo podés arrastrarte (◷ 2 por barrio) o esperar ayuda. Si no te curan antes del alba, morís (r195).

@@ -171,7 +171,7 @@ Los agentes de la 7.ª se fueron el día 5, cuando el Comando ordenó que se rep
 
 **Los rincones de la Comisaría**
 
-- **El patio y los patrulleros:** cada patrullero tiene una batería de auto (3 casilleros), un botiquín (r162, Botiquín) y una escopeta trabada en el soporte (`[Mecánica]` o `[Oficio]` para sacarla, ◷ 1). Los dos, una vez cada uno. Y el perro: si lo llamás, es Negro ([e651](#e651)).
+- **El patio y los patrulleros:** cada patrullero tiene una batería de auto (3 casilleros), un botiquín (r162, Botiquín) y una escopeta trabada en el soporte (`[Mecánica]` o `[Oficio]` para sacarla, ◷ 1). Los dos, una vez cada uno. Y el perro: si lo llamás, es Negro ([e651](#e651)). Si ya tenés `EL_NEGRO`, la cucha está vacía y tiene una correa nueva: alguien lo buscó acá antes que vos. +1 Ánimo.
 - **La oficina del comisario:** el libro de guardia, con la última entrada del día 5: «Orden del Comando: replegar personal al Perímetro. Dejar armamento pesado. No dejar registro». Una pista ([e560](#e560)).
 
 **Si no es tu refugio:** es un lugar de la Estación, tipo Armería / Policía, stock ▢▢. La puerta blindada no se abre sin llaves: hay que entrar por arriba, como dice la ficha. Si el Destacamento ya la ocupó (si tenés Reputación −2 o menos con ellos, o si salió [e463](#e463)), adentro hay **3 soldados** (r300, postura Hablar con −1).

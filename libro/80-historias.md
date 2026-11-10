@@ -93,7 +93,7 @@ Anotá `QUIROGA_DERIVADO`. Quiroga no se convirtió. Se lo llevó el Comando. Si
 
 <a id="e805"></a>
 ### e805 · El departamento de Raquel
-*La lista · Edificio Sarmiento · 9.º C · ◷ 1*
+*La lista · Edificio Sarmiento · 9.º C · ◷ 1 · ★*
 
 El departamento de Raquel huele a lavanda y a cigarrillo. Sobre la mesa, una caja de zapatos con una palabra escrita con fibrón: «LISTA».
 
@@ -242,7 +242,7 @@ Pero sabés cómo se tapa.
 
 <a id="e815"></a>
 ### e815 · La soldadura
-*La obra · El muro · ◷ 1*
+*La obra · El muro · ◷ 1 · ★*
 
 Ponés la mano en el contenedor de abajo, un azul de la naviera danesa. El número de lote pintado con plantilla: 7-B-114. Es del tramo que conocés. Si tenés `OFICIO_OBRA`, la soldadura de unión es tuya: la reconocés por el cordón, un poco más grueso de un lado, porque siempre soldaste así. Si no, la reconocés por el número: lo leíste cien veces en los remitos.
 
@@ -371,7 +371,7 @@ Y en tu lugar, al lado de la barrera, con el chaleco puesto y el fusil colgado, 
 
 <a id="e825"></a>
 ### e825 · El sargento
-*La orden · Campamento militar · ◷ 0*
+*La orden · Campamento militar · ◷ 0 · ★*
 
 Se abre la primera vez que hablás con Ocampo sin que te detengan: en [e690](#e690), en [e692](#e692) con 10+, o en [e463](#e463) con Reputación +2.
 
@@ -489,7 +489,7 @@ Si tenés a la doctora Ríos en el grupo, sabe. Te mira. «Lo mandé yo», dice.
 
 <a id="e835"></a>
 ### e835 · De vuelta al origen
-*El pedido · Laboratorio de Virología · ◷ 0*
+*El pedido · Laboratorio de Virología · ◷ 0 · ★*
 
 La entrada donde alguien retiró la caja hace un mes. El mostrador de la recepción, con el libro de visitas abierto en el sábado. La firma del repartidor (la tuya, si tu fila es la 1). La hora: 16:40. Y la firma de la persona que te la dio: «E. Ríos».
 
@@ -605,7 +605,7 @@ Tirá 1d6:
 
 **Hacia dónde sigue.** Si todavía no tenés 3 señales, la señal te apunta a otro barrio: tirá 1d6 dos veces en la tabla de r103. Anotalo en la hoja y en el mapa: es el **próximo lugar**. Si sale el mismo barrio, el rastro sigue acá: podés volver a buscar mañana.
 
-**Con 3 señales**, ya sabés dónde está: es este barrio. Andá a [e845](#e845) cuando decidas ir a buscarlo (se puede hoy mismo, si te quedan ◷ 2).
+**Con 3 señales**, ya sabés dónde está: es este barrio. Andá a [e845](#e845) cuando decidas ir a buscarlo (se puede hoy mismo, si te quedan ◷ 2). También podés esperar: las paredes, las cartas y la gente (e842–e844) te siguen dando señales, y cada una de más te da control en e845. Pero el tiempo corre en contra.
 
 ---
 
@@ -634,7 +634,7 @@ Tirá 1d6:
 - **1–2 · Su letra.** «Estoy vivo. No vengas, está lleno. Te quiero.» No dice dónde, pero el papel huele a río, o a hospital, o a gasoil: el próximo lugar es el barrio de r103 que tenga eso (elegí cuál). +1 señal, +1 Esperanza más.
 - **3–4 · Alguien que lo cuida.** «Tu [hermano, hija, amigo] está con nosotros. Necesitamos Fármacos.» Dejá 1 Fármaco atado a la reja esta noche: si lo hacés, +1 señal. Si no tenés, la carta sigue en la mesa, sin señal, mirándote.
 - **5 · Una lista.** La fotocopia de una planilla del hospital de campaña, con una columna de nombres y una de números. Uno de los nombres es el suyo. Al lado, un número de cama y la palabra «derivado». +1 señal, y el próximo lugar es **El Perímetro**.
-- **6 · Su foto.** Sin nada escrito. Del otro lado, alguien dibujó un mapa de tres calles y una cruz. +1 señal: el próximo lugar es el barrio que elijas, y ahí, en lugar de tirar en [e841](#e841), la señal es la 5.
+- **6 · Su foto.** Sin nada escrito. Del otro lado, alguien dibujó un mapa de tres calles y una cruz. +1 señal: el próximo lugar es el barrio que elijas, y ahí, en lugar de tirar en [e841](#e841), sale el 5: una marca de búsqueda con su letra.
 
 ---
 
@@ -654,7 +654,7 @@ Si el sobreviviente es tu conocido del barrio (r103), no tirés: lo vio. Te cono
 
 <a id="e845"></a>
 ### e845 · Donde está
-*El que falta · ◷ 2*
+*El que falta · ◷ 2 · ★*
 
 Tenés 3 señales. Sabés dónde está: en este barrio, en un lugar que ahora reconocés por todo lo que juntaste. Ir hasta ahí cuesta ◷ 2. Lo que encontrás depende de cuánto tardaste.
 
@@ -666,12 +666,14 @@ Tenés 3 señales. Sabés dónde está: en este barrio, en un lugar que ahora re
 
 | 1d6 | Etapa I o II | Etapa III | Etapa IV |
 |---|---|---|---|
-| 1 | Atrapado | Mordido | Convertido |
-| 2 | Con una facción | Atrapado | Convertido |
-| 3 | Vivo y solo | Con una facción | Mordido |
-| 4 | Del otro lado | Vivo y solo | Atrapado |
-| 5 | Vivo y con gente | Del otro lado | Con una facción |
-| 6 | Te estaba buscando | Vivo y con gente | Del otro lado |
+| 1 | Mordido | Convertido | Convertido |
+| 2 | Atrapado | Mordido | Convertido |
+| 3 | Con una facción | Atrapado | Mordido |
+| 4 | Vivo y solo | Con una facción | Atrapado |
+| 5 | Del otro lado | Del otro lado | Con una facción |
+| 6 | Vivo y con gente | Vivo y con gente, o **Te estaba buscando** si tenés 5 señales o más | Del otro lado |
+
+**Esperar o ir.** Llegar temprano es más seguro, pero solo quien sigue juntando señales hasta la Etapa III puede encontrarlo buscándote a vos.
 
 - **Convertido** → [e846](#e846).
 - **Mordido** → [e847](#e847).
@@ -723,7 +725,7 @@ Buscá tu apartado.
 
 **Vivo y solo.** Flaco, con la barba crecida o el pelo cortado con un cuchillo, escondido en un placard, en un tanque de agua, en un baño. Tarda en creer que sos vos. Viene con vos, pero no hace puestos durante 3 noches, y después es como dice su fila de [e840](#e840). +1 Esperanza.
 
-**Del otro lado.** No está. En la pared del lugar, con su letra: «Me sacaron. Lancha. Muelle tres. Día 6. Estoy bien. Seguí». Está afuera, vivo, del lado de los que esperan. No viene, pero ahora sabés que hay alguien esperándote del otro lado del muro. +2 Esperanza. Anotá `TE_ESPERA_AFUERA`: el día 41, si estás entre los salvados, +1 a tu contador antes del epílogo.
+**Del otro lado.** No está. En la pared del lugar, con su letra: «Me sacaron. Escollera. Día 6. Estoy bien. Seguí». Está afuera, vivo, del lado de los que esperan. No viene, pero ahora sabés que hay alguien esperándote del otro lado del muro. +2 Esperanza. Anotá `TE_ESPERA_AFUERA`: el día 41, si estás entre los salvados, +1 a tu contador antes del epílogo.
 
 **Con una facción.** Está con los Lobos, o con la Parroquia, o con los Bomberos, o en el campamento del Destacamento: la facción cuyo barrio esté más cerca de acá. Está bien, comiendo, con un trabajo. Para que venga con vos, `[Labia]` con esa facción: con Reputación +1 o más, sin prueba; con 10+, viene; con 7–9, viene, y la facción te cobra 3 Víveres o 3 materiales; con 6−, no lo dejan, y −1 Reputación. Podés volver a intentar otro día. Si al final no viene, igual sabés que está bien: +1 Esperanza.
 
@@ -820,7 +822,7 @@ Tirá 1d6:
 
 <a id="e854"></a>
 ### e854 · Contarlo
-*Lo que hiciste · Tu refugio · ◷ 1*
+*Lo que hiciste · Tu refugio · ◷ 1 · ★*
 
 Una vez por partida, una noche, en el refugio, podés contarle al grupo lo que hiciste. Antes de comer, o después, cuando nadie tiene ganas de hablar.
 
@@ -867,7 +869,7 @@ Si llegaste acá por la Culpa en 6, al alba tu Culpa baja a 5: hasta la culpa se
 ### e857 · Otra vez
 *Lo que hiciste · ◷ 0*
 
-Se abre al alba del primer día de la **Etapa III** (r135). La ciudad te pone en el mismo lugar, para ver qué hacés. Leé tu apartado. Pasa ese mismo día, cuando salgas del refugio (o en el refugio, si no salís).
+Se abre al alba de la primera carta de **Espadas** de la **Etapa III** (r135), o antes, el día que tu Culpa vuelva a subir a 4 después de haber bajado. Nunca sabés cuándo. La ciudad te pone en el mismo lugar, para ver qué hacés. Leé tu apartado. Pasa ese mismo día, cuando salgas del refugio (o en el refugio, si no salís).
 
 **La puerta.** Golpean la puerta del refugio. Una mujer con un chico en brazos. El chico tiene un arañazo en la mano, chiquito, de hace una hora. Si abrís, entran los dos (2 sobrevivientes comunes, el chico con Fiebre por arañazo: r191). −2 Culpa. Si no abrís, +2 Culpa.
 

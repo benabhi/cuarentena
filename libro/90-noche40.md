@@ -50,6 +50,7 @@ Detrás de él, la calle entera se llena.
 
 4. **Los sobrevivientes con algo para la Noche 40** (lo dice su ficha, e600–e653): leelo ahora. Si tenés al Ruso con el taxi, a Hernán o a Celeste, sus entradas se leen antes de la primera oleada ([e638](#e638), [e641](#e641), [e635](#e635)).
 5. **Los aliados:** mirá quién viene → [e905](#e905).
+6. **Tu historia:** tu Motivo tiene su momento esta noche → [e906](#e906). Anotá en qué oleada.
 
 La Noche 40 no tiene horas: tiene oleadas. Empezá la primera (r221). Después de la **segunda**, leé [e910](#e910). Después de la **cuarta**, [e912](#e912). Si un frente cae, [e920](#e920). Si sobrevivís a la última, [e930](#e930).
 
@@ -100,6 +101,23 @@ Si viene con `EL_PACTO` pero sin Reputación +3, tirá 1d6: con 1–3, llega tar
 | **El Destacamento** | No vienen: están en el muro. Pero el muro aguanta más con ellos. La Marea tiene **1 oleada menos**. Si además tenés `OCAMPO_DE_TU_LADO`, Ocampo manda un jeep con dos soldados: +2 a la defensa de un frente |
 
 **Sin aliados:** la Noche 40 es tuya y de los tuyos. Como siempre.
+
+---
+
+<a id="e906"></a>
+### e906 · Tu historia en la Noche 40
+*La Noche 40 · Tu Motivo*
+
+La Marea no sabe quién sos. La noche, sí. Buscá tu Motivo: dice en qué momento llega tu escena y qué cambia según tu contador (r198).
+
+| Motivo | Cuándo | Qué pasa |
+|---|---|---|
+| **La lista** | Después de la primera oleada | Alguien de la lista que esté en el grupo pide ir al frente más débil: «Me salvaste una vez». Si lo dejás, ese frente tiene +2 en la próxima oleada, y tirá 1d6: con 1–2, cae Herido. Con **Juramento 4 o más**, no hace falta tirar: vuelve entero. Si no hay nadie de la lista, nadie pide nada, y eso también pesa: −1 Ánimo |
+| **La obra** | Antes de la segunda oleada | El tramo 7 cede, como sabías. Con **Cimientos 4 o más**, lo esperabas: la oleada entra desordenada, −2 de Fuerza. Con **Cimientos 2 o menos**, entra de golpe: +2 de Fuerza |
+| **La orden** | Antes de la tercera oleada | Una radio suena en el refugio: la señal. Con **Deber 4 o más**, el teniente del muro te reconoce y desvía un pelotón: +3 a la defensa del frente que elijas en esa oleada. Con `SOBRE_CERRADO`, además, +1 Moral: el grupo vio que lo cuidaste hasta el final. Con **Deber 2 o menos**, nadie contesta |
+| **El pedido** | Antes de la cuarta oleada (o la última, si hay menos) | Un hombre con barbijo baja por el Techo y pide la caja. Si se la das, se va por los techos con una bengala y se lleva parte de la oleada: −3 de Fuerza; borrá `CAJA_PRECINTADA`. Si no, se queda a pelear: +1 defensor en el Techo. Con **Ruta 4 o más**, es uno de tus destinatarios: te da las dos cosas |
+| **El que falta** | En la última oleada | Si está en el grupo, pelea a tu lado: +2 a tu frente. Si nunca lo encontraste y tu **Esperanza es 4 o más**, alguien grita tu nombre desde la esquina: +2 Ánimo y +1 a tu prueba en esa oleada. Con `LO_DEJASTE_ADENTRO`, los tres golpes de la tabla de e900 |
+| **Lo que hiciste** | En la primera oleada que abra una brecha ([e920](#e920)), o en la última | Alguien golpea la puerta pidiendo entrar, con alguien en brazos, como el día 0. **Abrir:** −2 Culpa, el frente pierde 1 Resistencia más y entra un sobreviviente común. **No abrir:** +2 Culpa. Con `TE_PERDONASTE`, abrís sin pensarlo, y el frente no pierde nada |
 
 ---
 

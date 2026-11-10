@@ -51,7 +51,7 @@ Es tu primera **prueba** (r120): tirá 2d6 y sumá la Habilidad que diga la opci
    - *6−:* te agarra de la ropa. Te soltás dejándole la campera en las manos, y caés contra la mesa de luz: 1 Herida. Marcá una casilla de **práctica** al lado de Medicina (r124): así se aprende en esta ciudad. → **[e008](#e008)**.
 2. **Ponerte entre él y la cama 11.** `[Pelea]`. Con 10+, lo empujás contra la pared con el portasuero y lo trabás ahí: el de la cama 11 se escapa por el pasillo, vivo. Con 7–9, igual, pero te tira un manotazo: 1 Herida. Con 6−, te pasa por encima: 1 Herida, práctica en Pelea, y la cama 11 grita. → **[e008](#e008)**.
 3. **Sacar a los que pueden caminar.** `[Labia]`: hablar fuerte, sin gritar, como se habla en los incendios. Con 10+, salen tres pacientes detrás de vos, en fila, sin mirar atrás. Uno es Coria, el de la cama 3: cuando lo encuentres de nuevo ([e801](#e801)), te va a reconocer. Con 7–9, salen dos, y uno se vuelve a buscar sus cosas. Con 6−, salen corriendo todos a la vez, y en la puerta alguien se cae: práctica en Labia. → **[e008](#e008)**.
-4. **Correr a buscar al médico de guardia.** El pasillo está lleno de camillas que se mueven. → **[e008](#e008)**.
+4. **Correr a buscar al médico de guardia.** El pasillo está lleno de camillas que se mueven. En la sala de médicos no hay nadie, pero Raquel está ahí, quemando papeles en un cesto: «Esto lo sabían», dice, y no explica más. Te llevás uno a medio quemar: anotá 1 pista ([e560](#e560)). → **[e008](#e008)**.
 
 ---
 
@@ -86,11 +86,11 @@ A las cinco, uno de los autos de la fila arranca de golpe y acelera contra la ba
 Los soldados miran al teniente. El teniente te mira a vos, porque tenés el sobre. Es tu primera **prueba** (r120).
 
 1. **Disparar.** El teniente te tira su pistola. `[Puntería]`.
-   - *10+:* un tiro. Limpio. La nena cae. Nadie dice nada. −1 Ánimo. → **[e008](#e008)**.
-   - *7–9:* dos tiros. El segundo lo necesitaste. −1 Ánimo. → **[e008](#e008)**.
+   - *10+:* un tiro. Limpio. La nena cae. Nadie dice nada. −1 Ánimo. El teniente se queda con tu cara: +1 Reputación con el Destacamento, y la pistola es tuya (e701), con 2 de Munición. → **[e008](#e008)**.
+   - *7–9:* dos tiros. El segundo lo necesitaste. −1 Ánimo. La pistola es tuya, sin Munición: la gastaste. → **[e008](#e008)**.
    - *6−:* no podés. La mira tiembla. Un soldado lo hace por vos y te mira con asco. Marcá una casilla de **práctica** al lado de Puntería (r124). → **[e008](#e008)**.
 2. **Agarrarla antes de que llegue a la fila.** `[Pelea]`: con las manos, con una manta, con lo que tengas. Con 10+, la envolvés en la manta y la tirás al piso; un soldado hace el resto, pero los de la fila vieron que alguien se metió. +1 Deber. Con 7–9, igual, pero te araña la mano: un **arañazo** (anotá 1 Herida; la Fiebre la vas a aprender en un rato). +1 Deber. Con 6−, se te escapa hacia los autos; los soldados disparan a todo lo que se mueve: −2 Ánimo y práctica en Pelea. → **[e008](#e008)**.
-3. **Bajar la vista y alejarte.** Te gritan. No te das vuelta. Caminás hasta la ruta, después hasta la avenida, después hasta la ciudad. +1 Deber. Si tenés `OFICIO_POLICIA` u `OFICIO_SEGURIDAD`, dejaste tu puesto: anotá `BUSCADO` (r105), si no la tenías, sin ganar el punto. → **[e008](#e008)**.
+3. **Bajar la vista y alejarte.** Te gritan. No te das vuelta. Caminás hasta la ruta, después hasta la avenida, después hasta la ciudad. +1 Deber, pero los soldados te vieron irte con el sobre: −1 Reputación con el Destacamento. Si tenés `OFICIO_POLICIA` u `OFICIO_SEGURIDAD`, dejaste tu puesto: anotá `BUSCADO` (r105), si no la tenías, sin ganar el punto. → **[e008](#e008)**.
 
 Hagas lo que hagas, esa noche no volvés al puesto. El sobre sigue en tu bolsillo, cerrado.
 
@@ -126,7 +126,7 @@ Son las tres de la mañana. Afuera alguien grita, lejos, y después deja de grit
 
 1. **Salir a buscarlo ya.** `[Calle]`: las calles que tomaría, los atajos, la parada del colectivo. Con 10+, llegás hasta la esquina de la avenida y encontrás algo suyo en el piso, mojado: anotá **1 señal** (e840) y +1 Esperanza. Con 7–9, llegás, no encontrás nada, y en la vuelta algo te sigue: 1 Herida. Con 6−, te perdés en tu propio barrio, a oscuras: práctica en Calle. → **[e008](#e008)**.
 2. **Quedarte al lado de la puerta, por si llega.** `[Físico]`: aguantar despierto, de pie, toda la noche. Con 10+, no te dormís ni un minuto, y a las cinco escuchás pasos que se acercan y se van. +1 Ánimo: si hubiera sido, lo habrías visto. Con 7–9, te dormís sentado y te despierta un golpe en la puerta. Con 6−, te despertás en el piso con la puerta entreabierta: práctica en Físico. → **[e008](#e008)**.
-3. **Llamar, llamar, llamar.** Sin prueba. El celular no tiene red, pero vos seguís. A las cuatro, la batería se apaga. −1 Ánimo, y el celular ya no te sirve de linterna. → **[e008](#e008)**.
+3. **Llamar, llamar, llamar.** Sin prueba. El celular no tiene red, pero vos seguís. A las cuatro, por un segundo, hay señal, y alguien contesta. No es. Es una voz que no conocés, que dice que lo vio en la avenida, y se corta. La batería se apaga. −1 Ánimo, el celular ya no te sirve de linterna, pero anotá **1 señal** (e840). → **[e008](#e008)**.
 
 ---
 
@@ -148,19 +148,28 @@ Una hora después, todavía lo escuchás. Es tu primera **prueba** (r120).
 
 <a id="e008"></a>
 ### e008 · El primero
-*Tolme · ◷ 0 · escena: Pasillo*
+*Tolme · ◷ 0 · escena: según la tabla*
 
-No importa dónde estés: el primero siempre es alguien. Una vecina, un paciente, un hombre de traje con el portafolio todavía en la mano. Te tiene acorralado en un pasillo, una escalera, un zaguán. Y detrás de él, otro.
+No importa dónde estés: el primero siempre es alguien. Y detrás de él, otro. Elegí, o tirá 1d6:
+
+| 1d6 | Quién es | Escena | Si ganás o escapás, te queda… |
+|---|---|---|---|
+| 1 | Tu vecina del tercero, en camisón, bajando la **escalera** del edificio | Escalera (r332), vos arriba | Sus llaves: la primera Vivienda que revises en tu barrio tiene 1 casilla de stock más |
+| 2 | Un paciente que arrastra el suero por un **pasillo** de guardia | Pasillo (r331) | 1 Fármaco del carro de curaciones |
+| 3 | Un repositor con el chaleco del súper, entre las **góndolas** | Supermercado (r334) | 2 Víveres que se cayeron de un estante |
+| 4 | Un hombre de traje, con el portafolio en la mano, en la **terraza** donde subiste a mirar | Azotea (r335) | Su celular, con batería: sirve de linterna 3 veces más |
+| 5 | El chofer del colectivo, todavía con el boleto en la mano, en el **pasillo** de la unidad | Pasillo (r331) | El matafuegos del colectivo: un Señuelo (r156) que se usa una vez |
+| 6 | Alguien que conocías. No le pongas nombre todavía. En el **zaguán** de tu casa | Pasillo (r331) | −1 Ánimo, y su campera: protección −1, como la Campera de cuero |
 
 Esto es un **combate** (r140). Leé las reglas mientras lo jugás:
 
-> **Callados ×2 · Cerca** · escena: Pasillo (r331)
+> **Callados ×2 · Cerca** · escena: la de tu fila (r330)
 
 - Hay dos **distancias** que importan ahora: **Cerca** y **Encima** (r141). Al final de cada ronda, avanzan un paso.
 - En tu ronda **atacás** (r143): `[Pelea]` con lo que tengas a mano. Si no tenés arma, los puños tienen Daño 1. Agarrá algo: un matafuegos, un palo de escoba, una llave. Por ahora, cuenta como **Daño 1** y nunca se rompe.
 - Con **10+** matás tantos como el Daño. Con **7–9**, la mitad redondeando hacia arriba. Con **6−**, ninguno.
 - Los que están **Encima**, al final de la ronda, **muerden** (r144): tirá 1d6 por cada uno (como mucho dos). 1–3 nada; 4–5 un golpe (1 Herida); 6, los dientes: 1 Herida y otro dado, que dice si fue un arañazo o una mordida.
-- Si preferís, podés **retroceder** `[Físico]` o **esconderte** `[Sigilo]` (r142), pero en un pasillo no hay mucho lugar.
+- Si preferís, podés **retroceder** `[Físico]` o **esconderte** `[Sigilo]` (r142). La escena cambia cómo se pelea: leé su regla (r331–r335) antes de la primera ronda.
 
 Si te muerden o te arañan, leé ya la regla de la **Fiebre** (r191). Si no te pasa nada, leela igual: en Tolme, todo el mundo la sabe de memoria.
 
@@ -173,7 +182,7 @@ Si te muerden o te arañan, leé ya la regla de la **Fiebre** (r191). Si no te p
 ### e009 · La Señora
 *Tolme · ◷ 0*
 
-Pasan dos días que no vas a recordar bien. Volvés a tu barrio (r103) como podés, por calles que conocés de memoria y que ya no son las mismas. Comés lo que encontrás, dormís de a ratos, ves cosas desde las ventanas. El martes cortan los teléfonos. El miércoles, internet. El miércoles a la noche, por una radio a pilas, una voz de mujer tranquila, de locutora vieja, dice:
+Pasan dos días que no vas a recordar bien. Si venís del cordón (e004), esos dos días ya pasaron: el miércoles te encuentra caminando de vuelta. Volvés a tu barrio (r103) como podés, por calles que conocés de memoria y que ya no son las mismas. Comés lo que encontrás, dormís de a ratos, ves cosas desde las ventanas. El martes cortan los teléfonos. El miércoles, internet. El miércoles a la noche, por una radio a pilas, una voz de mujer tranquila, de locutora vieja, dice:
 
 > *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
 
@@ -191,22 +200,36 @@ Esto es el **mapa de Tolme** (r150). Miralo: doce barrios unidos por tres clases
 ### e010 · Un lugar donde quedarse
 *Tolme · ◷ 0*
 
-Lo pensás mucho. Seis lugares que conocés, seis lugares que podrían aguantar. Cada uno tiene sus paredes, sus puertas y sus problemas (r170). Leé las seis entradas antes de elegir: cada una te dice qué tiene, qué le falta y qué hay que anotar en la **Hoja del refugio**.
+Hay seis lugares en Tolme que podrían aguantar, pero no llegás a todos: la ciudad ya está cortada, y vos conocés lo que conocés. Tenés **tres candidatos** (r170):
 
-| Refugio | Barrio | En una frase | Entrada |
-|---|---|---|---|
-| **Parroquia de San Lázaro** | El Casco | Muros de piedra y un campanario; vitrales por todos lados | [e440](#e440) |
-| **Supermercado Del Barrio** | El Mercado | Comida para empezar; vidrieras enormes | [e450](#e450) |
-| **Comisaría 7.ª** | La Estación | Celdas y algo de munición; el Destacamento la quiere | [e460](#e460) |
-| **Escuela N.º 9** | Los Bloques | Patio para huerta y muchas aulas; muchas puertas | [e470](#e470) |
-| **Cuartel de Bomberos de la calle Brown** | El Puerto | Cisterna y una autobomba; los Bomberos van a volver | [e480](#e480) |
-| **Edificio Sarmiento** | Sanidad | Doce pisos y una escalera que se puede cortar | [e490](#e490) |
+1. **El de cerca:** el refugio de tu barrio, o el más cercano (tabla de abajo).
+2. **El de tu Motivo:** el lugar al que te lleva tu historia.
+3. **Uno que te nombran:** alguien en la calle te dice dónde hay lugar. Tirá 1d6 en la tabla de refugios.
 
-- **Si tenés `LLAVES_DE_LA_SEPTIMA`**, tenés las llaves de la Comisaría 7.ª.
-- **Si tu Motivo es La lista**, conocés el Edificio Sarmiento: ahí vivía Raquel, la jefa de enfermeras.
+Si dos candidatos son el mismo, tirá otra vez el tercero. Leé las entradas de tus tres candidatos (cada una dice qué tiene, qué le falta y qué anotar en la **Hoja del refugio**) y elegí uno.
+
+| Tu barrio | El de cerca | | Tu Motivo | El de tu Motivo |
+|---|---|---|---|---|
+| El Casco | Parroquia | | La lista | Edificio Sarmiento: ahí vivía Raquel, la jefa de enfermeras |
+| Sanidad, Ciudad Universitaria | Sarmiento | | La obra | Escuela N.º 9: la constructora guardaba ahí los planos |
+| El Puerto, La Costanera | Cuartel | | La orden | Comisaría 7.ª: el último lugar con radio del Comando |
+| La Estación, La Fabril, El Perímetro | Comisaría | | El pedido | Cuartel de Bomberos: tienen una heladera que anda con generador |
+| Los Bloques, Las Lomas, Cementerio y Parque | Escuela | | El que falta | Supermercado: ahí iba siempre a comprar |
+| El Mercado | Supermercado | | Lo que hiciste | Parroquia: la puerta que nunca se cierra |
+
+| 1d6 | Refugio | Barrio | En una frase | Entrada |
+|---|---|---|---|---|
+| 1 | **Parroquia de San Lázaro** | El Casco | Muros de piedra y un campanario; vitrales por todos lados | [e440](#e440) |
+| 2 | **Supermercado Del Barrio** | El Mercado | Comida para empezar; vidrieras enormes. El más difícil de los seis | [e450](#e450) |
+| 3 | **Comisaría 7.ª** | La Estación | Celdas y algo de munición; el Destacamento la quiere | [e460](#e460) |
+| 4 | **Escuela N.º 9** | Los Bloques | Patio para huerta y muchas aulas; muchas puertas | [e470](#e470) |
+| 5 | **Cuartel de Bomberos de la calle Brown** | El Puerto | Cisterna y una autobomba; los Bomberos van a volver | [e480](#e480) |
+| 6 | **Edificio Sarmiento** | Sanidad | Doce pisos y una escalera que se puede cortar | [e490](#e490) |
+
+- **Si tenés `LLAVES_DE_LA_SEPTIMA`**, tenés las llaves de la Comisaría 7.ª: es siempre uno de tus candidatos, en lugar del tercero.
 - **Si el refugio queda en tu barrio** (r103), empezás con Moral 6 y +1 Rastro: estás en casa, y todos lo saben.
 
-Elegí uno. Andá a su entrada, anotá todo en la Hoja del refugio y, cuando te lo diga, volvé a **[e011](#e011)**.
+Elegí uno de tus tres. Andá a su entrada, anotá todo en la Hoja del refugio y, cuando te lo diga, volvé a **[e011](#e011)**.
 
 ---
 
@@ -289,6 +312,8 @@ Nadie contesta. → **[e015](#e015)**.
 *Tu refugio · ◷ 0*
 
 Al amanecer subís al lugar más alto que tenga el refugio: el campanario, la azotea, un tanque de agua. Desde ahí se ve casi toda Tolme. Humo en tres barrios. Un helicóptero lejos, que no se acerca. Y al norte, en el horizonte, el **muro**: una línea de contenedores de colores apilados de a tres, con torres de vigía cada doscientos metros.
+
+Los tres barrios del humo son de tu partida: tirá 2d6 tres veces en la tabla de las Procesiones (r155), y si sale uno repetido o el de tu refugio, tirá otra vez. Marcalos en el mapa con una llama. En esos barrios, cada lugar empieza con **1 casilla de stock menos** (se quemó lo que había), pero la primera vez que llegás a cada uno no tirás encuentro: el fuego espantó a los Callados.
 
 Del otro lado del muro, el campo está negro. Te lleva un rato entender que no está quemado. Está lleno de gente. Millones. Quietos, de cara a la ciudad. Como si esperaran algo.
 
