@@ -10,7 +10,7 @@
 ### e001 · Lunes
 *Tolme · ◷ 0*
 
-Es lunes y llovizna. En la radio de un colectivo hablan de fútbol, de un choque en la autopista y, al final, casi como una curiosidad, de «un aumento de consultas por cuadros febriles en las guardias». Nadie levanta la vista del celular.
+Es lunes y llovizna. La radio de un colectivo menciona, casi como una curiosidad, «un aumento de consultas por cuadros febriles en las guardias».
 
 Esa noche, en Tolme, se mueren cuatro mil personas.
 
@@ -33,17 +33,15 @@ Con tu Hoja de protagonista lista (r100), andá a la entrada de tu **Motivo** (r
 ### e002 · El pabellón 4
 *Sanidad · Hospital Central · ◷ 0*
 
-Gente en los pasillos envuelta en frazadas, todos con cuarenta y uno de fiebre. A las cuatro de la mañana, los monitores se quedan, de a uno, en una línea.
-
-Raquel, la jefa de enfermeras, te pone en la mano la lista de los doce del pabellón: «Cuidalos». Anotá `LISTA_DEL_PABELLON`.
+A las cuatro, los monitores se quedan en una línea. Raquel, la jefa de enfermeras, te pone en la mano la lista de los doce del pabellón: «Cuidalos». Anotá `LISTA_DEL_PABELLON`.
 
 A las cinco, el señor Aguirre, cama 12, se sienta, te mira con los ojos blancos y va hacia la cama 11 arrastrando el suero.
 
 Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
-1. **Calmarlo, como a cualquier paciente.** `[Medicina]`. Con 10+, ves a tiempo que no respira y retrocedés. Con 7–9, no tiene pulso; te araña el brazo: 1 Herida (la Fiebre la vas a aprender en un rato). Con 6−, te agarra; te soltás y caés contra la mesa de luz: 1 Herida, y marcá **práctica** en Medicina (r124): así se aprende en esta ciudad. → **[e008](#e008)**.
+1. **Calmarlo, como a cualquier paciente.** `[Medicina]`. Con 10+, ves a tiempo que no respira y retrocedés. Con 7–9, no tiene pulso; te araña el brazo: 1 Herida. Con 6−, te agarra; te soltás y caés contra la mesa de luz: 1 Herida y **práctica** en Medicina (r124). → **[e008](#e008)**.
 2. **Ponerte entre él y la cama 11.** `[Pelea]`. Con 10+, lo trabás contra la pared con el portasuero y el de la 11 escapa vivo. Con 7–9, igual, con 1 Herida. Con 6−, te pasa por encima: 1 Herida y la cama 11 grita. → **[e008](#e008)**.
-3. **Sacar a los que pueden caminar.** `[Labia]`, como se habla en los incendios. Con 10+, salen tres detrás de vos; uno es Coria, el de la cama 3, que te va a reconocer ([e801](#e801)). Con 7–9, salen dos. Con 6−, salen todos a la vez y alguien se cae en la puerta. → **[e008](#e008)**.
+3. **Sacar a los que pueden caminar.** `[Labia]`. Con 10+, salen tres detrás de vos; uno es Coria, el de la cama 3, que te va a reconocer ([e801](#e801)). Con 7–9, salen dos. Con 6−, salen todos a la vez y alguien se cae en la puerta. → **[e008](#e008)**.
 4. **Buscar al médico de guardia.** No hay nadie; solo Raquel, quemando papeles en un cesto: «Esto lo sabían». Te llevás uno a medio quemar: 1 pista ([e560](#e560)). → **[e008](#e008)**.
 
 ---
@@ -54,13 +52,13 @@ Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
 A las seis te despierta el ingeniero Duarte, llorando: Ramírez, de la cuadrilla, amaneció muerto, y según la mujer se levantó y la mordió.
 
-Afuera, un hombre en pijama camina descalzo sobre los vidrios hacia una alarma. En tu campera, el contrato: «Obra de contención, accesos norte. Plazo de ejecución: diecinueve días». Anotá `CONTRATO_DEL_MURO`.
+En tu campera, el contrato: «Obra de contención, accesos norte. Plazo de ejecución: diecinueve días». Anotá `CONTRATO_DEL_MURO`.
 
 Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
-1. **Trabar la puerta de abajo.** `[Oficio]`. Con 10+, el aparador en ángulo, como un puntal: no pasa nadie. Con 7–9, la trabás, y la espalda lo paga: 1 Herida. Con 6−, cede antes de que termines: marcá **práctica** en Oficio (r124). → **[e008](#e008)**.
-2. **Salir por el fondo.** `[Sigilo]`. Con 10+, saltás la medianera, a oscuras, solo. Con 7–9, rompés una maceta y el hombre gira la cabeza. Con 6−, te enganchás en el alambre: 1 Herida. → **[e008](#e008)**.
-3. **Subir a la terraza a mirar.** Columnas de humo, una ambulancia cruzada con las puertas abiertas, y el hombre en pijama mirando hacia arriba. Hacia vos. Marcá en el mapa el barrio con más humo: tu primera llegada ahí tiene −1 en su tabla de encuentros. → **[e008](#e008)**.
+1. **Trabar la puerta de abajo.** `[Oficio]`. Con 10+, no pasa nadie. Con 7–9, la espalda lo paga: 1 Herida. Con 6−, cede antes de que termines: marcá **práctica** en Oficio (r124). → **[e008](#e008)**.
+2. **Salir por el fondo.** `[Sigilo]`. Con 10+, saltás la medianera. Con 7–9, rompés una maceta y alguien gira la cabeza. Con 6−, te enganchás en el alambre: 1 Herida. → **[e008](#e008)**.
+3. **Subir a la terraza a mirar.** Columnas de humo y un hombre en pijama mirando hacia arriba. Hacia vos. Marcá en el mapa el barrio con más humo: tu primera llegada ahí tiene −1 en su tabla de encuentros. → **[e008](#e008)**.
 
 ---
 
@@ -68,14 +66,12 @@ Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 ### e004 · El cordón
 *El Perímetro · Puesto de control Norte · ◷ 0*
 
-Día 2. Soldados, contenedores apilados y una fila de autos que quiere salir.
+Día 2. Soldados, contenedores y una fila de autos que quiere salir. Te llega un sobre marrón con un sello rojo: «Para ejecutar al recibir la señal. No lo abra antes». Anotá `ORDEN_SELLADA`.
 
-A las tres llega a tus manos un sobre marrón con un sello rojo: «Para ejecutar al recibir la señal. No lo abra antes». Anotá `ORDEN_SELLADA`.
-
-A las cinco, un auto de la fila acelera contra la barrera. Los soldados disparan. Del asiento de atrás se baja una nena de diez años con los ojos blancos. El teniente te mira a vos, porque tenés el sobre. Es tu primera **prueba** (r120).
+A las cinco, un auto de la fila acelera contra la barrera. Del asiento de atrás se baja una nena de diez años con los ojos blancos. El teniente te mira a vos, porque tenés el sobre. Es tu primera **prueba** (r120).
 
 1. **Disparar.** El teniente te tira su pistola. `[Puntería]`. Con 10+, un tiro limpio: −1 Ánimo, +1 Reputación con el Destacamento, y la pistola es tuya (e701) con 2 de Munición. Con 7–9, dos tiros: −1 Ánimo y la pistola, sin Munición. Con 6−, la mira tiembla y un soldado lo hace por vos: marcá **práctica** en Puntería (r124). → **[e008](#e008)**.
-2. **Agarrarla antes de que llegue a la fila.** `[Pelea]`. Con 10+, la envolvés en una manta y un soldado hace el resto: +1 Deber. Con 7–9, igual, pero te araña la mano (1 Herida): +1 Deber. Con 6−, se te escapa hacia los autos y los soldados disparan a todo lo que se mueve: −2 Ánimo. → **[e008](#e008)**.
+2. **Agarrarla antes de que llegue a la fila.** `[Pelea]`. Con 10+, la envolvés en una manta: +1 Deber. Con 7–9, igual, pero te araña la mano (1 Herida): +1 Deber. Con 6−, se te escapa hacia los autos y los soldados disparan: −2 Ánimo. → **[e008](#e008)**.
 3. **Bajar la vista y alejarte.** No te das vuelta. +1 Deber y −1 Reputación con el Destacamento. Con `OFICIO_POLICIA` u `OFICIO_SEGURIDAD` dejaste tu puesto: anotá `BUSCADO` (r105) si no la tenías, sin ganar el punto. → **[e008](#e008)**.
 
 ---
@@ -86,13 +82,13 @@ A las cinco, un auto de la fila acelera contra la barrera. Los soldados disparan
 
 En la mochila, una conservadora blanca con precinto rojo: LAB. VIROLOGÍA · CU · NO ABRIR · CADENA DE FRÍO. Destinatario: «Dr. M. Salas». Anotá `CAJA_PRECINTADA`.
 
-En la esquina, dos hombres con la frente apoyada en las persianas giran la cabeza a la vez, hacia tus pasos.
+En la esquina, dos hombres con la frente contra las persianas giran la cabeza hacia tus pasos.
 
 Es tu primera **prueba** (r120): 2d6 más la Habilidad de la opción.
 
-1. **Pasar sin ruido.** `[Sigilo]`. Con 10+, como una sombra. Con 7–9, te siguen media cuadra. Con 6−, patinás: 1 Herida y marcá **práctica** en Sigilo (r124). → **[e008](#e008)**.
+1. **Pasar sin ruido.** `[Sigilo]`. Con 10+, nada. Con 7–9, te siguen media cuadra. Con 6−, patinás: 1 Herida y marcá **práctica** en Sigilo (r124). → **[e008](#e008)**.
 2. **Cortar por la galería.** `[Calle]`. Con 10+, salís a tres cuadras sin que nadie te vea, y la Galería Pasaje Real ([e205](#e205)) tiene una casilla de stock más para vos. Con 7–9, la persiana de salida está a media altura: 1 Herida. Con 6−, está cerrada y volvés. → **[e008](#e008)**.
-3. **Preguntarles si están bien.** Caminan hacia vos. Detrás del kiosco aparece un tercero. → **[e008](#e008)**.
+3. **Preguntarles si están bien.** Caminan hacia vos, y aparece un tercero. → **[e008](#e008)**.
 
 ---
 
@@ -104,11 +100,11 @@ A las once y media: «Ya salgo. Está todo muy raro. Te quiero». Después, sin 
 
 Andá a **[e840](#e840)** para saber a quién esperabas y dónde estaba. Después volvé.
 
-Son las tres. Afuera alguien grita, lejos, y deja de gritar. Es tu primera **prueba** (r120).
+Afuera alguien grita y deja de gritar. Es tu primera **prueba** (r120).
 
 1. **Salir a buscarlo.** `[Calle]`. Con 10+, en la esquina de la avenida hay algo suyo, mojado: **1 señal** (e840) y +1 Esperanza. Con 7–9, nada, y en la vuelta algo te sigue: 1 Herida. Con 6−, te perdés en tu propio barrio: **práctica** en Calle (r124). → **[e008](#e008)**.
-2. **Esperar junto a la puerta.** `[Físico]`. Con 10+, despierto toda la noche: a las cinco, pasos que se acercan y se van. +1 Ánimo. Con 7–9, te despierta un golpe en la puerta. Con 6−, despertás en el piso con la puerta entreabierta. → **[e008](#e008)**.
-3. **Llamar, llamar, llamar.** A las cuatro, por un segundo, alguien contesta. No es. Una voz dice que lo vio en la avenida, y se corta. −1 Ánimo, el celular ya no sirve de linterna, pero **1 señal** (e840). → **[e008](#e008)**.
+2. **Esperar junto a la puerta.** `[Físico]`. Con 10+, despierto toda la noche: +1 Ánimo. Con 7–9, te despierta un golpe en la puerta. Con 6−, despertás en el piso con la puerta entreabierta. → **[e008](#e008)**.
+3. **Llamar, llamar, llamar.** Por un segundo alguien contesta: lo vio en la avenida. −1 Ánimo, el celular ya no sirve de linterna, pero **1 señal** (e840). → **[e008](#e008)**.
 
 ---
 
@@ -120,11 +116,11 @@ Lo hiciste rápido, como se hacen las cosas que no se pueden deshacer.
 
 Andá a **[e850](#e850)**: qué hiciste, dónde y quién lo sabe. Después volvé.
 
-Una hora después, todavía lo escuchás. Es tu primera **prueba** (r120).
+Es tu primera **prueba** (r120).
 
 1. **Volver.** `[Sigilo]`. Con 10+, ves lo que dejaste y te quedás: −1 Culpa. Con 7–9, lo que ves te quita el aire: −1 Culpa y −1 Ánimo. Con 6−, algo se mueve y salís corriendo: **práctica** en Sigilo (r124). → **[e008](#e008)**.
 2. **Seguir caminando.** `[Físico]`. Con 10+, llegás a tu barrio sin nada. Con 7–9, te torcés el tobillo: 1 Herida. Con 6−, te parás sin aire en una esquina que no conocés. → **[e008](#e008)**.
-3. **Decírselo a alguien.** `[Labia]`: un desconocido en un zaguán. Con 10+, te escucha sin juzgarte y te dice su nombre: −1 Culpa. Con 7–9, escucha y se va. Con 6−, te mira con asco: +1 Culpa. → **[e008](#e008)**.
+3. **Decírselo a alguien.** `[Labia]`: un desconocido en un zaguán. Con 10+, te escucha sin juzgarte: −1 Culpa. Con 7–9, escucha y se va. Con 6−, te mira con asco: +1 Culpa. → **[e008](#e008)**.
 
 ---
 
@@ -132,7 +128,7 @@ Una hora después, todavía lo escuchás. Es tu primera **prueba** (r120).
 ### e008 · El primero
 *Tolme · ◷ 0 · escena: según la tabla*
 
-El primero siempre es alguien. Y detrás, otro. Elegí, o tirá 1d6:
+El primero siempre es alguien. Elegí, o tirá 1d6:
 
 | 1d6 | Quién es | Escena | Si ganás o escapás, te queda… |
 |---|---|---|---|
@@ -143,7 +139,7 @@ El primero siempre es alguien. Y detrás, otro. Elegí, o tirá 1d6:
 | 5 | El chofer del colectivo, con el boleto en la mano | Pasillo (r331) | El matafuegos: un Señuelo (r156) de un uso |
 | 6 | Alguien que conocías, en el zaguán de tu casa. No le pongas nombre todavía | Pasillo (r331) | −1 Ánimo, y su campera: protección −1 |
 
-Es un **combate** (r140). Leé las reglas mientras lo jugás:
+Es un **combate** (r140).
 
 > **Callados ×2 · Cerca** · escena: la de tu fila (r330)
 
@@ -152,9 +148,9 @@ Es un **combate** (r140). Leé las reglas mientras lo jugás:
 - Los que están **Encima muerden** (r144): 1d6 por cada uno. 1–3 nada; 4–5, 1 Herida; 6, los dientes: 1 Herida y otro dado.
 - También podés **retroceder** o **esconderte** (r142). Leé la regla de tu escena (r331–r335) antes de empezar.
 
-Te muerdan o no, leé la regla de la **Fiebre** (r191): en Tolme todos la saben de memoria.
+Te muerdan o no, leé la regla de la **Fiebre** (r191).
 
-- **Si ganás o escapás:** te quedás temblando, con algo en la mano que antes era otra cosa. Marcá práctica en Pelea: esto no se olvida. → **[e009](#e009)**.
+- **Si ganás o escapás:** marcá práctica en Pelea. → **[e009](#e009)**.
 - **Si caés:** alguien te arrastra. Despertás en el piso de un baño con 3 Heridas y la puerta trabada desde adentro. → **[e009](#e009)**.
 
 ---
@@ -163,13 +159,13 @@ Te muerdan o no, leé la regla de la **Fiebre** (r191): en Tolme todos la saben 
 ### e009 · La Señora
 *Tolme · ◷ 0*
 
-Pasan dos días que no vas a recordar bien. Cortan los teléfonos y después internet. El miércoles, por una radio a pilas, una voz de locutora vieja, tranquila:
+Cortan los teléfonos y después internet. El miércoles, en una radio a pilas, una voz de locutora vieja:
 
 > *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
 
 A la mañana, carteles amarillos en todos los postes: **CUARENTENA: 40 DÍAS.** Debajo, con aerosol rojo: *¿Y DESPUÉS QUÉ?*
 
-No vas a aguantar cuarenta días en un baño. Este es el **mapa de Tolme** (r150): doce barrios unidos por la **Calle**, las **Azoteas** y el **Subsuelo** (r151). Primero, el refugio. → **[e010](#e010)**.
+Este es el **mapa de Tolme** (r150): doce barrios unidos por la **Calle**, las **Azoteas** y el **Subsuelo** (r151). Primero, el refugio. → **[e010](#e010)**.
 
 ---
 
@@ -177,13 +173,13 @@ No vas a aguantar cuarenta días en un baño. Este es el **mapa de Tolme** (r150
 ### e010 · Un lugar donde quedarse
 *Tolme · ◷ 0*
 
-Seis lugares podrían aguantar, pero la ciudad ya está cortada. Tenés **tres candidatos** (r170):
+Tenés **tres candidatos** (r170):
 
 1. **El de cerca:** el de tu barrio, o el más cercano.
 2. **El de tu Motivo:** adonde te lleva tu historia.
 3. **Uno que te nombran:** alguien en la calle te dice dónde hay lugar. Tirá 1d6 en la tabla de refugios.
 
-Si se repiten, tirá otra vez el tercero. Leé las tres entradas (qué tiene cada uno, qué le falta, qué anotar en la **Hoja del refugio**) y elegí.
+Si se repiten, tirá otra vez el tercero. Leé las tres entradas y elegí.
 
 | Tu barrio | El de cerca | | Tu Motivo | El de tu Motivo |
 |---|---|---|---|---|
@@ -214,11 +210,9 @@ Andá a la entrada del elegido y, cuando te lo diga, volvé a **[e011](#e011)**.
 ### e011 · Adentro
 *Tu refugio · ◷ 0*
 
-Cerrás la puerta y escuchás. Tu corazón. Un caño que gotea.
-
 Primero, **revisar** (r160) los placares, depósitos y cajones, con el tipo y el stock de tu refugio. **Rápido** (r161) tacha 1 casilla y tira una vez en su tabla (r162); **a fondo**, 2 casillas y tres tiradas, con ruido. Hoy revisá a fondo sin tiempo ni Ruido: es el día 0 y nadie mira. Los materiales van a la Hoja del refugio (r165); los objetos, a tu Mochila (r164).
 
-Después pintá tu primera **marca de búsqueda** (r163): una X con un 0 arriba y tu nombre. Es tuyo. → **[e012](#e012)**.
+Pintá tu primera **marca de búsqueda** (r163). → **[e012](#e012)**.
 
 ---
 
@@ -226,15 +220,15 @@ Después pintá tu primera **marca de búsqueda** (r163): una X con un 0 arriba 
 ### e012 · Tapar las ventanas
 *Tu refugio · ◷ 0*
 
-La primera noche no va a esperar. Mirá los **frentes** (r171): **Puerta**, **Ventanas**, **Techo** y **Subsuelo**, cada uno con su **Resistencia**. Alguno está muy bajo.
+Mirá los **frentes** (r171): **Puerta**, **Ventanas**, **Techo** y **Subsuelo**, cada uno con su **Resistencia**. Alguno está muy bajo.
 
 Es hora del **taller** (r200). Dos recetas **básicas** (r203) las conoce todo el mundo:
 
-> **Muro de muebles** *(básica)* · Sin materiales ni herramientas · ◷ 1 · `[Físico]` · Con 10+, +2 Resistencia a un frente; con 7–9, +1 y 1 Herida (la espalda, siempre la espalda); con 6−, +1, pero rompiste algo (−1 Ánimo). Una vez por frente.
+> **Muro de muebles** *(básica)* · Sin materiales ni herramientas · ◷ 1 · `[Físico]` · Con 10+, +2 Resistencia a un frente; con 7–9, +1 y 1 Herida; con 6−, +1, pero rompiste algo (−1 Ánimo). Una vez por frente.
 >
 > **Tablones clavados** *(básica)* · 2 Madera, 1 Sujeción · Martillo (o una piedra: ◷ 3) · ◷ 2 · +2 Resistencia a un frente.
 
-Hoy podés hacer las dos sin gastar tiempo, si tenés con qué. El resto está en el **recetario** (r207): unas se aprenden con manuales, otras con gente que sabe. Por eso necesitás gente. → **[e013](#e013)**.
+Hoy podés hacer las dos sin gastar tiempo, si tenés con qué. El resto está en el **recetario** (r207). → **[e013](#e013)**.
 
 ---
 
@@ -242,15 +236,11 @@ Hoy podés hacer las dos sin gastar tiempo, si tenés con qué. El resto está e
 ### e013 · Alguien golpea
 *Tu refugio · ◷ 0*
 
-Tres golpes. Una pausa. Tres más. Los Callados no saben contar.
-
-—Por favor, no tengo fiebre. Te lo juro.
-
-Por la rendija, una sola persona, con una bolsa del súper y las manos a la vista. **Si querés, es tu conocido del barrio** (r103): andá a su entrada, con tu ventaja, y después a **[e014](#e014)**.
+Tres golpes, una pausa, tres más. Los Callados no saben contar. Por la rendija, una sola persona, con una bolsa del súper y las manos a la vista. **Si querés, es tu conocido del barrio** (r103): andá a su entrada, con tu ventaja, y después a **[e014](#e014)**.
 
 1. **Abrir.** Tirá en la tabla de sobrevivientes (r180) y andá a su entrada: es tu primer **sobreviviente** (leé r180 y r181). Después, **[e014](#e014)**.
 2. **Preguntar antes.** `[Labia]`. Con 10+, te muestra brazos, cuello y piernas: limpio. Tirá en r180 y después **[e014](#e014)**. Con 7–9, igual, pero algo no te cierra: anotá `DUDA_DEL_PRIMERO`. Con 6−, se ofende, se va y vuelve con un amigo: tirá **dos veces** en r180, y después **[e014](#e014)**.
-3. **No abrir.** Los golpes siguen un rato. Después, un grito. Después, nada. −1 Ánimo. Anotá `NO_ABRISTE`. → **[e014](#e014)**.
+3. **No abrir.** Los golpes siguen. Después, un grito. −1 Ánimo. Anotá `NO_ABRISTE`. → **[e014](#e014)**.
 
 ---
 
@@ -262,14 +252,8 @@ La primera de cuarenta (r134):
 
 1. **Puestos** (r181): sin instalaciones, solo **Guardia**, **Obra** y **Descanso**. Vos también elegís.
 2. **Producción:** la Obra gasta 1 Madera o 1 Metal.
-3. **Sondeo** (r175): 2d6, −1 por Guardia; hay sondeo si sale igual o menos que tu **Rastro** (r174). Esta noche, igual: a medianoche algo empuja la Puerta, una vez, otra, y se va. −1 a su Resistencia. Así tantea la ciudad.
-4. **El grupo:** nadie habla mucho.
-
-Antes de dormir, alguien pregunta en voz alta lo que todos piensan:
-
-—¿Por qué cuarenta días?
-
-Nadie contesta. → **[e015](#e015)**.
+3. **Sondeo** (r175): 2d6, −1 por Guardia; hay sondeo si sale igual o menos que tu **Rastro** (r174). Esta noche, igual: algo empuja la Puerta y se va. −1 a su Resistencia.
+4. **El grupo:** alguien pregunta por qué cuarenta días. Nadie contesta. → **[e015](#e015)**.
 
 ---
 
@@ -277,11 +261,11 @@ Nadie contesta. → **[e015](#e015)**.
 ### e015 · Desde arriba
 *Tu refugio · ◷ 0*
 
-Al amanecer subís a lo más alto. Humo en tres barrios y, al norte, el **muro**: contenedores apilados de a tres.
+Al amanecer subís a lo más alto: humo en tres barrios y, al norte, el **muro**.
 
 Tirá los tres barrios del humo en r155 (si se repite uno, o sale el de tu refugio, tirá otra vez) y marcalos con una llama. Allí cada lugar tiene **1 casilla de stock menos**, pero la primera vez que llegás no tirás encuentro: el fuego espantó a los Callados.
 
-Del otro lado, el campo está negro. No está quemado: está lleno de gente. Millones, quietos, de cara a la ciudad.
+Del otro lado, el campo está negro de gente. Millones, quietos, de cara a la ciudad.
 
 Esa es la **Marea**. Llega en la **Noche 40** (r220). Abajo, en una radio, la Señora dice:
 
@@ -294,4 +278,4 @@ Esa es la **Marea**. Llega en la **Noche 40** (r220). Abajo, en una radio, la Se
 3. **Tu historia empieza hoy** (r198): si tu Motivo es La lista, La obra, La orden o El pedido, leé [e800](#e800), [e810](#e810), [e820](#e820) o [e830](#e830).
 4. **Robá la primera carta.** Es el día 1.
 
-Desde acá, el libro no te lleva de la mano. Si no sabés adónde ir, volvé al mapa.
+Desde acá, si no sabés adónde ir, volvé al mapa.

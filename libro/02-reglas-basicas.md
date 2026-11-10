@@ -9,7 +9,7 @@
 
 *Cuarentena* es un juego para una sola persona. Vos decidís; el libro, los dados y la baraja responden.
 
-Hay **reglas** (**rXXX**), que explican cómo se juega, y **eventos** (**eXXX**), que son la historia. **→ e030** es «andá al evento e030»; **(r140)**, que esa regla explica lo que pasa. Leé r001–r005, creá a tu protagonista (r100) y empezá en **[e001](#e001)**.
+Hay **reglas** (**rXXX**), que explican cómo se juega, y **eventos** (**eXXX**), que son la historia. **→ e030** es «andá al evento e030»; **(r140)**, que esa regla explica lo que pasa. Leé r001–r004, creá a tu protagonista (r100) y empezá en **[e001](#e001)**.
 
 **Tu meta:** fortificar un refugio y mantener viva a tu gente hasta el amanecer del día 41, cuando la Marea haya pasado.
 
@@ -24,24 +24,10 @@ Hay **reglas** (**rXXX**), que explican cómo se juega, y **eventos** (**eXXX**)
 <a id="r003"></a>
 ### r003 · Notación
 
-| Símbolo | Significado |
-|---|---|
-| `[Oficio]` | Prueba: tirá 2d6 + tu Oficio (r120) |
-| `[Sigilo · Desv.]` | Prueba con Desventaja (r121) |
-| `[Medicina · +1 con Botiquín]` | Prueba con un bonificador si tenés lo que dice |
-| **◷ 1** | Gasta 1 hora de luz (r133) |
-| **☊** | Si sale mal, arriesgás **Ruido** (r154) |
-| **✚** | Arriesgás **Heridas** (r190) |
-| **☣** | Arriesgás **Infección** (r191) |
-| **⚒** | Arriesgás **Desgaste**: un objeto pierde un uso (r143) |
-| **⛁** | Arriesgás **Víveres** (r177) |
-| **☹** | Arriesgás **Ánimo** (r194) o **Moral** (r182) |
-| **♣** | Sube el **Rastro** del refugio (r174) |
-| **▢** | Una casilla de **stock** de un lugar (r160) |
-| `MARCA` | Palabra clave: anotala en tu hoja (r196) |
-| ★ | Evento hito: al superarlo, marcás 3 casillas de práctica donde quieras (r124) |
+- `[Oficio]`: prueba, 2d6 + tu Oficio (r120). `[Sigilo · Desv.]`: con Desventaja (r121). `[Medicina · +1 con Botiquín]`: con un bonificador si tenés lo que dice.
+- **▢**: una casilla de **stock** de un lugar (r160). `MARCA`: palabra clave que anotás en tu hoja (r196). **★**: evento hito; al superarlo, marcás 3 casillas de práctica donde quieras (r124).
 
-Bajo el título de cada evento dice **dónde ocurre** y **cuánto tiempo gasta**: **◷ 0** no gasta; **◷ 1, ◷ 2…** gasta esas horas de luz; **◷ noche** ocupa tu acción de la noche (r134).
+Bajo el título de cada evento dice **dónde ocurre** y **cuánto tiempo gasta**: **◷ 0** nada; **◷ 1, ◷ 2…** esas horas de luz (r133); **◷ noche**, tu acción de la noche (r134).
 
 <a id="r004"></a>
 ### r004 · Lo que nunca tenés que olvidar
@@ -54,13 +40,6 @@ Bajo el título de cada evento dice **dónde ocurre** y **cuánto tiempo gasta**
 6. Lo grande que da un evento (una instalación, un Tesoro, Moral, Reputación, una receta o un sobreviviente) se gana **una vez**: anotá el número del evento.
 7. Los Callados no hablan. Si algo habla, no es un Callado.
 
-<a id="r005"></a>
-### r005 · Inicio rápido
-
-1. Creá a tu protagonista (r100): seis preguntas sobre la noche del brote.
-2. Prepará la partida (r108): baraja, Tesoros y Procesiones.
-3. Andá a **[e001](#e001)**. El prólogo te lleva de la mano por el día 0 y la primera noche, y te enseña cada regla cuando hace falta.
-
 ---
 
 ## Tu protagonista
@@ -70,31 +49,22 @@ Bajo el título de cada evento dice **dónde ocurre** y **cuánto tiempo gasta**
 
 > *«Nadie estaba preparado. Algunos estaban, por lo menos, despiertos.»*
 
-Tu protagonista es una persona común que estaba en Tolme la noche que empezó todo. Contestá **seis preguntas sobre esa noche**: en cada una podés **elegir** o **tirar**. Tirar te da a alguien que no se te habría ocurrido, y muchas veces es la mejor partida.
+Tu protagonista es una persona común que estaba en Tolme la noche que empezó todo. Contestá **seis preguntas sobre esa noche**, eligiendo o tirando: tirar te da a alguien que no se te habría ocurrido.
 
-| Paso | Pregunta | Regla |
-|---|---|---|
-| 1 | ¿Cuántos años tenés? | Edad (r101) |
-| 2 | ¿De qué trabajabas? | Oficio (r102) |
-| 3 | ¿Dónde vivías? | Barrio (r103) |
-| 4 | ¿Qué te ata a la ciudad? | Motivo (r104) |
-| 5 | ¿Qué te pesa? | Debilidad (r105) |
-| 6 | ¿Qué tenías encima? | Objetos (r106) |
+**1** Edad (r101) · **2** Oficio (r102) · **3** Barrio (r103) · **4** Motivo (r104) · **5** Debilidad (r105) · **6** Objetos (r106).
 
 **Los puntos.** Las Habilidades (r107) empiezan en 0. El oficio te da 3 puntos y la edad 1. Después repartís **4 puntos libres** (5 si tomás dos debilidades). Ninguna empieza por encima de 4, y como mucho **una** empieza en 4.
 
-**El nombre** es tuyo, y elegís si sos **el** o **la** protagonista. Con 3 edades, 12 oficios, 12 barrios, 6 Motivos con seis orígenes y 6 debilidades, hay cientos de miles de personas distintas antes de la primera carta, y en la partida seguís cambiando (r124–r127).
+**El nombre** es tuyo. Con 3 edades, 12 oficios, 12 barrios, 6 Motivos con seis orígenes y 6 debilidades, hay cientos de miles de protagonistas distintos antes de la primera carta, y en la partida seguís cambiando (r124–r127).
 
 <a id="r101"></a>
 ### r101 · ¿Cuántos años tenés?
 
 Elegí, o tirá 1d6: **1–2** Joven, **3–4** Adulto, **5–6** Mayor.
 
-| Edad | Te da | Te cuesta |
-|---|---|---|
-| **Joven** (18 a 29) | +1 Físico. Ánimo 5 | −1 a Labia la primera vez que hablás con cada sobreviviente adulto o mayor (r180) |
-| **Adulto** (30 a 50) | +1 a una de las dos Habilidades de tu oficio | Nada. Solo tenés más para perder |
-| **Mayor** (51 o más) | +1 Labia. Tu conocido del barrio (r103) viene sin prueba ni condiciones, salvo que sea quien sabe lo que hiciste ([e852](#e852)) | 4 casillas de Heridas: no tenés Lastimado (r190) |
+- **Joven** (18 a 29): +1 Físico. Ánimo 5. *Pero:* −1 a Labia la primera vez que hablás con cada sobreviviente adulto o mayor (r180).
+- **Adulto** (30 a 50): +1 a una de las dos Habilidades de tu oficio. *Pero:* nada. Solo tenés más para perder.
+- **Mayor** (51 o más): +1 Labia. Tu conocido del barrio (r103) viene sin prueba ni condiciones, salvo que sea quien sabe lo que hiciste ([e852](#e852)). *Pero:* 4 casillas de Heridas: no tenés Lastimado (r190).
 
 <a id="r102"></a>
 ### r102 · ¿De qué trabajabas?
@@ -132,34 +102,14 @@ El oficio es dónde empezás: cualquier Habilidad que llegue a 4 da una maña (r
 
 Elegí el barrio que conocés de memoria, o tirá 1d6 para la columna (**1–3** A, **4–6** B) y otro para la fila. Anotá su Marca.
 
-| 1d6 | A | Tu conocido | B | Tu conocido |
-|---|---|---|---|---|
-| 1 | **El Casco** (`BARRIO_CASCO`) | Pocho, el cerrajero ([e612](#e612)) | **La Estación** (`BARRIO_ESTACION`) | Don Ernesto, el ferroviario ([e600](#e600)) |
-| 2 | **Sanidad** (`BARRIO_SANIDAD`) | Rita, la veterinaria ([e615](#e615)) | **El Mercado** (`BARRIO_MERCADO`) | El Chino Morales, el parrillero ([e606](#e606)) |
-| 3 | **El Puerto** (`BARRIO_PUERTO`) | La Tana, la carnicera ([e621](#e621)) | **Ciudad Universitaria** (`BARRIO_UNIVERSIDAD`) | Mateo, el estudiante ([e624](#e624)) |
-| 4 | **La Fabril** (`BARRIO_FABRIL`) | El Ruso, el taxista ([e636](#e636)) | **La Costanera** (`BARRIO_COSTANERA`) | Valeria, la bombera ([e642](#e642)) |
-| 5 | **Los Bloques** (`BARRIO_BLOQUES`) | Lucía, la maestra ([e603](#e603)) | **Cementerio y Parque** (`BARRIO_CEMENTERIO`) | Doña Rosa, la del vivero ([e627](#e627)) |
-| 6 | **Las Lomas** (`BARRIO_LOMAS`) | Ana y Bruno, los chicos de al lado ([e609](#e609)) | **El Perímetro** (`BARRIO_PERIMETRO`) | Iván, el conscripto ([e630](#e630)) |
+*Columna A:* **1** **El Casco** (`BARRIO_CASCO`): Pocho, el cerrajero ([e612](#e612)) · **2** **Sanidad** (`BARRIO_SANIDAD`): Rita, la veterinaria ([e615](#e615)) · **3** **El Puerto** (`BARRIO_PUERTO`): La Tana, la carnicera ([e621](#e621)) · **4** **La Fabril** (`BARRIO_FABRIL`): El Ruso, el taxista ([e636](#e636)) · **5** **Los Bloques** (`BARRIO_BLOQUES`): Lucía, la maestra ([e603](#e603)) · **6** **Las Lomas** (`BARRIO_LOMAS`): Ana y Bruno, los chicos de al lado ([e609](#e609)).
+
+*Columna B:* **1** **La Estación** (`BARRIO_ESTACION`): Don Ernesto, el ferroviario ([e600](#e600)) · **2** **El Mercado** (`BARRIO_MERCADO`): El Chino Morales, el parrillero ([e606](#e606)) · **3** **Ciudad Universitaria** (`BARRIO_UNIVERSIDAD`): Mateo, el estudiante ([e624](#e624)) · **4** **La Costanera** (`BARRIO_COSTANERA`): Valeria, la bombera ([e642](#e642)) · **5** **Cementerio y Parque** (`BARRIO_CEMENTERIO`): Doña Rosa, la del vivero ([e627](#e627)) · **6** **El Perímetro** (`BARRIO_PERIMETRO`): Iván, el conscripto ([e630](#e630)).
 
 - **Tu cuadra.** La primera vez que llegás a tu barrio, no tirás encuentro.
 - **Tu esquina.** Su tabla de encuentros (r153) tiene **−1** para vos, siempre.
 - **Tu conocido.** Te conoce de antes. Si su entrada pide una prueba para que venga, tenés +1; si no la pide, trae 1 Víver más.
-- **Lo que sabés:**
-
-| Barrio | Lo que sabés |
-|---|---|
-| El Casco | Qué galerías salen a otra cuadra: en el Casco, Esconderte (r142) tiene Ventaja |
-| Sanidad | Dónde guardaban los remedios: la primera vez que revisás cada Farmacia u Hospital de Sanidad, +1 Fármaco |
-| El Puerto | Nadar: contra los Ahogados ([e728](#e728)), Retroceder tiene Ventaja y nunca te arrastran al agua |
-| La Fabril | Qué galpón tenía qué: la primera vez en cada lugar de La Fabril, revisar rápido tira dos veces |
-| Los Bloques | Que las azoteas se tocan: entre Los Bloques y sus vecinos, las Azoteas no piden Soga ni Tablones (r151) |
-| Las Lomas | Qué casas tienen aljibe: una vez por Etapa, ◷ 1 en Las Lomas da 3 Víveres de agua |
-| La Estación | Los túneles: tu primer viaje por el Subsuelo en cada Etapa no tira encuentro |
-| El Mercado | Quién fiaba: en El Mercado, cambiar (r166) te da uno más |
-| Ciudad Universitaria | Dónde están los laboratorios: una vez por partida, 2 Químicos sin revisar |
-| La Costanera | El río: pescar en la rambla ([e381](#e381)) tiene +1 y el murallón da una pesca más |
-| Cementerio y Parque | Dónde no entra nadie: pasar la noche afuera (r158) en tu barrio tiene Ventaja |
-| El Perímetro | Los horarios de las torres: entrar y salir del Perímetro no suma Ruido |
+- **Lo que sabés.** **Casco:** en el Casco, Esconderte (r142) tiene Ventaja. **Sanidad:** la primera vez que revisás cada Farmacia u Hospital de Sanidad, +1 Fármaco. **Puerto:** sabés nadar; contra los Ahogados ([e728](#e728)), Retroceder tiene Ventaja y nunca te arrastran al agua. **Fabril:** la primera vez en cada lugar de la Fabril, revisar rápido tira dos veces. **Bloques:** entre Los Bloques y sus vecinos, las Azoteas no piden Soga ni Tablones (r151). **Lomas:** una vez por Etapa, ◷ 1 en Las Lomas da 3 Víveres de agua. **Estación:** tu primer viaje por el Subsuelo en cada Etapa no tira encuentro. **Mercado:** en el Mercado, cambiar (r166) te da uno más. **Universidad:** una vez por partida, 2 Químicos sin revisar. **Costanera:** pescar en la rambla ([e381](#e381)) tiene +1 y el murallón da una pesca más. **Cementerio:** pasar la noche afuera (r158) en tu barrio tiene Ventaja. **Perímetro:** entrar y salir del Perímetro no suma Ruido.
 
 **En casa o lejos.** Si tu refugio (e010) queda en tu barrio, empezás con **Moral 6** y **+1 Rastro**: los vecinos traen lo que tienen, y todos saben dónde estás.
 
@@ -183,63 +133,25 @@ El contador empieza en **2**, salvo la Culpa, que empieza en **4** y **baja**: t
 
 **Por qué lo tenés.** Para los cuatro primeros, elegí la fila que encaje con tu oficio, o tirá 1d6: es verdad en tu partida. El que falta y Lo que hiciste se arman en el prólogo (e840, e850).
 
-**La lista**
+**La lista.** **1** *(Salud, Farmacia)* Trabajabas en el pabellón 4. La escribiste vos, en el cambio de turno: Juramento empieza en 3. **2** *(Docencia, Comercio)* Cuidabas a tu madre en la cama 9. Raquel, la jefa de enfermeras, te dio la lista: +1 Ánimo cada vez que tachás a alguien vivo. **3** *(Seguridad, Policía)* Eras el custodio del turno noche: revisar a fondo el Hospital Central ([e221](#e221)) no suma Ruido la primera vez. **4** *(Cocina, Deporte)* Repartías las bandejas. Conocías a todos por el nombre: +1 Moral cuando llega al refugio alguien de la lista. **5** *(Obra, Mecánica)* Quedaste encerrado arreglando el ascensor del tercer piso: empezás con una Llave inglesa. **6** *(Reparto, Electricidad)* Llevabas un pedido, o revisabas el generador: tu primer viaje a Sanidad por el Subsuelo no tira encuentro.
 
-| 1d6 | Encaja con | Cómo la conseguiste | Te da |
-|---|---|---|---|
-| 1 | Salud, Farmacia | Trabajabas en el pabellón 4. La escribiste vos, en el cambio de turno | Juramento empieza en 3 |
-| 2 | Docencia, Comercio | Cuidabas a tu madre en la cama 9. Raquel, la jefa de enfermeras, te dio la lista | +1 Ánimo cada vez que tachás a alguien vivo |
-| 3 | Seguridad, Policía | Eras el custodio del turno noche | Revisar a fondo el Hospital Central ([e221](#e221)) no suma Ruido la primera vez |
-| 4 | Cocina, Deporte | Repartías las bandejas. Conocías a todos por el nombre | +1 Moral cuando llega al refugio alguien de la lista |
-| 5 | Obra, Mecánica | Quedaste encerrado arreglando el ascensor del tercer piso | Empezás con una Llave inglesa |
-| 6 | Reparto, Electricidad | Llevabas un pedido, o revisabas el generador | Tu primer viaje a Sanidad por el Subsuelo no tira encuentro |
+**La obra.** **1** *(Obra, Seguridad)* Eras de la cuadrilla. Soldaste el tramo 7: Cimientos empieza en 3. **2** *(Mecánica, Electricidad)* Manejabas la grúa: en el Perímetro, la tabla del barrio tiene −1 más de noche. **3** *(Comercio, Reparto)* Vendiste los contenedores. Te pagaron el triple: empezás con un Sobre con dinero (vale 3 en un cambio, r166). **4** *(Salud, Policía)* Custodiaste la obra. Hubo dos muertos que nadie informó: conocés al ingeniero Duarte (+1 a Labia en [e813](#e813)). **5** *(Cocina, Docencia)* Cocinabas en el obrador. Escuchaste todo: el obrador ([e816](#e816)) está en tu mapa desde el día 1. **6** *(Deporte, Farmacia)* Tu hermano, el capataz, te dio el contrato antes de morir: +1 Ánimo la primera vez que terminás una instalación.
 
-**La obra**
+**La orden.** **1** *(Policía, Obra)* Estabas en el Puesto Norte el día 2. El teniente te dio el sobre: Deber empieza en 3. **2** *(Salud, Seguridad)* Un teniente herido te lo dio antes de morir: «Que no lo abra nadie»: tu primera ida al hospital de campaña ([e423](#e423)) no tira encuentro. **3** *(Electricidad, Comercio)* Estaba en la guantera de un jeep que arreglabas: empezás con un Handy. **4** *(Reparto, Mecánica)* Te lo dieron para llevar. Nunca llegaste: el Destacamento cree que lo robaste. Si no tenías `BUSCADO` (r105), anotala: es tu segunda debilidad y da su punto. Si ya la tenías: −1 Reputación con el Destacamento, sin punto. **5** *(Docencia, Deporte)* El teniente, padre de un alumno, te lo dejó «por las dudas»: el sargento Ocampo te conoce (+1 a la primera prueba de [e690](#e690)). **6** *(Cocina, Farmacia)* Un soldado lo tiró por tu ventanilla el día 2, antes de los tiros. Viste a la nena: −1 Ánimo al empezar y +1 Deber.
 
-| 1d6 | Encaja con | Cómo la conseguiste | Te da |
-|---|---|---|---|
-| 1 | Obra, Seguridad | Eras de la cuadrilla. Soldaste el tramo 7 | Cimientos empieza en 3 |
-| 2 | Mecánica, Electricidad | Manejabas la grúa | En el Perímetro, la tabla del barrio tiene −1 más de noche |
-| 3 | Comercio, Reparto | Vendiste los contenedores. Te pagaron el triple | Empezás con un Sobre con dinero (vale 3 en un cambio, r166) |
-| 4 | Salud, Policía | Custodiaste la obra. Hubo dos muertos que nadie informó | Conocés al ingeniero Duarte: +1 a Labia en [e813](#e813) |
-| 5 | Cocina, Docencia | Cocinabas en el obrador. Escuchaste todo | El obrador ([e816](#e816)) está en tu mapa desde el día 1 |
-| 6 | Deporte, Farmacia | Tu hermano, el capataz, te dio el contrato antes de morir | +1 Ánimo la primera vez que terminás una instalación |
-
-**La orden**
-
-| 1d6 | Encaja con | Cómo la conseguiste | Te da |
-|---|---|---|---|
-| 1 | Policía, Obra | Estabas en el Puesto Norte el día 2. El teniente te dio el sobre | Deber empieza en 3 |
-| 2 | Salud, Seguridad | Un teniente herido te lo dio antes de morir: «Que no lo abra nadie» | Tu primera ida al hospital de campaña ([e423](#e423)), sin encuentro |
-| 3 | Electricidad, Comercio | Estaba en la guantera de un jeep que arreglabas | Empezás con un Handy |
-| 4 | Reparto, Mecánica | Te lo dieron para llevar. Nunca llegaste | El Destacamento cree que lo robaste. Si no tenías `BUSCADO` (r105), anotala: es tu segunda debilidad y da su punto. Si ya la tenías: −1 Reputación con el Destacamento, sin punto |
-| 5 | Docencia, Deporte | El teniente, padre de un alumno, te lo dejó «por las dudas» | El sargento Ocampo te conoce: +1 a la primera prueba de [e690](#e690) |
-| 6 | Cocina, Farmacia | Un soldado lo tiró por tu ventanilla el día 2, antes de los tiros | Viste a la nena: −1 Ánimo al empezar y +1 Deber |
-
-**El pedido**
-
-| 1d6 | Encaja con | Cómo la conseguiste | Te da |
-|---|---|---|---|
-| 1 | Reparto, Deporte | La retiraste vos del Laboratorio. El destinatario nunca atendió | Ruta empieza en 3, y tenés otros cuatro pedidos ([e830](#e830)) |
-| 2 | Salud, Comercio | Llegó a tu guardia por error | Sabés leer la etiqueta: empezás con 1 pista ([e560](#e560)) |
-| 3 | Mecánica, Cocina | La doctora Ríos te la dio para guardarla en frío | La doctora Ríos ([e648](#e648)) te conoce: +1 para que venga |
-| 4 | Policía, Electricidad | La secuestraste en un control | Entrar a Ciudad Universitaria por la Calle no suma Ruido |
-| 5 | Seguridad, Docencia | Tu vecino, el doctor Salas, te la dejó «por un día» | Si lo encontrás ([e833](#e833)), +1 Ánimo y +1 Ruta |
-| 6 | Obra, Farmacia | La encontraste tirada en la calle | Nadie sabe que la tenés: ignorá `TE_BUSCAN_POR_LA_CAJA` |
+**El pedido.** **1** *(Reparto, Deporte)* La retiraste vos del Laboratorio. El destinatario nunca atendió: Ruta empieza en 3, y tenés otros cuatro pedidos ([e830](#e830)). **2** *(Salud, Comercio)* Llegó a tu guardia por error. Sabés leer la etiqueta: empezás con 1 pista ([e560](#e560)). **3** *(Mecánica, Cocina)* La doctora Ríos te la dio para guardarla en frío: te conoce (+1 para que venga, [e648](#e648)). **4** *(Policía, Electricidad)* La secuestraste en un control: entrar a Ciudad Universitaria por la Calle no suma Ruido. **5** *(Seguridad, Docencia)* Tu vecino, el doctor Salas, te la dejó «por un día»: si lo encontrás ([e833](#e833)), +1 Ánimo y +1 Ruta. **6** *(Obra, Farmacia)* La encontraste tirada en la calle. Nadie sabe que la tenés: ignorá `TE_BUSCAN_POR_LA_CAJA`.
 
 <a id="r105"></a>
 ### r105 · ¿Qué te pesa?
 
 Elegí **una** debilidad, o **dos** y ganás 1 punto de Habilidad más. Anotá su Marca.
 
-| Debilidad | Qué hace | Cómo se supera |
-|---|---|---|
-| **La espalda** (`LA_ESPALDA`) | Para retroceder (r142), correr y cargar, tu Físico cuenta como 1 | Una faja, en el lugar que te tocó (abajo), o tres noches seguidas en la Enfermería |
-| **Buscado** (`BUSCADO`) | El Destacamento te busca (1d6 abajo) | Reputación +3 con el Destacamento, o que Ocampo te borre del libro ([e692](#e692)) |
-| **Miedo** (`MIEDO`) | Con Ánimo 3 o menos, Pelea y Puntería tienen Desventaja | Matar a un infectado especial con un arma de mano |
-| **Asma** (`ASMA`) | Sin inhalador, retroceder y correr tienen Desventaja. Un inhalador sirve un día | En el lugar que te tocó hay 3 por visita; con 6 juntos, aprendiste a respirar |
-| **Anteojos** (`ANTEOJOS`) | Sin anteojos, Desventaja en todo lo que sea Lejos. Con un 6 en Mordidas (r144), se rompen | Un par nuevo, en el lugar que te tocó |
-| **Un vicio** (`VICIO`) | Cigarrillos o alcohol (1 Víver o un atado por semana) o pastillas (1 Fármaco por semana). Sin él, −1 Ánimo cada alba | Dos semanas seguidas sin consumir (−1 Ánimo cada alba esos días) |
+- **La espalda** (`LA_ESPALDA`): para retroceder (r142), correr y cargar, tu Físico cuenta como 1. *Se supera:* una faja, en el lugar que te tocó (abajo), o tres noches seguidas en la Enfermería.
+- **Buscado** (`BUSCADO`): el Destacamento te busca (1d6 abajo). *Se supera:* Reputación +3 con el Destacamento, o que Ocampo te borre del libro ([e692](#e692)).
+- **Miedo** (`MIEDO`): con Ánimo 3 o menos, Pelea y Puntería tienen Desventaja. *Se supera:* matar a un infectado especial con un arma de mano.
+- **Asma** (`ASMA`): sin inhalador, retroceder y correr tienen Desventaja. Un inhalador sirve un día. *Se supera:* en el lugar que te tocó hay 3 por visita; con 6 juntos, aprendiste a respirar.
+- **Anteojos** (`ANTEOJOS`): sin anteojos, Desventaja en todo lo que sea Lejos. Con un 6 en Mordidas (r144), se rompen. *Se supera:* un par nuevo, en el lugar que te tocó.
+- **Un vicio** (`VICIO`): cigarrillos o alcohol (1 Víver o un atado por semana) o pastillas (1 Fármaco por semana). Sin él, −1 Ánimo cada alba. *Se supera:* dos semanas seguidas sin consumir (−1 Ánimo cada alba esos días).
 
 **Por qué te buscan,** 1d6: **1** desertaste; **2** te escapaste del control sanitario; **3** golpeaste a un soldado; **4** robaste raciones; **5** estás en una lista del Comando sin saber por qué; **6** viste algo en el Puesto Norte.
 
@@ -252,49 +164,27 @@ Elegí **una** debilidad, o **dos** y ganás 1 punto de Habilidad más. Anotá s
 
 Todos empiezan con **ropa de calle**, un **encendedor** y un **celular sin señal** (linterna 3 veces). Además, uno de los dos objetos de tu oficio y uno de la tabla del bolsillo.
 
-| Oficio | Elegí uno |
-|---|---|
-| Salud | Botiquín · Las llaves de la ambulancia 12 (`LLAVES_DE_LA_AMBULANCIA`, [e212](#e212)) |
-| Obra | Martillo · Soplete con una garrafa chica (1 Combustible) |
-| Policía | Las llaves de la Comisaría 7.ª (`LLAVES_DE_LA_SEPTIMA`, [e460](#e460)) · Radio policial (`RADIO_POLICIAL`: escuchás al Destacamento, [e690](#e690)) |
-| Reparto | Casco de moto (cuenta como Casco, e710) · Ganzúas (+1 para abrir cerraduras) |
-| Farmacia | 3 Fármacos · 1 Antiviral y 1 Fármaco |
-| Comercio | Sobre con dinero (vale 3 en un cambio, r166) · Campera de cuero (protección −1) |
-| Mecánica | Llave inglesa · Batería de auto |
-| Cocina | Olla a presión · Cuchillo (e700) |
-| Docencia | Un manual a elección ([e770](#e770)) · Un silbato (Señuelo de 3 usos, r156) |
-| Seguridad | El Negro, el perro del depósito (`EL_NEGRO`, [e651](#e651)): se une ya · Chaleco antibala |
-| Electricidad | Linterna de dínamo · Radio a pilas |
-| Deporte | Bate de aluminio · Mochila de camping (+2 casilleros) |
+**Del oficio, elegí uno:** *Salud:* Botiquín · Las llaves de la ambulancia 12 (`LLAVES_DE_LA_AMBULANCIA`, [e212](#e212)); *Obra:* Martillo · Soplete con una garrafa chica (1 Combustible); *Policía:* Las llaves de la Comisaría 7.ª (`LLAVES_DE_LA_SEPTIMA`, [e460](#e460)) · Radio policial (`RADIO_POLICIAL`: escuchás al Destacamento, [e690](#e690)); *Reparto:* Casco de moto (cuenta como Casco, e710) · Ganzúas (+1 para abrir cerraduras); *Farmacia:* 3 Fármacos · 1 Antiviral y 1 Fármaco; *Comercio:* Sobre con dinero (vale 3 en un cambio, r166) · Campera de cuero (protección −1); *Mecánica:* Llave inglesa · Batería de auto; *Cocina:* Olla a presión · Cuchillo (e700); *Docencia:* Un manual a elección ([e770](#e770)) · Un silbato (Señuelo de 3 usos, r156); *Seguridad:* El Negro, el perro del depósito (`EL_NEGRO`, [e651](#e651)): se une ya · Chaleco antibala; *Electricidad:* Linterna de dínamo · Radio a pilas; *Deporte:* Bate de aluminio · Mochila de camping (+2 casilleros).
 
-| 1d6 | Lo que tenías en el bolsillo |
-|---|---|
-| 1 | Una mochila buena: +2 casilleros |
-| 2 | Un cuchillo de cocina (Cuchillo, e700) |
-| 3 | Una linterna de verdad (Linterna) |
-| 4 | El botiquín de tu auto: 1 Fármaco |
-| 5 | Una barra de hierro: cuenta como Palanca |
-| 6 | Una foto (`LA_FOTO`): una vez por partida, recuperás todo tu Ánimo |
+**Lo que tenías en el bolsillo** (1d6): **1** una mochila buena: +2 casilleros; **2** un cuchillo de cocina (Cuchillo, e700); **3** una linterna de verdad (Linterna); **4** el botiquín de tu auto: 1 Fármaco; **5** una barra de hierro: cuenta como Palanca; **6** una foto (`LA_FOTO`): una vez por partida, recuperás todo tu Ánimo.
 
 <a id="r107"></a>
 ### r107 · Tus registros y tus Habilidades
 
 Empezás con **Heridas** 5 casillas (Mayor: 4, r190), **Fiebre** 0 (r191), **Reservas** 6 (r193), **Ánimo** 4 (Joven: 5, r194), **Mochila** de 8 casilleros (r164), tu **contador** en 2 (Culpa: 4, r198), la maña de tu oficio y las Marcas de oficio, barrio, Motivo, debilidad y objeto (r196). El refugio y el grupo van en su propia hoja.
 
-**Las Habilidades.** No hay fuerza ni inteligencia: hay diez cosas que sabés hacer, de 0 a 5.
+**Las Habilidades.** No hay fuerza ni inteligencia: hay diez cosas que sabés hacer, de 0 a 5, y cada una da una maña al llegar a 4 (r126).
 
-| Habilidad | Para qué sirve | Maña en 4 (r126) |
-|---|---|---|
-| **Pelea** | Cuerpo a cuerpo, empujar, forcejear, soltarte | La puerta |
-| **Puntería** | Armas de fuego, ballestas, arcos, arrojar cosas | Pulso |
-| **Sigilo** | Moverte sin ruido, esconderte, robar | Sombra |
-| **Físico** | Correr, trepar, cargar, aguantar | Pulmones |
-| **Oficio** | Carpintería, construcción, barricadas, cerraduras | Ojo de obra |
-| **Mecánica** | Motores, electricidad, generadores, armas, química | Puente o Cables |
-| **Medicina** | Curar, operar, reconocer la Fiebre, fármacos | Manos de guardia o Recetario |
-| **Supervivencia** | Cocinar, purificar agua, huerta, rastrear | La olla grande |
-| **Labia** | Convencer, mentir, negociar, consolar, unir al grupo | Lista de presentes o El fiado |
-| **Calle** | Saber dónde buscar, atajos, orientarte, la rapiña | Atajos |
+- **Pelea:** cuerpo a cuerpo, empujar, forcejear, soltarte. *Maña:* La puerta.
+- **Puntería:** armas de fuego, ballestas, arcos, arrojar cosas. *Maña:* Pulso.
+- **Sigilo:** moverte sin ruido, esconderte, robar. *Maña:* Sombra.
+- **Físico:** correr, trepar, cargar, aguantar. *Maña:* Pulmones.
+- **Oficio:** carpintería, construcción, barricadas, cerraduras. *Maña:* Ojo de obra.
+- **Mecánica:** motores, electricidad, generadores, armas, química. *Maña:* Puente o Cables.
+- **Medicina:** curar, operar, reconocer la Fiebre, fármacos. *Maña:* Manos de guardia o Recetario.
+- **Supervivencia:** cocinar, purificar agua, huerta, rastrear. *Maña:* La olla grande.
+- **Labia:** convencer, mentir, negociar, consolar, unir al grupo. *Maña:* Lista de presentes o El fiado.
+- **Calle:** saber dónde buscar, atajos, orientarte, la rapiña. *Maña:* Atajos.
 
 Una Habilidad en 0 no te impide nada: tirás 2d6 sin sumar. «Oficio 2» quiere decir que necesitás 2 o más para intentarlo.
 
@@ -330,25 +220,19 @@ Nunca lo tires antes de que el libro te diga **«abrí el Secreto»**.
 <a id="r110"></a>
 ### r110 · Los Seis Tesoros
 
-Tirá 1d6 por cada Tesoro y anotá el lugar en el mapa; al visitarlo, el lugar te manda al Tesoro. Si dos caen en el mismo lugar, el segundo baja a la fila siguiente de su columna (después del 6, el 1). Los Tesoros están en e500–e552.
+Tirá 1d6 por cada Tesoro y anotá el lugar en el mapa; al visitarlo, el lugar te manda al Tesoro. Si dos caen en el mismo lugar, el segundo baja a al número siguiente de su lista (después del 6, el 1). Los Tesoros están en e500–e552.
 
-| 1d6 | **El camión del Comando** | **El generador industrial** | **La armería del cordón** |
-|---|---|---|---|
-| 1 | Mayorista ([e343](#e343)) | Fábrica de pinturas ([e263](#e263)) | Puesto de control Norte ([e421](#e421)) |
-| 2 | Depósito ferroviario ([e323](#e323)) | Hospital Central ([e221](#e221)) | Comisaría 1.ª ([e204](#e204)) |
-| 3 | Contenedores del puerto ([e242](#e242)) | Cocheras del subte ([e322](#e322)) | Armería Gómez ([e302](#e302)) |
-| 4 | Estación de servicio ([e265](#e265)) | Hotel Imperio ([e206](#e206)) | Campamento militar ([e422](#e422)) |
-| 5 | Club de barrio ([e283](#e283)) | Planta potabilizadora ([e383](#e383)) | Barrio cerrado ([e305](#e305)) |
-| 6 | Puesto de control Norte ([e421](#e421)) | Club de golf ([e303](#e303)) | Aduana ([e244](#e244)) |
+**El camión del Comando:** **1** Mayorista ([e343](#e343)) · **2** Depósito ferroviario ([e323](#e323)) · **3** Contenedores del puerto ([e242](#e242)) · **4** Estación de servicio ([e265](#e265)) · **5** Club de barrio ([e283](#e283)) · **6** Puesto de control Norte ([e421](#e421)).
 
-| 1d6 | **El botiquín de la cuarentena** | **La radio del aficionado** | **El blindado** |
-|---|---|---|---|
-| 1 | Banco de sangre ([e225](#e225)) | Galería Pasaje Real ([e205](#e205)) | Campamento militar ([e422](#e422)) |
-| 2 | Hospital de campaña ([e423](#e423)) | Monoblock F ([e281](#e281)) | Cocheras del subte ([e322](#e322)) |
-| 3 | Laboratorio de Virología ([e361](#e361)) | Radio universitaria ([e363](#e363)) | Aduana ([e244](#e244)) |
-| 4 | Clínica San Roque ([e222](#e222)) | Faro ([e384](#e384)) | Estación de servicio ([e265](#e265)) |
-| 5 | Farmacia Central ([e202](#e202)) | Torre de vigía ([e424](#e424)) | Club náutico ([e382](#e382)) |
-| 6 | Facultad de Medicina ([e224](#e224)) | Casa del radioaficionado ([e304](#e304)) | Depósito ferroviario ([e323](#e323)) |
+**El generador industrial:** **1** Fábrica de pinturas ([e263](#e263)) · **2** Hospital Central ([e221](#e221)) · **3** Cocheras del subte ([e322](#e322)) · **4** Hotel Imperio ([e206](#e206)) · **5** Planta potabilizadora ([e383](#e383)) · **6** Club de golf ([e303](#e303)).
+
+**La armería del cordón:** **1** Puesto de control Norte ([e421](#e421)) · **2** Comisaría 1.ª ([e204](#e204)) · **3** Armería Gómez ([e302](#e302)) · **4** Campamento militar ([e422](#e422)) · **5** Barrio cerrado ([e305](#e305)) · **6** Aduana ([e244](#e244)).
+
+**El botiquín de la cuarentena:** **1** Banco de sangre ([e225](#e225)) · **2** Hospital de campaña ([e423](#e423)) · **3** Laboratorio de Virología ([e361](#e361)) · **4** Clínica San Roque ([e222](#e222)) · **5** Farmacia Central ([e202](#e202)) · **6** Facultad de Medicina ([e224](#e224)).
+
+**La radio del aficionado:** **1** Galería Pasaje Real ([e205](#e205)) · **2** Monoblock F ([e281](#e281)) · **3** Radio universitaria ([e363](#e363)) · **4** Faro ([e384](#e384)) · **5** Torre de vigía ([e424](#e424)) · **6** Casa del radioaficionado ([e304](#e304)).
+
+**El blindado:** **1** Campamento militar ([e422](#e422)) · **2** Cocheras del subte ([e322](#e322)) · **3** Aduana ([e244](#e244)) · **4** Estación de servicio ([e265](#e265)) · **5** Club náutico ([e382](#e382)) · **6** Depósito ferroviario ([e323](#e323)).
 
 ---
 
@@ -364,7 +248,7 @@ Cuando el resultado está en duda, el libro pide una **prueba**: `[Habilidad]`.
 > **7 a 9 · Con precio:** lo lográs, pero pagás lo que diga el evento.
 > **6 o menos · Fallo:** no lo lográs. Marcás **práctica** (r124).
 
-Los umbrales nunca cambian; cambian tu Habilidad, la Ventaja y las herramientas. Si una opción no dice qué pasa con 7–9, usá el 10+ y pagá el precio de su icono (☊ 1 Ruido, ✚ 1 Herida, ⚒ 1 uso, ◷ 1 hora, ⛁ 1 Víver, ☹ 1 Ánimo; si hay varios, elegís uno).
+Los umbrales nunca cambian; cambian tu Habilidad, la Ventaja y las herramientas. Si una opción no dice qué pasa con 7–9, lo lográs y pagás un precio a elección: 1 Ruido, 1 Herida, 1 uso, 1 hora, 1 Víver o 1 Ánimo.
 
 <a id="r121"></a>
 ### r121 · Ventaja y Desventaja
@@ -396,8 +280,6 @@ Al lado de cada Habilidad hay **tres casillas de práctica**.
 - Un evento **★** te deja marcar 3 donde quieras. Cada arco de Motivo tiene uno a mitad de camino (e805, e815, e825, e835, e845, e854).
 - **Con las tres marcadas**, borralas y subí la Habilidad en 1. El máximo es 5.
 
-Nadie te enseña, pero cada error te queda grabado.
-
 <a id="r125"></a>
 ### r125 · Lo que pasa si el libro no lo dice
 
@@ -410,27 +292,19 @@ Nadie te enseña, pero cada error te queda grabado.
 
 Cuando una Habilidad llega a **4** (también si empieza en 4), anotá su **maña**. Cada Habilidad da una sola, la primera vez.
 
-La maña de cada Habilidad está en la tabla de r107 (Atajos, sin la bicicleta). Las dos que no son de ningún oficio:
+La maña de cada Habilidad está en r107 (Atajos, sin la bicicleta). Las dos que no son de ningún oficio:
 
 - **Pulso** (Puntería): con 7–9 al disparar, el Ruido no se duplica (r143).
 - **Sombra** (Sigilo): esconderte (r142) tiene Ventaja, y con 7–9 no sumás Ruido.
 
-Si ya la tenés por tu oficio, elegí otra. **Reglamentaria** no se gana. Una maestra que aprende a curar a fuerza de errores termina con *Manos de guardia*.
+Si ya la tenés por tu oficio, elegí otra. **Reglamentaria** no se gana.
 
 <a id="r127"></a>
 ### r127 · El apodo
 
 - **Días 1 a 7:** cada prueba que te sale **10+** suma un palito en la columna **Semana** de esa Habilidad (las gratis no cuentan, r124).
-- **Al alba del día 8**, el grupo te apoda por la Habilidad con más palitos (empate: elegís). Sin palitos, por la Habilidad en 2 de tu oficio. Elegí un nombre de la tabla o inventá otro, y anotá `APODO_` y la Habilidad (`APODO_MEDICINA`…).
+- **Al alba del día 8**, el grupo te apoda por la Habilidad con más palitos (empate: elegís). Sin palitos, por la Habilidad en 2 de tu oficio. Inventale un nombre que le quede (Doc, Mira, Rata, Chispa…) y anotá `APODO_` y la Habilidad (`APODO_MEDICINA`…).
 - **Desde ese día,** hablar con el grupo (r183) tiene **+1**, y si la entrada de un sobreviviente nuevo pide una prueba de esa Habilidad para que venga, tenés +1: ya sabe quién sos.
-
-| Habilidad | Apodo | | Habilidad | Apodo |
-|---|---|---|---|---|
-| Pelea | Martillo · Topadora | | Mecánica | Chispa · Tuerca |
-| Puntería | Mira · Gatillo | | Medicina | Doc · Aguja |
-| Sigilo | Fantasma · Gato | | Supervivencia | Brasa · Raíz |
-| Físico | Mula · Liebre | | Labia | Chamuyo · Palabra |
-| Oficio | Clavo · Plomada | | Calle | Brújula · Rata |
 
 ---
 
@@ -460,21 +334,9 @@ Cuando robás la última carta, es el **día 40**: esa noche llega la **Marea** 
 
 El **palo** dice qué clase de día es; el **valor**, cuánto pesa.
 
-| Palo | Día de… | Cartas 1 a 3 (leve) | Cartas 4 a 7 (fuerte) |
-|---|---|---|---|
-| **Oros** | Hallazgo | [e020](#e020), columna Leve | [e020](#e020), columna Fuerte |
-| **Copas** | Gente | [e030](#e030), columna Leve | [e030](#e030), columna Fuerte |
-| **Espadas** | Amenaza | [e040](#e040), columna Leve | [e040](#e040), columna Fuerte |
-| **Bastos** | Refugio y ciudad | [e050](#e050), columna Leve | [e050](#e050), columna Fuerte |
+**Oros**, hallazgo: [e020](#e020) · **Copas**, gente: [e030](#e030) · **Espadas**, amenaza: [e040](#e040) · **Bastos**, refugio y ciudad: [e050](#e050). Las cartas **1 a 3** usan la columna **Leve**; las **4 a 7**, la **Fuerte**.
 
-Las **figuras** (Sota, Caballo y Rey) son **días de historia**, uno por partida cada una.
-
-| | Sota (10) | Caballo (11) | Rey (12) |
-|---|---|---|---|
-| **Oros** | [e060](#e060) | [e061](#e061) | [e062](#e062) |
-| **Copas** | [e063](#e063) | [e064](#e064) | [e065](#e065) |
-| **Espadas** | [e066](#e066) | [e067](#e067) | [e068](#e068) |
-| **Bastos** | [e069](#e069) | [e070](#e070) | [e071](#e071) |
+Las **figuras** son **días de historia**, uno por partida cada una. Sota, Caballo y Rey de **Oros**: [e060](#e060), [e061](#e061), [e062](#e062) · de **Copas**: [e063](#e063), [e064](#e064), [e065](#e065) · de **Espadas**: [e066](#e066), [e067](#e067), [e068](#e068) · de **Bastos**: [e069](#e069), [e070](#e070), [e071](#e071).
 
 **Planear con la baraja.** El descarte está a la vista: sabés cuántas Espadas faltan y qué figuras no salieron. Usalo.
 
@@ -483,15 +345,7 @@ Las **figuras** (Sota, Caballo y Rey) son **días de historia**, uno por partida
 
 Tachá las **6 horas** a medida que las gastás.
 
-| Acción | Tiempo |
-|---|---|
-| A un barrio vecino por la Calle | ◷ 1 (r152) |
-| Por las Azoteas | ◷ 2 (r152) |
-| Por el Subsuelo | ◷ 1 (r152) |
-| Revisar un lugar rápido / a fondo | ◷ 1 / ◷ 2 (r161) |
-| Fabricar u obra en el refugio | Lo que diga la receta (r204) |
-| Cuidar a alguien o hablar con el grupo | ◷ 1 (r190, r183) |
-| Descansar | ◷ 2: recuperás 1 Ánimo |
+Un barrio vecino por la Calle o el Subsuelo, ◷ 1; por las Azoteas, ◷ 2 (r152) · revisar un lugar, ◷ 1 rápido o ◷ 2 a fondo (r161) · fabricar u obra, lo que diga la receta (r204) · cuidar a alguien o hablar con el grupo, ◷ 1 (r190, r183) · descansar, ◷ 2: +1 Ánimo.
 
 - Una acción que pide más horas de las que quedan no se empieza (salvo moverte: r158).
 - Al gastar la sexta hora, **cae la noche**. Lejos del refugio, pasás la noche afuera (r158). **Acordate de la vuelta.**
@@ -508,12 +362,10 @@ Tachá las **6 horas** a medida que las gastás.
 <a id="r135"></a>
 ### r135 · Las Etapas de la plaga
 
-| Etapa | Cartas en el descarte | Qué cambia |
-|---|---|---|
-| **I · Fiebre** | 1 a 10 | Callados, Frescos e Hinchados |
-| **II · Silencio** | 11 a 20 | Aparecen Chillonas, Acechadores y Sabuesos |
-| **III · Muda** | 21 a 30 | Aparecen Brutos, Escupidores, Ahogados y Blindados |
-| **IV · Marea** | 31 a 40 | Aparecen la Viuda y el Pastor; las Procesiones crecen |
+- **I · Fiebre** (cartas 1 a 10): Callados, Frescos e Hinchados.
+- **II · Silencio** (11 a 20): aparecen Chillonas, Acechadores y Sabuesos.
+- **III · Muda** (21 a 30): aparecen Brutos, Escupidores, Ahogados y Blindados.
+- **IV · Marea** (31 a 40): aparecen la Viuda y el Pastor; las Procesiones crecen.
 
 La Etapa se suma a los encuentros de cada barrio (r153). Las fichas de los infectados están en e720–e731.
 

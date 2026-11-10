@@ -53,3 +53,19 @@ Primera pasada hecha en todos los capítulos: de 117.600 a **85.600 palabras** (
 | Cuarentena hoy | 85.600 | 202 | ~270 estimadas |
 
 Las dos llevan unas 430 palabras por página de texto corrido, así que la cuenta es lineal: **para entrar en 200 páginas con la letra de Caribdis, Cuarentena tiene que quedar en unas 64.000 palabras**, casi lo mismo que Caribdis. Con 75.000 saldrían unas 235 páginas.
+
+## Segunda y tercera pasada (2026-11-10)
+
+El autor eligió bajar a **~64.000 palabras** sin perder mecánicas. Estado: **70.600 palabras** (−40 % desde el original), con `verificar.py` limpio (solo las cuatro Marcas de color aceptadas) y el índice de Marcas regenerado.
+
+**Qué se hizo, además de recortar el color de cada entrada:**
+
+- **Tablas anchas a texto compacto.** Las tablas de cuatro o más columnas, en una columna de texto angosta, ocupan el doble que la misma información en una línea. Se pasaron a líneas o listas: los orígenes de cada Motivo (r104), edades (r101), barrios y conocidos (r103), debilidades (r105), objetos (r106), Habilidades (r107), dónde están los Tesoros (r110), palos y figuras (r132), Etapas (r135), mordidas (r144), sorpresas sin stock (r161), sobrevivientes al azar (r180), puestos (r181), contadores (r198), las cuatro tablas de la baraja, la crisis y el sondeo de la noche, los colores de las pistas y la tabla del Secreto, el índice de facciones, la tabla de manuales y el plano de Tolme. Las tablas de consulta de verdad (botín, encuentros por barrio, armas, vehículos, oleadas especiales) siguen siendo tablas.
+- **La lista de Marcas de la Noche 40** (e900) pasó de una tabla de 25 filas a cinco grupos: oleadas, primera oleada, cada oleada, una vez, vos y los tuyos.
+- **r005** (inicio rápido) se fusionó con r001, que ya decía lo mismo.
+- Arreglo: e585 mandaba a un final «Él te recuerda» que no existe; ahora manda a «La Marea ciega» (e945), que cubre los dos casos.
+- El simulador lee las tablas de la baraja en el formato nuevo. Resultado (8.000 partidas): **61,3 %** llegan al amanecer, dentro de la meta de 55–65 % (antes del recorte, 60,5 %).
+
+**Medición** (mismo método que arriba, cada capítulo empieza en página nueva): **170 páginas** de texto corrido contra 149 de Caribdis. La comparación exagera la diferencia: las hojas de protagonista, refugio y grupo (unas 4 páginas) se arman aparte en la maqueta, y el catálogo, las plantillas y el índice de Marcas van a tres columnas y cuerpo 8, como en Caribdis, donde Cuarentena ahorra más porque su catálogo es el doble. Equivalente estimado: unas **164 páginas** contra 149.
+
+**Lo que falta para 64.000:** unas 6.500 palabras más. Candidatos: sobrevivientes (11 páginas), historias (12), catálogo, baraja y calle. La alternativa es usar menos láminas a página entera que Caribdis: cada lámina menos es una página de texto más.

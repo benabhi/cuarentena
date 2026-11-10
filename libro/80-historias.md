@@ -12,7 +12,7 @@
 ### e800 · La lista
 *La lista · ◷ 0*
 
-Una hoja del cambio de turno del día 0, con tu letra o con la de Raquel: los doce pacientes del pabellón 4. Cuatro murieron esa noche; el señor Aguirre, cama 12, se levantó. Con `OFICIO_SALUD`, el juramento lo hiciste al recibirte; si no, esa noche, en el pasillo.
+Una hoja del cambio de turno del día 0, con tu letra o con la de Raquel: los doce pacientes del pabellón 4.
 
 Anotá **siete nombres**: **Benítez** (cama 2, EPOC), **Coria** (3, posoperatorio), **la nena Olmos** (5, apendicitis), **Ferro** (7, diabética), **Luna** (8, embarazada), **Quiroga** (10, cadera) y **Suárez** (11, neumonía).
 
@@ -28,7 +28,7 @@ Anotá **siete nombres**: **Benítez** (cama 2, EPOC), **Coria** (3, posoperator
 ### e801 · El pabellón 4
 *La lista · Hospital Central · ◷ 1*
 
-Un suero gotea sobre nada en la cama 12. **Coria** pasó un mes en el placard de la ropa blanca. «Yo sabía que usted volvía».
+**Coria** pasó un mes en el placard de la ropa blanca. «Yo sabía que usted volvía».
 
 1. **Llevártelo.** Sin puestos 3 noches, después es un sobreviviente común. Tachalo. +1 Juramento, +1 Moral al llegar.
 2. **Volver por él.** Le dejás 1 Víver y anotá `CORIA_ESPERA` con el día. Si volvés antes de 5 días, borrá la Marca y es la opción 1. Si no, muere: −1 Juramento y borrá la Marca.
@@ -41,7 +41,7 @@ En la libreta de turnos, con la letra de Raquel: «Al que tenga la lista: los de
 ### e802 · La carta de la cama 8
 *La lista · ◷ 0*
 
-Papel de recetario, de hace dos días: «Soy Luna, la de la cama 8. Monoblock F, séptimo. Ya es la semana. ¿Usted puede venir?».
+«Soy Luna, la de la cama 8. Monoblock F, séptimo. Ya es la semana. ¿Usted puede venir?».
 
 1. **Ir** al monoblock F antes de la próxima carta de Espadas → [e806](#e806).
 2. **No ir.** Con esa carta de Espadas, cruz para Luna: −1 Juramento, −1 Ánimo.
@@ -52,9 +52,9 @@ Papel de recetario, de hace dos días: «Soy Luna, la de la cama 8. Monoblock F,
 ### e803 · La insulina
 *La lista · Farmacia del Casco · ◷ 0*
 
-Cuatro cajas de insulina tibia, que sirven unos días. Ferro, cama 7, vive arriba de la panadería de Rivadavia.
+Insulina tibia, que sirve unos días. Ferro, cama 7, vive arriba de la panadería de Rivadavia.
 
-1. **Ir ya** (◷ 1, en el Casco). Con 1–2 en 1d6, llegás tarde: el marido te abre con los ojos rojos; está convertida y atada (−1 Ánimo, cruz para Ferro). Con 3–6, en coma; con `[Medicina]` 7+ despierta, y vienen ella y su marido. Tachala. +1 Juramento.
+1. **Ir ya** (◷ 1, en el Casco). Con 1–2 en 1d6, llegás tarde: está convertida y atada (−1 Ánimo, cruz para Ferro). Con 3–6, en coma; con `[Medicina]` 7+ despierta, y vienen ella y su marido. Tachala. +1 Juramento.
 2. **Guardarla** (1 casillero), por si un evento trae a un diabético.
 
 ---
@@ -83,11 +83,11 @@ Una pista ([e560](#e560)) y +1 Juramento. Si el Sarmiento es tu refugio, leé es
 ### e806 · La cama 8
 *La lista · Los Bloques · Monoblock F · ◷ 2*
 
-Luna está pariendo, sola: el novio salió a buscar comida hace tres días. Si no sabés cómo, ella te lo dice entre contracciones.
+Luna está pariendo, sola.
 
 `[Medicina]` (+1 con `OFICIO_SALUD`, +1 con Botiquín; sin Medicina, puede tirar quien te acompañe).
 
-- **10+:** una nena que llora demasiado fuerte para Tolme. Vienen las dos. +2 Juramento, +2 Moral, +1 Rastro. Anotá `LA_NENA_DE_LUNA`.
+- **10+:** una nena que llora demasiado fuerte para Tolme; vienen las dos. +2 Juramento, +2 Moral, +1 Rastro. Anotá `LA_NENA_DE_LUNA`.
 - **7–9:** Luna sangra. Con 2 Fármacos, como 10+ pero con +1 Juramento. Sin ellos, Luna muere y la nena vive: +1 Juramento, −2 Ánimo.
 - **6−:** al amanecer vive una de las dos; elegí cuál. Tachá a Luna. −1 Ánimo.
 
@@ -101,7 +101,7 @@ Cuatro de tu lista. Benítez y Suárez: «Reacción a L-40: negativa». La nena 
 
 Una pista ([e560](#e560)); dos con `QUIROGA_DERIVADO`.
 
-1. **Buscar el sector B,** `[Sigilo]`, ◷ 1. Con 7+, una carpa con chicos sin fiebre frente a una tele sin señal. La nena Olmos: «¡Vos tenías la lista!». Sacarla (`[Sigilo]` otra vez): +2 Juramento y −2 Reputación con el Destacamento. Si no, sabés que vive: +1 Juramento.
+1. **Buscar el sector B,** `[Sigilo]`, ◷ 1. Con 7+, una carpa con chicos sin fiebre frente a una tele sin señal. Sacarla (`[Sigilo]` otra vez): +2 Juramento y −2 Reputación con el Destacamento. Si no, sabés que vive: +1 Juramento.
 2. **Irte.** −1 Ánimo.
 
 ---
@@ -110,7 +110,7 @@ Una pista ([e560](#e560)); dos con `QUIROGA_DERIVADO`.
 ### e808 · El juramento
 *La lista · ◷ 0*
 
-La lista ya es un mapa de tachaduras y cruces. No se termina: siempre hubo otra cama.
+La lista no se termina: siempre hubo otra cama.
 
 1. **Guardarla** hasta el último día. +1 Juramento.
 2. **Pasársela** a alguien con Medicina 1 o ganas de aprender: gana Medicina +1. Anotá `LA_LISTA_SIGUE`: si no llegás al amanecer, alguien sigue por vos.
@@ -139,7 +139,7 @@ Membrete de la constructora y sello del Comando: «Contención, accesos norte. O
 ### e811 · El expediente
 *La obra · Municipalidad · ◷ 1*
 
-Una nota del Dr. M. Salas: «El tramo 9, con soldadura provisoria, desmontable desde el exterior, para el personal de observación al término del plazo». Vos estabas ahí, o firmaste, o cobraste. Alcanza.
+Una nota del Dr. M. Salas: «El tramo 9, con soldadura provisoria, desmontable desde el exterior, para el personal de observación al término del plazo».
 
 Una pista ([e560](#e560)) y anotá `EL_TRAMO_NUEVE`. En los planos figura el depósito de la obra en La Fabril → [e816](#e816).
 
@@ -149,7 +149,7 @@ Una pista ([e560](#e560)) y anotá `EL_TRAMO_NUEVE`. En los planos figura el dep
 ### e812 · La carta de Gisela
 *La obra · ◷ 0*
 
-De Gisela, la administrativa, que se fue el día −5 con un pasaje de regalo: «Nos sacaron a mí y a las familias de los jefes. Tu nombre está en la lista de los que hay que sacar cuando abran. Aguantá. G.» Sabían.
+De Gisela, la administrativa: «Nos sacaron a mí y a las familias de los jefes. Tu nombre está en la lista de los que hay que sacar cuando abran. Aguantá. G.» Sabían.
 
 Una pista ([e560](#e560)) y +1 Cimientos. Con `LA_FOTO`, recuperás todo tu Ánimo y podés usar la foto una vez más.
 
@@ -159,7 +159,7 @@ Una pista ([e560](#e560)) y +1 Cimientos. Con `LA_FOTO`, recuperás todo tu Áni
 ### e813 · El ingeniero
 *La obra · ◷ 0*
 
-En el campamento ([e690](#e690)) o el Puesto Norte ([e421](#e421)), el ingeniero Duarte se pone pálido. «Me trajeron a mantener el muro».
+En el campamento ([e690](#e690)) o el Puesto Norte ([e421](#e421)), el ingeniero Duarte se pone pálido.
 
 1. **El tramo nueve.** «Se abre desde afuera el día que ellos quieran». Una pista ([e560](#e560)).
 2. **Los planos,** `[Labia]`. Con 7+, anotá `LOS_PLANOS_DEL_MURO`: con `EL_MURO_CEDIO`, la primera oleada de la Noche 40 no elige el frente más débil (un 6 se repite).
@@ -171,10 +171,10 @@ En el campamento ([e690](#e690)) o el Puesto Norte ([e421](#e421)), el ingeniero
 ### e814 · La sección que cedió
 *La obra · ◷ 0*
 
-Fue el siete, soldado de noche con electrodos húmedos por Ramírez, el que se levantó el día 1. −1 Ánimo, −1 Cimientos. Pero sabés cómo se tapa.
+El tramo siete, soldado de noche por Ramírez. −1 Ánimo, −1 Cimientos. Pero sabés cómo se tapa.
 
 1. **Ir al Perímetro** hoy, sin tirar encuentro: ◷ 4, `[Oficio]` con +2. Con 7+, borrá `EL_MURO_CEDIO`: +2 Reputación con el Destacamento y +2 Cimientos. Con 6−, la primera oleada suma +1 en lugar de +2.
-2. **No ir.** No es tu culpa. (Es un poco tu culpa.)
+2. **No ir.** (Es un poco tu culpa.)
 
 ---
 
@@ -182,7 +182,7 @@ Fue el siete, soldado de noche con electrodos húmedos por Ramírez, el que se l
 ### e815 · La soldadura
 *La obra · El muro · ◷ 1 · ★*
 
-Contenedor azul, lote 7-B-114: con `OFICIO_OBRA`, la soldadura es tuya; si no, lo leíste cien veces en los remitos. El metal vibra contra tu palma.
+Contenedor azul, lote 7-B-114: con `OFICIO_OBRA`, la soldadura es tuya; si no, lo leíste cien veces en los remitos.
 
 1. **Revisar tu tramo,** `[Oficio]`, ◷ 2. Con 7+, dos uniones van a ceder: avisás (+1 Reputación) y anotá `GRIETA_EN_EL_MURO`. Con 10+, además, 2 Metal en electrodos.
 2. **Escribir tu nombre** con un clavo, y al lado: «Perdón». +1 Ánimo.
@@ -194,7 +194,7 @@ Contenedor azul, lote 7-B-114: con `OFICIO_OBRA`, la soldadura es tuya; si no, l
 ### e816 · El obrador
 *La obra · La Fabril · ◷ 1*
 
-Lo que sobró de diecinueve días. Sin tirar: **6 Metal, 4 Sujeción, una Soldadora** (con Generador) y cemento para dos Tapiados ([e740](#e740)). Dos viajes, o uno con vehículo. Anotá `EL_OBRADOR` y +1 Cimientos.
+Sin tirar: **6 Metal, 4 Sujeción, una Soldadora** (con Generador) y cemento para dos Tapiados ([e740](#e740)). Dos viajes, o uno con vehículo. Anotá `EL_OBRADOR` y +1 Cimientos.
 
 Con `LOS_PLANOS_DEL_MURO` o `EL_TRAMO_NUEVE`, en el escritorio del capataz hay un sobre con tu nombre: la paga del último tramo. La dejás. −1 Ánimo y +1 Ánimo: las dos cosas.
 
@@ -204,9 +204,9 @@ Con `LOS_PLANOS_DEL_MURO` o `EL_TRAMO_NUEVE`, en el escritorio del capataz hay u
 ### e817 · La última pared
 *La obra · Tu refugio · ◷ 0*
 
-Al construir el **Último Cuarto** ([e761](#e761)). Medís tres veces, como en el obrador.
+Al construir el **Último Cuarto** ([e761](#e761)).
 
-**+2 Resistencia** (además de *Ojo de obra*), +1 más con `EL_OBRADOR`, y +1 Cimientos. Está fría. Aguanta. La hiciste vos.
+**+2 Resistencia** (además de *Ojo de obra*), +1 más con `EL_OBRADOR`, y +1 Cimientos.
 
 ---
 
@@ -216,7 +216,7 @@ Al construir el **Último Cuarto** ([e761](#e761)). Medís tres veces, como en e
 ### e820 · El sobre
 *La orden · ◷ 0*
 
-Sello rojo intacto, el número 40: «Para ejecutar al recibir la señal». Dejaste el puesto antes de saber cuál.
+Sello rojo intacto: «Para ejecutar al recibir la señal».
 
 - **Tu contador es el Deber:** sube cuando protegés civiles arriesgándote y baja cuando usás la fuerza contra civiles desarmados (r198).
 - **No hace falta ser policía.** Con `OFICIO_POLICIA`, en este arco usás Puntería en lugar de Labia con los soldados (*Reglamentaria*).
@@ -252,7 +252,7 @@ Una pista ([e560](#e560)), +1 Deber y anotá `EL_CABO_GIMENEZ`. Con un Handy, un
 ### e823 · El libro de guardia
 *La orden · Comisaría 1.ª · ◷ 0*
 
-«Día 1. Retener a detenidos con fiebre. Día 3, 04:00. Abandono de dependencia. Dejar a los detenidos». Los que golpean en las celdas son los que dejaron.
+«Día 1. Retener a detenidos con fiebre. Día 3, 04:00. Abandono de dependencia. Dejar a los detenidos».
 
 Una pista ([e560](#e560)).
 
@@ -288,7 +288,7 @@ La primera vez que hablás con Ocampo sin que te detengan ([e690](#e690), [e692]
 ### e826 · La señal
 *La orden · Puesto de control Norte · ◷ 0*
 
-Con `LEISTE_LA_ORDEN`, `OCAMPO_DE_TU_LADO` o `SOBRE_CERRADO`, en el Puesto Norte al amanecer del día 41. La radio dice un color. No importa cuál: los soldados te miran a vos.
+Con `LEISTE_LA_ORDEN`, `OCAMPO_DE_TU_LADO` o `SOBRE_CERRADO`, en el Puesto Norte al amanecer del día 41. Los soldados te miran a vos.
 
 1. **Abrir la barrera.** «Pasan todos. Yo me hago cargo». `[Labia]` (o `[Puntería]` con *Reglamentaria*, r102). Con 7+, bajan las armas: +2 Deber, y tus vivos son **salvados**, sea cual sea el Secreto (con la purga, el fuego viene igual, pero ya están afuera). Con 6−, alguien dispara: con 1–2 en 1d6, caés vos.
 2. **Cumplir la orden,** la que sea. +1 Reputación, −2 Deber.
@@ -302,7 +302,7 @@ Con `LEISTE_LA_ORDEN`, `OCAMPO_DE_TU_LADO` o `SOBRE_CERRADO`, en el Puesto Norte
 ### e830 · El último pedido
 *El pedido · ◷ 0*
 
-La tanda del sábado: cinco entregas que nadie hizo. Ahora es tuya.
+Cinco entregas que nadie hizo.
 
 | # | Pedido | Destino | Entrada |
 |---|---|---|---|
@@ -325,7 +325,7 @@ La tanda del sábado: cinco entregas que nadie hizo. Ahora es tuya.
 En el barrio del pedido, entregalo (◷ 1) y tirá 1d6:
 
 - **1 · La Sra. Peralta.** 1–2: muerta en su sillón hace semanas; dejás los remedios en la mesa. 3–6: te abre con un cuchillo y llora al ver la bolsa. 2 Víveres, y su sobrino es Pocho: si lo buscás, viene sin prueba ([e612](#e612)).
-- **2 · Habitación 304** ([e206](#e206)). 1–3: un hombre de traje, Callado, sentado en el inodoro (**Callado ×1 · Cerca**); el sobre dice «Testamento». 4–6: vivo y flaco, firma el remito y te da su reloj de oro (vale 3 en un cambio, r166). «Llegó tarde. Pero llegó».
+- **2 · Habitación 304** ([e206](#e206)). 1–3: un hombre de traje, Callado, sentado en el inodoro (**Callado ×1 · Cerca**); el sobre dice «Testamento». 4–6: vivo y flaco, firma el remito y te da su reloj de oro (vale 3 en un cambio, r166).
 - **3 · El cumpleaños.** «FELICES 6, BENJA». 1–3: casa vacía; dejás el peluche en la puerta. 4–6: el nene te abraza; 3 Víveres y una noche (r158).
 - **4 · El repuesto** ([e382](#e382)). 1–3: nadie, pero la lancha tiene +2 para arrancar. 4–6: Cacho Barrios, que nunca dejó el club, te presta la lancha para el Éxodo ([e960](#e960)) o te lleva al Puerto cuando quieras.
 
@@ -337,7 +337,7 @@ Cada entrega: tachala (o apretá el botón verde, aunque no haya señal) y +1 Ru
 ### e832 · La carta de Mabel
 *El pedido · ◷ 0*
 
-De Mabel, la de despacho: «El Comando preguntó por vos, por tu nombre, y por la caja. Les dije que se entregó. No la abras. O sí. Cuidate, mi vida. M.»
+De Mabel, la de despacho: «El Comando preguntó por vos, por tu nombre, y por la caja. Les dije que se entregó. No la abras. O sí. M.»
 
 Una pista ([e560](#e560)) y anotá `TE_BUSCAN_POR_LA_CAJA`: si el Destacamento te reconoce ([e690](#e690), [e691](#e691)), pregunta por ella; entregarla da +3 Reputación y −2 Ruta.
 
@@ -347,7 +347,7 @@ Una pista ([e560](#e560)) y anotá `TE_BUSCAN_POR_LA_CAJA`: si el Destacamento t
 ### e833 · El destinatario
 *El pedido · Morgue · Heladera 14 · ◷ 0*
 
-«Dr. M. Salas · Asesor sanitario». Convertido, golpeando despacio desde adentro. Alguien sabía quién era.
+«Dr. M. Salas · Asesor sanitario». Convertido, golpeando despacio desde adentro.
 
 1. **Entregársela.** Le apoyás la caja en el pecho y apretás el botón verde. +1 Ruta. Si la querés de nuevo, la agarrás: el pedido ya está entregado.
 2. **No entregársela.** Ya no es el destinatario → [e838](#e838).
@@ -368,7 +368,7 @@ Una pista ([e560](#e560)) y anotá `SUJETO_CERO`. Si Ríos está en el grupo, te
 ### e835 · De vuelta al origen
 *El pedido · Laboratorio de Virología · ◷ 0 · ★*
 
-El libro de visitas del sábado: la firma del repartidor, 16:40, y «E. Ríos». Atrás, un póster: «Programa L-40».
+El libro de visitas del sábado: la firma del repartidor, 16:40, y «E. Ríos».
 
 1. **Buscar a la doctora** ([e648](#e648)). Ve la caja y se le cae la pistola: «Todo este tiempo la tenías vos». `[Labia]` con ella, sin Desventaja.
 2. **Devolver la caja** en el mostrador: un pedido cancelado, no abandonado; la Ruta no baja. Borrá `TE_BUSCAN_POR_LA_CAJA`.
@@ -379,7 +379,7 @@ El libro de visitas del sábado: la firma del repartidor, 16:40, y «E. Ríos».
 ### e836 · El 4B
 *El pedido · Residencia de investigadores · ◷ 0*
 
-Alguien lo revolvió todo buscando lo que vos tenés. En la agenda: «Recibir muestra S-0. Si se pierde, NADIE puede saberlo». Se perdió. Todos supieron.
+Alguien lo revolvió todo buscando lo que vos tenés. En la agenda: «Recibir muestra S-0. Si se pierde, NADIE puede saberlo».
 
 Una pista ([e560](#e560)) y +1 Ruta: llegaste. Te falta saber qué tiene adentro → [e837](#e837).
 
@@ -388,8 +388,6 @@ Una pista ([e560](#e560)) y +1 Ruta: llegaste. Te falta saber qué tiene adentro
 <a id="e837"></a>
 ### e837 · Abrir la caja
 *El pedido · ◷ 0*
-
-No es tuya.
 
 1. **Abrirla.** Seis tubos de sangre, «S-0 · NO CONGELAR», y un informe: «El sujeto 0 no presenta conversión a los 40 días de exposición. Ver anexo». No hay anexo. −1 Ruta, dos pistas ([e560](#e560)). Borrá `CAJA_PRECINTADA` y anotá `LA_CAJA_ABIERTA`.
 2. **No abrirla** → [e838](#e838) cuando quieras.
@@ -415,7 +413,7 @@ Con Mateo o Ríos, si tu Secreto es el 6, esa sangre sirve para el suero ([e586]
 ### e840 · El que falta
 *El que falta · ◷ 0*
 
-«Ya salgo. Está todo muy raro. Te quiero». 23:31. No llegó. Armá ahora a quien buscás: lo que anotes es verdad en esta partida.
+Armá ahora a quien buscás: lo que anotes es verdad en esta partida.
 
 **1 · Quién es.** Elegí o tirá 1d6. Ponele un nombre (o uno de r100) y anotá `EL_QUE_FALTA` con el nombre.
 
@@ -515,7 +513,7 @@ Tres señales. Tirá 1d6 en la columna de tu Etapa: −1 si esa noche estaba en 
 ### e846 · Convertido
 *El que falta · ◷ 0*
 
-Lo reconocés de espaldas, por cómo apoya un pie. Se da vuelta. Te mira, y no te mira.
+Lo reconocés de espaldas, por cómo apoya un pie.
 
 1. **Terminarlo vos.** **Callado ×1 · Cerca**, que no se defiende. −2 Ánimo. Anotá `LO_DESPEDISTE`. La Esperanza no baja: lo encontraste.
 2. **Encerrarlo** con su nombre escrito en la puerta (◷ 1). −1 Ánimo, −1 Esperanza y anotá `LO_DEJASTE_ADENTRO`: si tu refugio está en este barrio, en la tercera oleada alguien golpea el Último Cuarto tres veces, como golpeaba siempre.
@@ -558,7 +556,7 @@ En todos los casos viene con lo que dice su fila de [e840](#e840), salvo que dig
 ### e850 · Lo que hiciste
 *Lo que hiciste · ◷ 0*
 
-Nadie te vio, te dijiste. Pero siempre hay alguien detrás de una persiana. Elegí o tirá 1d6. Anotá `LO_QUE_HICISTE` y la Marca de tu fila.
+Siempre hay alguien detrás de una persiana. Elegí o tirá 1d6. Anotá `LO_QUE_HICISTE` y la Marca de tu fila.
 
 | 1d6 | Qué hiciste | El lugar | Quién lo sabe |
 |---|---|---|---|
@@ -625,7 +623,7 @@ En la puerta, en imprenta: «SÉ LO QUE HICISTE». 1d6:
 Una vez por partida, una noche, se lo contás al grupo. `[Labia]`, +1 si alguien ya lo sabía y está de tu lado.
 
 - **10+:** silencio largo, y después alguien cuenta lo suyo. Y otro. +1 Moral, −2 Culpa.
-- **7–9:** algunos se van a dormir sin mirarte. −1 Moral, −1 Culpa. Al alba, alguien te deja el mate preparado.
+- **7–9:** algunos se van a dormir sin mirarte. −1 Moral, −1 Culpa.
 - **6−:** gritos. Se va quien menos cartas lleva en el grupo (`PERDIDO_` y su nombre). −1 Culpa igual: ya está dicho.
 
 Borrá `LO_NEGASTE`, si la tenías.
@@ -636,7 +634,7 @@ Borrá `LO_NEGASTE`, si la tenías.
 ### e855 · Te lo echan en cara
 *Lo que hiciste · Tu refugio · ◷ 0*
 
-Con `LO_NEGASTE`, la próxima vez que la Moral baje a 3, quien lo sabe lo dice delante de todos, con detalles que no sabías que había visto.
+Con `LO_NEGASTE`, la próxima vez que la Moral baje a 3, quien lo sabe lo dice delante de todos.
 
 1. **Admitirlo:** [e854](#e854) con Desventaja. Borrá `LO_NEGASTE`.
 2. **Negarlo otra vez,** `[Labia]`. Con 10+, te creen y se va solo esa noche: +2 Culpa. Si no, −2 Moral, +1 Culpa y −1 a hablar con el grupo (r183) hasta que lo admitas.
@@ -647,7 +645,7 @@ Con `LO_NEGASTE`, la próxima vez que la Moral baje a 3, quien lo sabe lo dice d
 ### e856 · De noche
 *Lo que hiciste · ◷ 0*
 
-Te despertás con la mano en la traba. Del otro lado, alguien respira. 1d6:
+Te despertás con la mano en la traba. 1d6:
 
 - **1–2 · Abrís.** Nadie. Puerta −1, +1 Rastro.
 - **3–4 · No dormís.** Mañana sin puestos y con Desventaja en Labia.
@@ -661,7 +659,7 @@ Con Culpa 6, al alba baja a 5: hasta la culpa se cansa.
 ### e857 · Otra vez
 *Lo que hiciste · ◷ 0*
 
-Al alba de la primera carta de **Espadas** de la **Etapa III** (r135), o el día que la Culpa vuelva a subir a 4 después de haber bajado. La ciudad te pone en el mismo lugar. Pasa ese día.
+Al alba de la primera carta de **Espadas** de la **Etapa III** (r135), o el día que la Culpa vuelva a subir a 4 después de haber bajado. La ciudad te pone en el mismo lugar.
 
 - **La puerta.** Una mujer con un chico arañado hace una hora (r191). Abrir: 2 sobrevivientes y −2 Culpa. No: +2.
 - **El aislamiento.** Un cuarto cerrado con gente golpeando. Abrir con cuidado (`[Sigilo]`; con 6−, **Callados ×1d6 · Encima**): tres vivos, −2 Culpa. Ni mirar: +1.
@@ -676,6 +674,6 @@ Al alba de la primera carta de **Espadas** de la **Etapa III** (r135), o el día
 ### e858 · Cero
 *Lo que hiciste · ◷ 0*
 
-La noche en que la Culpa llega a 0 no pasa nada, y eso es lo raro: no soñás con la puerta. Lo que hiciste no se borra, pero ya no te lo hacés cada noche.
+Esa noche no soñás con la puerta. Lo que hiciste no se borra, pero ya no te lo hacés cada noche.
 
-Recuperás todo tu Ánimo. Anotá `TE_PERDONASTE`: la Culpa ya no sube. Lo que hagas, lo hacés con los ojos abiertos.
+Recuperás todo tu Ánimo. Anotá `TE_PERDONASTE`: la Culpa ya no sube.

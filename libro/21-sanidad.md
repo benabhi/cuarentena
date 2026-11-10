@@ -1,6 +1,6 @@
 ## Barrio 2 · Sanidad
 
-*Los hospitales: el Central, la Clínica San Roque, la Facultad de Medicina, la morgue. Acá empezó todo, y acá está todo lo que necesitás para curarte. Por eso es el barrio con más Callados de Tolme: los que murieron en las guardias siguen en las guardias.*
+*Los hospitales. Acá empezó todo, y acá está todo lo que necesitás para curarte. Por eso es el barrio con más Callados de Tolme: los que murieron en las guardias siguen en las guardias.*
 
 <a id="e220"></a>
 ### e220 · Sanidad: llegar
@@ -27,7 +27,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e221 · El Hospital Central
 *Sanidad · Hospital · stock ▢▢▢▢*
 
-Doce pisos. Ambulancias abandonadas en la rampa, camillas en la vereda. Las puertas automáticas de la guardia se abren y se cierran solas, una y otra vez, sobre un cuerpo atascado en el riel. Adentro hay cientos. Lo sabe todo Tolme.
+Doce pisos. Las puertas automáticas de la guardia se abren y se cierran solas sobre un cuerpo atascado en el riel. Adentro hay cientos.
 
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
@@ -42,12 +42,12 @@ Doce pisos. Ambulancias abandonadas en la rampa, camillas en la vereda. Las puer
 ### e222 · La Clínica San Roque
 *Sanidad · Hospital · stock ▢▢▢*
 
-Una clínica privada con fachada de vidrio espejado y la puerta encadenada por dentro. Con lápiz labial, en el vidrio: NO HAY MÉDICOS. NO HAY REMEDIOS. VÁYANSE.
+Vidrio espejado, la puerta encadenada por dentro y, con lápiz labial: NO HAY MÉDICOS. VÁYANSE.
 
 **Tesoro:** si el Botiquín de la cuarentena está acá (r110) → [e530](#e530).
 
 1. **Romper el vidrio.** +2 Ruido, y podés revisar (r161).
-2. **Golpear.** Aparece una mujer con guardapolvo y una escoba con un cuchillo atado en la punta. Es Rita → [e615](#e615).
+2. **Golpear.** Aparece una mujer con guardapolvo y una escoba con un cuchillo. Es Rita → [e615](#e615).
 3. **La entrada de servicio,** por el estacionamiento: escena Estacionamiento (r333), **Callados ×1d6 · Lejos**. Si llegás a la puerta, entrás sin ruido y podés revisar.
 
 ---
@@ -56,7 +56,7 @@ Una clínica privada con fachada de vidrio espejado y la puerta encadenada por d
 ### e223 · La morgue
 *Sanidad · Hospital · stock ▢*
 
-Heladeras de acero con las puertas abiertas, camillas vacías, el piso pegajoso. Acá empezaron a levantarse el día 1, y se nota.
+Heladeras de acero abiertas y el piso pegajoso. Acá empezaron a levantarse el día 1.
 
 - **Revisar** (r161). Un 1 en la tabla es **Callados ×2d6 · Cerca**.
 - **El escritorio del forense.** Si tu Motivo es La lista → [e804](#e804). Si no, con `[Medicina]` 10+ entendés las planillas: una pista ([e560](#e560)).
@@ -68,7 +68,7 @@ Heladeras de acero con las puertas abiertas, camillas vacías, el piso pegajoso.
 ### e224 · La Facultad de Medicina
 *Sanidad · Oficina · stock ▢▢▢*
 
-Aulas en anfiteatro, laboratorios, una biblioteca. En la entrada, la bandera de los de primer año: BIENVENIDOS AL FUTURO.
+En la entrada, la bandera de los de primer año: BIENVENIDOS AL FUTURO.
 
 **Tesoro:** si el Botiquín de la cuarentena está acá (r110) → [e530](#e530).
 
@@ -82,7 +82,7 @@ Aulas en anfiteatro, laboratorios, una biblioteca. En la entrada, la bandera de 
 ### e225 · El banco de sangre
 *Sanidad · Hospital · stock ▢▢*
 
-Heladeras que ya no enfrían y bolsas reventadas por el piso. El olor es metálico y dulce.
+Bolsas reventadas por el piso. El olor es metálico y dulce.
 
 **Tesoro:** si el Botiquín de la cuarentena está acá (r110) → [e530](#e530).
 
@@ -95,7 +95,7 @@ Heladeras que ya no enfrían y bolsas reventadas por el piso. El olor es metáli
 ### e226 · La farmacia de turno
 *Sanidad · Farmacia · stock ▢▢*
 
-La cruz verde todavía parpadea. Estaba de turno el día 0, y la gente rompió todo buscando antifebriles.
+La cruz verde todavía parpadea. El día 0, la gente rompió todo buscando antifebriles.
 
 - **Revisar** (r161), con −1 a la tabla.
 - **El depósito del fondo,** intacto: `[Oficio]` o Palanca. Una vez: 2 Fármacos y, con 4–6 en 1d6, 1 Antiviral.
@@ -106,11 +106,7 @@ La cruz verde todavía parpadea. Estaba de turno el día 0, y la gente rompió t
 ### e230 · El camillero
 *Sanidad · ◷ 0*
 
-Un hombre con ambo verde empuja una camilla vacía de una esquina a otra. Cuando te ve, se detiene.
-
-—¿Usted es el familiar? Lo estábamos esperando. Pase, pase.
-
-Está vivo. Está completamente perdido.
+Un hombre con ambo verde empuja una camilla vacía. «¿Usted es el familiar? Pase, pase». Está vivo, y completamente perdido.
 
 1. **Seguirle la corriente.** Por pasillos que solo él conoce: revisás el Hospital Central ([e221](#e221)) una vez sin tirar por Callados.
 2. **Llevarlo al refugio.** `[Labia]`: con 7+, viene. Medicina 1, Insomne, nunca hace Guardia («tengo guardia en el hospital»). Anotá `EL_CAMILLERO`.
@@ -122,7 +118,7 @@ Está vivo. Está completamente perdido.
 ### e231 · La carpa del Comando
 *Sanidad · ◷ 1 · stock ▢▢*
 
-En la plaza, una carpa sanitaria del Comando con catres, un escritorio plegable y cajas selladas, todo tirado como en una huida.
+En la plaza, una carpa sanitaria del Comando abandonada como en una huida.
 
 - **Revisar** como Hospital (un 1 es nada). Queda como un lugar más de Sanidad.
 - **El registro de ingresos.** La última hoja: «Día 2. Orden de retirada. Protocolo 40 en marcha. No evacuar civiles». Una pista ([e560](#e560)).
@@ -134,7 +130,7 @@ En la plaza, una carpa sanitaria del Comando con catres, un escritorio plegable 
 ### e232 · Los que esperan turno
 *Sanidad · ◷ 0*
 
-La vereda de la guardia está llena de sillas de plástico, y en las sillas hay gente sentada. Esperan turno desde hace semanas. Ninguno respira: **Callados ×3d6**, quietos mientras nadie haga ruido.
+En las sillas de plástico de la guardia, gente que espera turno desde hace semanas. Ninguno respira: **Callados ×3d6**, quietos mientras nadie haga ruido.
 
 - **Pasar de largo** `[Sigilo]`. Con 6−, uno se levanta, y se levantan todos: **Callados ×3d6 · Lejos**.
 - **Por las Azoteas:** no tirás.
@@ -145,9 +141,9 @@ La vereda de la guardia está llena de sillas de plástico, y en las sillas hay 
 ### e233 · El quirófano encendido
 *Sanidad · ◷ 1*
 
-En el segundo piso de la San Roque hay luz blanca de quirófano, y se escucha, bajito, música clásica.
+En el segundo piso de la San Roque, luz de quirófano y música clásica.
 
-1. **Subir por la escalera de incendios.** `[Físico]`. Con 6−, cede: 1 Herida. Si no, adentro un cirujano opera a un Callado atado a la camilla, con pinzas, en silencio. «Tiene que haber algo que los mueva. Algo en el cerebro.» Es el doctor Pereyra, y está loco. Con 10+ te da 2 Fármacos para que te vayas; con 7–9 te apunta con un bisturí. Una pista ([e560](#e560)). Con `[Labia]` 10+ viene al refugio: Medicina 3, Frío, y necesita un Callado vivo atado en el sótano. Anotá `EL_DOCTOR_PEREYRA`.
+1. **Subir por la escalera de incendios.** `[Físico]`. Con 6−, cede: 1 Herida. Si no, un cirujano opera a un Callado atado a la camilla: «Tiene que haber algo que los mueva». Es el doctor Pereyra, y está loco. Con 10+ te da 2 Fármacos para que te vayas; con 7–9 te apunta con un bisturí. Una pista ([e560](#e560)). Con `[Labia]` 10+ viene al refugio: Medicina 3, Frío, y necesita un Callado vivo atado en el sótano. Anotá `EL_DOCTOR_PEREYRA`.
 2. **Seguir.** La luz queda encendida de noche, como un faro. Anotá `LA_LUZ_DE_SAN_ROQUE`: desde la Etapa II, cada alba, si no hay Procesión en Sanidad, poné una. Apagar el generador (◷ 1, o tener `EL_DOCTOR_PEREYRA`) borra la Marca.
 
 ---
@@ -156,4 +152,4 @@ En el segundo piso de la San Roque hay luz blanca de quirófano, y se escucha, b
 ### e234 · La guardia se vació
 *Sanidad · ◷ 0*
 
-Las puertas del hospital se abren y salen todos: los de la guardia, los de las salas, los de la morgue. Cientos. Algo los llamó desde otro barrio, y la salida queda de este lado. → [e100](#e100), con una Procesión **doble**.
+Las puertas del hospital se abren y salen todos, cientos. Algo los llamó desde otro barrio, y la salida queda de este lado. → [e100](#e100), con una Procesión **doble**.

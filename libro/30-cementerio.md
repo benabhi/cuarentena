@@ -1,6 +1,6 @@
 ## Barrio 11 · Cementerio y Parque
 
-*Bóvedas y cipreses, y al lado el Parque Municipal: vivero, zoológico, anfiteatro, lagos. El lugar más verde y más callado de Tolme. Lo que se muere acá, se queda acá.*
+*Bóvedas, cipreses y el Parque Municipal. El lugar más verde y más callado de Tolme.*
 
 <a id="e400"></a>
 ### e400 · Cementerio y Parque: llegar
@@ -26,7 +26,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e401 · El cementerio
 *Cementerio y Parque · Vivienda · stock ▢▢*
 
-Bóvedas con apellidos en bronce, ángeles de mármol. Algunas puertas están forzadas: alguien se escondió adentro y no salió. Los muertos viejos no se levantan. Solo los nuevos.
+Algunas bóvedas están forzadas: alguien se escondió adentro y no salió. Los muertos viejos no se levantan. Solo los nuevos.
 
 - **Revisar** (r161). Un 3 son velas y fósforos: 1 Combustible.
 - **El sereno,** un viejo con farol que cuida el lugar hace cuarenta años. Si traés a alguien del grupo que murió (◷ 2), el entierro vale +2 Moral en lugar de +1 (r182). Anotá `EL_SERENO`.
@@ -38,8 +38,6 @@ Bóvedas con apellidos en bronce, ángeles de mármol. Algunas puertas están fo
 ### e402 · El vivero municipal
 *Cementerio y Parque · Almacén · stock ▢▢▢*
 
-Invernaderos, bolsas de tierra, un tractorcito y un depósito de semillas.
-
 - **Revisar** (r161) con esta tabla: 1–2 nada; 3–4 plantines (1 Víver y +1 a la Huerta esa noche); 5 semillas para la Huerta ([e752](#e752)); 6 una pala (Daño 1, Cerca, Usos 6) o un hacha (Daño 2, Usos 6, 2 manos).
 - **El depósito de semillas** (◷ 1, una vez): la Huerta produce +1 siempre. Anotá `SEMILLAS_DEL_VIVERO`.
 
@@ -49,7 +47,7 @@ Invernaderos, bolsas de tierra, un tractorcito y un depósito de semillas.
 ### e403 · El zoológico
 *Cementerio y Parque · Almacén · stock ▢▢*
 
-Jaulas abiertas, animales muertos de hambre y un cartel: «LOS ANIMALES TAMBIÉN TIENEN DERECHOS». En el foso de los osos, algo se mueve.
+Jaulas abiertas. En el foso de los osos, algo se mueve.
 
 - **Revisar** (r161) la cocina de los animales; un 1 es [e414](#e414).
 - **La veterinaria** (◷ 1): 2 Fármacos y, con 4–6 en 1d6, 1 Antiviral veterinario (funciona igual, sabe a remedio de caballo).
@@ -61,7 +59,7 @@ Jaulas abiertas, animales muertos de hambre y un cartel: «LOS ANIMALES TAMBIÉN
 ### e404 · El anfiteatro
 *Cementerio y Parque · Comercio · stock ▢*
 
-Gradas para tres mil personas y un escenario de chapa. El último recital fue el sábado antes del brote; quedaron los equipos.
+Gradas para tres mil personas. El último recital fue antes del brote; quedaron los equipos.
 
 - **Revisar** (r161).
 - **El equipo de sonido,** una vez: grupo electrógeno, 2 Combustible y `[Mecánica]`. El ruido más grande de la ciudad: todas las Procesiones vienen (r156) y se quedan 1d6 días, salvo que antes salga una carta de Espadas. Anotá `EL_RECITAL`. Los parlantes se queman.
@@ -73,7 +71,7 @@ Gradas para tres mil personas y un escenario de chapa. El último recital fue el
 ### e410 · El entierro
 *Cementerio y Parque · ◷ 0*
 
-Seis personas, una pala y un cajón hecho con puertas. Rezan bajito. Uno levanta la mano: «Esperá. Terminamos y te atendemos».
+Seis personas y un cajón hecho con puertas. Uno levanta la mano: «Esperá. Terminamos y te atendemos».
 
 Si esperás con la gorra en la mano (◷ 1), te dan 1 Víver y te cuentan que vienen de Los Bloques. r300, con Hablar y +2.
 
@@ -83,7 +81,7 @@ Si esperás con la gorra en la mano (◷ 1), te dan 1 Víver y te cuentan que vi
 ### e411 · El lago
 *Cementerio y Parque · ◷ 0*
 
-Botes atados al muelle y patos vivos, gordos. Nadie los molestó en semanas.
+Patos vivos, gordos. Nadie los molestó en semanas.
 
 - **Cazar patos** con Gomera, Arco o Ballesta, `[Puntería]`, ◷ 1: 3, 2 o 0 Víveres. Con la trampa para palomas ([e748](#e748)), 2 sin prueba. Los patos aprenden: tres veces en total (▢▢▢).
 - **Agua:** con Hervir agua, 2 Víveres (◷ 1), tres veces (▢▢▢).
@@ -117,7 +115,7 @@ Un rugido de animal grande. Algo salió del zoológico. 1d6:
 ### e414 · El foso de los osos
 *Cementerio y Parque · Zoológico · ◷ 0*
 
-Un oso vivo, con las costillas marcadas, sentado junto a tres Callados que cayeron al foso. Los despedazó. Te mira.
+Un oso flaco junto a tres Callados despedazados. Te mira.
 
 1. **Darle de comer** (2 Víveres). Si lo hacés tres visitas, anotá `EL_OSO`: cuida el zoológico, y revisarlo ya no tiene encuentros.
 2. **Abrir la reja.** Se va al parque. +1 Ánimo y anotá `EL_OSO_LIBRE`: cada 12 en la tabla del barrio, aparece y se come a los Callados que haya.

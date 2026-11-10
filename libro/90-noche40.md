@@ -1,6 +1,6 @@
 # La Noche 40
 
-*Cuarenta días. Hoy no hay alba que robar. Hoy la Señora no dice cuántos días faltan. Hoy, a la caída del sol, desde el norte, el sonido cambia.*
+*Hoy no hay alba que robar. Hoy la Señora no dice cuántos días faltan. Hoy, desde el norte, el sonido cambia.*
 
 ---
 
@@ -8,7 +8,7 @@
 ### e900 · La Noche 40
 *Tu refugio · ◷ noche*
 
-A las siete de la tarde se calla todo: los perros, el viento, hasta la Señora en la AM 870, en el medio de una frase. Después, desde el norte, metal que se dobla y cae. El muro. A las ocho, el primero aparece en la esquina. Detrás de él, la calle entera.
+A las siete se calla todo, hasta la Señora, en el medio de una frase. Desde el norte, metal que se dobla y cae: el muro. A las ocho, el primero aparece en la esquina. Detrás, la calle entera.
 
 **Antes de la primera oleada:**
 
@@ -16,33 +16,11 @@ A las siete de la tarde se calla todo: los perros, el viento, hasta la Señora e
 2. **Calculá las oleadas** (r221): 3 + (Rastro ÷ 3).
 3. **Revisá tu hoja** y aplicá todo lo que tengas de esta lista:
 
-| Si tenés… | Efecto |
-|---|---|
-| `EL_MURO_CEDIO` | La primera oleada, +2 de Fuerza |
-| `REFORZASTE_EL_MURO` | La primera oleada, −2 de Fuerza |
-| `TRABAJASTE_EN_EL_MURO` | La primera oleada, −2 de Fuerza |
-| `ESCUCHASTE_LA_MAREA` | Cada defensor, +1 en la primera oleada |
-| `RAMPA_DESTRUIDA` (con `LA_RAMPA`) | 1 oleada menos |
-| `CONOCES_EL_CAMINO` y un Señuelo grande encendido en otro barrio (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO`, `LA_SIRENA`) | 1 oleada menos |
-| `PASTOR_MUERTO` | 2 oleadas menos ([e585](#e585)) |
-| `DESTACAMENTO_DISUELTO` | 1 oleada más |
-| `SABES_POR_DONDE` | La primera oleada no viene por el frente que elijas |
-| `LOS_PLANOS_DEL_MURO` (con `EL_MURO_CEDIO`) | La primera oleada no elige el frente más débil: un 6 se vuelve a tirar |
-| `ESCALERA_CORTADA` (Edificio Sarmiento) | La primera brecha no llega al grupo ([e491](#e491)) |
-| `CERCO_ELECTRICO` | Ese frente, +3 en cada oleada (1 Combustible por oleada) ([e512](#e512)) |
-| `AMETRALLADORA_EN_` un frente | Ese frente, +4 en cada oleada (6 Munición por oleada) ([e523](#e523)) |
-| `EL_BLINDADO` | +3 Resistencia a la Puerta o las Ventanas, o una carga ([e552](#e552)) |
-| `LA_AUTOBOMBA` | Una vez, +3 a la defensa de la Puerta ([e481](#e481)) |
-| `DIENTES_EN_LAS_TRAMPAS` | Las Tablas de clavos y los Fosos de estacas valen +1 |
-| `DESAGUE_TAPADO` | El Subsuelo pierde 1 Resistencia menos en cada oleada que lo golpee |
-| Escuela N.º 9 sin `PUERTAS_TAPIADAS` | La Puerta, −2 en cada oleada que la golpee ([e471](#e471)) |
-| `LOS_DE_LA_CUADRA` | Si siguen vivos, +2 a la defensa de la Puerta en todas las oleadas |
-| `LOS_DEL_SIETE` | Con 4–6 en 1d6, +1 a la defensa de las Ventanas en todas las oleadas ([e493](#e493)) |
-| `EL_PASTOR_SABE`, con el Pastor vivo | La primera oleada va al frente más débil |
-| `GIMNASIO_QUEMADO` | Esta noche, los Cobardes del grupo no huyen |
-| La maña *La puerta* (r102) | Si defendés la Puerta, tu prueba tiene +2 |
-| `LO_DEJASTE_ADENTRO`, si tu refugio queda en ese barrio | En la tercera oleada, tres golpes despacio en la puerta del Último Cuarto: −1 Ánimo ([e846](#e846)) |
-| `MIEDO` | Mientras tu Ánimo sea 3 o menos, tu prueba en un frente tiene Desventaja (r105) |
+- **Oleadas:** 1 menos con `RAMPA_DESTRUIDA` (y `LA_RAMPA`); 1 menos con `CONOCES_EL_CAMINO` y un Señuelo grande encendido en otro barrio (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO`, `LA_SIRENA`); 2 menos con `PASTOR_MUERTO` ([e585](#e585)); 1 más con `DESTACAMENTO_DISUELTO`.
+- **La primera oleada:** +2 de Fuerza con `EL_MURO_CEDIO`; −2 con `REFORZASTE_EL_MURO` o con `TRABAJASTE_EN_EL_MURO`; cada defensor +1 con `ESCUCHASTE_LA_MAREA`; no viene por el frente que elijas con `SABES_POR_DONDE`; con `LOS_PLANOS_DEL_MURO` (y `EL_MURO_CEDIO`) no elige el frente más débil: un 6 se vuelve a tirar; con `EL_PASTOR_SABE` y el Pastor vivo, va al frente más débil. Con `ESCALERA_CORTADA` (Sarmiento), la primera brecha no llega al grupo ([e491](#e491)).
+- **Cada oleada:** +3 a un frente con `CERCO_ELECTRICO` (1 Combustible por oleada, [e512](#e512)); +4 con `AMETRALLADORA_EN_` un frente (6 Munición por oleada, [e523](#e523)); +2 a la Puerta con `LOS_DE_LA_CUADRA`, si siguen vivos; +1 a las Ventanas con `LOS_DEL_SIETE`, con 4–6 en 1d6 ([e493](#e493)); la Puerta −2 en la Escuela N.º 9 sin `PUERTAS_TAPIADAS` ([e471](#e471)); el Subsuelo pierde 1 Resistencia menos con `DESAGUE_TAPADO`; Tablas de clavos y Fosos de estacas valen +1 con `DIENTES_EN_LAS_TRAMPAS`.
+- **Una vez:** `EL_BLINDADO` da +3 Resistencia a la Puerta o las Ventanas, o una carga ([e552](#e552)); `LA_AUTOBOMBA`, +3 a la defensa de la Puerta ([e481](#e481)).
+- **Vos y los tuyos:** con *La puerta* (r102), +2 si defendés la Puerta; con `MIEDO`, Desventaja en un frente mientras tu Ánimo sea 3 o menos (r105); con `GIMNASIO_QUEMADO`, los Cobardes no huyen; con `LO_DEJASTE_ADENTRO` y tu refugio en ese barrio, en la tercera oleada tres golpes despacio en el Último Cuarto: −1 Ánimo ([e846](#e846)).
 
 4. **Los sobrevivientes con algo para la Noche 40** (lo dice su ficha, e600–e653): leelo ahora. El Ruso con el taxi, Hernán y Celeste van antes de la primera oleada ([e638](#e638), [e641](#e641), [e635](#e635)).
 5. **Los aliados** → [e905](#e905).
@@ -77,7 +55,7 @@ Con 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tirá 
 ### e905 · Los que vienen a ayudar
 *La Noche 40 · Aliados*
 
-En el medio del ruido, otro ruido: una sirena, una campana, motores, tiros que no son tuyos. Una facción viene si cumple **una** de estas:
+Una facción viene si cumple **una** de estas:
 
 - **Reputación +3** con vos.
 - **`EL_PACTO`** ([e664](#e664)) y Reputación +1 o más. Sin Reputación +3, tirá 1d6: con 1–3 llega después de la segunda oleada.
@@ -92,7 +70,7 @@ En el medio del ruido, otro ruido: una sirena, una campana, motores, tiros que n
 | **Los Lobos** | Dos camionetas con ametralladoras: +4 al frente que elijas en todas las oleadas. Al amanecer cobran la mitad de tus Víveres y materiales, o un Tesoro. Si no pagás, −3 Reputación y el epílogo tiene una deuda |
 | **El Destacamento** | Están en el muro, y el muro aguanta más: **1 oleada menos**. Con `OCAMPO_DE_TU_LADO`, además, un jeep con dos soldados: +2 a un frente |
 
-**Sin aliados:** la Noche 40 es tuya y de los tuyos. Como siempre.
+**Sin aliados,** la Noche 40 es tuya y de los tuyos.
 
 ---
 
@@ -100,7 +78,7 @@ En el medio del ruido, otro ruido: una sirena, una campana, motores, tiros que n
 ### e906 · Tu historia en la Noche 40
 *La Noche 40 · Tu Motivo*
 
-La Marea no sabe quién sos. La noche, sí. Tu escena llega en este momento y cambia según tu contador (r198):
+Tu escena llega en este momento y cambia según tu contador (r198):
 
 | Motivo | Cuándo | Qué pasa |
 |---|---|---|
@@ -117,9 +95,7 @@ La Marea no sabe quién sos. La noche, sí. Tu escena llega en este momento y ca
 ### e910 · Después de la segunda oleada
 *La Noche 40 · ◷ 0*
 
-Una calma. Siguen ahí, del otro lado de las tablas, empujando sin ruido. Alguien pregunta qué hora es. Las diez y cuarto. Faltan ocho horas para el sol.
-
-**Primero**, la pausa (r224), con las habilidades «entre oleadas» de los sobrevivientes. **Después**, tirá 1d6:
+Una calma. Faltan ocho horas para el sol. **Primero**, la pausa (r224), con las habilidades «entre oleadas» de los sobrevivientes. **Después**, tirá 1d6:
 
 | 1d6 | Lo que pasa |
 |---|---|
@@ -138,7 +114,7 @@ Si la Moral llega a 0 esta noche, no hay crisis (e080): hay desbande. Tirá 1d6 
 ### e912 · La hora más oscura
 *La Noche 40 · ◷ 0*
 
-Las tres de la mañana. Se oye la ciudad entera. Contra la Puerta, uno golpea con la palma abierta, despacio, como pidiendo permiso: alguien que se fue del grupo (si tenés algún `PERDIDO_`, es esa persona). −1 Ánimo.
+Las tres de la mañana. Contra la Puerta, uno golpea con la palma abierta, despacio, como pidiendo permiso: alguien que se fue del grupo (si tenés algún `PERDIDO_`, es esa persona). −1 Ánimo.
 
 **Primero**, la pausa (r224). **Después**, elegí una:
 
@@ -154,7 +130,7 @@ Las tres de la mañana. Se oye la ciudad entera. Contra la Puerta, uno golpea co
 ### e920 · Brecha
 *La Noche 40 · ◷ 0*
 
-El frente cede. Madera, metal, y después el ruido que no hacen: entran sin gritar, empujados por los de atrás. Elegí una:
+El frente cede. Entran sin gritar, empujados por los de atrás. Elegí una:
 
 1. **Pelear en la brecha.** Los defensores de ese frente combaten contra **Callados ×(lo que faltó × 2) · Cerca**, escena Pasillo. Pueden venir los de otros frentes (que quedan vacíos en la próxima oleada). Si ganan, el frente vuelve a Resistencia 1. Si no, opción 3 con 1 Herida cada uno.
 2. **Tapar el hueco.** 2 Madera o 2 Metal (o la heladera) y `[Oficio]` o `[Físico]`. Con 10+, Resistencia 3. Con 7–9, 1. Con 6−, opción 3, y quien lo intentó tira en Mordidas (r144).
@@ -172,7 +148,7 @@ Si el Último Cuarto cae → [e925](#e925).
 ### e925 · La última puerta
 *La Noche 40 · Último Cuarto · ◷ 0*
 
-Las bisagras saltan una por una. Por la rendija, dedos, y una cara de ojos blancos pegada a la madera. No hay más cuartos. Elegí la última:
+Las bisagras saltan una por una. No hay más cuartos. Elegí la última:
 
 1. **Pelear hasta el final.** **Callados ×3d6 · Encima**, sin retroceder. Si ganás, el cuarto sigue en pie con Resistencia 0: si quedan oleadas, la próxima te encuentra; si no, → [e930](#e930).
 2. **Por el techo.** Con una ventana alta o un ducto: `[Físico]`. Con 10+, salís vos y uno más y esperan el amanecer arriba; los demás sobreviven con 5–6 en 1d6 → [e930](#e930). Con 6−, → [e990](#e990).
@@ -184,7 +160,7 @@ Las bisagras saltan una por una. Por la rendija, dedos, y una cara de ojos blanc
 ### e930 · El amanecer
 *Día 41 · ◷ 0*
 
-El cielo se pone gris del lado del río, después naranja. Las calles siguen llenas, pero ya no empujan. El sol entra por las rendijas de las tablas y te da en la cara. Estás vivo.
+El cielo se pone gris del lado del río, después naranja. Las calles siguen llenas, pero ya no empujan. Estás vivo.
 
 **El día 41**, en este orden:
 
@@ -222,7 +198,7 @@ Después, tu epílogo (r198: [e950](#e950)–[e953](#e953), [e956](#e956) o [e95
 ### e941 · Solo
 *El final*
 
-Caminás entre los Callados quietos por el medio de la avenida y ninguno te mira: sos el único ruido que queda. Te sentás en el cordón de tu esquina a ver subir el sol. Cuarenta y un días, y nadie a quien contárselo. Quizás mañana alguien, en otra azotea, prenda una luz y la apague tres veces.
+Caminás entre los Callados quietos y ninguno te mira. Te sentás en el cordón de tu esquina a ver subir el sol. Cuarenta y un días, y nadie a quien contárselo. Quizás mañana alguien, en otra azotea, prenda una luz y la apague tres veces.
 
 ---
 
@@ -230,7 +206,7 @@ Caminás entre los Callados quietos por el medio de la avenida y ninguno te mira
 ### e942 · Unos pocos
 *El final*
 
-Salen entornando los ojos, con ropa manchada de sangre ajena. Alguien se ríe, una risa que se rompe, y se abrazan en el medio de la calle. Los otros van a faltar siempre. Pero unos pocos alcanzan para empezar.
+Salen entornando los ojos. Alguien se ríe, una risa que se rompe, y se abrazan en el medio de la calle. Los otros van a faltar siempre. Pero unos pocos alcanzan para empezar.
 
 ---
 
@@ -238,7 +214,7 @@ Salen entornando los ojos, con ropa manchada de sangre ajena. Alguien se ríe, u
 ### e943 · El grupo
 *El final*
 
-La Puerta está trabada con cuerpos: salen por el Techo, pasándose a los chicos de mano en mano. Arriba son más de los que pensabas, y desde otras azoteas los saludan. Tolme fue cuarenta días una ciudad de gente encerrada; hoy se saluda de techo a techo. Alguien propone un asado. Nadie dice que no.
+La Puerta está trabada con cuerpos: salen por el Techo, pasándose a los chicos de mano en mano. Desde otras azoteas los saludan: Tolme se saluda de techo a techo. Alguien propone un asado. Nadie dice que no.
 
 ---
 
@@ -246,7 +222,7 @@ La Puerta está trabada con cuerpos: salen por el Techo, pasándose a los chicos
 ### e944 · La cura
 *El final · con `LA_CURA`*
 
-Seis ampollas de L-40, sangre de alguien que no se enferma y tres días sin dormir en una cocina. No devuelve a nadie, pero en los recién mordidos apaga la Fiebre. Leé esto **además** de tu final: en tu epílogo, el mundo viene a buscarla, y vos ponés las condiciones.
+Sangre de alguien que no se enferma y tres días sin dormir en una cocina. No devuelve a nadie, pero en los recién mordidos apaga la Fiebre. Leé esto **además** de tu final: en tu epílogo, el mundo viene a buscarla, y vos ponés las condiciones.
 
 ---
 
@@ -274,7 +250,7 @@ Pudiste irte y te quedaste con los que no podían: los de fiebre, el que no iba 
 ### e947 · Ceniza
 *El final · Secreto 2*
 
-El fuego rugió sobre tu cabeza del mediodía a la noche. Cuando salís, todo es gris, y no queda nadie de pie salvo ustedes. Caminan hacia el norte por el muro abierto. Nadie sabe que existen, y eso es una ventaja. Leé esto **además** de tu final.
+Cuando salís, todo es gris y no queda nadie de pie salvo ustedes. Caminan hacia el norte por el muro abierto. Nadie sabe que existen, y eso es una ventaja. Leé esto **además** de tu final.
 
 ---
 
@@ -421,7 +397,7 @@ Por cada Marca tuya de esta lista, leé su línea. Si no tenés ninguna, Tolme n
 ### e960 · Las salidas
 *Éxodo · ◷ 0*
 
-El muro rodea Tolme por tres lados. Al sur está el río, con lanchas militares de noche, y el muro termina en una escollera: la grieta de la ciudad. En el **modo Éxodo** (r210), ganás si cruzás **antes de la Noche 40** con al menos un sobreviviente. Con el Secreto 2 ([e582](#e582)), estas salidas se abren en cualquier modo.
+El muro rodea Tolme por tres lados; al sur, el río y una escollera. En el **modo Éxodo** (r210), ganás si cruzás **antes de la Noche 40** con al menos un sobreviviente. Con el Secreto 2 ([e582](#e582)), estas salidas se abren en cualquier modo.
 
 | Salida | Qué hace falta | Cuántos | Prueba al salir |
 |---|---|---|---|
@@ -444,7 +420,7 @@ El muro rodea Tolme por tres lados. Al sur está el río, con lanchas militares 
 ### e961 · Del otro lado
 *Éxodo · El final*
 
-El agua está fría. Las luces de Tolme se hacen chicas detrás. Nadie habla. Del otro lado, una costa, una ruta, una casa con una luz. Lo lograron.
+Las luces de Tolme se hacen chicas detrás. Del otro lado, una casa con una luz. Lo lograron.
 
 Contá a los que cruzaron y leé **Solo** ([e941](#e941)), **Unos pocos** ([e942](#e942)) o **El grupo** ([e943](#e943)). Abrí el Secreto ([e570](#e570)) y leé solo **La verdad**: el día 41 lo vas a escuchar por la radio en algún pueblo, y vas a apagarla. Después, tu epílogo (r198) y lo que Tolme recuerda ([e955](#e955)).
 
@@ -456,7 +432,7 @@ Contá a los que cruzaron y leé **Solo** ([e941](#e941)), **Unos pocos** ([e942
 ### e990 · La muerte
 *El final*
 
-No duele tanto como pensabas. Lo último que ves es lo que tengas más cerca: una cara, una pared que hiciste, la mancha de humedad del techo con forma de mapa. Lo último que escuchás es tu corazón.
+No duele tanto como pensabas. Lo último que ves es lo que tengas más cerca: una cara, una pared que hiciste.
 
 **Tu partida terminó.**
 
@@ -470,7 +446,7 @@ No duele tanto como pensabas. Lo último que ves es lo que tengas más cerca: un
 ### e991 · La conversión
 *El final*
 
-La Fiebre llega a seis a la madrugada. Primero el calor, después el frío, después un silencio que se extiende como la ciudad cuando se apagan las luces. Si alguien está con vos, toma la última decisión. Si no, caminás hasta la puerta y te quedás ahí, con la frente apoyada en la madera, escuchando.
+La Fiebre llega a seis a la madrugada. Primero el calor, después el frío, después el silencio. Si alguien está con vos, toma la última decisión. Si no, caminás hasta la puerta y te quedás ahí, con la frente apoyada en la madera, escuchando.
 
 **Tu partida terminó.**
 

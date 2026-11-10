@@ -1,6 +1,6 @@
 ## Barrio 1 · El Casco
 
-*El centro viejo: calles angostas, balcones de hierro, la Catedral, la Municipalidad y los bancos. Desde las azoteas se llega a casi todos lados. Desde la calle, a casi ninguno.*
+*Calles angostas y balcones de hierro. Desde las azoteas se llega a casi todos lados. Desde la calle, a casi ninguno.*
 
 <a id="e200"></a>
 ### e200 · El Casco: llegar
@@ -27,7 +27,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e201 · La Catedral
 *El Casco · La Parroquia · sin stock*
 
-Puertas encadenadas por dentro, sacos de arena hasta media altura y un cartel pintado a mano: AQUÍ HAY LUGAR PARA TODOS. SIN ARMAS. Desde el campanario, alguien te mira con binoculares. Es la casa de **la Parroquia**.
+Sacos de arena y un cartel: AQUÍ HAY LUGAR PARA TODOS. SIN ARMAS. Es la casa de **la Parroquia**.
 
 - **Golpear y entrar** (las armas de fuego quedan en la puerta) → [e660](#e660).
 - **Con `LA_ASAMBLEA_HOY`** → [e664](#e664).
@@ -38,7 +38,7 @@ Puertas encadenadas por dentro, sacos de arena hasta media altura y un cartel pi
 ### e202 · La Farmacia Central
 *El Casco · Farmacia · stock ▢▢▢*
 
-Alguien levantó los postigos con un gato hidráulico y los dejó a medio metro del suelo. Adentro hay luz de velas.
+Los postigos, levantados a medio metro del suelo. Adentro hay luz de velas.
 
 **Tesoro:** si el Botiquín de la cuarentena está acá (r110) → [e530](#e530).
 
@@ -52,7 +52,7 @@ Alguien levantó los postigos con un gato hidráulico y los dejó a medio metro 
 ### e203 · La Municipalidad
 *El Casco · Oficina · stock ▢▢▢*
 
-Columnas, la bandera arriba, sucia y quieta, y en las escalinatas una barricada de escritorios que no alcanzó.
+En las escalinatas, una barricada de escritorios que no alcanzó.
 
 - **Revisar** (r161).
 - **El archivo de obras públicas** (◷ 1): licitaciones, planos, contratos. Si tu Motivo es La obra → [e811](#e811). Si no, con `[Calle]` 10+, los planos del subte: anotá `MAPA_DEL_SUBSUELO`.
@@ -64,7 +64,7 @@ Columnas, la bandera arriba, sucia y quieta, y en las escalinatas una barricada 
 ### e204 · La Comisaría 1.ª
 *El Casco · Policía · stock ▢▢*
 
-Las rejas abiertas, y el olor. En las celdas del fondo, cerradas con llave, seis u ocho se tiran contra los barrotes cuando entrás. No te pueden alcanzar.
+En las celdas del fondo, seis u ocho se tiran contra los barrotes. No te pueden alcanzar.
 
 **Tesoro:** si la Armería del cordón está acá (r110) → [e520](#e520).
 
@@ -78,12 +78,12 @@ Las rejas abiertas, y el olor. En las celdas del fondo, cerradas con llave, seis
 ### e205 · La Galería Pasaje Real
 *El Casco · Comercio · stock ▢▢▢*
 
-Una galería de los sesenta, con piso de mosaico y persianas bajas. Solo la cerrajería del fondo está abierta de par en par.
+Persianas bajas; solo la cerrajería del fondo está abierta.
 
 **Tesoro:** si la Radio del aficionado está acá (r110) → [e540](#e540).
 
 - **Revisar** (r161).
-- **La cerrajería:** un hombre gordo y pelado, sentado con un manojo de llaves en cada mano y la mirada perdida. Está vivo. Es Pocho → [e612](#e612).
+- **La cerrajería:** un hombre gordo con un manojo de llaves en cada mano. Es Pocho → [e612](#e612).
 - **La casa de electrónica,** con candado: Palanca u `[Oficio]`, +1 Ruido. 2 Electrónica y, con 5–6 en 1d6, una radio a pilas.
 
 ---
@@ -92,7 +92,7 @@ Una galería de los sesenta, con piso de mosaico y persianas bajas. Solo la cerr
 ### e206 · El Hotel Imperio
 *El Casco · Vivienda · stock ▢▢▢▢*
 
-En el lobby, un piano de cola cubierto de polvo y una araña de cristal caída. El ascensor está trabado entre dos pisos, con algo adentro que golpea.
+Un piano de cola cubierto de polvo y un ascensor trabado con algo adentro que golpea.
 
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
@@ -118,9 +118,7 @@ Detrás del vidrio blindado, un hombre de traje te hace señas desesperadas: que
 ### e210 · El organillero
 *El Casco · ◷ 0*
 
-En la peatonal, un hombre mayor toca un tango en el acordeón. A diez metros, un círculo de Callados quietos lo escucha.
-
-—Mientras toco, no me hacen nada. Hace cuatro días que toco. No puedo parar.
+Un hombre mayor toca un tango en el acordeón, y un círculo de Callados quietos lo escucha. «Hace cuatro días que toco. No puedo parar».
 
 1. **Ayudarlo:** **Callados ×2d6 · Lejos**, que no avanzan mientras suene la música (los disparos los despiertan). Si los matás a todos, se une: sin Habilidad fuerte, Optimista, y toca una noche por semana: +1 Moral y +1 Rastro. Anotá `EL_ORGANILLERO`.
 2. **Dejarle 1 Víver.** Te sonríe sin dejar de tocar.
@@ -144,7 +142,7 @@ En un balcón, una sábana: SOMOS 3. NO TENEMOS AGUA. Enfrente, una mujer se lle
 ### e212 · La ambulancia 12
 *El Casco · ◷ 0*
 
-Cruzada en la plaza, con las puertas de atrás abiertas y las luces girando con la última batería. Una camilla vacía con las correas rotas.
+Cruzada en la plaza, con las luces girando con la última batería.
 
 - **Revisarla:** dos tiradas de Hospital (r162); un 1 es nada.
 - **Con `LLAVES_DE_LA_AMBULANCIA`** (o *Puente*), arranca: 2 Combustible, 12 casilleros y una sirena que, una vez, lleva hacia ella todas las Procesiones del mapa (r156). Anotá `AMBULANCIA_12`.
@@ -156,7 +154,7 @@ Cruzada en la plaza, con las puertas de atrás abiertas y las luces girando con 
 ### e213 · La plaza de los zapatos
 *El Casco · ◷ 0*
 
-La plaza está llena de zapatos, cientos, de todos los tamaños: por donde pasa una Procesión quedan los zapatos. Junto a la fuente seca, una Procesión **dormida**, de pie. Si no había ficha en el Casco, ponela.
+La plaza está llena de zapatos: por donde pasa una Procesión quedan los zapatos. Junto a la fuente seca, una Procesión **dormida**, de pie. Si no había ficha en el Casco, ponela.
 
 1. **Cruzar entre ellos.** `[Sigilo]`. Con 7–9, uno te sigue (**Callados ×1 · Cerca**). Con 6−, → [e100](#e100).
 2. **Rodear por las Azoteas.** ◷ 2.
@@ -168,9 +166,7 @@ La plaza está llena de zapatos, cientos, de todos los tamaños: por donde pasa 
 ### e214 · Adentro de la farmacia
 *El Casco · Farmacia Central · ◷ 1*
 
-Detrás del mostrador, entre blísters vacíos, un chico de veinte años con guardapolvo, una vela y un revólver que le tiembla.
-
-—Esto es mío. Me lo dejó el dueño. Me dijo que lo cuide.
+Un chico de veinte años con guardapolvo y un revólver que le tiembla. «Esto es mío. Me dijo el dueño que lo cuide».
 
 1. **Hablarle** `[Labia]`. Con 10+, te deja revisar (r161) por 2 Víveres. Con 7–9, una revisión rápida. Con 6−, dispara y falla (+3 Ruido) y se encierra: podés revisar, pero a fondo, con 1 en 1d6, sale y dispara (1 Herida).
 2. **Ofrecerle refugio.** `[Labia]` con Ventaja. Con 7+, viene con lo que le queda: tres tiradas de Farmacia sin tiempo ni stock. Es Matías: Medicina 2, Cobarde. Anotá `MATIAS_EL_FARMACEUTICO`.
@@ -184,7 +180,7 @@ Si tu Motivo es La lista, preguntale por la heladera de insulina → [e803](#e80
 ### e217 · La bóveda abierta
 *El Casco · Banco Provincia · ◷ 2*
 
-La puerta de la bóveda, doblada hacia afuera. Billetes por el piso que nadie se llevó, y tres cuerpos: dos con chalecos de seguridad privada, uno con mameluco. No buscaban billetes: en el fondo hay una caja más grande, cerrada, con el sello del Comando.
+Billetes que nadie se llevó y tres cuerpos con chalecos de seguridad privada. No buscaban billetes: en el fondo hay una caja cerrada con el sello del Comando.
 
 - **Abrirla** `[Mecánica]` u `[Oficio]` (+1 con Taladro o Soldadora). Con 10+, 4 Antivirales, 2 Botiquines y una carpeta: «PROTOCOLO 40». Una pista ([e560](#e560)) y anotá `PROTOCOLO_40`. Con 7–9, los Antivirales y la carpeta. Con 6−, el ruido trae **Callados ×1d6 · Cerca**, escena Pasillo; podés reintentar.
 - **Los cuerpos:** un revólver con 2 Munición, una Linterna y un handy de una empresa de seguridad de Las Lomas. Anotá `HANDY_DE_LOS_LOBOS`: en Las Lomas, escuchás lo que hablan ([e680](#e680)).

@@ -203,6 +203,11 @@ def leer_baraja(ev):
         filas = {}
         for m in re.finditer(r'^\| (\d) \| \[(e\d{3})\]\(#e\d{3}\) \| \[(e\d{3})\]', ev[e], re.M):
             filas[int(m.group(1))] = (m.group(2), m.group(3))
+        if not filas:  # formato en línea: *Leve (1–3):* **1** [e021](#e021) · ...
+            lev = re.search(r'\*Leve[^*]*\*([^\n]*)', ev[e]); fue = re.search(r'\*Fuerte[^*]*\*([^\n]*)', ev[e])
+            pl = dict((int(a), b) for a, b in re.findall(r'\*\*(\d)\*\* \[(e\d{3})\]', lev.group(1)))
+            pf = dict((int(a), b) for a, b in re.findall(r'\*\*(\d)\*\* \[(e\d{3})\]', fue.group(1)))
+            filas = {k: (pl[k], pf[k]) for k in pl}
         tab[palo] = filas
     return tab
 

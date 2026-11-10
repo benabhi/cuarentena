@@ -3,14 +3,7 @@
 <a id="r300"></a>
 ### r300 · Cuando te cruzás con vivos
 
-Cuando un evento dice **«Vivos: usá r300»**, te cruzaste con gente que no conocés: un grupo de saqueadores, una familia, un vecino armado. Antes de tirar, elegí tu **postura**:
-
-- **Hablar:** te mostrás con las manos a la vista.
-- **Esquivar:** intentás que no te vean o irte antes.
-- **Pelear:** atacás primero.
-- **Observar:** te quedás mirando desde donde estás, a ver qué son.
-
-Tirá 1d6 y andá a la plantilla que indique la tabla. El evento puede decirte quiénes son (Lobos, Bomberos, una familia); si no lo dice, son **desconocidos**.
+Cuando un evento dice **«Vivos: usá r300»**, te cruzaste con gente que no conocés. Antes de tirar, elegí tu **postura**: **Hablar** (las manos a la vista), **Esquivar** (que no te vean), **Pelear** (atacás primero) u **Observar** (mirás qué son). Tirá 1d6 en su columna. Si el evento no dice quiénes son, son **desconocidos**.
 
 | 1d6 | Hablar | Esquivar | Pelear | Observar |
 |---|---|---|---|---|
@@ -26,12 +19,12 @@ Si son de una facción, sumá tu Reputación con ella a la tirada de Hablar (mí
 <a id="r301"></a>
 ### r301 · Trueque
 
-Tienen cosas y quieren otras. Podés cambiar como en r166, hasta 3 cosas. Si les das algo de comer sin pedir nada, anotá `TRUEQUE_GENEROSO` y +1 Reputación si son de una facción.
+Cambian como en r166, hasta 3 cosas. Si les das algo de comer sin pedir nada, anotá `TRUEQUE_GENEROSO` y +1 Reputación si son de una facción.
 
 <a id="r302"></a>
 ### r302 · Necesitan ayuda
 
-Uno de ellos está herido o mordido. Te piden Fármacos.
+Uno está herido o mordido.
 
 - **Dar 1 Fármacos o curarlo** `[Medicina]`: con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa.
 - **Decirles que está mordido** (si lo está: 1–3 en 1d6): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
@@ -40,44 +33,44 @@ Uno de ellos está herido o mordido. Te piden Fármacos.
 <a id="r303"></a>
 ### r303 · Rumores
 
-Hablan de la ciudad. Tirá 1d6: con 1–3, te dicen dónde está uno de los Seis Tesoros que todavía no encontraste (elegí uno); con 4–5, te dicen dónde hay una Procesión que no estaba en el mapa (tirá en r155 y poné la ficha); con 6, te cuentan algo raro de la cuarentena: una pista ([e560](#e560)).
+1d6: con 1–3, dónde está un Tesoro que no encontraste; con 4–5, una Procesión que no estaba en el mapa (r155); con 6, algo raro de la cuarentena: una pista ([e560](#e560)).
 
 <a id="r304"></a>
 ### r304 · Quieren venir con vos
 
-Son uno o dos, y no tienen a dónde ir. Tirá en la tabla de sobrevivientes (r180): ese es uno de ellos. Si lo aceptás, se une. Si no, anotá `RECHAZASTE_` y su nombre: puede que lo vuelvas a ver.
+No tienen a dónde ir. Tirá en la tabla de sobrevivientes (r180): si lo aceptás, se une. Si no, anotá `RECHAZASTE_` y su nombre: puede que lo vuelvas a ver.
 
 <a id="r305"></a>
 ### r305 · Emboscada
 
-Te estaban esperando. **Vivos ×1d6 · Aguante 2 cada uno · Cerca.** Tirá 1d6: con 1–3, tienen solo armas de mano; con 4–6, uno tiene un arma de fuego (r147). Empiezan ellos: antes de tu primera ronda, tirá una vez en la tabla de Mordidas (r144) como si un Callado estuviera Encima (los vivos no contagian: un 6 es solo 1 Herida, sin segundo dado).
+**Vivos ×1d6 · Aguante 2 cada uno · Cerca;** con 4–6 en 1d6, uno tiene un arma de fuego (r147). Empiezan ellos: antes de tu primera ronda, una tirada de Mordidas (r144), en la que un 6 es solo 1 Herida.
 
 Si ganás, revisá los cuerpos: 1d6 tiradas de botín de Vivienda (r162).
 
 <a id="r306"></a>
 ### r306 · Los ves primero
 
-Son **Vivos ×1d6 · Aguante 2 cada uno · Lejos** y no te vieron. Podés irte sin que te vean, seguirlos hasta su escondite (`[Sigilo]`: con 10+, sabés dónde viven y qué tienen, anotá `ESCONDITE_DE_SAQUEADORES`; con 7–9, lo sabés, pero +1 Ruido; con 6−, te ven → [r305](#r305)) o atacar con ventaja: en tu primera ronda, tu ataque tiene Ventaja.
+**Vivos ×1d6 · Aguante 2 cada uno · Lejos**, y no te vieron. Podés irte, seguirlos hasta su escondite (`[Sigilo]`: con 10+, sabés dónde viven y qué tienen, anotá `ESCONDITE_DE_SAQUEADORES`; con 7–9, lo sabés, pero +1 Ruido; con 6−, te ven → [r305](#r305)) o atacar: tu primera ronda tiene Ventaja.
 
 <a id="r307"></a>
 ### r307 · Pasan de largo
 
-Se van por otra calle. No te vieron, o hicieron como que no. Seguís tu camino.
+Se van por otra calle. No te vieron, o hicieron como que no.
 
 <a id="r308"></a>
 ### r308 · Te siguen
 
-Te vieron y te siguen de lejos. Hasta que vuelvas al refugio, cada vez que llegues a un barrio por la Calle, tirá 1d6: con 1–2, te alcanzan → [r305](#r305). Si llegás al refugio con ellos siguiéndote, el Rastro sube 1 y anotá `NOS_SIGUIERON`. Por las Azoteas o el Subsuelo, los perdés.
+Te siguen de lejos. Hasta que vuelvas al refugio, cada vez que llegues a un barrio por la Calle, tirá 1d6: con 1–2, te alcanzan → [r305](#r305). Si llegás al refugio con ellos siguiéndote, el Rastro sube 1 y anotá `NOS_SIGUIERON`. Por las Azoteas o el Subsuelo, los perdés.
 
 <a id="r309"></a>
 ### r309 · No son lo que parecen
 
-Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos (**Fresco ×1 · Encima**, y los demás huyen); con 4–5, son Callados vestidos con ropa de vivos, sentados en un auto (**Callados ×1d6 · Cerca**); con 6, son chicos jugando a la guerra en un baldío. Te tiran piedras y se van. −1 Ánimo, no sabés bien por qué.
+Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos (**Fresco ×1 · Encima**, y los demás huyen); con 4–5, son Callados vestidos con ropa de vivos, sentados en un auto (**Callados ×1d6 · Cerca**); con 6, son chicos jugando a la guerra: te tiran piedras y se van. −1 Ánimo.
 
 <a id="r310"></a>
 ### r310 · Te apuntan
 
-Tienen un arma de fuego y te apuntan. «Dejá la mochila en el piso.»
+«Dejá la mochila en el piso».
 
 - **Obedecer:** perdés la mitad de lo que llevás (redondeando hacia arriba). Te dejan ir.
 - **Hablar** `[Labia]`: con 10+, bajan el arma y es un Trueque ([r301](#r301)); con 7–9, perdés solo 1 casillero; con 6−, disparan: 1 Herida y [r305](#r305).
@@ -86,7 +79,7 @@ Tienen un arma de fuego y te apuntan. «Dejá la mochila en el piso.»
 <a id="r311"></a>
 ### r311 · Se rinden
 
-Atacaste y no quieren pelea. Tiran las armas. Son **1d6** personas asustadas.
+Tiran las armas: **1d6** personas asustadas.
 
 - **Robarles:** 1d6 tiradas de botín de Vivienda (r162). −1 Ánimo. Si tu Motivo es La orden, −1 Deber; si es Lo que hiciste, +1 Culpa.
 - **Dejarlos ir.** Si son de una facción, +1 Reputación.
@@ -100,7 +93,7 @@ Atacaste y no quieren pelea. Tiran las armas. Son **1d6** personas asustadas.
 <a id="r313"></a>
 ### r313 · La trampa de ellos
 
-Lo que observás es un cebo: un auto con la puerta abierta, una bolsa de comida en la vereda. Si te acercás, `[Calle]`: con 10+, ves el alambre a tiempo y te llevás la bolsa (2 Víveres); con 7–9, te llevás la bolsa y suena una lata: +2 Ruido; con 6−, caés en la trampa: 1 Herida y [r305](#r305).
+Un cebo: una bolsa de comida en la vereda. Si te acercás, `[Calle]`: con 10+, ves el alambre a tiempo y te llevás la bolsa (2 Víveres); con 7–9, te llevás la bolsa y suena una lata: +2 Ruido; con 6−, caés en la trampa: 1 Herida y [r305](#r305).
 
 ---
 

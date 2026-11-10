@@ -29,7 +29,7 @@
 
 | Sección | Reglas |
 |---|---|
-| Cómo leer este libro | [r001](#r001)–[r005](#r005) |
+| Cómo leer este libro | [r001](#r001)–[r004](#r004) |
 | Tu protagonista | [r100](#r100)–[r107](#r107) |
 | Preparar la partida | [r108](#r108)–[r110](#r110) |
 | La prueba | [r120](#r120)–[r127](#r127) |

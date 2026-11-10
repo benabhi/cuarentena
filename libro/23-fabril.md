@@ -1,6 +1,6 @@
 ## Barrio 4 · La Fabril
 
-*Galpones, chimeneas apagadas, playones de camiones, talleres. El barrio que hacía las cosas de Tolme. Para quien sabe usar las manos, el paraíso: hierro, madera, químicos, herramientas. Y los Bomberos, que llegaron primero.*
+*Galpones, chimeneas apagadas, talleres. Para quien sabe usar las manos, el paraíso: hierro, madera, químicos, herramientas. Y los Bomberos, que llegaron primero.*
 
 <a id="e260"></a>
 ### e260 · La Fabril: llegar
@@ -26,7 +26,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e261 · La ferretería mayorista
 *La Fabril · Ferretería · stock ▢▢▢▢*
 
-«EL TORNILLO · VENTAS POR MAYOR». Estanterías de seis metros con clavos, bisagras, cadenas, alambre. Alguien se llevó mucho. Quedó más.
+Estanterías de seis metros. Alguien se llevó mucho. Quedó más.
 
 - **Revisar** (r161). Un 1 en la tabla es una estantería que se cae: `[Físico]`; con 6−, 1 Herida y +2 Ruido.
 - **Detrás del mostrador,** una vez: *Manual de carpintería y obra* ([e772](#e772)).
@@ -38,7 +38,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e262 · El taller mecánico
 *La Fabril · Taller · stock ▢▢▢*
 
-«HNOS. SOSA». Dos autos en el elevador, un tablero de herramientas con las siluetas pintadas, y debajo de una camioneta, un par de piernas que se mueven: un Callado atrapado que no puede salir.
+«HNOS. SOSA». Debajo de una camioneta, un par de piernas que se mueven: un Callado atrapado.
 
 - **Revisar** (r161). Matar al de abajo: +1 Ruido.
 - **La camioneta:** `[Mecánica]`, ◷ 3, 1 Electrónica y 1 Metal. Anda: 20 casilleros, 2 Combustible. Anotá `CAMIONETA_DE_LOS_SOSA`.
@@ -50,7 +50,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e263 · La fábrica de pinturas
 *La Fabril · Taller · stock ▢▢▢*
 
-Tanques de doscientos litros, latas apiladas, un olor que marea. PROHIBIDO FUMAR. RIESGO DE EXPLOSIÓN.
+Tanques de doscientos litros y un olor que marea. RIESGO DE EXPLOSIÓN.
 
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
@@ -64,7 +64,7 @@ Tanques de doscientos litros, latas apiladas, un olor que marea. PROHIBIDO FUMAR
 ### e264 · El aserradero
 *La Fabril · Taller · stock ▢▢▢▢*
 
-Tablones, troncos, aserrín, una sierra de cinta parada a mitad de un corte. El olor a madera fresca es tan normal que da ganas de llorar.
+Una sierra de cinta parada a mitad de un corte. El olor a madera fresca es tan normal que da ganas de llorar.
 
 - **Revisar** (r161): cada tirada da **1d3 Madera** en lugar de la tabla.
 - **Tablones largos** (◷ 1) para cruzar azoteas (r151).
@@ -76,7 +76,7 @@ Tablones, troncos, aserrín, una sierra de cinta parada a mitad de un corte. El 
 ### e265 · La estación de servicio
 *La Fabril · Taller · stock ▢▢▢*
 
-Surtidores apagados, mangueras todavía puestas en los autos, y abajo, miles de litros de nafta. Sacarla es otra cosa.
+Surtidores apagados y, abajo, miles de litros de nafta. Sacarla es otra cosa.
 
 **Tesoro:** si el Camión del Comando o el Blindado están acá (r110) → [e500](#e500) o [e550](#e550).
 
@@ -90,7 +90,7 @@ Surtidores apagados, mangueras todavía puestas en los autos, y abajo, miles de 
 ### e266 · El depósito de gas
 *La Fabril · Taller · stock ▢▢*
 
-Cientos de garrafas en jaulas de alambre y, al fondo, un tanque esférico enorme. PELIGRO · INFLAMABLE.
+Cientos de garrafas en jaulas y, al fondo, un tanque esférico enorme.
 
 - **Revisar** (r161). Cada revisión da además una **garrafa** (3 casilleros): 2 Combustible, o la base de la Garrafa trampa ([e741](#e741)) y el Lanzallamas ([e744](#e744)).
 - **El tanque:** si una Procesión doble pasa por La Fabril, podés volarlo de lejos (`[Mecánica]` y un Molotov o una Bomba de clavos). Con 7+, La Fabril queda **en llamas**, la Procesión desaparece y +3 Rastro. Anotá `VOLO_EL_GAS`. Con 6−, no prende, y la Procesión te vio.
@@ -101,7 +101,7 @@ Cientos de garrafas en jaulas de alambre y, al fondo, un tanque esférico enorme
 ### e267 · El Cuartel Central de Bomberos
 *La Fabril · Los Bomberos · sin stock*
 
-Ladrillo rojo, tres portones reforzados con chapa y, en la torre, una bandera con un hacha. Hay luz y humo de cocina. Es la casa de **los Bomberos**.
+Portones reforzados con chapa, luz y humo de cocina. Es la casa de **los Bomberos**.
 
 - **Tocar el timbre** (anda) → [e670](#e670).
 - **Con Reputación −3,** te ven desde la torre → [e677](#e677).
@@ -112,7 +112,7 @@ Ladrillo rojo, tres portones reforzados con chapa y, en la torre, una bandera co
 ### e270 · La sirena
 *La Fabril · ◷ 0*
 
-La sirena del cambio de turno empieza a sonar sola, larga, en media ciudad. Las Procesiones de los barrios vecinos vienen a La Fabril (r156). Tenés una hora.
+La sirena del cambio de turno empieza a sonar sola. Las Procesiones de los barrios vecinos vienen a La Fabril (r156). Tenés una hora.
 
 1. **Irte ya** a un vecino sin Procesión.
 2. **Apagarla** `[Mecánica]`, ◷ 1: con 7+, vienen igual pero se dispersan: queda una. Con 6−, sigue sonando.
@@ -124,7 +124,7 @@ La sirena del cambio de turno empieza a sonar sola, larga, en media ciudad. Las 
 ### e271 · El playón de camiones
 *La Fabril · ◷ 0*
 
-Veinte camiones en fila, algunos con la carga intacta. Revisá hasta tres (◷ 1 cada uno), 1d6: **1** vacío; **2** gaseosas (2 Víveres); **3** cemento (un Tapiado de ladrillos, [e740](#e740)); **4** mudanza (4 Tela y 2 Madera); **5** supermercado (4 Víveres); **6** alguien en la cabina: un sobreviviente (r180), o un Callado con 1–2 en otro 1d6.
+Veinte camiones en fila. Revisá hasta tres (◷ 1 cada uno), 1d6: **1** vacío; **2** gaseosas (2 Víveres); **3** cemento (un Tapiado de ladrillos, [e740](#e740)); **4** mudanza (4 Tela y 2 Madera); **5** supermercado (4 Víveres); **6** alguien en la cabina: un sobreviviente (r180), o un Callado con 1–2 en otro 1d6.
 
 ---
 
@@ -132,7 +132,7 @@ Veinte camiones en fila, algunos con la carga intacta. Revisá hasta tres (◷ 1
 ### e272 · Los Bomberos de patrulla
 *La Fabril · ◷ 0*
 
-Una autobomba avanza despacio, con cuatro bomberos con hachas en el estribo. Paran frente a vos.
+Una autobomba con cuatro bomberos en el estribo para frente a vos.
 
 - **Reputación +2 o más:** te llevan a donde quieras en La Fabril, el Puerto o la Estación, sin encuentro, y te dan 1 Víver de agua.
 - **+1:** pasás sin peaje.
@@ -145,11 +145,7 @@ Una autobomba avanza despacio, con cuatro bomberos con hachas en el estribo. Par
 ### e273 · El horno
 *La Fabril · ◷ 0*
 
-Una fundición con el horno tibio. Un hombre con delantal de cuero y máscara de soldador martilla en el yunque. Alrededor, colgados de ganchos como reses, Callados muertos de verdad.
-
-—No los como, si eso pensás. Les saco los dientes. Para las trampas.
-
-Es **el Herrero**.
+Una fundición con el horno tibio. Un hombre con máscara de soldador martilla en el yunque; colgados de ganchos, Callados muertos de verdad. «Les saco los dientes. Para las trampas». Es **el Herrero**.
 
 - **Encargarle algo:** cualquier receta de Armas de mano, Trampas o Protección, sin conocerla, por sus materiales más 1. Anotá `EL_HERRERO` y el día. Si volvés con `EL_HERRERO` dos cartas después, te lo da: borrá la Marca.
 - **Preguntar por los dientes.** «Los mudos no se pinchan con sus propios dientes. No sé por qué.» Tus Tablas de clavos y Fosos de estacas valen +1 en la Noche 40. Anotá `DIENTES_EN_LAS_TRAMPAS`.
@@ -160,7 +156,7 @@ Es **el Herrero**.
 ### e274 · La fábrica arde
 *La Fabril · ◷ 2*
 
-La Procesión está adentro de la fábrica de pinturas, entre los tanques. Hay que prender fuego desde afuera: un Molotov, una bengala, un reguero de solvente. `[Puntería]` o `[Supervivencia]`.
+La Procesión está entre los tanques. Hay que prender fuego desde afuera. `[Puntería]` o `[Supervivencia]`.
 
 - *10+:* la explosión se ve desde toda Tolme. La Procesión desaparece, La Fabril queda **en llamas** (r159), +2 Rastro y +2 Moral cuando lo contás. Anotá `ARDIO_LA_FABRICA`.
 - *7–9:* igual, y la onda te alcanza: 2 Heridas.

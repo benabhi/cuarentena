@@ -1,6 +1,6 @@
 ## Barrio 3 · El Puerto
 
-*Muelles, grúas, contenedores, olor a río y a gasoil. Un puerto que trabajaba poco y ahora no trabaja nada. El agua es una salida, y también es lo que trae a los Ahogados.*
+*Muelles, grúas, contenedores, olor a río y a gasoil. El agua es una salida, y también es lo que trae a los Ahogados.*
 
 <a id="e240"></a>
 ### e240 · El Puerto: llegar
@@ -27,10 +27,10 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e241 · El mercado de pescado
 *El Puerto · Almacén · stock ▢▢*
 
-Un galpón de chapa con cámaras de frío muertas y un olor que se siente desde dos cuadras. Lo de las cámaras se pudrió, pero quedan sal, cuchillos, ganchos y redes.
+Un galpón de chapa con un olor que se siente desde dos cuadras.
 
 - **Revisar** (r161). Con 4 o más, en lugar de Víveres podés llevarte **sal gruesa**: 1 Químicos que sirve para Conservas ([e748](#e748)).
-- **El puesto del fondo:** una mujer grandota, con delantal de goma y una cuchilla, defiende su puesto contra tres Callados con una calma impresionante. Es la Tana → [e621](#e621).
+- **El puesto del fondo:** una mujer con delantal de goma y una cuchilla defiende su puesto contra tres Callados. Es la Tana → [e621](#e621).
 - **Redes y anzuelos** (◷ 1): la Caña de pescar ([e748](#e748)) sin materiales.
 
 ---
@@ -39,7 +39,7 @@ Un galpón de chapa con cámaras de frío muertas y un olor que se siente desde 
 ### e242 · Los contenedores
 *El Puerto · Taller · stock ▢▢▢▢*
 
-Un laberinto de contenedores apilados de a cuatro, con pasillos estrechos de chapa. Fácil perderse y fácil esconderse. Para vos y para ellos.
+Un laberinto de contenedores apilados de a cuatro. Fácil perderse y fácil esconderse, para vos y para ellos.
 
 **Tesoro:** si el Camión del Comando está acá (r110) → [e500](#e500).
 
@@ -52,7 +52,7 @@ Un laberinto de contenedores apilados de a cuatro, con pasillos estrechos de cha
 ### e243 · El astillero
 *El Puerto · Taller · stock ▢▢▢*
 
-Un dique seco, un barco a medio pintar, una grúa enorme y un galpón de chapas y perfiles de acero.
+Un dique seco, un barco a medio pintar y un galpón de chapas.
 
 - **Revisar** (r161). Un 5 en la tabla da siempre una **Soldadora**.
 - **Chapas de casco naval** (◷ 2), si no tenés `CHAPAS_DEL_ASTILLERO`: 2 Metal (3 casilleros) que cuentan doble para las barricadas ([e740](#e740)). Anotá `CHAPAS_DEL_ASTILLERO`.
@@ -64,7 +64,7 @@ Un dique seco, un barco a medio pintar, una grúa enorme y un galpón de chapas 
 ### e244 · La Aduana
 *El Puerto · Policía · stock ▢▢▢*
 
-Un edificio de piedra con galpones de mercadería decomisada: contrabando, armas, autos, perfumes. Las rejas están abiertas. Alguien estuvo antes.
+Galpones de mercadería decomisada, con las rejas abiertas. Alguien estuvo antes.
 
 **Tesoro:** si la Armería del cordón o el Blindado están acá (r110) → [e520](#e520) o [e550](#e550).
 
@@ -77,7 +77,7 @@ Un edificio de piedra con galpones de mercadería decomisada: contrabando, armas
 ### e245 · El ferry
 *El Puerto · Muelle 3 · stock ▢*
 
-Grande, blanco y rojo, atado al muelle tres, con las rampas levantadas. En el puente de mando, una luz que se prende y se apaga.
+Atado al muelle tres, con las rampas levantadas. En el puente de mando, una luz.
 
 - **Revisar** el kiosco como Comercio (r161).
 - **El puente de mando:** el capitán no quiere que nadie suba. «Este barco no se mueve hasta que el Comando lo diga» → [e255](#e255).
@@ -89,10 +89,10 @@ Grande, blanco y rojo, atado al muelle tres, con las rampas levantadas. En el pu
 ### e246 · El bar El Ancla
 *El Puerto · Almacén · stock ▢▢*
 
-Redes en el techo, fotos de barcos, una barra que vio de todo. Adentro, alguien canta.
+Redes en el techo, fotos de barcos. Adentro, alguien canta.
 
 - **Revisar** (r161). Con 5–6, en lugar de lo que diga, 2 Químicos de alcohol fuerte.
-- **La que canta:** en el escenario, con un micrófono sin electricidad, una mujer de vestido brillante canta un bolero para nadie. Cuando te ve, no para. Es Celeste → [e633](#e633).
+- **La que canta:** una mujer de vestido brillante canta un bolero para nadie. Es Celeste → [e633](#e633).
 
 ---
 
@@ -100,9 +100,7 @@ Redes en el techo, fotos de barcos, una barra que vio de todo. Adentro, alguien 
 ### e250 · Los pescadores
 *El Puerto · ◷ 0*
 
-Tres viejos sentados en baldes, con las cañas en el agua y un termo de mate.
-
-—Pican, che. Pican como nunca. Será que no los molesta nadie.
+Tres viejos sentados en baldes, con las cañas en el agua. «Pican como nunca. Será que no los molesta nadie».
 
 - **Sentarte un rato** (◷ 1): mate, 2 Víveres de pescado, +1 Ánimo, y te enseñan la Caña de pescar ([e748](#e748)).
 - **Preguntar por el río:** que de noche salen cosas del agua, que el ferry tiene combustible para dos cruces, que el capitán no está bien de la cabeza. Anotá `LOS_PESCADORES`.
@@ -113,11 +111,7 @@ Tres viejos sentados en baldes, con las cañas en el agua y un termo de mate.
 ### e251 · El barco que llegó
 *El Puerto · ◷ 0*
 
-Un velero chico, mal amarrado, con la vela rota. Adentro, una pareja joven, muy flaca, te mira como a un fantasma.
-
-—¿Acá también? Creímos que acá no había llegado.
-
-Cuentan lo que vieron río arriba: pueblos vacíos, fogatas, el muro visto desde el agua. Una pista ([e560](#e560)). Si les das refugio, son un sobreviviente (Supervivencia 2, 2 Víveres por día): anotá `LOS_DEL_VELERO`. Con una vela nueva (3 Tela, ◷ 2), el velero va y vuelve de la Costanera en ◷ 1, sin encuentro (en Etapa III o más, Ahogados con 1–2 en 1d6).
+Un velero con la vela rota y una pareja muy flaca. «¿Acá también?». Cuentan lo que vieron río arriba: pueblos vacíos y el muro visto desde el agua. Una pista ([e560](#e560)). Si les das refugio, son un sobreviviente (Supervivencia 2, 2 Víveres por día): anotá `LOS_DEL_VELERO`. Con una vela nueva (3 Tela, ◷ 2), el velero va y vuelve de la Costanera en ◷ 1, sin encuentro (en Etapa III o más, Ahogados con 1–2 en 1d6).
 
 ---
 
@@ -136,7 +130,7 @@ En la cabina de una grúa de cincuenta metros, alguien agita una remera.
 ### e253 · Lo que trae el río
 *El Puerto · ◷ 0*
 
-El río trae troncos, bidones, una heladera. Cuerpos. Algunos se mueven.
+El río trae bidones, una heladera, cuerpos. Algunos se mueven.
 
 - **Etapa III o más:** **Ahogados ×1d6 · Lejos** ([e728](#e728)) suben por el muelle.
 - **Si no:** **Callados ×1d6 · Cerca**, hinchados de agua: avanzan un paso cada dos rondas.
@@ -149,7 +143,7 @@ Si ganás, dos tiradas de Vivienda (r162) en la orilla.
 ### e254 · La barcaza
 *El Puerto · Astillero · ◷ 0*
 
-Una caja de acero con motor diésel: puede llevar treinta personas río abajo, lejos del muro. Le faltan tres cosas:
+Puede llevar treinta personas río abajo, lejos del muro. Le faltan tres cosas:
 
 - **Motor:** `[Mecánica]`, ◷ 4, 2 Metal y Llave inglesa. Con 7+, anotá `BARCAZA_MOTOR`.
 - **Timón:** `[Oficio]`, ◷ 2, 2 Madera y 2 Metal. Con 7+, anotá `BARCAZA_TIMON`.
@@ -163,15 +157,13 @@ Con las tres, en modo Éxodo es una salida → [e960](#e960). En Cuarentena, al 
 ### e255 · El capitán
 *El Puerto · Ferry · ◷ 1*
 
-Sesenta años, uniforme blanco impecable y revólver en la cintura. Escucha la AM 870 como quien escucha misa.
-
-—El Comando va a dar la orden. Y cuando la dé, este barco va a estar listo.
+Uniforme blanco impecable, revólver en la cintura y la AM 870 sonando. «El Comando va a dar la orden».
 
 1. **Convencerlo de que no habrá orden.** `[Labia · Desv.]`. Con 10+, duda; si le mostrás `PROTOCOLO_40` o dos pistas, se quiebra: el ferry es tuyo, con 4 Combustible. Anotá `EL_FERRY`. Con 7–9, podés volver otro día. Con 6−, te echa a punta de revólver.
 2. **Cambiar** (r166). Combustible, Munición y latas, solo por Fármacos: tiene la presión alta.
 3. **Quitarle el barco.** **Vivo ×1 · Aguante 2 · Cerca**, con revólver. Si ganás, el ferry es tuyo y −1 Ánimo. La orden: −1 Deber. Lo que hiciste: +1 Culpa.
 
-**Con `EL_FERRY`:** en Éxodo, es una salida para todos → [e960](#e960). En Cuarentena, podés mudarte a él antes de la carta 40 (r176): la Marea solo ataca un frente (la Rampa, Resistencia 6), pero trae 2 oleadas más, porque los Callados caen al agua por miles hasta hacer un puente con sus cuerpos.
+**Con `EL_FERRY`:** en Éxodo, es una salida para todos → [e960](#e960). En Cuarentena, podés mudarte a él antes de la carta 40 (r176): la Marea solo ataca un frente (la Rampa, Resistencia 6), pero trae 2 oleadas más: los Callados caen al agua hasta hacer un puente con sus cuerpos.
 
 ---
 
@@ -179,7 +171,7 @@ Sesenta años, uniforme blanco impecable y revólver en la cintura. Escucha la A
 ### e256 · El muelle tres
 *El Puerto · ◷ 1*
 
-Cuarenta personas con valijas y chicos dormidos en brazos esperan el corredor. Cada vez que alguien tose, todos se apartan.
+Cuarenta personas con valijas esperan el corredor. Cada vez que alguien tose, todos se apartan.
 
 1. **Esperar con ellos.** ◷ 3. Al atardecer, una lancha militar con reflector se detiene a cien metros. Un megáfono pide que se acerquen de a uno «para el control sanitario» → [e576](#e576).
 2. **Avisarles que no viene nadie** (con `PROTOCOLO_40`). `[Labia]`. Con 7+, 1d6 de ellos se unen: anotá `LOS_DEL_MUELLE` y cuántos. Hacen un puesto cada dos, comen 1 Víver cada uno y, en la Noche 40, ponen un defensor con puños cada dos. +3 Rastro.

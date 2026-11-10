@@ -1,6 +1,6 @@
 ## Barrio 8 · El Mercado
 
-*El barrio comercial nuevo: el Hipermercado Zeta, el Shopping Paseo Sur, el mayorista. Había más comida acá que en el resto de Tolme junto, y lo sabía todo el mundo. Las primeras dos semanas fueron una guerra. Quedan las góndolas y lo que nadie encontró.*
+*Había más comida acá que en el resto de Tolme junto, y lo sabía todo el mundo. Las primeras dos semanas fueron una guerra. Queda lo que nadie encontró.*
 
 <a id="e340"></a>
 ### e340 · El Mercado: llegar
@@ -27,7 +27,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e341 · El Hipermercado Zeta
 *El Mercado · Almacén · stock ▢▢▢▢*
 
-Cuarenta cajas, las cortinas arrancadas, y una oscuridad que huele a fruta podrida y a lavandina. Zumban las moscas.
+Cuarenta cajas y una oscuridad que huele a fruta podrida y a lavandina.
 
 - **Revisar** (r161). A fondo, antes, con 1–2 en 1d6: **Callados ×1d6 · Cerca**, escena Supermercado (r334).
 - **El depósito del fondo,** trabado con un montacargas: `[Mecánica]` o `[Físico]`, ◷ 1. Con 7+, +1 a todas tus tiradas de botín de esta visita. Con 6−, +2 Ruido.
@@ -39,7 +39,7 @@ Cuarenta cajas, las cortinas arrancadas, y una oscuridad que huele a fruta podri
 ### e342 · El Shopping Paseo Sur
 *El Mercado · Comercio · stock ▢▢▢▢*
 
-Tres pisos de locales, escaleras mecánicas quietas y una calesita en el patio de comidas. En la cúpula de vidrio hay siluetas oscuras apoyadas, mirando hacia abajo.
+Tres pisos de locales. En la cúpula de vidrio, siluetas oscuras miran hacia abajo.
 
 - **Revisar** (r161). Un 6 es el local de deportes: bate de aluminio (Daño 2, Cerca, Usos 6), arco con 6 saetas, una carpa (4 Tela) y una bicicleta (r152).
 - **El patio de comidas:** si no tenés `LA_PLANCHA`, llevate una: la Cocina a leña da +1 Moral más, una vez. Anotá `LA_PLANCHA`.
@@ -51,7 +51,7 @@ Tres pisos de locales, escaleras mecánicas quietas y una calesita en el patio d
 ### e343 · El mayorista
 *El Mercado · Almacén · stock ▢▢▢▢▢*
 
-«DISTRIBUIDORA EL SOL». Pallets de harina de 25 kilos, fideos, aceite, latas por cientos. Los Lobos pasaron dos veces con camiones, y quedó más de lo que se pueden llevar.
+Pallets de harina, fideos y latas por cientos. Los Lobos pasaron dos veces y quedó más de lo que se pueden llevar.
 
 **Tesoro:** si el Camión del Comando está acá (r110) → [e500](#e500).
 
@@ -64,7 +64,7 @@ Tres pisos de locales, escaleras mecánicas quietas y una calesita en el patio d
 ### e344 · El galpón de bebidas
 *El Mercado · Almacén · stock ▢▢▢*
 
-Pallets de gaseosas, cerveza y agua mineral; el piso es un lago de vidrio roto y azúcar.
+El piso es un lago de vidrio roto y azúcar.
 
 - **Revisar** (r161). Con 5–6, además, 1 Químicos de alcohol.
 - **Detrás de los pallets,** en una oficina trabada, alguien cocina chorizos en un calentador. Es el Chino Morales → [e606](#e606).
@@ -74,8 +74,6 @@ Pallets de gaseosas, cerveza y agua mineral; el piso es un lago de vidrio roto y
 <a id="e345"></a>
 ### e345 · La galería de electrodomésticos
 *El Mercado · Comercio · stock ▢▢▢*
-
-Vidrieras rotas, cajas abiertas, televisores en el piso.
 
 - **Revisar** (r161) con la tabla de Oficina; un 1 es 1 Electrónica.
 - **El servicio técnico** (◷ 1, una vez): 3 Electrónica y el *Manual de electricidad domiciliaria* ([e775](#e775)).
@@ -87,7 +85,7 @@ Vidrieras rotas, cajas abiertas, televisores en el piso.
 ### e350 · El carrito
 *El Mercado · ◷ 0*
 
-En medio del estacionamiento, un carrito cargado hasta arriba de latas y paquetes. Nadie alrededor. Demasiado fácil.
+Un carrito cargado de latas, solo en el estacionamiento. Demasiado fácil.
 
 1. **Llevártelo.** Con 1–2 en 1d6, es un cebo → [r313](#r313). Si no, un Carrito (r164) con 4 Víveres.
 2. **Mirar primero.** `[Calle]`: con 7+, ves el hilo de nylon y lo desarmás; con 6−, como la opción 1.
@@ -99,7 +97,7 @@ En medio del estacionamiento, un carrito cargado hasta arriba de latas y paquete
 ### e351 · La cola
 *El Mercado · ◷ 0*
 
-Treinta personas con bolsas vacías frente a la persiana de un súper chino. Del otro lado gritan: «¡Cinco por vez! ¡Solo efectivo o remedios!».
+Treinta personas frente a la persiana de un súper chino. «¡Cinco por vez!».
 
 1. **Hacer la cola.** ◷ 2. Hasta 3 cambios (r166): Víveres, pilas, Sujeción, Tela, por Fármacos, Munición o Combustible.
 2. **Colarte.** `[Labia]` o `[Sigilo]`. Con 7–9, te gritan: −1 Ánimo. Con 6−, la cola se te viene encima: 1 Herida y afuera.
@@ -111,7 +109,7 @@ Treinta personas con bolsas vacías frente a la persiana de un súper chino. Del
 ### e352 · El estacionamiento subterráneo
 *El Mercado · ◷ 0 · escena: Estacionamiento*
 
-Doscientos autos en la penumbra, y en algunos hay gente adentro. No vivos.
+Doscientos autos en la penumbra, y en algunos hay gente adentro.
 
 > **Callados ×2d6 · Lejos** · escena: Estacionamiento (r333)
 
@@ -123,4 +121,4 @@ La mitad está encerrada en sus autos, hasta que suene una alarma (r333).
 ### e353 · La avalancha
 *El Mercado · ◷ 0*
 
-Todos los vidrios del frente del Zeta estallan a la vez. Una Procesión estuvo semanas adentro, quieta entre las góndolas. Algo la despertó. → [e100](#e100): es doble y está Cerca; la opción 1 tiene Desventaja.
+Los vidrios del Zeta estallan a la vez: una Procesión estuvo semanas adentro, quieta. → [e100](#e100): es doble y está Cerca; la opción 1 tiene Desventaja.

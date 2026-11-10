@@ -8,24 +8,15 @@
 ### e020 · Oros: día de hallazgo
 *Al alba · ◷ 0*
 
-Tirá 1d6.
+*Leve (1–3):* **1** [e021](#e021) · **2** [e022](#e022) · **3** [e024](#e024) · **4** [e021](#e021) · **5** [e025](#e025) · **6** [e026](#e026).
 
-| 1d6 | Leve (1–3) | Fuerte (4–7) |
-|---|---|---|
-| 1 | [e021](#e021) | [e023](#e023) |
-| 2 | [e022](#e022) | [e027](#e027) |
-| 3 | [e024](#e024) | [e028](#e028) |
-| 4 | [e021](#e021) | [e029](#e029) |
-| 5 | [e025](#e025) | [e025](#e025) |
-| 6 | [e026](#e026) | [e026](#e026) |
+*Fuerte (4–7):* **1** [e023](#e023) · **2** [e027](#e027) · **3** [e028](#e028) · **4** [e029](#e029) · **5** [e025](#e025) · **6** [e026](#e026).
 
 ---
 
 <a id="e021"></a>
 ### e021 · Lo que trae la mañana
 *Tu refugio · ◷ 0*
-
-Una bolsa que alguien dejó caer al huir. Tolme está llena de cosas que nadie va a volver a buscar.
 
 **1 material al azar** (r165); **dos** si la carta es 4 o más. Si estás solo, lo encontrás vos y te vieron desde una ventana: +1 Ruido en tu próxima salida.
 
@@ -35,13 +26,13 @@ Una bolsa que alguien dejó caer al huir. Tolme está llena de cosas que nadie v
 ### e022 · La señora de enfrente
 *Tu refugio · ◷ 0*
 
-En el tercer piso de enfrente, una mujer mayor muestra un cartón: TENGO AZÚCAR. NECESITO REMEDIOS PARA LA PRESIÓN.
+Enfrente, una mujer mayor muestra un cartón: NECESITO REMEDIOS PARA LA PRESIÓN.
 
 1. **Cambiar.** 1 Fármacos en una bolsa atada a una soga (sin Soga, `[Físico]` para tirarlo al balcón; con 6−, se pierde). Te manda 3 Víveres. Anotá `LA_SENORA_DE_ENFRENTE`.
 2. **Mandarle algo sin pedir nada.** 1 Víver o 1 Fármacos. Otro cartel: GRACIAS. +1 Moral. Anotá `LA_SENORA_DE_ENFRENTE`.
 3. **Ignorarla.** Al tercer día la cortina queda abierta y no la ves más.
 
-**Si ya tenés `LA_SENORA_DE_ENFRENTE`:** otro cartel. SE FUE CON SU HIJO A LA ESTACIÓN. GRACIAS POR TODO. En la soga, un frasco con 2 Fármacos y una llave que no sabés de qué es.
+**Si ya tenés `LA_SENORA_DE_ENFRENTE`:** otro cartel, GRACIAS POR TODO, y en la soga, un frasco con 2 Fármacos.
 
 ---
 
@@ -49,7 +40,7 @@ En el tercer piso de enfrente, una mujer mayor muestra un cartón: TENGO AZÚCAR
 ### e023 · El camión de reparto
 *Un barrio vecino · ◷ 0*
 
-Un camión de supermercado volcado, con candado. Tirá cuál de tus barrios vecinos por la Calle (en el orden de r151). Hasta el final de la carta siguiente, tiene un lugar más:
+Un camión de supermercado volcado. Tirá cuál de tus barrios vecinos por la Calle. Hasta el final de la carta siguiente, tiene un lugar más:
 
 > **Camión volcado** · *Almacén · stock ▢▢▢*
 
@@ -61,8 +52,6 @@ El candado: Palanca (+1 Ruido) o `[Oficio]` (con 6−, +2 Ruido y no abre). Desp
 ### e024 · Humo en el Mercado
 *Tu refugio · ◷ 0*
 
-Humo blanco en el Mercado: alguien cocinó y no le importa que se vea.
-
 Anotá `HUMO_EN_EL_MERCADO`. Hasta el alba, si llegás al Mercado podés buscar el humo en lugar de tirar en su tabla: vivos (r300) con +2 a Hablar. Si sale Trueque, Rumores o Quieren venir con vos, es el Chino Morales ([e606](#e606)), si no lo conocés.
 
 ---
@@ -71,7 +60,7 @@ Anotá `HUMO_EN_EL_MERCADO`. Hasta el alba, si llegás al Mercado podés buscar 
 ### e025 · Una puerta sin marca
 *Tolme · ◷ 0*
 
-Un local con la persiana baja que nadie revisó. Un lugar que ya tiene tu marca de búsqueda recupera **1 casilla de stock** (2 si la carta es 4 o más). Si no revisaste ninguno, 1 material al azar.
+Un lugar que ya tiene tu marca de búsqueda recupera **1 casilla de stock** (2 si la carta es 4 o más). Si no revisaste ninguno, 1 material al azar.
 
 ---
 
@@ -79,7 +68,7 @@ Un local con la persiana baja que nadie revisó. Un lugar que ya tiene tu marca 
 ### e026 · Papeles
 *Tu refugio · ◷ 0*
 
-Entre facturas y cartas de amor, algo más. 1d6: con 1–3, un **manual** ([e770](#e770)); con 4–5, una nota sobre la cuarentena: una pista ([e560](#e560)); con 6, un mapa del Subsuelo a mano: anotá `MAPA_DEL_SUBSUELO` (sin Linterna, ya no tenés Desventaja para orientarte allá abajo, solo para pelear).
+Entre facturas y cartas de amor, 1d6: con 1–3, un **manual** ([e770](#e770)); con 4–5, una nota sobre la cuarentena: una pista ([e560](#e560)); con 6, un mapa del Subsuelo a mano: anotá `MAPA_DEL_SUBSUELO` (sin Linterna, ya no tenés Desventaja para orientarte allá abajo, solo para pelear).
 
 ---
 
@@ -87,7 +76,7 @@ Entre facturas y cartas de amor, algo más. 1d6: con 1–3, un **manual** ([e770
 ### e027 · Lo que cayó del cielo
 *Tolme · ◷ 0*
 
-Un helicóptero deja caer algo con un paracaídas naranja. Lo ve todo Tolme, también lo que no es gente.
+Un helicóptero deja caer algo con un paracaídas naranja. Lo ve todo Tolme.
 
 Tirá el barrio en r155. Hasta el alba siguiente tiene un lugar más:
 
@@ -115,8 +104,6 @@ La primera vez que la revisás, además, una herramienta al azar (r202).
 ### e029 · Tres días de lluvia
 *Tolme · ◷ 0*
 
-Llueve sin parar. Los Callados se quedan quietos bajo los aleros.
-
 - **Agua:** con Cisterna, +3 Víveres. Sin ella, baldes en el techo: `[Supervivencia]`; con 10+, +2; con 7–9, +1.
 - **Silencio:** hoy y los dos días siguientes, llegar por la Calle no suma Ruido. Pero el Físico, afuera, tiene Desventaja.
 - Con `GOTERAS`, el Techo pierde 1.
@@ -127,16 +114,9 @@ Llueve sin parar. Los Callados se quedan quietos bajo los aleros.
 ### e030 · Copas: día de gente
 *Al alba · ◷ 0*
 
-Para bien y para mal. Tirá 1d6.
+*Leve (1–3):* **1** [e031](#e031) · **2** [e032](#e032) · **3** [e033](#e033) · **4** [e034](#e034) · **5** [e035](#e035) · **6** [e031](#e031).
 
-| 1d6 | Leve (1–3) | Fuerte (4–7) |
-|---|---|---|
-| 1 | [e031](#e031) | [e031](#e031) |
-| 2 | [e032](#e032) | [e036](#e036) |
-| 3 | [e033](#e033) | [e037](#e037) |
-| 4 | [e034](#e034) | [e038](#e038) |
-| 5 | [e035](#e035) | [e039](#e039) |
-| 6 | [e031](#e031) | [e031](#e031) |
+*Fuerte (4–7):* **1** [e031](#e031) · **2** [e036](#e036) · **3** [e037](#e037) · **4** [e038](#e038) · **5** [e039](#e039) · **6** [e031](#e031).
 
 ---
 
@@ -144,7 +124,7 @@ Para bien y para mal. Tirá 1d6.
 ### e031 · Golpean la puerta
 *Tu refugio · ◷ 0*
 
-Tres golpes, una pausa, tres golpes: así golpean los vivos en Tolme. Tirá en la tabla de sobrevivientes (r180) y andá a su entrada. Con la carta 4 o más, son **dos**.
+Tres golpes, una pausa, tres golpes. Tirá en la tabla de sobrevivientes (r180) y andá a su entrada. Con la carta 4 o más, son **dos**.
 
 Con `NO_ABRISTE`, la primera vez dudás: abrir (borrala, +1 Ánimo) o no (−1 Ánimo).
 
@@ -154,7 +134,7 @@ Con `NO_ABRISTE`, la primera vez dudás: abrir (borrala, +1 Ánimo) o no (−1 �
 ### e032 · La lata de duraznos
 *Tu refugio · ◷ 0*
 
-La última lata de duraznos en almíbar, y dos del grupo dicen que la vieron primero. (Si estás solo, la discusión es con vos: −1 Ánimo.)
+La última lata de duraznos, y dos del grupo dicen que la vieron primero. (Si estás solo, la discusión es con vos: −1 Ánimo.)
 
 1. **Partirla en dos, delante de todos.** `[Labia]`. Con 7+, se ríen: +1 Moral. Con 6−, nadie se ríe: −1 Moral.
 2. **Comértela vos.** «Se terminó la discusión.» −1 Moral, +1 Reserva.
@@ -166,8 +146,6 @@ La última lata de duraznos en almíbar, y dos del grupo dicen que la vieron pri
 ### e033 · Un cumpleaños
 *Tu refugio · ◷ 0*
 
-Alguien cumple años. No lo dijo, pero otro se acordó.
-
 - **Festejar:** 2 Víveres, +2 Moral (+1 más si Celeste, [e633](#e633), canta) y +1 Rastro.
 - **Festejar bajito:** una vela, un abrazo. +1 Moral.
 - **Hoy no.** Al día siguiente, el cumpleañero hace Guardia sin que se lo pidan.
@@ -178,7 +156,7 @@ Alguien cumple años. No lo dijo, pero otro se acordó.
 ### e034 · Alguien no se levanta
 *Tu refugio · ◷ 0*
 
-Alguien (o vos) amanece con escalofríos y tos. Es una gripe. Pero en Tolme todo da miedo.
+Alguien (o vos) amanece con escalofríos y tos. Es una gripe.
 
 - **Curarlo:** `[Medicina]` y 1 Fármacos. Con 7+, se repone hoy; con 6−, pierde el puesto hoy y mañana.
 - **Dejarlo descansar:** dos noches sin puesto. Si es Doña Rosa o Don Ernesto, con 1 en 1d6 empeora: 2 Fármacos o muere en dos días.
@@ -190,7 +168,7 @@ Alguien (o vos) amanece con escalofríos y tos. Es una gripe. Pero en Tolme todo
 ### e035 · Una carta en la puerta
 *Tu refugio · ◷ 0*
 
-Una hoja pegada a la puerta: alguien llegó de noche sin que nadie lo viera. 1d6:
+Una hoja pegada a la puerta. 1d6:
 
 - **1–2 · La Parroquia:** «Hay lugar en la Catedral para los que vengan sin armas.» Si vas a la Catedral ([e201](#e201)) antes de tres cartas, +1 Reputación.
 - **3 · Los Bomberos:** «El agua cuesta. Pasá por el cuartel.» Anotá `LOS_BOMBEROS_SABEN`.
@@ -204,11 +182,11 @@ Una hoja pegada a la puerta: alguien llegó de noche sin que nadie lo viera. 1d6
 ### e036 · Faltan cosas
 *Tu refugio · ◷ 0*
 
-Faltan 2 Víveres y 1 Fármacos (o lo que haya). Nadie salió. Nadie entró. Si alguien del grupo es Ladrón, todos lo saben.
+Faltan 2 Víveres y 1 Fármacos (o lo que haya). Nadie entró.
 
 - **Investigar:** `[Labia]` o `[Calle]`, ◷ 1. Con 10+, descubrís quién fue y recuperás todo. Echarlo: −1 Moral, se va con lo puesto. Perdonarlo delante de todos: −1 Moral y anotá `PERDONASTE_UN_ROBO`. A solas: nada. Con 7–9, sabés quién, pero ya se lo comió. Con 6−, acusás al que no era: −2 Moral.
 - **Dejarlo pasar:** −1 Moral. La próxima vez que salga esta entrada, vuelve a pasar y ya no se investiga.
-- **Candado en la despensa:** 1 Metal y 1 Sujeción. Se acabó. −1 Moral: nadie quiere vivir con candados.
+- **Candado en la despensa:** 1 Metal y 1 Sujeción. −1 Moral.
 
 ---
 
@@ -216,7 +194,7 @@ Faltan 2 Víveres y 1 Fármacos (o lo que haya). Nadie salió. Nadie entró. Si 
 ### e037 · Una familia en la vereda
 *Tu refugio · ◷ 0*
 
-Una pareja, una abuela y tres chicos, con una sola mochila. No golpean: se sientan enfrente, mirando tu puerta.
+Una pareja, una abuela y tres chicos se sientan enfrente, mirando tu puerta.
 
 1. **Hacerlos entrar.** Anotá `LOS_QUIROGA`: cuentan como un sobreviviente para los puestos (Obra o Huerta; los chicos no pelean), pero comen **3 Víveres** por día. +2 Moral, +2 Rastro.
 2. **Darles comida y que sigan.** 3 Víveres. Van a la Catedral. +1 Moral, y +1 Reputación con la Parroquia si vas después.
@@ -256,14 +234,9 @@ Una facción viene a verte. 1d6: 1–2 la Parroquia ([e661](#e661)), 3 los Bombe
 
 Las Procesiones se mueven. Por cada ficha, 1d6: con **1–2**, avanza un barrio por la Calle hacia tu refugio; con **3–6**, a un vecino al azar. Con la carta 4 o más, aparece una nueva (r155). Después, tirá 1d6.
 
-| 1d6 | Leve (1–3) | Fuerte (4–7) |
-|---|---|---|
-| 1 | [e041](#e041) | [e041](#e041) |
-| 2 | [e042](#e042) | [e045](#e045) |
-| 3 | [e043](#e043) | [e046](#e046) |
-| 4 | [e044](#e044) | [e047](#e047) |
-| 5 | [e042](#e042) | [e048](#e048) |
-| 6 | [e044](#e044) | [e049](#e049) |
+*Leve (1–3):* **1** [e041](#e041) · **2** [e042](#e042) · **3** [e043](#e043) · **4** [e044](#e044) · **5** [e042](#e042) · **6** [e044](#e044).
+
+*Fuerte (4–7):* **1** [e041](#e041) · **2** [e045](#e045) · **3** [e046](#e046) · **4** [e047](#e047) · **5** [e048](#e048) · **6** [e049](#e049).
 
 ---
 
@@ -271,7 +244,7 @@ Las Procesiones se mueven. Por cada ficha, 1d6: con **1–2**, avanza un barrio 
 ### e041 · Huellas en el barro
 *Tu refugio · ◷ 0*
 
-Huellas descalzas en círculos alrededor del refugio. No encontraron la entrada. Todavía.
+Huellas descalzas en círculos alrededor del refugio.
 
 Esta noche hay **sondeo seguro** ([e072](#e072)); con la carta 4 o más, al frente más débil. Borrar las huellas con lavandina (1 Químicos, ◷ 1): el sondeo se tira normal y el Rastro baja 1.
 
@@ -281,9 +254,7 @@ Esta noche hay **sondeo seguro** ([e072](#e072)); con la carta 4 o más, al fren
 ### e042 · La Procesión pasa
 *Tu refugio · ◷ 0*
 
-Cientos de pies descalzos, arrastrados, en silencio. Tarda una hora en pasar por tu puerta.
-
-Poné una Procesión en el barrio de tu refugio (si había una, es doble). Mientras pasa:
+Tarda una hora en pasar por tu puerta. Poné una Procesión en el barrio de tu refugio (si había una, es doble). Mientras pasa:
 
 1. **Todos quietos.** `[Sigilo]`, con Desventaja si hay más de 4 personas o está el Negro sin `NEGRO_CON_BOZAL`. Con 10+, pasa de largo. Con 7–9, un rezagado golpea la Puerta: −1 Resistencia. Con 6−, un estornudo, un chico que llora, una olla: sondeo seguro esta noche, con +2 al daño ([e072](#e072)).
 2. **Desviarla** (r156) con un Señuelo que alguien lleva por las Azoteas o el Subsuelo. `[Sigilo]`: con 7+, se va detrás; con 6−, se va igual, y el que lo llevó vuelve con 1 Herida (con 1 en 1d6, no vuelve).
@@ -294,9 +265,7 @@ Poné una Procesión en el barrio de tu refugio (si había una, es doble). Mient
 ### e043 · El peaje
 *Tu refugio · ◷ 0*
 
-Tres tipos con caños, un revólver y hambre.
-
-—Esta cuadra es nuestra. Dos bolsas de comida por semana y nadie los molesta.
+Tres tipos con caños y un revólver: «Esta cuadra es nuestra».
 
 1. **Pagar.** 2 Víveres y anotá `PEAJE`: cada vez que las Espadas den un 3, vuelven a cobrar.
 2. **Negociar.** `[Labia]`. Con 10+, se van con 1 Víver y prometen cuidar la cuadra: anotá `LOS_DE_LA_CUADRA` (en la Noche 40 suman 2 a la Puerta). Con 7–9, se van con 1 Víver. Con 6−, [r312](#r312) en tu puerta (+1 Rastro).
@@ -308,7 +277,7 @@ Tres tipos con caños, un revólver y hambre.
 ### e044 · Algo en la cuadra
 *Barrio de tu refugio · ◷ 0*
 
-No es como los demás. Tirá 1d6 según la Etapa:
+1d6 según la Etapa:
 
 | Etapa | 1–3 | 4–6 |
 |---|---|---|
@@ -327,7 +296,7 @@ No es como los demás. Tirá 1d6 según la Etapa:
 ### e045 · El rastro de sangre
 *Tu refugio · ◷ 0*
 
-Gotas hasta tu puerta, de alguien que volvió herido (o de un desconocido que murió ahí). Los Callados huelen la sangre.
+Gotas de sangre hasta tu puerta.
 
 - Esta noche, el Rastro cuenta **+3** para el sondeo. **Limpiar** (1 Químicos, ◷ 1): solo +1.
 - **Etapa II o más:** al mediodía, Sabuesos ×1d6 llegan a tu puerta. Combate Cerca en la vereda, o atrancar y esperar: −1d6 a la Puerta, y se van.
@@ -337,8 +306,6 @@ Gotas hasta tu puerta, de alguien que volvió herido (o de un desconocido que mu
 <a id="e046"></a>
 ### e046 · Los Lobos
 *Tu refugio · ◷ 0*
-
-Una camioneta negra, tres chalecos de seguridad privada y una sonrisa.
 
 - **Con Reputación −3:** no vienen a hablar → [e687](#e687).
 - **Con `AVISO_DE_LOS_LOBOS`:** «¿Te acordás que te avisamos?» → [e682](#e682).
@@ -364,7 +331,7 @@ Amanecen en la puerta: **Callados ×2d6**, empujando despacio.
 ### e048 · Fuego
 *Tolme · ◷ 0*
 
-Humo negro y ceniza. Tirá el barrio en r155: queda **en llamas** (r159). Si es el tuyo o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
+Tirá el barrio en r155: queda **en llamas** (r159). Si es el tuyo o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
 
 ---
 
@@ -372,7 +339,7 @@ Humo negro y ceniza. Tirá el barrio en r155: queda **en llamas** (r159). Si es 
 ### e049 · La Marea empuja
 *El Perímetro · ◷ 0*
 
-Desde el norte, metal que se dobla. Después, disparos. Una sección del muro cedió, y antes de que la taparan entraron miles.
+Una sección del muro cedió, y antes de que la taparan entraron miles.
 
 - **Dos Procesiones** nuevas en el Perímetro.
 - Anotá `EL_MURO_CEDIO`: en la Noche 40, la primera oleada tiene +2 a la Fuerza.
@@ -384,16 +351,9 @@ Desde el norte, metal que se dobla. Después, disparos. Una sección del muro ce
 ### e050 · Bastos: el refugio y la ciudad
 *Al alba · ◷ 0*
 
-Tirá 1d6.
+*Leve (1–3):* **1** [e051](#e051) · **2** [e052](#e052) · **3** [e054](#e054) · **4** [e053](#e053) · **5** [e057](#e057) · **6** [e059](#e059).
 
-| 1d6 | Leve (1–3) | Fuerte (4–7) |
-|---|---|---|
-| 1 | [e051](#e051) | [e055](#e055) |
-| 2 | [e052](#e052) | [e056](#e056) |
-| 3 | [e054](#e054) | [e054](#e054) |
-| 4 | [e053](#e053) | [e053](#e053) |
-| 5 | [e057](#e057) | [e058](#e058) |
-| 6 | [e059](#e059) | [e057](#e057) |
+*Fuerte (4–7):* **1** [e055](#e055) · **2** [e056](#e056) · **3** [e054](#e054) · **4** [e053](#e053) · **5** [e058](#e058) · **6** [e057](#e057).
 
 ---
 
@@ -401,7 +361,7 @@ Tirá 1d6.
 ### e051 · Llovizna
 *Tolme · ◷ 0*
 
-Llovizna todo el día. Con Cisterna, +1 Víver. Llegar por la Calle hoy no suma Ruido. Alguien pone música bajita con la última batería: +1 Moral con 3 sobrevivientes o más.
+Con Cisterna, +1 Víver. Llegar por la Calle hoy no suma Ruido. +1 Moral con 3 sobrevivientes o más.
 
 ---
 
@@ -416,8 +376,6 @@ Llovizna todo el día. Con Cisterna, +1 Víver. Llegar por la Calle hoy no suma 
 <a id="e053"></a>
 ### e053 · Helada
 *Tolme · ◷ 0*
-
-Cero grados. Los Callados tienen escarcha en el pelo.
 
 - **Abrigo:** cada persona sin ropa gruesa o 1 Tela cuesta −1 Moral o −1 Reserva (elegís).
 - **Fuego:** con Cocina a leña nadie pasa frío, pero +1 Rastro.
@@ -444,19 +402,15 @@ Mirá la próxima carta (r136) y devolvela. Después, 1d6:
 ### e055 · Tormenta
 *Tolme · ◷ 0*
 
-Lluvia horizontal y chapas que vuelan.
-
 - El **Techo** pierde 2, salvo que tenga 6 o más. Con Cisterna, +3 Víveres.
 - Nadie cruza Azoteas: si lo hacés, cada cruce es `[Físico]` con Desventaja, y con 6− caés.
-- Las Procesiones no se mueven. Nadie se mueve hoy.
+- Las Procesiones no se mueven.
 
 ---
 
 <a id="e056"></a>
 ### e056 · El sótano se inunda
 *Tu refugio · ◷ 0*
-
-Un palmo de agua marrón sube por los desagües.
 
 - El **Subsuelo** pierde 2 y se mojan 2 Víveres (salvo con Despensa).
 - **Achicar:** ◷ 2 con todos; con 3 personas o más, el Subsuelo recupera 1.
@@ -483,7 +437,7 @@ Pasa bajo, sin insignias, y tira volantes amarillos:
 ### e058 · El muro cruje
 *Tolme · ◷ 0*
 
-Toda la noche, desde el norte, golpes sordos: millones de cuerpos contra los contenedores. Cada persona pierde 1 Ánimo, o la Moral baja 1 (elegís).
+Toda la noche, golpes sordos desde el muro. Cada persona pierde 1 Ánimo, o la Moral baja 1 (elegís).
 
 Si hoy estás en el Perímetro, o alguien sube con binoculares, ves la grieta: anotá `GRIETA_EN_EL_MURO`. Si ya la tenías, cede → [e049](#e049).
 
@@ -492,8 +446,6 @@ Si hoy estás en el Perímetro, o alguien sube con binoculares, ves la grieta: a
 <a id="e059"></a>
 ### e059 · Un día quieto
 *Tolme · ◷ 0*
-
-Sin ruidos, sin humo, sin radio. Alguien se ríe, y todos se ríen, y nadie sabe de qué.
 
 +1 Moral y +1 Ánimo. Si descansás hoy (◷ 2), +1 Ánimo más.
 
@@ -507,7 +459,7 @@ Sin ruidos, sin humo, sin radio. Alguien se ríe, y todos se ríen, y nadie sabe
 ### e060 · Sota de Oros · El mercachifle
 *Tu refugio · ◷ 0*
 
-Una camioneta toca bocina dos veces. —¡Don Cacho, el último comerciante de Tolme! Diez minutos y me voy.
+«¡Don Cacho, el último comerciante de Tolme!».
 
 **Hasta 4 cambios** (r166), justos y sin prueba. Tiene 2 Antivirales, 12 Munición, una herramienta al azar, una Mochila de camping, 3 Combustible, un manual ([e770](#e770)) y 6 Víveres. Le encanta el alcohol: cada Químicos vale doble. La bocina: +1 Rastro. Anotá `DON_CACHO`.
 
@@ -517,7 +469,7 @@ Una camioneta toca bocina dos veces. —¡Don Cacho, el último comerciante de T
 ### e061 · Caballo de Oros · El convoy
 *Tolme · ◷ 0*
 
-La Señora: «Un convoy descargará hoy en la Terminal de trenes. Una ración por grupo familiar». Toda la ciudad lo escuchó.
+La Señora: «Un convoy descargará hoy en la Terminal de trenes».
 
 1. **Ir a la Terminal** ([e321](#e321)). Al llegar → [e335](#e335).
 2. **No ir.** A la tarde, una hora de disparos. Al otro día, la Señora no dice nada del convoy. Una pista ([e560](#e560)).
@@ -548,7 +500,7 @@ Dos del grupo se quieren casar. Sí, ahora. (Con menos de 2 sobrevivientes, son 
 ### e064 · Caballo de Copas · Los veinte
 *Tu refugio · ◷ 0*
 
-Un ómnibus sin nafta a una cuadra: un geriátrico, dos maestras y chicos de un hogar. No hay camas para veinte. Pero están ahí.
+Un ómnibus sin nafta a una cuadra: un geriátrico, dos maestras y chicos de un hogar.
 
 1. **Todos adentro.** Anotá `LOS_VEINTE`: comen 6 Víveres por día, hacen 3 puestos de Obra, Huerta o Cocina por noche y, en la Noche 40, ponen 3 defensores con puños. +5 Rastro, +3 Moral. La lista: +1 Juramento. La orden: +1 Deber. Lo que hiciste: −1 Culpa.
 2. **Algunos.** Los chicos y las maestras: anotá `LOS_CHICOS_DEL_HOGAR` (2 Víveres por día, un puesto de Huerta o Cocina; en la Noche 40, una maestra defiende). +2 Rastro. −1 Ánimo: los viejos te miraron.
@@ -561,7 +513,7 @@ Un ómnibus sin nafta a una cuadra: un geriátrico, dos maestras y chicos de un 
 ### e065 · Rey de Copas · La asamblea
 *El Casco · ◷ 0*
 
-Una invitación de la parroquia: «Asamblea de todos los grupos en la Catedral, hoy al mediodía. Sin armas. Hablemos de la noche cuarenta».
+«Asamblea de todos los grupos en la Catedral, hoy al mediodía. Sin armas».
 
 1. **Ir.** Anotá `LA_ASAMBLEA_HOY` (se borra al alba) y viajá a la Catedral ([e201](#e201)) sin tirar en la tabla del Casco → [e664](#e664).
 2. **Mandar a alguien** con Labia 2 o más: +1 Reputación con la Parroquia y una pista ([e560](#e560)).
@@ -596,7 +548,7 @@ Una columna de miles cruza la ciudad. Hasta el alba, **El Perímetro, La Fabril,
 ### e068 · Rey de Espadas · El Pastor
 *Tolme · ◷ 0*
 
-El de la Guardia vuelve pálido: vio uno detenerse en una esquina, mirar a los dos lados y elegir. Detrás de él, la Procesión entera giró a la vez.
+El de la Guardia vio a uno detenerse en una esquina y elegir. Detrás de él, la Procesión entera giró a la vez.
 
 Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). En la Etapa IV, cada Procesión que avance hacia tu refugio un día de Espadas avanza **dos** barrios. Con `PISTA_PASTOR` → [e575](#e575).
 
@@ -605,8 +557,6 @@ Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). En la Etapa IV, cada P
 <a id="e069"></a>
 ### e069 · Sota de Bastos · El apagón
 *Tolme · ◷ 0*
-
-A las ocho se apagan todas las luces de Tolme, como si alguien bajara una palanca.
 
 - **Con Generador:** sos una de las pocas luces. +2 Rastro, salvo con Cortinas negras.
 - **Sin Generador:** contás las luces desde arriba. Anotá `LAS_LUCES_DE_TOLME`: en r300 elegís la postura después de tirar.
@@ -617,8 +567,6 @@ A las ocho se apagan todas las luces de Tolme, como si alguien bajara una palanc
 <a id="e070"></a>
 ### e070 · Caballo de Bastos · El incendio grande
 *Tolme · ◷ 0*
-
-A mediodía hay diez manzanas en llamas.
 
 Tu barrio y un vecino al azar quedan **en llamas** (r159) por 2 días. Tu manzana, si la defendés:
 
@@ -635,6 +583,6 @@ Las Procesiones de los barrios en llamas se dispersan a vecinos al azar. −2 Ra
 
 Por primera vez, la Señora dice otra cosa:
 
-> *«Atención, Tolme. Se habilitará un corredor de evacuación para personas sin síntomas. Los interesados deberán presentarse en el puerto, muelle tres, en la fecha que se informará oportunamente. Repito…»*
+> *«Se habilitará un corredor de evacuación para personas sin síntomas, en el puerto, muelle tres, en la fecha que se informará oportunamente».*
 
 No dice la fecha. Anotá `EL_CORREDOR` y una pista ([e560](#e560)). Cada Cobarde del grupo quiere ir: con 1–3 en 1d6, se va mañana sin avisar (`PERDIDO_`). En modo Éxodo (r210), el ferry ([e245](#e245)) tiene una opción más.

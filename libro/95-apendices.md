@@ -199,31 +199,13 @@ ______________________________________________________________________
 
 ## El plano de Tolme
 
-*Tolme es una red, como el plano de un subte: doce estaciones, una por barrio. Amarillo es la Calle, gris las Azoteas, rojo el Subsuelo (r151). Cada barrio tiene lugar para las X de búsqueda (r163) y las fichas de Procesión.*
+*Tolme es una red, como el plano de un subte: doce estaciones, una por barrio (r151), con lugar para las X de búsqueda (r163) y las fichas de Procesión.*
 
-### Las líneas
+**La Calle (amarillo)** une a todos los vecinos. *Línea del río:* El Puerto — El Casco — Sanidad — Ciudad Universitaria — La Costanera — El Puerto. *Línea del centro:* El Casco — Los Bloques — El Mercado — La Estación — El Casco. *Línea de la periferia:* La Estación — La Fabril — El Perímetro — Las Lomas — Ciudad Universitaria. *Ramales:* El Casco — El Mercado · Sanidad — Los Bloques · Los Bloques — Cementerio y Parque · Cementerio y Parque — Las Lomas · Cementerio y Parque — El Perímetro · El Puerto — La Fabril.
 
-**La Calle (amarillo).** Une a todos los vecinos.
+**Las Azoteas (gris)**, solo en el triángulo denso del centro: El Casco, Sanidad, Los Bloques y El Mercado. El Casco y Los Bloques se tocan con los otros tres; Sanidad y El Mercado no se tocan entre sí.
 
-| Tramo | Recorrido |
-|---|---|
-| Línea del río | El Puerto — El Casco — Sanidad — Ciudad Universitaria — La Costanera — El Puerto |
-| Línea del centro | El Casco — Los Bloques — El Mercado — La Estación — El Casco |
-| Línea de la periferia | La Estación — La Fabril — El Perímetro — Las Lomas — Ciudad Universitaria |
-| Ramales | El Casco — El Mercado · Sanidad — Los Bloques · Los Bloques — Cementerio y Parque · Cementerio y Parque — Las Lomas · Cementerio y Parque — El Perímetro · El Puerto — La Fabril |
-
-**Las Azoteas (gris).** Solo en el triángulo denso del centro: El Casco, Sanidad, Los Bloques y El Mercado. El Casco y Los Bloques se tocan con los otros tres; Sanidad y El Mercado no se tocan entre sí.
-
-**El Subsuelo (rojo).** La línea C del subte y las cloacas.
-
-| Tramo | Recorrido |
-|---|---|
-| Línea C | Ciudad Universitaria — Sanidad — El Casco — La Estación — El Mercado |
-| Cloaca del río | El Casco — El Puerto — La Costanera |
-| Túnel de las cocheras | La Estación — La Fabril |
-| Pluvial del oeste | Los Bloques — Cementerio y Parque |
-
-*Las Lomas y El Perímetro no tienen Subsuelo.*
+**El Subsuelo (rojo).** *Línea C:* Ciudad Universitaria — Sanidad — El Casco — La Estación — El Mercado. *Cloaca del río:* El Casco — El Puerto — La Costanera. *Túnel de las cocheras:* La Estación — La Fabril. *Pluvial del oeste:* Los Bloques — Cementerio y Parque. *Las Lomas y El Perímetro no tienen Subsuelo.*
 
 **Los refugios:** Parroquia de San Lázaro, El Casco ([e440](#e440)) · Supermercado Del Barrio, El Mercado ([e450](#e450)) · Comisaría 7.ª, La Estación ([e460](#e460)) · Escuela N.º 9, Los Bloques ([e470](#e470)) · Cuartel de la calle Brown, El Puerto ([e480](#e480)) · Edificio Sarmiento, Sanidad ([e490](#e490)).
 

@@ -4,7 +4,7 @@
 ### e100 · La Procesión
 *Un barrio con Procesión · ◷ 0*
 
-Primero el olor. Después, la avenida entera llena de hombros que se rozan, todos hacia el mismo lado. No te vieron. Todavía.
+Primero el olor. Después, la avenida entera llena de hombros que se rozan. No te vieron.
 
 Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 
@@ -20,8 +20,6 @@ Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 <a id="e101"></a>
 ### e101 · La gran Procesión pasa por tu puerta
 *Tu refugio · ◷ 6*
-
-Un río que pasa por tu puerta de sol a sol. Las paredes vibran. Nadie habla.
 
 `[Sigilo]` por el grupo (+1 con Cortinas negras; Desventaja con más de 6 personas o el Negro sin `NEGRO_CON_BOZAL`):
 
@@ -54,7 +52,7 @@ Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin 
 ### e111 · El andén vacío
 *Subsuelo · ◷ 0*
 
-Un andén con la publicidad todavía iluminada: un hombre sonriente te ofrece un crédito. No hay nadie. Llegás.
+Un andén vacío, con la publicidad todavía iluminada. Llegás.
 
 ---
 
@@ -72,8 +70,6 @@ Un tren con las puertas abiertas, y gente sentada con la cabeza apoyada en el vi
 ### e113 · Agua negra
 *Subsuelo · ◷ 1*
 
-El agua llega a la cintura. Algo flota.
-
 - **Cruzar:** `[Físico]`. Con 10+, cruzás. Con 7–9, se mojan 2 casilleros al azar: los Víveres, Fármacos y Electrónica que haya ahí se pierden. Con 6−, lo mismo y 1 Herida. En Etapa III o más, algo te roza la pierna → [e118](#e118).
 - **Volver** al barrio de donde saliste.
 
@@ -83,9 +79,7 @@ El agua llega a la cintura. Algo flota.
 ### e114 · Los del túnel
 *Subsuelo · ◷ 1*
 
-Velas, colchones y una olla en un andén: una docena de personas viven abajo, guiadas por **la Topo**, de casco de obrero.
-
-—Acá abajo no llegan los de la radio. Ni los mudos, casi nunca. ¿Qué traés?
+Una docena de personas viven en un andén, guiadas por **la Topo**, de casco de obrero. «¿Qué traés?».
 
 - **Cambiar** (r166) con Ventaja: Combustible, Linternas, pilas, Soga.
 - **El mapa:** 2 Víveres o 1 Fármacos. Anotá `MAPA_DEL_SUBSUELO`.
@@ -97,7 +91,7 @@ Velas, colchones y una olla en un andén: una docena de personas viven abajo, gu
 ### e115 · En las vías
 *Subsuelo · ◷ 0 · escena: Túnel*
 
-Figuras en las vías, de espaldas. Se dan vuelta todas a la vez cuando la luz las toca.
+Figuras en las vías se dan vuelta a la vez cuando la luz las toca.
 
 > **Callados ×1d6 · Cerca** · escena: Túnel (r336)
 
@@ -117,7 +111,7 @@ Tres túneles, ningún cartel. `[Calle]` (con `MAPA_DEL_SUBSUELO`, llegás sin t
 ### e117 · El techo del túnel
 *Subsuelo · ◷ 0*
 
-En Etapa I, es [e115](#e115). Algo cambia de lugar arriba tuyo, entre los cables.
+En Etapa I, es [e115](#e115). Algo se mueve arriba tuyo, entre los cables.
 
 > **Acechador ×1 · Lejos** ([e724](#e724)) · escena: Túnel
 
@@ -129,7 +123,7 @@ Con Linterna, tu primera ronda va antes de su salto.
 ### e118 · Los Ahogados
 *Subsuelo · ◷ 0*
 
-En Etapa I o II, es [e113](#e113). El agua se mueve sin viento y salen manos blancas, hinchadas.
+En Etapa I o II, es [e113](#e113). Del agua salen manos blancas, hinchadas.
 
 > **Ahogados ×1d3 · Cerca** ([e728](#e728)) · escena: Túnel
 
@@ -141,7 +135,7 @@ Si venís del agua ([e113](#e113)), empiezan **Encima**.
 ### e119 · El nido
 *Subsuelo · ◷ 0*
 
-Una estación de cientos de Callados dormidos, si es que duermen. Tenés que cruzar el andén.
+Una estación de cientos de Callados dormidos. Tenés que cruzar el andén.
 
 `[Sigilo]`, sin luz (con Linterna, Desventaja). Con 10+, cruzás. Con 7–9, pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen. Con 6−, **Callados ×4d6 · Cerca**: solo queda escapar.
 
@@ -165,7 +159,7 @@ En Etapa I o II, es [e115](#e115) con el doble. Un Bruto ([e726](#e726)) atascad
 ### e121 · El cuarto de máquinas
 *Subsuelo · ◷ 1*
 
-PELIGRO ALTA TENSIÓN. Adentro, mapas de Tolme marcados en rojo y una radio militar. Alguien que sabía lo que iba a pasar trabajó acá.
+Mapas de Tolme marcados en rojo y una radio militar.
 
 - **Los papeles:** una pista ([e560](#e560)); otra si ya habías estado.
 - **La radio:** con `[Mecánica]` 10+ anda un minuto. Una conversación cifrada y una palabra que se repite: «Pastor». Anotá `PISTA_PASTOR`.
@@ -178,8 +172,6 @@ PELIGRO ALTA TENSIÓN. Adentro, mapas de Tolme marcados en rojo y una radio mili
 <a id="e130"></a>
 ### e130 · Las Azoteas
 *Azoteas · ◷ 0*
-
-Tanques, antenas, sábanas tendidas. Desde acá se ve venir lo que viene.
 
 En cada viaje, 1d6: solo con un **1** hay encuentro (otro 1d6: 1 [e131](#e131) · 2 [e132](#e132) · 3 [e133](#e133) · 4 [e134](#e134) · 5 [e135](#e135) · 6 [e136](#e136)). Y siempre podés **mirar**: humo, luz o movimiento en los barrios vecinos.
 
@@ -197,8 +189,6 @@ El tablón cruje. `[Físico]` (con tus propios Tablones, no tirás). Con 7–9, 
 ### e132 · La huerta de arriba
 *Azoteas · ◷ 1 · stock ▢▢*
 
-Una huerta en cajones que nadie cuida hace días.
-
 Cada revisión: 2 Víveres y una casilla. Y semillas: la Huerta ([e752](#e752)) produce +1 desde su primera noche. Anotá `LA_HUERTA_DE_ARRIBA` y el barrio.
 
 ---
@@ -207,7 +197,7 @@ Cada revisión: 2 Víveres y una casilla. Y semillas: la Huerta ([e752](#e752)) 
 ### e133 · El tirador
 *Azoteas · ◷ 0*
 
-Un disparo rebota en el tanque al lado de tu cabeza. Desde enfrente, un rifle.
+Un disparo rebota al lado de tu cabeza.
 
 1. **Mostrar las manos.** «¡Estoy vivo!» `[Labia]`. Con 7+, es un viejo que defiende su terraza: te deja pasar y te dice dónde hay una Procesión (r155). Con 6−, otro disparo: 1 Herida.
 2. **Correr al próximo edificio.** `[Físico]`: con 6−, llegás con 1 Herida.
@@ -227,7 +217,7 @@ En Etapa I, un Callado que subió por la escalera y no sabe bajar: **Callados ×
 ### e135 · Otro grupo arriba
 *Azoteas · ◷ 0*
 
-Cuatro chicos con mochilas y una soga, cruzando techos como vos. Se frenan al verte. Vivos: r300. Si sale Quieren venir con vos, viene uno solo: Nico, 15 años, el de la soga, con Físico 2.
+Cuatro chicos con una soga, cruzando techos como vos. Vivos: r300. Si sale Quieren venir con vos, viene uno solo: Nico, 15 años, el de la soga, con Físico 2.
 
 ---
 
@@ -235,7 +225,7 @@ Cuatro chicos con mochilas y una soga, cruzando techos como vos. Se frenan al ve
 ### e136 · La vista
 *Azoteas · ◷ 1*
 
-Desde la terraza más alta se ve casi toda Tolme. 1d6: **1–2**, todas las Procesiones del mapa, y una que no estaba (r155). **3–4**, humo de cocina en un barrio: la próxima vez que llegues, en lugar de tirar, podés ir a r300 con Hablar. **5**, la Marea, más grande que la última vez: −1 Ánimo. **6**, camiones militares entrando al Perímetro, no saliendo: una pista ([e560](#e560)).
+Desde la terraza más alta, 1d6: **1–2**, todas las Procesiones del mapa, y una que no estaba (r155). **3–4**, humo de cocina en un barrio: la próxima vez que llegues, en lugar de tirar, podés ir a r300 con Hablar. **5**, la Marea, más grande que la última vez: −1 Ánimo. **6**, camiones militares entrando al Perímetro, no saliendo: una pista ([e560](#e560)).
 
 ---
 
@@ -245,7 +235,7 @@ Desde la terraza más alta se ve casi toda Tolme. 1d6: **1–2**, todas las Proc
 ### e140 · La noche te agarra afuera
 *Donde estés · de noche*
 
-De noche, las calles son de ellos. Tirá 1d6 (+1 con `LA_TOPO` en un barrio con Subsuelo; −1 en Etapa III o IV):
+Tirá 1d6 (+1 con `LA_TOPO` en un barrio con Subsuelo; −1 en Etapa III o IV):
 
 | 1d6 | 1 o menos | 2 | 3 | 4 | 5 | 6 o más |
 |---|---|---|---|---|---|---|
@@ -259,7 +249,7 @@ Comés de tu Mochila o perdés 1 Reserva. Al alba, robás la carta donde estés.
 ### e141 · Un baño con traba
 *Donde estés · de noche*
 
-Una traba y un inodoro. Dormís a los saltos. No pasa nada: al alba, +1 Ánimo.
+Una traba y un inodoro. Al alba, +1 Ánimo.
 
 ---
 
@@ -267,11 +257,7 @@ Una traba y un inodoro. Dormís a los saltos. No pasa nada: al alba, +1 Ánimo.
 ### e142 · Una luz en una ventana
 *Donde estés · de noche*
 
-Una vela detrás de una cortina. Golpeás bajito y te abre una pareja de viejos que nunca se fue de su casa.
-
-—Pasá, nene. Pasá que hace frío.
-
-Sopa (+1 Reserva sin gastar Víveres), frazada y sillón. A la mañana, 1 Víver para el camino. Anotá `LOS_VIEJOS_DE_LA_VELA` y el barrio. Si volvés con 2 Fármacos para su diabetes, se ponen a llorar y te dan la escopeta del abuelo (Escopeta, 2 Munición).
+Te abre una pareja de viejos que nunca se fue de su casa: «Pasá, que hace frío». Sopa (+1 Reserva sin gastar Víveres), frazada y sillón. A la mañana, 1 Víver para el camino. Anotá `LOS_VIEJOS_DE_LA_VELA` y el barrio. Si volvés con 2 Fármacos para su diabetes, se ponen a llorar y te dan la escopeta del abuelo (Escopeta, 2 Munición).
 
 ---
 
@@ -279,17 +265,13 @@ Sopa (+1 Reserva sin gastar Víveres), frazada y sillón. A la mañana, 1 Víver
 ### e143 · Adentro de un auto
 *Donde estés · de noche*
 
-Te acostás atrás, bajo una manta que huele a perro. Afuera, pasan.
-
-`[Sigilo]`. Con 6−, a las tres uno se apoya en el vidrio y te mira. Otro. Otro. **Callados ×1d6 · Cerca**, y las puertas aguantan dos rondas antes de que lleguen a Encima. O arrancás el auto ([r157](#r157)) si tiene nafta (1–3 en 1d6) y te vas a un vecino con +2 Ruido.
+`[Sigilo]`. Con 6−, a las tres uno se apoya en el vidrio y te mira. **Callados ×1d6 · Cerca**, y las puertas aguantan dos rondas antes de que lleguen a Encima. O arrancás el auto ([r157](#r157)) si tiene nafta (1–3 en 1d6) y te vas a un vecino con +2 Ruido.
 
 ---
 
 <a id="e144"></a>
 ### e144 · No estás solo
 *Donde estés · de noche · escena: Escalera*
-
-La casa parecía vacía. A medianoche, arriba, pasos que van y vienen.
 
 > **Callados ×1d3 · Lejos** · escena: Escalera (r332), vos abajo.
 
@@ -301,11 +283,7 @@ Si ganás, la casa es tuya: Vivienda, stock ▢▢.
 ### e145 · La casa con dueño
 *Donde estés · de noche*
 
-Una linterna te encandila.
-
-—Quieto. Esto ya tiene dueño.
-
-Vivos: r300 con la postura Hablar. Son tres y estás a oscuras: si termina en pelea, Desventaja en la primera ronda.
+Una linterna te encandila: «Esto ya tiene dueño». Vivos: r300 con la postura Hablar. Son tres y estás a oscuras: si termina en pelea, Desventaja en la primera ronda.
 
 ---
 
@@ -317,7 +295,7 @@ Vivos: r300 con la postura Hablar. Son tres y estás a oscuras: si termina en pe
 ### e150 · Silencio
 *Calle · ◷ 0*
 
-Un semáforo que cambia para nadie. En una pared: DIOS NO ESTÁ. Llegás sin problemas.
+Un semáforo que cambia para nadie. Llegás sin problemas.
 
 ---
 
@@ -337,7 +315,7 @@ Pelear, o la otra vereda: `[Sigilo]`. Con 7–9, +1 Ruido. Con 6−, combate.
 ### e152 · El auto con alguien adentro
 *Calle · ◷ 0*
 
-Alguien con el cinturón puesto golpea el vidrio con la frente. Toc. Toc. Toc. Atrás hay bolsos.
+Alguien con el cinturón puesto golpea el vidrio con la frente. Atrás hay bolsos.
 
 1. **La puerta de atrás,** sin tocar la de adelante. `[Sigilo]`. Con 7+, dos tiradas de Vivienda (r162). Con 6−, se le suelta el cinturón: **Callados ×1 · Encima**.
 2. **Terminar con él** por la ventanilla: +1 Ruido y los bolsos sin tirar. −1 Ánimo si mirás la foto del tablero.
@@ -357,14 +335,12 @@ Vivos, al final de la cuadra. Te vieron, o están por verte. Usá r300.
 ### e154 · El herido
 *Calle · ◷ 0*
 
-Alguien contra una persiana, apretándose una pierna ensangrentada.
-
-—No me mordieron. Me corté con un vidrio. Te juro.
+Alguien contra una persiana, con una pierna ensangrentada. «No me mordieron. Te juro».
 
 - **Revisarlo** `[Medicina]` (con *Manos de guardia*, sin tirar): con 7+, es un corte.
 - **Curarlo y llevarlo:** 1 Fármacos, ◷ 1, y tirá quién es en r180. Si no supiste la verdad, con 1 en 1d6 mentía: `MORDIDO_EN_SECRETO_` y su nombre.
 - **Dejarle 1 Fármacos e irte.** +1 Ánimo.
-- **Irte.** Te grita algo que no querés escuchar.
+- **Irte.**
 
 ---
 
@@ -372,7 +348,7 @@ Alguien contra una persiana, apretándose una pierna ensangrentada.
 ### e155 · La vidriera
 *Calle · ◷ 0*
 
-Una vidriera intacta, con abrigo, mochilas y linternas. La puerta tiene reja y candado.
+Una vidriera intacta, con reja y candado.
 
 - **Romperla:** +2 Ruido. Comercio, stock ▢▢.
 - **El candado** `[Oficio]` (+1 con Palanca o ganzúas): con 10+, sin ruido; con 7–9, +1 Ruido.
@@ -384,7 +360,7 @@ Una vidriera intacta, con abrigo, mochilas y linternas. La puerta tiene reja y c
 ### e156 · El que corre
 *Calle · ◷ 0*
 
-Uno viene corriendo, con jogging y los auriculares colgando: un Fresco ([e721](#e721)).
+Uno viene corriendo, con jogging: un Fresco ([e721](#e721)).
 
 > **Fresco ×1 · Lejos**, y detrás, **Callados ×1d6 · Lejos**
 
@@ -406,15 +382,13 @@ Un Hinchado ([e722](#e722)) apoyado en un poste.
 ### e158 · El perro
 *Calle · ◷ 0*
 
-Un perro negro y flaco te sigue hace dos cuadras, moviendo la cola con miedo. Si no conocés al Negro → [e651](#e651). Si ya lo conocés, es otro perro.
+Un perro negro te sigue hace dos cuadras. Si no conocés al Negro → [e651](#e651). Si ya lo conocés, es otro perro.
 
 ---
 
 <a id="e159"></a>
 ### e159 · Muchos
 *Calle · ◷ 0*
-
-Doblás la esquina y están ahí. Demasiados para una cuadra.
 
 > **Callados ×2d6 · Cerca**
 
@@ -426,7 +400,7 @@ Pelear es mala idea. Escapar (r142) o cambiar de capa es la idea.
 ### e160 · El grito
 *Calle · ◷ 0*
 
-En Etapa I, es [e151](#e151). Una mujer en camisón, en el medio de la calle. Te ve. Abre la boca. Abre más la boca.
+En Etapa I, es [e151](#e151). Una mujer en camisón te ve y abre la boca.
 
 > **Chillona ×1 · Lejos** ([e723](#e723)), y **Callados ×1d6 · Lejos**
 
@@ -448,7 +422,7 @@ Con `[Calle]` 10+ (gratis), lo ves antes y cruzás de vereda.
 ### e162 · La jauría
 *Calle · ◷ 0*
 
-En Etapa I, es [e158](#e158). Un ovejero, un caniche con moño, dos callejeros. Ojos blancos. Silencio.
+En Etapa I, es [e158](#e158). Un ovejero, un caniche con moño, dos callejeros. Ojos blancos.
 
 > **Sabuesos ×1d6 · Lejos** ([e725](#e725))
 
@@ -480,7 +454,7 @@ En Etapa I o II, es [e159](#e159). Una mancha verde hace burbujear el capó al l
 ### e165 · Los de uniforme
 *Calle · ◷ 0*
 
-En Etapa I o II, es [e153](#e153). Cascos, chalecos, escudos, en fila, como si siguieran en un operativo.
+En Etapa I o II, es [e153](#e153). Cascos y escudos, en fila.
 
 > **Blindados ×1d3 · Lejos** ([e729](#e729))
 
@@ -492,7 +466,7 @@ Si ganás, una tirada por cuerpo en la tabla de equipo del Blindado.
 ### e166 · La que llora
 *Calle · ◷ 0*
 
-Fuera de la Etapa IV, es [e159](#e159). Una mujer sentada en medio de la calle, llorando, y en cien metros nada vivo ni muerto. Es la Viuda ([e730](#e730)): leé su ficha antes de elegir.
+Fuera de la Etapa IV, es [e159](#e159). Una mujer sentada en medio de la calle, llorando. Es la Viuda ([e730](#e730)): leé su ficha antes de elegir.
 
 1. **Rodear la cuadra.** ◷ 1, `[Sigilo]`. Con 6−, levanta la cabeza y deja de llorar: combate.
 2. **Volver.** ◷ 1.
@@ -504,7 +478,7 @@ Fuera de la Etapa IV, es [e159](#e159). Una mujer sentada en medio de la calle, 
 ### e167 · Se acerca
 *Calle · ◷ 0*
 
-Al final de la avenida, una mancha oscura que ocupa todo el ancho. Una Procesión entra a este barrio: poné la ficha. Tenés **1 hora**; si seguís acá, → [e100](#e100).
+Una Procesión entra a este barrio: poné la ficha. Tenés **1 hora**; si seguís acá, → [e100](#e100).
 
 ---
 
@@ -522,7 +496,7 @@ Un cuerpo boca abajo, con una mochila de camping puesta.
 ### e169 · Lo que escriben en las paredes
 *Calle · ◷ 0*
 
-Aerosol, marcador, carbón, sangre. 1d6:
+1d6:
 
 - **1** · «MARTA, ESTAMOS EN LA CATEDRAL. MAMÁ». Si tu Motivo es El que falta, −1 Ánimo: por un segundo creíste que era para vos.
 - **2** · «AGUA →». Una canilla que anda: +2 Víveres por ◷ 1.

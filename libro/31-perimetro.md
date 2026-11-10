@@ -1,6 +1,6 @@
 ## Barrio 12 · El Perímetro
 
-*El borde norte, donde Tolme choca contra el muro: contenedores apilados de a tres, alambre, torres de vigía, el puesto de la ruta y el campamento del ejército. Del otro lado, la Marea. Se la escucha siempre.*
+*Donde Tolme choca contra el muro de contenedores. Del otro lado, la Marea. Se la escucha siempre.*
 
 <a id="e420"></a>
 ### e420 · El Perímetro: llegar
@@ -26,7 +26,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e421 · El Puesto de control Norte
 *El Perímetro · Policía · stock ▢▢▢*
 
-La barrera de la ruta y la fila de autos que quería salir el día 2, con las puertas abiertas. Casquillos por todas partes.
+La fila de autos que quería salir el día 2, con las puertas abiertas. Casquillos por todas partes.
 
 **Tesoro:** si el Camión del Comando o la Armería del cordón están acá (r110) → [e500](#e500) o [e520](#e520).
 
@@ -40,7 +40,7 @@ La barrera de la ruta y la fila de autos que quería salir el día 2, con las pu
 ### e422 · El campamento militar
 *El Perímetro · El Destacamento · stock ▢▢▢*
 
-Carpas verdes, bolsas de arena, ametralladoras en los camiones. Pocos soldados para tanto campamento, con ojeras, mirando el muro. Es la casa del **Destacamento**.
+Carpas verdes y pocos soldados para tanto campamento, mirando el muro. Es la casa del **Destacamento**.
 
 **Tesoro:** si la Armería del cordón o el Blindado están acá (r110) → [e520](#e520) o [e550](#e550), solo si el Destacamento te deja o ya no está.
 
@@ -66,8 +66,6 @@ Una carpa con cruz roja y un cartel: «TRIAJE. FIEBRE → IZQUIERDA. SIN FIEBRE 
 ### e424 · La torre de vigía
 *El Perímetro · Policía · stock ▢▢*
 
-Quince metros de andamio contra el muro, un reflector y una ametralladora sin balas.
-
 **Tesoro:** si la Radio del aficionado está acá (r110) → [e540](#e540).
 
 - **Revisar** (r161).
@@ -80,7 +78,7 @@ Quince metros de andamio contra el muro, un reflector y una ametralladora sin ba
 ### e425 · El muro
 *El Perímetro · ◷ 0*
 
-Contenedores soldados con chapas y grafitis: «NOS ENCERRARON», «40», «MAMÁ TE QUIERO». Del otro lado, millones de pies y un murmullo que nunca para. El metal está tibio. Vibra.
+Grafitis: «NOS ENCERRARON», «40», «MAMÁ TE QUIERO». Del otro lado, un murmullo que nunca para. El metal vibra.
 
 - **Si tu Motivo es La obra:** reconocés la soldadura y el número de lote → [e815](#e815).
 - **Con `GRIETA_EN_EL_MURO`:** ves dónde va a ceder → [e435](#e435).
@@ -103,7 +101,7 @@ r300, con Hablar y +1. En el Trueque tienen 12 Munición y raciones (2 Víveres 
 ### e431 · Las cartas en el alambre
 *El Perímetro · ◷ 0*
 
-Cientos de papeles atados al alambrado: «Papá, estamos en la Catedral». «Si alguien ve a Mirta González, la esperamos». «Perdón».
+Cientos de papeles atados al alambrado: «Papá, estamos en la Catedral». «Perdón».
 
 Dejar una: +1 Ánimo. Leer muchas (◷ 1): −1 Ánimo, y una sin firma dice: «Mi marido era chofer del laboratorio. Lo mataron el día −1». Una pista ([e560](#e560)).
 
@@ -125,7 +123,7 @@ Un jeep frena delante tuyo. «Civiles no pueden estar acá. ¿Qué buscás?».
 ### e433 · El ruido
 *El Perímetro · ◷ 0*
 
-Un estruendo del otro lado. Los contenedores se doblan hacia adentro, chirriando, y aparecen dedos entre las soldaduras. Miles. Los soldados corren hacia el tramo y te gritan que ayudes o te vayas.
+Los contenedores se doblan hacia adentro y aparecen dedos entre las soldaduras. Los soldados te gritan que ayudes o te vayas.
 
 1. **Ayudar:** **Callados ×3d6 · Cerca**, con 3 soldados de tu lado (r148: Puntería 2, fusil Daño 2). Si ganan, +2 Reputación con el Destacamento y anotá `AYUDASTE_EN_EL_MURO`. Si no, → [e049](#e049).
 2. **Irte** al barrio de donde viniste, con −1 Ánimo. Al alba siguiente, [e049](#e049).
@@ -136,7 +134,7 @@ Un estruendo del otro lado. Los contenedores se doblan hacia adentro, chirriando
 ### e434 · El otro lado
 *El Perímetro · Torre de vigía · ◷ 1*
 
-Arriba, el viento. Abajo, la Marea. No es una multitud: es un paisaje gris que se mueve como el mar hasta el horizonte. Los de atrás trepan sobre los de adelante, y en algunos tramos la rampa de cuerpos llega a la mitad del muro.
+Abajo, la Marea: un paisaje gris que se mueve como el mar hasta el horizonte. Los de atrás trepan sobre los de adelante.
 
 −1 Ánimo y anotá `VISTE_LA_MAREA`. Desde la carta 31, la rampa está a dos metros del borde: anotá `LA_RAMPA` ([e435](#e435)).
 
@@ -146,7 +144,7 @@ Arriba, el viento. Abajo, la Marea. No es una multitud: es un paisaje gris que s
 ### e435 · Donde va a ceder
 *El Perímetro · El muro · ◷ 2*
 
-Tres contenedores con las soldaduras abiertas como cierres. Por ahí va a entrar, y de ahí el camino corto va al centro.
+Tres contenedores con las soldaduras abiertas. Por ahí va a entrar.
 
 1. **Avisarle al Destacamento.** Con Reputación 0 o más, refuerzan el tramo: borrá `EL_MURO_CEDIO` y +1 Reputación.
 2. **Reforzarlo vos:** 4 Metal, 2 Sujeción, Soldadora, `[Mecánica]` u `[Oficio]`, ◷ 4. Con 7+, anotá `REFORZASTE_EL_MURO`: la primera oleada de la Noche 40 pierde 2 de Fuerza.

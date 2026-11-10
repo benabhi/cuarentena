@@ -5,13 +5,13 @@
 
 *Nadia Correa es Adulta, maestra de cuarto grado (`OFICIO_DOCENCIA`), de Los Bloques. Su Motivo es El que falta: busca a su hermano Ezequiel, que la noche del brote trabajaba de sereno en El Puerto; ya tiene 1 señal. Su debilidad es el Asma. Es el día 7 y tiene su refugio en la Escuela N.º 9, en su propio barrio, con tres sobrevivientes: Lucía, el Chino y Pocho. Hay 5 Víveres y la Moral está en 4.*
 
-**El alba.** Nadia roba el **3 de Oros**: hallazgo, leve. Tira en la columna Leve de [e020](#e020): el Chino vio humo en el Mercado. Después, el grupo come 4 Víveres. Queda 1. El Puerto, donde sigue el rastro de Ezequiel, queda para el otro lado. Hoy manda el estómago.
+**El alba.** Nadia roba el **3 de Oros**: hallazgo, leve ([e020](#e020)): el Chino vio humo en el Mercado. El grupo come 4 Víveres y queda 1. El rastro de Ezequiel sigue en El Puerto, pero hoy manda el estómago.
 
-**Las horas de luz.** Sale con Pocho por las **Azoteas** hasta El Mercado: ◷ 2, sin Ruido, y el 5 en 1d6 no trae encuentro. Bajan en el **Hipermercado Zeta** (stock ▢▢▢) y Nadia revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en Almacén. Saca 3, 6 y 1: seis Víveres. Tres casilleros para ella, el resto para Pocho.
+**Las horas de luz.** Sale con Pocho por las **Azoteas** hasta El Mercado: ◷ 2, sin Ruido, y el 5 en 1d6 no trae encuentro. En el **Hipermercado Zeta** (stock ▢▢▢) revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en Almacén: 3, 6 y 1, seis Víveres.
 
-Le quedan 2 horas. Por la Calle tardaría 1, pero con Ruido, encuentro y sin inhalador. Vuelve por arriba. En el mapa pinta la marca de búsqueda: una X con un 7, «1» a la izquierda, «nadie» a la derecha y, abajo, EZEQUIEL ([e842](#e842)). Primer nombre que pinta en la Etapa: un palito.
+Le quedan 2 horas. Por la Calle tardaría 1, pero con Ruido, encuentro y sin inhalador: vuelve por arriba. Pinta la marca de búsqueda (una X con un 7, «1» a la izquierda, «nadie» a la derecha) y, abajo, EZEQUIEL ([e842](#e842)).
 
-**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral, y mañana comen un Víver menos), Pocho hace Obra (+1 a la Puerta) y Nadia descansa. Sondeo: Rastro 3; tira 2d6 − 1 por la guardia y saca 6. Nada. Quedan treinta y tres cartas. Mañana el grupo le pone un apodo, y casi todos sus palitos están en Labia.
+**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral, y mañana comen un Víver menos), Pocho hace Obra (+1 a la Puerta) y Nadia descansa. Sondeo: Rastro 3; tira 2d6 − 1 por la guardia y saca 6. Nada. Quedan treinta y tres cartas.
 
 ---
 
@@ -20,7 +20,7 @@ Le quedan 2 horas. Por la Calle tardaría 1, pero con Ruido, encuentro y sin inh
 <a id="r200"></a>
 ### r200 · Fabricar es sobrevivir
 
-En Tolme nada de lo que necesitás está en una góndola: barricadas, trampas, armas silenciosas, munición, remedios, la huerta, el generador. Todo se arma con lo que hay. El **taller** es el corazón del juego.
+En Tolme nada de lo que necesitás está en una góndola: barricadas, trampas, armas silenciosas, remedios, el generador. Todo se arma con lo que hay.
 
 Para fabricar necesitás **conocer la receta** (r203), **los materiales** (r165), **las herramientas** (r202), **la Habilidad mínima** y **el tiempo** (◷). Las recetas están en e740–e761, resumidas en r207.
 
@@ -29,18 +29,7 @@ Para fabricar necesitás **conocer la receta** (r203), **los materiales** (r165)
 
 Las herramientas no se gastan. Encima, ocupan 1 casillero.
 
-| Herramienta | Sirve para |
-|---|---|
-| **Martillo** | Barricadas, trampas, casi todo lo de madera |
-| **Serrucho** | Cortar madera, caños y huesos |
-| **Llave inglesa** | Motores, caños, bulones |
-| **Palanca** | Forzar puertas y postigos (+1); también es un arma (Daño 1) |
-| **Taladro** | Chapas atornilladas, rejas. Necesita Generador o una batería |
-| **Soldadora** | Rejas, blindajes, brazales. Necesita Generador |
-| **Máquina de coser** | Ropa, protecciones, bolsos, cortinas |
-| **Olla a presión** | Destilar, esterilizar, conservas |
-| **Kit de recarga** | Recargar cartuchos |
-| **Botiquín** | +1 a curar; cuenta para la medicina de las recetas |
+**Martillo:** barricadas, trampas, casi todo lo de madera. **Serrucho:** madera, caños y huesos. **Llave inglesa:** motores, caños, bulones. **Palanca:** forzar puertas y postigos (+1); también es un arma (Daño 1). **Taladro:** chapas y rejas; necesita Generador o una batería. **Soldadora:** rejas, blindajes, brazales; necesita Generador. **Máquina de coser:** ropa, protecciones, cortinas. **Olla a presión:** destilar, esterilizar, conservas. **Kit de recarga:** cartuchos. **Botiquín:** +1 a curar y cuenta para las recetas de medicina.
 
 **Herramienta al azar (1d6):** 1 Martillo · 2 Serrucho · 3 Llave inglesa · 4 Palanca · 5 Taladro · 6 Máquina de coser.
 
@@ -95,21 +84,17 @@ Un arma o protección rota (Usos 0) se repara en el refugio con ◷ 1 y 1 Metal 
 <a id="r210"></a>
 ### r210 · Modos de juego
 
-| Modo | Cambios | Meta |
-|---|---|---|
-| **Cuarentena** | Las reglas como están | Llegar al amanecer del día 41 con el refugio en pie |
-| **Toque de queda** (partida corta) | Sacá del mazo los 1, 2 y 3 de cada palo: 28 cartas. La Etapa sube cada 7 cartas (8, 15 y 22). Empezás con 4 Víveres más. Si un evento nombra una carta por su número, multiplicalo por 0,7 y redondeá (la 11 es la 8; la 15, la 11; la 35, la 25; la 39, la 27; la 40, la 28) | Igual |
-| **Lobo solo** | No podés tener sobrevivientes (los que encuentres te dan lo que tengan y se van). La Marea tiene 2 oleadas menos. La Moral no existe: perdés Ánimo donde se perdería Moral | Llegar vivo al amanecer |
-| **Éxodo** | El refugio es temporal. Las salidas de la ciudad están en [e960](#e960) | Cruzar el perímetro antes de la Noche 40, con al menos un sobreviviente |
+- **Cuarentena:** las reglas como están. Meta: el amanecer del día 41 con el refugio en pie.
+- **Toque de queda** (partida corta): sacá los 1, 2 y 3 de cada palo (28 cartas). La Etapa sube con las cartas 8, 15 y 22. Empezás con 4 Víveres más. Si un evento nombra una carta por su número, multiplicalo por 0,7 y redondeá (la 35 es la 25; la 40, la 28).
+- **Lobo solo:** sin sobrevivientes (los que encuentres te dan lo que tengan y se van) y sin Moral (perdés Ánimo donde se perdería Moral). La Marea tiene 2 oleadas menos. Meta: llegar vivo al amanecer.
+- **Éxodo:** el refugio es temporal. Meta: cruzar el perímetro antes de la Noche 40 con al menos un sobreviviente ([e960](#e960)).
 
 <a id="r211"></a>
 ### r211 · Dificultad
 
-| Dificultad | Cambios |
-|---|---|
-| **Vecino** | +6 Víveres al empezar. El Rastro empieza en 0. La Marea tiene 1 oleada menos |
-| **Sobreviviente** | Las reglas como están |
-| **Último en pie** | La Etapa empieza en II (súbela en las cartas 11 y 21, hasta la IV). La Marea tiene 1 oleada más. Sin Antivirales en las tablas de botín (cuentan como 1 Fármacos) |
+- **Vecino:** +6 Víveres al empezar, Rastro 0 y la Marea con 1 oleada menos.
+- **Sobreviviente:** las reglas como están.
+- **Último en pie:** empezás en la Etapa II (sube con las cartas 11 y 21), la Marea tiene 1 oleada más y los Antivirales de las tablas de botín cuentan como 1 Fármacos.
 
 <a id="r212"></a>
 ### r212 · La ciudad arde
@@ -142,8 +127,6 @@ La carta cuarenta es el último día. Resolvela, comé, usá tus 6 horas… y pr
 
 <a id="r221"></a>
 ### r221 · Las oleadas
-
-La Marea llega por **oleadas**, como el agua que sube.
 
 **Cuántas:** 3 + Rastro ÷ 3, redondeando hacia abajo (Rastro 0–2: 3; 3–5: 4; 6–8: 5; 9–10: 6). Algunos eventos y el Secreto suman o restan.
 
@@ -198,4 +181,4 @@ Además, después de la **segunda** y de la **cuarta** oleada, leé el evento qu
 
 Si después de la última oleada **vos seguís vivo** y **el refugio sigue en pie** (aunque sea solo el Último Cuarto), sale el sol → [e930](#e930).
 
-Contá a los que sobrevivieron. De eso depende qué clase de victoria es.
+Contá a los que sobrevivieron: de eso depende qué clase de victoria es.

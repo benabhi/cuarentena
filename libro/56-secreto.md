@@ -8,15 +8,11 @@
 ### e560 · Una pista
 *El Secreto · ◷ 0*
 
-Algo que no cierra: un papel, una frase, una cara que mira para otro lado.
-
 Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho) y escribí adentro la letra del barrio donde la encontraste. Las pistas son del grupo. Si te llega en el refugio, de una carta o de alguien, elegí el color. Dónde buscás decide qué verdad podés encontrar.
 
-| Color | Apunta a | Barrios |
-|---|---|---|
-| **C** · Comando | 1 El plazo · 2 La purga | Perímetro, Estación, Casco, Fabril |
-| **L** · Laboratorio | 3 El ensayo · 4 La voz grabada | Sanidad, Universidad, Mercado, Bloques |
-| **A** · Afuera | 5 El Pastor · 6 Los inmunes | Puerto, Costanera, Cementerio, Lomas |
+- **C · Comando** (Perímetro, Estación, Casco, Fabril): apunta a 1 El plazo y 2 La purga.
+- **L · Laboratorio** (Sanidad, Universidad, Mercado, Bloques): 3 El ensayo y 4 La voz grabada.
+- **A · Afuera** (Puerto, Costanera, Cementerio, Lomas): 5 El Pastor y 6 Los inmunes.
 
 - **Cada fuente da una sola pista,** salvo que la entrada diga «otra pista».
 - **2.ª pista** → [e561](#e561). **4.ª** → [e562](#e562). **6.ª** → [e563](#e563).
@@ -30,10 +26,10 @@ Después, volvé a donde estabas.
 ### e561 · Algo no cierra
 *El Secreto · 2 pistas · ◷ 0*
 
-Esa noche desplegás lo que juntaste sobre la mesa. «¿Y esto qué quiere decir?». No sabés. Pero la Señora no dice todo, el Comando sabía algo antes del día 0, y cuarenta no es un número al azar.
+La Señora no dice todo, el Comando sabía algo antes del día 0, y cuarenta no es un número al azar.
 
-1. **Contarlo,** `[Labia]`. Con 10+, el grupo se une alrededor de la duda: +1 Moral. Con 7–9, la mitad no quiere saber. Con 6−, alguien te grita que dejes de asustar a los chicos: −1 Moral.
-2. **Guardártelo.** −1 Ánimo para vos: pesa.
+1. **Contarlo,** `[Labia]`. Con 10+, el grupo se une alrededor de la duda: +1 Moral. Con 7–9, la mitad no quiere saber. Con 6−, −1 Moral.
+2. **Guardártelo.** −1 Ánimo.
 
 ---
 
@@ -41,7 +37,7 @@ Esa noche desplegás lo que juntaste sobre la mesa. «¿Y esto qué quiere decir
 ### e562 · La forma de la verdad
 *El Secreto · 4 pistas · ◷ 0*
 
-Todavía no es la verdad, pero es su sombra. **Podés abrir el Secreto** (r109): andá a [e570](#e570) y anotá `SECRETO_ABIERTO`. Saber antes te deja prepararte: cada revelación dice qué hacer **antes de la Noche 40**. Si no lo abrís, cada pista nueva te da más control; desde ahora podés abrirlo en el refugio cuando quieras (◷ 1).
+**Podés abrir el Secreto** (r109): andá a [e570](#e570) y anotá `SECRETO_ABIERTO`. Saber antes te deja prepararte: cada revelación dice qué hacer **antes de la Noche 40**. Si no lo abrís, cada pista nueva te da más control; desde ahora podés abrirlo en el refugio cuando quieras (◷ 1).
 
 ---
 
@@ -49,7 +45,7 @@ Todavía no es la verdad, pero es su sombra. **Podés abrir el Secreto** (r109):
 ### e563 · Todo
 *El Secreto · 6 pistas · ◷ 0*
 
-Lo ves entero: la fecha del muro, la orden sellada, las ampollas, la voz. Te quedás despierto mirando el techo. Anotá `LA_VERDAD_ENTERA`; −1 Ánimo. Si no abriste el Secreto, abrilo ahora ([e570](#e570)). Las opciones **«Con `LA_VERDAD_ENTERA`»** de cada revelación ahora son tuyas.
+Lo ves entero. Anotá `LA_VERDAD_ENTERA`; −1 Ánimo. Si no abriste el Secreto, abrilo ahora ([e570](#e570)). Las opciones **«Con `LA_VERDAD_ENTERA`»** de cada revelación ahora son tuyas.
 
 ---
 
@@ -61,16 +57,9 @@ Lo ves entero: la fecha del muro, la orden sellada, las ampollas, la voz. Te que
 2. **Movelo** con tus pistas: con **4 o 5**, un lugar; con **6 o más**, hasta dos. La tabla es una rueda (después del 6, el 1), y solo podés **terminar** en una verdad de un color que tengas. Con menos de 4 pistas, queda como salió.
 3. **Anotá el número.** Esa es la verdad de esta partida, y ya no cambia.
 
-| Secreto | La verdad | Entrada |
-|---|---|---|
-| 1 | El plazo | [e581](#e581) |
-| 2 | La purga | [e582](#e582) |
-| 3 | El ensayo | [e583](#e583) |
-| 4 | La voz grabada | [e584](#e584) |
-| 5 | El Pastor | [e585](#e585) |
-| 6 | Los inmunes | [e586](#e586) |
+**1** El plazo ([e581](#e581)) · **2** La purga ([e582](#e582)) · **3** El ensayo ([e583](#e583)) · **4** La voz grabada ([e584](#e584)) · **5** El Pastor ([e585](#e585)) · **6** Los inmunes ([e586](#e586)).
 
-Cada revelación tiene **la verdad** (leela siempre), **antes de la Noche 40** (solo con `SECRETO_ABIERTO`) y **el día 41** (el amanecer, [e930](#e930), te manda acá). Las pistas no dicen la verdad: dicen dónde buscarla. Moverla es una decisión, porque cada verdad trae sus peligros y sus salidas.
+Cada revelación tiene **la verdad** (leela siempre), **antes de la Noche 40** (solo con `SECRETO_ABIERTO`) y **el día 41** (el amanecer, [e930](#e930), te manda acá). Moverla es una decisión: cada verdad trae sus peligros y sus salidas.
 
 ---
 
@@ -78,7 +67,7 @@ Cada revelación tiene **la verdad** (leela siempre), **antes de la Noche 40** (
 ### e575 · Lo que dijo la radio militar
 *El Secreto · ◷ 0*
 
-«Pastor». La palabra de la radio militar y de los dibujos en las paredes no era un nombre en clave: era una descripción. El Comando sabe que hay uno que piensa.
+«Pastor» no era un nombre en clave: era una descripción. Hay uno que piensa.
 
 Anotá `SABES_DEL_PASTOR` y una pista ([e560](#e560)), si no la marcaste ya por esto.
 
@@ -91,10 +80,10 @@ Anotá `SABES_DEL_PASTOR` y una pista ([e560](#e560)), si no la marcaste ya por 
 ### e576 · El control sanitario
 *El Puerto · Muelle tres · ◷ 0*
 
-Una lancha gris a cien metros, el reflector sobre la gente y un megáfono: «De a uno por la escalera. Brazos en alto. Los que tengan fiebre, atrás». 1d6:
+Una lancha gris y un megáfono: «Los que tengan fiebre, atrás». 1d6:
 
-- **1–2 · Se llevan a seis.** Un soldado de traje amarillo les toma la temperatura y les pone una pulsera numerada. A una mujer con fiebre la empuja al agua.
-- **3–4 · Disparan.** Alguien nada hacia la lancha. Tres tiros al aire. Uno más, no al aire.
+- **1–2 · Se llevan a seis.** Termómetro, pulsera numerada; a una mujer con fiebre la empujan al agua.
+- **3–4 · Disparan.** Alguien nada hacia la lancha. Tres tiros al aire; uno más, no.
 - **5–6 · Tiran una bolsa:** 4 Víveres y un formulario en blanco: «Registro de sujetos · Programa L-40 · Fase II».
 
 Una pista ([e560](#e560)).
@@ -110,10 +99,10 @@ Una pista ([e560](#e560)).
 
 Con el Secreto 5 y `SECRETO_ABIERTO`. Si el Pastor muere antes de la Noche 40, la Marea llega igual, pero ciega.
 
-**Encontrarlo.** Camina con la Procesión doble más cercana a la Ciudad Universitaria (si no hay, aparece una, r155). **Mirala** ([e100](#e100)): con 7+ lo ves; con 6−, te ven. Camina solo, unos pasos adelante, y se para a escuchar.
+**Encontrarlo.** Camina con la Procesión doble más cercana a la Ciudad Universitaria (si no hay, aparece una, r155). **Mirala** ([e100](#e100)): con 7+ lo ves; con 6−, te ven.
 
-1. **Desde las Azoteas,** un disparo: `[Puntería]` con Desventaja (sin ella con fusil o ballesta). Con 10+, cae. Con 7–9, grita, por primera vez en semanas; la Procesión se dispersa por tres barrios y él pierde 1 de Aguante. Con 6−, te mira a vos, y la Procesión gira hacia tu edificio.
-2. **Con un Señuelo grande:** la Procesión va, pero él se detiene antes, solo, mirando, como si entendiera. **Pastor ×1 · Lejos** ([e731](#e731)).
+1. **Desde las Azoteas,** un disparo: `[Puntería]` con Desventaja (sin ella con fusil o ballesta). Con 10+, cae. Con 7–9, grita; la Procesión se dispersa por tres barrios y él pierde 1 de Aguante. Con 6−, te mira a vos, y la Procesión gira hacia tu edificio.
+2. **Con un Señuelo grande:** la Procesión va, pero él se detiene antes, solo. **Pastor ×1 · Lejos** ([e731](#e731)).
 3. **Cara a cara:** **Pastor ×1 y Callados ×3d6 · Cerca**. Casi seguro que no salís.
 
 Si muere, anotá `PASTOR_MUERTO`. +2 Moral, −1 Ánimo: tenía cara de persona.
@@ -124,7 +113,7 @@ Si muere, anotá `PASTOR_MUERTO`. +2 Moral, −1 Ánimo: tenía cara de persona.
 ### e578 · Vienen por el inmune
 *El Secreto · Los inmunes · ◷ 0*
 
-Con el Secreto 6 y `SECRETO_ABIERTO`. Un camión del Destacamento, cuatro soldados con barbijo y un civil con una carpeta, que golpea educado y lee un nombre: el de tu inmune.
+Con el Secreto 6 y `SECRETO_ABIERTO`. Un camión del Destacamento y un civil con una carpeta que lee un nombre: el de tu inmune.
 
 1. **Entregarlo:** 6 Víveres, 4 Antivirales y la promesa de volver por el resto. −3 Moral y anotá `ENTREGASTE_AL_INMUNE`.
 2. **Negarlo,** `[Labia]`. Con 10+, se van y vuelven en una semana. Con 7–9, dejan un soldado vigilando: +1 al sondeo durante 1d6 días. Con 6−, entran: **Vivos ×4 · Aguante 2 · Cerca**, con fusiles (Daño 3), sin r300. Si ganás, −3 Reputación con el Destacamento y anotá `ESCONDISTE_AL_INMUNE`.
@@ -136,11 +125,11 @@ Con el Secreto 6 y `SECRETO_ABIERTO`. Un camión del Destacamento, cuatro soldad
 ### e579 · La planta transmisora
 *Las Lomas · AM 870 · ◷ 2*
 
-Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro (◷ 2): una antena roja y blanca detrás del barrio cerrado. Adentro, luces verdes y una computadora que repite `comunicado_final_v3.wav`, creado el **día −5**. No hay nadie. No hubo nadie nunca.
+Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro (◷ 2): una antena detrás del barrio cerrado y una computadora que repite `comunicado_final_v3.wav`, creado el **día −5**. No hubo nadie nunca.
 
 1. **Dejarla hablar.** +1 Ánimo. Si se lo contás al grupo, −1 Moral.
-2. **Apagarla.** Toda Tolme mira sus radios. −1 Reputación con la Parroquia y anotá `LA_SENORA_CALLADA`.
-3. **Grabar tu mensaje** (◷ 1, `[Labia]`): que no viene nadie, que hay que juntarse. Con 10+, +1 Reputación con las cuatro facciones, y los 3 albas siguientes, con 4–6, llega alguien (r180). Con 7–9, eso con solo dos facciones. Con 6−, la voz se quiebra. +3 Rastro y anotá `TU_VOZ_EN_LA_RADIO`.
+2. **Apagarla.** −1 Reputación con la Parroquia y anotá `LA_SENORA_CALLADA`.
+3. **Grabar tu mensaje** (◷ 1, `[Labia]`): que no viene nadie, que hay que juntarse. Con 10+, +1 Reputación con las cuatro facciones, y los 3 albas siguientes, con 4–6, llega alguien (r180). Con 7–9, eso con solo dos facciones. Con 6−, la voz se quiebra. En todos los casos, +3 Rastro y anotá `TU_VOZ_EN_LA_RADIO`.
 
 ---
 
@@ -151,7 +140,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 > COMANDO DE EMERGENCIA · DISPOSICIÓN RESERVADA N.º 40
 > El período de observación se fija en cuarenta (40) días. Transcurrido el plazo, se habilitará un corredor sanitario en el Puesto Norte. Las personas con temperatura superior a 37,5 °C no serán evacuadas bajo ninguna circunstancia.
 
-**La verdad.** La cuarentena era cruel, pero honesta: cuarenta días tarda en mostrarse el último caso. La ayuda llega. No para todos.
+**La verdad.** La cuarentena era honesta: cuarenta días tarda en mostrarse el último caso. La ayuda llega, no para todos.
 
 **Antes de la Noche 40**
 - Lo que importa es **la Fiebre**: guardá Antivirales para el final.
@@ -170,7 +159,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 > COMANDO DE EMERGENCIA · DISPOSICIÓN RESERVADA N.º 41
 > Vencido el plazo sin remisión, se procederá a la esterilización térmica de la zona Tolme. El cordón se replegará a la línea B a las 06:00 del día 41. No se prevé evacuación.
 
-**La verdad.** No viene nadie. El muro era para que no salieran los de adentro. El día 41 al mediodía pasan los aviones y Tolme arde de punta a punta. Sobrevivir a la Marea no alcanza: hay que salir.
+**La verdad.** No viene nadie. El día 41 al mediodía pasan los aviones y Tolme arde. Sobrevivir a la Marea no alcanza: hay que salir.
 
 **Antes de la Noche 40**
 - **Todas las salidas del Éxodo** ([e960](#e960)) están abiertas, aunque no juegues ese modo.
@@ -179,7 +168,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 - **Con `LA_VERDAD_AL_AIRE`,** Bomberos y Parroquia también intentan salir: no vienen a ayudarte ([e905](#e905)) salvo con Reputación +3.
 - **Con `LA_VERDAD_ENTERA`,** sabés que a las 06:00 el Puesto Norte queda vacío antes del fuego. Pasá la Noche 40 escondido ahí, como una noche afuera (r158) con Desventaja, y los vivos a las 06:00 salen detrás de los soldados: **salvados**.
 
-**El día 41.** Un zumbido de motores, muy alto. Con una salida preparada ([e960](#e960)), los que salen son **salvados**. Si no, el fuego: cada persona tira 1d6 y sobrevive con 5–6 (+2 en la cripta de la Parroquia sin tapiar, +1 en el Cuartel con `LA_AUTOBOMBA`, +1 con Cisterna). El final es **«Ceniza»** ([e947](#e947)).
+**El día 41.** Con una salida preparada ([e960](#e960)), los que salen son **salvados**. Si no, el fuego: cada persona tira 1d6 y sobrevive con 5–6 (+2 en la cripta de la Parroquia sin tapiar, +1 en el Cuartel con `LA_AUTOBOMBA`, +1 con Cisterna). El final es **«Ceniza»** ([e947](#e947)).
 
 ---
 
@@ -191,7 +180,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 > D−21: cierre perimetral. D0: liberación controlada (red de agua, sector Fabril). Observación: 40 días.
 > Responsable: Dra. E. Ríos. Supervisión: Comando de Emergencia.
 
-**La verdad.** El muro empezó tres semanas antes del brote. Soltaron algo en el agua de la Fabril para ver qué pasaba en una ciudad cerrada, y pasó mucho más de lo que esperaban. Tolme es el experimento. Y alguien de tu grupo lo sabía: el primero que esté de esta lista.
+**La verdad.** El muro empezó tres semanas antes del brote. Soltaron algo en el agua de la Fabril, y pasó mucho más de lo que esperaban. Y alguien de tu grupo lo sabía: el primero que esté de esta lista.
 
 1. La **doctora Ríos** ([e648](#e648)).
 2. **Mateo** ([e624](#e624)), que hacía su tesis ahí de noche. Con `MATEO_Y_RIOS`, confiesan los dos, y la prueba tiene Ventaja.
@@ -213,7 +202,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 > «... Permanezca en su domicilio. La ayuda llegará. Este es un mensaje del Comando de Emergencia...»
 > comunicado_final_v3.wav · 04:12 · Creado: día −5 · Reproducciones: 912
 
-**La verdad.** La Señora es una grabación que dejaron sonando al irse. El brote no se quedó en Tolme: el país cayó, y Tolme, con su muro, es de lo último que queda. Ganar no es que te rescaten. Es empezar de nuevo.
+**La verdad.** La Señora es una grabación que dejaron sonando al irse. El país cayó, y Tolme, con su muro, es de lo último que queda. Ganar es empezar de nuevo.
 
 **Antes de la Noche 40**
 - **La planta transmisora** → [e579](#e579). Con `FRECUENCIAS_DEL_COMANDO`, sabés dónde está: sin las ◷ 2 de búsqueda. Con `LA_SENORA_SE_EQUIVOCA`, contarlo no baja la Moral.
@@ -230,7 +219,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 
 > Hoja de guardia · Torre 14 · 03:40. Sujeto de pie sobre la rampa, sector 9. Observa la ciudad. 03:55. La masa se reorienta hacia el sector 9. Respuesta del Comando: «No disparar al sujeto. Repito: no disparar».
 
-**La verdad.** La Marea la guía uno: un hombre alto, de traje, que ahora es otra cosa. Abre puertas, escucha, elige. El Comando no quiere que muera: quiere estudiarlo.
+**La verdad.** La Marea la guía uno: un hombre alto, de traje, que abre puertas, escucha y elige. El Comando quiere estudiarlo.
 
 **Antes de la Noche 40**
 - **Cazarlo** → [e577](#e577).
@@ -239,7 +228,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 
 **En la Noche 40.** Vivo, elige: en la tirada de frente de cada oleada ([e901](#e901)), un 5 o 6 es el frente más débil. Con `PASTOR_MUERTO`, **2 oleadas menos**, y un 6 en la tirada de frente se repite.
 
-**El día 41.** Tus vivos son salvados. Con `PASTOR_MUERTO`, las calles están llenas de Callados quietos, sin rumbo: **«La Marea ciega»** ([e945](#e945)). Si vive, lo ves en la esquina mirando tu refugio antes de irse despacio: leé también **«Él te recuerda»**.
+**El día 41.** Tus vivos son salvados. Leé también **«La Marea ciega»** ([e945](#e945)): cuenta qué pasa si murió y si sigue vivo.
 
 ---
 
@@ -250,7 +239,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 > BANCO DE SANGRE · HOSPITAL CENTRAL
 > Donantes sin seroconversión tras exposición: 20. Frecuencia: 1 cada 900. Notificar al Comando. Recuperar sujetos vivos.
 
-**La verdad.** Hay gente que no se convierte: la Fiebre sube y baja sola. Una persona inmune vale más que toda Tolme, y una de las tuyas lo es. La primera viva de esta lista:
+**La verdad.** Hay gente que no se convierte, y una de las tuyas lo es. La primera viva de esta lista:
 
 1. Quien superó la Fiebre (`PROBASTE_L40` con un 6, o una amputación).
 2. **Rita** ([e615](#e615)): «la mordió un perro» el día 1. Con `LA_FIEBRE_DE_RITA`, ya lo sabías.

@@ -12,7 +12,7 @@
 ### e440 · La Parroquia de San Lázaro
 *El Casco · Refugio · ◷ 0*
 
-Una iglesia de piedra gris de 1890 entre dos edificios: portón de quebracho, bancos de madera, un campanario cuadrado y vitrales de San Lázaro con sus perros. Al lado, la casa parroquial con cocina y un patio con limonero; abajo, detrás del altar, la cripta. El padre se fue a la Catedral el día 3 y dejó la llave debajo de la maceta, como si supiera que alguien iba a venir.
+Una iglesia de piedra de 1890: portón de quebracho, un campanario cuadrado y vitrales de San Lázaro con sus perros. Al lado, la casa parroquial y un patio con limonero; detrás del altar, la cripta. El padre se fue a la Catedral el día 3 y dejó la llave debajo de la maceta.
 
 > **Ficha del refugio**
 > **Tipo:** Vivienda · **Stock:** ▢▢
@@ -29,7 +29,7 @@ Una iglesia de piedra gris de 1890 entre dos edificios: portón de quebracho, ba
 
 **Si no es tu refugio:** Vivienda, stock ▢▢. Con Reputación +2 con la Parroquia, te dejan dormir una noche (r158) sin tirar.
 
-Anotá todo y volvé a **[e011](#e011)**.
+Volvé a **[e011](#e011)**.
 
 ---
 
@@ -37,7 +37,7 @@ Anotá todo y volvé a **[e011](#e011)**.
 ### e441 · La campana
 *Parroquia de San Lázaro · Campanario · ◷ 0*
 
-Bronce del tamaño de un barril, con una inscripción: «VOCO VIVOS · PLANGO DEFUNCTOS». *Llamo a los vivos. Lloro a los muertos.* Se oye en cinco barrios.
+«VOCO VIVOS · PLANGO DEFUNCTOS». Se oye en cinco barrios.
 
 1. **Llamar a los vivos.** Los dos albas siguientes, con 4–6 en 1d6, llega alguien (r180). +2 Rastro, y con 1–3 en 1d6 la Procesión más cercana avanza un barrio hacia el Casco (r156).
 2. **Tocar a muerto** en un entierro (r182): vale +2 Moral en lugar de +1. +1 Rastro.
@@ -50,7 +50,7 @@ Bronce del tamaño de un barril, con una inscripción: «VOCO VIVOS · PLANGO DE
 ### e442 · La cripta
 *Parroquia de San Lázaro · Subsuelo · ◷ 0*
 
-Once escalones, nichos con placas del siglo diecinueve y, al fondo, una reja. Detrás, un túnel de los jesuitas que sale a las cloacas. Corre aire.
+Nichos del siglo diecinueve y, al fondo, una reja: detrás, un túnel de los jesuitas que sale a las cloacas.
 
 1. **Encadenar la reja** (1 Sujeción y un candado, o `[Oficio]`), una vez: Subsuelo +1.
 2. **Usar el túnel** (perdés el +1 de la reja). Anotá `TUNEL_ABIERTO`: salís al Subsuelo sin pasar por la Calle, con −1 a la primera tirada de [e110](#e110); pero mientras tengas `TUNEL_ABIERTO`, cada sondeo golpea el Subsuelo, sin tirar frente. Encadenar la reja borra la Marca.
@@ -63,7 +63,7 @@ Once escalones, nichos con placas del siglo diecinueve y, al fondo, una reja. De
 ### e450 · El Supermercado Del Barrio
 *El Mercado · Refugio · ◷ 0*
 
-Una caja registradora, seis góndolas, una carnicería al fondo y el depósito en un entrepiso. El frente es todo vidriera: «FIDEOS 2×1», «HAY HIELO». Don Ramón bajó la cortina el día 4 y no la volvió a subir. Todavía está en el depósito. Más o menos. Lo bueno: es un supermercado. Lo malo: todo el barrio lo sabe.
+Seis góndolas, una carnicería al fondo y un frente todo vidriera: «FIDEOS 2×1». Don Ramón bajó la cortina el día 4 y todavía está en el depósito, más o menos. Lo bueno: es un supermercado. Lo malo: todo el barrio lo sabe.
 
 > **Ficha del refugio**
 > **Tipo:** Almacén · **Stock:** ▢▢▢
@@ -80,7 +80,7 @@ Una caja registradora, seis góndolas, una carnicería al fondo y el depósito e
 
 **Si no es tu refugio:** Almacén, stock ▢▢. Con 1–3 en 1d6 ya hay gente defendiéndolo (r300, Hablar con −1).
 
-Anotá todo y volvé a **[e011](#e011)**.
+Volvé a **[e011](#e011)**.
 
 ---
 
@@ -88,7 +88,7 @@ Anotá todo y volvé a **[e011](#e011)**.
 ### e451 · Los que vienen por la comida
 *Supermercado Del Barrio · ◷ 0*
 
-Golpes en la cortina. «¡Sabemos que tienen comida! ¡Tenemos chicos!». 1d6: **1–2**, una familia con un abuelo; **3–4**, cinco vecinos con palos; **5**, los Lobos ([e680](#e680)); **6**, una nota: «VOLVEMOS ESTA NOCHE».
+«¡Sabemos que tienen comida!». 1d6: **1–2**, una familia con un abuelo; **3–4**, cinco vecinos con palos; **5**, los Lobos ([e680](#e680)); **6**, una nota: «VOLVEMOS ESTA NOCHE».
 
 1. **Darles** 2 Víveres (3 a los Lobos). +1 Moral si no eran los Lobos; si eran, anotá `LE_PAGAS_A_LOS_LOBOS`: desde ahora siempre son ellos.
 2. **Hacerlos pasar** (familia o vecinos): 2 sobrevivientes (r180). +1 Rastro.
@@ -101,8 +101,6 @@ Golpes en la cortina. «¡Sabemos que tienen comida! ¡Tenemos chicos!». 1d6: *
 ### e452 · La cámara de frío
 *Supermercado Del Barrio · Carnicería · ◷ 0*
 
-Acero inoxidable, un termómetro en 19 grados, una media res que ya no es carne.
-
 1. **Limpiarla:** ◷ 2, 1 Químicos, −1 Ánimo para quien lo haga.
 2. **Despensa:** limpia y con Generador ([e760](#e760)), es una Despensa (r173) sin construirla.
 3. **Último Cuarto:** limpia, 2 Metal, 1 Sujeción, ◷ 2. Es el Último Cuarto ([e761](#e761)) con Resistencia 8; pero no entra aire: cada oleada con el grupo adentro, con 1 en 1d6, alguien se desmaya (1 Herida).
@@ -113,7 +111,7 @@ Acero inoxidable, un termómetro en 19 grados, una media res que ya no es carne.
 ### e453 · La cortina metálica
 *Supermercado Del Barrio · Puerta · ◷ 0*
 
-Un ruido de lata que rebota en toda la cuadra. Cada vez que entrás o salís de noche, +1 Rastro.
+Cada vez que entrás o salís de noche, +1 Rastro.
 
 1. **Aceitarla:** 1 Químicos, `[Mecánica]`, ◷ 1. Con 7+, deja de sumar Rastro. Con 6−, se corta la cadena: Puerta +1, pero salís por el techo (◷ +1 por salida) hasta que hagas otra entrada (r176).
 2. **Colgarle latas:** es una trampa de la Puerta sin ocupar espacio. Cada sondeo hace 1 daño menos y suma +1 Rastro.
@@ -124,7 +122,7 @@ Un ruido de lata que rebota en toda la cuadra. Cada vez que entrás o salís de 
 ### e460 · La Comisaría 7.ª
 *La Estación · Refugio · ◷ 0*
 
-Ladrillo de dos plantas frente a las vías: puerta de chapa blindada, rejas abajo, la sala de armas detrás de una puerta de acero y los calabozos al fondo. En el patio, dos patrulleros sin nafta y un perro que no es de nadie. Los agentes se replegaron al Perímetro el día 5. No todos se fueron.
+Dos plantas frente a las vías: chapa blindada, rejas, una sala de armas y calabozos. En el patio, dos patrulleros sin nafta y un perro que no es de nadie. Los agentes se replegaron el día 5. No todos se fueron.
 
 > **Ficha del refugio**
 > **Tipo:** Policía · **Stock:** ▢▢
@@ -141,7 +139,7 @@ Ladrillo de dos plantas frente a las vías: puerta de chapa blindada, rejas abaj
 
 **Si no es tu refugio:** Policía, stock ▢▢, se entra por arriba. Si el Destacamento la ocupó (Reputación −2 o menos, o después de [e463](#e463)), hay **3 soldados** (r300, Hablar con −1).
 
-Anotá todo y volvé a **[e011](#e011)**.
+Volvé a **[e011](#e011)**.
 
 ---
 
@@ -149,7 +147,7 @@ Anotá todo y volvé a **[e011](#e011)**.
 ### e461 · La sala de armas
 *Comisaría 7.ª · ◷ 0*
 
-Una puerta de acero con un teclado apagado y un papel: «CLAVE NUEVA: PREGUNTAR AL OFICIAL DE GUARDIA».
+Una puerta de acero con un teclado apagado.
 
 - **Con `OFICIO_POLICIA`,** sabés la clave vieja. Nadie la cambió.
 - **Con Pocho** ([e612](#e612)) **o Taladro y Generador,** ◷ 2.
@@ -163,7 +161,7 @@ Adentro, 1d6. **1–2:** 2 revólveres, 8 Munición, 2 chalecos (protección −
 ### e462 · Los calabozos
 *Comisaría 7.ª · ◷ 0*
 
-Cuatro celdas; una cerrada. Adentro, un hombre flaco hasta los huesos con una botella vacía. «¿Se fueron? Me dejaron». Es **Damián**, preso por robar una moto. Tomó agua del inodoro durante semanas. Las llaves cuelgan en la guardia.
+En una celda cerrada, un hombre flaco hasta los huesos. «¿Se fueron? Me dejaron». Es **Damián**, preso por robar una moto.
 
 1. **Abrirle:** 1 Víver y agua. Se une: Calle 2, Ladrón; anotá `EL_PRESO`. El primer día come 2 Víveres.
 2. **Abrirle y que se vaya.** +1 Ánimo. Si alguien tuyo está en problemas en La Estación, con 6 en 1d6 aparece Damián.
@@ -176,7 +174,7 @@ Cuatro celdas; una cerrada. Adentro, un hombre flaco hasta los huesos con una bo
 ### e463 · La visita del Destacamento
 *Comisaría 7.ª · ◷ 0*
 
-Un camión verde, seis fusiles y el sargento Ocampo, que no durmió en un mes. «Esta es una dependencia del Estado. La necesitamos».
+Seis fusiles y el sargento Ocampo. «Esta es una dependencia del Estado».
 
 - **Con `BUSCADO`** → [e692](#e692).
 - **Con Reputación +2 o más:** «Cuídenla. La van a necesitar». 4 Munición y +1 Moral.
@@ -194,7 +192,7 @@ Si no:
 ### e470 · La Escuela N.º 9 «Juana Azurduy»
 *Los Bloques · Refugio · ◷ 0*
 
-Ladrillo a la vista, ventanales con persianas, un patio de baldosas rojas y un salón de actos con piano. En el pizarrón de 4.º B: «Martes. Hoy no hay clases. Vayan a casa con sus papás». La primera semana fue centro de evacuados. Después dejó de serlo.
+Ventanales, un patio de baldosas rojas y un salón de actos con piano. En el pizarrón de 4.º B: «Hoy no hay clases. Vayan a casa con sus papás». La primera semana fue centro de evacuados.
 
 > **Ficha del refugio**
 > **Tipo:** Oficina · **Stock:** ▢▢▢
@@ -211,7 +209,7 @@ Ladrillo a la vista, ventanales con persianas, un patio de baldosas rojas y un s
 
 **Si no es tu refugio:** Oficina, stock ▢▢. Con 1–3 en 1d6, el gimnasio está abierto ([e472](#e472), opción 3).
 
-Anotá todo y volvé a **[e011](#e011)**.
+Volvé a **[e011](#e011)**.
 
 ---
 
@@ -229,7 +227,7 @@ Al terminarla, anotá `PUERTAS_TAPIADAS`. Si nunca lo hacés, en la Noche 40 la 
 ### e472 · El gimnasio
 *Escuela N.º 9 · ◷ 0*
 
-Una cadena por fuera y, en fibrón: «NO ABRIR · ENFERMOS · DÍA 7». Del otro lado, el silencio de mucha gente.
+Una cadena y, en fibrón: «NO ABRIR · ENFERMOS · DÍA 7».
 
 1. **No abrir.** Cada sondeo que entra (r175), con 1 en 1d6, la cadena cede: opción 3.
 2. **Mirar por la ventana alta,** `[Físico]`, ◷ 1: cincuenta Callados quietos entre colchonetas. Algunos son chicos. −1 Ánimo y anotá `EL_GIMNASIO`.
@@ -243,7 +241,7 @@ Una cadena por fuera y, en fibrón: «NO ABRIR · ENFERMOS · DÍA 7». Del otro
 ### e480 · El Cuartel de Bomberos de la calle Brown
 *El Puerto · Refugio · ◷ 0*
 
-Fachada roja de 1925, dos portones altos, una torre de entrenamiento de cuatro pisos y el lema: «ABNEGACIÓN · SACRIFICIO». En el garaje, una autobomba vieja. En la pizarra, la última salida: «Día 2 · 14:20 · Galpón 7 · Toda la dotación». No volvieron todos.
+Fachada roja de 1925, una torre de entrenamiento y una autobomba vieja. En la pizarra, la última salida: «Día 2 · Galpón 7 · Toda la dotación». No volvieron todos.
 
 > **Ficha del refugio**
 > **Tipo:** Taller · **Stock:** ▢▢
@@ -260,15 +258,13 @@ Fachada roja de 1925, dos portones altos, una torre de entrenamiento de cuatro p
 
 **Si no es tu refugio:** Taller, stock ▢▢. Desde la carta 11, es de los Bomberos ([e670](#e670)).
 
-Anotá todo y volvé a **[e011](#e011)**.
+Volvé a **[e011](#e011)**.
 
 ---
 
 <a id="e481"></a>
 ### e481 · La autobomba
 *Cuartel de Bomberos · Garaje · ◷ 0*
-
-Roja, de 1987, con la batería muerta. Pero es un camión con un cañón de agua.
 
 **Hacerla andar:** una batería o el Generador, 2 Combustible, inflar las ruedas (compresor, o `[Físico]` y ◷ 2) y `[Mecánica]`, ◷ 3. Con 10+, anda. Con 7–9, anda, con +2 Ruido o +2 Rastro cada vez que la usás. Con 6−, mañana otra vez. Cuando anda, anotá `LA_AUTOBOMBA`.
 
@@ -282,7 +278,7 @@ Roja, de 1987, con la batería muerta. Pero es un camión con un cañón de agua
 ### e482 · Los Bomberos vuelven
 *Cuartel de Bomberos · ◷ 0*
 
-Al alba, golpes en el portón: tres, pausa, tres. Seis bomberos con chaquetones quemados y, adelante, la comandante **Gauna**, sesenta años, hollín en la cara. Este fue su primer cuartel. «Ustedes están en nuestro cuartel».
+Seis bomberos con chaquetones quemados y la comandante **Gauna**. «Ustedes están en nuestro cuartel».
 
 Con Valeria ([e642](#e642)), primero [e644](#e644).
 
@@ -296,7 +292,7 @@ Con Valeria ([e642](#e642)), primero [e644](#e644).
 ### e483 · La sirena del cuartel
 *Cuartel de Bomberos · Torre · ◷ 0*
 
-La sirena que llamaba a los voluntarios en toda la ciudad. Anda con Generador, batería o la autobomba.
+Anda con Generador, batería o la autobomba.
 
 **Hacerla sonar,** una vez: las Procesiones a tres barrios o menos vienen al Puerto (r156) y se quedan 1d6 días, salvo que antes salga una carta de Espadas. Anotá `LA_SIRENA`.
 
@@ -309,7 +305,7 @@ La sirena que llamaba a los voluntarios en toda la ciudad. Anda con Generador, b
 ### e490 · El Edificio Sarmiento
 *Sanidad · Refugio · ◷ 0*
 
-Doce pisos de los setenta frente al Hospital Central, con hall de mármol y una escalera en caracol cuadrado. Los ascensores no andan. Lo vivían médicos, enfermeras y jubilados. Desde el piso doce se ve todo: el Hospital, el río, el muro. Y no te ve nadie.
+Doce pisos frente al Hospital Central, sin ascensores. Lo vivían médicos, enfermeras y jubilados. Desde el piso doce se ve todo, y no te ve nadie.
 
 > **Ficha del refugio**
 > **Tipo:** Vivienda · **Stock:** ▢▢▢▢
@@ -326,7 +322,7 @@ Doce pisos de los setenta frente al Hospital Central, con hall de mármol y una 
 
 **Si no es tu refugio:** Vivienda, stock ▢▢▢. Con 1–2 en 1d6, alguien en el piso 12 te tira cosas por el hueco (`[Físico]`; con 6−, 1 Herida). Vivos: r300.
 
-Anotá todo y volvé a **[e011](#e011)**.
+Volvé a **[e011](#e011)**.
 
 ---
 
@@ -360,8 +356,8 @@ Una cinta de luto en el picaporte. «R. Álvarez»: Raquel, la jefa de enfermera
 ### e493 · El piso 7
 *Edificio Sarmiento · ◷ 0*
 
-La puerta del séptimo está soldada desde adentro, con aerosol rojo: «7 = NO». Del otro lado, muy bajo, la radio repite a la Señora ([e054](#e054)).
+La puerta del séptimo, soldada desde adentro: «7 = NO». Del otro lado, la radio repite a la Señora ([e054](#e054)).
 
 1. **Dejarlo.** Hay un piso de tu edificio que no es tuyo.
 2. **Golpear tres veces.** Silencio, y tres golpes de respuesta. Al alba, 3 Víveres en tu puerta y una nota: «No vuelvan a golpear». Anotá `LOS_DEL_SIETE`. En la Noche 40, con 4–6 en 1d6, pelean desde sus balcones: Ventanas +1 en todas las oleadas.
-3. **Cortar la chapa** (herramienta de corte o Soldadora, ◷ 2). En el 7.º B, una familia de cuatro alrededor de la radio. Muertos, no convertidos: pastillas. «La Señora dice que la ayuda llegará. Nosotros no la esperamos». −2 Ánimo, −1 Moral. El piso suma ▢▢▢ al stock del refugio.
+3. **Cortar la chapa** (herramienta de corte o Soldadora, ◷ 2). En el 7.º B, una familia de cuatro alrededor de la radio: pastillas. −2 Ánimo, −1 Moral. El piso suma ▢▢▢ al stock del refugio.

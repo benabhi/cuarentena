@@ -1,6 +1,6 @@
 ## Barrio 10 · La Costanera
 
-*La rambla con su baranda de hierro, carritos de choripán abandonados, el club náutico, la potabilizadora, el faro y un parque de diversiones de fin de semana. El agua de Tolme salía de acá.*
+*La rambla, carritos de choripán abandonados, el faro y un parque de diversiones. El agua de Tolme salía de acá.*
 
 <a id="e380"></a>
 ### e380 · La Costanera: llegar
@@ -26,7 +26,7 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e381 · La rambla
 *La Costanera · Comercio · stock ▢▢*
 
-Dos kilómetros de baldosas rotas, bancos de cemento y carritos con candado. El río golpea el murallón.
+Dos kilómetros de baldosas rotas. El río golpea el murallón.
 
 - **Revisar** (r161) con la tabla de Almacén; un 1 es una garrafa (2 Combustible, 3 casilleros).
 - **Pescar** con la Caña ([e748](#e748)), ◷ 2, `[Supervivencia]`: 3, 2 o 1 Víveres. Alcanza para cuatro pescas (▢▢▢▢). Desde la Etapa III, un 6− saca un **Ahogado ×1 · Cerca** ([e728](#e728)).
@@ -36,8 +36,6 @@ Dos kilómetros de baldosas rotas, bancos de cemento y carritos con candado. El 
 <a id="e382"></a>
 ### e382 · El club náutico
 *La Costanera · Comercio · stock ▢▢▢*
-
-Lanchas de socios en sus soportes, bajo lonas.
 
 **Tesoro:** si el Blindado está acá (r110) → [e550](#e550).
 
@@ -49,8 +47,6 @@ Lanchas de socios en sus soportes, bajo lonas.
 <a id="e383"></a>
 ### e383 · La planta potabilizadora
 *La Costanera · Taller · stock ▢▢▢*
-
-Piletas de decantación que se pudren al sol, bombas paradas, una torre de control.
 
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
@@ -64,7 +60,7 @@ Piletas de decantación que se pudren al sol, bombas paradas, una torre de contr
 ### e384 · El faro
 *La Costanera · Vivienda · stock ▢▢*
 
-Ladrillo blanco y rojo en la punta de la escollera, ciento veinte escalones, la lámpara apagada.
+En la punta de la escollera, ciento veinte escalones y la lámpara apagada.
 
 **Tesoro:** si la Radio del aficionado está acá (r110) → [e540](#e540).
 
@@ -78,7 +74,7 @@ Ladrillo blanco y rojo en la punta de la escollera, ciento veinte escalones, la 
 ### e385 · El parque de diversiones
 *La Costanera · Comercio · stock ▢▢*
 
-Una vuelta al mundo, autitos chocadores y un tren fantasma con sus monstruos de cartón en su lugar. Y algunos de los otros también.
+Una vuelta al mundo y un tren fantasma con sus monstruos de cartón. Y algunos de los otros.
 
 - **Revisar** (r161) los kioscos.
 - **La vuelta al mundo,** con Generador o batería y `[Mecánica]`: luces y música en todo el barrio. Es la mejor trampa de Tolme: toda Procesión a dos barrios o menos viene y se queda dando vueltas 1d6 días (r156). +2 Rastro. Anotá `LA_FERIA_ENCENDIDA`.
@@ -90,7 +86,7 @@ Una vuelta al mundo, autitos chocadores y un tren fantasma con sus monstruos de 
 ### e390 · El atardecer
 *La Costanera · ◷ 0*
 
-Por un momento el río se pone dorado, hay gaviotas y viento, y si no mirás para atrás, no pasó nada. Nada en absoluto. Si te quedás (◷ 1), +2 Ánimo, también para quien venga con vos.
+Por un momento el río se pone dorado y, si no mirás para atrás, no pasó nada. Si te quedás (◷ 1), +2 Ánimo, también para quien venga con vos.
 
 ---
 
@@ -98,7 +94,7 @@ Por un momento el río se pone dorado, hay gaviotas y viento, y si no mirás par
 ### e391 · La fogata
 *La Costanera · ◷ 0*
 
-Debajo del murallón, pescadores, una familia y dos chicos con guitarra comen pescado asado. Te hacen señas.
+Debajo del murallón, una familia y dos chicos con guitarra comen pescado asado. Te hacen señas.
 
 - **Bajar** (◷ 1): +2 Reservas sin gastar Víveres y la Caña de pescar ([e748](#e748)). r300, con Hablar y +2.
 - **Avisarles** que el fuego se ve de lejos. Lo apagan y te dan 2 Víveres.
@@ -109,7 +105,7 @@ Debajo del murallón, pescadores, una familia y dos chicos con guitarra comen pe
 ### e392 · Lo que sale del agua
 *La Costanera · ◷ 0*
 
-En Etapa I o II, es [e253](#e253). Burbujas, cabezas, hombros: suben por la rampa de los botes, hinchados, con algas en el pelo. Decenas.
+En Etapa I o II, es [e253](#e253). Suben por la rampa de los botes, hinchados, con algas en el pelo.
 
 > **Ahogados ×1d6 · Lejos** ([e728](#e728)) y **Callados ×2d6 · Lejos**
 

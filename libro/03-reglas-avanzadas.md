@@ -3,11 +3,7 @@
 <a id="r140"></a>
 ### r140 · Cuándo hay combate
 
-Hay combate cuando un evento lo dice o una Procesión te alcanza. Se cuenta en **cuántos son** y **a qué distancia están**:
-
-> **Callados ×5 · Lejos**
-
-Los infectados especiales tienen ficha propia (e720–e731):
+Hay combate cuando un evento lo dice o una Procesión te alcanza. Se cuenta en **cuántos son** y **a qué distancia están**, y los especiales tienen ficha propia (e720–e731):
 
 > **Bruto ×1 · Cerca** · **Callados ×3 · Lejos**
 
@@ -39,10 +35,10 @@ Después actúan tus compañeros (r148), y al final avanzan los Callados y muerd
 Tirá `[Pelea]` con armas de mano o `[Puntería]` con armas de fuego, arcos, ballestas y cosas arrojadas.
 
 - **10+:** matás tantos Callados como el **Daño** de tu arma.
-- **7–9:** matás la mitad, redondeando hacia arriba, y pagás el precio del arma: las de mano pierden **1 uso** (⚒); las de fuego hacen el doble de **Ruido** ese disparo.
+- **7–9:** matás la mitad, redondeando hacia arriba, y pagás el precio del arma: las de mano pierden **1 uso**; las de fuego hacen el doble de **Ruido** ese disparo.
 - **6−:** no matás a ninguno.
 
-**Cada arma** tiene una ficha (e700–e709):
+**Cada arma** tiene una ficha (e700–e704):
 
 > **Hacha de bombero** · Daño 3 · Ruido 1 · Cerca · Usos 8 · 2 manos
 
@@ -60,11 +56,9 @@ Los **infectados especiales** tienen **Aguante**: el Daño que hace falta para m
 
 Al final de cada ronda, **cada Callado Encima** te ataca: 1d6 por cada uno, como mucho **dos** (no caben más; los demás empujan detrás).
 
-| 1d6 | Resultado |
-|---|---|
-| 1–3 | Te soltás. Nada |
-| 4–5 | Un golpe: 1 Herida |
-| 6 | **Los dientes.** 1 Herida, y otro 1d6: con 1–3, **arañazo** (prueba de Fiebre, r191); con 4–6, **mordida** (empieza la Fiebre, r191) |
+- **1–3:** te soltás. Nada.
+- **4–5:** un golpe: 1 Herida.
+- **6 · Los dientes:** 1 Herida, y otro 1d6: con 1–3, **arañazo** (prueba de Fiebre, r191); con 4–6, **mordida** (empieza la Fiebre, r191).
 
 **Protección:** ropa gruesa, cascos, chalecos y armaduras **restan 1** a cada dado (un 6 con protección −1 es un golpe, sin segundo dado). Ninguna resta más de 2, y dos protecciones de la misma parte del cuerpo no se suman. Con compañeros, los que están Encima se reparten como elijas, de a dos por persona como mucho.
 
@@ -116,38 +110,17 @@ El mapa es un **plano de red**, como el de un subte: cada barrio es una estació
 <a id="r151"></a>
 ### r151 · Las tres capas
 
-| Capa | Color | Cómo es |
-|---|---|---|
-| **La Calle** | Amarillo | Rápida y directa: une a todos los barrios vecinos. Al llegar, **+1 Ruido** y tirás en la tabla del barrio |
-| **Las Azoteas** | Gris | Solo entre barrios densos. Silenciosas: sin Ruido, y encuentro solo con 1 en 1d6 ([e130](#e130)). Lentas, y piden **Soga** o **Tablones**. Con más de 6 casilleros ocupados, `[Físico]` para no caer |
-| **El Subsuelo** | Rojo | La línea C del subte y las cloacas. Pasa por debajo de las Procesiones, sin Ruido, pero oscuro (Desventaja en todo sin Linterna) y con lo peor: tirás siempre en [e110](#e110) |
+- **La Calle** (amarillo): rápida, une a todos los barrios vecinos. Al llegar, **+1 Ruido** y tirás en la tabla del barrio.
+- **Las Azoteas** (gris): solo entre barrios densos. Sin Ruido y con encuentro solo con 1 en 1d6 ([e130](#e130)), pero lentas, y piden **Soga** o **Tablones**. Con más de 6 casilleros ocupados, `[Físico]` para no caer.
+- **El Subsuelo** (rojo): la línea C y las cloacas. Pasa por debajo de las Procesiones, sin Ruido, pero oscuro (Desventaja en todo sin Linterna), y tirás siempre en [e110](#e110).
 
-| Barrio | Calle | Azoteas | Subsuelo |
-|---|---|---|---|
-| El Casco | Sanidad, Puerto, Bloques, Estación, Mercado | Sanidad, Bloques, Mercado | Sanidad, Estación, Puerto |
-| Sanidad | Casco, Bloques, Universidad | Casco, Bloques | Casco, Universidad |
-| El Puerto | Casco, Fabril, Costanera | — | Casco, Costanera |
-| La Fabril | Puerto, Estación, Perímetro | — | Estación |
-| Los Bloques | Casco, Sanidad, Mercado, Cementerio | Casco, Sanidad, Mercado | Cementerio |
-| Las Lomas | Universidad, Cementerio, Perímetro | — | — |
-| La Estación | Casco, Fabril, Mercado | — | Casco, Fabril, Mercado |
-| El Mercado | Casco, Bloques, Estación | Casco, Bloques | Estación |
-| Ciudad Universitaria | Sanidad, Lomas, Costanera | — | Sanidad |
-| La Costanera | Puerto, Universidad | — | Puerto |
-| Cementerio y Parque | Bloques, Lomas, Perímetro | — | Bloques |
-| El Perímetro | Fabril, Lomas, Cementerio | — | — |
+Las conexiones de cada barrio están en el mapa y en la primera entrada de su bloque.
 
 <a id="r152"></a>
 ### r152 · Moverse
 
-| Cómo | Tiempo | Ruido | Encuentro al llegar |
-|---|---|---|---|
-| A pie por la Calle | ◷ 1 | +1 | Tabla del barrio (r153) |
-| En vehículo por la Calle | ◷ 1 cada dos barrios | +2 (o el del vehículo, e712) | Tabla del barrio, con +1 |
-| En bicicleta por la Calle | ◷ 1 (con Atajos, dos barrios) | 0 | Tabla del barrio |
-| Por las Azoteas | ◷ 2 | 0 | Solo con 1 en 1d6 ([e130](#e130)) |
-| Por el Subsuelo | ◷ 1 | 0 | Siempre, en [e110](#e110) |
-
+- **A pie:** Calle ◷ 1 y +1 Ruido, con tabla del barrio (r153); Azoteas ◷ 2, encuentro solo con 1 en 1d6 ([e130](#e130)); Subsuelo ◷ 1, siempre [e110](#e110).
+- **En vehículo** (r157), ◷ 1 cada dos barrios, +2 Ruido (o el del vehículo, e712) y +1 a la tabla. **En bicicleta,** ◷ 1 (con Atajos, dos barrios) y sin Ruido.
 - Ir de un lugar a otro del mismo barrio no cuesta tiempo.
 - **En grupo**, todos van al paso del más lento.
 - **Volver al refugio** es un viaje como cualquier otro.
@@ -163,30 +136,16 @@ Al llegar a un barrio por la Calle, tirá **1d6 + la Etapa** en su tabla. **+2 d
 
 El **Ruido** (0–6) mide cuánto llamaste la atención en una salida. Empieza en 0 al salir y vuelve a 0 al entrar al refugio.
 
-| Qué hace Ruido | Cuánto |
-|---|---|
-| Llegar a un barrio por la Calle | +1 |
-| Un disparo | El Ruido del arma |
-| Romper un vidrio, forzar un postigo | +1 |
-| Un motor encendido | +2 |
-| Revisar un lugar a fondo | +1 |
-| Un grito, una alarma, una explosión | +2 a +4 |
+Suman: llegar por la Calle +1; un disparo, el Ruido del arma; romper un vidrio o forzar un postigo +1; revisar a fondo +1; un motor +2; un grito, una alarma o una explosión, +2 a +4.
 
 Con **3**, aparecen Callados (r145); con **6**, una Procesión ([e100](#e100)). Si volvés al refugio con Ruido 3 o más desde un barrio vecino al del refugio, el **Rastro** sube 1 (r174).
 
 <a id="r155"></a>
 ### r155 · Las Procesiones
 
-Columnas de cientos de Callados, en silencio. Son **fichas** en el mapa. Para ubicar una, tirá 2d6:
+Columnas de cientos de Callados, en silencio: **fichas** en el mapa. Para ubicar una, 2d6:
 
-| 2d6 | Barrio | 2d6 | Barrio |
-|---|---|---|---|
-| 2 | El Perímetro | 8 | Sanidad |
-| 3 | Cementerio y Parque | 9 | El Mercado |
-| 4 | Las Lomas | 10 | La Estación |
-| 5 | La Costanera | 11 | La Fabril |
-| 6 | Los Bloques | 12 | 1d6: 1–3 El Puerto, 4–6 Ciudad Universitaria |
-| 7 | El Casco | | |
+**2** Perímetro · **3** Cementerio · **4** Lomas · **5** Costanera · **6** Bloques · **7** Casco · **8** Sanidad · **9** Mercado · **10** Estación · **11** Fabril · **12** 1d6: 1–3 Puerto, 4–6 Universidad.
 
 - **Se mueven** los días de Espadas (e040), y **siguen el ruido:** si terminás una salida con Ruido 3 o más, la más cercana avanza un barrio por la Calle hacia el último donde estuviste.
 - En la **Etapa IV**, cada alba aparece una nueva en el Perímetro.
@@ -236,19 +195,11 @@ El **tipo** dice en qué tabla de botín tirás (r162). El **stock** son las cas
 ### r161 · Revisar rápido o a fondo
 
 - **Rápido** · ◷ 1 · Tachás **1** casilla y tirás **una vez** en la tabla de su tipo.
-- **A fondo** · ◷ 2 · ☊ +1 Ruido · Tachás **2** casillas y tirás **tres veces**.
+- **A fondo** · ◷ 2 · +1 Ruido · Tachás **2** casillas y tirás **tres veces**.
 
 Antes, `[Calle]`: con 10+, tirás una vez más (gratis, una vez por lugar y visita, sin práctica: r124).
 
-**Sin stock**, cada revisión es una sorpresa:
-
-| 1d6 | Sorpresa |
-|---|---|
-| 1–2 | Nada. Alguien llegó antes |
-| 3 | Un Callado detrás del mostrador: **Callados ×1 · Encima** |
-| 4 | Alguien escondido: un sobreviviente (r180) |
-| 5 | Un material al azar (r165) |
-| 6 | Un papel escrito: una pista ([e560](#e560)) |
+**Sin stock**, cada revisión es una sorpresa (1d6): **1–2** nada, alguien llegó antes; **3** un Callado detrás del mostrador (**Callados ×1 · Encima**); **4** alguien escondido, un sobreviviente (r180); **5** un material al azar (r165); **6** un papel escrito: una pista ([e560](#e560)).
 
 <a id="r162"></a>
 ### r162 · Tablas de botín
@@ -292,13 +243,7 @@ Lo que encontrás ocupa Mochila (r164) hasta que lo descargás en el refugio.
 <a id="r164"></a>
 ### r164 · Cargar: la Mochila
 
-La Mochila tiene **8 casilleros**.
-
-| Ocupa | Qué |
-|---|---|
-| 1 casillero | 2 unidades de un material · 2 Víveres · 6 Munición · un arma de mano · una herramienta chica · 2 Fármacos o 2 Antivirales |
-| 2 casilleros | Un arma larga (escopeta, rifle, hacha, ballesta) · Soga · Tablones · Botiquín |
-| 3 casilleros | Una garrafa · una batería de auto · un objeto grande |
+La Mochila tiene **8 casilleros**. **1 casillero:** 2 de un material, 2 Víveres, 6 Munición, 2 Fármacos o Antivirales, un arma de mano o una herramienta chica. **2:** un arma larga, Soga, Tablones o un Botiquín. **3:** una garrafa, una batería de auto o algo grande.
 
 Lo que llevás puesto (ropa, una protección, el arma en la mano) no ocupa. Cargar de más da Desventaja en Físico y Sigilo. Un **Carrito** suma 6 casilleros, solo por la Calle y con +1 Ruido por barrio.
 
@@ -309,15 +254,7 @@ Ocho **materiales**: **Madera · Metal · Tela · Químicos · Sujeción · Elec
 
 **Material al azar (1d6):** 1 Madera · 2 Metal · 3 Tela · 4 Químicos · 5 Sujeción · 6 Electrónica.
 
-**Desarmar** en el refugio (◷ 1, sin prueba):
-
-| Qué | Da |
-|---|---|
-| Un mueble, una puerta, un banco | 2 Madera |
-| Un electrodoméstico, una computadora | 1 Electrónica y 1 Metal |
-| Un auto (en la calle, ◷ 2, +1 Ruido) | 2 Metal, 1 Electrónica y 1d6 − 3 Combustible |
-| Ropa, cortinas, colchones | 2 Tela |
-| Un arma rota | 1 Metal |
+**Desarmar** en el refugio (◷ 1, sin prueba): un mueble o una puerta, 2 Madera; un electrodoméstico, 1 Electrónica y 1 Metal; ropa o colchones, 2 Tela; un arma rota, 1 Metal; un auto (en la calle, ◷ 2, +1 Ruido), 2 Metal, 1 Electrónica y 1d6 − 3 Combustible.
 
 **El refugio mismo** se desarma una vez: **6 Madera** en total. Tachá «Desarmado» en la Hoja del refugio.
 
@@ -366,14 +303,7 @@ Doce mejoras que se construyen una vez cada una, con su receta (e750–e761): De
 
 El **Rastro** (0–10) es cuánto sabe la ciudad de tu refugio.
 
-| Sube el Rastro | Baja el Rastro |
-|---|---|
-| Volver con Ruido 3+ de un barrio vecino: +1 | Cortinas negras: −1 (una vez) |
-| Disparar en el barrio del refugio: +1 | Silenciar el generador: −1 (una vez) |
-| Cocinar sin chimenea: +1 por noche | Siete albas seguidas sin salir de noche: −1 |
-| Prender el generador: +2 (una vez) | Mover la entrada: −2 (una vez, r176) |
-| Cada 3 sobrevivientes nuevos: +1 | Una Procesión desviada lejos: −1 |
-| Una trampa ruidosa, una pelea en la puerta: +1 | Algunos eventos |
+**Sube:** volver con Ruido 3+ de un barrio vecino (+1), disparar en el barrio del refugio (+1), cocinar sin chimenea (+1 por noche), prender el generador (+2, una vez), cada 3 sobrevivientes nuevos (+1), una trampa ruidosa o una pelea en la puerta (+1). **Baja:** Cortinas negras (−1, una vez), silenciar el generador (−1, una vez), siete albas seguidas sin salir de noche (−1), mover la entrada (−2, r176), una Procesión desviada lejos (−1) y algunos eventos.
 
 Decide los **sondeos** de cada noche (r175) y cuántas **oleadas** trae la Marea (r221).
 
@@ -405,14 +335,11 @@ Hay **18 sobrevivientes** con nombre (e600–e653). Cada uno tiene una **Habilid
 
 **«Un sobreviviente»** sin nombre: el primer dado elige la columna (1–2 A, 3–4 B, 5–6 C), el segundo la fila. Si ya lo conocés, murió o se fue, tomá el siguiente.
 
-| 1d6 | A | B | C |
-|---|---|---|---|
-| 1 | Don Ernesto ([e600](#e600)) | Pocho ([e612](#e612)) | El Ruso ([e636](#e636)) |
-| 2 | Lucía ([e603](#e603)) | Rita ([e615](#e615)) | Hernán ([e639](#e639)) |
-| 3 | El Chino Morales ([e606](#e606)) | Gustavo ([e618](#e618)) | Valeria ([e642](#e642)) |
-| 4 | Ana y Bruno ([e609](#e609)) | La Tana ([e621](#e621)) | Facu ([e645](#e645)) |
-| 5 | Doña Rosa ([e627](#e627)) | Mateo ([e624](#e624)) | La doctora Ríos ([e648](#e648)) |
-| 6 | Iván ([e630](#e630)) | Celeste ([e633](#e633)) | El Negro ([e651](#e651)) |
+*A:* **1** Don Ernesto ([e600](#e600)) · **2** Lucía ([e603](#e603)) · **3** El Chino Morales ([e606](#e606)) · **4** Ana y Bruno ([e609](#e609)) · **5** Doña Rosa ([e627](#e627)) · **6** Iván ([e630](#e630)).
+
+*B:* **1** Pocho ([e612](#e612)) · **2** Rita ([e615](#e615)) · **3** Gustavo ([e618](#e618)) · **4** La Tana ([e621](#e621)) · **5** Mateo ([e624](#e624)) · **6** Celeste ([e633](#e633)).
+
+*C:* **1** El Ruso ([e636](#e636)) · **2** Hernán ([e639](#e639)) · **3** Valeria ([e642](#e642)) · **4** Facu ([e645](#e645)) · **5** La doctora Ríos ([e648](#e648)) · **6** El Negro ([e651](#e651)).
 
 **Edades** (r101): **mayores**, Don Ernesto, Doña Rosa y la doctora Ríos; **jóvenes**, Mateo e Iván; **chicos**, Ana y Bruno y Facu; el Negro es un perro. Los demás, **adultos**.
 
@@ -423,15 +350,13 @@ Cada sobreviviente come 1 Víver por día y suma su puesto. Cada tres nuevos, +1
 
 Cada noche, cada persona del refugio tiene **un puesto**:
 
-| Puesto | Necesita | Produce esa noche |
-|---|---|---|
-| **Guardia** | Nada | −1 al sondeo (como mucho −2 entre todos). No duerme |
-| **Obra** | 1 Madera o 1 Metal | +1 Resistencia a un frente |
-| **Taller** | Taller | Fabrica una receta de ◷ 2 o menos que conozca alguien del grupo |
-| **Cocina** | Cocina a leña y 2 Víveres en el refugio (no se gastan) | +1 Moral, y al alba el grupo come 1 Víver menos |
-| **Enfermería** | Enfermería | Cura 1 Herida (2 con Medicina 2 o más) |
-| **Huerta** | Huerta | +1 Víver (+2 con Supervivencia 2 o más). Dos personas como mucho |
-| **Descanso** | Nada | Recupera 1 Ánimo o Magullado |
+- **Guardia:** −1 al sondeo (como mucho −2 entre todos). No duerme.
+- **Obra** (1 Madera o 1 Metal): +1 Resistencia a un frente.
+- **Taller** (con Taller): fabrica una receta de ◷ 2 o menos que conozca alguien del grupo.
+- **Cocina** (Cocina a leña y 2 Víveres en el refugio, que no se gastan): +1 Moral, y al alba el grupo come 1 Víver menos.
+- **Enfermería** (con Enfermería): cura 1 Herida (2 con Medicina 2 o más).
+- **Huerta** (con Huerta, dos personas como mucho): +1 Víver (+2 con Supervivencia 2 o más).
+- **Descanso:** recupera 1 Ánimo o Magullado.
 
 Quien vuelve tarde de una expedición (r185) no tiene puesto esa noche.
 
@@ -440,13 +365,7 @@ Quien vuelve tarde de una expedición (r185) no tiene puesto esa noche.
 
 La **Moral** (0–10) empieza en 5.
 
-| Baja la Moral | Sube la Moral |
-|---|---|
-| Un alba sin comida para todos: −1 | Una comida caliente (Cocina): +1 |
-| Una muerte en el grupo: −2 | Un entierro digno: +1 (◷ 1) |
-| Echar a alguien, una pelea, un robo: −1 | Un cumpleaños, una canción, una fiesta: +1 |
-| Un sondeo que entra: −1 | La primera instalación de cada tipo: +1 |
-| Una decisión cruel tuya: lo que diga el evento | Volver con un Tesoro: +2 |
+**Baja:** un alba sin comida para todos (−1), una muerte en el grupo (−2), echar a alguien, una pelea o un robo (−1), un sondeo que entra (−1), tus decisiones crueles. **Sube:** una comida caliente (+1), un entierro digno (+1, ◷ 1), un cumpleaños, una canción o una fiesta (+1), la primera instalación de cada tipo (+1), volver con un Tesoro (+2).
 
 - **8 o más:** cada noche, un puesto produce el doble.
 - **2 o menos:** cada noche, crisis → [e080](#e080).
@@ -494,13 +413,7 @@ Tus casillas: **Magullado, Lastimado, Herido, Grave, Muriendo** (el Mayor no tie
 
 **Mordida:** la Fiebre empieza en **1**, sin prueba. **Cada alba, sube 1.**
 
-| Fiebre | Qué pasa |
-|---|---|
-| 1–2 | Calor, sudor. Nada más |
-| 3 | Desventaja en Labia: se te nota |
-| 4 | Desventaja en todo |
-| 5 | Delirios: cada noche, con 1–2 en 1d6 atacás a alguien del grupo |
-| 6 | **Te convertís** (r195) |
+**Fiebre 1–2:** calor, sudor. **3:** Desventaja en Labia, se te nota. **4:** Desventaja en todo. **5:** delirios; cada noche, con 1–2 en 1d6 atacás a alguien del grupo. **6:** te convertís (r195).
 
 - **Antiviral** (◷ 0): la Fiebre no sube al alba siguiente. No la baja ni la cura.
 - **Amputar** (r192), si la mordida fue en un miembro y la Fiebre es 2 o menos.
@@ -534,12 +447,7 @@ Las **Reservas** (0–6) son tu cuerpo.
 
 El **Ánimo** (0–6) es tu cabeza.
 
-| Baja el Ánimo | Sube el Ánimo |
-|---|---|
-| Ver morir a alguien del grupo: −1 | Dormir en un Dormitorio: +1 |
-| Matar a un Callado que conocías: −1 | Descansar: +1 (r133) |
-| Dos noches sin dormir: −1 | Una comida caliente: +1 |
-| Lo que digan los eventos (☹) | Hablar con alguien, una canción, una victoria |
+**Baja:** ver morir a alguien del grupo, matar a un Callado que conocías, dos noches sin dormir (−1 cada uno) y lo que digan los eventos. **Sube:** dormir en un Dormitorio, descansar (r133), una comida caliente (+1 cada uno), hablar con alguien, una canción, una victoria.
 
 **Ánimo 0: Quiebre** → [e085](#e085). Después, vuelve a 2.
 
@@ -565,14 +473,12 @@ Cuatro grupos se reparten Tolme: **la Parroquia** ([e660](#e660)), **los Bombero
 
 Tu **Motivo** (r104) tiene un **contador** de 0 a 6, un **arco** y un **epílogo**.
 
-| Motivo | Contador | Sube 1 cuando… | Baja 1 cuando… | Arco | Epílogo |
-|---|---|---|---|---|---|
-| La lista | Juramento | salvás a alguien de la muerte o de la Fiebre | dejás morir a alguien que podías salvar | [e800](#e800) | [e950](#e950) |
-| La obra | Cimientos | terminás una instalación | un frente llega a Resistencia 0 | [e810](#e810) | [e951](#e951) |
-| La orden | Deber | protegés a civiles con riesgo propio | usás la fuerza contra civiles desarmados | [e820](#e820) | [e952](#e952) |
-| El pedido | Ruta | cumplís un encargo de tu lista | abandonás uno | [e830](#e830) | [e953](#e953) |
-| El que falta | Esperanza | encontrás una **señal** de quien buscás | sube la Etapa sin que hayas encontrado ninguna señal en la anterior | [e840](#e840) | [e956](#e956) |
-| Lo que hiciste | Culpa | dejás a alguien atrás, o repetís lo que hiciste | arriesgás algo tuyo por alguien que no te lo puede devolver | [e850](#e850) | [e957](#e957) |
+- **La lista · Juramento** ([e800](#e800), epílogo [e950](#e950)): sube cuando salvás a alguien de la muerte o de la Fiebre; baja cuando dejás morir a alguien que podías salvar.
+- **La obra · Cimientos** ([e810](#e810), [e951](#e951)): sube cuando terminás una instalación; baja cuando un frente llega a Resistencia 0.
+- **La orden · Deber** ([e820](#e820), [e952](#e952)): sube cuando protegés a civiles con riesgo propio; baja cuando usás la fuerza contra civiles desarmados.
+- **El pedido · Ruta** ([e830](#e830), [e953](#e953)): sube cuando cumplís un encargo de tu lista; baja cuando abandonás uno.
+- **El que falta · Esperanza** ([e840](#e840), [e956](#e956)): sube con cada **señal** de quien buscás; baja cuando sube la Etapa sin que hayas encontrado ninguna en la anterior.
+- **Lo que hiciste · Culpa** ([e850](#e850), [e957](#e957)): sube cuando dejás a alguien atrás o repetís lo que hiciste; baja cuando arriesgás algo tuyo por alguien que no te lo puede devolver.
 
 - **La Culpa va al revés:** empieza en 4 y tu meta es 0. «Tu contador sube» la baja; «baja», la sube.
 - **El arco** se abre desde lugares de la ciudad, desde la carta «Para vos» (e035) y desde algunas noches. Las entradas de otro Motivo no se leen.

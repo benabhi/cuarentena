@@ -1,6 +1,6 @@
 ## Barrio 6 · Las Lomas
 
-*Casas grandes con pileta, riego automático que ya no riega, un club de golf y un barrio cerrado con guardia. Los ricos de Tolme vivían acá, lejos de todo. Ahora, también. Los Lobos mandan.*
+*Casas con pileta, un club de golf y un barrio cerrado con guardia. Ahora mandan los Lobos.*
 
 <a id="e300"></a>
 ### e300 · Las Lomas: llegar
@@ -26,8 +26,6 @@ Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o 
 ### e301 · Las casas con pileta
 *Las Lomas · Vivienda · stock ▢▢▢▢*
 
-Techos de tejas, rejas altas, cámaras muertas, pasto por la rodilla y autos caros sin batería.
-
 - **Revisar** (r161). Con 5–6, y 6 en otro 1d6, una caja fuerte: `[Oficio]` o `[Mecánica]` (+1 con Taladro). Con 7+, joyas que no sirven, un revólver (2 Munición) y, con 4–6, 2 Antivirales comprados por si acaso.
 - **Las piletas:** con Hervir agua ([e748](#e748)), 3 Víveres por visita (◷ 1), tres veces (▢▢▢).
 
@@ -37,7 +35,7 @@ Techos de tejas, rejas altas, cámaras muertas, pasto por la rodilla y autos car
 ### e302 · La Armería Gómez
 *Las Lomas · Armería · stock ▢▢▢*
 
-«CAZA Y PESCA · DESDE 1962». Vidriera blindada, reja doble, «Cerrado por duelo». Adentro todo parece intacto. Es raro: alguien lo cuida.
+«CAZA Y PESCA · DESDE 1962». Todo intacto: alguien lo cuida.
 
 **Tesoro:** si la Armería del cordón está acá (r110) → [e520](#e520).
 
@@ -51,7 +49,7 @@ Techos de tejas, rejas altas, cámaras muertas, pasto por la rodilla y autos car
 ### e303 · El club de golf
 *Las Lomas · Almacén · stock ▢▢▢*
 
-Dieciocho hoyos de pasto alto. En el green del 9, una docena de Callados con chombas y viseras, quietos, mirando el lago.
+En el green del 9, una docena de Callados con chombas y viseras, quietos, mirando el lago.
 
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
@@ -65,12 +63,12 @@ Dieciocho hoyos de pasto alto. En el green del 9, una docena de Callados con cho
 ### e304 · La casa del radioaficionado
 *Las Lomas · Vivienda · stock ▢▢*
 
-La única casa sin pileta, con una antena de diez metros atada con tensores. En el buzón: «LU3 · Ing. Bertolotti».
+Una antena de diez metros atada con tensores.
 
 **Tesoro:** si la Radio del aficionado está acá (r110) → [e540](#e540).
 
 - **Revisar** (r161). Con 4 o más, +1 Electrónica.
-- **El cuarto de la radio:** válvulas, un micrófono de mesa, tarjetas de todo el mundo, y el ingeniero con los auriculares puestos. Murió de viejo, antes de todo, y nadie vino. Su libreta tiene las frecuencias del Comando de los días −5 a 0: una pista ([e560](#e560)) y anotá `FRECUENCIAS_DEL_COMANDO`.
+- **El cuarto de la radio:** el ingeniero con los auriculares puestos, muerto de viejo. Su libreta tiene las frecuencias del Comando de los días −5 a 0: una pista ([e560](#e560)) y anotá `FRECUENCIAS_DEL_COMANDO`.
 
 ---
 
@@ -78,7 +76,7 @@ La única casa sin pileta, con una antena de diez metros atada con tensores. En 
 ### e305 · El barrio cerrado Los Aromos
 *Las Lomas · Los Lobos · sin stock*
 
-Un muro de tres metros con alambre eléctrico sin electricidad, una garita con dos escopetas y ochenta casas iguales. Es la casa de **los Lobos**.
+Un muro, una garita y ochenta casas iguales: la casa de **los Lobos**.
 
 **Tesoro:** si la Armería del cordón está acá (r110) → [e520](#e520), si te dejan entrar o ya no hay Lobos.
 
@@ -92,7 +90,7 @@ Un muro de tres metros con alambre eléctrico sin electricidad, una garita con d
 ### e306 · El colegio bilingüe
 *Las Lomas · Oficina · stock ▢▢▢*
 
-Saint Andrew's School: canchas de rugby, una capilla, un micro amarillo con las puertas abiertas y la tarea del día 0 todavía en los pizarrones, en inglés.
+Saint Andrew's School: la tarea del día 0 todavía en los pizarrones.
 
 - **Revisar** (r161). Un 5 da *Química para el secundario* ([e774](#e774)).
 - **La enfermería,** una vez: 2 Fármacos y un Botiquín.
@@ -104,9 +102,7 @@ Saint Andrew's School: canchas de rugby, una capilla, un micro amarillo con las 
 ### e310 · El jardinero
 *Las Lomas · ◷ 0*
 
-Un hombre con sombrero de paja corta el pasto con una tijera de podar, a mano. Detrás, la casa tiene las ventanas rotas.
-
-—La señora quiere el jardín impecable para el domingo. Viene la familia.
+Un hombre corta el pasto con una tijera de podar, frente a una casa con las ventanas rotas. «La señora quiere el jardín impecable para el domingo».
 
 Si prometés no pisar el pasto, te deja revisar la casa sin Ruido (Vivienda, ▢▢). Y si le ofrecés refugio, viene: Supervivencia 2, Testarudo, y la Huerta produce +1. Anotá `EL_JARDINERO`.
 
@@ -116,7 +112,7 @@ Si prometés no pisar el pasto, te deja revisar la casa sin Ruido (Vivienda, ▢
 ### e311 · La cámara
 *Las Lomas · ◷ 0*
 
-Una cámara en un poste gira y te sigue, con la luz roja encendida y un panel solar. Alguien te está mirando.
+Una cámara en un poste gira y te sigue, con la luz roja encendida.
 
 - **Romperla:** `[Puntería]`. Con 7+, se apaga: −1 Reputación con los Lobos.
 - **Saludar.** Media hora después, una camioneta negra frena a tu lado → [e681](#e681).
@@ -128,7 +124,7 @@ Una cámara en un poste gira y te sigue, con la luz roja encendida y un panel so
 ### e312 · La patrulla
 *Las Lomas · ◷ 0*
 
-Una camioneta negra de vidrios polarizados, tres chalecos, tres escopetas. Con Reputación +1 o más, bajan la ventanilla: «Todo bien, amigo. Cuidate». Si no, r300 con **Lobos ×3 · Aguante 2 · armas de fuego**, y Esquivar tiene −1: tienen camioneta.
+Una camioneta negra, tres escopetas. Con Reputación +1 o más, bajan la ventanilla: «Todo bien, amigo. Cuidate». Si no, r300 con **Lobos ×3 · Aguante 2 · armas de fuego**, y Esquivar tiene −1: tienen camioneta.
 
 ---
 
@@ -136,9 +132,7 @@ Una camioneta negra de vidrios polarizados, tres chalecos, tres escopetas. Con R
 ### e313 · La cacería
 *Las Lomas · ◷ 0*
 
-Gritos, risas, disparos: una camioneta de los Lobos atropella Callados a toda velocidad y los de la caja rematan a los que quedan. Se divierten. Te ven.
-
-—¡Eh! ¡Uno vivo! ¡Uno vivo!
+Una camioneta de los Lobos atropella Callados entre risas. Te ven. «¡Eh! ¡Uno vivo!»
 
 1. **Correr.** `[Físico]`. Con 10+, te perdés en un jardín. Con 7–9, después de un tiro: 1 Herida. Con 6−, r310.
 2. **Manos arriba.** Te llevan al barrio cerrado → [e680](#e680), sin lo que tenías en la mano.

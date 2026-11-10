@@ -10,9 +10,9 @@
 ### e500 · El camión del Comando
 *Tesoro · ◷ 0*
 
-Un camión blanco con el sello del Comando y una franja: «AYUDA HUMANITARIA · NO DETENER». Volcado contra una pared, con el acoplado abierto como una lata: cajas, agua en film, leche en polvo. Semanas a la vista y nadie la tocó. ¿Por qué? 1d6:
+Un camión blanco del Comando, «AYUDA HUMANITARIA», volcado con el acoplado abierto. Semanas a la vista y nadie lo tocó. ¿Por qué? 1d6:
 
-- **1–2 · Está vigilada.** **Callados ×3d6 · Lejos**, quietos alrededor: los que intentaron antes. Algunos todavía tienen cajas en las manos.
+- **1–2 · Está vigilada.** **Callados ×3d6 · Lejos**, quietos alrededor: los que intentaron antes.
 - **3–4 · Es de alguien.** Seis vivos armados acampan en el acoplado: r300, Hablar con −1. Con Reputación −1 o menos con los Lobos, son los Lobos ([e680](#e680)).
 - **5–6 · Está trampeada** → [e502](#e502).
 
@@ -24,7 +24,7 @@ Cuando es tuyo → [e501](#e501).
 ### e501 · La carga
 *El camión del Comando · ◷ 0*
 
-Comida para un barrio durante una semana. Es un **lugar** de tu mapa: anotá `EL_CAMION` con stock **▢▢▢▢▢▢**. Cada casilla (◷ 1, sin prueba) son **4 Víveres**.
+Es un **lugar** de tu mapa: anotá `EL_CAMION` con stock **▢▢▢▢▢▢**. Cada casilla (◷ 1, sin prueba) son **4 Víveres**.
 
 - **Con un vehículo** (`LA_AUTOBOMBA`, `EL_BLINDADO` o 20 casilleros), tres casillas por viaje.
 - **El agua:** la primera casilla también te devuelve 2 Reservas por persona.
@@ -39,7 +39,7 @@ Cada alba, mientras quede stock, con 1 en 1d6 (1–2 con Reputación −2 con lo
 ### e502 · La trampa del camión
 *El camión del Comando · ◷ 0*
 
-Tres cuerpos con la cabeza destrozada, no convertidos. Un hilo de pescar brilla entre la puerta y un caño: escopetas atadas a los costados, apuntando a la entrada.
+Tres cuerpos no convertidos y un hilo de pescar entre la puerta y un caño: escopetas apuntando a la entrada.
 
 1. **Desarmarla,** `[Mecánica]` u `[Oficio]`. Con 10+, te quedás con 2 escopetas ([e701](#e701)) sin munición. Con 7–9, se dispara una al aire: +2 Ruido. Con 6−, te apunta a vos: 2 Heridas, +2 Ruido.
 2. **Entrar por el techo,** `[Físico]`, ◷ 1. Con 6−, caés adentro: 1 Herida.
@@ -53,9 +53,9 @@ Después → [e501](#e501).
 ### e503 · La hoja de ruta
 *El camión del Comando · Cabina · ◷ 0*
 
-El remito, del **día 2**. Destino: «Perímetro Norte · Personal del cordón. Uso exclusivo». La comida nunca fue para la ciudad.
+El remito, del **día 2**. Destino: «Perímetro Norte · Personal del cordón. Uso exclusivo».
 
-Una pista ([e560](#e560)). Quien venga del Destacamento o tenga `BUSCADO`: −1 Ánimo. Lo sabía.
+Una pista ([e560](#e560)). Quien venga del Destacamento o tenga `BUSCADO`: −1 Ánimo.
 
 ---
 
@@ -63,11 +63,11 @@ Una pista ([e560](#e560)). Quien venga del Destacamento o tenga `BUSCADO`: −1 
 ### e510 · El generador industrial
 *Tesoro · ◷ 0*
 
-Naranja, del tamaño de un auto, sobre un trailer: «400 kVA · PROPIEDAD DEL COMANDO · NO MOVER». Alguien lo trajo para algo grande y se fue antes. 1d6:
+Naranja, del tamaño de un auto: «400 kVA · PROPIEDAD DEL COMANDO». 1d6:
 
 - **1–3 · Apagado y entero,** con 4 Combustible. Arrancarlo: `[Mecánica]`, ◷ 1; con 6−, necesita una batería.
-- **4–5 · Andando,** desde hace quién sabe cuánto. Los Callados del barrio están alrededor como polillas: **Callados ×4d6 · Lejos**. Si llegás al tablero (`[Sigilo]` con Desventaja, o peleando) y lo apagás, se dispersan en 1d6 rondas.
-- **6 · Lo están usando** unos vivos con luz, heladera y películas. r300, Hablar con +1. No lo regalan, pero una vez por semana (◷ 1) te dejan usarlo como Generador para una receta.
+- **4–5 · Andando,** con los Callados alrededor como polillas: **Callados ×4d6 · Lejos**. Si llegás al tablero (`[Sigilo]` con Desventaja, o peleando) y lo apagás, se dispersan en 1d6 rondas.
+- **6 · Lo están usando** unos vivos con luz y heladera. r300, Hablar con +1. No lo regalan, pero una vez por semana (◷ 1) te dejan usarlo como Generador para una receta.
 
 Para llevártelo → [e511](#e511).
 
@@ -76,8 +76,6 @@ Para llevártelo → [e511](#e511).
 <a id="e511"></a>
 ### e511 · Mover el generador
 *El generador industrial · ◷ 0*
-
-Dos toneladas.
 
 1. **Remolcarlo** con cualquier vehículo: ◷ 2, sin encuentro, +4 Ruido y +2 Rastro al llegar.
 2. **Empujarlo,** cuatro personas de noche (r158), ◷ 6. Tirá encuentro dos veces. Al llegar, +2 Rastro.
@@ -102,7 +100,7 @@ Anotá `CERCO_ELECTRICO` y el frente. Cada sondeo ahí hace 2 de daño menos. En
 ### e520 · La armería del cordón
 *Tesoro · ◷ 0*
 
-Un contenedor verde oliva con dos candados del tamaño de un puño y una planilla: «FUSILES (24) · AMETRALLADORA (2) · GRANADAS (1 CAJA)». Algunas líneas, tachadas. 1d6:
+Un contenedor verde oliva con dos candados y una planilla: «FUSILES (24) · AMETRALLADORA (2) · GRANADAS». 1d6:
 
 - **1–2 · Un soldado** sentado arriba, con el fusil en las piernas → [e521](#e521).
 - **3–4 · La guardia que se quedó:** **Blindados ×1d3** ([e729](#e729)) **y Callados ×1d6 · Lejos**. En Etapa I o II son todos Callados con casco: el primer golpe a cada uno necesita 1 Daño más.
@@ -116,7 +114,7 @@ Adentro → [e522](#e522).
 ### e521 · El último del cordón
 *La armería del cordón · ◷ 0*
 
-Un conscripto de veinte años con los labios partidos. Le tiembla el fusil. «Tengo orden de no dejar pasar a nadie». ¿De quién? No sabe: hace tres semanas que nadie le da órdenes. Se llama **Leandro** y tiene Fiebre 2: lo arañaron y no se lo dijo a nadie, porque no hay nadie.
+Un conscripto de veinte años con el fusil temblando: «Tengo orden de no dejar pasar a nadie». Hace tres semanas que nadie le da órdenes. Se llama **Leandro** y tiene Fiebre 2.
 
 1. **Hablarle,** `[Labia]`. Con 10+, llora y te deja abrir; con un Antiviral, se une: Puntería 3, Valiente, Fiebre 2 (r191). Con 7–9, te deja llevar la mitad (una tirada en [e522](#e522)). Con 6−, dispara al aire y huye: +3 Ruido.
 2. **Darle una orden,** con `OFICIO_POLICIA`, `OFICIO_SEGURIDAD` o Reputación +1 con el Destacamento. «¡Sí, señor!». Como la opción 1 con 10+, sin prueba.
@@ -128,7 +126,7 @@ Un conscripto de veinte años con los labios partidos. Le tiembla el fusil. «Te
 ### e522 · Lo que quedó en la armería
 *La armería del cordón · ◷ 0*
 
-Alguien vino antes, pero no se llevó todo. Tirá **dos veces** (una, si lo dijo [e521](#e521)); un resultado repetido son 10 Munición.
+Tirá **dos veces** (una, si lo dijo [e521](#e521)); un resultado repetido son 10 Munición.
 
 | 1d6 | Qué hay |
 |---|---|
@@ -149,7 +147,7 @@ Anotá `LA_ARMERIA`. Fusiles y chalecos ocupan 2 casilleros. Lo que dejes sigue 
 
 > **Ametralladora** · Daño 4 a todo un grupo · Lejos · 3 Munición por ronda · 6 casilleros · +4 Ruido por ráfaga · Desventaja con Puntería 1 o menos.
 
-Trae 30 Munición propia. Anotá `LA_AMETRALLADORA`. Emplazada en un frente (◷ 1, no el Subsuelo), anotá `AMETRALLADORA_EN_` y el frente: los sondeos ahí no hacen daño (+2 Rastro), y en la Noche 40 ese frente tiene **+4** por oleada mientras haya munición (6 por oleada). Sacarla de paseo es la mejor forma de que todo Tolme sepa dónde estás.
+Trae 30 Munición propia. Anotá `LA_AMETRALLADORA`. Emplazada en un frente (◷ 1, no el Subsuelo), anotá `AMETRALLADORA_EN_` y el frente: los sondeos ahí no hacen daño (+2 Rastro), y en la Noche 40 ese frente tiene **+4** por oleada mientras haya munición (6 por oleada).
 
 ---
 
@@ -157,7 +155,7 @@ Trae 30 Munición propia. Anotá `LA_AMETRALLADORA`. Emplazada en un frente (◷
 ### e530 · El botiquín de la cuarentena
 *Tesoro · ◷ 0*
 
-Un maletín de aluminio con candado de combinación: «KIT DE RESPUESTA SANITARIA · NIVEL 3». Lo dejó alguien que corría. 1d6:
+Un maletín de aluminio con combinación: «KIT DE RESPUESTA SANITARIA · NIVEL 3». 1d6:
 
 - **1–2 · Lo tiene alguien:** un médico que se pegó un tiro abrazado al maletín. Los Callados de la sala no lo saben: **Callados ×2d6 · Cerca**, escena Pasillo.
 - **3–4 · Solo,** debajo de una camilla.
@@ -173,7 +171,7 @@ Para abrirlo → [e531](#e531).
 
 1. **Probar combinaciones** en un lugar seguro: ◷ 3, sin prueba.
 2. **Forzarlo,** `[Mecánica]` u `[Oficio]`, ◷ 1. Con 6−, abre, pero se rompen 2 Antivirales.
-3. **Con `PROTOCOLO_40`,** la clave está en la carpeta: 040. Claro que es 040.
+3. **Con `PROTOCOLO_40`,** la clave está en la carpeta: 040.
 
 Adentro: **8 Antivirales**, **3 Botiquines**, **instrumental** (la Enfermería, [e753](#e753), da +2 a curar, y la amputación, r192, +1) y un frasco → [e532](#e532). Anotá `EL_BOTIQUIN`.
 
@@ -195,7 +193,7 @@ Seis ampollas apenas amarillas: «L-40 · Fase II · Uso compasivo. Administrar 
 ### e540 · La radio del aficionado
 *Tesoro · ◷ 0*
 
-Un transceptor de onda corta, un amplificador, una antena tendida de punta a punta y tarjetas de todo el mundo: «QSL · Japan», «QSL · Antártida». El dueño, 1d6:
+Un transceptor de onda corta y tarjetas de todo el mundo: «QSL · Japan». El dueño, 1d6:
 
 - **1–3 · No está.** El equipo ocupa 8 casilleros; desarmar la antena, ◷ 1.
 - **4–5 · Está,** con los auriculares puestos: un viejo de chaleco que escucha hace semanas. r300, Hablar con +2. Si viene, Mecánica 2, Insomne: hace andar la radio sin prueba.
@@ -209,7 +207,7 @@ En el refugio → [e541](#e541).
 ### e541 · Escuchar el mundo
 *La radio del aficionado · Tu refugio · ◷ 0*
 
-Con batería o Generador, girás el dial. Estática, y después voces. Anotá `LA_RADIO_DEL_AFICIONADO`: es la **Radio** ([e759](#e759)) sin construirla. Además, una vez por noche (◷ 1), 1d6:
+Con batería o Generador, anotá `LA_RADIO_DEL_AFICIONADO`: es la **Radio** ([e759](#e759)) sin construirla. Además, una vez por noche (◷ 1), 1d6:
 
 | 1d6 | Qué escuchás |
 |---|---|
@@ -226,7 +224,7 @@ Con batería o Generador, girás el dial. Estática, y después voces. Anotá `L
 ### e542 · La frecuencia del Comando
 *La radio del aficionado · ◷ 0*
 
-Coordenadas leídas por una voz cansada. «Perímetro Norte mantiene posición. Contacto masivo: sin cambios». Y los días que faltan para la Noche 40. Exactos. Lo saben.
+«Perímetro Norte mantiene posición». Y los días que faltan para la Noche 40, exactos.
 
 - **Los reportes:** ves todas las Procesiones, como en [e136](#e136). La primera vez, una pista ([e560](#e560)).
 - **Hablarles:** −2 Reputación con el Destacamento, y con 6 en 1d6 alguien rompe el protocolo: «No esperen al día 41. Salgan como puedan». Otra pista.
@@ -237,7 +235,7 @@ Coordenadas leídas por una voz cansada. «Perímetro Norte mantiene posición. 
 ### e543 · Alguien que contesta
 *La radio del aficionado · ◷ 0*
 
-«... Tolme, ¿me copia? Acá Tigre Dos, desde la otra orilla». Una mujer con un pesquero y dos hijos que cruza de noche hasta la escollera por si alguien hace señas. Las lanchas militares la corrieron dos veces. «Puedo llevar a seis. Una vez. Avisame con tiempo».
+«... Tolme, ¿me copia? Acá Tigre Dos, desde la otra orilla». Una mujer con un pesquero y dos hijos que cruza de noche hasta la escollera por si alguien hace señas. «Puedo llevar a seis. Una vez. Avisame con tiempo».
 
 Anotá `TIGRE_DOS`. En **Éxodo**, es una salida para 6 desde la escollera ([e960](#e960)). En los otros modos, si la llamás por radio la Noche 40 ([e912](#e912)), al amanecer hay un barco esperándote ([e930](#e930)). Con `LA_LUZ_DE_ENFRENTE` ([e384](#e384)), era ella la de la luz: +1 Moral.
 
@@ -247,10 +245,10 @@ Anotá `TIGRE_DOS`. En **Éxodo**, es una salida para 6 desde la escollera ([e96
 ### e550 · El blindado
 *Tesoro · ◷ 0*
 
-Ocho ruedas, una torreta, la escotilla de atrás abierta. Huele a gasoil y a sangre vieja. Las llaves están puestas; no arranca. Es lo más parecido a un tanque que hay en Tolme. 1d6:
+Ocho ruedas, una torreta, la escotilla abierta y las llaves puestas; no arranca. 1d6:
 
 - **1–2 · La tripulación no se bajó.** **Blindados ×1d3 · Encima** ([e729](#e729)), en la cabina: no podés retroceder, y antes de tu primera ronda cada uno tira en la tabla de Mordidas (r144).
-- **3–4 · Vacío y roto.** Lo dejaron por algo.
+- **3–4 · Vacío y roto.**
 - **5–6 · Alguien lo arregla:** una mujer de overol debajo del motor. Es **Valeria** ([e642](#e642)) si no la conocés. r300, Hablar con +1; si viene, +2 a [e551](#e551).
 
 ---
@@ -269,7 +267,7 @@ Cuando arranca, anotá `EL_BLINDADO` → [e552](#e552).
 ### e552 · El blindado en marcha
 *El blindado · ◷ 0*
 
-El motor ruge y todo Tolme lo escucha. Adentro de esto, no importa. Con `EL_BLINDADO`:
+Con `EL_BLINDADO`:
 
 - **Viajar** a un barrio conectado por la Calle en ◷ 1 (su tabla con +1), con 8 personas y 30 casilleros. +4 Ruido al llegar; 1 Combustible por barrio.
 - **Atropellar** una Procesión en la Calle: se dispersa (r156) y se rearma en un barrio al azar. +2 Rastro si es el barrio del refugio.
