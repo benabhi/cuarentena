@@ -1,6 +1,6 @@
 # Auditoría de Cuarentena (fase 6)
 
-*10 de noviembre de 2026 · texto completo del libro (r100–r336, e001–e950, catálogo, apéndices e índice de Marcas)*
+*Versión editable: https://claude.ai/artifact/MnkKvNipu2kz7wrFaQf5DN · 10 de noviembre de 2026 · texto completo del libro (r100–r336, e001–e950, catálogo, apéndices e índice de Marcas)*
 
 ## Cómo leer esto
 
@@ -56,7 +56,7 @@ Desde la fase 5, la tabla de Mordidas es: 1–3 nada, 4–5 golpe, 6 «los dient
 ### Reglas que se contradicen
 
 **B7 · Vehículos y encuentros.** r152 dice que en vehículo, al llegar, tirás la tabla del barrio con +1. e712 dice que el vehículo te saca de la Calle sin tirar encuentro, y lo repiten el taxi, la autobomba y el blindado.
-*Propuesta:* manda r152 (el vehículo hace ruido, algo te espera) y se corrige e712. La otra opción, sin encuentro, haría a los vehículos demasiado buenos.
+*Propuesta:* manda r152 (el vehículo hace ruido, algo te espera) y se corrige e712. Sin encuentro, los vehículos serían demasiado buenos.
 
 **B8 · El Bruto en el sondeo.** e726 dice que el frente pierde 1d6 de Resistencia; e075 dice 3.
 *Propuesta:* 3 en los dos (menos azar en la defensa).
@@ -122,12 +122,12 @@ Desde la fase 5, la tabla de Mordidas es: 1–3 nada, 4–5 golpe, 6 «los dient
 ### Exploits
 
 **B27 · Desarmar adentro del refugio (r165) no tiene límite.** Madera infinita.
-*Propuesta:* el refugio se puede desarmar una sola vez: 6 Madera en total, con una casilla en la ficha.
+*Propuesta:* el refugio se desarma una sola vez: 6 Madera en total, con una casilla en la ficha.
 
 **B28 · La barcaza (e254).** «Los que suban (hasta 30) cuentan como sobrevivientes al amanecer»: subís a todos menos a uno y ganás sin defender.
 *Propuesta:* los de la barcaza cuentan para el final **Éxodo**, no como sobrevivientes del refugio.
 
-**B29 · Agua y comida sin fin.** Lugares sin stock que dan Víveres en cada visita: e283 pileta (4 Víveres, ◷ 2; en el mismo barrio que la Escuela), e301 piletas (3, ◷ 1), e303 lago (4, ◷ 1), e381 pesca, e411 patos y agua. Más nafta sin fin en e265. Esto rompe «el saqueo se agota», y la falta de comida es la presión que mide el simulador.
+**B29 · Agua y comida sin fin.** Lugares sin stock que dan Víveres en cada visita: e283 pileta (4 Víveres, ◷ 2; en el mismo barrio que la Escuela), e301 piletas (3, ◷ 1), e303 lago (4, ◷ 1), e381 pesca, e411 patos y agua. Más nafta sin fin en e265. Esto rompe «el saqueo se agota», y la falta de comida es la presión principal que mide el simulador.
 *Propuesta:* cada uno con su stock ▢▢▢ (tres visitas), como los demás lugares.
 
 **B30 · Moral sin fin.** El piano con Celeste (e206) da +2 Moral en cada visita; el organillero (e210), +1 Moral cada noche.
