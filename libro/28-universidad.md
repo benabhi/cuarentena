@@ -38,7 +38,7 @@ Un edificio bajo, sin ventanas, rodeado por un alambrado de tres metros con cám
 - **Revisar** (r161), con la tabla de Hospital. Un 1, acá, es **Callados ×1d6 · Cerca** con trajes de protección (Blindados en la Etapa III o más: [e729](#e729)).
 - **El nivel 3**, al que se baja con una tarjeta magnética: necesitás `CREDENCIAL_DE_SALAS` o forzar la puerta (`[Mecánica]` con Desventaja, ◷ 2). Abajo → [e374](#e374).
 - **La oficina de la directora:** una mujer con guardapolvo duerme sentada en el piso, abrazada a una notebook, con una pistola en el regazo. Está viva. Es la doctora Ríos → [e648](#e648).
-- **Si sos la Repartidora** → [e835](#e835).
+- **Si tu Motivo es El pedido** → [e835](#e835).
 
 ---
 
@@ -74,7 +74,7 @@ FM 99.1, «La Radio de la Universidad». Un estudio con vidrio, una consola, mic
 Un edificio de departamentos chicos para los investigadores invitados. Pasillos con alfombra, puertas con números y nombres en tarjetitas.
 
 - **Revisar** (r161).
-- **El departamento 4B**, tarjetita: «Dr. M. Salas». La puerta está forzada. Adentro, todo revuelto por alguien que buscaba algo. En el piso, entre los papeles, una foto de un hombre con uniforme del Comando dándole la mano a la doctora Ríos frente al laboratorio, fechada en el día −30. Una pista ([e560](#e560)). Si sos la Repartidora → [e836](#e836).
+- **El departamento 4B**, tarjetita: «Dr. M. Salas». La puerta está forzada. Adentro, todo revuelto por alguien que buscaba algo. En el piso, entre los papeles, una foto de un hombre con uniforme del Comando dándole la mano a la doctora Ríos frente al laboratorio, fechada en el día −30. Una pista ([e560](#e560)). Si tu Motivo es El pedido → [e836](#e836).
 
 ---
 

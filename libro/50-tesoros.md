@@ -67,7 +67,7 @@ En la guantera, una carpeta plástica con el remito y la hoja de ruta. Fecha: **
 
 La comida nunca fue para la ciudad. Era para los soldados.
 
-Una pista ([e560](#e560)). Si tenés a algún sobreviviente que sea del Destacamento o la Marca `DESERTORA`, −1 Ánimo para esa persona: lo sabía.
+Una pista ([e560](#e560)). Si tenés a algún sobreviviente que sea del Destacamento o la Marca `BUSCADO`, −1 Ánimo para esa persona: lo sabía.
 
 ---
 
@@ -153,7 +153,7 @@ Es un pibe de veinte años con uniforme de conscripto, sin casco, la cara quemad
 No sabe. Hace tres semanas que nadie le da órdenes. Se llama **Leandro**. Comió lo que había en las raciones de la caja de herramientas. Tiene Fiebre 2: lo arañaron hace dos días y no se lo dijo a nadie, porque no hay nadie.
 
 1. **Hablarle.** `[Labia]`. Con 10+, baja el fusil y llora. Te deja abrir. Si le das un Antiviral, se une: sobreviviente con Puntería 3, rasgo Valiente, Fiebre 2 (r191). Con 7–9, baja el fusil, pero no se va del contenedor: te deja llevar la mitad (tirá solo una vez en [e522](#e522)). Con 6−, dispara al aire y se escapa: +3 Ruido, y la armería es tuya.
-2. **Si sos la Agente** o tenés Reputación +1 o más con el Destacamento: le das una orden. Con voz de orden. Se cuadra. «¡Sí, señor!» Te deja abrir y se une como en la opción 1, pero sin prueba.
+2. **Si tenés `OFICIO_POLICIA` u `OFICIO_SEGURIDAD`** o Reputación +1 o más con el Destacamento: le das una orden. Con voz de orden. Se cuadra. «¡Sí, señor!» Te deja abrir y se une como en la opción 1, pero sin prueba.
 3. **Dispararle.** `[Puntería]`. Con 7+, cae. −2 Ánimo. Con 6−, te dispara él: 2 Heridas, y después cae. −2 Ánimo igual.
 
 ---
@@ -246,7 +246,7 @@ No sabés qué hacen. Podés probarlas.
 
 1. **Guardarlas.** Anotá `AMPOLLAS_L40`. Algunas verdades del final (el Secreto) cambian si las tenés.
 2. **Probar una** en alguien del grupo con Fiebre 1 o 2 (con su permiso, o sin). Tirá 1d6: **1**, la Fiebre sube a 6 esa noche: se convierte (e991); **2–3**, no pasa nada; **4–5**, la Fiebre no sube durante 3 días; **6**, la Fiebre baja a 0 y no vuelve a subir por esa mordida. Anotá `PROBASTE_L40` y el resultado. Una pista ([e560](#e560)): sea lo que sea, alguien sabía.
-3. **Si sos la Enfermera** o tenés Medicina 3 o más, sabés leer el protocolo: la tirada de la opción 2 tiene +1, y ves en el reverso una cosa que nadie más vio: «Sujetos con seroconversión negativa: derivar al Comando». Una pista ([e560](#e560)).
+3. **Si tenés `OFICIO_SALUD`, `OFICIO_FARMACIA`** o Medicina 3 o más, sabés leer el protocolo: la tirada de la opción 2 tiene +1, y ves en el reverso una cosa que nadie más vio: «Sujetos con seroconversión negativa: derivar al Comando». Una pista ([e560](#e560)).
 
 ---
 

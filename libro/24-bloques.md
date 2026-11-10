@@ -74,7 +74,7 @@ El club del barrio: una cancha de básquet techada, un buffet, un salón de fies
 
 Un kiosco en la planta baja del bloque A, con la reja baja y un cartel: «VUELVO EN 5 MIN». La reja está cerrada con candado desde afuera. Adentro, del otro lado del vidrio, golosinas, cigarrillos, gaseosas.
 
-- **Abrir** con Palanca o `[Oficio]` (+1 Ruido). Revisás (r161) con +1 a la tabla. Cada revisión, además, cigarrillos: 1 atado (vale 1 material para cambiar, r166).
+- **Abrir** con Palanca o `[Oficio]` (+1 Ruido). Revisás (r161) con +1 a la tabla. Cada revisión, además, cigarrillos: 1 atado (vale 1 material para cambiar, r166). Si tenés `VICIO` de cigarrillos, cada atado alcanza para una semana (r105).
 - **Don Tito** está atrás del mostrador, sentado en su banquito. Se convirtió esperando a que alguien le pagara una apuesta. **Callados ×1 · Cerca**. Su cuaderno de quiniela tiene los nombres de medio barrio y lo que debe cada uno: si lo llevás, cualquier sobreviviente de Los Bloques (Lucía, Doña Rosa, Facu, Ana y Bruno) te da +1 a Labia la primera vez.
 
 ---
@@ -109,7 +109,7 @@ Cinco chicos de quince o dieciséis años sentados en el paredón de la esquina,
 
 —¿Qué hacés acá? Este es nuestro barrio.
 
-1. **Hablarles bien.** `[Labia]` (la Repartidora, con Ventaja: hablan su idioma). Con 7+, te dicen dónde hay comida (1 lugar de Los Bloques recupera 1 stock: la reservaban ellos) y dónde hay Callados. Anotá `LOS_PIBES`. Con 6−, se ríen de vos y se van.
+1. **Hablarles bien.** `[Labia]` (si sos Joven o tenés `OFICIO_REPARTO`, con Ventaja: hablan tu idioma). Con 7+, te dicen dónde hay comida (1 lugar de Los Bloques recupera 1 stock: la reservaban ellos) y dónde hay Callados. Anotá `LOS_PIBES`. Con 6−, se ríen de vos y se van.
 2. **Ofrecerles que vengan.** Si tenés `LOS_PIBES`: dos de ellos se unen como un solo sobreviviente (Sigilo 2, Pelea 1, rasgo Fanfarrón, 2 Víveres por día). Hacen Guardia muy bien (cuenta como dos guardias).
 3. **Ignorarlos.**
 

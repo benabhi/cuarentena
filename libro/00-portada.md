@@ -32,7 +32,7 @@
 | Cómo leer este libro | [r001](#r001)–[r005](#r005) |
 | Tu protagonista | [r100](#r100)–[r107](#r107) |
 | Preparar la partida | [r108](#r108)–[r110](#r110) |
-| La prueba | [r120](#r120)–[r125](#r125) |
+| La prueba | [r120](#r120)–[r127](#r127) |
 | El día y la Baraja | [r130](#r130)–[r137](#r137) |
 | Combate | [r140](#r140)–[r149](#r149) |
 | La ciudad | [r150](#r150)–[r159](#r159) |
@@ -50,7 +50,7 @@
 
 | Rango | Contenido |
 |---|---|
-| [e001](#e001)–[e013](#e013) | Prólogo: el día 0 |
+| [e001](#e001)–[e015](#e015) | Prólogo: el día 0 |
 | [e020](#e020)–[e089](#e089) | La Baraja, los sondeos y el grupo |
 | [e100](#e100)–[e169](#e169) | La calle, las Azoteas y el Subsuelo |
 | [e200](#e200)–[e436](#e436) | Los doce barrios de Tolme |
@@ -60,7 +60,7 @@
 | [e600](#e600)–[e653](#e653) | Los sobrevivientes |
 | [e660](#e660)–[e697](#e697) | Las facciones |
 | [e700](#e700)–[e779](#e779) | Catálogo: armas, infectados, recetas y manuales |
-| [e800](#e800)–[e838](#e838) | Historias personales |
+| [e800](#e800)–[e858](#e858) | Historias personales |
 | [e900](#e900)–[e991](#e991) | La Noche 40 y los finales |
 
 **Apéndices:** hojas para imprimir, mapa de Tolme, resumen de reglas, bestiario e índice de Marcas.

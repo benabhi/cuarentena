@@ -214,7 +214,7 @@ Tirá 1d6:
 - **3 · Los Bomberos:** «Vimos tu refugio. El agua cuesta. Pasá por el cuartel.» Anotá `LOS_BOMBEROS_SABEN`.
 - **4 · Los Lobos:** «Linda casa. Volvemos en una semana a buscar lo nuestro.» Anotá `AVISO_DE_LOS_LOBOS`.
 - **5 · Sin firma:** «No escuchen la radio. Los cuarenta días son mentira.» Una pista ([e560](#e560)).
-- **6 · Para vos:** si tenés un arco personal, es algo de tu historia. Enfermera: [e802](#e802). Albañil: [e812](#e812). Agente: [e822](#e822). Repartidora: [e832](#e832).
+- **6 · Para vos:** es algo de tu historia, según tu Motivo. La lista: [e802](#e802). La obra: [e812](#e812). La orden: [e822](#e822). El pedido: [e832](#e832). El que falta: [e843](#e843). Lo que hiciste: [e853](#e853). Cada carta llega una sola vez: si ya la leíste, es como un 5.
 
 ---
 
@@ -239,7 +239,7 @@ Son seis: una pareja, una abuela, tres chicos. Vienen de Sanidad. Tienen hambre,
 
 1. **Hacerlos entrar.** Son 6 bocas más. Anotá 6 personas en la hoja del refugio como **la familia Quiroga**: cuentan como un solo sobreviviente para los puestos (pueden hacer un puesto de Obra o de Huerta, y los chicos no pelean), pero comen **3 Víveres** por día entre todos. +2 Moral. +2 Rastro. Anotá `LOS_QUIROGA`.
 2. **Darles comida y que sigan.** 3 Víveres. Te dicen que van a la Catedral. +1 Moral. Si vas a la Catedral más adelante, +1 Reputación con la Parroquia.
-3. **No abrir.** A la tarde se van. −1 Moral, −1 Ánimo. Si sos la Agente, −1 Deber.
+3. **No abrir.** A la tarde se van. −1 Moral, −1 Ánimo. Si tu Motivo es La orden, −1 Deber; si es Lo que hiciste, +1 Culpa: ya cerraste una puerta una vez.
 
 ---
 
@@ -257,7 +257,7 @@ Si hay un mordido:
 1. **Amputar,** si se puede (r192): la mordida está en el antebrazo y la Fiebre es 2.
 2. **Darle Antivirales y tiempo.** Cada Antiviral le gana un día. No lo salva.
 3. **Que elija.** `[Labia]`. Con 7+, se despide del grupo y se va antes de convertirse: anotá `PERDIDO_` y su nombre, +1 Moral (es una despedida digna). Con 6−, se niega a irse.
-4. **Hacerlo vos.** Esta noche, mientras duerme. −2 Ánimo. −1 Moral. Si sos la Enfermera, −1 Juramento. Si sos la Agente, −1 Deber.
+4. **Hacerlo vos.** Esta noche, mientras duerme. −2 Ánimo. −1 Moral. Si tu Motivo es La lista, −1 Juramento. Si es La orden, −1 Deber.
 
 ---
 
@@ -412,7 +412,7 @@ Una sección del muro cedió y el Destacamento la tapó con lo que tenía. Por l
 
 - Poné **dos Procesiones** nuevas en el Perímetro.
 - La Marea gana fuerza: anotá `EL_MURO_CEDIO`. En la Noche 40, la primera oleada suma +2 a la Fuerza.
-- Si tenés `CONTRATO_DEL_MURO` (el Albañil), sabés exactamente qué sección fue y por qué → [e814](#e814).
+- Si tenés `CONTRATO_DEL_MURO` (tu Motivo es La obra), sabés exactamente qué sección fue y por qué → [e814](#e814).
 
 ---
 
@@ -469,7 +469,7 @@ La noche fue de cero grados y el día no mejora. El aliento se ve adentro del re
 ### e054 · La Señora
 *Tu refugio · ◷ 0*
 
-Si tenés radio (una radio a pilas, la instalación Radio, la radio de mano de la Agente), escuchás a la Señora. Si no, ese es el día que alguien del grupo se acuerda de que existe y te la presta: escuchás igual.
+Si tenés radio (una radio a pilas, la instalación Radio, la radio de mano policial), escuchás a la Señora. Si no, ese es el día que alguien del grupo se acuerda de que existe y te la presta: escuchás igual.
 
 *«Habla la Radio Oficial del Comando de Emergencia…»*
 
@@ -610,7 +610,7 @@ Veinte personas en la calle. Un ómnibus escolar que se quedó sin nafta a una c
 
 No entran. No hay comida para veinte. No hay camas para veinte. Pero están ahí.
 
-1. **Hacerlos entrar a todos.** Anotá `LOS_VEINTE`: +20 bocas (comen 6 Víveres por día entre todos, porque comen poco), pueden hacer 3 puestos de Obra, Huerta o Cocina por noche y, en la Noche 40, ponen 3 defensores con puños (los demás no pelean). +5 Rastro. +3 Moral. Si sos la Enfermera, +1 Juramento. Si sos la Agente, +1 Deber.
+1. **Hacerlos entrar a todos.** Anotá `LOS_VEINTE`: +20 bocas (comen 6 Víveres por día entre todos, porque comen poco), pueden hacer 3 puestos de Obra, Huerta o Cocina por noche y, en la Noche 40, ponen 3 defensores con puños (los demás no pelean). +5 Rastro. +3 Moral. Si tu Motivo es La lista, +1 Juramento. Si es La orden, +1 Deber. Si es Lo que hiciste, −1 Culpa.
 2. **Elegir a algunos.** Los chicos y las maestras: anotá `LOS_CHICOS_DEL_HOGAR` (+6 bocas, 2 Víveres por día, un puesto de Huerta o Cocina; en la Noche 40, un defensor: una maestra). +2 Rastro. −1 Ánimo: los viejos te miraron.
 3. **Mandarlos a la Catedral.** Les dibujás el camino. `[Labia]`. Con 7+, van, y la Parroquia sabe que fuiste vos: +1 Reputación. Con 6−, no te creen.
 4. **Cerrar.** −3 Moral. −2 Ánimo. Al día siguiente, el ómnibus está vacío y hay manchas en el asfalto.
@@ -680,7 +680,7 @@ A las ocho de la noche se apaga todo. Las pocas luces que quedaban en Tolme (la 
 Durante una hora, la ciudad entera está a oscuras. Después, de a una, vuelven algunas: las de los que tienen generador.
 
 - **Si tenés Generador:** sos una de las pocas luces de la ciudad. +2 Rastro, salvo que tengas Cortinas negras.
-- **Si no tenés Generador:** nada cambia para vos. Pero desde arriba podés contar las luces: anotá `LAS_LUCES_DE_CORINTO`. Sabés dónde hay gente (cada encuentro con vivos de r300 te deja elegir la postura después de tirar).
+- **Si no tenés Generador:** nada cambia para vos. Pero desde arriba podés contar las luces: anotá `LAS_LUCES_DE_TOLME`. Sabés dónde hay gente (cada encuentro con vivos de r300 te deja elegir la postura después de tirar).
 - Una pista ([e560](#e560)): alguien bajó esa palanca.
 
 ---

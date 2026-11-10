@@ -33,7 +33,7 @@ Tienen cosas y quieren otras. Podés cambiar como en r166, hasta 3 cosas. Si les
 
 Uno de ellos está herido o mordido. Te piden Fármacos.
 
-- **Dar 1 Fármacos o curarlo** `[Medicina]`: con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si sos la Enfermera, +1 Juramento.
+- **Dar 1 Fármacos o curarlo** `[Medicina]`: con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa.
 - **Decirles que está mordido** (si lo está: 1–3 en 1d6): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
 - **Irte.** Nada.
 
@@ -88,7 +88,7 @@ Tienen un arma de fuego y te apuntan. «Dejá la mochila en el piso.»
 
 Atacaste y no quieren pelea. Tiran las armas. Son **1d6** personas asustadas.
 
-- **Robarles:** 1d6 tiradas de botín de Vivienda (r162). −1 Ánimo. Si sos la Agente, −1 Deber.
+- **Robarles:** 1d6 tiradas de botín de Vivienda (r162). −1 Ánimo. Si tu Motivo es La orden, −1 Deber; si es Lo que hiciste, +1 Culpa.
 - **Dejarlos ir.** Si son de una facción, +1 Reputación.
 - **Ofrecerles refugio:** uno se une (r180). Los demás se van.
 

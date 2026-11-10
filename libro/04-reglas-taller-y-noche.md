@@ -1,17 +1,17 @@
 ## Ejemplo de juego
 
 <a id="r199"></a>
-### r199 · Un día de Juli
+### r199 · Un día de Nadia
 
-*Es el día 7. Juli, la Repartidora, tiene su refugio en la Escuela N.º 9 (Los Bloques) con tres sobrevivientes: Lucía, el Chino y Pocho. Hay 5 Víveres y la Moral está en 4.*
+*Nadia Correa es Adulta, maestra de cuarto grado (`OFICIO_DOCENCIA`), de Los Bloques. Su Motivo es El que falta: busca a su hermano Ezequiel, que la noche del brote trabajaba de sereno en El Puerto; ya tiene 1 señal. Su debilidad es el Asma. Es el día 7 y tiene su refugio en la Escuela N.º 9, en su propio barrio, con tres sobrevivientes: Lucía, el Chino y Pocho. Hay 5 Víveres y la Moral está en 4.*
 
-**El alba.** Juli roba la carta del día: el **3 de Oros**. Es un día de hallazgo, leve: tira 1d6 en la columna Leve de [e020](#e020) y saca un 4. El evento le dice que el Chino vio humo en el Mercado: alguien cocinó anoche. Después, el grupo come: 4 personas, 4 Víveres. Quedan 1. Hay que salir a buscar comida.
+**El alba.** Nadia roba la carta del día: el **3 de Oros**. Es un día de hallazgo, leve: tira 1d6 en la columna Leve de [e020](#e020) y saca un 4. El evento le dice que el Chino vio humo en el Mercado: alguien cocinó anoche. Después, el grupo come: 4 personas, 4 Víveres. Quedan 1. Hay que salir a buscar comida. Nadia mira el mapa: el Puerto, donde puede seguir el rastro de Ezequiel, queda para el otro lado. Hoy manda el estómago.
 
-**Las horas de luz.** Juli sale con Pocho. Van por las **Azoteas** hasta El Mercado (◷ 2: sola, a Juli le costaría 1, pero Pocho no tiene sus Atajos y el grupo va al paso del más lento; Juli lleva la soga. Sin Ruido, sin encuentro salvo con un 1: sale un 5). Bajan en el **Hipermercado Zeta**. El stock dice ▢▢▢. Juli revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en la tabla de Almacén. Saca 3, 6 y 1: 2 Víveres, 4 Víveres o un Carrito (elige los Víveres) y nada. Seis Víveres: tres casilleros de la Mochila de Juli y nada más, porque Pocho carga el resto.
+**Las horas de luz.** Nadia sale con Pocho. Van por las **Azoteas** hasta El Mercado: ◷ 2, sin Ruido y sin encuentro salvo con un 1 (sale un 5). Nadia lleva la soga. Si tuviera *Atajos* le costaría 1, pero Pocho no los tiene, y el grupo va al paso del más lento. Bajan en el **Hipermercado Zeta**. El stock dice ▢▢▢. Nadia revisa **a fondo** (◷ 2, +1 Ruido): tacha dos casillas y tira tres veces en la tabla de Almacén. Saca 3, 6 y 1: 2 Víveres, 4 Víveres o un Carrito (elige los Víveres) y nada. Seis Víveres: tres casilleros de su Mochila, y Pocho carga el resto.
 
-Le quedan 2 horas. Volver por las Azoteas cuesta 2. Por la Calle, 1, pero suma Ruido y encuentro. Juli no se arriesga: vuelve por arriba. Pinta la marca de búsqueda en el mapa: una X con un 7 arriba, «1» a la izquierda y «nadie» a la derecha.
+Le quedan 2 horas. Volver por las Azoteas cuesta 2; por la Calle, 1, pero suma Ruido y encuentro, y Nadia no tiene inhalador: si hay que correr, corre con Desventaja. Vuelve por arriba. Pinta la marca de búsqueda en el mapa: una X con un 7 arriba, «1» a la izquierda, «nadie» a la derecha y, abajo, con letras grandes, EZEQUIEL ([e842](#e842)). Es el primer nombre que pinta en la Etapa: hace un palito en la hoja.
 
-**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral: queda en 5, y mañana el grupo come un Víver menos), Pocho hace Obra con 1 Madera (+1 a la Puerta) y Juli descansa. El sondeo: Rastro 2, Juli tira 2d6 − 1 por la guardia y saca un 6. No pasa nada. Quedan treinta y tres cartas.
+**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral: queda en 5, y mañana el grupo come un Víver menos), Pocho hace Obra con 1 Madera (+1 a la Puerta) y Nadia descansa: no le quedan horas para hablar con el grupo, que con *Lista de presentes* le habría salido fácil. El sondeo: Rastro 3 (empezó en 2, uno de la Escuela y uno por estar en su barrio, y subió una vez), Nadia tira 2d6 − 1 por la guardia y saca un 6. No pasa nada. Quedan treinta y tres cartas. Mañana es el día 8: el grupo le va a poner un apodo, y casi todos sus palitos de la Semana están en Labia.
 
 ---
 

@@ -20,10 +20,10 @@ text_all = ''
 GIVE_RX = r'(?i)(anot[aá]|gan[aá]s?|empez[aá]s con|escrib[ií]|la Marca|son `)'
 ASK_RX = r'(?i)(ten[eé]s|tengas|sin `|con `|borr[aá])'
 NO_SON_MARCAS = {'MARCA', 'MAYÚSCULAS_CON_GUIONES'}
-# Marcas de registro: se anotan para la memoria de la partida y no hace falta consultarlas.
-SOLO_REGISTRO = ('ENFERMERA_', 'ALBANIL_', 'AGENTE_', 'REPARTIDORA_')
-# Las tablas de origen de los protagonistas dan una Marca por fila.
-GIVEN_BY_TABLE = {'r101', 'r102', 'r103', 'r104'}
+# Marcas de registro: se anotan para la memoria de la partida (barrio, apodo, Motivo) y no hace falta consultarlas.
+SOLO_REGISTRO = ('BARRIO_', 'APODO_', 'EL_QUE_FALTA', 'LO_QUE_HICISTE')
+# Las tablas de creación (r102–r106) y las de los arcos nuevos dan una Marca por fila.
+GIVEN_BY_TABLE = {'r102', 'r103', 'r104', 'r105', 'r106', 'e840', 'e850'}
 
 for f in files:
     s = open(f, encoding='utf-8').read()

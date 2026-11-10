@@ -73,7 +73,7 @@ Una mujer de cuarenta, con anteojos atados con un cordón y un guardapolvo blanc
 
 —Me faltan tres —dice—. Tomás, Agustina y Sol. Los demás los entregué a los padres. A estos tres no vino nadie a buscarlos.
 
-**Para que venga:** viene si le prometés ayudarla a buscarlos. Si sos la Repartidora con `REPARTIDORA_BARRIO`, viene sin pedir nada.
+**Para que venga:** viene si le prometés ayudarla a buscarlos. Si es tu conocida del barrio (r103), viene sin pedir nada.
 
 > **Lucía** · **Labia 3** · Optimista
 > **Necesidad:** sus tres alumnos. Cuando lleve 3 cartas en el grupo → [e604](#e604).
@@ -495,7 +495,7 @@ Un soldado de veinticinco años, sin casco, con el uniforme abierto y una botell
 
 —El día 3 me dieron la orden de tirar a cualquiera que se acercara al muro —dice—. Y tiré.
 
-**Para que venga:** `[Labia]`. Con 10+, viene con el fusil (Daño 3, Lejos, 2 manos, +2 Ruido) y 6 Munición. Con 7–9, viene sin el fusil: lo deja tirado en la torre. Con 6−, se queda. Si sos la Agente, viene sin prueba: «Vos también te fuiste».
+**Para que venga:** `[Labia]`. Con 10+, viene con el fusil (Daño 3, Lejos, 2 manos, +2 Ruido) y 6 Munición. Con 7–9, viene sin el fusil: lo deja tirado en la torre. Con 6−, se queda. Si tenés `BUSCADO`, viene sin prueba: «Vos también te fuiste».
 
 > **Iván** · **Puntería 3** · Insomne
 > **El desertor:** lo busca el Destacamento. Mientras esté con vos, −1 Reputación con el Destacamento cada vez que la ganes (no baja de −3).
@@ -824,7 +824,7 @@ Una pista ([e560](#e560)). Si tenés `RIOS_CONFIA`, dos.
 
 Un perro mestizo, negro, mediano, con las orejas paradas, el pelo duro y una cicatriz en el hocico. Tiene un collar rojo con una chapita: «NEGRO · Si me encontrás, llamá a Marcos». Te gruñe. Después te huele. Después mueve la cola.
 
-**Para que venga:** si le das de comer (1 Víver), viene. Si sos la Agente con `AGENTE_CANINA`, ya es tuyo.
+**Para que venga:** si le das de comer (1 Víver), viene. Si tenés `EL_NEGRO`, ya es tuyo.
 
 > **El Negro** · perro · Leal
 > **El perro:** no hace puestos salvo Guardia. Come 1 Víver cada dos días. Nunca es sorprendido: en las emboscadas, el Negro ladra antes. Pero si sale con vos, +1 Ruido.

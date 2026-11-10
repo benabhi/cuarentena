@@ -39,7 +39,7 @@ Adentro hay cientos. Lo sabe todo Tolme.
 **Tesoro:** si en tu mapa el Generador industrial está acá (r110) → [e510](#e510).
 
 - **Revisar** (r161). Cada revisión es en un piso distinto, y cada una, antes de tirar en la tabla, tirá 1d6: con 1–3, **Callados ×1d6 · Cerca**, escena Pasillo.
-- **El pabellón 4**, en el tercer piso. Si sos la Enfermera → [e801](#e801). Si no, es un pabellón como otros.
+- **El pabellón 4**, en el tercer piso. Si tu Motivo es La lista → [e801](#e801). Si no, es un pabellón como otros.
 - **La guardia de pediatría.** Si tenés a Ana y Bruno en el grupo y todavía no buscaron a su madre → [e611](#e611).
 - **El subsuelo del hospital** comunica con la Morgue ([e223](#e223)) sin salir a la calle.
 
@@ -57,6 +57,8 @@ Una clínica privada, chica y cara, con fachada de vidrio espejado. La puerta es
 2. **Golpear.** Del otro lado aparece una mujer con un guardapolvo y una escoba con un cuchillo atado en la punta. Es Rita, veterinaria, que se refugió acá porque era el lugar más cerca → [e615](#e615).
 3. **La entrada de servicio**, por el estacionamiento subterráneo: escena Estacionamiento (r333), **Callados ×1d6 · Lejos**. Si llegás a la puerta, entrás sin ruido y podés revisar.
 
+**La ortopedia del primer piso.** Una vez adentro, si tenés `LA_ESPALDA`: bastones, sillas de ruedas, cuellos de goma espuma y, en una caja, fajas lumbares de todos los talles. ◷ 1, sin prueba. Borrá `LA_ESPALDA` (r105). Por primera vez en años, te agachás sin pensarlo.
+
 ---
 
 <a id="e223"></a>
@@ -66,8 +68,8 @@ Una clínica privada, chica y cara, con fachada de vidrio espejado. La puerta es
 El subsuelo del Hospital Central. Heladeras de acero con las puertas abiertas. Camillas vacías. El piso pegajoso. Acá empezaron a levantarse el día 1, y se nota.
 
 - **Revisar** (r161). Pero un 1 en la tabla de Hospital es aquí **Callados ×2d6 · Cerca**.
-- **El escritorio del forense.** Planillas, fotos, muestras en frascos con etiquetas. Si sos la Enfermera → [e804](#e804). Si no, `[Medicina]` con 10+: entendés algo de lo que dicen las planillas: una pista ([e560](#e560)).
-- **La heladera 14.** Cerrada con candado desde afuera. Algo golpea adentro, despacio. Si la abrís (Palanca, +1 Ruido), es un Callado con un uniforme del Comando y una credencial: «Dr. M. Salas · Comando de Emergencia · Asesor sanitario». **Callados ×1 · Encima**. Si lo matás, la credencial es tuya: anotá `CREDENCIAL_DE_SALAS`. Si sos la Repartidora, es el destinatario de tu caja → [e833](#e833).
+- **El escritorio del forense.** Planillas, fotos, muestras en frascos con etiquetas. Si tu Motivo es La lista → [e804](#e804). Si no, `[Medicina]` con 10+: entendés algo de lo que dicen las planillas: una pista ([e560](#e560)).
+- **La heladera 14.** Cerrada con candado desde afuera. Algo golpea adentro, despacio. Si la abrís (Palanca, +1 Ruido), es un Callado con un uniforme del Comando y una credencial: «Dr. M. Salas · Comando de Emergencia · Asesor sanitario». **Callados ×1 · Encima**. Si lo matás, la credencial es tuya: anotá `CREDENCIAL_DE_SALAS`. Si tu Motivo es El pedido, es el destinatario de tu caja → [e833](#e833).
 
 ---
 

@@ -6,7 +6,7 @@
 ### e420 · El Perímetro: llegar
 *El Perímetro · ◷ 0*
 
-Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o más). En el Perímetro, sumá **+1** más: siempre. Si tenés `DESERTORA`, sumá **+1** más: te buscan.
+Al llegar por la Calle, tirá **1d6 + la Etapa** (+2 de noche, +1 con Ruido 3 o más). En el Perímetro, sumá **+1** más: siempre. Si tenés `BUSCADO`, sumá **+1** más: te buscan.
 
 | Resultado | Encuentro |
 |---|---|
@@ -36,7 +36,7 @@ La barrera de la ruta, con la garita, los conos, los contenedores apilados a los
 **Tesoro:** si en tu mapa el Camión del Comando o la Armería del cordón están acá (r110) → [e500](#e500) o [e520](#e520).
 
 - **Revisar** (r161), en la garita y los autos de la fila.
-- **Si sos la Agente:** acá recibiste la orden. Acá dejaste tu puesto → [e824](#e824).
+- **Si tu Motivo es La orden:** acá te dieron el sobre. Acá viste a la nena → [e824](#e824).
 - **La fila de autos:** cien autos. Combustible en los tanques: `[Mecánica]`, ◷ 2, con una manguera: 1d6 Combustible. Cada vez que lo hagas, tirá 1d6: con 1–2, uno de los autos tenía a alguien adentro: **Callados ×1d3 · Cerca**.
 
 ---
@@ -52,7 +52,7 @@ Es la casa del **Destacamento** ([e690](#e690)).
 **Tesoro:** si en tu mapa la Armería del cordón o el Blindado están acá (r110) → [e520](#e520) o [e550](#e550), pero solo si el Destacamento ya no está o si te deja.
 
 - **Acercarte** → [e690](#e690).
-- **Si tenés `DESERTORA`:** → [e692](#e692).
+- **Si tenés `BUSCADO`:** → [e692](#e692).
 - **Si el Destacamento ya no está** (`DESTACAMENTO_DISUELTO`): revisás (r161) con la tabla de Armería, con stock ▢▢▢.
 
 ---
@@ -92,7 +92,7 @@ Contenedores de colores apilados de a tres, soldados entre sí con chapas, con r
 
 El metal está tibio. Vibra.
 
-- **Si sos el Albañil:** reconocés la soldadura, los perfiles, el número de lote pintado en el contenedor de abajo → [e815](#e815).
+- **Si tu Motivo es La obra:** reconocés la soldadura, los perfiles, el número de lote pintado en el contenedor de abajo → [e815](#e815).
 - **Si tenés `GRIETA_EN_EL_MURO`:** ves dónde va a ceder → [e435](#e435).
 - **Cruzar al otro lado:** solo en el modo Éxodo, o si de verdad querés morir → [e436](#e436).
 - **Escuchar.** Te quedás un rato. Con la oreja contra el metal. −1 Ánimo. Pero entendés cuántos son: anotá `ESCUCHASTE_LA_MAREA`. En la Noche 40, sabiendo lo que viene, cada defensor de tu grupo suma +1 a la defensa de su frente en la primera oleada (alguien les contó).
@@ -107,7 +107,7 @@ Cuatro soldados con mochilas, sin cascos, caminando hacia la ciudad. Desertores.
 
 —No vale la pena —dice uno—. Nada vale la pena.
 
-Vivos: usá r300, postura Hablar con +1. Si sale Trueque, tienen Munición (12) y raciones de combate (cada una vale 2 Víveres, 1 casillero). Si sale Quieren venir con vos, uno de ellos se une: sobreviviente con Puntería 2, rasgo Insomne, y la Marca `DESERTOR_DEL_CORDON` (el Destacamento lo busca, como a la Agente).
+Vivos: usá r300, postura Hablar con +1. Si sale Trueque, tienen Munición (12) y raciones de combate (cada una vale 2 Víveres, 1 casillero). Si sale Quieren venir con vos, uno de ellos se une: sobreviviente con Puntería 2, rasgo Insomne, y la Marca `DESERTOR_DEL_CORDON` (el Destacamento lo busca, como a quien tiene `BUSCADO`).
 
 ---
 
@@ -129,7 +129,7 @@ Un jeep con tres soldados frena delante tuyo. El sargento baja.
 
 —Civiles no pueden estar acá. ¿Qué buscás?
 
-- **Si tenés `DESERTORA`:** te reconocen → [e692](#e692).
+- **Si tenés `BUSCADO`:** te reconocen → [e692](#e692).
 - **Si tenés Reputación +1 o más con el Destacamento:** te dejan pasar y te dan 2 Munición. «Cuidate. Esto se pone feo.»
 - **Si no:** `[Labia]`. Con 10+, te dejan seguir. Con 7–9, te escoltan al campamento ([e690](#e690)). Con 6−, te sacan del Perímetro a la Fabril (volvés ahí, ◷ 1) y −1 Reputación con el Destacamento.
 

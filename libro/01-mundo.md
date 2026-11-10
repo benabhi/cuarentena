@@ -5,7 +5,7 @@
 ## Disposición N.º 1
 
 > **COMANDO DE EMERGENCIA · REPÚBLICA**
-> **DISPOSICIÓN N.º 1 · CORINTO · DÍA 2**
+> **DISPOSICIÓN N.º 1 · TOLME · DÍA 2**
 >
 > Por razones de salud pública, la ciudad de Tolme y su ejido quedan sometidos a **cuarentena sanitaria** por un período de **cuarenta (40) días** a partir de la presente.
 >

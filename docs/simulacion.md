@@ -1,71 +1,92 @@
-# Simulación de Cuarentena (fase 5)
+# Simulación de Cuarentena (fase 7: la protagonista a medida)
 
-*`herramientas/simulador.py` · 8000 partidas (2000 por protagonista) · semilla 41 · 10 de noviembre de 2026*
+*`herramientas/simulador.py` · 8000 partidas · semilla 41 · 10 de noviembre de 2026 · la fase 5 quedó en `simulacion-fase5.md`*
+
+En cada partida, el simulador **crea una protagonista al azar** con r100–r106, como alguien que tira todo:
+
+- edad, oficio, barrio, Motivo y una debilidad (dos en el 35 % de las partidas);
+- el objeto de oficio y el del bolsillo;
+- los puntos libres repartidos por un orden fijo.
+
+Después juega los 40 días.
 
 ## Resultado
 
-| Protagonista | Llegan al amanecer | Salvados según el Secreto | Sobrevivientes al amanecer | Día medio de muerte |
-|---|---|---|---|---|
-| La Enfermera | 60,4 % | 59,3 % | 4,0 | 20,3 |
-| El Albañil | 59,3 % | 58,0 % | 4,4 | 17,6 |
-| La Agente | 63,9 % | 62,0 % | 4,3 | 20,8 |
-| La Repartidora | 59,2 % | 57,9 % | 4,7 | 21,5 |
-| **Media** | **60,7 %** | **59,3 %** | 4,4 | 20,1 |
+| | Llegan al amanecer | Sobrevivientes al amanecer | Día medio de muerte |
+|---|---|---|---|
+| **Fase 7** (protagonista a medida) | **58,6 %** | 4,1 | 20,7 |
+| Fase 5 (cuatro protagonistas fijas) | 60,7 % | 4,4 | 20,1 |
 
-La meta era **55–65 %** de partidas que llegan vivas al día 41, un poco más difícil que Caribdis (70–75 %). La meta se cumple, y las cuatro protagonistas quedan dentro de 5 puntos entre sí.
+La meta sigue siendo **55–65 %**, y se cumple.
 
-**Por refugio** (media de las cuatro): Comisaría 64 % · Escuela 65 % · Cuartel 62 % · Parroquia 61 % · Sarmiento 61 % · Supermercado 52 %. El Supermercado queda como el refugio difícil, como dice su ficha: «todo el barrio sabe que es un supermercado».
+**En 8000 partidas salieron 7104 fichas distintas.** Una ficha es una combinación de edad, oficio, barrio, Motivo y debilidades, sin contar objetos ni puntos.
 
-**Cómo se muere** (porcentaje de todas las partidas):
+### Por cada pregunta de la creación
 
-| Causa | Partidas |
+| Pregunta | Peor | Mejor | Distancia |
+|---|---|---|---|
+| **Edad** | Mayor 49 % | Joven 63 % · Adulto 63 % | **14 puntos** |
+| **Oficio** | Mecánica 49 % · Docencia 53 % · Cocina 54 % | Salud 66 % · Reparto 65 % · Deporte 64 % | 17 puntos |
+| **Motivo** | 58 % (cuatro de ellos) | La lista 60 % | 2 puntos |
+| **Debilidad** | Asma 58 % | Anteojos 60 % · Miedo 60 % | 2 puntos |
+| **Barrio propio** | Cementerio 55 % · Perímetro 55 % | Estación 62 % | 7 puntos |
+| **Debilidades** | una: 57 % | dos: 61 % | 4 puntos |
+
+Por refugio: Escuela 63 % · Comisaría 61 % · Cuartel 60 % · Parroquia 60 % · Sarmiento 58 % · Supermercado 49 %.
+
+**Cómo se muere** (porcentaje de todas las partidas): combate 25,4 % · eventos 6,6 % · Noche 40 4,9 % · Fiebre 2,2 % · procesión 1,3 % · hambre 1,0 %.
+
+### Lo nuevo, medido
+
+- **El apodo** (r127). Entre los que llegan al amanecer, el **70 %** se llama por **Calle**. Le siguen Físico 10 %, Labia 6 %, Mecánica 4 % y Pelea 4 %. Ver la auditoría, C1.
+- **Las mañas ganadas** (r126). 1,3 mañas por protagonista al final. Solo **Atajos** (14 %) y **La puerta** (7 %) se ganan seguido; las demás, casi nunca.
+- **El Secreto** (r109, e570).
+  - El jugador automático lo abre antes de la Noche 40 en el **84 %** de las partidas.
+  - Como mueve el dado para alejarse del plazo (1) y de la purga (2), esas dos verdades **no salieron nunca**. El ensayo (3) salió en el 41 % y las otras tres, en el 14–15 % cada una.
+  - En la fase 5, las seis salían parejas. Ver la auditoría, C2.
+- **El que falta** (1282 partidas con ese Motivo).
+  - **En el 22 % no se lo encuentra** antes del final de la partida.
+  - Cuando se lo encuentra: «Te estaba buscando» 22 %, «Del otro lado» 14 %, con una facción 12 %, «Vivo y solo» 12 %, «Vivo y con gente» 12 %, atrapado 4 %, mordido 1 %, convertido 1 %.
+  - Casi siempre se lo encuentra en la Etapa I o II, así que los finales tristes casi no salen. Ver la auditoría, C6.
+
+## Variantes de la edad Mayor
+
+1500 partidas con edad Mayor por variante, semilla 5:
+
+| Variante | Llegan |
 |---|---|
-| Combate | 20–25 % |
-| Eventos | 1–10 %, según la protagonista (la Repartidora tiene 4 casillas de Heridas) |
-| Noche 40 | 2–7 % |
-| Fiebre | 2–4 % |
-| Procesión | 0,5–2 % |
-| Hambre | alrededor de 1 % |
+| Como está: 4 casillas, sin Magullado | 46,9 % |
+| 4 casillas, +1 punto de Habilidad | 49,1 % |
+| **4 casillas, pero la primera sigue siendo Magullado** (el Descanso la borra) | **55,6 %** |
+| 5 casillas | 61,1 % |
 
-**Finales de los que llegan:** los seis Secretos salen parejos, entre 9 % y 11 % cada uno, con éxodo en 7–8 %. La ceniza (el Secreto de la purga, cuando no se preparó la salida) queda en 2–3 %.
-
-## Qué cambió en el libro
-
-El primer simulador fiel al texto daba **24 %**. Más de la mitad de las muertes eran peleas contra 4 a 6 Callados comunes, con la salud llena. Cambios de reglas, en orden de peso:
-
-1. **r144 · Mordidas.** Ahora, como mucho **dos** Callados te atacan por ronda (antes tres). La tabla queda así: 1–3 nada, 4–5 golpe, 6 «los dientes». Con 6 se tira otro 1d6: 1–3 es arañazo y 4–6 es mordida. Se actualizaron r148 (de a dos por persona), el prólogo, el resumen de los Apéndices, el Casco y el Bruto, donde el golpe ahora es «un 4 o un 5».
-2. **r165 · Desarmar afuera.** En una Vivienda, una Oficina o un Comercio podés romper los muebles al revisar: 2 Madera por persona y +1 Ruido. Sin esto, la Madera alcanzaba apenas para las barricadas y el refugio llegaba a la Noche 40 con los frentes en 1–4. Solo esta regla suma unos 17 puntos.
-3. **r145 · Ruido 3.** Ahora llegan Callados ×**1d3** (antes 1d6).
-4. **r142 · Esconderte.** Con 6−, los Callados avanzan **un** paso (antes dos).
-5. **r192 · ¿Dónde te mordió?** Nueva tirada de 1d6: brazo, pierna, hombro (con Desventaja) o cuello. Con 6 no se puede amputar.
-6. **r181 · Huerta.** Como mucho dos personas por noche.
-7. **e450 · Supermercado.** Ventanas 3 (antes 1), Rastro inicial 2 (antes 3) y «Todos saben» una vez por Etapa (antes dos veces).
-
-`herramientas/verificar.py` sigue limpio después de los cambios: 0 enlaces rotos, 0 Marcas sueltas.
+Lo que pesa no es la casilla de menos: es perder **Magullado**, la casilla que se borra sola. Ver la auditoría, B1.
 
 ## Qué juega el simulador
 
-- **Lee el libro.** Saca de ahí las tablas de barrio, los 65 lugares con su tipo y su stock, las fichas de refugio y la Baraja.
-- **Resuelve los eventos.** Un intérprete aproximado lee las pruebas, las ramas, los recursos, los combates y los saltos.
-- **Programado a mano**, siguiendo r100–r225:
-  - el día, el saqueo (r162) y los combates;
-  - caer Muriendo y que te rescaten (r190);
-  - las Reservas del grupo (r131) y la Fiebre con la amputación;
-  - el Rastro, con la semana sin salir de noche y mover la entrada;
-  - los puestos, los sondeos y las crisis;
-  - las recetas básicas: armadura de revistas, vendas hervidas, bate, barricadas y trampas;
-  - las instalaciones, la Noche 40 y el día 41.
-- **Cómo decide el jugador automático:**
-  - Elige las opciones por valor esperado.
-  - Se esconde cuando los Callados son más de los que puede matar.
-  - Rodea las Procesiones y vuelve por donde vino cuando se cruza una.
-  - Sale acompañado si puede y busca gente cuando está solo.
-  - Guarda Sujeción para el Último Cuarto.
-- **Lo que no juega:** casi no sigue Marcas ni arcos, no usa el Subsuelo ni los Señuelos y no comercia. Un jugador humano juega mejor, así que el número real debería quedar unos puntos arriba.
+Lo mismo que en la fase 5 (el día, el saqueo, el combate, la Fiebre, el refugio, los puestos, el taller, la Noche 40 y el día 41), más lo siguiente:
 
-## Para la auditoría
+- **Edad:** Mayor con 4 casillas sin Magullado; Joven con Ánimo 5.
+- **Mañas:**
+  - Manos de guardia, Ojo de obra, Reglamentaria, Atajos (Azoteas sin Soga), Recetario, La olla grande, Lista de presentes, La puerta, Pulso, Sombra y Pulmones;
+  - las mañas que se ganan al llegar a 4.
+- **Debilidades:**
+  - Miedo (Desventaja con Ánimo 3 o menos);
+  - Anteojos (Desventaja a distancia);
+  - Vicio (1 Víver por semana o −2 Ánimo);
+  - Buscado (−2 de Reputación con el Destacamento);
+  - superarlas, con 25 % por debilidad cada vez que sube la Etapa.
+- **Barrio:** la cuadra (sin encuentro la primera vez), la esquina (−1) y «en casa» (Moral 6, +1 Rastro).
+- **El apodo:** un palito por cada Práctica de la primera semana.
+- **El Secreto:** se tira al abrirlo y las pistas mueven el dado.
+- **El que falta:** señales al volver de las salidas, y la tabla de e845 por Etapa.
+- **Uso:** `python3 herramientas/simulador.py --oficio Salud --motivo 'La lista'` fija partes de la ficha. `--ajuste mayor_magullado=True` prueba variantes.
 
-- **El Rastro se satura.** Llega al amanecer en ~9,3, así que la Noche 40 casi siempre tiene 6 oleadas. Conviene revisar si hace falta otra forma de bajarlo para que sea una decisión.
-- **La Fiebre mata poco** (2–4 %). Se muerde ~0,2 veces por partida. Si se quiere más presión de la plaga, conviene subirla en la Etapa III–IV con los especiales, no en la tabla base.
-- **Falta comida seguido.** Hay ~30–40 faltantes por partida, porque los grupos grandes comen más de lo que da el saqueo. Funciona como presión, pero hay que vigilar que no sea tedioso.
-- **Lo peligroso son las salidas de la primera semana.** Muchas muertes en combate pasan en los días 1–9, saliendo solo. Al principio del libro sirve una caja de ayuda: «la primera semana, no salgas solo».
+**Lo que no juega:**
+
+- **Puente y Cables:** el simulador no usa vehículos ni construye la Radio o el Generador. Por eso Mecánica y Electricidad salen más abajo de lo que darían en la mesa.
+- **El fiado:** no comercia.
+- **Los arcos:** no lee las entradas de los Motivos, salvo El que falta.
+- **El conocido:** no lo recluta aparte.
+
+Un jugador humano juega mejor, así que el número real debería quedar unos puntos arriba.

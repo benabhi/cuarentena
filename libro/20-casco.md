@@ -65,7 +65,7 @@ La farmacia más grande del centro. Los postigos de metal están bajos, pero alg
 Un edificio de columnas con la bandera todavía arriba, sucia y quieta. En las escalinatas hay escritorios tirados, carpetas, sillas de oficina con rueditas. Alguien intentó una barricada y no le alcanzó.
 
 - **Revisar** (r161).
-- **El archivo de obras públicas**, en el subsuelo (◷ 1, sin stock): carpetas de licitaciones, planos de la ciudad, contratos. Si sos el Albañil → [e811](#e811). Si no, `[Calle]` con 10+: encontrás los planos del subte (anotá `MAPA_DEL_SUBSUELO`).
+- **El archivo de obras públicas**, en el subsuelo (◷ 1, sin stock): carpetas de licitaciones, planos de la ciudad, contratos. Si tu Motivo es La obra → [e811](#e811). Si no, `[Calle]` con 10+: encontrás los planos del subte (anotá `MAPA_DEL_SUBSUELO`).
 - **El despacho del intendente**, en el último piso. Una caja fuerte abierta y vacía. En el escritorio, un fax del Comando con fecha del día −20: una pista ([e560](#e560)).
 
 ---
@@ -80,7 +80,7 @@ Las rejas de la entrada están abiertas. Adentro, el olor. Las celdas del fondo 
 
 - **Revisar** (r161). En cada revisión a fondo, los de las celdas hacen tanto escándalo que el Ruido sube 1 más.
 - **El armario de evidencias:** `[Oficio]` (+1 con Palanca). Con 10+, un revólver con 6 de Munición y una caja con 2 Antivirales confiscados a un traficante de remedios. Con 7–9, solo el revólver. Con 6−, nada, y +1 Ruido.
-- **Si sos la Agente:** conocés esta comisaría. Hay un libro de guardia sobre el mostrador → [e823](#e823).
+- **Si tu Motivo es La orden:** el sobre que llevás tiene el mismo sello que los papeles del mostrador. Hay un libro de guardia abierto → [e823](#e823).
 
 ---
 
@@ -94,6 +94,7 @@ Una galería comercial de los años sesenta, con piso de mosaico y vidrieras de 
 
 - **Revisar** (r161).
 - **La cerrajería:** adentro hay un hombre gordo, pelado, sentado en un banco, con un manojo de llaves en cada mano y la mirada perdida. Está vivo. Es Pocho → [e612](#e612).
+- **La óptica Cristal:** vidriera rota, mostrador revuelto, cajones llenos de armazones sin vidrio. Si tenés `ANTEOJOS`, `[Calle]` (◷ 1): con 7+, encontrás un par con un aumento parecido al tuyo. Borrá `ANTEOJOS` (r105). Con 6−, te llevás tres que no sirven y te duele la cabeza toda la tarde.
 - **La casa de electrónica:** la persiana tiene candado. Con Palanca o `[Oficio]`, entrás (+1 Ruido): 2 Electrónica y, con 5–6 en 1d6, una radio a pilas (r163).
 
 ---
@@ -157,7 +158,7 @@ Una calle angosta con balcones de hierro forjado a los dos lados. En uno, una s�
 Una ambulancia cruzada en la Plaza San Martín, con las puertas de atrás abiertas, las luces todavía girando con la última batería. Adentro, una camilla vacía con las correas rotas.
 
 - **Revisar la ambulancia:** tirá dos veces en la tabla de Hospital (r162), pero un 1 no son Callados: es nada.
-- **Si sos la Enfermera con `ENFERMERA_AMBULANCIA`:** es la tuya. Las llaves que tenés la arrancan. Tiene medio tanque (2 Combustible). Es un vehículo (r157) que lleva 12 casilleros y una sirena: si la prendés, todas las Procesiones del mapa van hacia ella (r156), lo que sirve para desviarlas una vez. Anotá `AMBULANCIA_12`.
+- **Si tenés `LLAVES_DE_LA_AMBULANCIA`** (o la maña *Puente*, r102): arranca. Si son tus llaves, era la tuya. Tiene medio tanque (2 Combustible). Es un vehículo (r157) que lleva 12 casilleros y una sirena: si la prendés, todas las Procesiones del mapa van hacia ella (r156), lo que sirve para desviarlas una vez. Anotá `AMBULANCIA_12`.
 - **Llevarte la batería:** ◷ 1. 3 casilleros. Con ella podés usar un Taladro sin Generador.
 
 ---
@@ -188,9 +189,11 @@ Entre las góndolas vacías, sentado en el piso detrás del mostrador, hay un ch
 
 1. **Hablarle** `[Labia]`. Con 10+, baja el revólver y te deja revisar la farmacia a cambio de 2 Víveres (r161). Con 7–9, te deja revisar rápido una vez. Con 6−, te dispara y falla: 3 Ruido, y se encierra en el depósito. Podés revisar (r161), pero cada revisión a fondo, tirá 1d6: con 1, sale y dispara (1 Herida).
 2. **Ofrecerle refugio.** Si tenés lugar: `[Labia]` con Ventaja. Con 7+, viene con vos, con todo lo que le queda (revisá a fondo sin gastar tiempo ni stock: tres tiradas de Farmacia). Es un sobreviviente: Medicina 2, rasgo Cobarde, se llama Matías. Anotá `MATIAS_EL_FARMACEUTICO`.
-3. **Quitarle el arma** `[Pelea]`. Con 10+, se la sacás sin que dispare: es tuya (revólver, 3 Munición) y la farmacia también. Con 7–9, igual, pero dispara una vez: 1 Herida a vos o a un compañero. Con 6−, dispara dos: 2 Heridas, y huye por atrás. Si sos la Agente, −1 Deber de todos modos: tenía veinte años.
+3. **Quitarle el arma** `[Pelea]`. Con 10+, se la sacás sin que dispare: es tuya (revólver, 3 Munición) y la farmacia también. Con 7–9, igual, pero dispara una vez: 1 Herida a vos o a un compañero. Con 6−, dispara dos: 2 Heridas, y huye por atrás. Si tu Motivo es La orden, −1 Deber de todos modos: tenía veinte años.
 
-Si sos la Enfermera y tenés `LISTA_DEL_PABELLON` (en la lista, una paciente del pabellón 4 tomaba insulina), podés preguntarle por la heladera: → [e803](#e803).
+Si tu Motivo es La lista (en la lista, una paciente del pabellón 4 tomaba insulina), podés preguntarle por la heladera: → [e803](#e803).
+
+**Si tenés `ASMA`:** en el estante de atrás del mostrador hay inhaladores, con la caja todavía cerrada. Si la farmacia es tuya o el que la cuida te deja revisar, llevate 3 (1 casillero entre los tres). Cada uno sirve para un día. El día que llegás a juntar 6 desde el principio de la partida, ya aprendiste a respirar con el miedo: borrá `ASMA` (r105).
 
 ---
 

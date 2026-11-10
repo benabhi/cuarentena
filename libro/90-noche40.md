@@ -44,6 +44,9 @@ Detrás de él, la calle entera se llena.
 | `LOS_DEL_SIETE` | Con 4–6 en 1d6, +1 a la defensa de las Ventanas en todas las oleadas ([e493](#e493)) |
 | `EL_PASTOR_SABE`, con el Pastor vivo | La primera oleada va al frente más débil |
 | `GIMNASIO_QUEMADO` | Esta noche, los Cobardes del grupo no huyen |
+| La maña *La puerta* (r102) | Si defendés la Puerta, tu prueba tiene +2 |
+| `LO_DEJASTE_ADENTRO`, si tu refugio queda en ese barrio | En la tercera oleada, tres golpes despacio en la puerta del Último Cuarto: −1 Ánimo ([e846](#e846)) |
+| `MIEDO` | Mientras tu Ánimo sea 3 o menos, tu prueba en un frente tiene Desventaja (r105) |
 
 4. **Los sobrevivientes con algo para la Noche 40** (lo dice su ficha, e600–e653): leelo ahora. Si tenés al Ruso con el taxi, a Hernán o a Celeste, sus entradas se leen antes de la primera oleada ([e638](#e638), [e641](#e641), [e635](#e635)).
 5. **Los aliados:** mirá quién viene → [e905](#e905).
@@ -94,7 +97,7 @@ Si viene con `EL_PACTO` pero sin Reputación +3, tirá 1d6: con 1–3, llega tar
 | **La Parroquia** | No pelea: no tienen armas. Llegan veinte personas con palas, mantas mojadas y agua. Después de cada oleada, reparan +2 Resistencia a un frente y curan 1 Herida a alguien. Y rezan: +1 Moral |
 | **Los Bomberos** | Una autobomba en la esquina. +3 a la defensa del frente que elijas, en todas las oleadas, y una vez, el cañón de agua: la oleada que elijas pierde 1d6 de Fuerza |
 | **Los Lobos** | Dos camionetas con ametralladoras improvisadas. +4 a la defensa del frente que elijas, en todas las oleadas. Pero al amanecer cobran: la mitad de tus Víveres y materiales, o un Tesoro. Si no pagás, −3 Reputación y el epílogo tiene una deuda |
-| **El Destacamento** | No vienen: están en el muro. Pero el muro aguanta más con ellos. La Marea tiene **1 oleada menos**. Si además tenés `OCAMPO_Y_LEIVA`, Ocampo manda un jeep con dos soldados: +2 a la defensa de un frente |
+| **El Destacamento** | No vienen: están en el muro. Pero el muro aguanta más con ellos. La Marea tiene **1 oleada menos**. Si además tenés `OCAMPO_DE_TU_LADO`, Ocampo manda un jeep con dos soldados: +2 a la defensa de un frente |
 
 **Sin aliados:** la Noche 40 es tuya y de los tuyos. Como siempre.
 
@@ -114,7 +117,7 @@ Alguien llora bajito. Alguien se ríe sin motivo. Alguien pregunta qué hora es.
 
 | 1d6 | Lo que pasa |
 |---|---|
-| 1 | **El mordido.** Alguien del grupo se saca la venda. Lo mordieron en la primera oleada y no dijo nada. Tiene Fiebre 1, y en la Noche 40 la Fiebre sube 1 por oleada. Decidí: encerrarlo en un cuarto (no defiende), dejarlo pelear hasta que no pueda, o terminar con él ahora (−2 Moral, −1 Ánimo). Si tenés a la doctora Ríos o a la Enfermera, ya lo sabías: tenés una oleada más para decidir |
+| 1 | **El mordido.** Alguien del grupo se saca la venda. Lo mordieron en la primera oleada y no dijo nada. Tiene Fiebre 1, y en la Noche 40 la Fiebre sube 1 por oleada. Decidí: encerrarlo en un cuarto (no defiende), dejarlo pelear hasta que no pueda, o terminar con él ahora (−2 Moral, −1 Ánimo). Si tenés a la doctora Ríos o la maña *Manos de guardia*, ya lo sabías: tenés una oleada más para decidir |
 | 2 | **La radio.** La AM 870 vuelve. «La ayuda llegará.» Todos se quedan quietos escuchando. Tirá `[Labia]`: con 7+, +1 Moral; con 6−, alguien rompe la radio contra la pared: −1 Moral |
 | 3 | **Golpean.** No son Callados: golpean tres veces y gritan. Una familia que corrió por la calle entre los Callados y llegó a tu puerta. Abrir la Puerta (◷ 0): `[Físico]` con dos personas; con 7+, entran tres personas (1 defiende), con 6−, entran ellos y una oleada chica: **Callados ×1d6 · Encima** adentro. No abrir: −2 Moral. −1 Ánimo para vos |
 | 4 | **El fuego.** Una Molotov, una vela, una garrafa: algo se prendió. Un frente al azar pierde 1 Resistencia. Apagarlo: `[Supervivencia]` o `[Físico]`, +1 con Valeria o Cisterna. Con 6−, pierde 2 más |
@@ -196,7 +199,7 @@ Estás vivo.
 1. **Contá a tu gente.** Todos los que estén vivos en el refugio (y los que salvaste antes: los de la barcaza, el voluntario que volvió). Vos incluido.
 2. **Abrí el Secreto**, si no lo abriste ([e570](#e570)), y leé su parte **«El día 41»** (e581–e586). Te dice quiénes son los **salvados** y, a veces, a qué final ir.
 3. **Si tenés `TIGRE_DOS`** y la llamaste en la Noche 40 ([e912](#e912)): a las siete, en la escollera, un barco pesquero con un nombre pintado a mano en la proa. Los que lleguen a la escollera (◷ 2 desde cualquier barrio; tirá encuentro una vez, con −2) y quepan (seis), se van río abajo. Esos son salvados, sea cual sea el Secreto.
-4. **Si sos la Agente** con `LEISTE_LA_ORDEN` u `OCAMPO_Y_LEIVA`, y llegás al Puesto Norte: [e826](#e826).
+4. **Si tu Motivo es La orden** y tenés `LEISTE_LA_ORDEN` u `OCAMPO_DE_TU_LADO`, y llegás al Puesto Norte: [e826](#e826).
 5. **Contá a los salvados** y andá a **[e940](#e940)**.
 
 ---
@@ -219,7 +222,7 @@ Algunos Secretos y Marcas te mandan a un final propio (e944–e949). Si te toca 
 
 **Tu partida en números.** Si querés compararla con otras: 10 puntos por cada salvado (2 por cada persona de los grupos de arriba), 5 por cada instalación, 5 por cada Tesoro (`EL_CAMION`, `EL_GENERADOR_INDUSTRIAL`, `LA_ARMERIA`, `EL_BOTIQUIN`, `LA_RADIO_DEL_AFICIONADO`, `EL_BLINDADO`), 3 por cada pista, la Moral final y tu contador personal × 5. Anotala en la última página de tu hoja.
 
-Después, leé tu epílogo ([e950](#e950)), el de los tuyos ([e954](#e954)) y lo que Tolme recuerda ([e955](#e955)).
+Después, leé tu epílogo (el de tu Motivo, r198: [e950](#e950)–[e953](#e953), [e956](#e956) o [e957](#e957)), el de los tuyos ([e954](#e954)) y lo que Tolme recuerda ([e955](#e955)).
 
 ---
 
@@ -373,50 +376,52 @@ Leé esto **además** de tu final.
 ## Los epílogos
 
 <a id="e950"></a>
-### e950 · El epílogo de la Enfermera
+### e950 · El epílogo de La lista
 *Epílogo · Juramento*
 
-- **Juramento 0–1.** Marta no vuelve a trabajar de enfermera. Se muda a un pueblo chico, cerca del río, y cuida un jardín. No habla de Tolme. Cuando alguien en el pueblo se enferma, no abre la puerta.
-- **Juramento 2–3.** Marta vuelve al hospital, al de otra ciudad, al turno noche. Las otras enfermeras la miran con respeto y un poco de miedo. En el bolsillo del guardapolvo, siempre, una lista de nombres. La cambia cada semana. Nunca la tira.
-- **Juramento 4–5.** Marta se queda en Tolme y abre la Enfermería en la planta baja del Central. Va gente de todos los barrios. Enseña a curar a los que quieren aprender. Al año, tiene doce enfermeras. Les dice a todas lo mismo: «Acá no se muere nadie en nuestro turno».
-- **Juramento 6.** Marta encuentra a todos los de su lista. A los vivos y a los muertos. Les lleva flores al cementerio, a los que tienen tumba. A los vivos, los visita una vez por año, el día 0. Ella les dice que es por el control. Ellos saben que no.
-- **Con `LA_LISTA_SIGUE`**, si Marta no llegó al amanecer: alguien del grupo sigue la lista por ella. La encuentra completa en el bolsillo de un guardapolvo, con una tilde al lado de cada nombre.
+*Leé tu epílogo en segunda persona aunque no hayas llegado al amanecer: entonces es lo que cuentan de vos los que llegaron.*
+
+- **Juramento 0–1.** No volvés a pisar un hospital. Te mudás a un pueblo chico, cerca del río, y cuidás un jardín. No hablás de Tolme. La lista la quemaste, o la perdiste, o la tenés en un cajón que no abrís. Cuando alguien en el pueblo se enferma, no abrís la puerta.
+- **Juramento 2–3.** Seguís cuidando, de una forma o de otra. Si eras de la salud, volvés al turno noche, en otra ciudad; si no, te anotás de voluntario en el primer hospital que te acepta. En el bolsillo, siempre, una lista de nombres. La cambiás cada semana. Nunca la tirás.
+- **Juramento 4–5.** Te quedás en Tolme y abrís una enfermería en la planta baja del Central. Va gente de todos los barrios. Enseñás a curar a los que quieren aprender, aunque a vos te haya enseñado la ciudad. Al año, son doce. Les decís a todos lo mismo: «Acá no se muere nadie en nuestro turno».
+- **Juramento 6.** Encontrás a todos los de la lista. A los vivos y a los muertos. A los que tienen tumba, les llevás flores. A los vivos, los visitás una vez por año, el día 0. Les decís que es por el control. Saben que no.
+- **Con `LA_LISTA_SIGUE`**, si no llegaste al amanecer: alguien del grupo sigue la lista por vos. La encuentra en tu bolsillo, completa, con una tilde al lado de cada nombre y uno más al final, escrito con otra letra: el tuyo.
 
 ---
 
 <a id="e951"></a>
-### e951 · El epílogo del Albañil
+### e951 · El epílogo de La obra
 *Epílogo · Cimientos*
 
-- **Cimientos 0–1.** Tito no vuelve a construir. Nada. Ni una pared, ni una repisa. Su mujer le pregunta por qué, y él no sabe explicárselo: cada vez que agarra una cuchara de albañil, siente el metal tibio del muro vibrando contra la palma.
-- **Cimientos 2–3.** Tito vuelve con su familia, del otro lado. Le pagan una indemnización. La acepta. La dona entera, sin decirle a nadie, a un fondo para los sobrevivientes de Tolme. Firma con otro nombre.
-- **Cimientos 4–5.** Tito se queda en Tolme y reconstruye. Primero la escuela, después el hospital, después las casas de Los Bloques. Su cuadrilla son los que sobrevivieron. Hacen paredes que no son para encerrar a nadie.
-- **Cimientos 6.** Tito desarma el muro. Contenedor por contenedor, soldadura por soldadura, con los mismos electrodos con los que lo armó. Tarda dos años. Cuando sale el último, el del tramo siete, se sienta en el piso y llora como no lloró nunca. Después lo pintan de colores y lo ponen en la plaza. Abajo, una placa: «Para que no se olvide».
+- **Cimientos 0–1.** No volvés a construir. Nada. Ni una pared, ni una repisa. Te preguntan por qué, y no sabés explicarlo: cada vez que apoyás la mano en una pared, sentís el metal tibio del muro vibrando contra la palma.
+- **Cimientos 2–3.** Te vas del otro lado. Te pagan una indemnización, o un premio, o un silencio. Lo aceptás. Lo donás entero, sin decírselo a nadie, a un fondo para los sobrevivientes de Tolme. Firmás con otro nombre.
+- **Cimientos 4–5.** Te quedás en Tolme y reconstruís. Primero la escuela, después el hospital, después las casas de Los Bloques. Tu cuadrilla son los que sobrevivieron. Hacen paredes que no son para encerrar a nadie.
+- **Cimientos 6.** Desarmás el muro. Contenedor por contenedor, soldadura por soldadura. Tardan dos años. Cuando sale el último, el del tramo siete, te sentás en el piso y llorás como no lloraste nunca. Después lo pintan de colores y lo ponen en la plaza. Abajo, una placa: «Para que no se olvide».
 - **Con `TRAMO_NUEVE_SOLDADO`:** el día 41, los de afuera intentan abrir el tramo nueve y no pueden. Tienen que entrar por la puerta, a la vista de todos.
 
 ---
 
 <a id="e952"></a>
-### e952 · El epílogo de la Agente
+### e952 · El epílogo de La orden
 *Epílogo · Deber*
 
-- **Deber 0–1.** Sofía devuelve la placa. Nadie le pregunta por qué. Se va a vivir lejos, a un lugar donde no la conozcan. Todavía tiene el sobre, cerrado o abierto. Algunas noches lo saca del cajón y lo mira.
-- **Deber 2–3.** Sofía declara en el juicio, o en la investigación, o en la oficina de alguien que tenía que saber. Cuenta lo del día 2, lo de la nena, lo del sobre. No la condenan. No la felicitan. Sigue siendo policía, en otra ciudad, en una comisaría chica, de día.
-- **Deber 4–5.** Sofía se queda en Tolme. No hay policía, así que es la policía. Con un brazalete, sin uniforme. No lleva armas: lleva un silbato y la autoridad de alguien que estuvo ahí. Cuando hay un problema en un barrio, la llaman a ella.
-- **Deber 6.** El día 41, en el Puesto Norte, Sofía levanta la barrera. Lo cuentan todos los que pasaron: una piba con el chaleco de otro talle, parada al lado de la garita, mirando a los soldados a los ojos, diciendo «pasen, pasen, no corran, pasen». La foto de ese momento la sacó alguien con un celular. Está en todos lados.
+- **Deber 0–1.** Te vas lejos, a un lugar donde no te conozcan. Todavía tenés el sobre, cerrado o abierto. Algunas noches lo sacás del cajón y lo mirás.
+- **Deber 2–3.** Declarás en el juicio, o en la investigación, o en la oficina de alguien que tenía que saber. Contás lo del día 2, lo de la nena, lo del sobre. No te condenan. No te felicitan. Te dan las gracias por escrito, en un papel con el mismo sello rojo.
+- **Deber 4–5.** Te quedás en Tolme. No hay policía, ni jueces, ni nadie que dé órdenes, así que la gente te viene a buscar a vos. Con un brazalete, sin uniforme, sin armas: un silbato y la autoridad de alguien que estuvo ahí. Cuando hay un problema en un barrio, te llaman.
+- **Deber 6.** El día 41, en el Puesto Norte, levantás la barrera. Lo cuentan todos los que pasaron: alguien con el sobre en la mano, parado al lado de la garita, mirando a los soldados a los ojos, diciendo «pasen, pasen, no corran, pasen». La foto de ese momento la sacó alguien con un celular. Está en todos lados.
 - **Con `SIN_ORDEN`:** el sobre, roto en ocho pedazos, lo guarda alguien del grupo en un frasco. Años después, lo donan a un museo.
 
 ---
 
 <a id="e953"></a>
-### e953 · El epílogo de la Repartidora
+### e953 · El epílogo de El pedido
 *Epílogo · Ruta*
 
-- **Ruta 0–1.** Juli no vuelve a subirse a una bici. La vende, o la deja apoyada en una pared de Tolme, y se va. La caja, si la tiene, la tira al río desde el puente, sin abrirla. O abierta. Da igual.
-- **Ruta 2–3.** Juli sigue repartiendo, del otro lado. Otra aplicación, otra bici, otras calles. Cada vez que alguien no atiende el timbre, espera un minuto más de lo que tiene que esperar.
-- **Ruta 4–5.** Juli arma en Tolme la primera red de mensajería entre barrios: pibes en bicicleta que llevan cartas, remedios, semillas, noticias, de techo a techo y de puerta a puerta. Les enseña los atajos. Les dice que siempre aprieten el botón verde.
-- **Ruta 6.** Juli completa la lista. Cada pedido, entregado. El botón verde, apretado cinco veces. El celular sigue sin señal, pero una mañana, sola en su cuarto, la pantalla se prende y dice: «¡Gracias por tu entrega! Calificación: ★★★★★». Nadie le cree. Ella tampoco. Pero lo vio.
-- **Si la caja sigue en tu mochila:** la tiene en un estante de su casa. Nunca la abre (o nunca la vuelve a abrir). A veces, cuando viene alguien, la señala y dice: «Ese es mi último pedido».
+- **Ruta 0–1.** Te vas de Tolme sin mirar atrás. La caja, si la tenés, la tirás al río desde el puente, sin abrirla. O abierta. Da igual.
+- **Ruta 2–3.** Del otro lado, cada vez que alguien no atiende el timbre, esperás un minuto más de lo que tenés que esperar. No sabés por qué. Sí sabés.
+- **Ruta 4–5.** Armás en Tolme la primera red de mensajería entre barrios: pibes en bicicleta que llevan cartas, remedios, semillas, noticias, de techo a techo y de puerta a puerta. Les enseñás los atajos. Les decís que siempre tachen el pedido, aunque nadie lo vaya a revisar.
+- **Ruta 6.** Completás la tanda. Cada pedido, entregado. Una mañana, en tu cuarto, el celular sin señal se prende solo y dice: «¡Gracias por tu entrega! Calificación: ★★★★★». Nadie te cree. Vos tampoco. Pero lo viste.
+- **Si la caja sigue en tu mochila:** la tenés en un estante. Nunca la abrís (o nunca la volvés a abrir). A veces, cuando viene alguien, la señalás y decís: «Ese es mi último pedido».
 
 ---
 
@@ -478,7 +483,7 @@ Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las cola
 - `LA_7012` · La locomotora 7012 se queda en el Puerto, oxidada, con flores en la cabina. Nadie la mueve. Nadie se anima.
 - `SENALES_AL_HELICOPTERO` · En un archivo del Comando hay una foto borrosa de una sábana blanca en una azotea. Alguien, años después, la encuentra, y empieza a hacer preguntas.
 - `LLAMASTE_POR_RADIO` · En los pueblos río abajo hay gente que se acuerda de una voz que decía una dirección de Tolme. Algunos fueron. Algunos llegaron.
-- `LAS_LUCES_DE_CORINTO` · Encuentran tu mapa de las luces de la ciudad pegado en una pared. Cada luz tiene una cruz o un círculo. Nadie sabe qué querían decir los círculos.
+- `LAS_LUCES_DE_TOLME` · Encuentran tu mapa de las luces de la ciudad pegado en una pared. Cada luz tiene una cruz o un círculo. Nadie sabe qué querían decir los círculos.
 - `LA_SENORA_SE_EQUIVOCA` · Fuiste de los primeros en darte cuenta de que la Señora contaba mal. Lo vas a decir en todas las entrevistas, y en ninguna te van a creer.
 - `LA_SENORA_CALLADA` · Tolme se acuerda del día en que la radio se calló. Lo cuentan como el día en que la ciudad empezó a hablar sola.
 
@@ -526,6 +531,35 @@ Las ciudades no se acuerdan de todo. Se acuerdan de lo que se cuenta en las cola
 ---
 
 
+<a id="e956"></a>
+### e956 · El epílogo de El que falta
+*Epílogo · Esperanza*
+
+- **Esperanza 0–1.** Dejás de buscar. No porque lo encontraste: porque ya no podés. Te vas de Tolme con su foto en la billetera, y cada tanto, en una calle de otra ciudad, ves una campera parecida y te das vuelta. Nunca es.
+- **Esperanza 2–3.** Seguís buscando de a ratos, como se buscan las cosas que uno sabe que no va a encontrar. Las listas del Comando, los hospitales de afuera, los nombres en las paredes que nadie borró. Un día dejás de ir. Un día volvés a ir.
+- **Esperanza 4–5.** Te quedás en Tolme y abrís una oficina en la Municipalidad: un escritorio, un cuaderno y una pared llena de fotos. «Personas buscadas.» Vienen de todos los barrios. Encontrás a muchos. A algunos, vivos.
+- **Esperanza 6.** Lo encontraste, o encontraste lo que le pasó, y eso te alcanzó para seguir. Pintás su nombre en la pared del refugio, grande, donde lo veas todos los días, y abajo, con letra chica, el de todos los que encontraste buscándolo.
+- **Si llegó vivo y está entre los salvados:** se van juntos. En la ruta, del otro lado del muro, te agarra la mano y no te la suelta hasta el primer pueblo.
+- **Con `TE_ESPERA_AFUERA`:** del otro lado del Puesto Norte, entre la gente que espera, hay alguien con un cartel de cartón con tu nombre escrito con fibrón.
+- **Con `LO_DESPEDISTE`:** lo enterrás en el Parque, debajo de un árbol que eligió alguien que lo conocía. Cada año, el día 0, vas. Te sentás. Le contás cómo está todo.
+
+---
+
+<a id="e957"></a>
+### e957 · El epílogo de Lo que hiciste
+*Epílogo · Culpa*
+
+*Este contador va al revés: cuanto más baja, mejor.*
+
+- **Culpa 6.** Nunca se lo contás a nadie. Te vas lejos y vivís una vida chica y ordenada, sin puertas que dejar abiertas. A veces, de noche, te despertás con la mano en la traba.
+- **Culpa 4–5.** Se lo contás a una sola persona, años después, en un bar, porque no te conoce. Te escucha. Te dice que cualquiera habría hecho lo mismo. No le creés, pero esa noche dormís un poco mejor.
+- **Culpa 2–3.** Te quedás en Tolme. Hacés, todos los días, una cosa chica por alguien que no conocés: abrir, compartir, esperar. No alcanza. Lo hacés igual.
+- **Culpa 0–1.** Volvés al lugar. Le contás a quien corresponda lo que hiciste, con nombre y apellido, y aceptás lo que venga. Lo que viene es menos de lo que esperabas, y más de lo que podés pagar. Lo pagás igual, de a poco, durante años.
+- **Con `TE_PERDONASTE`:** en el refugio, la última noche, alguien te pregunta qué hiciste antes de la cuarentena. Le contás. No te tiembla la voz.
+- **Con `LO_NEGASTE`:** la persona que lo sabía lo cuenta, en una entrevista, años después. No dice tu nombre. No hace falta.
+
+---
+
 ## El Éxodo
 
 <a id="e960"></a>
@@ -567,7 +601,7 @@ Lo lograron.
 
 Contá a los que cruzaron y leé **Solo** ([e941](#e941)), **Unos pocos** ([e942](#e942)) o **El grupo** ([e943](#e943)). Después, abrí el Secreto ([e570](#e570)) y leé solo **La verdad**: la parte del día 41 ya no es para ustedes. Pero la vas a escuchar por la radio, en algún pueblo, dentro de unos días. Y vas a apagar la radio.
 
-Después, tu epílogo ([e950](#e950)) y lo que Tolme recuerda ([e955](#e955)).
+Después, tu epílogo (el de tu Motivo, r198) y lo que Tolme recuerda ([e955](#e955)).
 
 ---
 
@@ -587,7 +621,7 @@ Lo último que escuchás es tu propio corazón. Después, nada.
 
 - **Si fue antes de la Noche 40:** en Tolme sigue la cuarentena. Tu refugio queda con los que quedaron. Quizás aguanten. Quizás no. Nunca lo vas a saber.
 - **Si fue en la Noche 40:** al amanecer, alguien que se escondió sale a la calle y cuenta lo que hiciste. Contá a los que se salvaron igual (e940), aunque vos no estés: tu final es el de ellos.
-- Leé tu epílogo ([e950](#e950)) con tu contador **menos 1**.
+- Leé tu epílogo (el de tu Motivo, r198) con tu contador **un paso peor** (la Culpa, uno más).
 
 **Variante · El relevo.** Si no querés que termine, un sobreviviente con nombre que esté en el refugio toma tu lugar: usá sus Habilidades (las de su ficha, más 2 puntos donde quieras), Heridas 5, Ánimo 3. No tiene arco ni contador: su epílogo es su línea de [e954](#e954). La Moral baja 3.
 
@@ -609,6 +643,6 @@ Si no hay nadie, te levantás. Despacio. Caminás hasta la puerta. Te quedás ah
 
 - Si alguien del grupo sigue vivo, cada vez que alguien vuelva al refugio, te va a encontrar en la puerta. Ellos deciden qué hacer con vos.
 - En la Noche 40, si el refugio todavía resiste, sos uno de los de la primera oleada. Siempre lo fuiste.
-- Leé tu epílogo ([e950](#e950)) con tu contador **menos 2**.
+- Leé tu epílogo (el de tu Motivo, r198) con tu contador **dos pasos peor** (la Culpa, dos más).
 
 **Variante · El relevo** ([e990](#e990)): también se puede usar acá.

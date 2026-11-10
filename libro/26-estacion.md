@@ -75,7 +75,7 @@ Galpones de ladrillo junto a las vías de carga, con vagones de mercadería dete
 
 - **Revisar** (r161).
 - **Pasar la noche:** si la noche te agarra en La Estación, podés quedarte acá: cuenta como [e141](#e141) (Un baño con traba), pero con cama: recuperás 1 Ánimo más.
-- **La habitación 9** tiene un cartel de NO MOLESTAR y la puerta trabada desde adentro. Del otro lado, alguien respira fuerte. Si golpeás: una mujer con un bebé recién nacido. Tiene Fiebre 0, no la mordieron, no tiene leche ni comida. Si la llevás al refugio, son un solo sobreviviente (sin puesto durante 10 cartas, 1 Víver por día). +2 Moral. +1 Rastro (el bebé llora). Anotá `EL_BEBE`. Si sos la Enfermera, +1 Juramento.
+- **La habitación 9** tiene un cartel de NO MOLESTAR y la puerta trabada desde adentro. Del otro lado, alguien respira fuerte. Si golpeás: una mujer con un bebé recién nacido. Tiene Fiebre 0, no la mordieron, no tiene leche ni comida. Si la llevás al refugio, son un solo sobreviviente (sin puesto durante 10 cartas, 1 Víver por día). +2 Moral. +1 Rastro (el bebé llora). Anotá `EL_BEBE`. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa.
 
 ---
 
@@ -87,7 +87,7 @@ Un edificio de mármol con mostradores de bronce y un hall enorme. Atrás, el ce
 
 - **Revisar** (r161). Cada revisión, además, abrís paquetes: tirá 1d6; con 5–6, algo útil (un objeto útil, r163).
 - **Las bolsas del día 0:** cartas. Miles. Si te sentás a leer (◷ 2), tirá 1d6: con 1–3, −1 Ánimo; con 4–5, +1 Ánimo; con 6, una carta del Laboratorio de Virología dirigida al Comando: una pista ([e560](#e560)).
-- **Si sos la Repartidora:** buscás el registro de envíos del día −2. El de tu caja → [e834](#e834).
+- **Si tu Motivo es El pedido:** buscás el registro de envíos del día −2. El de tu caja → [e834](#e834).
 
 ---
 

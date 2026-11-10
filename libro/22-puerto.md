@@ -174,7 +174,7 @@ El capitán del ferry es un hombre de sesenta años con uniforme blanco impecabl
 
 1. **Convencerlo de que no va a haber orden.** `[Labia]` con Desventaja. Con 10+, duda. Si tenés `PROTOCOLO_40` o dos pistas del Secreto, se las mostrás, y se quiebra: el ferry es tuyo, con 4 Combustible. Anotá `EL_FERRY`. Con 7–9, te deja volver otro día a hablar. Con 6−, te echa a punta de revólver.
 2. **Cambiarle algo** (r166). Tiene Combustible, Munición y comida enlatada. Solo acepta Fármacos: tiene la presión alta.
-3. **Quitarle el barco.** **Vivo ×1 · Aguante 2 · Cerca**, con revólver. Si ganás: el ferry es tuyo. −1 Ánimo. Si sos la Agente, −1 Deber.
+3. **Quitarle el barco.** **Vivo ×1 · Aguante 2 · Cerca**, con revólver. Si ganás: el ferry es tuyo. −1 Ánimo. Si tu Motivo es La orden, −1 Deber; si es Lo que hiciste, +1 Culpa.
 
 Con `EL_FERRY`: en el modo Éxodo, es una salida para todos → [e960](#e960). En el modo Cuarentena, el ferry es un refugio flotante para la Noche 40: si mudás tu grupo al ferry antes de que salga la carta 40 (r176), la Marea solo puede atacar por un frente (la Rampa, Resistencia 6), pero la Marea tiene 2 oleadas más: los Callados caen al agua por miles hasta que hacen un puente con sus cuerpos.
 

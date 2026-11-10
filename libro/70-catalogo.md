@@ -178,8 +178,8 @@ Un vehículo te lleva rápido, pero todo Tolme lo escucha llegar: al llegar, la 
 
 | Vehículo | Personas | Carga | Ruido al llegar | Combustible | Dónde |
 |---|---|---|---|---|---|
-| Bicicleta | 1 | +2 | 0 | — | Comercio, la Repartidora (r152) |
-| Bici de carga | 1 | +3 | 0 | — | La Repartidora |
+| Bicicleta | 1 | +2 | 0 | — | Comercio, el oficio de Reparto (r102) |
+| Bici de carga | 1 | +3 | 0 | — | Comercio |
 | Moto | 2 | 4 | +2 | 1 cada 3 viajes | El depósito de los Lobos ([e686](#e686)) |
 | Taxi del Ruso | 4 | 12 | +2 | 1 cada 2 viajes | El Ruso ([e637](#e637)) |
 | Camioneta de los Lobos | 6 | 12 | +2 | 1 cada 2 viajes | [e681](#e681) |
@@ -414,7 +414,7 @@ La Resistencia de un frente no pasa de 10. Cada barricada también sirve para **
 >
 > **Rejas soldadas** · 4 Metal · Soldadora · ◷ 3 · `[Oficio]` (Oficio 2) · +4 Resistencia. Solo en Puerta o Ventanas. Los Brutos le hacen la mitad del daño. *Manual de defensa civil* ([e778](#e778)).
 >
-> **Tapiado de ladrillos** · Ladrillos o cemento (cuentan como 4 Metal), 2 Metal · Martillo · ◷ 4 · `[Oficio]` (Oficio 2) · +5 Resistencia. El frente ya no se puede usar para entrar ni salir. El Albañil, +1 Resistencia más. *Manual de carpintería y obra* ([e772](#e772)).
+> **Tapiado de ladrillos** · Ladrillos o cemento (cuentan como 4 Metal), 2 Metal · Martillo · ◷ 4 · `[Oficio]` (Oficio 2) · +5 Resistencia. El frente ya no se puede usar para entrar ni salir. Con *Ojo de obra* (r102), +1 Resistencia más. *Manual de carpintería y obra* ([e772](#e772)).
 
 ---
 
@@ -654,7 +654,7 @@ Una plataforma en el techo, un banquito, una frazada, unos binoculares si hay. E
 ### e761 · Último Cuarto
 *Catálogo · Instalaciones*
 
-> **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (el Albañil, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. *Manual de carpintería y obra* ([e772](#e772)).
+> **Último Cuarto** · 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (con *Ojo de obra*, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. *Manual de carpintería y obra* ([e772](#e772)).
 
 El cuarto más chico, el que no tiene ventanas. Las paredes reforzadas, la puerta doble, una tranca de fierro. Agua, una linterna, un balde. Nadie quiere entrar ahí. Todos saben que, si las cosas salen mal, es donde van a estar al amanecer.
 

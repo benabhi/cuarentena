@@ -13,8 +13,8 @@ No juega el libro entero (casi no sigue Marcas), pero mide el ritmo, la economí
 la mortalidad y, sobre todo, cuántas veces se llega vivo al amanecer del día 41.
 
 Uso:
-    python3 herramientas/simulador.py                  # 2000 partidas por protagonista
-    python3 herramientas/simulador.py -n 500 --prota enfermera --semilla 7
+    python3 herramientas/simulador.py                  # 8000 partidas con protagonistas al azar (r100–r107)
+    python3 herramientas/simulador.py -n 500 --oficio Salud --motivo 'La lista' --semilla 7
     python3 herramientas/simulador.py --traza          # narra una partida día a día
 """
 import argparse, glob, os, random, re, statistics as st
@@ -52,22 +52,70 @@ TESOROS = {  # r110
     'radio': ('e205', 'e281', 'e363', 'e384', 'e424', 'e304'),
     'blindado': ('e422', 'e322', 'e244', 'e265', 'e382', 'e323')}
 
-# protagonistas (r101–r104): Habilidades, los 2 puntos libres, Heridas, armas y orígenes (1d6)
-PROTAS = {
-    'enfermera': dict(hab={'Medicina': 3, 'Labia': 2}, extra=('Pelea', 'Sigilo'), maxh=5, armas=[],
-                      origen=[('Medicina', 'botiquin'), ('Labia', None), ('Sigilo', 'linterna'), ('Oficio', None),
-                              ('Calle', None), ('Supervivencia', None)]),
-    'albanil': dict(hab={'Oficio': 3, 'Físico': 2, 'Mecánica': 1}, extra=('Pelea', 'Sigilo'), maxh=5, armas=[],
-                    origen=[('Mecánica', None), ('Mecánica', 'prot'), ('Labia', None), ('Oficio', 'martillo'),
-                            ('Pelea', None), ('Supervivencia', None)]),
-    'agente': dict(hab={'Puntería': 3, 'Pelea': 2}, extra=('Sigilo', 'Físico'), maxh=5,
-                   armas=[dict(n='pistola', d=2, r=3, alc='L', usos=None, fuego=True)],
-                   origen=[('Calle', 'prot'), ('Supervivencia', 'perro'), ('Físico', None), ('Oficio', None),
-                           ('Puntería', 'muni'), ('Labia', None)]),
-    'repartidora': dict(hab={'Calle': 3, 'Sigilo': 2, 'Físico': 2}, extra=('Pelea', 'Oficio'), maxh=4, armas=[],
-                        origen=[('Mecánica', 'prot'), ('Sigilo', None), ('Físico', None), ('Labia', 'superv'),
-                                ('Mecánica', 'quimica'), ('Físico', None)]),
+# creación a medida (r100–r107): edad, oficio, barrio, Motivo, debilidad y objetos
+EDADES = ('Joven', 'Joven', 'Adulto', 'Adulto', 'Mayor', 'Mayor')
+OFICIOS = {  # r102: (Habilidad en 2, Habilidad en 1, maña, objetos para elegir)
+    'Salud': ('Medicina', 'Labia', 'Manos de guardia', ('botiquin', 'ambulancia')),
+    'Obra': ('Oficio', 'Físico', 'Ojo de obra', ('martillo', 'soplete')),
+    'Policía': ('Puntería', 'Pelea', 'Reglamentaria', ('llaves7', 'radio')),
+    'Reparto': ('Calle', 'Sigilo', 'Atajos', ('casco', 'ganzuas')),
+    'Farmacia': ('Medicina', 'Mecánica', 'Recetario', ('farmacos3', 'antiviral')),
+    'Comercio': ('Labia', 'Calle', 'El fiado', ('sobre', 'campera')),
+    'Mecánica': ('Mecánica', 'Oficio', 'Puente', ('llave', 'bateria')),
+    'Cocina': ('Supervivencia', 'Labia', 'La olla grande', ('olla', 'cuchillo')),
+    'Docencia': ('Labia', 'Supervivencia', 'Lista de presentes', ('manual', 'silbato')),
+    'Seguridad': ('Pelea', 'Físico', 'La puerta', ('perro', 'chaleco')),
+    'Electricidad': ('Mecánica', 'Calle', 'Cables', ('dinamo', 'radio')),
+    'Deporte': ('Físico', 'Sigilo', 'Pulmones', ('bate', 'mochila')),
 }
+ORDEN_OFICIOS = ('Salud', 'Obra', 'Policía', 'Reparto', 'Farmacia', 'Comercio',
+                 'Mecánica', 'Cocina', 'Docencia', 'Seguridad', 'Electricidad', 'Deporte')
+MOTIVOS = ('La lista', 'La obra', 'La orden', 'El pedido', 'El que falta', 'Lo que hiciste')
+DEBILIDADES = ('La espalda', 'Buscado', 'Miedo', 'Asma', 'Anteojos', 'Vicio')
+MANAS_HAB = {  # r126
+    'Pelea': ('La puerta',), 'Puntería': ('Pulso',), 'Sigilo': ('Sombra',), 'Físico': ('Pulmones',),
+    'Oficio': ('Ojo de obra',), 'Mecánica': ('Puente', 'Cables'), 'Medicina': ('Manos de guardia', 'Recetario'),
+    'Supervivencia': ('La olla grande',), 'Labia': ('Lista de presentes', 'El fiado'), 'Calle': ('Atajos',)}
+BOLSILLO = ('mochila', 'cuchillo', 'linterna', 'farmaco', 'palanca', 'foto')   # r106, 1d6
+# el jugador automático reparte los puntos libres en este orden (y nunca pasa de 4)
+PREFERIDAS = ('Pelea', 'Sigilo', 'Medicina', 'Oficio', 'Físico', 'Labia', 'Puntería', 'Calle', 'Supervivencia', 'Mecánica')
+
+
+def crear(r, fijo=None):
+    """Crea una protagonista al azar (r100–r106). `fijo` permite fijar edad, oficio o Motivo."""
+    fijo = fijo or {}
+    p = dict(edad=fijo.get('edad') or EDADES[d6(r) - 1],
+             oficio=fijo.get('oficio') or ORDEN_OFICIOS[(0 if d6(r) <= 3 else 6) + d6(r) - 1],
+             barrio=r.choice(sorted(BARRIOS)),
+             motivo=fijo.get('motivo') or MOTIVOS[d6(r) - 1])
+    deb = [r.choice(DEBILIDADES)]
+    if r.random() < 0.35:
+        deb.append(r.choice([d for d in DEBILIDADES if d != deb[0]]))
+    p['debilidades'] = set(deb)
+    h2, h1, mana, objs = OFICIOS[p['oficio']]
+    hab = Counter({h: 0 for h in HABS})
+    hab[h2] += 2
+    hab[h1] += 1
+    if p['edad'] == 'Joven':
+        hab['Físico'] += 1
+    elif p['edad'] == 'Adulto':
+        hab[r.choice((h2, h1))] += 1
+    else:
+        hab['Labia'] += 1
+    libres = 4 + (1 if len(deb) == 2 else 0)
+    for h in PREFERIDAS * 3:
+        if libres == 0:
+            break
+        if hab[h] < (2 if libres > 2 else 4) and hab[h] < 4:
+            hab[h] += 1
+            libres -= 1
+    p['hab'] = hab
+    p['manas'] = {mana}
+    for h, v in hab.items():
+        if v >= 4:
+            p['manas'].add(next((m for m in MANAS_HAB[h] if m not in p['manas']), MANAS_HAB[h][0]))
+    p['objetos'] = [r.choice(objs), BOLSILLO[d6(r) - 1]]
+    return p
 
 TIPO_BOTIN = {'Farmacia': 'farmacia', 'Almacén': 'almacen', 'Ferretería': 'ferreteria', 'Hospital': 'hospital',
               'Policía': 'policia', 'Armería': 'policia', 'Vivienda': 'vivienda', 'Oficina': 'oficina',
@@ -304,23 +352,28 @@ class Partida:
         self.ev, self.tablas, lugares, self.refs, self.baraja = datos
         self.r, self.traza = r, traza
         self.aj = dict(AJUSTES, **(ajustes or {}))
-        self.prota = prota
-        P = PROTAS[prota]
-        self.hab = Counter({h: 0 for h in HABS})
-        self.hab.update(P['hab'])
+        self.prota = P = prota if isinstance(prota, dict) else crear(r, prota)
+        self.manas = set(P['manas'])
+        self.deb = set(P['debilidades'])
+        self.hab = Counter(P['hab'])
         self.practica = Counter()
-        self.maxh = P['maxh']
+        self.semana = Counter()                         # r127: palotes de la primera semana
+        self.apodo = None
+        self.maxh = self.aj['mayor_h'] if P['edad'] == 'Mayor' else 5
+        if P['edad'] == 'Mayor' and self.aj['mayor_puntos']:
+            for h in PREFERIDAS[:self.aj['mayor_puntos']]:
+                self.hab[h] = min(4, self.hab[h] + 1)
         self.h = 0
         self.fiebre = 0
         self.reservas = 6
-        self.animo = 4
+        self.animo = 5 if P['edad'] == 'Joven' else 4
         self.prot = 0
         self.revistas = 0
         self.vendas = 0
-        self.armas = [dict(a) for a in P['armas']] + [dict(n='improvisada', d=1, r=0, alc='C', usos=None, fuego=False)]
+        self.armas = [dict(n='improvisada', d=1, r=0, alc='C', usos=None, fuego=False)]
         if self.aj['arma_ini']:
             self.armas.append(dict(n='caño', d=self.aj['arma_ini'], r=0, alc='C', usos=6, fuego=False))
-        self.muni = 6 if prota == 'agente' else 0
+        self.muni = 0
         self.herr = set()
         self.manuales = set()
         self.antiv = 0
@@ -331,26 +384,39 @@ class Partida:
         self.rep = 0
         self.grupo = []
         self.nombres = iter(f's{i}' for i in range(1000))
-        hab, obj = P['origen'][d6(r) - 1]
-        self.hab[hab] += 1
-        if obj == 'botiquin':
-            self.herr.add('Botiquín')
-        elif obj == 'martillo':
-            self.herr.add('Martillo')
-        elif obj == 'linterna':
-            self.linterna = True
-        elif obj == 'prot':
-            self.prot = 1
-        elif obj == 'muni':
-            self.muni += 6
-        elif obj == 'perro':
-            s = Surv('Negro', r); s.hab, s.lvl, s.arma = 'Pelea', 2, 2; self.grupo.append(s)
-        elif obj == 'superv':
-            self.grupo.append(Surv('Lucía', r))
-        elif obj == 'quimica':
+        self.mats = Counter()
+        if 'Reglamentaria' in self.manas:
+            self.armas.insert(0, dict(n='pistola', d=2, r=2, alc='L', usos=None, fuego=True))
+            self.muni = 6
+        if 'Recetario' in self.manas:
             self.manuales.add(774)
-        for h in P['extra']:
-            self.hab[h] = min(4, self.hab[h] + 1)
+        for obj in P['objetos']:
+            if obj == 'botiquin':
+                self.herr.add('Botiquín')
+            elif obj in ('martillo', 'llave', 'palanca'):
+                self.herr.add({'martillo': 'Martillo', 'llave': 'Llave inglesa', 'palanca': 'Palanca'}[obj])
+            elif obj in ('linterna', 'dinamo'):
+                self.linterna = True
+            elif obj in ('casco', 'chaleco', 'campera'):
+                self.prot = 1
+            elif obj == 'perro':
+                sv = Surv('Negro', r); sv.hab, sv.lvl, sv.arma = 'Pelea', 2, 2; self.grupo.append(sv)
+            elif obj == 'farmacos3':
+                self.mats['Fármacos'] += 3
+            elif obj == 'antiviral':
+                self.antiv += 1; self.mats['Fármacos'] += 1
+            elif obj == 'farmaco':
+                self.mats['Fármacos'] += 1
+            elif obj == 'cuchillo':
+                self.armas.insert(0, dict(n='cuchillo', d=1, r=0, alc='C', usos=None, fuego=False))
+            elif obj == 'bate':
+                self.armas.insert(0, dict(n='bate', d=2, r=0, alc='C', usos=8, fuego=False))
+            elif obj == 'soplete':
+                self.mats['Combustible'] += 1
+            elif obj == 'bateria':
+                self.mats['Electrónica'] += 1
+            elif obj == 'manual':
+                self.manuales.add(774)
         self.lugares = {k: dict(v) for k, v in lugares.items()}
         self.ref_id = refugio or r.choice(sorted(REFUGIOS))
         R = self.refs[self.ref_id]
@@ -358,11 +424,15 @@ class Partida:
         self.frentes = dict(R['frentes'])
         self.sin_subsuelo = self.frentes['Subsuelo'] == 0
         self.trampas = {f: [] for f in FRENTES}
-        self.mats = Counter(R['mats'])
+        self.mats.update(R['mats'])
         self.muni += R['muni']
-        self.viv = R['viv']
+        self.viv = R['viv'] + (3 if 'sobre' in P['objetos'] else 0)
         self.rastro = R['rastro']
         self.moral = 5
+        self.mi_barrio = P['barrio']
+        self.visto = set()
+        if self.home == self.mi_barrio:                 # en casa (r103)
+            self.moral, self.rastro = 6, self.rastro + 1
         self.inst = set()
         if self.ref_id == 'e480':
             self.inst |= {'Cisterna', 'Vigía'}
@@ -386,8 +456,13 @@ class Partida:
         self.mazo = [(p, v) for p in ('Oros', 'Copas', 'Espadas', 'Bastos') for v in range(1, 13) if v not in (8, 9)]
         r.shuffle(self.mazo)
         self.dia = 0
-        self.secreto = d6(r)
+        if 'Buscado' in self.deb:
+            self.rep -= 2
+        self.secreto = None                             # se tira al abrirlo (r109, e570)
         self.secreto_abierto = False
+        self.falta = 0                                  # Señales de El que falta (e840–e845)
+        self.encontrado = None
+        self.abst = 0                                   # semanas sin el vicio
         self.stats = Counter()
         self.ruido = 0
         self.barrio = self.home
@@ -415,8 +490,12 @@ class Partida:
             return 'Puerto' if d6(self.r) <= 3 else 'Universidad'
         return PROCESION_2D6[t]
 
-    def prueba(self, hab, desv=False, vent=False, bonus=0):
+    def prueba(self, hab, desv=False, vent=False, bonus=0, lejos=False):
         if self.h >= self.maxh - 2 or self.reservas == 0 or self.animo == 0 or self.fiebre >= 4:
+            desv = True
+        if 'Miedo' in self.deb and hab in ('Pelea', 'Puntería') and self.animo <= 3:
+            desv = True
+        if 'Anteojos' in self.deb and lejos:
             desv = True
         if desv and vent:
             desv = vent = False
@@ -428,9 +507,16 @@ class Partida:
         t = sum(dados) + self.hab[hab] + min(2, bonus)
         if t <= 6:
             self.practica[hab] += 1
+            if self.dia <= 7:
+                self.semana[hab] += 1               # r127: el palito de la primera semana
             if self.practica[hab] >= 3 and self.hab[hab] < 5:
                 self.practica[hab] = 0
                 self.hab[hab] += 1
+                if self.hab[hab] == 4:                  # r126: la maña de la Habilidad
+                    m = next((m for m in MANAS_HAB[hab] if m not in self.manas), None)
+                    if m:
+                        self.manas.add(m)
+                        self.stats['manas_ganadas'] += 1
         return t
 
     def mejor_arma(self, lejos):
@@ -551,11 +637,11 @@ class Partida:
             apurado = self.h >= self.maxh - 2 and amenaza >= 3
             if not refugio and encima == 0 and (apurado or amenaza > capacidad + 1) and \
                     self.aj['esconderse']:
-                t = self.prueba('Sigilo')
+                t = self.prueba('Sigilo', vent='Sombra' in self.manas)
                 if t >= 10:
                     return True
                 if t >= 7:
-                    self.ruido += 1
+                    self.ruido += 0 if 'Sombra' in self.manas else 1
                     return True
                 for e in enemigos:
                     e[2] = min(2, e[2] + self.aj['esc_fallo'])
@@ -565,7 +651,7 @@ class Partida:
                 if arma and not (dmin == 2 and arma['alc'] == 'L' and arma['fuego'] and arma['n'] != 'revólver'
                                  and arma['n'] != 'pistola'):
                     hab = 'Puntería' if arma['alc'] == 'L' or arma['fuego'] else 'Pelea'
-                    t = self.prueba(hab)
+                    t = self.prueba(hab, lejos=dmin == 0)
                     dmg = arma['d']
                     if t >= 10:
                         hecho = dmg
@@ -573,7 +659,7 @@ class Partida:
                         hecho = (dmg + 1) // 2
                         if arma['usos'] is not None:
                             arma['usos'] -= 1
-                        elif arma['fuego']:
+                        elif arma['fuego'] and 'Pulso' not in self.manas:
                             self.ruido += arma['r']
                     else:
                         hecho = 0
@@ -600,8 +686,10 @@ class Partida:
             for e in enemigos:
                 if e[0] <= 0:
                     continue
-                if e[3] == 3:
+                if e[3] == 3 and 'Pulmones' not in self.manas:
                     e[2] = 2
+                elif e[3] == 3:
+                    e[2] = min(2, e[2] + 1)
                 elif e[3] > 0:
                     e[2] = min(2, e[2] + e[3])
                 if e[4].startswith('Escupidor') and d6(self.r) >= 4:
@@ -982,6 +1070,7 @@ class Partida:
                     self.viv = max(0, self.viv - (3 if x == 5 else 2))
         if self.dia % 7 == 0:
             self.rastro = max(0, self.rastro - 1)        # una semana sin salir de noche (r174)
+        self.tu_historia()
         if val <= 7:
             eid = self.baraja[palo][d6(self.r)][0 if val <= 3 else 1]
         else:
@@ -1053,6 +1142,48 @@ class Partida:
                     s.fiebre += 1
                     if s.fiebre >= 4:
                         self.perder(s, 'Fiebre')
+
+    def tu_historia(self):
+        """Lo que es solo tuyo: el apodo (r127), las debilidades (r105) y El que falta (e840–e848)."""
+        R, P = self.r, self.prota
+        if self.dia == 8 and self.semana:
+            self.apodo = self.semana.most_common(1)[0][0]
+        if self.dia > 1 and (self.dia - 1) % 10 == 0:       # sube la Etapa: alguna debilidad se supera
+            for d in sorted(self.deb):
+                if R.random() < self.aj['superar']:
+                    self.deb.discard(d)
+                    self.animo = min(6, self.animo + 1)
+                    self.stats['debilidad_superada'] += 1
+        if 'Vicio' in self.deb:
+            if self.dia % 7 == 1:
+                if self.viv > self.gente():
+                    self.viv -= 1
+                else:
+                    self.animo = max(0, self.animo - 2)
+        if P['motivo'] == 'El que falta' and self.encontrado is None and self.dia >= 2:
+            if self.stats['salidas'] > self.stats.get('_salidas', 0) and R.random() < self.aj['senal']:
+                self.falta += 1
+            self.stats['_salidas'] = self.stats['salidas']
+            if self.falta >= 3:
+                x = d6(R) - (1 if R.random() < 1 / 6 else 0) + (1 if 2 + self.falta >= 4 else 0)
+                x = max(1, min(6, x))
+                col = 0 if self.etapa <= 2 else 1 if self.etapa == 3 else 2
+                tabla = (('atrapado', 'faccion', 'solo', 'otro', 'gente', 'buscando'),
+                         ('mordido', 'atrapado', 'faccion', 'solo', 'otro', 'gente'),
+                         ('convertido', 'convertido', 'mordido', 'atrapado', 'faccion', 'otro'))[col]
+                self.encontrado = tabla[x - 1]
+                self.stats['falta_' + self.encontrado] += 1
+                if self.encontrado in ('solo', 'gente', 'buscando', 'atrapado', 'faccion'):
+                    sv = Surv('El que falta', R); sv.lvl = max(sv.lvl, 2); self.grupo.append(sv)
+                    self.moral = min(10, self.moral + 2)
+                    if self.encontrado == 'gente':
+                        self.unir()
+                    if self.encontrado == 'faccion':
+                        self.rep += 1
+                elif self.encontrado == 'mordido':
+                    sv = Surv('El que falta', R); sv.fiebre = 1; self.grupo.append(sv)
+                elif self.encontrado == 'convertido':
+                    self.animo = max(0, self.animo - 2)
 
     def amputar(self):
         med = max([s.lvl for s in self.grupo if s.hab == 'Medicina'] + [0])
@@ -1150,10 +1281,13 @@ class Partida:
             horas -= 1
             med = max([self.hab['Medicina']] + [s.lvl for s in self.grupo if s.hab == 'Medicina'])
             t = d6(self.r) + d6(self.r) + med + (1 if 'Botiquín' in self.herr else 0)
+            if 'Recetario' in self.manas and t >= 7:
+                t = 10
             self.h = max(0, self.h - (2 if t >= 10 else 1 if t >= 7 else 0))
         if horas >= 1 and self.moral <= 4 and self.grupo:
             horas -= 1
-            t = self.prueba('Labia')
+            t = self.prueba('Labia', bonus=(1 if 'Lista de presentes' in self.manas else 0) +
+                            (1 if self.apodo else 0))
             self.moral = max(0, min(10, self.moral + (1 if t >= 7 else -1 if t <= 6 else 0)))
         return horas
 
@@ -1231,7 +1365,7 @@ class Partida:
     def llegar(self, b):
         venia = self.barrio
         self.barrio = b
-        azotea = b in AZOTEAS.get(venia, ()) and (self.soga or self.prota == 'repartidora')
+        azotea = b in AZOTEAS.get(venia, ()) and (self.soga or 'Atajos' in self.manas)
         if azotea:
             if d6(self.r) == 1:
                 self.evento('e130', contexto='calle')
@@ -1240,7 +1374,11 @@ class Partida:
             self.procesion(compas=self.compas)
             return
         self.ruido += 1
-        t = min(12, d6(self.r) + self.etapa + (1 if self.ruido >= 3 else 0))
+        if b == self.mi_barrio and b not in self.visto:      # tu cuadra (r103)
+            self.visto.add(b)
+            return
+        self.visto.add(b)
+        t = min(12, d6(self.r) + self.etapa + (1 if self.ruido >= 3 else 0) - (1 if b == self.mi_barrio else 0))
         eid = self.tablas[b].get(max(2, t))
         if eid:
             self.evento(eid, contexto='calle')
@@ -1249,7 +1387,7 @@ class Partida:
     def construir(self, horas):
         M = self.mats
         frs = self.frs()
-        alb = 1 if self.prota == 'albanil' else 0
+        alb = 1 if 'Ojo de obra' in self.manas else 0
 
         def hacer(h):
             nonlocal horas
@@ -1394,12 +1532,14 @@ class Partida:
                     self.frentes[f] += 1
             else:
                 s.h = max(0, s.h - 1)
-        if self.prota == 'enfermera' and self.h > 0:
+        if 'Manos de guardia' in self.manas and self.h > 0:
             self.h -= 1
+        if 'La olla grande' in self.manas and cocina:
+            self.viv += 1
         if 'Enfermería' in self.inst and self.h > 0:
             self.h -= 1
-        if self.h == 1:
-            self.h = 0       # el Descanso borra Magullado
+        if self.h == 1 and (self.maxh == 5 or self.aj['mayor_magullado']):
+            self.h = 0       # el Descanso borra Magullado (la Mayor no tiene esa casilla)
         tir = d6(self.r) + d6(self.r) - min(2, guardia) - (1 if 'Vigía' in self.inst else 0) + \
             (2 if self.procs[self.home] else 0)
         if tir <= self.rastro:
@@ -1453,14 +1593,14 @@ class Partida:
     def crisis(self):
         self.stats['crisis'] += 1
         x = d6(self.r)
-        if x <= 2 and self.grupo:
+        if x <= 2 and self.grupo and not ('Lista de presentes' in self.manas and x == 2):
             self.perder(self.r.choice(self.grupo), 'se fue')
             self.moral += 2
         elif x == 3:
             self.viv = max(0, self.viv - 2)
         elif x == 4:
             self.moral = max(0, self.moral - 1)
-        elif self.prueba('Labia') >= 7:
+        elif self.prueba('Labia', bonus=(1 if 'Lista de presentes' in self.manas else 0) + (1 if self.apodo else 0)) >= 7:
             self.moral += 1
 
     # ------------------------------------------------------------ la Noche 40 (r220–r225, e900–e930)
@@ -1532,7 +1672,8 @@ class Partida:
                         sum(s.arma + (1 if s.pel() >= 2 else 0) + bonus_def for s in aqui)
                 if f in ('UC', yo):
                     arma = self.mejor_arma(self.muni > 0) or self.mejor_arma(False) or self.armas[-1]
-                    t = self.prueba('Puntería' if arma['fuego'] else 'Pelea')
+                    t = self.prueba('Puntería' if arma['fuego'] else 'Pelea',
+                                    bonus=2 if 'La puerta' in self.manas and f == 'Puerta' else 0)
                     if arma['fuego']:
                         self.muni = max(0, self.muni - 1)
                     dfn += 2 * arma['d'] if t >= 10 else arma['d'] if t >= 7 else 0
@@ -1569,7 +1710,7 @@ class Partida:
                             self.frentes[f] = 3 if t >= 10 else 1
                             continue
                         self.mordida_tabla()
-                    uc = (6 + (1 if self.prota == 'albanil' else 0)) if 'Último Cuarto' in self.inst else 2
+                    uc = (6 + (1 if 'Ojo de obra' in self.manas else 0)) if 'Último Cuarto' in self.inst else 2
                     self.stats['al_ultimo_cuarto'] += 1
                     for s in list(asign[f]):
                         if d6(R) >= 4:
@@ -1627,8 +1768,19 @@ class Partida:
         self.stats['amanecer'] += 1
 
     # ------------------------------------------------------------ el día 41 (e930, e581–e586)
+    def abrir_secreto(self):
+        """e570: el dado se tira al abrir; las pistas lo mueven (la rueda 1–6)."""
+        x = d6(self.r)
+        mover = 2 if self.pistas >= 6 else 1 if self.pistas >= 4 else 0
+        malos = {1: 2, 2: 3}                             # qué tan mala es cada verdad para el jugador
+        mejor = min((((x - 1 + k) % 6) + 1 for k in range(-mover, mover + 1)), key=lambda v: malos.get(v, 0))
+        self.secreto = mejor
+        self.stats[f'secreto_{mejor}'] += 1
+
     def dia41(self):
         R = self.r
+        if self.secreto is None:
+            self.abrir_secreto()                         # se abre recién al amanecer (e930)
         s = self.secreto
         if s == 1:
             ok = self.fiebre == 0
@@ -1644,8 +1796,9 @@ class Partida:
         try:
             while self.dia < 40:
                 self.alba()
-                if self.pistas >= 4 and not self.secreto_abierto:
+                if self.pistas >= self.aj['abrir'] and not self.secreto_abierto:
                     self.secreto_abierto = True
+                    self.abrir_secreto()
                     self.stats['abrio_dia'] = self.dia
                 self.luz()
                 if self.dia == 40:
@@ -1656,14 +1809,16 @@ class Partida:
             self.log(f'** FIN: {f.causa} el día {self.dia}')
             return dict(gano=False, salvado=False, causa=f.causa, dia=self.dia, gente=len(self.grupo),
                         stats=self.stats, final='muerte', salvados=0, ref=self.ref_id, inst=len(self.inst),
-                        rastro=self.rastro)
+                        rastro=self.rastro, prota=self.prota)
         ps, sal, final = self.dia41()
         self.log(f'** AMANECER · final {final} · salvados {sal}')
         return dict(gano=True, salvado=ps, causa=None, dia=41, gente=len(self.grupo), stats=self.stats, final=final,
-                    salvados=sal, ref=self.ref_id, inst=len(self.inst), rastro=self.rastro)
+                    salvados=sal, ref=self.ref_id, inst=len(self.inst), rastro=self.rastro, prota=self.prota,
+                    apodo=self.apodo, manas=len(self.manas), ganadas=sorted(self.manas - set(self.prota['manas'])))
 
 
-AJUSTES = dict(desarmar=10, amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True)
+AJUSTES = dict(desarmar=10, amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True,
+               superar=0.25, senal=0.3, abrir=4, mayor_h=4, mayor_magullado=False, mayor_puntos=0)
 
 
 def informe(res, prota):
@@ -1690,35 +1845,69 @@ def informe(res, prota):
         'salidas', 'eventos', 'combates', 'procesiones', 'sondeos', 'entraron', 'crisis', 'unidos', 'perdidos',
         'mordido', 'amputado', 'hambre', 'tesoros', 'brechas', 'al_ultimo_cuarto', 'ultima_puerta', 'aliados',
         'caidas', 'rescatado', 'volvio', 'rastro_eventos', 'rastro_gente', 'rastro_ruido')))
-    porref = defaultdict(list)
-    for r in res:
-        porref[NOMBRE_REF[r['ref']]].append(r['gano'])
-    print('  Por refugio: ' + ' · '.join(f'{k} {100 * sum(v) / len(v):.0f} %' for k, v in sorted(porref.items())))
+    print('  Por refugio: ' + porc(res, lambda r: NOMBRE_REF[r['ref']]))
     return g / n, s / n
+
+
+def porc(res, clave):
+    d = defaultdict(list)
+    for r in res:
+        for k in (clave(r) if isinstance(clave(r), (set, list, tuple)) else (clave(r),)):
+            d[k].append(r['gano'])
+    return ' · '.join(f'{k} {100 * sum(v) / len(v):.0f} %' for k, v in sorted(d.items()))
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('-n', type=int, default=2000)
-    ap.add_argument('--prota', choices=list(PROTAS))
+    ap.add_argument('-n', type=int, default=8000)
+    ap.add_argument('--edad', choices=sorted(set(EDADES)))
+    ap.add_argument('--oficio', choices=ORDEN_OFICIOS)
+    ap.add_argument('--motivo', choices=MOTIVOS)
     ap.add_argument('--refugio', choices=list(REFUGIOS))
     ap.add_argument('--semilla', type=int, default=1)
     ap.add_argument('--traza', action='store_true')
+    ap.add_argument('--ajuste', action='append', default=[], help='clave=valor de AJUSTES, para probar variantes')
     a = ap.parse_args()
+    aj = {k: eval(v) for k, v in (x.split('=', 1) for x in a.ajuste)}
     ev = leer_eventos()
     tablas, lugares = leer_tablas(ev)
     datos = (ev, tablas, lugares, leer_refugios(ev), leer_baraja(ev))
     r = random.Random(a.semilla)
+    fijo = dict(edad=a.edad, oficio=a.oficio, motivo=a.motivo)
     if a.traza:
-        p = Partida(datos, a.prota or 'enfermera', r, a.refugio, traza=True)
+        p = Partida(datos, crear(r, fijo), r, a.refugio, traza=True)
+        print('Protagonista:', {k: v for k, v in p.prota.items() if k != 'hab'}, dict(+p.prota['hab']))
         res = p.jugar()
-        print({k: v for k, v in res.items() if k != 'stats'}, dict(res['stats']))
+        print({k: v for k, v in res.items() if k not in ('stats', 'prota')}, dict(res['stats']))
         return
-    tot = []
-    for prota in ([a.prota] if a.prota else list(PROTAS)):
-        tot.append(informe([Partida(datos, prota, r, a.refugio).jugar() for _ in range(a.n)], prota))
-    print(f'\nMedia: llegan al amanecer {100 * st.mean(t[0] for t in tot):.1f} % · '
-          f'salvados {100 * st.mean(t[1] for t in tot):.1f} %')
+    res = [Partida(datos, crear(r, fijo), r, a.refugio, ajustes=aj).jugar() for _ in range(a.n)]
+    informe(res, 'Protagonistas creadas al azar')
+    print('  Por edad: ' + porc(res, lambda r: r['prota']['edad']))
+    print('  Por oficio: ' + porc(res, lambda r: r['prota']['oficio']))
+    print('  Por Motivo: ' + porc(res, lambda r: r['prota']['motivo']))
+    print('  Por debilidad: ' + porc(res, lambda r: tuple(sorted(r['prota']['debilidades']))))
+    print('  Por barrio propio: ' + porc(res, lambda r: r['prota']['barrio']))
+    print('  Con dos debilidades: ' + porc(res, lambda r: 'dos' if len(r['prota']['debilidades']) == 2 else 'una'))
+    vivos = [r for r in res if r['gano']]
+    if vivos:
+        print('  Apodos al amanecer: ' + ', '.join(f'{k} {v}' for k, v in Counter(r['apodo'] for r in vivos).most_common(5)) +
+              f' · mañas por cabeza {st.mean(r["manas"] for r in vivos):.1f}')
+    G = Counter(m for r in vivos for m in r['ganadas'])
+    print('  Mañas ganadas en la partida (de los que llegan): ' + ', '.join(f'{k} {100 * v / len(vivos):.0f} %' for k, v in G.most_common()))
+    S = Counter()
+    for r in res:
+        S.update(r['stats'])
+    print('  Secreto: ' + ', '.join(f'{k[-1]} {100 * v / len(res):.0f} %' for k, v in sorted(S.items()) if k.startswith('secreto_')) +
+          f' · abierto antes de la Noche 40 en {100 * sum(1 for r in res if r["stats"]["abrio_dia"]) / len(res):.0f} %')
+    F = {k[6:]: v for k, v in S.items() if k.startswith('falta_')}
+    nf = sum(1 for r in res if r['prota']['motivo'] == 'El que falta')
+    if nf:
+        print('  El que falta (de %d partidas): ' % nf + ', '.join(f'{k} {100 * v / nf:.0f} %' for k, v in sorted(F.items(), key=lambda x: -x[1])) +
+              f' · sin encontrar {100 * (nf - sum(F.values())) / nf:.0f} %')
+    # cuántas fichas distintas: edad × oficio × barrio × Motivo × debilidad (sin contar objetos ni puntos)
+    distintas = len({(r['prota']['edad'], r['prota']['oficio'], r['prota']['barrio'], r['prota']['motivo'],
+                      tuple(sorted(r['prota']['debilidades']))) for r in res})
+    print(f'  Fichas distintas en {len(res)} partidas: {distintas}')
 
 
 if __name__ == '__main__':

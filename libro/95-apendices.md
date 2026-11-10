@@ -12,30 +12,34 @@
 | | |
 |---|---|
 | **Nombre** | ______________________________ |
-| **Protagonista** | ▢ Enfermera ▢ Albañil ▢ Agente ▢ Repartidora |
-| **Origen (1d6)** | ______________________________ |
-| **Ventaja** | ______________________________ |
-| **Debilidad** | ______________________________ |
+| **Pronombre** | ▢ el ▢ la · **Apodo** (r127): ______________ |
+| **Edad** (r101) | ▢ Joven ▢ Adulto ▢ Mayor |
+| **Oficio** (r102) | `OFICIO_` ______________ |
+| **Barrio** (r103) | `BARRIO_` ______________ · Conocido: ______________ · Escondite: ______________ |
+| **Motivo** (r104) | ▢ La lista ▢ La obra ▢ La orden ▢ El pedido ▢ El que falta ▢ Lo que hiciste · Fila: ___ |
+| **Debilidades** (r105) | ______________________________ · Superada: ▢ |
+| **Mañas** (r102, r126) | ______________________________ |
 
-**Habilidades** (0–5; tres casillas de práctica cada una, r124)
+**Habilidades** (0–5; tres casillas de práctica cada una, r124; la columna Semana es para el apodo, r127)
 
-| Habilidad | Nivel | Práctica | Habilidad | Nivel | Práctica |
-|---|---|---|---|---|---|
-| Pelea | ___ | ▢ ▢ ▢ | Mecánica | ___ | ▢ ▢ ▢ |
-| Puntería | ___ | ▢ ▢ ▢ | Medicina | ___ | ▢ ▢ ▢ |
-| Sigilo | ___ | ▢ ▢ ▢ | Supervivencia | ___ | ▢ ▢ ▢ |
-| Físico | ___ | ▢ ▢ ▢ | Labia | ___ | ▢ ▢ ▢ |
-| Oficio | ___ | ▢ ▢ ▢ | Calle | ___ | ▢ ▢ ▢ |
+| Habilidad | Nivel | Práctica | Semana | Habilidad | Nivel | Práctica | Semana |
+|---|---|---|---|---|---|---|---|
+| Pelea | ___ | ▢ ▢ ▢ | ____ | Mecánica | ___ | ▢ ▢ ▢ | ____ |
+| Puntería | ___ | ▢ ▢ ▢ | ____ | Medicina | ___ | ▢ ▢ ▢ | ____ |
+| Sigilo | ___ | ▢ ▢ ▢ | ____ | Supervivencia | ___ | ▢ ▢ ▢ | ____ |
+| Físico | ___ | ▢ ▢ ▢ | ____ | Labia | ___ | ▢ ▢ ▢ | ____ |
+| Oficio | ___ | ▢ ▢ ▢ | ____ | Calle | ___ | ▢ ▢ ▢ | ____ |
 
 **El cuerpo**
 
 | Registro | | Notas |
 |---|---|---|
-| **Heridas** | ▢ Magullado · ▢ Lastimado · ▢ Herido · ▢ Grave · ▢ Muriendo | La Repartidora no tiene Magullado (r190) |
+| **Heridas** | ▢ Magullado · ▢ Lastimado · ▢ Herido · ▢ Grave · ▢ Muriendo | Si sos Mayor, no tenés Magullado (r101) |
 | **Fiebre** | ▢ 1 · ▢ 2 · ▢ 3 · ▢ 4 · ▢ 5 · ▢ 6 | Sube cada alba. En 6, te convertís (r191) |
 | **Reservas** | ▢ ▢ ▢ ▢ ▢ ▢ | Hambre y sed. En 0, Desventaja y 1 Herida por alba (r193) |
-| **Ánimo** | ▢ ▢ ▢ ▢ ▢ ▢ | Empieza en 4. En 0, Quiebre (r194) |
-| **Contador** | ▢ ▢ ▢ ▢ ▢ ▢ | Juramento · Cimientos · Deber · Ruta. Empieza en 2 (r198) |
+| **Ánimo** | ▢ ▢ ▢ ▢ ▢ ▢ | Empieza en 4 (Joven, 5). En 0, Quiebre (r194) |
+| **Contador** | ▢ ▢ ▢ ▢ ▢ ▢ | Juramento · Cimientos · Deber · Ruta · Esperanza · Culpa. Empieza en 2; la Culpa, en 4 y baja (r198) |
+| **Señales** | ▢ ▢ ▢ ▢ ▢ ▢ | Solo El que falta: con 3, [e845](#e845). Último lugar: ______________ |
 | **Amputado** | ______________ | r192 |
 
 **La salida de hoy**
@@ -149,11 +153,9 @@ ______________________________________________________________________
 | El generador industrial | e____ | ▢ | La radio del aficionado | e____ | ▢ |
 | La armería del cordón | e____ | ▢ | El blindado | e____ | ▢ |
 
-**El Secreto** (papel doblado, r109) · **Pistas** (e560)
+**Pistas** (e560) ▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢ · **El Secreto** (r109, se tira al abrirlo): ____
 
-▢ ▢ ▢ ▢ ▢ ▢ ▢ ▢
-
-*Con 2 pistas, [e561](#e561). Con 4, [e562](#e562). Con 6, [e563](#e563).*
+*Con 2 pistas, [e561](#e561). Con 4, [e562](#e562): podés abrirlo y mover el dado un lugar. Con 6, [e563](#e563): lo abrís y lo movés hasta dos.*
 
 **Los cuarenta días** (si no tenés baraja, tachá acá: r137)
 
@@ -302,7 +304,13 @@ ______________________________________________________________________
 
 ## Resumen de reglas
 
-### La prueba (r120–r124)
+### Crear tu protagonista (r100–r107)
+
+> **1 · Edad** (1d6: 1–2 Joven, 3–4 Adulto, 5–6 Mayor) · **2 · Oficio** (1d6 columna, 1d6 fila: 2 Habilidades y una maña) · **3 · Barrio** (cuadra, esquina, escondite y conocido) · **4 · Motivo** (arco, contador y «por qué lo tenés») · **5 · Debilidad** (una; dos dan +1 punto) · **6 · Objetos** (los de todos, uno del oficio y 1d6).
+> **Puntos:** oficio 3 + edad 1 + 4 libres. Nada empieza por encima de 4.
+> **Durante la partida:** Habilidad 4 → maña (r126) · alba del día 8 → apodo (r127) · debilidad superada → +1 Ánimo y el contador un paso a favor (r105).
+
+### La prueba (r120–r127)
 
 > **2d6 + Habilidad.** **10+** limpio · **7–9** con precio · **6−** fallo y una casilla de práctica.
 > **Ventaja / Desventaja:** 3d6, te quedás con los dos más altos / más bajos.

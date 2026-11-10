@@ -428,7 +428,7 @@ Alguien sentado en la vereda, con la espalda contra una persiana, apretándose u
 
 —No me mordieron —dice antes de que preguntes—. Me corté con un vidrio. Te juro.
 
-- **Revisarlo** `[Medicina]` (la Enfermera lo sabe sin tirar): con 7+, es verdad, es un corte. Con 6−, no lo sabés.
+- **Revisarlo** `[Medicina]` (con *Manos de guardia*, lo sabés sin tirar): con 7+, es verdad, es un corte. Con 6−, no lo sabés.
 - **Curarlo y llevarlo:** 1 Fármacos, ◷ 1. Tirá en la tabla de sobrevivientes (r180): es esa persona. Si no la revisaste, o si al revisarla no lo supiste, tirá 1d6: con 1, mentía. Anotá `MORDIDO_EN_SECRETO_` y su nombre.
 - **Dejarle 1 Fármacos e irte.** +1 Ánimo.
 - **Irte.** Te grita algo que no querés escuchar.
@@ -616,7 +616,7 @@ Un cuerpo boca abajo en la vereda, con una mochila de camping todavía puesta. N
 
 Las paredes de Tolme hablan. Aerosol, marcador, carbón, sangre. Tirá 1d6:
 
-- **1** · «MARTA, ESTAMOS EN LA CATEDRAL. MAMÁ». Si sos la Enfermera, −1 Ánimo: no es para vos.
+- **1** · «MARTA, ESTAMOS EN LA CATEDRAL. MAMÁ». Si tu Motivo es El que falta, −1 Ánimo: por un segundo creíste que era para vos.
 - **2** · Un mapa dibujado con flechas: «AGUA →». Te dice dónde hay una canilla que funciona: +2 Víveres si gastás ◷ 1.
 - **3** · «NO ES UN VIRUS». Una pista ([e560](#e560)).
 - **4** · Las marcas de búsqueda de otro grupo en cada puerta de la cuadra. Todos los lugares de este barrio pierden 1 casilla de stock que no hayas tachado vos (si tienen).

@@ -7,31 +7,36 @@
 
 | Marca | Entradas |
 |---|---|
-| `AGENTE_CANINA` | [e651](#e651) · [r103](#r103) |
-| `AGENTE_NOVATA` | [r103](#r103) |
-| `AGENTE_RADIO` | [e822](#e822) · [r103](#r103) |
-| `AGENTE_SEPTIMA` | [e008](#e008) · [e460](#e460) · [r103](#r103) |
-| `AGENTE_TIRADORA` | [r103](#r103) |
-| `AGENTE_TRANSITO` | [r103](#r103) |
-| `ALBANIL_BOXEADOR` | [r102](#r102) |
-| `ALBANIL_CARPINTERO` | [r102](#r102) |
-| `ALBANIL_DEUDAS` | [r102](#r102) |
-| `ALBANIL_GASISTA` | [r102](#r102) |
-| `ALBANIL_PADRE` | [e812](#e812) · [r102](#r102) |
-| `ALBANIL_SOLDADOR` | [r102](#r102) |
 | `AMBULANCIA_12` | [e212](#e212) · [e960](#e960) |
 | `AMPOLLAS_L40` | [e532](#e532) · [e586](#e586) · [e624](#e624) |
+| `ANTEOJOS` | [e205](#e205) · [r105](#r105) |
+| `APODO_MEDICINA` | [r127](#r127) |
+| `APODO_SIGILO` | [r127](#r127) |
 | `ARDIO_LA_FABRICA` | [e274](#e274) · [e955](#e955) |
 | `ARMERIA_DE_LA_SEPTIMA` | [e461](#e461) · [e463](#e463) |
 | `ASAMBLEA` | [e084](#e084) · [e955](#e955) |
+| `ASMA` | [e214](#e214) · [r105](#r105) |
 | `AURELIO_EN_EL_REFUGIO` | [e628](#e628) · [e629](#e629) |
 | `AVISO_DE_LOS_LOBOS` | [e035](#e035) · [e046](#e046) · [e079](#e079) · [e681](#e681) · [e682](#e682) |
 | `AYUDASTE_EN_EL_MURO` | [e433](#e433) · [e581](#e581) |
 | `BARCAZA_COMBUSTIBLE` | [e254](#e254) · [e912](#e912) · [e960](#e960) |
 | `BARCAZA_MOTOR` | [e254](#e254) · [e912](#e912) · [e960](#e960) |
 | `BARCAZA_TIMON` | [e254](#e254) · [e912](#e912) · [e960](#e960) |
+| `BARRIO_BLOQUES` | [r103](#r103) |
+| `BARRIO_CASCO` | [r103](#r103) |
+| `BARRIO_CEMENTERIO` | [r103](#r103) |
+| `BARRIO_COSTANERA` | [r103](#r103) |
+| `BARRIO_ESTACION` | [r103](#r103) |
+| `BARRIO_FABRIL` | [r103](#r103) |
+| `BARRIO_LOMAS` | [r103](#r103) |
+| `BARRIO_MERCADO` | [r103](#r103) |
+| `BARRIO_PERIMETRO` | [r103](#r103) |
+| `BARRIO_PUERTO` | [r103](#r103) |
+| `BARRIO_SANIDAD` | [r103](#r103) |
+| `BARRIO_UNIVERSIDAD` | [r103](#r103) |
 | `BRUNO_LO_HIZO` | [e611](#e611) · [e954](#e954) |
 | `BRUNO_LO_VIO` | [e610](#e610) · [e954](#e954) |
+| `BUSCADO` | [e004](#e004) · [e420](#e420) · [e422](#e422) · [e430](#e430) · [e432](#e432) · [e463](#e463) · [e503](#e503) · [e630](#e630) · [e691](#e691) · [e692](#e692) · [r104](#r104) · [r105](#r105) |
 | `CADENAS_DEL_TORNILLO` | [e261](#e261) |
 | `CAJA_PRECINTADA` | [e005](#e005) · [e830](#e830) · [e837](#e837) · [r104](#r104) |
 | `CAMIONETA_DE_LOS_SOSA` | [e262](#e262) · [e960](#e960) |
@@ -40,17 +45,16 @@
 | `CHAPAS_DEL_ASTILLERO` | [e243](#e243) |
 | `CONOCES_EL_BARRIO_CERRADO` | [e680](#e680) · [e684](#e684) · [e685](#e685) |
 | `CONOCES_EL_CAMINO` | [e435](#e435) · [e900](#e900) |
-| `CONTRATO_DEL_MURO` | [e003](#e003) · [e049](#e049) · [r102](#r102) |
+| `CONTRATO_DEL_MURO` | [e003](#e003) · [e049](#e049) · [r104](#r104) |
 | `CORIA_ESPERA` | [e801](#e801) |
 | `CREDENCIAL_DE_SALAS` | [e223](#e223) · [e361](#e361) |
 | `CRIPTA_TAPIADA` | [e442](#e442) · [e920](#e920) |
 | `DESAGUE_TAPADO` | [e077](#e077) · [e900](#e900) |
-| `DESERTORA` | [e004](#e004) · [e420](#e420) · [e422](#e422) · [e432](#e432) · [e463](#e463) · [e503](#e503) · [e691](#e691) · [e692](#e692) · [r103](#r103) |
 | `DESERTOR_DEL_CORDON` | [e430](#e430) · [e691](#e691) · [e692](#e692) · [e954](#e954) |
 | `DESTACAMENTO_DISUELTO` | [e422](#e422) · [e694](#e694) · [e900](#e900) |
 | `DIENTES_EN_LAS_TRAMPAS` | [e273](#e273) · [e900](#e900) |
 | `DON_CACHO` | [e060](#e060) · [e955](#e955) |
-| `DUDA_DEL_PRIMERO` | [e011](#e011) · [e955](#e955) |
+| `DUDA_DEL_PRIMERO` | [e013](#e013) · [e955](#e955) |
 | `EL_AGUA_VUELVE` | [e383](#e383) · [e955](#e955) |
 | `EL_BEBE` | [e324](#e324) · [e940](#e940) · [e954](#e954) |
 | `EL_BLINDADO` | [e501](#e501) · [e551](#e551) · [e552](#e552) · [e694](#e694) · [e900](#e900) · [e940](#e940) · [e960](#e960) |
@@ -70,6 +74,7 @@
 | `EL_JARDINERO` | [e310](#e310) · [e954](#e954) |
 | `EL_MUNDO_SABE` | [e583](#e583) · [e838](#e838) |
 | `EL_MURO_CEDIO` | [e049](#e049) · [e435](#e435) · [e813](#e813) · [e814](#e814) · [e900](#e900) |
+| `EL_NEGRO` | [e651](#e651) · [r106](#r106) |
 | `EL_NIDO` | [e332](#e332) · [e334](#e334) |
 | `EL_NIVEL_3` | [e374](#e374) · [e583](#e583) · [e624](#e624) · [e648](#e648) |
 | `EL_OBRADOR` | [e816](#e816) · [e817](#e817) |
@@ -79,6 +84,7 @@
 | `EL_PACTO` | [e664](#e664) · [e694](#e694) · [e905](#e905) |
 | `EL_PASTOR_SABE` | [e073](#e073) · [e731](#e731) · [e900](#e900) |
 | `EL_PRESO` | [e462](#e462) · [e954](#e954) |
+| `EL_QUE_FALTA` | [e840](#e840) · [r104](#r104) |
 | `EL_RECITAL` | [e404](#e404) · [e435](#e435) · [e900](#e900) |
 | `EL_SERENO` | [e401](#e401) · [e955](#e955) |
 | `EL_SOLDADO_DEL_CONVOY` | [e335](#e335) · [e582](#e582) |
@@ -86,12 +92,6 @@
 | `EL_TRAMO_NUEVE` | [e811](#e811) · [e815](#e815) · [e816](#e816) |
 | `EL_TREN_FANTASMA` | [e385](#e385) |
 | `EL_TREN_SELLADO` | [e333](#e333) · [e955](#e955) |
-| `ENFERMERA_AMBULANCIA` | [e212](#e212) · [r101](#r101) |
-| `ENFERMERA_JUBILADA` | [r101](#r101) |
-| `ENFERMERA_NOCTURNA` | [r101](#r101) |
-| `ENFERMERA_PARTERA` | [e806](#e806) · [r101](#r101) |
-| `ENFERMERA_QUIROFANO` | [r101](#r101) |
-| `ENFERMERA_TERAPIA` | [r101](#r101) |
 | `ENTREGASTE_AL_INMUNE` | [e578](#e578) · [e586](#e586) |
 | `EQUIPO_DE_SUTURA` | [e224](#e224) · [r190](#r190) |
 | `ESCALERA_CORTADA` | [e491](#e491) · [e900](#e900) · [e920](#e920) |
@@ -104,9 +104,15 @@
 | `GOTERAS` | [e029](#e029) · [e052](#e052) |
 | `GRIETA_EN_EL_MURO` | [e058](#e058) · [e425](#e425) · [e815](#e815) |
 | `HANDY_DE_LOS_LOBOS` | [e217](#e217) · [e300](#e300) · [e711](#e711) |
+| `HICISTE_EL_ABANDONO` | [e850](#e850) · [e851](#e851) |
+| `HICISTE_EL_LUGAR` | [e850](#e850) · [e851](#e851) |
+| `HICISTE_LA_AMPOLLA` | [e850](#e850) · [e851](#e851) |
+| `HICISTE_LA_DENUNCIA` | [e850](#e850) · [e851](#e851) |
+| `HICISTE_LA_GUARDIA` | [e850](#e850) · [e851](#e851) |
+| `HICISTE_LA_PUERTA` | [e850](#e850) · [e851](#e851) |
 | `HUMO_EN_EL_MERCADO` | [e024](#e024) · [e340](#e340) |
 | `IVAN_VUELVE_AL_MURO` | [e631](#e631) · [e905](#e905) |
-| `LAS_LUCES_DE_CORINTO` | [e069](#e069) · [e955](#e955) |
+| `LAS_LUCES_DE_TOLME` | [e069](#e069) · [e955](#e955) |
 | `LAS_SEMILLAS_DE_ROSA` | [e629](#e629) · [e949](#e949) |
 | `LA_4X4` | [e244](#e244) · [e960](#e960) |
 | `LA_7012` | [e602](#e602) · [e955](#e955) |
@@ -118,8 +124,10 @@
 | `LA_CAJA_ABIERTA` | [e837](#e837) · [e838](#e838) |
 | `LA_CURA` | [e586](#e586) · [e944](#e944) |
 | `LA_ESCOLLERA` | [e383](#e383) · [e960](#e960) |
+| `LA_ESPALDA` | [e222](#e222) · [r105](#r105) |
 | `LA_FERIA_ENCENDIDA` | [e385](#e385) · [e435](#e435) · [e900](#e900) |
 | `LA_FIEBRE_DE_RITA` | [e586](#e586) · [e616](#e616) |
+| `LA_FOTO` | [e812](#e812) · [r106](#r106) |
 | `LA_HIJA_DE_GUSTAVO` | [e618](#e618) · [e620](#e620) |
 | `LA_HUERTA_DE_ARRIBA` | [e132](#e132) · [e752](#e752) |
 | `LA_LANCHA` | [e382](#e382) · [e960](#e960) |
@@ -143,10 +151,12 @@
 | `LES_ROBASTE_EL_CUARTEL` | [e482](#e482) · [e905](#e905) · [e955](#e955) |
 | `LE_PAGAS_A_LOS_LOBOS` | [e451](#e451) · [e681](#e681) · [e682](#e682) · [e905](#e905) · [e955](#e955) |
 | `LIBERASTE_A_LAS_COCINERAS` | [e685](#e685) · [e955](#e955) |
-| `LISTA_DEL_PABELLON` | [e002](#e002) · [e214](#e214) · [e800](#e800) · [r101](#r101) |
+| `LISTA_DEL_PABELLON` | [e002](#e002) · [e800](#e800) · [r104](#r104) |
 | `LISTA_DE_DONANTES` | [e225](#e225) · [e586](#e586) |
 | `LLAMASTE_POR_RADIO` | [e375](#e375) · [e955](#e955) |
 | `LLAVES_DEL_PORTERO` | [e292](#e292) · [e955](#e955) |
+| `LLAVES_DE_LA_AMBULANCIA` | [e212](#e212) · [r106](#r106) |
+| `LLAVES_DE_LA_SEPTIMA` | [e010](#e010) · [e460](#e460) · [r106](#r106) |
 | `LOBOS_DEBILITADOS` | [e623](#e623) · [e684](#e684) · [e687](#e687) |
 | `LOBOS_DERROTADOS` | [e305](#e305) · [e623](#e623) · [e684](#e684) · [e687](#e687) |
 | `LOS_BOMBEROS_SABEN` | [e035](#e035) · [e272](#e272) · [e671](#e671) |
@@ -167,18 +177,30 @@
 | `LOS_VEINTE` | [e064](#e064) · [e940](#e940) · [e954](#e954) · [r222](#r222) |
 | `LOS_VIEJOS_DE_LA_VELA` | [e142](#e142) · [e955](#e955) |
 | `LOTE_40` | [e374](#e374) · [e423](#e423) · [e532](#e532) · [e586](#e586) · [e624](#e624) |
+| `LO_DEJASTE_ADENTRO` | [e846](#e846) · [e900](#e900) |
+| `LO_DESPEDISTE` | [e846](#e846) · [e847](#e847) · [e956](#e956) |
+| `LO_NEGASTE` | [e852](#e852) · [e854](#e854) · [e855](#e855) · [e957](#e957) |
+| `LO_QUE_HICISTE` | [e850](#e850) · [r104](#r104) |
 | `MANO_DURA` | [e084](#e084) · [e955](#e955) |
 | `MAPA_DEL_SUBSUELO` | [e026](#e026) · [e110](#e110) · [e114](#e114) · [e116](#e116) · [e203](#e203) |
 | `MATEO_Y_RIOS` | [e583](#e583) · [e625](#e625) |
 | `MATIAS_EL_FARMACEUTICO` | [e214](#e214) · [e954](#e954) |
 | `MAYÚSCULAS_CON_GUIONES` | [r196](#r196) |
+| `MIEDO` | [e900](#e900) · [r105](#r105) |
 | `NEGRO_CON_BOZAL` | [e042](#e042) · [e101](#e101) · [e651](#e651) |
 | `NOS_SIGUIERON` | [e079](#e079) · [r308](#r308) |
-| `NO_ABRISTE` | [e011](#e011) · [e031](#e031) |
+| `NO_ABRISTE` | [e013](#e013) · [e031](#e031) |
 | `NO_CENSADO` | [e691](#e691) · [e955](#e955) |
+| `OCAMPO_DE_TU_LADO` | [e825](#e825) · [e826](#e826) · [e905](#e905) · [e930](#e930) |
 | `OCAMPO_MIRA_PARA_OTRO_LADO` | [e581](#e581) |
-| `OCAMPO_Y_LEIVA` | [e825](#e825) · [e826](#e826) · [e905](#e905) · [e930](#e930) |
-| `ORDEN_SELLADA` | [e004](#e004) · [e820](#e820) · [e821](#e821) · [r103](#r103) |
+| `OFICIO_DOCENCIA` | [r199](#r199) |
+| `OFICIO_FARMACIA` | [e532](#e532) |
+| `OFICIO_OBRA` | [e815](#e815) · [r102](#r102) |
+| `OFICIO_POLICIA` | [e004](#e004) · [e460](#e460) · [e461](#e461) · [e521](#e521) · [e820](#e820) · [r107](#r107) |
+| `OFICIO_REPARTO` | [e291](#e291) · [e837](#e837) |
+| `OFICIO_SALUD` | [e492](#e492) · [e532](#e532) · [e800](#e800) · [e806](#e806) · [r102](#r102) |
+| `OFICIO_SEGURIDAD` | [e004](#e004) · [e521](#e521) |
+| `ORDEN_SELLADA` | [e004](#e004) · [e820](#e820) · [e821](#e821) · [r104](#r104) |
 | `PASTOR_MUERTO` | [e577](#e577) · [e585](#e585) · [e900](#e900) · [e901](#e901) · [e945](#e945) |
 | `PEAJE` | [e043](#e043) · [e955](#e955) |
 | `PERDIDO_BRUNO` | [e610](#e610) |
@@ -202,15 +224,10 @@
 | `PULSERA_NUMERADA` | [e576](#e576) · [e586](#e586) |
 | `QUIROGA_DERIVADO` | [e804](#e804) · [e807](#e807) |
 | `RACIONES_A_LA_VISTA` | [e082](#e082) · [e955](#e955) |
+| `RADIO_POLICIAL` | [e822](#e822) · [r106](#r106) |
 | `RAMPA_DESTRUIDA` | [e434](#e434) · [e435](#e435) · [e900](#e900) |
 | `RECHAZASTE_A_LOS_LOBOS` | [e687](#e687) · [e905](#e905) · [e955](#e955) |
 | `REFORZASTE_EL_MURO` | [e435](#e435) · [e900](#e900) |
-| `REPARTIDORA_BARRIO` | [e011](#e011) · [e603](#e603) · [r104](#r104) |
-| `REPARTIDORA_CICLISTA` | [r104](#r104) |
-| `REPARTIDORA_GANZUAS` | [r104](#r104) |
-| `REPARTIDORA_MOTO` | [r104](#r104) |
-| `REPARTIDORA_PARKOUR` | [r104](#r104) |
-| `REPARTIDORA_QUIMICA` | [r104](#r104) |
 | `RIOS_CONFIA` | [e649](#e649) · [e650](#e650) |
 | `ROLO_MUERTO` | [e623](#e623) · [e954](#e954) |
 | `RUMOR_DE_LOS_LOBOS` | [e169](#e169) · [e955](#e955) |
@@ -223,7 +240,9 @@
 | `SIN_ORDEN` | [e826](#e826) · [e952](#e952) |
 | `SOBRE_CERRADO` | [e825](#e825) · [e826](#e826) |
 | `SUJETO_CERO` | [e583](#e583) · [e834](#e834) |
-| `TE_BUSCAN_POR_LA_CAJA` | [e832](#e832) · [e835](#e835) |
+| `TE_BUSCAN_POR_LA_CAJA` | [e832](#e832) · [e835](#e835) · [r104](#r104) |
+| `TE_ESPERA_AFUERA` | [e848](#e848) · [e956](#e956) |
+| `TE_PERDONASTE` | [e858](#e858) · [e957](#e957) |
 | `TE_VIERON_LOS_LOBOS` | [e311](#e311) · [e955](#e955) |
 | `TIGRE_DOS` | [e543](#e543) · [e912](#e912) · [e930](#e930) · [e960](#e960) |
 | `TRABAJASTE_EN_EL_MURO` | [e693](#e693) · [e900](#e900) |
@@ -235,6 +254,7 @@
 | `TU_VOZ_EN_LA_RADIO` | [e579](#e579) · [e949](#e949) |
 | `UN_NIDO` | [e119](#e119) |
 | `VAGON_DE_LA_C` | [e112](#e112) · [e955](#e955) |
+| `VICIO` | [e284](#e284) · [r105](#r105) |
 | `VISTE_AL_PASTOR` | [e068](#e068) · [e073](#e073) · [e373](#e373) · [e901](#e901) |
 | `VISTE_LA_MAREA` | [e434](#e434) · [e693](#e693) |
 | `VOLO_EL_GAS` | [e266](#e266) · [e955](#e955) |

@@ -2,7 +2,7 @@
 
 *Seis lugares que podrían aguantar. Ninguno fue hecho para esto. Una iglesia, un supermercado, una comisaría, una escuela, un cuartel, un edificio de departamentos. Cada uno tiene sus paredes y sus agujeros. Elegí con cuál vas a pelear la Noche 40.*
 
-**Cómo se lee una entrada de refugio.** Cada refugio tiene una ficha con lo que hay que anotar en la Hoja del refugio: el **tipo** de botín para revisar en [e009](#e009), el **stock** de sus rincones, la **Resistencia** inicial de cada frente (r171), los **Víveres** y **materiales** con los que empezás, el **Rastro** inicial (si no dice nada, es 1) y sus **reglas propias**. Después vienen sus rincones: lugares del refugio con su propia entrada.
+**Cómo se lee una entrada de refugio.** Cada refugio tiene una ficha con lo que hay que anotar en la Hoja del refugio: el **tipo** de botín para revisar en [e011](#e011), el **stock** de sus rincones, la **Resistencia** inicial de cada frente (r171), los **Víveres** y **materiales** con los que empezás, el **Rastro** inicial (si no dice nada, es 1) y sus **reglas propias**. Después vienen sus rincones: lugares del refugio con su propia entrada.
 
 **Si no es tu refugio.** Los otros cinco siguen ahí, en el mapa. Podés visitarlos como cualquier lugar de su barrio: cada ficha dice qué tipo de lugar son y qué stock tienen para un visitante. Pero los refugios vacíos no siempre están vacíos: al entrar a uno que no es el tuyo, tirá 1d6; con 1–2, alguien más tuvo la misma idea. Vivos: usá r300. Si la ficha del refugio trae su propia tirada, usá esa en lugar de esta.
 
@@ -38,7 +38,7 @@ El padre de San Lázaro se fue con los suyos a la Catedral el día 3. Dejó la p
 
 **Si no es tu refugio:** es un lugar del Casco, tipo Vivienda, stock ▢▢. Si la Parroquia tiene Reputación +2 o más con vos, hay alguien de ellos adentro que te deja dormir una noche (r158) sin tirar en la tabla de noche afuera.
 
-Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
+Anotá todo en la Hoja del refugio y volvé a **[e011](#e011)**.
 
 ---
 
@@ -88,7 +88,7 @@ Lo bueno: es un supermercado. Lo malo: todo el barrio sabe que es un supermercad
 
 **Reglas propias**
 
-- **Don Ramón.** Antes de revisar en [e009](#e009), hay que sacarlo del depósito: **Callado ×1 · Cerca**, con delantal. Sin prueba si tenés un arma de Cerca; si no, `[Pelea]`. Si alguien del grupo lo conocía, −1 Ánimo para esa persona.
+- **Don Ramón.** Antes de revisar en [e011](#e011), hay que sacarlo del depósito: **Callado ×1 · Cerca**, con delantal. Sin prueba si tenés un arma de Cerca; si no, `[Pelea]`. Si alguien del grupo lo conocía, −1 Ánimo para esa persona.
 - **Las vidrieras.** Las Ventanas son un **frente doble**: tiene 4 espacios de trampa en lugar de 2, pero cuando un sondeo o una oleada golpea las Ventanas, hace +1 de daño hasta que las Ventanas lleguen a Resistencia 5 o más.
 - **Todos saben.** Una vez por Etapa, a mitad de cada una (en las cartas 5, 15, 25 y 35), alguien viene por la comida → [e451](#e451).
 - **La carnicería.** Tiene una cámara de frío → [e452](#e452).
@@ -96,12 +96,12 @@ Lo bueno: es un supermercado. Lo malo: todo el barrio sabe que es un supermercad
 
 **Los rincones del súper**
 
-- **El depósito del entrepiso:** el stock del refugio. Después de [e009](#e009), una vez por Etapa, el stock vuelve a ▢: hay cajas que no habías visto detrás de otras cajas.
+- **El depósito del entrepiso:** el stock del refugio. Después de [e011](#e011), una vez por Etapa, el stock vuelve a ▢: hay cajas que no habías visto detrás de otras cajas.
 - **La caja registradora:** efectivo (no sirve para nada), un revólver de Don Ramón en el cajón de abajo (Daño 2, Lejos, 3 Munición) y la libreta de fiado, con los nombres de todos los que le deben. Si tenés la libreta, en el Mercado y en Los Bloques, la primera vez que hablás con vivos (r300) tenés +1: «Usted le debía a Don Ramón».
 
 **Si no es tu refugio:** es un lugar del Mercado, tipo Almacén, stock ▢▢. Pero los primeros que llegan no sos vos: tirá 1d6 al entrar; con 1–3, ya hay gente adentro defendiéndolo (r300, postura Hablar con −1).
 
-Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
+Anotá todo en la Hoja del refugio y volvé a **[e011](#e011)**.
 
 ---
 
@@ -163,10 +163,10 @@ Los agentes de la 7.ª se fueron el día 5, cuando el Comando ordenó que se rep
 
 **Reglas propias**
 
-- **Las llaves.** La puerta blindada está cerrada. Si sos la Agente con `AGENTE_SEPTIMA`, tenés las llaves: entrás sin más. Si no, hay que entrar por una ventana de arriba (`[Físico]`, con Soga sin prueba) y abrir desde adentro. Si fallás, entrás igual, con 1 Herida.
+- **Las llaves.** La puerta blindada está cerrada. Si tenés `LLAVES_DE_LA_SEPTIMA`, entrás sin más. Si no, hay que entrar por una ventana de arriba (`[Físico]`, con Soga sin prueba) y abrir desde adentro. Si fallás, entrás igual, con 1 Herida.
 - **La sala de armas.** Está cerrada con una puerta de acero → [e461](#e461).
 - **Los calabozos.** Hay alguien → [e462](#e462).
-- **El Destacamento la quiere.** La Comisaría es un punto de la red del Comando. Empezás con Reputación **−1** con el Destacamento (e690) si no sos la Agente. Cuando salga la carta del día 15 o más, y si nunca fuiste a ver al Destacamento, → [e463](#e463).
+- **El Destacamento la quiere.** La Comisaría es un punto de la red del Comando. Empezás con Reputación **−1** con el Destacamento (e690) si no tenés `OFICIO_POLICIA`. Cuando salga la carta del día 15 o más, y si nunca fuiste a ver al Destacamento, → [e463](#e463).
 - **El túnel de las vías.** El Subsuelo da a una cámara de inspección del ferrocarril: el frente Subsuelo empieza en 2, pero desde el refugio podés bajar al Subsuelo de la Estación sin pasar por la Calle.
 
 **Los rincones de la Comisaría**
@@ -176,7 +176,7 @@ Los agentes de la 7.ª se fueron el día 5, cuando el Comando ordenó que se rep
 
 **Si no es tu refugio:** es un lugar de la Estación, tipo Armería / Policía, stock ▢▢. La puerta blindada no se abre sin llaves: hay que entrar por arriba, como dice la ficha. Si el Destacamento ya la ocupó (si tenés Reputación −2 o menos con ellos, o si salió [e463](#e463)), adentro hay **3 soldados** (r300, postura Hablar con −1).
 
-Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
+Anotá todo en la Hoja del refugio y volvé a **[e011](#e011)**.
 
 ---
 
@@ -186,7 +186,7 @@ Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
 
 Una puerta de acero gris con una cerradura de seguridad y un teclado numérico apagado. Al lado, pegado con cinta, un papel: «CLAVE NUEVA: PREGUNTAR AL OFICIAL DE GUARDIA».
 
-1. **Si sos la Agente:** sabés la clave vieja, y sabés que nadie la cambió. Abrís.
+1. **Si tenés `OFICIO_POLICIA`:** sabés la clave vieja, y sabés que nadie la cambió. Abrís.
 2. **Si tenés a Pocho** ([e612](#e612)) **o un Taladro con Generador:** ◷ 2. Abrís.
 3. **Forzarla:** `[Mecánica]` con Desventaja, ◷ 3, +2 Rastro (golpes). Con 7+, abrís. Con 6−, se trabó para siempre.
 
@@ -223,7 +223,7 @@ Un camión verde frena delante de la Comisaría. Bajan seis soldados con fusiles
 
 —Esta es una dependencia del Estado —dice—. La necesitamos.
 
-- **Si sos la Agente con `DESERTORA`:** te reconoce → [e692](#e692).
+- **Si tenés `BUSCADO`:** te reconoce → [e692](#e692).
 - **Si tenés Reputación +2 o más con el Destacamento:** Ocampo se queda mirando el edificio, después a vos. «Cuídenla», dice. «La van a necesitar.» Te dan 4 Munición y se van. +1 Moral.
 
 Si no:
@@ -266,7 +266,7 @@ Durante la primera semana fue un centro de evacuados de Los Bloques. Después de
 
 **Si no es tu refugio:** es un lugar de Los Bloques, tipo Oficina / Escuela, stock ▢▢. Al entrar, tirá 1d6: con 1–3, el gimnasio no está vacío ([e472](#e472), opción 3).
 
-Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
+Anotá todo en la Hoja del refugio y volvé a **[e011](#e011)**.
 
 ---
 
@@ -328,7 +328,7 @@ No volvieron. No todos.
 
 **Si no es tu refugio:** es un lugar del Puerto, tipo Taller / Fábrica, stock ▢▢. A partir de la carta del día 11, está ocupado por los Bomberos (e670): usá su entrada.
 
-Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
+Anotá todo en la Hoja del refugio y volvé a **[e011](#e011)**.
 
 ---
 
@@ -411,7 +411,7 @@ Desde el piso doce se ve todo: el Hospital, el Casco, el río, el muro. Desde el
 
 **Si no es tu refugio:** es un lugar de Sanidad, tipo Vivienda, stock ▢▢▢. Al entrar, tirá 1d6: con 1–2, hay alguien viviendo en el piso 12 que te tira cosas por el hueco de la escalera (`[Físico]` para esquivar, con 6−, 1 Herida). Vivos: usá r300.
 
-Anotá todo en la Hoja del refugio y volvé a **[e009](#e009)**.
+Anotá todo en la Hoja del refugio y volvé a **[e011](#e011)**.
 
 ---
 
@@ -440,7 +440,7 @@ Una puerta con una cinta de luto atada al picaporte. En el timbre: «R. Álvarez
 
 Era el departamento de la jefa de enfermeras del Central. Se llamaba Raquel Álvarez.
 
-- **Si sos la Enfermera:** fue tu jefa durante doce años. Sabés dónde guardaba las cosas → [e805](#e805).
+- **Si tu Motivo es La lista:** Raquel te dio la lista la noche del brote (si tenés `OFICIO_SALUD`, fue tu jefa durante doce años). Sabés dónde guardaba las cosas → [e805](#e805).
 - **Si no:** ◷ 1, una vez. En el botiquín del baño, 2 Fármacos, 1 Antiviral y una agenda. En la agenda, la letra prolija de una enfermera: «Día −3. Reunión con el Comando en el Central. Nos piden lista de personal con grupo sanguíneo. ¿Para qué?». Una pista ([e560](#e560)).
 
 ---

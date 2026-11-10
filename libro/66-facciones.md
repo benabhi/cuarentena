@@ -375,23 +375,23 @@ Un camión verde. Cuatro soldados con barbijo, un cabo con una planilla y un ter
 
 1. **Dejar que cuenten.** Les toman la temperatura a todos. Por cada persona del grupo con Fiebre 1 o más, el cabo anota algo en la planilla y pregunta: «¿Lo podemos llevar al hospital de campaña?». Si decís que sí, se lo llevan (`PERDIDO_` y su nombre, sin −Moral si estaba de acuerdo). Si decís que no, −1 Reputación por cada uno. Al final, te dejan 2 raciones de combate (4 Víveres). +1 Reputación.
 2. **No abrir.** Golpean dos veces más y se van. Dejan un cartel amarillo pegado en tu puerta: «INMUEBLE NO CENSADO». −1 Reputación, y anotá `NO_CENSADO`: la próxima visita del Destacamento viene con más gente.
-3. **Si tenés `DESERTORA`, `DESERTOR_DEL_CORDON` o a Iván en el grupo:** te escondés o lo escondés. `[Sigilo]`. Con 7+, no lo ven. Con 6−, → [e692](#e692) (o [e631](#e631), si es Iván).
+3. **Si tenés `BUSCADO`, `DESERTOR_DEL_CORDON` o a Iván en el grupo:** te escondés o lo escondés. `[Sigilo]`. Con 7+, no lo ven. Con 6−, → [e692](#e692) (o [e631](#e631), si es Iván).
 
 ---
 
 <a id="e692"></a>
-### e692 · La desertora
+### e692 · Te buscaban
 *El Destacamento · ◷ 0*
 
-—Leiva —dice el sargento Ocampo—. Sofía Leiva. Te buscamos desde el día 3.
+El sargento Ocampo dice tu nombre y tu apellido, despacio, como si los leyera. «Te buscamos desde el día 3.» Te dice por qué: lo que salió en tu tabla de `BUSCADO` (r105).
 
-No te apuntan. Todavía. Ocampo tiene la orden sellada en el bolsillo de la camisa: la ves, con el sello roto. La tuya.
+No te apuntan. Todavía. Si tu Motivo es La orden, Ocampo tiene en el bolsillo de la camisa un sobre igual al tuyo, con el sello roto.
 
-(Si no sos la Agente y tenés `DESERTOR_DEL_CORDON` por alguien de tu grupo, el que reconocen es él: cambiá los nombres y seguí.)
+(Si no tenés `BUSCADO` y llegaste acá por `DESERTOR_DEL_CORDON`, el que reconocen es él: cambiá los nombres y seguí.)
 
-1. **Explicarte.** `[Labia]`, +1 si tenés 2 pistas o más. Con 10+, Ocampo te escucha. Al final, rompe la orden en cuatro y se la guarda. «No te vi.» Borrá `DESERTORA`. Con 7–9, «Andate. La próxima vez no te puedo cubrir». −1 Reputación. Con 6−, te esposan → opción 3.
+1. **Explicarte.** `[Labia]`, +1 si tenés 2 pistas o más. Con 10+, Ocampo te escucha. Al final, rompe la orden en cuatro y se la guarda. «No te vi.» Borrá `BUSCADO`: superaste esa debilidad (r105). Con 7–9, «Andate. La próxima vez no te puedo cubrir». −1 Reputación. Con 6−, te esposan → opción 3.
 2. **Correr.** `[Físico]`. Con 7+, te perdés por los contenedores. −2 Reputación. Con 6−, te disparan: 2 Heridas, y te esposan → opción 3.
-3. **Entregarte.** Te llevan al campamento. Una noche en un contenedor, a oscuras, con una botella de agua (◷ 6, perdés tu Mochila). Al alba, Ocampo abre la puerta. «Hay una forma de que esto se arregle.» → [e693](#e693), y si lo cumplís, borrá `DESERTORA` y +2 Reputación. Si no, al alba siguiente te escapás (sin prueba: alguien dejó la puerta abierta) y seguís con `DESERTORA` y −3 Reputación.
+3. **Entregarte.** Te llevan al campamento. Una noche en un contenedor, a oscuras, con una botella de agua (◷ 6, perdés tu Mochila). Al alba, Ocampo abre la puerta. «Hay una forma de que esto se arregle.» → [e693](#e693), y si lo cumplís, borrá `BUSCADO` (superaste esa debilidad, r105) y +2 Reputación. Si no, al alba siguiente te escapás (sin prueba: alguien dejó la puerta abierta) y seguís con `BUSCADO` y −3 Reputación.
 
 ---
 

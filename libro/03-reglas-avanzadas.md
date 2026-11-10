@@ -192,12 +192,12 @@ Tolme no se recorre en casillas. El mapa es un **plano de red**, como el de un s
 |---|---|---|---|
 | A pie por la Calle | ◷ 1 | +1 | Tabla del barrio (r153) |
 | En vehículo por la Calle | ◷ 1 por cada dos barrios | +2 al llegar (o lo que diga el vehículo, e712) | Tabla del barrio, con +1 |
-| En bicicleta por la Calle | ◷ 1 (la Repartidora: dos barrios, r104) | 0 | Tabla del barrio |
+| En bicicleta por la Calle | ◷ 1 (con Atajos: dos barrios, r102) | 0 | Tabla del barrio |
 | Por las Azoteas | ◷ 2 | 0 | Solo con 1 en 1d6 ([e130](#e130)) |
 | Por el Subsuelo | ◷ 1 | 0 | Siempre, en [e110](#e110) |
 
 - **Moverte dentro del barrio** de un lugar a otro no cuesta tiempo.
-- **En grupo**, van todos al paso del más lento: una ventaja para moverse (la bicicleta, los Atajos de la Repartidora) vale solo si todos la tienen.
+- **En grupo**, van todos al paso del más lento: una ventaja para moverse (la bicicleta, los Atajos) vale solo si todos la tienen.
 - **Volver al refugio** es un viaje como cualquier otro. Si estás en el barrio del refugio, entrás sin gastar tiempo.
 - Si un barrio tiene una **Procesión**, entrar por la Calle te manda a [e100](#e100). Por las Azoteas y el Subsuelo, la esquivás.
 
@@ -599,7 +599,7 @@ Podés salir con **hasta dos sobrevivientes**. Te ayudan en las pruebas (r122), 
 ### r186 · Heridas, Fiebre y despedidas en el grupo
 
 - Un sobreviviente tiene **3 casillas de Heridas**. Con las tres llenas, cae: si alguien lo saca del combate, vive Grave (no hace puestos hasta curarse); si no, muere.
-- Si lo muerden, empieza su **Fiebre** como la tuya (r191). Puede que no te lo diga: los mordidos que esconden la herida tienen la Marca `MORDIDO_EN_SECRETO_` y su nombre, que solo descubre la Enfermera o un evento.
+- Si lo muerden, empieza su **Fiebre** como la tuya (r191). Puede que no te lo diga: los mordidos que esconden la herida tienen la Marca `MORDIDO_EN_SECRETO_` y su nombre, que solo descubre quien tenga Manos de guardia (r102) o un evento.
 - **Despedidas:** cuando alguien muere o se va, borralo de la hoja, anotá `PERDIDO_` y su nombre, y aplicá la Moral (r182).
 
 ---
@@ -609,13 +609,13 @@ Podés salir con **hasta dos sobrevivientes**. Te ayudan en las pruebas (r122), 
 <a id="r190"></a>
 ### r190 · Heridas y curación
 
-Tus casillas de Heridas, en orden: **Magullado, Lastimado, Herido, Grave, Muriendo** (la Repartidora no tiene Magullado).
+Tus casillas de Heridas, en orden: **Magullado, Lastimado, Herido, Grave, Muriendo** (si sos Mayor, no tenés Magullado: r101).
 
 - **Grave:** Desventaja en todas las pruebas de Físico, Pelea y Sigilo.
 - **Muriendo:** solo podés arrastrarte (◷ 2 por barrio) o esperar ayuda. Si no te curan antes del alba, morís (r195).
 - **Curar:** `[Medicina]` y 1 Fármacos, ◷ 1. Con 10+, borrás 2 Heridas; con 7–9, 1; con 6−, gastaste el Fármaco. Con Botiquín (o `EQUIPO_DE_SUTURA`), +1.
 - **Descansar** en el refugio (puesto Descanso) borra la casilla Magullado.
-- **La Enfermería** y la Enfermera curan de noche (r181, r101).
+- **La Enfermería** y las Manos de guardia curan de noche (r181, r102).
 
 <a id="r191"></a>
 ### r191 · La Fiebre
@@ -712,8 +712,18 @@ Cuatro grupos organizados se reparten Tolme. Tu **Reputación** con cada uno va 
 <a id="r198"></a>
 ### r198 · Tu historia personal
 
-Cada protagonista tiene un **contador** (Juramento, Cimientos, Deber o Ruta) de 0 a 6. Empieza en 2.
+Tu **Motivo** (r104) es tu historia: un **contador** de 0 a 6, un **arco** de unas diez entradas y un **epílogo**.
 
-- Sube y baja según lo que hacés (r101–r104).
-- Su **arco** son unos diez eventos (e800–e838) que se abren desde lugares de la ciudad y desde algunas cartas. Cuando un evento dice «si sos la Agente», es tu historia.
-- Al final, el contador decide tu **epílogo**.
+| Motivo | Contador | Sube 1 cuando… | Baja 1 cuando… | Arco | Epílogo |
+|---|---|---|---|---|---|
+| La lista | Juramento | salvás a alguien de la muerte o de la Fiebre | dejás morir a alguien que podías salvar | [e800](#e800) | [e950](#e950) |
+| La obra | Cimientos | terminás una instalación del refugio | un frente del refugio llega a Resistencia 0 | [e810](#e810) | [e951](#e951) |
+| La orden | Deber | protegés a civiles con riesgo propio | usás la fuerza contra civiles desarmados | [e820](#e820) | [e952](#e952) |
+| El pedido | Ruta | cumplís un encargo de tu lista | abandonás uno | [e830](#e830) | [e953](#e953) |
+| El que falta | Esperanza | encontrás una **señal** de quien buscás | sube la Etapa sin que hayas encontrado ninguna señal en la anterior | [e840](#e840) | [e956](#e956) |
+| Lo que hiciste | Culpa | dejás a alguien atrás, o repetís lo que hiciste | arriesgás algo tuyo por alguien que no te lo puede devolver | [e850](#e850) | [e957](#e957) |
+
+- **La Culpa va al revés:** empieza en 4, y tu meta es bajarla a 0. Cuando un texto dice «tu contador sube», la Culpa baja; cuando dice «baja», la Culpa sube.
+- **El arco** se abre desde lugares de la ciudad, desde la carta «Para vos» (e035) y desde algunas noches. Las entradas de un arco que no es el tuyo no se leen. Cuando un evento dice «si tu Motivo es La orden», es tu historia.
+- **Superar una debilidad** (r105) también mueve tu contador un paso a favor.
+- **Al final**, el contador decide tu epílogo. Si no llegás al amanecer, el epílogo se lee igual: alguien cuenta tu historia por vos.

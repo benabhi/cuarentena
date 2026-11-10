@@ -1,6 +1,6 @@
 # El Secreto
 
-*Por qué cuarenta días. Qué hay del otro lado del muro. Quién habla en la AM 870. Al preparar la partida tiraste un dado sin mirarlo y lo doblaste en un papel (r109). Ese papel es la verdad de esta Tolme. En otra partida, la verdad va a ser otra.*
+*Por qué cuarenta días. Qué hay del otro lado del muro. Quién habla en la AM 870. La verdad de esta Tolme no está escrita en ningún lado hasta que la encontrás (r109): la tirás el día que abrís el Secreto, y lo que investigaste la empuja para un lado o para el otro. En otra partida, la verdad va a ser otra.*
 
 ---
 
@@ -45,11 +45,11 @@ Cuatro papeles. Cuatro voces. Juntos, empiezan a tener forma. Todavía no es la 
 
 **Podés abrir el Secreto ahora** (r109). Si lo abrís:
 
-- Desdoblá el papel y andá a [e570](#e570).
+- Andá a [e570](#e570) y tirá. Con 4 pistas podés mover el dado un lugar.
 - Saber antes tiene ventajas: cada revelación dice qué podés hacer **antes de la Noche 40**. Algunos finales solo se consiguen si te preparaste.
 - Anotá `SECRETO_ABIERTO`.
 
-**Si no lo abrís**, seguís sin saber. Desde ahora, podés abrirlo cuando quieras, en el refugio, con ◷ 1: alguien se sienta con vos y te ayuda a pensar.
+**Si no lo abrís**, seguís sin saber, y cada pista nueva te da más control cuando lo abras. Desde ahora, podés abrirlo cuando quieras, en el refugio, con ◷ 1: alguien se sienta con vos y te ayuda a pensar.
 
 ---
 
@@ -61,7 +61,7 @@ Ya no es una sombra. Lo ves entero, desde el principio: la fecha del muro, la or
 
 Anotá `LA_VERDAD_ENTERA`. −1 Ánimo: hay cosas que es mejor no saber.
 
-Si todavía no abriste el Secreto, abrilo ahora → [e570](#e570). Cada revelación tiene opciones marcadas **«Con `LA_VERDAD_ENTERA`»**: ahora son tuyas.
+Si todavía no abriste el Secreto, abrilo ahora → [e570](#e570): con 6 pistas, movés el dado hasta dos lugares. Cada revelación tiene opciones marcadas **«Con `LA_VERDAD_ENTERA`»**: ahora son tuyas.
 
 ---
 
@@ -69,7 +69,11 @@ Si todavía no abriste el Secreto, abrilo ahora → [e570](#e570). Cada revelaci
 ### e570 · Abrir el Secreto
 *El Secreto · ◷ 0*
 
-Desdoblá el papel. El número es la verdad de esta partida.
+Desplegás todo sobre la mesa: los papeles, las fotos, lo que te dijeron, lo que viste. Ahora sí, la verdad tiene forma.
+
+1. **Tirá 1d6.**
+2. **Mové el resultado** según tus pistas: con **4 o 5**, podés moverlo **un** lugar en la tabla, hacia arriba o hacia abajo; con **6 o más**, hasta **dos** lugares. La tabla es una rueda: después del 6 viene el 1. Con menos de 4 pistas, el dado queda como salió.
+3. **Anotá el número** en la Hoja del refugio, al lado de las Pistas. Esa es la verdad de esta partida, y ya no cambia.
 
 | Secreto | La verdad | Entrada |
 |---|---|---|
@@ -86,7 +90,9 @@ Desdoblá el papel. El número es la verdad de esta partida.
 - **Antes de la Noche 40:** lo que podés hacer si la abriste antes (con `SECRETO_ABIERTO`). Si la abrís recién al amanecer, salteá esta parte.
 - **El día 41:** lo que pasa al amanecer, después de la Noche 40. El amanecer ([e930](#e930)) te va a mandar acá.
 
-Si abriste el Secreto antes, desde ahora jugás sabiendo. No lo cuentes a nadie que juegue tu misma partida.
+Si abriste el Secreto antes, desde ahora jugás sabiendo.
+
+**Por qué se puede mover.** Las pistas no te dicen la verdad: te dicen dónde buscarla. Quien investigó mucho llega a la verdad que fue siguiendo; quien no investigó, se la encuentra de golpe. Moverlo es una decisión: cada verdad trae sus propios peligros y sus propias salidas.
 
 ---
 
@@ -199,7 +205,7 @@ Al amanecer, por el muro, se escucha una sirena distinta. A las diez, los parlan
 
 - **Fiebre 0:** pasa.
 - **Fiebre 1 o más:** no pasa. Salvo `OCAMPO_MIRA_PARA_OTRO_LADO` (una persona) o el Antiviral de esa mañana con `LA_VERDAD_ENTERA`.
-- **Quedarse con los que no pasan:** cualquiera puede quedarse. Quien se queda no cuenta como salvado. Si sos vos, sumá +1 a tu contador personal antes de leer tu epílogo ([e950](#e950)).
+- **Quedarse con los que no pasan:** cualquiera puede quedarse. Quien se queda no cuenta como salvado. Si sos vos, tu contador avanza un paso a favor antes de leer tu epílogo (r198).
 
 Contá a los que pasan: son los **salvados** para el final ([e940](#e940)). Si el protagonista no pasó o se quedó, el final es **«Los que se quedaron»** ([e946](#e946)).
 
@@ -234,7 +240,7 @@ Al amanecer, después de la Marea, se escucha un zumbido de motores lejos, muy a
 ### e583 · El ensayo
 *El Secreto · 3 · Revelación*
 
-> LABORATORIO DE VIROLOGÍA · UNIVERSIDAD NACIONAL DE CORINTO
+> LABORATORIO DE VIROLOGÍA · UNIVERSIDAD NACIONAL DE TOLME
 > Protocolo L-40 · Fase II · Ensayo de campo en población cerrada.
 > D−21: cierre perimetral. D0: liberación controlada (vector: red de agua, sector Fabril). D+2: cuarentena. Observación: 40 días.
 > Responsable científica: Dra. E. Ríos. Supervisión: Comando de Emergencia.
@@ -245,7 +251,7 @@ Al amanecer, después de la Marea, se escucha un zumbido de motores lejos, muy a
 
 1. La **doctora Ríos** ([e648](#e648)).
 2. **Mateo** ([e624](#e624)): hacía su tesis en el laboratorio, de noche. Vio cosas que no tenía que ver. Con `MATEO_Y_RIOS`, ya sabés que se conocían: si confrontás a uno, confiesan los dos, y la prueba tiene Ventaja.
-3. **Vos**, si sos la Repartidora: la caja que retiraste en el Laboratorio el día −2 ([e830](#e830)).
+3. **Vos**, si tu Motivo es El pedido: la caja que retiraste en el Laboratorio el día −2 ([e830](#e830)).
 4. El sobreviviente que hace más tiempo que está en el grupo: no lo sabía todo, pero sabía algo. Tenía un primo en el Comando.
 
 **Antes de la Noche 40**

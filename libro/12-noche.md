@@ -184,7 +184,7 @@ Alguien del grupo (el que tenga más Labia, o el que vos digas) junta a los dem�
 
 1. **Aceptar.** Desde ahora, una vez por día, al alba, tirá 1d6: con 1–2, el grupo decide algo por vos (otro sale de expedición en tu lugar, alguien reparte comida extra: −1 Víver, o se le abre la puerta a alguien: tirá en r180). +2 Moral. Anotá `ASAMBLEA`.
 2. **Hablar con todos** `[Labia]`: con 10+, te devuelven el mando y la Moral sube 2. Con 7–9, te lo devuelven, pero el otro se va con dos más: anotá `PERDIDO_` y tres nombres (el que quiso mandar y dos al azar). Con 6−, como la opción 1, sin la Moral.
-3. **Imponerte.** Con un arma en la mano. Funciona: el otro se calla. −2 Moral. Si sos la Agente, −1 Deber. Anotá `MANO_DURA`.
+3. **Imponerte.** Con un arma en la mano. Funciona: el otro se calla. −2 Moral. Si tu Motivo es La orden, −1 Deber. Anotá `MANO_DURA`.
 
 ---
 
