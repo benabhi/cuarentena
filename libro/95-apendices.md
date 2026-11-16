@@ -109,9 +109,9 @@ ______________________________________________________________________
 
 | Registro | | Notas |
 |---|---|---|
-| **Rastro** | ▢▢▢▢▢▢▢▢▢▢ | Empieza en 1 (o lo que diga el refugio). Sondeo si 2d6 ≤ Rastro (r174–r175) |
+| **Rastro** | ▢▢▢▢▢▢▢▢▢▢ | Empieza en 1 (o lo que diga el refugio). Sondeo si 2d6 ≤ Rastro − Guardia (r174–r175) |
 | **Moral** | ▢▢▢▢▢▢▢▢▢▢ | Empieza en 5. En 2 o menos, crisis (e080); en 0, el grupo se rompe (e089) |
-| **Oleadas de la Noche 40** | 3 + Rastro ÷ 3 = ____ | r221 |
+| **Oleadas de la Noche 40** | 3 + Rastro ÷ 3, hacia abajo = ____ | r221 |
 | **Etapa** | ▢ I Fiebre · ▢ II Silencio · ▢ III Muda · ▢ IV Marea | r135 |
 | **Desarmado** | ▢ | Los muebles del refugio dan 6 Madera, una sola vez (r165) |
 
@@ -232,7 +232,7 @@ ______________________________________________________________________
 |---|---|
 | **Alba** | Robás la carta (el descarte es el día) · cartas 11, 21 y 31 suben la Etapa · resolvés la carta · cada persona come 1 Víver · la Fiebre sube · lo pendiente |
 | **Seis horas de luz** | Calle ◷ 1 · Azoteas ◷ 2 · Subsuelo ◷ 1 · revisar rápido ◷ 1 / a fondo ◷ 2 · fabricar y obra según la receta · cuidar o hablar ◷ 1 · descansar ◷ 2 |
-| **Noche** | Puestos · producción · sondeo (2d6 ≤ Rastro → [e072](#e072)) · el grupo (Moral 2− → [e080](#e080)) · dormir |
+| **Noche** | Puestos · producción · sondeo (2d6 ≤ Rastro − Guardia → [e072](#e072)) · el grupo (Moral 2− → [e080](#e080)) · dormir |
 
 | Palo | Día de | 1 a 7 | Figuras |
 |---|---|---|---|
@@ -246,8 +246,8 @@ ______________________________________________________________________
 | Capa | Tiempo | Ruido | Encuentro |
 |---|---|---|---|
 | Calle a pie | ◷ 1 | +1 | 1d6 + Etapa (+2 de noche, +1 con Ruido 3+) en la tabla del barrio |
-| Calle en vehículo | ◷ 1 cada dos barrios | +2 | La del barrio, +1 |
-| Calle en bicicleta | ◷ 1 | 0 | La del barrio |
+| Calle en vehículo | ◷ 1 cada dos barrios | El del vehículo, al parar (e712) | Al parar, la del barrio +1 |
+| Calle en bicicleta | ◷ 1 (Atajos: cada dos) | 0 | La del barrio |
 | Azoteas | ◷ 2 | 0 | Solo con 1 en 1d6 ([e130](#e130)) |
 | Subsuelo | ◷ 1 | 0 | Siempre ([e110](#e110)) |
 
@@ -266,7 +266,7 @@ ______________________________________________________________________
 | 4–5 | Golpe: 1 Herida |
 | 6 | 1 Herida y otro 1d6: 1–3 arañazo (prueba de Fiebre), 4–6 mordida (Fiebre 1) |
 
-*Protección: −1 a cada dado por pieza, como mucho −2.*
+*Protección: −1 a cada dado por pieza, como mucho −2. Los vivos no muerden: su 6 es solo 1 Herida (r147).*
 
 ### El cuerpo (r190–r195)
 
@@ -292,13 +292,13 @@ ______________________________________________________________________
 | Huerta | +1 Víver (+2 con Supervivencia 2+) |
 | Descanso | 1 Ánimo o la casilla Magullado |
 
-**Sondeo:** 2d6, −1 por Guardia (máx. −2), −1 con Vigía, +2 con Procesión en el barrio. Si sale igual o menos que el Rastro → [e072](#e072).
+**Sondeo:** el Rastro, −1 por Guardia (máx. −2), −1 con Vigía, +2 con Procesión en el barrio. Si 2d6 sale igual o menos → [e072](#e072).
 
 **Moral 8+:** un puesto produce el doble. **Moral 2−:** crisis. **Moral 0:** el grupo se rompe.
 
 ### La Noche 40 (r220–r225)
 
-> **Oleadas:** 3 + Rastro ÷ 3. **Fuerza:** 2d6 + el número de la oleada.
+> **Oleadas:** 3 + Rastro ÷ 3, hacia abajo. **Fuerza:** 2d6 + el número de la oleada.
 > **Frente (1d6):** 1–2 Puerta · 3 Ventanas · 4 Techo · 5 Subsuelo · 6 el más débil. Desde la cuarta, dos frentes.
 > **Especial:** 5–6 en 1d6 → [e901](#e901).
 > **Defensa** = Resistencia + trampas + defensores (Daño del arma, +1 con Pelea o Puntería 2+) + vos (prueba: 10+ el doble, 7–9 el Daño, 6− nada y 1 Herida) + Molotov (3 cada uno) + aliados (3).

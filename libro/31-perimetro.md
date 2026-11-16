@@ -125,7 +125,7 @@ Un jeep frena delante tuyo. «Civiles no pueden estar acá. ¿Qué buscás?».
 
 Los contenedores se doblan hacia adentro y aparecen dedos entre las soldaduras. Los soldados te gritan que ayudes o te vayas.
 
-1. **Ayudar:** **Callados ×3d6 · Cerca**, con 3 soldados de tu lado (r148: Puntería 2, fusil Daño 2). Si ganan, +2 Reputación con el Destacamento y anotá `AYUDASTE_EN_EL_MURO`. Si no, → [e049](#e049).
+1. **Ayudar:** **Callados ×3d6 · Cerca**, con 3 soldados de tu lado (r148: Puntería 2, fusil, [e701](#e701)). Si ganan, +2 Reputación con el Destacamento y anotá `AYUDASTE_EN_EL_MURO`. Si no, → [e049](#e049).
 2. **Irte** al barrio de donde viniste, con −1 Ánimo. Al alba siguiente, [e049](#e049).
 
 ---
@@ -146,7 +146,7 @@ Abajo, la Marea: un paisaje gris que se mueve como el mar hasta el horizonte. Lo
 
 Tres contenedores con las soldaduras abiertas. Por ahí va a entrar.
 
-1. **Avisarle al Destacamento.** Con Reputación 0 o más, refuerzan el tramo: borrá `EL_MURO_CEDIO` y +1 Reputación.
+1. **Avisarle al Destacamento.** Con Reputación 0 o más, refuerzan el tramo: +1 Reputación, borrá `EL_MURO_CEDIO` si la tenías y anotá `TRAMO_REFORZADO` (desde ahora, [e049](#e049) no la anota).
 2. **Reforzarlo vos:** 4 Metal, 2 Sujeción, Soldadora, `[Mecánica]` u `[Oficio]`, ◷ 4. Con 7+, anotá `REFORZASTE_EL_MURO`: la primera oleada de la Noche 40 pierde 2 de Fuerza.
 3. **Volar la rampa,** con `LA_RAMPA`: 2 Bombas de clavos o la Garrafa trampa, desde la torre, `[Puntería]`. Con 7+, anotá `RAMPA_DESTRUIDA`: la Marea tiene 1 oleada menos. +3 Ruido, y el Destacamento te dispara por las dudas: 1 Herida.
 4. **Estudiar su camino:** entra por La Fabril y sigue por La Estación hasta El Casco. Anotá `CONOCES_EL_CAMINO`: en la Noche 40, si un Señuelo grande (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO` o `LA_SIRENA`) quedó encendido en otro barrio, 1 oleada menos.

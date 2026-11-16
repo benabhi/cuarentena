@@ -63,7 +63,7 @@ Gradas para tres mil personas. El último recital fue antes del brote; quedaron 
 
 - **Revisar** (r161).
 - **El equipo de sonido,** una vez: grupo electrógeno, 2 Combustible y `[Mecánica]`. El ruido más grande de la ciudad: todas las Procesiones vienen (r156) y se quedan 1d6 días, salvo que antes salga una carta de Espadas. Anotá `EL_RECITAL`. Los parlantes se queman.
-- **El grupo electrógeno** (3 casilleros): el Generador del refugio ([e760](#e760)) cuesta la mitad de materiales.
+- **El grupo electrógeno** (3 casilleros): el Generador del refugio ([e760](#e760)) cuesta la mitad de los materiales (r204).
 
 ---
 
@@ -83,7 +83,7 @@ Si esperás con la gorra en la mano (◷ 1), te dan 1 Víver y te cuentan que vi
 
 Patos vivos, gordos. Nadie los molestó en semanas.
 
-- **Cazar patos** con Gomera, Arco o Ballesta, `[Puntería]`, ◷ 1: 3, 2 o 0 Víveres. Con la trampa para palomas ([e748](#e748)), 2 sin prueba. Los patos aprenden: tres veces en total (▢▢▢).
+- **Cazar patos** con Gomera, Arco o Ballesta, `[Puntería]`, ◷ 1: con 10+, 3 Víveres; con 7–9, 2; con 6−, nada. Con la trampa para palomas ([e748](#e748)), 2 sin prueba. Los patos aprenden: tres veces en total (▢▢▢).
 - **Agua:** con Hervir agua, 2 Víveres (◷ 1), tres veces (▢▢▢).
 
 ---

@@ -37,7 +37,7 @@ Dos mujeres con brazaletes blancos y un carrito. 1d6: **1–2,** traen 2 Vívere
 ### e662 · Pedido: los remedios
 *La Parroquia · ◷ 0*
 
-«Doce enfermos en la capilla. Se nos terminó todo». **4 Fármacos** (o 1 Botiquín y 2 Fármacos) antes de la próxima carta de Espadas: +2 Reputación y el mapa de los chicos: dos lugares a elección quedan con stock 0 sin ir. Si no, −1.
+«Doce enfermos en la capilla. Se nos terminó todo». **4 Fármacos** (o 1 Botiquín y 2 Fármacos) antes de la próxima carta de Espadas: +2 Reputación, y los chicos de la Parroquia vacían para vos dos lugares a elección: una tirada de botín de cada uno (r162), y esos lugares quedan con stock 0. Si no, −1.
 
 ---
 
@@ -45,7 +45,7 @@ Dos mujeres con brazaletes blancos y un carrito. 1d6: **1–2,** traen 2 Vívere
 ### e663 · Pedido: los del techo
 *La Parroquia · ◷ 0*
 
-Una familia hace señas con una sábana desde una azotea de la Estación; abajo, una Procesión. Ir y volver por el Subsuelo (r151, [e110](#e110)) y trepar (◷ 2, `[Físico]`; con 6−, 1 Herida). A la Catedral: +2 Reputación. A tu refugio: 2 sobrevivientes y 3 que no hacen puestos, +1 Reputación, +1 Rastro. Si no vas, el domingo la sábana deja de moverse: −1.
+Una familia hace señas con una sábana desde una azotea de la Estación; abajo, una Procesión. Ir y volver por el Subsuelo (r151, [e110](#e110)) y trepar (◷ 2, `[Físico]`; con 6−, 1 Herida). A la Catedral: +2 Reputación. A tu refugio: 2 sobrevivientes y 3 que no hacen puestos, +1 Reputación, +1 Rastro. Si no vas en tres días, la sábana deja de moverse: −1.
 
 ---
 
@@ -117,7 +117,7 @@ Tres bomberos con hachas y una planilla. 1d6: **1–3,** cobran 2 Víveres o 1 m
 En lugar del sondeo: seis bomberos con barretas y una moladora. No matan gente.
 
 - **Hablar,** `[Labia]`. Con 7+, se van, pero inutilizan tu Cisterna (arreglarla, ◷ 2 y 2 Metal). Si no, la Puerta pierde **1d6** y se llevan el Combustible, la mitad de los Víveres y una herramienta.
-- **Dispararles:** **Bomberos ×6 · Cerca** (Pelea 2, hacha Daño 2, Aguante 2). Si muere uno, −3 para siempre, y en una brecha ([e920](#e920)) la Marea entra por la calle que ellos no cortaron.
+- **Dispararles:** **Bomberos ×6 · Aguante 2 · Cerca**, con hachas (golpean como vivos, r147). Si muere uno, −3 para siempre, y en una brecha ([e920](#e920)) la Marea entra por la calle que ellos no cortaron.
 
 Para volver a −1: 6 Combustible y pedirle perdón a Gauna delante de todos.
 
@@ -143,10 +143,10 @@ Cada cosa, ◷ 1: **cambiar** (r166) Munición, Combustible, Víveres, Fármacos
 
 Una camioneta negra. «Este barrio está bajo el cuidado de Rolo. Cuatro Víveres por semana».
 
-1. **Pagar** 4 de lo que sea. Anotá `LE_PAGAS_A_LOS_LOBOS`: +1 Reputación (−1 con la Parroquia si se entera, 1–3 en 1d6). Vuelven cada carta de Oros; si no pagás, [e682](#e682).
+1. **Pagar** 4 de lo que sea. Anotá `LE_PAGAS_A_LOS_LOBOS`: +1 Reputación (−1 con la Parroquia si se entera, 1–3 en 1d6). Vuelven a cobrar cada semana (r003); si no pagás, [e682](#e682).
 2. **Negociar,** `[Labia]`. Con 10+, 2 Víveres y sin Marca. Con 7–9, pagás 4 y te regalan 6 Munición. Con 6−, como la 3.
 3. **No pagar.** «Linda casa». −1 Reputación y anotá `AVISO_DE_LOS_LOBOS`.
-4. **A tiros:** **Lobos ×3 · Aguante 2 · Lejos**, armas de fuego. +3 Rastro, −3 Reputación. Si ganás, la camioneta (12 casilleros, como el taxi, [e637](#e637); `[Mecánica]` 7+).
+4. **A tiros:** **Lobos ×3 · Aguante 2 · Lejos**, armas de fuego. +3 Rastro, −3 Reputación. Si ganás, la camioneta (e712; para arrancarla la primera vez, `[Mecánica]` 7+).
 
 ---
 
@@ -196,7 +196,7 @@ Siete mujeres que duermen en un sótano trabado por fuera. Con `CONOCES_EL_BARRI
 ### e686 · El depósito de los Lobos
 *Las Lomas · El barrio cerrado · ◷ 0*
 
-Una vez, si ya no hay Lobos o si Rolo te deja: **tres tiradas** (una por [e683](#e683)). 1d6: **1,** 8 Víveres. **2,** 6 Combustible. **3,** 4 Fármacos y 2 Antivirales. **4,** una escopeta (Daño 3, Cerca, 2 manos, +2 Ruido), un revólver y 12 Munición. **5,** una moto: a cualquier barrio por la Calle en ◷ 1, +1 a su tabla y +2 Ruido, 2 personas, 4 casilleros. **6,** la libreta de Rolo: «Pagos del Comando: día −10, −5, 0». Una pista ([e560](#e560)).
+Una vez, si ya no hay Lobos o si Rolo te deja: **tres tiradas** (una por [e683](#e683)). 1d6: **1,** 8 Víveres. **2,** 6 Combustible. **3,** 4 Fármacos y 2 Antivirales. **4,** una escopeta ([e701](#e701)), un revólver y 12 Munición. **5,** una moto (e712). **6,** la libreta de Rolo: «Pagos del Comando: día −10, −5, 0». Una pista ([e560](#e560)).
 
 ---
 
@@ -204,7 +204,7 @@ Una vez, si ya no hay Lobos o si Rolo te deja: **tres tiradas** (una por [e683](
 ### e687 · Los Lobos atacan
 *Los Lobos · Reputación −3 · ◷ 0*
 
-**En la calle:** **Lobos ×1d6+2 · Lejos**, armas de fuego, Aguante 2 (r310). **En tu refugio,** en lugar del sondeo: Fuerza **2d6+2** contra el frente más débil que no sea el Techo, como una oleada (r221; cada defensor suma 1, 2 con arma de fuego). Si aguanta, anotá `RECHAZASTE_A_LOS_LOBOS` (y `LOBOS_DERROTADOS` si tenías `LOBOS_DEBILITADOS`): +2 Moral, +2 Rastro. Si no, se llevan la mitad de Víveres y materiales, las armas que nadie tenga en la mano y a una persona (`PERDIDO_`); el frente queda en 0, −3 Moral, y vuelven en una semana.
+**En la calle:** **Lobos ×1d6+2 · Aguante 2 · Lejos**, armas de fuego (r147). **En tu refugio,** en lugar del sondeo: Fuerza **2d6+2** contra el frente más débil que no sea el Techo, como una oleada (r221; cada defensor suma 1, 2 con arma de fuego). Si aguanta, anotá `RECHAZASTE_A_LOS_LOBOS` (y `LOBOS_DERROTADOS` si tenías `LOBOS_DEBILITADOS`): +2 Moral, +2 Rastro. Si no, se llevan la mitad de Víveres y materiales, las armas que nadie tenga en la mano y a una persona (`PERDIDO_`); el frente queda en 0, −3 Moral, y vuelven en una semana.
 
 ---
 
@@ -273,5 +273,5 @@ Un día en el muro (◷ 6), vos y hasta dos más, cada uno `[Oficio]` o `[Físic
 Diez soldados rodean la manzana. «Inmueble requisado».
 
 1. **Salir.** Una noche en un contenedor; se llevan armas, Munición, Combustible y Antivirales. −2 Reputación.
-2. **Resistir:** **Soldados ×6 · Lejos** (Puntería 2, fusil Daño 3, Aguante 3), con −1 para pegarte por tus paredes. +4 Rastro. Si perdés, como la 1, y alguien muere: −2 Moral.
+2. **Resistir:** **Soldados ×6 · Aguante 3 · Lejos**, con fusiles (r147); por tus paredes, sus disparos te pegan solo con 6. +4 Rastro. Si perdés, como la 1, y alguien muere: −2 Moral.
 3. **Escapar** por el Subsuelo o las Azoteas, con lo que entre en las mochilas (r176).

@@ -135,7 +135,7 @@ El primero siempre es alguien. Elegí, o tirá 1d6:
 | 1 | Tu vecina del tercero, en camisón, en la **escalera** | Escalera (r332), vos arriba | Sus llaves: la primera Vivienda que revises en tu barrio tiene 1 casilla de stock más |
 | 2 | Un paciente con el suero, en un **pasillo** de guardia | Pasillo (r331) | 1 Fármaco del carro de curaciones |
 | 3 | Un repositor del súper, entre las **góndolas** | Supermercado (r334) | 2 Víveres caídos de un estante |
-| 4 | Un hombre de traje, con el portafolio, en la **terraza** | Azotea (r335) | Su celular: linterna 3 veces más |
+| 4 | Un hombre de traje, con el portafolio, en la **terraza** | Azotea (r335) | Su celular: una Linterna con Usos 3 |
 | 5 | El chofer del colectivo, con el boleto en la mano | Pasillo (r331) | El matafuegos: un Señuelo (r156) de un uso |
 | 6 | Alguien que conocías, en el zaguán de tu casa. No le pongas nombre todavía | Pasillo (r331) | −1 Ánimo, y su campera: protección −1 |
 
@@ -196,7 +196,7 @@ Si se repiten, tirá otra vez el tercero. Leé las tres entradas y elegí.
 | 2 | **Supermercado Del Barrio** | El Mercado | Comida para empezar; vidrieras enormes. El más difícil de los seis | [e450](#e450) |
 | 3 | **Comisaría 7.ª** | La Estación | Celdas y algo de munición; el Destacamento la quiere | [e460](#e460) |
 | 4 | **Escuela N.º 9** | Los Bloques | Patio para huerta y muchas aulas; muchas puertas | [e470](#e470) |
-| 5 | **Cuartel de Bomberos de la calle Brown** | El Puerto | Cisterna y una autobomba; los Bomberos van a volver | [e480](#e480) |
+| 5 | **Cuartel de Bomberos de la calle Brown** | El Puerto | Cisterna y una autobomba; los Bomberos van a volver. El más amable para empezar | [e480](#e480) |
 | 6 | **Edificio Sarmiento** | Sanidad | Doce pisos y una escalera que se puede cortar | [e490](#e490) |
 
 - **Con `LLAVES_DE_LA_SEPTIMA`**, la Comisaría 7.ª es siempre candidata, en lugar del tercero.
@@ -252,7 +252,7 @@ La primera de cuarenta (r134):
 
 1. **Puestos** (r181): sin instalaciones, solo **Guardia**, **Obra** y **Descanso**. Vos también elegís.
 2. **Producción:** la Obra gasta 1 Madera o 1 Metal.
-3. **Sondeo** (r175): 2d6, −1 por Guardia; hay sondeo si sale igual o menos que tu **Rastro** (r174). Esta noche, igual: algo empuja la Puerta y se va. −1 a su Resistencia.
+3. **Sondeo** (r175): tu **Rastro** (r174), −1 por Guardia; tirá 2d6 y, si sale igual o menos, hay sondeo. Esta noche, igual: algo empuja la Puerta y se va. −1 a su Resistencia.
 4. **El grupo:** alguien pregunta por qué cuarenta días. Nadie contesta. → **[e015](#e015)**.
 
 ---

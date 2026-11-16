@@ -13,13 +13,13 @@ A las siete se calla todo, hasta la Señora, en el medio de una frase. Desde el 
 **Antes de la primera oleada:**
 
 1. **Contá a tu gente** y asigná a cada uno a un frente o al Último Cuarto (r220).
-2. **Calculá las oleadas** (r221): 3 + (Rastro ÷ 3).
+2. **Calculá las oleadas** (r221): 3 + (Rastro ÷ 3), redondeando hacia abajo.
 3. **Revisá tu hoja** y aplicá todo lo que tengas de esta lista:
 
 - **Oleadas:** 1 menos con `RAMPA_DESTRUIDA` (y `LA_RAMPA`); 1 menos con `CONOCES_EL_CAMINO` y un Señuelo grande encendido en otro barrio (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO`, `LA_SIRENA`); 2 menos con `PASTOR_MUERTO` ([e585](#e585)); 1 más con `DESTACAMENTO_DISUELTO`.
 - **La primera oleada:** +2 de Fuerza con `EL_MURO_CEDIO`; −2 con `REFORZASTE_EL_MURO` o con `TRABAJASTE_EN_EL_MURO`; cada defensor +1 con `ESCUCHASTE_LA_MAREA`; no viene por el frente que elijas con `SABES_POR_DONDE`; con `LOS_PLANOS_DEL_MURO` (y `EL_MURO_CEDIO`) no elige el frente más débil: un 6 se vuelve a tirar; con `EL_PASTOR_SABE` y el Pastor vivo, va al frente más débil. Con `ESCALERA_CORTADA` (Sarmiento), la primera brecha no llega al grupo ([e491](#e491)).
 - **Cada oleada:** +3 a un frente con `CERCO_ELECTRICO` (1 Combustible por oleada, [e512](#e512)); +4 con `AMETRALLADORA_EN_` un frente (6 Munición por oleada, [e523](#e523)); +2 a la Puerta con `LOS_DE_LA_CUADRA`, si siguen vivos; +1 a las Ventanas con `LOS_DEL_SIETE`, con 4–6 en 1d6 ([e493](#e493)); la Puerta −2 en la Escuela N.º 9 sin `PUERTAS_TAPIADAS` ([e471](#e471)); el Subsuelo pierde 1 Resistencia menos con `DESAGUE_TAPADO`; Tablas de clavos y Fosos de estacas valen +1 con `DIENTES_EN_LAS_TRAMPAS`.
-- **Una vez:** `EL_BLINDADO` da +3 Resistencia a la Puerta o las Ventanas, o una carga ([e552](#e552)); `LA_AUTOBOMBA`, +3 a la defensa de la Puerta ([e481](#e481)).
+- **Vehículos:** `EL_BLINDADO`, +3 a la Puerta o las Ventanas en todas las oleadas, o una carga ([e552](#e552)); `LA_AUTOBOMBA`, una vez, +3 a la defensa de la Puerta ([e481](#e481)).
 - **Vos y los tuyos:** con *La puerta* (r102), +2 si defendés la Puerta; con `MIEDO`, Desventaja en un frente mientras tu Ánimo sea 3 o menos (r105); con `GIMNASIO_QUEMADO`, los Cobardes no huyen; con `LO_DEJASTE_ADENTRO` y tu refugio en ese barrio, en la tercera oleada tres golpes despacio en el Último Cuarto: −1 Ánimo ([e846](#e846)).
 
 4. **Los sobrevivientes con algo para la Noche 40** (lo dice su ficha, e600–e653): leelo ahora. El Ruso con el taxi, Hernán y Celeste van antes de la primera oleada ([e638](#e638), [e641](#e641), [e635](#e635)).
@@ -38,7 +38,7 @@ Con 5–6 en la tirada de especial (r221), la oleada trae a uno de estos. Tirá 
 
 | 1d6 | Especial | En esta oleada |
 |---|---|---|
-| 1 | **Bruto** ([e726](#e726)) | Si la oleada entra, +3 de daño al frente. Foso de estacas y Rejas soldadas le hacen la mitad |
+| 1 | **Bruto** ([e726](#e726)) | Si la oleada entra, +3 de daño al frente (solo +2 si el frente tiene Foso de estacas o Rejas soldadas) |
 | 2 | **Chillona** ([e723](#e723)) | +1 de Fuerza en esta oleada y en la siguiente |
 | 3 | **Acechadores** ([e724](#e724)) | Entran por el Techo, sea cual sea el frente, salvo Techo 5 o más |
 | 4 | **Escupidor** ([e727](#e727)) | Antes de la oleada, el frente pierde 1 Resistencia y sus trampas, 1 de valor |
@@ -132,7 +132,7 @@ Las tres de la mañana. Contra la Puerta, uno golpea con la palma abierta, despa
 
 El frente cede. Entran sin gritar, empujados por los de atrás. Elegí una:
 
-1. **Pelear en la brecha.** Los defensores de ese frente combaten contra **Callados ×(lo que faltó × 2) · Cerca**, escena Pasillo. Pueden venir los de otros frentes (que quedan vacíos en la próxima oleada). Si ganan, el frente vuelve a Resistencia 1. Si no, opción 3 con 1 Herida cada uno.
+1. **Pelear en la brecha.** Los defensores de ese frente combaten contra **Callados ×(Fuerza − Defensa, × 2) · Cerca**, escena Pasillo. Pueden venir los de otros frentes (que quedan vacíos en la próxima oleada). Si ganan, el frente vuelve a Resistencia 1. Si no, opción 3 con 1 Herida cada uno.
 2. **Tapar el hueco.** 2 Madera o 2 Metal (o la heladera) y `[Oficio]` o `[Físico]`. Con 10+, Resistencia 3. Con 7–9, 1. Con 6−, opción 3, y quien lo intentó tira en Mordidas (r144).
 3. **Al Último Cuarto.** Los defensores del frente roto tiran una vez en Mordidas mientras corren. Desde ahora, todas las oleadas golpean el Último Cuarto (r223): Resistencia 6 si lo construiste ([e761](#e761)), 2 si no. Las trampas no sirven adentro.
 
@@ -151,7 +151,7 @@ Si el Último Cuarto cae → [e925](#e925).
 Las bisagras saltan una por una. No hay más cuartos. Elegí la última:
 
 1. **Pelear hasta el final.** **Callados ×3d6 · Encima**, sin retroceder. Si ganás, el cuarto sigue en pie con Resistencia 0: si quedan oleadas, la próxima te encuentra; si no, → [e930](#e930).
-2. **Por el techo.** Con una ventana alta o un ducto: `[Físico]`. Con 10+, salís vos y uno más y esperan el amanecer arriba; los demás sobreviven con 5–6 en 1d6 → [e930](#e930). Con 6−, → [e990](#e990).
+2. **Por el techo.** Con una ventana alta o un ducto: `[Físico]`. Con 10+, salís vos y uno más y esperan el amanecer arriba; los demás sobreviven con 5–6 en 1d6 → [e930](#e930). Con 7–9, salís solo; los demás sobreviven con 6 en 1d6 → [e930](#e930). Con 6−, → [e990](#e990).
 3. **Abrazar a los tuyos.** Apagás la linterna y te sentás con el que tengas más cerca → [e990](#e990).
 
 ---

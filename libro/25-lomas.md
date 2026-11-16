@@ -26,7 +26,7 @@ Al llegar por la Calle, **1d6 + la Etapa** (r153). Con `HANDY_DE_LOS_LOBOS`, sab
 ### e301 · Las casas con pileta
 *Las Lomas · Vivienda · stock ▢▢▢▢*
 
-- **Revisar** (r161). Con 5–6, y 6 en otro 1d6, una caja fuerte: `[Oficio]` o `[Mecánica]` (+1 con Taladro). Con 7+, joyas que no sirven, un revólver (2 Munición) y, con 4–6, 2 Antivirales comprados por si acaso.
+- **Revisar** (r161). Cuando la tabla da 5 o 6, tirá otro 1d6: con 6, además, una caja fuerte. Abrirla: `[Oficio]` o `[Mecánica]` (+1 con Taladro). Con 7+, joyas que no sirven, un revólver (2 Munición) y, con 4–6 en 1d6, 2 Antivirales comprados por si acaso.
 - **Las piletas:** con Hervir agua ([e748](#e748)), 3 Víveres por visita (◷ 1), tres veces (▢▢▢).
 
 ---
@@ -41,7 +41,7 @@ Al llegar por la Calle, **1d6 + la Etapa** (r153). Con `HANDY_DE_LOS_LOBOS`, sab
 
 - **Reputación 0 o menos con los Lobos:** dos guardias en la puerta, **Lobos ×2 · Aguante 2 · Lejos**, con escopetas. Pelear: +3 Ruido y −1 Reputación. Si ganás, podés revisar.
 - **+1 o más:** cambiás con ellos (r166): Munición, armas, ballestas, arcos.
-- **Revisar** (r161), si es tuya. Un 1 da una ballesta de caza (como la de resortes, [e743](#e743), Usos 10) y 6 saetas.
+- **Revisar** (r161), si es tuya. El primer 1 que sacás es una ballesta de caza ([e702](#e702)) con 6 saetas.
 
 ---
 
@@ -54,8 +54,8 @@ En el green del 9, una docena de Callados con chombas y viseras, quietos, mirand
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
 - **Revisar** (r161) el restaurante y los vestuarios.
-- **El galpón:** palos de golf (Daño 1, Cerca, Usos 3) y un **carrito eléctrico** silencioso: 6 casilleros, sin Ruido, 3 viajes (el Generador lo recarga). Anotá `CARRITO_DE_GOLF`.
-- **El lago:** con Hervir agua, 4 Víveres por visita (◷ 1), tres veces (▢▢▢). Desde la Etapa III, es de los Ahogados.
+- **El galpón:** palos de golf (Daño 1, Cerca, Usos 3) y un **carrito eléctrico** silencioso (e712). Anotá `CARRITO_DE_GOLF`.
+- **El lago:** con Hervir agua, 4 Víveres por visita (◷ 1), tres veces (▢▢▢). Desde la Etapa III, es de los Ahogados: en cada visita, con 1–3 en 1d6, **Ahogados ×1d3 · Cerca** ([e728](#e728)).
 
 ---
 
@@ -92,7 +92,7 @@ Un muro, una garita y ochenta casas iguales: la casa de **los Lobos**.
 
 Saint Andrew's School: la tarea del día 0 todavía en los pizarrones.
 
-- **Revisar** (r161). Un 5 da *Química para el secundario* ([e774](#e774)).
+- **Revisar** (r161). El primer 5 que sacás es *Química para el secundario* ([e774](#e774)).
 - **La enfermería,** una vez: 2 Fármacos y un Botiquín.
 - **Con Gustavo,** si no encontró a su hija → [e620](#e620).
 

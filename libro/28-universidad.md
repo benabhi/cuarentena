@@ -124,7 +124,7 @@ Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). Una Procesión doble s
 
 Jaulas vacías y una pizarra: «D-21 muro · D0 liberación controlada · D+2 cuarentena · D+40 ???». Debajo, con otra letra, en rojo: «NO FUE CONTROLADA».
 
-Una pista ([e560](#e560)) y anotá `EL_NIVEL_3`. En la heladera de al lado, 6 ampollas sin marca: «Lote experimental 40».: anotá `LOTE_40` si te las llevás.
+Una pista ([e560](#e560)) y anotá `EL_NIVEL_3`. En la heladera de al lado, 6 ampollas sin marca: «Lote experimental 40». Si te las llevás, anotá `LOTE_40`.
 
 Al irte, con 1–2 en 1d6, las cámaras de aislamiento no estaban vacías: **Callados ×1d6 · Cerca**, escena Pasillo.
 

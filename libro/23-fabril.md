@@ -41,7 +41,7 @@ Estanterías de seis metros. Alguien se llevó mucho. Quedó más.
 «HNOS. SOSA». Debajo de una camioneta, un par de piernas que se mueven: un Callado atrapado.
 
 - **Revisar** (r161). Matar al de abajo: +1 Ruido.
-- **La camioneta:** `[Mecánica]`, ◷ 3, 1 Electrónica y 1 Metal. Anda: 20 casilleros, 2 Combustible. Anotá `CAMIONETA_DE_LOS_SOSA`.
+- **La camioneta:** `[Mecánica]`, ◷ 3, 1 Electrónica y 1 Metal. Anda, y en el tanque quedan 2 Combustible (e712). Anotá `CAMIONETA_DE_LOS_SOSA`.
 - **Sobre el banco:** *Manual de mecánica del automotor* ([e773](#e773)).
 
 ---
@@ -55,6 +55,7 @@ Tanques de doscientos litros y un olor que marea. RIESGO DE EXPLOSIÓN.
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
 - **Revisar** (r161). Con 4 o más, +1 Químicos.
+- **En el vestuario,** una vez: una mochila fumigadora (4 casilleros), la base del Lanzallamas ([e744](#e744)).
 - **Los tanques de solvente** (◷ 1): 3 Químicos. Si llevás fuego o un arma de fuego, o sacás 1 en 1d6, algo se prende: `[Físico]`. Con 7+, salís y La Fabril queda **en llamas** (r159). Con 6−, lo mismo, con 2 Heridas.
 - **La fábrica entera es una bomba.** Traé una Procesión (r156) y prendé fuego → [e274](#e274).
 
@@ -147,7 +148,7 @@ Una autobomba con cuatro bomberos en el estribo para frente a vos.
 
 Una fundición con el horno tibio. Un hombre con máscara de soldador martilla en el yunque; colgados de ganchos, Callados muertos de verdad. «Les saco los dientes. Para las trampas». Es **el Herrero**.
 
-- **Encargarle algo:** cualquier receta de Armas de mano, Trampas o Protección, sin conocerla, por sus materiales más 1. Anotá `EL_HERRERO` y el día. Si volvés con `EL_HERRERO` dos cartas después, te lo da: borrá la Marca.
+- **Encargarle algo:** cualquier receta de Armas de mano, Trampas o Protección, sin conocerla, por sus materiales más 1 material cualquiera. Anotá `EL_HERRERO` y el día. Si volvés con `EL_HERRERO` dos días después o más, te lo da: borrá la Marca.
 - **Preguntar por los dientes.** «Los mudos no se pinchan con sus propios dientes. No sé por qué.» Tus Tablas de clavos y Fosos de estacas valen +1 en la Noche 40. Anotá `DIENTES_EN_LAS_TRAMPAS`.
 
 ---

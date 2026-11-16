@@ -63,7 +63,7 @@ Silenciosas y de lejos: lo que más vale en Tolme. `[Puntería]`. Gastan **saeta
 <a id="e703"></a>
 ### e703 · Arrojadizas y explosivas
 
-Se tiran una vez, con `[Puntería]`, desde Lejos o Cerca (nunca Encima). Matan **un grupo**: hasta ese número, de los que estén a la misma distancia.
+Se tiran una vez, con `[Puntería]`, desde Lejos o Cerca (nunca Encima). Matan **un grupo**: hasta ese número, de los que estén a la misma distancia. Contra los especiales, ese número es el Daño (r143).
 
 | Arma | Mata | Ruido | Notas |
 |---|---|---|---|
@@ -79,11 +79,13 @@ Se tiran una vez, con `[Puntería]`, desde Lejos o Cerca (nunca Encima). Matan *
 <a id="e704"></a>
 ### e704 · Armas pesadas
 
-> **Ametralladora** · Mata 4 (un grupo) · Ruido 4 · Lejos · 3 Munición por ronda · 6 casilleros · Desventaja sin Puntería 2. Ver [e523](#e523).
->
-> **Lanzallamas de fumigadora** · Mata 1d6+2 (un grupo) · Ruido 2 · Cerca · 1 Combustible por ronda · 4 casilleros · el lugar arde. Con 6−, la manguera se prende: 2 Heridas. Receta ([e744](#e744)).
->
-> **Cañón de agua** de la autobomba · Todos los de Cerca vuelven a Lejos, y no avanzan esa ronda · Ruido 3 · Solo al lado de la autobomba ([e481](#e481)).
+Matan **un grupo**, como las explosivas, pero se usan cada ronda mientras dure la carga.
+
+| Arma | Mata | Ruido | Notas |
+|---|---|---|---|
+| Ametralladora | 4 | 4 | Desde Lejos · 3 Munición por ronda · 6 casilleros · Desventaja con Puntería 1 o menos. Ver [e523](#e523) |
+| Lanzallamas de fumigadora | 1d6+2 | 2 | Desde Cerca · 1 Combustible por ronda · 4 casilleros · el lugar arde. Con 6−, la manguera se prende: 2 Heridas. Receta ([e744](#e744)) |
+| Cañón de agua (autobomba) | — | 3 | Una vez por combate: todos los de Cerca vuelven a Lejos y no avanzan esa ronda, y los Hinchados no explotan. Solo al lado de la autobomba ([e481](#e481)) |
 
 ---
 
@@ -110,8 +112,9 @@ La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna c
 
 | Objeto | Casilleros | Qué hace |
 |---|---|---|
-| Linterna | 1 | Sin ella, en un Túnel o un sótano a oscuras, Desventaja en todo (r336) |
-| Linterna de dínamo | 1 | Como la Linterna, pero nunca se queda sin pilas. Receta ([e749](#e749)) |
+| Linterna | 1 | Sin ella, a oscuras (de noche, el Subsuelo, un Túnel, un sótano), Desventaja en todo (r121). **Usos 6:** gastás 1 por cada salida en que la prendés |
+| Pilas | 1 | Una Linterna vuelve a Usos 6. Se consiguen cambiando (r166) |
+| Linterna de dínamo | 1 | Una Linterna sin Usos: nunca se apaga. Receta ([e749](#e749)) |
 | Soga | 2 | Azoteas (r151), trepar, bajar, atar, poleas |
 | Tablones de cruce | 2 | Azoteas: cruzar de un edificio a otro (r151) |
 | Radio a pilas | 1 | Escuchás a la Señora en la AM 870 ([e054](#e054)) |
@@ -127,22 +130,26 @@ La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna c
 <a id="e712"></a>
 ### e712 · Vehículos
 
-Un vehículo te lleva rápido, pero todo Tolme lo escucha llegar: al llegar, la tabla del barrio tiene +1 (r152).
+Un vehículo te lleva rápido, pero todo Tolme lo escucha parar. Las reglas para manejar están en r157; acá, lo que tiene cada uno. **Carga** son casilleros que se suman a las Mochilas; **Combustible**, lo que gasta por cada barrio al que entra.
 
-| Vehículo | Personas | Carga | Ruido al llegar | Combustible | Dónde |
+| Vehículo | Personas | Carga | Ruido al parar | Combustible | Dónde |
 |---|---|---|---|---|---|
-| Bicicleta | 1 | +2 | 0 | — | Comercio, el oficio de Reparto (r102) |
-| Bici de carga | 1 | +3 | 0 | — | Comercio |
-| Moto | 2 | 4 | +2 | 1 cada 3 viajes | El depósito de los Lobos ([e686](#e686)) |
-| Taxi del Ruso | 4 | 12 | +2 | 1 cada 2 viajes | El Ruso ([e637](#e637)) |
-| Camioneta de los Lobos | 6 | 12 | +2 | 1 cada 2 viajes | [e681](#e681) |
-| Autobomba | 6 | 20 | +3 | 1 por viaje de ida y vuelta | Cuartel ([e481](#e481)) |
-| Blindado | 8 | 30 | +4 | 1 por barrio | Tesoro ([e552](#e552)) |
-| Lancha | 4 | 10 | +1 | 2 por viaje | Club náutico ([e382](#e382)). Solo por el río |
-| La 7012 | — | — | Todo Tolme | 4 | Don Ernesto ([e602](#e602)). Una sola vez |
+| Bicicleta | 1 | 2 | 0 | — | Atajos (r102), Mercado ([e342](#e342)) |
+| Carrito de golf | 2 | 6 | 0 | Batería: 3 barrios; el Generador la recarga en una noche | Las Lomas ([e303](#e303)) |
+| Moto | 2 | 4 | +2 | 1 cada 3 | Puerto ([e242](#e242)), Lobos ([e686](#e686)) |
+| Taxi del Ruso | 4 | 12 | +2 | 1 cada 2 | El Ruso ([e637](#e637)); solo lo maneja él |
+| Ambulancia | 4 | 12 | +2 | 1 cada 2 | El Casco ([e212](#e212)) |
+| Camioneta de los Lobos | 6 | 12 | +2 | 1 cada 2 | [e681](#e681) |
+| Camioneta de los Sosa | 6 | 20 | +2 | 1 | La Fabril ([e262](#e262)) |
+| La 4×4 | 5 | 20 | +2 | 1 | Puerto ([e244](#e244)) |
+| Autobomba | 6 | 20 | +3 | 1 | Cuartel ([e481](#e481)) |
+| Blindado | 8 | 30 | +4 | 1 | Tesoro ([e552](#e552)) |
+| Lancha | 4 | 10 | +1 | 2 por viaje | Club náutico ([e382](#e382)); solo por el río |
+| La 7012 | — | — | Todo Tolme | 4 | Don Ernesto ([e602](#e602)); una sola vez |
 
-- **Un viaje** es ida a un barrio vecino por la Calle, en ◷ 1, salvo que el vehículo diga otra cosa. El Ruido de la tabla reemplaza al +2 de r152.
-- **Un vehículo no entra** a las Azoteas ni al Subsuelo, ni a un barrio con una Procesión en la Calle (o sí, pero entonces es [e100](#e100)).
+- **La bicicleta** no tiene motor: ni prueba para arrancar ni +1 a la tabla (r152).
+- **El vehículo es del refugio:** lo maneja quien sale con él y queda donde lo dejaste.
+- **El Combustible que trae en el tanque** se suma a tus materiales.
 
 <a id="e713"></a>
 ### e713 · Medicinas
@@ -225,7 +232,7 @@ Perros que siguen oliendo y cazando en grupo. No ladran.
 Alguien grande que ahora es enorme, arrastrando media puerta. No corre. No le hace falta.
 
 - **Conducta:** ninguna puerta cuenta como cerrada (r141). Encima, un 4 o 5 en mordidas son 2 Heridas. En un sondeo, el frente pierde 3 ([e075](#e075)). Fuego (1 Daño por ronda), Foso de estacas (2), armas pesadas, o huir.
-- **Noche 40:** +3 de daño si entra; el Foso y las Rejas soldadas le hacen la mitad.
+- **Noche 40:** +3 de daño si la oleada entra (+2 si el frente tiene Foso de estacas o Rejas soldadas).
 
 <a id="e727"></a>
 ### e727 · Ficha 727 · Escupidor
@@ -254,7 +261,7 @@ Blancos, hinchados, con algas en el pelo. Debajo del agua no los ves.
 
 Policías, soldados y trajes amarillos convertidos con el equipo puesto.
 
-- **Conducta:** las armas de mano le hacen 1 Daño menos. Con la palanca (Encima, `[Pelea]`, ◷ 0), con 7+ le sacás el casco y deja de ser Blindado. Muerto, 1d6: 1–3 casco; 4–5 chaleco; 6 revólver o fusil con 1d6 Munición.
+- **Conducta:** las armas de mano le hacen 1 Daño menos. Con una Palanca, si está Encima, en lugar de atacar: `[Pelea]`; con 7+ le sacás el casco y queda como un Callado común. Muerto, 1d6 (su equipo): 1–3 casco; 4–5 chaleco; 6 revólver o fusil con 1d6 Munición.
 - **Noche 40:** las trampas no le restan.
 
 <a id="e730"></a>
@@ -306,7 +313,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 
 > **Tabla de clavos** *(básica)* · 1 Madera, 1 Sujeción · Martillo · ◷ 1 · **Valor 1.** Después de un sondeo, con 1–3 en 1d6, se gasta.
 >
-> **Campana de latas** *(básica)* · 1 Sujeción · ◷ 1 · **Valor 0**, pero despierta a la Guardia: en un sondeo a ese frente, −1 a la tirada. +1 Rastro cada vez que suena.
+> **Campana de latas** *(básica)* · 1 Sujeción · ◷ 1 · **Valor 0**, pero despierta a la Guardia: en un sondeo a ese frente, −1 a «Qué es» ([e072](#e072)). +1 Rastro cada vez que suena.
 >
 > **Alambre de púas** · 2 Metal, 1 Sujeción · Martillo · ◷ 1 · `[Oficio]` · **Valor 2.** No se gasta.
 >
@@ -347,7 +354,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 >
 > **Bomba de clavos** · 1 Químicos, 1 Metal, 1 Sujeción, 1 Electrónica · Llave inglesa · ◷ 1 · `[Mecánica]` (Mecánica 2) · Una Bomba de clavos ([e703](#e703)). Con 6−, además de perder la mitad de los materiales, 1 Herida.
 >
-> **Lanzallamas de fumigadora** · Una mochila fumigadora (La Fabril), una garrafa, 2 Metal, 1 Sujeción · Llave inglesa · Taller · ◷ 3 · `[Mecánica]` (Mecánica 2) · Un Lanzallamas ([e704](#e704)).
+> **Lanzallamas de fumigadora** · Una mochila fumigadora ([e263](#e263)), una garrafa, 2 Metal, 1 Sujeción · Llave inglesa · Taller · ◷ 3 · `[Mecánica]` (Mecánica 2) · Un Lanzallamas ([e704](#e704)).
 
 <a id="e745"></a>
 ### e745 · Munición
@@ -394,7 +401,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 >
 > **Tablones de cruce** · 3 Madera, 1 Sujeción · Martillo · ◷ 1 · Tablones ([e711](#e711)).
 >
-> **Linterna de dínamo** · 1 Electrónica, 1 Metal · ◷ 1 · `[Mecánica]` (Mecánica 1) · Una Linterna que no necesita pilas.
+> **Linterna de dínamo** · 1 Electrónica, 1 Metal · ◷ 1 · `[Mecánica]` (Mecánica 1) · Una Linterna de dínamo (e711): nunca se apaga.
 >
 > **Mochila reforzada** · 2 Tela, 1 Sujeción · Máquina de coser · ◷ 2 · `[Oficio]` · +4 casilleros.
 
@@ -412,7 +419,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 <a id="e751"></a>
 ### e751 · Cisterna
 
-> 2 Metal, 2 Sujeción, un tanque o tres bidones grandes · Llave inglesa · ◷ 3 · `[Oficio]` · Los días de lluvia (una carta que diga lluvia o tormenta), +2 Víveres.
+> 2 Metal, 2 Sujeción, un tanque o tres bidones grandes · Llave inglesa · ◷ 3 · `[Oficio]` · Junta agua los días de lluvia: los Víveres que diga la carta ([e029](#e029), [e051](#e051), [e055](#e055)).
 
 <a id="e752"></a>
 ### e752 · Huerta
@@ -439,7 +446,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 <a id="e756"></a>
 ### e756 · Dormitorio
 
-> 4 Tela, 2 Madera · Martillo · ◷ 2 · +1 Ánimo a todos al dormir (r194) y +1 Moral al construirlo.
+> 4 Tela, 2 Madera · Martillo · ◷ 2 · +1 Ánimo a todos al dormir (r194) y, al construirlo, +1 Moral más que las otras (r182).
 
 <a id="e757"></a>
 ### e757 · Cortinas negras
@@ -449,7 +456,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 <a id="e758"></a>
 ### e758 · Vigía
 
-> 3 Madera, 1 Sujeción, Soga · Martillo · ◷ 2 · `[Oficio]` · −1 a la tirada de sondeo (r175). Cada alba, ves si hay Procesiones en los barrios vecinos.
+> 3 Madera, 1 Sujeción, Soga · Martillo · ◷ 2 · `[Oficio]` · −1 al sondeo (r175). Cada alba, ves si hay Procesiones en los barrios vecinos.
 
 <a id="e759"></a>
 ### e759 · Radio
@@ -459,7 +466,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 <a id="e760"></a>
 ### e760 · Generador
 
-> 4 Metal, 3 Electrónica, 2 Combustible, un motor (de auto, de moto, de una bomba de agua) · Llave inglesa · ◷ 4 · `[Mecánica]` (Mecánica 2) · Electricidad para el Taladro, la Soldadora, la Radio y lo que haga falta. +2 Rastro el primer día que lo prendés. Gasta 1 Combustible cada noche que lo uses.
+> 4 Metal, 3 Electrónica, 2 Combustible, un motor (de auto, de moto, de una bomba de agua) · Llave inglesa · ◷ 4 · `[Mecánica]` (Mecánica 2) · Electricidad para el Taladro, la Soldadora, la Radio y lo que haga falta. +2 Rastro el primer día que lo prendés. Gasta 1 Combustible cada día que lo uses, de día o de noche.
 
 **Silenciador:** 2 Metal, 1 Tela, ◷ 1, sin prueba. −1 Rastro, una vez (r174). Con él, prender el generador industrial ([e510](#e510)) tampoco suma Rastro.
 

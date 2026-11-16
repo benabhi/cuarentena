@@ -59,7 +59,7 @@ Una cancha techada y una pileta de agua verde. Acá guardaban la comida de la ol
 - **Revisar** (r161).
 - **La pizarra de la cocina,** con los turnos en tiza. El último: «Día 3 · Lucía y Marcela». Si Lucía está en el grupo, llora. Si no la conocés, abajo hay una dirección: la Escuela N.º 9 ([e603](#e603)).
 - **La olla de cien litros** (3 casilleros): en el refugio, la Cocina a leña ([e755](#e755)) da +1 Moral más cada noche.
-- **La pileta:** con Hervir agua ([e748](#e748)), 4 Víveres por visita (◷ 2), tres veces (▢▢▢). Desde la Etapa III, algo vive ahí.
+- **La pileta:** con Hervir agua ([e748](#e748)), 4 Víveres por visita (◷ 2), tres veces (▢▢▢). Desde la Etapa III, algo vive ahí: en cada visita, con 1–2 en 1d6, **Ahogado ×1 · Cerca** ([e728](#e728)).
 
 ---
 
@@ -69,7 +69,7 @@ Una cancha techada y una pileta de agua verde. Acá guardaban la comida de la ol
 
 «VUELVO EN 5 MIN». Detrás del vidrio, Don Tito en su banquito: se convirtió esperando que le pagaran una apuesta.
 
-- **Abrir** con Palanca u `[Oficio]` (+1 Ruido). **Callados ×1 · Cerca**. Después, revisás (r161) con +1, y cada revisión da 1 atado de cigarrillos (1 material en un cambio; una semana de `VICIO`).
+- **Abrir** con Palanca u `[Oficio]` (+1 Ruido). **Callados ×1 · Cerca**. Después, revisás (r161) con +1, y cada revisión da 1 atado de cigarrillos (1 material en un cambio, o paga el `VICIO`, r105).
 - **Su cuaderno de quiniela** dice lo que debe medio barrio: +1 a Labia la primera vez con Lucía, Doña Rosa, Facu o Ana y Bruno.
 
 ---

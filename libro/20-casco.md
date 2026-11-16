@@ -144,8 +144,8 @@ En un balcón, una sábana: SOMOS 3. NO TENEMOS AGUA. Enfrente, una mujer se lle
 
 Cruzada en la plaza, con las luces girando con la última batería.
 
-- **Revisarla:** dos tiradas de Hospital (r162); un 1 es nada.
-- **Con `LLAVES_DE_LA_AMBULANCIA`** (o *Puente*), arranca: 2 Combustible, 12 casilleros y una sirena que, una vez, lleva hacia ella todas las Procesiones del mapa (r156). Anotá `AMBULANCIA_12`.
+- **Revisarla,** una vez: dos tiradas de Hospital (r162); un 1 es nada.
+- **Con `LLAVES_DE_LA_AMBULANCIA`** (o *Puente*), arranca, con 2 Combustible en el tanque (e712) y una sirena que, una vez, lleva hacia ella todas las Procesiones del mapa (r156). Anotá `AMBULANCIA_12`.
 - **La batería:** ◷ 1, 3 casilleros. Hace andar un Taladro sin Generador.
 
 ---

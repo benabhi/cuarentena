@@ -116,7 +116,7 @@ Bajar a mirar (◷ 1, con Linterna): el andén es un **nido** (como [e119](#e119
 ### e333 · El andén 4
 *La Estación · ◷ 0*
 
-El tren que no salió el día 1: cientos de manos contra los vidrios.
+El tren que no salió el día 1: cientos de manos contra los vidrios. Con `EL_TREN_SELLADO` o `TREN_ABIERTO`, el andén ya está resuelto: tomá el siguiente evento de la tabla.
 
 1. **Irte rápido.** Con 1–2 en 1d6, cede: **Callados ×3d6 · Lejos**.
 2. **Trabar las puertas** (1 Metal, `[Oficio]`). Con 7+, queda sellado: anotá `EL_TREN_SELLADO`. Con 6−, cede con vos al lado: **Callados ×3d6 · Cerca**.

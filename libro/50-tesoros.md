@@ -82,7 +82,7 @@ Para llevártelo → [e511](#e511).
 3. **Desarmarlo,** `[Mecánica]`, ◷ 3: 6 Electrónica, 4 Metal y 4 Combustible (la mitad con 6−). Vale +2 Moral, pero ya no es el Tesoro.
 4. **Dejarlo:** este lugar cuenta como Generador para cualquier receta, si traés los materiales.
 
-Si llega entero, anotá `EL_GENERADOR_INDUSTRIAL`: es un **Generador** ([e760](#e760)) que alimenta a la vez Taladro, Soldadora, Radio y Despensa, gasta 1 Combustible por noche encendido (+2 Rastro el primer día, salvo silenciador) y habilita el cerco eléctrico ([e512](#e512)).
+Si llega entero, anotá `EL_GENERADOR_INDUSTRIAL`: es un **Generador** ([e760](#e760)) que alimenta a la vez Taladro, Soldadora, Radio y Despensa, gasta 1 Combustible cada día que lo uses (+2 Rastro el primer día, salvo silenciador) y habilita el cerco eléctrico ([e512](#e512)).
 
 ---
 
@@ -90,7 +90,7 @@ Si llega entero, anotá `EL_GENERADOR_INDUSTRIAL`: es un **Generador** ([e760](#
 ### e512 · El cerco eléctrico
 *Tu refugio · ◷ 0*
 
-> **Cerco eléctrico** · 4 Metal, 3 Sujeción, 2 Electrónica · `EL_GENERADOR_INDUSTRIAL` · Pinza, guantes de goma · ◷ 4 · `[Mecánica]` · Con 10+, rodea un frente (no el Techo). Con 7–9, igual, con 1 Herida al probarlo. Con 6−, el generador no anda mañana.
+> **Cerco eléctrico** · 4 Metal, 3 Sujeción, 2 Electrónica · `EL_GENERADOR_INDUSTRIAL` · Llave inglesa · ◷ 4 · `[Mecánica]` · Con 10+, rodea un frente (no el Techo). Con 7–9, igual, con 1 Herida al probarlo. Con 6−, el generador no anda mañana.
 
 Anotá `CERCO_ELECTRICO` y el frente. Cada sondeo ahí hace 2 de daño menos. En la Noche 40, con el generador encendido (1 Combustible por oleada), el frente tiene **+3** por oleada, pero la primera oleada que lo golpea tiene +2 de Fuerza: el zumbido atrae. Se puede repetir para otro frente.
 
@@ -104,7 +104,7 @@ Un contenedor verde oliva con dos candados y una planilla: «FUSILES (24) · AME
 
 - **1–2 · Un soldado** sentado arriba, con el fusil en las piernas → [e521](#e521).
 - **3–4 · La guardia que se quedó:** **Blindados ×1d3** ([e729](#e729)) **y Callados ×1d6 · Lejos**. En Etapa I o II son todos Callados con casco: el primer golpe a cada uno necesita 1 Daño más.
-- **5–6 · Nadie.** Los candados: `[Mecánica]` u `[Oficio]` con Desventaja (sin ella con Pocho, [e612](#e612), o herramienta de corte), ◷ 2, +2 Ruido. Con 6−, +2 Ruido más y otra vez.
+- **5–6 · Nadie.** Los candados: `[Mecánica]` u `[Oficio]` con Desventaja (sin ella con Pocho, [e612](#e612), o con Soldadora o la moladora del Cuartel), ◷ 2, +2 Ruido. Con 6−, +2 Ruido más y otra vez.
 
 Adentro → [e522](#e522).
 
@@ -145,7 +145,7 @@ Anotá `LA_ARMERIA`. Fusiles y chalecos ocupan 2 casilleros. Lo que dejes sigue 
 ### e523 · La ametralladora
 *La armería del cordón · ◷ 0*
 
-> **Ametralladora** · Daño 4 a todo un grupo · Lejos · 3 Munición por ronda · 6 casilleros · +4 Ruido por ráfaga · Desventaja con Puntería 1 o menos.
+> **Ametralladora** · Mata 4 por ronda (arma pesada, [e704](#e704)) · Lejos · 3 Munición por ronda · 6 casilleros · Ruido 4 · Desventaja con Puntería 1 o menos.
 
 Trae 30 Munición propia. Anotá `LA_AMETRALLADORA`. Emplazada en un frente (◷ 1, no el Subsuelo), anotá `AMETRALLADORA_EN_` y el frente: los sondeos ahí no hacen daño (+2 Rastro), y en la Noche 40 ese frente tiene **+4** por oleada mientras haya munición (6 por oleada).
 
@@ -207,7 +207,7 @@ En el refugio → [e541](#e541).
 ### e541 · Escuchar el mundo
 *La radio del aficionado · Tu refugio · ◷ 0*
 
-Con batería o Generador, anotá `LA_RADIO_DEL_AFICIONADO`: es la **Radio** ([e759](#e759)) sin construirla. Además, una vez por noche (◷ 1), 1d6:
+Con batería o Generador, anotá `LA_RADIO_DEL_AFICIONADO`: es la **Radio** ([e759](#e759)) sin construirla. Además, una vez por día (◷ 1), 1d6:
 
 | 1d6 | Qué escuchás |
 |---|---|
@@ -257,7 +257,7 @@ Ocho ruedas, una torreta, la escotilla abierta y las llaves puestas; no arranca.
 ### e551 · Hacerlo andar
 *El blindado · ◷ 0*
 
-> **Reparar el blindado** · 6 Combustible, una batería (o el Generador), 2 Metal, 1 Sujeción · Llave inglesa o caja de herramientas · ◷ 4 · `[Mecánica]` (Desventaja sin Mecánica 2 ni el *Manual del automotor*, [e773](#e773)) · Con 10+, arranca. Con 7–9, arranca y tose: 1 Combustible más por viaje. Con 6−, otra vez otro día; solo se pierde el Combustible.
+> **Reparar el blindado** · 6 Combustible, una batería (o el Generador), 2 Metal, 1 Sujeción · Llave inglesa · ◷ 4 · `[Mecánica]` (Desventaja sin Mecánica 2 ni el *Manual del automotor*, [e773](#e773)) · Con 10+, arranca. Con 7–9, arranca y tose: 1 Combustible más por viaje. Con 6−, otra vez otro día; solo se pierde el Combustible.
 
 Cuando arranca, anotá `EL_BLINDADO` → [e552](#e552).
 
@@ -269,8 +269,8 @@ Cuando arranca, anotá `EL_BLINDADO` → [e552](#e552).
 
 Con `EL_BLINDADO`:
 
-- **Viajar** a un barrio conectado por la Calle en ◷ 1 (su tabla con +1), con 8 personas y 30 casilleros. +4 Ruido al llegar; 1 Combustible por barrio.
+- **Es un vehículo** (r157, [e712](#e712)).
 - **Atropellar** una Procesión en la Calle: se dispersa (r156) y se rearma en un barrio al azar. +2 Rastro si es el barrio del refugio.
-- **En la Noche 40,** contra la Puerta o las Ventanas, ese frente tiene **+3** toda la noche. O, una vez, cargás contra una oleada antes de que llegue: pierde 2d6 de Fuerza, y el blindado queda volcado.
+- **En la Noche 40,** elegí: contra la Puerta o las Ventanas, ese frente tiene **+3** en todas las oleadas; o, una vez, cargás contra una oleada antes de que llegue: pierde 2d6 de Fuerza, y el blindado queda volcado.
 - **En Éxodo,** es una salida para 8 → [e960](#e960), por donde no hay muro.
 - **Con `LA_AMETRALLADORA`** en la torreta (`[Mecánica]`, ◷ 2): al lado del blindado, la ametralladora tiene +1 y no gasta Munición la primera ronda.

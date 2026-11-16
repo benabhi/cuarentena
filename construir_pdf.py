@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup, NavigableString
 RAIZ = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(RAIZ, 'maqueta'))
 import extras as X
+import hojas as H
 import columnas_justas  # noqa: F401  (reparto fino de columnas)
 from iconos import icono, emblema, SIMBOLOS
 from mapa import svg_mapa
@@ -77,6 +78,9 @@ def inline_previo(t):
     # amenazas en línea: «**Callados ×3 · Lejos**»
     t = RE_AMENAZA.sub(amenaza, t)
     # casillas ▢ (stock, registros)
+    # un grupo corto («stock ▢▢▢») no se parte entre líneas
+    t = re.sub(r'((?:stock|Stock)\s+)?(▢{1,6})(?!▢)',
+               lambda m: '<span class="cas-grupo">' + (m.group(1) or '') + '<span class="cas"></span>' * len(m.group(2)) + '</span>', t)
     t = t.replace('▢', '<span class="cas"></span>')
     # símbolos → iconos
     for s, n in SIMBOLOS.items():
@@ -148,7 +152,7 @@ def pulir(htmls, contexto=''):
             bq['class'] = ['doc-oficial']
         elif txt.startswith('Ficha del refugio'):
             bq['class'] = ['ficha', 'ficha-refugio']
-        elif re.match(r'[^·]{2,40} · (Pelea|Puntería|Sigilo|Físico|Oficio|Mecánica|Medicina|Supervivencia|Labia|Calle) \d', txt):
+        elif re.match(r'[^·]{2,40} · (Pelea|Puntería|Sigilo|Físico|Oficio|Mecánica|Medicina|Supervivencia|Labia|Calle) \d|[^·]{2,40} · perro · ', txt):
             bq['class'] = ['ficha', 'ficha-sobre']
         elif primero is not None and 'amenaza' in (primero.get('class') or []) and txt.index(primero.get_text(' ', strip=True)) == 0:
             bq['class'] = ['bq-amenaza']
@@ -259,6 +263,23 @@ def img(nombre, pos='50% 50%', clase=''):
     return f'<img class="{clase}" src="arte/{nombre}" style="object-position:{pos}" alt=""/>'
 
 
+
+def collage_especiales():
+    kicker, titulo, sub = X.ESPECIALES_TIT
+    tarjetas = []
+    for id_, nombre, etapa, frase, clave, arte, x, y, w, h, giro, foco, *extra in X.ESPECIALES:
+        tarjetas.append(
+            f'<a class="esp {" ".join(extra)}" href="#{id_}" style="left:{x}mm;top:{y}mm;width:{w}mm;height:{h}mm;transform:rotate({giro}deg)">'
+            f'<img src="arte/{arte}" style="object-position:{foco}" alt=""/>'
+            f'<span class="esp-cinta"></span><span class="esp-etapa">Etapa {etapa}</span>'
+            f'<span class="esp-pie"><span class="esp-nom">{esc(nombre)}<span class="esp-id">{id_}</span></span>'
+            f'<span class="esp-frase">{esc(frase)}</span><span class="esp-clave">{esc(clave)}</span></span></a>')
+    return (f'<section class="lamina collage" id="collage-especiales">'
+            f'<img class="lamina-img" src="maqueta/papel-oscuro.jpg" alt=""/>'
+            f'<div class="col-cab"><div class="lamina-kicker">{esc(kicker)}</div>'
+            f'<div class="col-tit">{esc(titulo)}</div><div class="col-sub">{esc(sub)}</div></div>'
+            f'{"".join(tarjetas)}</section>')
+
 def caja_html(id_):
     tipo, titulo, texto = X.CAJAS[id_]
     cuerpo = pulir(render(texto.strip()))
@@ -326,7 +347,7 @@ class Libro:
     def cerrar_col(self):
         if self.col:
             if not getattr(self, 'col_vacia', False):
-                if self.col == 'col2' and not self.oscuro_abierto_now():
+                if (self.col or '').startswith('col2') and not self.oscuro_abierto_now():
                     self.out.append(f'@@FINCOL{len(self.fincols)}@@')
                     self.fincols.append((self.parte, getattr(self, 'cap_titulo', ''), getattr(self, 'ultimo_id', '')))
                 self.out.append('</div>')
@@ -463,8 +484,10 @@ class Libro:
             if cfg.get('banda_alta'):
                 clases.append('banda-alta')
             banda = f'<div class="banda">{img(arte, pos)}</div>'
-        if cfg.get('lamina') or (cfg.get('banda') and cfg.get('salto')) or cfg.get('doble') or maq in ('oscuro', 'finales', 'tres', 'mundo'):
+        if cfg.get('lamina') or (cfg.get('banda') and cfg.get('salto')) or cfg.get('doble') or maq in ('oscuro', 'finales', 'tres', 'mundo') \
+                or getattr(self, 'tras_oscuro', False):
             clases.append('salto')
+        self.tras_oscuro = False
         if titulo in ('Índice de Marcas',):
             intro = ''      # su cuerpo lo compone una función propia
         intro_html = pulir(render(intro)) if intro else ''
@@ -497,6 +520,8 @@ class Libro:
     def hoja_html(self, titulo, ancla, intro, maq):
         if maq == 'mapa':
             self.out.append(pagina_mapa(ancla, titulo, intro))
+        elif titulo in H.HOJAS:
+            self.out.append(H.HOJAS[titulo](ancla, titulo))
         else:
             cuerpo = pulir(render(intro))
             self.out.append(f'<section class="hoja" id="{ancla}" data-titulo="{esc(titulo)}">'
@@ -543,7 +568,18 @@ class Libro:
                 pass
             elif t == 'grupo':
                 grupo_actual = n['titulo']
+                if n['titulo'] == 'Los infectados' and n['archivo'] == '70-catalogo.md':
+                    self.remate()
+                    clase = self.col
+                    self.cerrar_col()
+                    self.out.append(collage_especiales())
+                    if clase:
+                        self.abrir_col(clase)
                 self.grupo_html(n)
+                if n['archivo'] == '70-catalogo.md':
+                    # las recetas van a dos columnas: en tres, las cajas quedaban muy finas
+                    self.abrir_col('col2 recetas' if n['titulo'] == 'Las recetas' else
+                                   ('col3' if self.col else self.col))
             elif t == 'entrada':
                 self.entrada(n, grupo_actual)
             i += 1
@@ -583,6 +619,7 @@ class Libro:
             self.cerrar_col()
             self.out.append('</div>')
             self.oscuro_abierto = False
+            self.tras_oscuro = True     # lo que sigue empieza en página clara
 
     def grupo_html(self, n):
         t = n['titulo']
@@ -591,8 +628,12 @@ class Libro:
         if cap.get('maqueta') == 'mundo':
             return self.ancho(f'<article class="doc"><h3 class="doc-tit">{esc(t)}</h3><div class="doc-cuerpo">{cuerpo}</div></article>')
         if t in X.FACCIONES:
-            return self.ancho(f'<div class="grupo grupo-faccion">{emblema(X.FACCIONES[t])}<div><div class="g-kicker">Facción</div>'
-                              f'<h3 class="g-tit">{esc(t)}</h3>{cuerpo}</div></div>')
+            lema, guia = X.FACCION_GUIA[t]
+            filas = ''.join(f'<tr><th>{a}</th><td>' + ' · '.join(f'<a class="ref ref-e" href="#{e}">{e}</a>' for e in b.split(' · '))
+                            + '</td></tr>' for a, b in guia)
+            return self.ancho(f'<div class="grupo grupo-faccion">{emblema(X.FACCIONES[t])}<div class="gf-cuerpo"><div class="g-kicker">Facción</div>'
+                              f'<h3 class="g-tit">{esc(t)}</h3><div class="gf-lema">{esc(lema)}</div>{cuerpo}</div>'
+                              f'<table class="gf-guia">{filas}</table></div>')
         if cap.get('maqueta') == 'dos' and self.parte == 'Apéndices':
             self.poner(f'<h3 class="g-caja">{esc(t)}</h3>{cuerpo}')
             return
@@ -642,7 +683,7 @@ class Libro:
             self.poner(h)
         if id_ in X.CAJAS:
             self.poner(caja_html(id_))
-        if self.col == 'col2' and not self.oscuro_abierto_now() and not self.col_vacia:
+        if (self.col or '').startswith('col2') and not self.oscuro_abierto_now() and not self.col_vacia:
             # si la entrada siguiente salta de columna o de página, el pie de esta columna se rellena
             self.poner(f'@@FINCOL{len(self.fincols)}@@')
             self.fincols.append((self.parte, getattr(self, 'cap_titulo', ''), id_))
@@ -980,9 +1021,30 @@ class Rellenos:
             return ''
         cita_ok = k - self.k_cita >= self.CADA_CITA
         alto = mm - 6
+        reglas = 'Reglas' in str(self.partes[k] if k < len(self.partes) else '')
         if mm < 80:
-            if 'Reglas' in str(self.partes[k] if k < len(self.partes) else '') and not cita_ok:
+            if reglas and not cita_ok:
                 return self.tarjetas(alto)      # en las reglas, una franja de consulta rápida
+            if not cita_ok:
+                # fuera de las reglas, un hueco mediano lleva una viñeta (nunca repetida); si no queda, aire
+                elegido = arte_libre({self.contexto[k], self.ultimo, *self.contexto[k + 1:k + 3]}, self.i_arte) if mm >= 50 and not reglas else None
+                if not elegido:
+                    return ''
+                self.i_arte += 1
+                arte, pos = elegido
+                self.ultimo = arte
+                self.n_arte += 1
+                return (f'<div class="remate con-arte solo-arte" style="height:{alto:.1f}mm">'
+                        f'<div class="rm-img" style="height:{alto - 2:.1f}mm">{img(arte, pos)}</div></div>')
+            self.k_cita = k
+            self.n_cita += 1
+            texto, autor = self.cita()
+            q = (f'<blockquote class="remate-cita"><div class="rc-orn">{icono("rombo")}</div>'
+                 f'<p>{esc(texto)}</p><cite>{esc(autor)}</cite></blockquote>')
+            return f'<div class="remate solo-cita" style="height:{alto:.1f}mm">{q}</div>'
+        elegido = arte_libre({self.contexto[k], self.ultimo, *self.contexto[k + 1:k + 3]}, self.i_arte)
+        self.i_arte += 1
+        if not elegido:
             if not cita_ok:
                 return ''
             self.k_cita = k
@@ -991,12 +1053,7 @@ class Rellenos:
             q = (f'<blockquote class="remate-cita"><div class="rc-orn">{icono("rombo")}</div>'
                  f'<p>{esc(texto)}</p><cite>{esc(autor)}</cite></blockquote>')
             return f'<div class="remate solo-cita" style="height:{alto:.1f}mm">{q}</div>'
-        evitar = {self.contexto[k], self.ultimo, *self.contexto[k + 1:k + 3]}
-        while True:
-            arte, pos = X.ARTE_REMATE[self.i_arte % len(X.ARTE_REMATE)]
-            self.i_arte += 1
-            if arte not in evitar:
-                break
+        arte, pos = elegido
         self.ultimo = arte
         self.n_arte += 1
         if cita_ok and mm >= 110:
@@ -1009,6 +1066,20 @@ class Rellenos:
                     f'<div class="rm-img" style="height:{alto - 34:.1f}mm">{img(arte, pos)}</div>{q}</div>')
         return (f'<div class="remate con-arte solo-arte" style="height:{alto:.1f}mm">'
                 f'<div class="rm-img" style="height:{alto - 2:.1f}mm">{img(arte, pos)}</div></div>')
+
+
+# Las viñetas de remate no se repiten nunca: cada una sale una sola vez en todo el libro.
+USADAS = set()
+
+
+def arte_libre(evitar=(), desde=0):
+    n = len(X.ARTE_REMATE)
+    for j in range(n):
+        a, pos = X.ARTE_REMATE[(desde + j) % n]
+        if a not in USADAS and a not in evitar:
+            USADAS.add(a)
+            return a, pos
+    return None
 
 
 def _tarjetas(self, alto):
@@ -1093,15 +1164,21 @@ class Recordatorios:
             if not cuerpo and t == 'panel' and parte == 'Reglas':
                 cuerpo, t = self._recuerda(alto), 'recuerda'
         elif 17 <= alto < 36:
-            ico, tit, linea = X.TIRAS[self.i_tira % len(X.TIRAS)]
-            if 7.5 + 4.3 * (len(linea) // 46 + 1) <= alto:
+            for _ in range(len(X.TIRAS)):
+                ico, tit, filas = X.TIRAS[self.i_tira % len(X.TIRAS)]
                 self.i_tira += 1
-                cuerpo = (f'<aside class="panel tira"><div class="ar-cab">{icono(ico)}<span>{esc(tit)}</span></div>'
-                          f'<p class="pn-pie">{pulir(render(linea))[3:-5]}</p></aside>')
-                t = 'tira'
+                if 8.5 + 4.6 * len(filas) <= alto:
+                    f = ''.join(f'<tr><th>{esc(a)}</th><td>{pulir(render(b))[3:-5]}</td></tr>' for a, b in filas)
+                    cuerpo = (f'<aside class="panel tira"><div class="ar-cab">{icono(ico)}<span>{esc(tit)}</span></div>'
+                              f'<table>{f}</table></aside>')
+                    t = 'tira'
+                    break
         elif alto >= 62:
-            nombre, pos = X.ARTE_REMATE[self.i_arte % len(X.ARTE_REMATE)]
+            elegido = arte_libre((), self.i_arte)
             self.i_arte += 7
+            if not elegido:
+                return ''
+            nombre, pos = elegido
             cuerpo = f'<div class="rc-img" style="height:{alto - 4:.1f}mm">{img(nombre, pos)}</div>'
             t = 'viñeta'
         if not cuerpo:
@@ -1164,6 +1241,8 @@ def main():
         json.dump({k: [v, libro.fincols[k] if k < len(libro.fincols) else None] for k, v in fincols.items()},
                   open('/tmp/claude-0/fincols.json', 'w'), default=str)
     # 2.ª pasada: rellenar los huecos con viñetas y citas
+    USADAS.clear()
+    USADAS.update(re.findall(r'arte/(v-[a-z0-9-]+\.jpg)', doc))
     rellenos = Rellenos(libro.remates, libro.remates_parte)
     def con_id(html_, ident):
         return re.sub(r'^<div class="', f'<div id="{ident}" class="', html_, count=1) if html_ else ''

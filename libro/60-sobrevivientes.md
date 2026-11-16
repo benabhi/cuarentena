@@ -254,7 +254,7 @@ Carnicera: tres Callados, tres golpes. «Los Lobos se llevaron mi puesto. Y a mi
 > **La Tana** · **Pelea 3** · Valiente
 > **La cuchilla:** Daño 2, Cerca, nunca se rompe. No la presta.
 > **Necesidad:** venganza. A las 6 cartas → [e622](#e622).
-> **En la Noche 40:** en el frente más débil, +2 (con Valiente).
+> **En la Noche 40:** en el frente más débil, +2 (ya incluye su +1 de Valiente).
 > **Desenlace:** [e623](#e623).
 
 <a id="e622"></a>
@@ -273,7 +273,7 @@ Al alba: «Voy a Las Lomas. Rolo Benítez me debe un marido».
 
 La Tana grita su nombre en la garita de los Lobos ([e305](#e305)). Sale Rolo con seis de los suyos. Con Reputación −2 con los Lobos o `LOBOS_DEBILITADOS`, los suyos no pelean por él. Si no, te apuntan → [e687](#e687).
 
-**Rolo solo:** la Tana contra **Rolo** (Pelea 3, Aguante 4, Daño 2); cada uno que ayude recibe 1 Herida. Si gana, anotá `ROLO_MUERTO`: los Lobos se dispersan en 1d6 días, y entonces anotá `LOBOS_DERROTADOS`; la Tana pasa de Valiente a Leal. Si pierde, muere: −2 Moral.
+**Rolo solo:** **Rolo ×1 · Aguante 4 · Cerca**, con un facón (golpea como un vivo armado, r147). Pelea la Tana (r148); cada uno que la ayude recibe 1 Herida. Si gana, anotá `ROLO_MUERTO`: los Lobos se dispersan en 1d6 días, y entonces anotá `LOBOS_DERROTADOS`; la Tana pasa de Valiente a Leal. Si pierde, muere: −2 Moral.
 
 ---
 
@@ -346,7 +346,7 @@ Un soldado de veinticinco con una ginebra, en una torre. «El día 3 me ordenaro
 **Para que venga:** `[Labia]`. Con 10+, con el fusil (Daño 3, Lejos, 2 manos, +2 Ruido) y 6 Munición. Con 7–9, sin el fusil. Con `BUSCADO`, sin prueba: «Vos también te fuiste».
 
 > **Iván** · **Puntería 3** · Insomne
-> **Desertor:** cada Reputación que ganás con el Destacamento, −1 (hasta −3).
+> **Desertor:** las tres primeras veces que ganás Reputación con el Destacamento, ganás 1 menos.
 > **Necesidad:** lo buscan. A las 5 cartas → [e631](#e631).
 > **En la Noche 40:** desde el Techo, +2 a cualquier frente en las tres primeras oleadas (2 Munición cada una).
 > **Desenlace:** después de [e631](#e631) → [e632](#e632).
@@ -411,14 +411,14 @@ Campera de cuero, en un taxi con un partido grabado. «Medio tanque, en esta ciu
 
 > **El Ruso** · **Calle 3** · Fanfarrón
 > **Atajos:** al llegar a un barrio por la Calle, su tabla tiene −1.
-> **Necesidad:** habla demasiado (+1 Ruido por salida).
+> **Necesidad:** habla demasiado (su +1 Ruido de Fanfarrón en cada salida con vos).
 > **En la Noche 40 y desenlace:** si el taxi anda → [e638](#e638).
 
 <a id="e637"></a>
 ### e637 · El taxi
 *El Ruso · ◷ 0*
 
-Un 504 forrado en peluche. Anotá `EL_TAXI` (3 Combustible). Con el Ruso al volante, a un barrio vecino por la Calle en ◷ 1 (su tabla con +1), 4 personas y 12 casilleros; +2 Ruido al llegar, 1 Combustible cada dos viajes. Nadie más lo maneja.
+Un 504 forrado en peluche. Anotá `EL_TAXI`, con 3 Combustible en el tanque. Solo lo maneja el Ruso (e712), y él sale con vos.
 
 <a id="e638"></a>
 ### e638 · La última carrera
@@ -475,7 +475,7 @@ Una quemadura que le sube por el cuello. «Era bombera. Ya no».
 > **Valeria** · **Físico 3** · Valiente
 > **Bombera:** con ella, el fuego hace 1 Herida menos, y defender el refugio del fuego tiene +1.
 > **Necesidad:** por qué se fue. A las 6 cartas → [e643](#e643).
-> **En la Noche 40:** en la Puerta, +2 (con Valiente).
+> **En la Noche 40:** en la Puerta, +2 (ya incluye su +1 de Valiente).
 > **Desenlace:** al ver a Gauna → [e644](#e644).
 
 <a id="e643"></a>
@@ -568,7 +568,7 @@ Un perro negro con una chapita: «Si me encontrás, llamá a Marcos».
 **Para que venga:** 1 Víver. Con `EL_NEGRO`, ya es tuyo.
 
 > **El Negro** · perro · Leal
-> **El perro:** solo hace Guardia, y cuenta como guardia (−1 al sondeo) fuera del límite de −2. Come 1 Víver cada dos días. Nunca te sorprenden con él, pero suma +1 Ruido si sale.
+> **El perro:** solo hace Guardia, y cuenta como guardia (−1 al sondeo) fuera del límite de −2. Come 1 Víver los días pares. Nunca te sorprenden con él, pero suma +1 Ruido si sale.
 > **El bozal** (1 Tela, 1 Sujeción, ◷ 1): anotá `NEGRO_CON_BOZAL`. Sin Ruido, pero tampoco avisa.
 > **Necesidad:** la primera salida con vos → [e652](#e652).
 > **En la Noche 40:** [e653](#e653).

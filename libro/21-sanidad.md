@@ -72,7 +72,7 @@ En la entrada, la bandera de los de primer año: BIENVENIDOS AL FUTURO.
 
 **Tesoro:** si el Botiquín de la cuarentena está acá (r110) → [e530](#e530).
 
-- **Revisar** (r161). Un 5 da siempre el *Manual de primeros auxilios del Ejército* ([e771](#e771)).
+- **Revisar** (r161). El primer 5 que sacás es el *Manual de primeros auxilios del Ejército* ([e771](#e771)).
 - **Anatomía** (◷ 1): formol y alcohol, 3 Químicos.
 - **La sala de simulación:** un desfibrilador (1 Electrónica) y equipo de sutura: +1 a curar, como un Botiquín. Anotá `EQUIPO_DE_SUTURA`.
 
@@ -122,7 +122,7 @@ En la plaza, una carpa sanitaria del Comando abandonada como en una huida.
 
 - **Revisar** como Hospital (un 1 es nada). Queda como un lugar más de Sanidad.
 - **El registro de ingresos.** La última hoja: «Día 2. Orden de retirada. Protocolo 40 en marcha. No evacuar civiles». Una pista ([e560](#e560)).
-- **El generador portátil** (3 casilleros): con 1 Combustible, un día de Taladro o Soldadora; y el Generador del refugio ([e760](#e760)) cuesta la mitad.
+- **El generador portátil** (3 casilleros): con 1 Combustible, un día de Taladro o Soldadora; y el Generador del refugio ([e760](#e760)) cuesta la mitad de los materiales (r204).
 
 ---
 
@@ -143,7 +143,7 @@ En las sillas de plástico de la guardia, gente que espera turno desde hace sema
 
 En el segundo piso de la San Roque, luz de quirófano y música clásica.
 
-1. **Subir por la escalera de incendios.** `[Físico]`. Con 6−, cede: 1 Herida. Si no, un cirujano opera a un Callado atado a la camilla: «Tiene que haber algo que los mueva». Es el doctor Pereyra, y está loco. Con 10+ te da 2 Fármacos para que te vayas; con 7–9 te apunta con un bisturí. Una pista ([e560](#e560)). Con `[Labia]` 10+ viene al refugio: Medicina 3, Frío, y necesita un Callado vivo atado en el sótano. Anotá `EL_DOCTOR_PEREYRA`.
+1. **Subir por la escalera de incendios.** `[Físico]`. Con 6−, cede: 1 Herida y no subís. Con 7+, un cirujano opera a un Callado atado a la camilla: «Tiene que haber algo que los mueva». Es el doctor Pereyra, y está loco. Una pista ([e560](#e560)). Después, `[Labia]`: con 10+, viene al refugio (Medicina 3, Frío, y necesita un Callado vivo atado en el sótano; anotá `EL_DOCTOR_PEREYRA`); con 7–9, te da 2 Fármacos para que te vayas; con 6−, te apunta con un bisturí y te vas.
 2. **Seguir.** La luz queda encendida de noche, como un faro. Anotá `LA_LUZ_DE_SAN_ROQUE`: desde la Etapa II, cada alba, si no hay Procesión en Sanidad, poné una. Apagar el generador (◷ 1, o tener `EL_DOCTOR_PEREYRA`) borra la Marca.
 
 ---

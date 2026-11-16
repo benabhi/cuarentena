@@ -145,7 +145,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 **Antes de la Noche 40**
 - Lo que importa es **la Fiebre**: guardá Antivirales para el final.
 - **Con Reputación +2 con el Destacamento,** `AYUDASTE_EN_EL_MURO` o `EL_CABO_GIMENEZ`, Ocampo va a mirar para otro lado una vez: anotá `OCAMPO_MIRA_PARA_OTRO_LADO`.
-- **Bengalas.** En la Noche 40 iluminan la ciudad: cada oleada tiene **−1 a la Fuerza** (r221).
+- **Bengalas.** En la Noche 40 iluminan la ciudad: cada bengala que tires (una por oleada) le resta **1 a la Fuerza** de esa oleada (r221).
 - **Con `LA_VERDAD_ENTERA`,** sabés que miden con termómetros: un Antiviral esa misma mañana hace pasar a alguien con Fiebre 1 o 2.
 
 **El día 41.** El corredor abre a las diez. Llegar al Puesto Norte es ◷ 2 por la Calle, con encuentro. Pasa quien tiene Fiebre 0. Con `OCAMPO_MIRA_PARA_OTRO_LADO`, pasa una persona más con Fiebre; con `LA_VERDAD_ENTERA`, también quien tomó el Antiviral esa mañana. Cualquiera puede quedarse con los que no pasan; si sos vos, tu contador avanza a favor antes del epílogo (r198). Los que pasan son los **salvados** ([e940](#e940)). Si no pasaste, el final es **«Los que se quedaron»** ([e946](#e946)).

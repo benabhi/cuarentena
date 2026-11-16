@@ -419,7 +419,7 @@ class Partida:
             elif obj in ('casco', 'chaleco', 'campera'):
                 self.prot = 1
             elif obj == 'perro':
-                sv = Surv('Negro', r); sv.hab, sv.lvl, sv.arma = 'Pelea', 2, 2; self.grupo.append(sv)
+                sv = Surv('Negro', r); sv.hab, sv.lvl, sv.arma = 'Perro', 0, 0; self.grupo.append(sv)
             elif obj == 'farmacos3':
                 self.mats['Fármacos'] += 3
             elif obj == 'antiviral':
@@ -463,11 +463,11 @@ class Partida:
         self.inst = set()
         if self.ref_id == 'e480':
             self.inst |= {'Cisterna', 'Vigía'}
-        if self.ref_id == 'e460':                       # patrulleros, escopeta y el Negro
+        if self.ref_id == 'e460':                       # patrulleros, revólver y el Negro
             self.herr.add('Botiquín')
-            self.arma('una escopeta')
+            self.arma('un revólver')
             if not any(x.n == 'Negro' for x in self.grupo):
-                s = Surv('Negro', r); s.hab, s.lvl, s.arma = 'Pelea', 2, 2; self.grupo.append(s)
+                s = Surv('Negro', r); s.hab, s.lvl, s.arma = 'Perro', 0, 0; self.grupo.append(s)
         if self.ref_id == 'e450':                       # el revólver de Don Ramón
             self.arma('un revólver')
             self.muni += 3
@@ -1188,12 +1188,15 @@ class Partida:
                     self.deb.discard(d)
                     self.animo = min(6, self.animo + 1)
                     self.stats['debilidad_superada'] += 1
-        if 'Vicio' in self.deb:
-            if self.dia % 7 == 1:
+        if 'Vicio' in self.deb:                         # r105: paga los días 7, 14, 21, 28 y 35
+            if self.dia % 7 == 0 and self.dia <= 35:
                 if self.viv > self.gente():
                     self.viv -= 1
                 else:
-                    self.animo = max(0, self.animo - 2)
+                    self.abst = 3                       # abstinencia: −1 Ánimo ese alba y los dos siguientes
+            if self.abst > 0:
+                self.animo = max(0, self.animo - 1)
+                self.abst -= 1
         if P['motivo'] == 'El que falta' and self.encontrado is None and self.dia >= 2:
             if self.stats['salidas'] > self.stats.get('_salidas', 0) and R.random() < self.aj['senal']:
                 self.falta += 1
@@ -1550,7 +1553,7 @@ class Partida:
             if s.grave:
                 s.h = max(0, s.h - 1)
                 s.grave = s.h > 1
-        libres = [s for s in self.grupo if not s.grave]
+        libres = [s for s in self.grupo if not s.grave and s.n != 'Negro']   # el perro solo hace Guardia (e651)
         self.r.shuffle(libres)
         guardia, cocina, huerta = 0, False, 0
         for s in libres:
@@ -1582,9 +1585,11 @@ class Partida:
             self.h -= 1
         if self.h == 1 and (self.maxh == 5 or self.aj['mayor_magullado']):
             self.h = 0       # el Descanso borra Magullado (la Mayor no tiene esa casilla)
-        tir = d6(self.r) + d6(self.r) - min(2, guardia) - (1 if 'Vigía' in self.inst else 0) + \
-            (2 if self.procs[self.home] else 0)
-        if tir <= self.rastro:
+        sondeo = self.rastro - min(2, guardia) - (1 if 'Vigía' in self.inst else 0) + \
+            (2 if self.procs[self.home] else 0)            # r175: los ajustes van al Rastro
+        if any(x.n == 'Negro' and not x.grave for x in self.grupo):
+            sondeo -= 1                                     # el perro, fuera del límite (e651)
+        if d6(self.r) + d6(self.r) <= sondeo:
             try:
                 self.sondeo()
             except Caida as c:
@@ -1657,7 +1662,7 @@ class Partida:
         self.en_noche40 = True
         R = self.r
         frs = self.frs()
-        defensores = [s for s in self.grupo if not s.grave and not (s.fiebre >= 3)]
+        defensores = [s for s in self.grupo if not s.grave and not (s.fiebre >= 3) and s.n != 'Negro']
         olas = 3 + self.rastro // 3 + self.aj['olas_extra']
         aliado = 3 if self.rep >= self.aj['rep_aliado'] else 0
         if aliado:

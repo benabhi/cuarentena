@@ -170,7 +170,7 @@ Alguien (o vos) amanece con escalofríos y tos. Es una gripe.
 
 Una hoja pegada a la puerta. 1d6:
 
-- **1–2 · La Parroquia:** «Hay lugar en la Catedral para los que vengan sin armas.» Si vas a la Catedral ([e201](#e201)) antes de tres cartas, +1 Reputación.
+- **1–2 · La Parroquia:** «Hay lugar en la Catedral para los que vengan sin armas.» Si vas a la Catedral ([e201](#e201)) en los próximos tres días, +1 Reputación.
 - **3 · Los Bomberos:** «El agua cuesta. Pasá por el cuartel.» Anotá `LOS_BOMBEROS_SABEN`.
 - **4 · Los Lobos:** «Linda casa. Volvemos en una semana a buscar lo nuestro.» Anotá `AVISO_DE_LOS_LOBOS`.
 - **5 · Sin firma:** «No escuchen la radio. Los cuarenta días son mentira.» Una pista ([e560](#e560)).
@@ -263,7 +263,9 @@ Poné una Procesión en el barrio de tu refugio (si había una, es doble). Mient
 
 Tres tipos con caños y un revólver: «Esta cuadra es nuestra».
 
-1. **Pagar.** 2 Víveres y anotá `PEAJE`: cada vez que las Espadas den un 3, vuelven a cobrar.
+**Con `PEAJE`,** vienen a cobrar: 2 Víveres, o elegí 2 o 3.
+
+1. **Pagar.** 2 Víveres y anotá `PEAJE`: cada vez que vuelvas a esta entrada, vuelven a cobrar.
 2. **Negociar.** `[Labia]`. Con 10+, se van con 1 Víver y prometen cuidar la cuadra: anotá `LOS_DE_LA_CUADRA` (en la Noche 40 suman 2 a la Puerta). Con 7–9, se van con 1 Víver. Con 6−, [r312](#r312) en tu puerta (+1 Rastro).
 3. **Echarlos.** Con un arma de fuego a la vista o 3 sobrevivientes armados, se van para siempre. Si no, [r312](#r312).
 
@@ -276,7 +278,7 @@ Tres tipos con caños y un revólver: «Esta cuadra es nuestra».
 1d6 según la Etapa (1–3 / 4–6): **I** Fresco ([e721](#e721)) / Hinchado ([e722](#e722)) · **II** Chillona ([e723](#e723)) / Sabuesos ×1d6 ([e725](#e725)) · **III** Bruto ([e726](#e726)) / Escupidor ([e727](#e727)) · **IV** La Viuda ([e730](#e730)) / Blindados ×2 ([e729](#e729)).
 
 1. **Salir a matarlo.** Combate Lejos, en la calle. Si ganás, +1 Ánimo (y +1 Rastro con armas de fuego).
-2. **Esperar.** Sondeo seguro esta noche ([e072](#e072)); si sale 5 en el tipo, es este.
+2. **Esperar.** Sondeo seguro esta noche ([e072](#e072)); si en «Qué es» sale 5, el especial es este.
 3. **Un Señuelo** a dos cuadras. Se va.
 
 ---
@@ -307,7 +309,7 @@ Tres tipos con caños y un revólver: «Esta cuadra es nuestra».
 Amanecen en la puerta: **Callados ×2d6**, empujando despacio.
 
 - Mientras estén, **no salís por la Calle** (sí por Azoteas o Subsuelo, si el refugio tiene salida).
-- Cada anochecer, la Puerta pierde 1 por cada 3 Callados.
+- Cada anochecer, la Puerta pierde 1 por cada 3 Callados completos (con 2, nada; con 7, 2).
 - **Desde arriba,** con armas a distancia: combate Lejos, y no avanzan. El Ruido cuenta como siempre.
 - **Abrir y pelear:** combate Cerca.
 - **Esperar:** cada alba, con 4–6 en 1d6, se van.
@@ -327,7 +329,7 @@ Tirá el barrio en r155: queda **en llamas** (r159). Si es el tuyo o uno vecino,
 *El Perímetro · ◷ 0*
 
 - **Dos Procesiones** nuevas en el Perímetro.
-- Anotá `EL_MURO_CEDIO`: en la Noche 40, la primera oleada tiene +2 a la Fuerza.
+- Anotá `EL_MURO_CEDIO`: en la Noche 40, la primera oleada tiene +2 a la Fuerza. Con `TRAMO_REFORZADO` ([e435](#e435)), no la anotes.
 - Con `CONTRATO_DEL_MURO`, sabés qué sección fue y por qué → [e814](#e814).
 
 ---
@@ -362,7 +364,7 @@ Con Cisterna, +1 Víver. Llegar por la Calle hoy no suma Ruido. +1 Moral con 3 s
 ### e053 · Helada
 *Tolme · ◷ 0*
 
-- **Abrigo:** cada persona sin ropa gruesa o 1 Tela cuesta −1 Moral o −1 Reserva (elegís).
+- **Abrigo:** cada persona sin abrigo (una campera, un chaquetón o un traje de cuero, e710, o 1 Tela que se gasta) cuesta −1 Moral o −1 Reserva (elegís).
 - **Fuego:** con Cocina a leña nadie pasa frío, pero +1 Rastro.
 - **Afuera:** hoy los Callados avanzan un paso cada dos rondas. Buen día para salir, aunque sin abrigo el Físico tiene Desventaja.
 

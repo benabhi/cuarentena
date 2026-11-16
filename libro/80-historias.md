@@ -54,7 +54,7 @@ En la libreta de turnos, con la letra de Raquel: «Al que tenga la lista: los de
 
 Insulina tibia, que sirve unos días. Ferro, cama 7, vive arriba de la panadería de Rivadavia.
 
-1. **Ir ya** (◷ 1, en el Casco). Con 1–2 en 1d6, llegás tarde: está convertida y atada (−1 Ánimo, cruz para Ferro). Con 3–6, en coma; con `[Medicina]` 7+ despierta, y vienen ella y su marido. Tachala. +1 Juramento.
+1. **Ir ya** (◷ 1, en el Casco). Con 1–2 en 1d6, llegás tarde: está convertida y atada (−1 Ánimo, cruz para Ferro). Con 3–6, en coma; `[Medicina]`: con 7+ despierta, y vienen ella y su marido (tachala, +1 Juramento); con 6−, no despierta (cruz para Ferro).
 2. **Guardarla** (1 casillero), por si un evento trae a un diabético.
 
 ---
@@ -546,7 +546,7 @@ En todos los casos viene con lo que dice su fila de [e840](#e840), salvo que dig
 - **Vivo y solo,** en un tanque de agua. Sin puestos 3 noches. +1 Esperanza.
 - **Del otro lado.** Su letra en la pared: «Me sacaron. Escollera. Día 6. Seguí». +2 Esperanza y anotá `TE_ESPERA_AFUERA`: si estás entre los salvados, +1 a tu contador antes del epílogo.
 - **Con una facción,** la del barrio más cercano. `[Labia]` con ellos (sin prueba con Reputación +1). Con 10+, viene; con 7–9, viene y te cobran 3 Víveres o materiales; con 6−, −1 Reputación y otro día. Si nunca viene, sabés que está bien: +1 Esperanza.
-- **Atrapado** en un último piso rodeado. **Callados ×2d6 · Lejos** en la escalera (r331), o las Azoteas con Soga y `[Físico]` (con 6−, 1 Herida y ◷ 1 más). +1 Esperanza. Si hoy no llegás, mañana sigue ahí; pasado, volvé a tirar en [e845](#e845).
+- **Atrapado** en un último piso rodeado. **Callados ×2d6 · Lejos** en la escalera (r332), o las Azoteas con Soga y `[Físico]` (con 6−, 1 Herida y ◷ 1 más). +1 Esperanza. Si hoy no llegás, mañana sigue ahí; pasado, volvé a tirar en [e845](#e845).
 
 ---
 
@@ -588,7 +588,7 @@ Volvé a [e007](#e007).
 - **La ampolla** (`HICISTE_LA_AMPOLLA`). En el Fiat gris, el padre muerto con la jeringa; atrás, algo se mueve. Abrir (**Callado ×1 · Encima**, chico, Aguante 1): −1 Culpa, −2 Ánimo. O escribir una palabra en el vidrio con el dedo: −1 Ánimo.
 - **La denuncia** (`HICISTE_LA_DENUNCIA`). Su ficha: «Sin fiebre. Derivado a sector B». No tenía fiebre. Buscarlo, como en [e807](#e807): vivo, en un catre, te mira. Llevártelo: −2 Culpa, −2 Reputación con el Destacamento. Si no, −1 Culpa.
 - **El último lugar** (`HICISTE_EL_LUGAR`). Bajar entre los pilotes, `[Físico]` (con 6−, **Ahogado ×1 · Encima**, [e728](#e728)). Con 7+, su billetera: ahora tiene nombre. Anotalo. −1 Culpa.
-- **El abandono** (`HICISTE_EL_ABANDONO`). La marca de algo pesado que alguien corrió solo, desde adentro. Salió. −1 Culpa, y la herramienta de r106 que no elegiste.
+- **El abandono** (`HICISTE_EL_ABANDONO`). La marca de algo pesado que alguien corrió solo, desde adentro. Salió. −1 Culpa, y el otro objeto de tu oficio, el que no elegiste (r106).
 
 ---
 

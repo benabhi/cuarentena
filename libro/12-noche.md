@@ -78,8 +78,8 @@ Un grito largo, agudo, frente al refugio: una Chillona ([e723](#e723)), llamando
 Un Hinchado ([e722](#e722)) se apoya contra el frente.
 
 - **Dejarlo:** al alba revienta: el frente pierde **1**, y la bilis trae Callados: sondeo seguro la noche siguiente.
-- **Matarlo de lejos** `[Puntería]`: con 7+, revienta lejos. Con 6−, contra el frente.
-- **Empujarlo con una pala** desde el techo: con 1–3 en 1d6, te salpica: 1 Herida y Desventaja hasta que te bañes (1 Víver de agua).
+- **Matarlo de lejos** `[Puntería]`: con 7+, revienta lejos y no pasa nada. Con 6−, revienta contra el frente: pierde **1**.
+- **Empujarlo con una pala** desde el techo: cae lejos y revienta solo. Con 1–3 en 1d6, además te salpica: 1 Herida y Desventaja hasta que te bañes (1 Víver de agua).
 
 ---
 

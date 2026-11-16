@@ -26,6 +26,8 @@ Hay **reglas** (**rXXX**), que explican cómo se juega, y **eventos** (**eXXX**)
 
 - `[Oficio]`: prueba, 2d6 + tu Oficio (r120). `[Sigilo · Desv.]`: con Desventaja (r121). `[Medicina · +1 con Botiquín]`: con un bonificador si tenés lo que dice.
 - **▢**: una casilla de **stock** de un lugar (r160). `MARCA`: palabra clave que anotás en tu hoja (r196). **★**: evento hito; al superarlo, marcás 3 casillas de práctica donde quieras (r124).
+- **La mitad** (de un Daño, de unos Víveres, de un grupo): si el texto no dice otra cosa, redondeá **hacia arriba**. La mitad de 5 es 3; la de 1, 1.
+- **Una semana** son siete días: 1–7, 8–14, 15–21, 22–28, 29–35 y 36–40. «Una vez por semana» es una vez en cada una; lo que se paga «por semana» se paga al alba de los días 7, 14, 21, 28 y 35.
 
 Bajo el título de cada evento dice **dónde ocurre** y **cuánto tiempo gasta**: **◷ 0** nada; **◷ 1, ◷ 2…** esas horas de luz (r133); **◷ noche**, tu acción de la noche (r134).
 
@@ -46,8 +48,6 @@ Bajo el título de cada evento dice **dónde ocurre** y **cuánto tiempo gasta**
 
 <a id="r100"></a>
 ### r100 · La noche del brote
-
-> *«Nadie estaba preparado. Algunos estaban, por lo menos, despiertos.»*
 
 Tu protagonista es una persona común que estaba en Tolme la noche que empezó todo. Contestá **seis preguntas sobre esa noche**, eligiendo o tirando: tirar te da a alguien que no se te habría ocurrido.
 
@@ -149,9 +149,9 @@ Elegí **una** debilidad, o **dos** y ganás 1 punto de Habilidad más. Anotá s
 - **La espalda** (`LA_ESPALDA`): para retroceder (r142), correr y cargar, tu Físico cuenta como 1. *Se supera:* una faja, en el lugar que te tocó (abajo), o tres noches seguidas en la Enfermería.
 - **Buscado** (`BUSCADO`): el Destacamento te busca (1d6 abajo). *Se supera:* Reputación +3 con el Destacamento, o que Ocampo te borre del libro ([e692](#e692)).
 - **Miedo** (`MIEDO`): con Ánimo 3 o menos, Pelea y Puntería tienen Desventaja. *Se supera:* matar a un infectado especial con un arma de mano.
-- **Asma** (`ASMA`): sin inhalador, retroceder y correr tienen Desventaja. Un inhalador sirve un día. *Se supera:* en el lugar que te tocó hay 3 por visita; con 6 juntos, aprendiste a respirar.
+- **Asma** (`ASMA`): cada alba gastás 1 inhalador (entran 3 por casillero); el día que no tenés, retroceder y correr tienen Desventaja. *Se supera:* el lugar que te tocó (abajo) da 3 inhaladores cada vez que lo revisás; el día que tenés 6 a la vez, aprendiste a respirar.
 - **Anteojos** (`ANTEOJOS`): sin anteojos, Desventaja en todo lo que sea Lejos. Con un 6 en Mordidas (r144), se rompen. *Se supera:* un par nuevo, en el lugar que te tocó.
-- **Un vicio** (`VICIO`): cigarrillos o alcohol (1 Víver o un atado por semana) o pastillas (1 Fármaco por semana). Sin él, −1 Ánimo cada alba. *Se supera:* dos semanas seguidas sin consumir (−1 Ánimo cada alba esos días).
+- **Un vicio** (`VICIO`): cigarrillos o alcohol (1 Víver, o un atado de cigarrillos de la Aduana, [e244](#e244)) o pastillas (1 Fármaco), que pagás al alba de los días 7, 14, 21, 28 y 35. Si no pagás, la abstinencia: −1 Ánimo ese alba y los dos siguientes. *Se supera:* no pagar dos de esas fechas seguidas.
 
 **Por qué te buscan,** 1d6: **1** desertaste; **2** te escapaste del control sanitario; **3** golpeaste a un soldado; **4** robaste raciones; **5** estás en una lista del Comando sin saber por qué; **6** viste algo en el Puesto Norte.
 
@@ -162,9 +162,9 @@ Elegí **una** debilidad, o **dos** y ganás 1 punto de Habilidad más. Anotá s
 <a id="r106"></a>
 ### r106 · ¿Qué tenías encima?
 
-Todos empiezan con **ropa de calle**, un **encendedor** y un **celular sin señal** (linterna 3 veces). Además, uno de los dos objetos de tu oficio y uno de la tabla del bolsillo.
+Todos empiezan con **ropa de calle**, un **encendedor** y un **celular sin señal** (sirve de Linterna con Usos 3, que no se recargan). Además, uno de los dos objetos de tu oficio y uno de la tabla del bolsillo.
 
-**Del oficio, elegí uno:** *Salud:* Botiquín · Las llaves de la ambulancia 12 (`LLAVES_DE_LA_AMBULANCIA`, [e212](#e212)); *Obra:* Martillo · Soplete con una garrafa chica (1 Combustible); *Policía:* Las llaves de la Comisaría 7.ª (`LLAVES_DE_LA_SEPTIMA`, [e460](#e460)) · Radio policial (`RADIO_POLICIAL`: escuchás al Destacamento, [e690](#e690)); *Reparto:* Casco de moto (cuenta como Casco, e710) · Ganzúas (+1 para abrir cerraduras); *Farmacia:* 3 Fármacos · 1 Antiviral y 1 Fármaco; *Comercio:* Sobre con dinero (vale 3 en un cambio, r166) · Campera de cuero (protección −1); *Mecánica:* Llave inglesa · Batería de auto; *Cocina:* Olla a presión · Cuchillo (e700); *Docencia:* Un manual a elección ([e770](#e770)) · Un silbato (Señuelo de 3 usos, r156); *Seguridad:* El Negro, el perro del depósito (`EL_NEGRO`, [e651](#e651)): se une ya · Chaleco antibala; *Electricidad:* Linterna de dínamo · Radio a pilas; *Deporte:* Bate de aluminio · Mochila de camping (+2 casilleros).
+**Del oficio, elegí uno:** *Salud:* Botiquín · Las llaves de la ambulancia 12 (`LLAVES_DE_LA_AMBULANCIA`, [e212](#e212)); *Obra:* Martillo · Soplete con una garrafa chica (hace de Soldadora sin Generador; gasta 1 Combustible por receta, y la garrafa trae 1); *Policía:* Las llaves de la Comisaría 7.ª (`LLAVES_DE_LA_SEPTIMA`, [e460](#e460)) · Radio policial (`RADIO_POLICIAL`: escuchás al Destacamento, [e690](#e690)); *Reparto:* Casco de moto (cuenta como Casco, e710) · Ganzúas (+1 para abrir cerraduras); *Farmacia:* 3 Fármacos · 1 Antiviral y 1 Fármaco; *Comercio:* Sobre con dinero (vale 3 en un cambio, r166) · Campera de cuero (protección −1); *Mecánica:* Llave inglesa · Batería de auto; *Cocina:* Olla a presión · Cuchillo (e700); *Docencia:* Un manual a elección ([e770](#e770)) · Un silbato (Señuelo de 3 usos, r156); *Seguridad:* El Negro, el perro del depósito (`EL_NEGRO`, [e651](#e651)): se une ya · Chaleco antibala; *Electricidad:* Linterna de dínamo · Radio a pilas; *Deporte:* Bate de aluminio · Mochila de camping (+2 casilleros).
 
 **Lo que tenías en el bolsillo** (1d6): **1** una mochila buena: +2 casilleros; **2** un cuchillo de cocina (Cuchillo, e700); **3** una linterna de verdad (Linterna); **4** el botiquín de tu auto: 1 Fármaco; **5** una barra de hierro: cuenta como Palanca; **6** una foto (`LA_FOTO`): una vez por partida, recuperás todo tu Ánimo.
 
@@ -248,7 +248,7 @@ Cuando el resultado está en duda, el libro pide una **prueba**: `[Habilidad]`.
 > **7 a 9 · Con precio:** lo lográs, pero pagás lo que diga el evento.
 > **6 o menos · Fallo:** no lo lográs. Marcás **práctica** (r124).
 
-Los umbrales nunca cambian; cambian tu Habilidad, la Ventaja y las herramientas. Si una opción no dice qué pasa con 7–9, lo lográs y pagás un precio a elección: 1 Ruido, 1 Herida, 1 uso, 1 hora, 1 Víver o 1 Ánimo.
+Los umbrales nunca cambian; cambian tu Habilidad, la Ventaja y las herramientas. Si una opción no dice qué pasa con 7–9, lo lográs y pagás un precio a elección: 1 Ruido, 1 Herida, 1 uso, 1 hora, 1 Víver o 1 Ánimo. Si pide un número («`[Calle]` 10+»), solo ese resultado alcanza.
 
 <a id="r121"></a>
 ### r121 · Ventaja y Desventaja
@@ -355,7 +355,7 @@ Un barrio vecino por la Calle o el Subsuelo, ◷ 1; por las Azoteas, ◷ 2 (r152
 
 1. **Puestos:** cada sobreviviente toma un puesto (r181). Vos también, o salís (r158).
 2. **Producción:** cada puesto produce (r181).
-3. **El sondeo:** tirá 2d6. Si sale **igual o menor que el Rastro**, los Callados tantean el refugio → [e072](#e072). La Guardia y algunas instalaciones modifican la tirada (r175).
+3. **El sondeo:** tirá 2d6. Si sale **igual o menor que el Rastro**, los Callados tantean el refugio → [e072](#e072). La Guardia y algunas instalaciones bajan ese número (r175).
 4. **El grupo:** con Moral 2 o menos → [e080](#e080). Resolvé lo que quedó «para la noche».
 5. **Dormir:** cualquier puesto que no sea Guardia es dormir. Dos noches seguidas sin dormir, −1 Ánimo.
 

@@ -9,13 +9,13 @@ BARRIOS = {   # n: (nombre, (x, y), anclaje de la etiqueta, entrada «llegar», 
     2: ('Sanidad', (455, 330), 'e', 'e220', 'Edificio Sarmiento'),
     3: ('El Puerto', (265, 455), 's', 'e240', 'Cuartel de la calle Brown'),
     4: ('La Fabril', (95, 430), 'w', 'e260', None),
-    5: ('Los Bloques', (330, 185), 'ne', 'e280', 'Escuela N.º 9'),
+    5: ('Los Bloques', (330, 185), 'nw', 'e280', 'Escuela N.º 9'),
     6: ('Las Lomas', (560, 110), 'n', 'e300', None),
     7: ('La Estación', (190, 335), 'w', 'e320', 'Comisaría 7.ª'),
     8: ('El Mercado', (200, 215), 'w', 'e340', 'Supermercado Del Barrio'),
-    9: ('Ciudad Universitaria', (545, 445), 'e', 'e360', None),
+    9: ('Ciudad|Universitaria', (535, 432), 's', 'e360', None),
     10: ('La Costanera', (410, 530), 's', 'e380', None),
-    11: ('Cementerio y Parque', (440, 150), 'n', 'e400', None),
+    11: ('Cementerio|y Parque', (440, 150), 'n', 'e400', None),
     12: ('El Perímetro', (95, 110), 'n', 'e420', None),
 }
 CALLE = [(3, 1), (1, 2), (2, 9), (9, 10), (10, 3),             # línea del río
@@ -63,11 +63,13 @@ def svg_mapa(clase='mapa', enlaces=True):
         p.append(f'<line x1="{xa}" y1="{ya}" x2="{xb}" y2="{yb}" stroke="{AMARILLO}" stroke-width="8" stroke-linecap="round"/>')
     # el Subsuelo: rojo, paralelo a la calle
     for a, b in SUBSUELO:
+        a, b = sorted((a, b))      # el mismo lado siempre: el rojo nunca pisa al gris
         (xa, ya), (xb, yb) = _desplazar(P[a], P[b], 9)
         p.append(f'<line x1="{xa:.1f}" y1="{ya:.1f}" x2="{xb:.1f}" y2="{yb:.1f}" stroke="{ROJO}" stroke-width="4" '
                  f'stroke-dasharray="9 4"/>')
     # las Azoteas: gris punteado, del otro lado
     for a, b in AZOTEAS:
+        a, b = sorted((a, b))
         (xa, ya), (xb, yb) = _desplazar(P[a], P[b], -9)
         p.append(f'<line x1="{xa:.1f}" y1="{ya:.1f}" x2="{xb:.1f}" y2="{yb:.1f}" stroke="{GRIS}" stroke-width="3.2" '
                  f'stroke-dasharray="2 4" stroke-linecap="round"/>')
@@ -80,16 +82,20 @@ def svg_mapa(clase='mapa', enlaces=True):
             g += (f'<rect x="{x + 13}" y="{y - 27}" width="16" height="16" fill="{TINTA}"/>'
                   f'<path d="M{x + 15},{y - 17} l6,-6 6,6 v4 h-12z" fill="{AMARILLO}"/>')
         p.append(f'<a href="#{tabla}">{g}</a>' if enlaces else g)
-        dx, dy, ta = {'n': (0, -32, 'middle'), 's': (0, 42, 'middle'), 'e': (30, 6, 'start'), 'w': (-30, 6, 'end'),
-                      'ne': (24, -24, 'start')}[anc]
-        etiqueta = nombre.upper()
-        w = len(etiqueta) * 8.4 + 10
+        dx, dy, ta = {'n': (0, -45, 'middle'), 's': (0, 42, 'middle'), 'e': (30, 6, 'start'), 'w': (-30, 6, 'end'),
+                      'ne': (24, -24, 'start'), 'nw': (-22, -40, 'end')}[anc]
+        lineas = nombre.upper().split('|')
+        if anc == 'n':
+            dy -= 17 * (len(lineas) - 1)
+        w = max(len(l) for l in lineas) * 8.4 + 10
+        alto = 17 * len(lineas) + 14
         bx = x + dx - (w / 2 if ta == 'middle' else (w - 4 if ta == 'end' else 4))
-        et.append(f'<rect x="{bx:.1f}" y="{y + dy - 14}" width="{w:.1f}" height="19" fill="{PAPEL}" opacity=".92"/>')
-        et.append(f'<text x="{x + dx}" y="{y + dy}" text-anchor="{ta}" font-family="PT Sans Narrow" font-weight="700" '
-                  f'font-size="15" letter-spacing="1" fill="{TINTA}">{etiqueta}</text>')
-        et.append(f'<text x="{x + dx}" y="{y + dy + 13}" text-anchor="{ta}" font-family="IBM Plex Mono" font-size="9.5" '
-                  f'fill="{TINTA}" opacity=".7">{tabla}</text>')
+        et.append(f'<rect x="{bx:.1f}" y="{y + dy - 14}" width="{w:.1f}" height="{alto}" fill="{PAPEL}" opacity=".94"/>')
+        for k, l in enumerate(lineas):
+            et.append(f'<text x="{x + dx}" y="{y + dy + 17 * k}" text-anchor="{ta}" font-family="PT Sans Narrow" font-weight="700" '
+                      f'font-size="15" letter-spacing="1" fill="{TINTA}">{l}</text>')
+        et.append(f'<text x="{x + dx}" y="{y + dy + 17 * (len(lineas) - 1) + 13}" text-anchor="{ta}" font-family="IBM Plex Mono" '
+                  f'font-size="9.5" font-weight="500" fill="{TINTA}">{tabla}</text>')
     p.append(''.join(et))
     # leyenda
     ly = 22

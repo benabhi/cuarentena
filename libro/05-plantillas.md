@@ -43,7 +43,7 @@ No tienen a dónde ir. Tirá en la tabla de sobrevivientes (r180): si lo aceptá
 <a id="r305"></a>
 ### r305 · Emboscada
 
-**Vivos ×1d6 · Aguante 2 cada uno · Cerca;** con 4–6 en 1d6, uno tiene un arma de fuego (r147). Empiezan ellos: antes de tu primera ronda, una tirada de Mordidas (r144), en la que un 6 es solo 1 Herida.
+**Vivos ×1d6 · Aguante 2 cada uno · Cerca;** con 4–6 en 1d6, uno tiene un arma de fuego (r147). Empiezan ellos: antes de tu primera ronda, una tirada de Mordidas (r144), en la que un 6 es solo 1 Herida (r147).
 
 Si ganás, revisá los cuerpos: 1d6 tiradas de botín de Vivienda (r162).
 
@@ -72,7 +72,7 @@ Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos
 
 «Dejá la mochila en el piso».
 
-- **Obedecer:** perdés la mitad de lo que llevás (redondeando hacia arriba). Te dejan ir.
+- **Obedecer:** perdés la mitad de los casilleros ocupados de tu Mochila (redondeando hacia arriba; elegís cuáles). Te dejan ir.
 - **Hablar** `[Labia]`: con 10+, bajan el arma y es un Trueque ([r301](#r301)); con 7–9, perdés solo 1 casillero; con 6−, disparan: 1 Herida y [r305](#r305).
 - **Pelear:** [r305](#r305), pero empiezan con un disparo: 1 Herida automática.
 

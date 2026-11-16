@@ -11,7 +11,7 @@
 
 Le quedan 2 horas. Por la Calle tardaría 1, pero con Ruido, encuentro y sin inhalador: vuelve por arriba. Pinta la marca de búsqueda (una X con un 7, «1» a la izquierda, «nadie» a la derecha) y, abajo, EZEQUIEL ([e842](#e842)).
 
-**La noche.** Lucía hace Guardia, el Chino cocina (+1 Moral, y mañana comen un Víver menos), Pocho hace Obra (+1 a la Puerta) y Nadia descansa. Sondeo: Rastro 3; tira 2d6 − 1 por la guardia y saca 6. Nada. Quedan treinta y tres cartas.
+**La noche.** Lucía hace Guardia, el Chino cocina en la Cocina a leña que armaron el día 4 (+1 Moral, y mañana comen un Víver menos), Pocho hace Obra con 1 Madera (+1 a la Puerta) y Nadia descansa. Sondeo: Rastro 3, −1 por la guardia, 2; tira 2d6 y saca 6. Nada. Quedan treinta y tres cartas.
 
 ---
 
@@ -27,9 +27,9 @@ Para fabricar necesitás **conocer la receta** (r203), **los materiales** (r165)
 <a id="r202"></a>
 ### r202 · Herramientas
 
-Las herramientas no se gastan. Encima, ocupan 1 casillero.
+Las herramientas no se gastan. En la Mochila, cada una ocupa 1 casillero.
 
-**Martillo:** barricadas, trampas, casi todo lo de madera. **Serrucho:** madera, caños y huesos. **Llave inglesa:** motores, caños, bulones. **Palanca:** forzar puertas y postigos (+1); también es un arma (Daño 1). **Taladro:** chapas y rejas; necesita Generador o una batería. **Soldadora:** rejas, blindajes, brazales; necesita Generador. **Máquina de coser:** ropa, protecciones, cortinas. **Olla a presión:** destilar, esterilizar, conservas. **Kit de recarga:** cartuchos. **Botiquín:** +1 a curar y cuenta para las recetas de medicina.
+**Martillo:** barricadas, trampas, casi todo lo de madera. **Serrucho:** madera, caños y huesos. **Llave inglesa:** motores, caños, bulones. **Palanca:** forzar puertas y postigos (+1); también es un arma (Daño 1). **Pala:** fosos y huertas; también es un arma (e700). **Taladro:** chapas y rejas; necesita Generador o una batería. **Soldadora:** rejas, blindajes, brazales; necesita Generador. **Máquina de coser:** ropa, protecciones, cortinas. **Olla a presión:** destilar, esterilizar, conservas. **Kit de recarga:** cartuchos. **Botiquín:** +1 a curar y cuenta para las recetas de medicina.
 
 **Herramienta al azar (1d6):** 1 Martillo · 2 Serrucho · 3 Llave inglesa · 4 Palanca · 5 Taladro · 6 Máquina de coser.
 
@@ -85,7 +85,7 @@ Un arma o protección rota (Usos 0) se repara en el refugio con ◷ 1 y 1 Metal 
 ### r210 · Modos de juego
 
 - **Cuarentena:** las reglas como están. Meta: el amanecer del día 41 con el refugio en pie.
-- **Toque de queda** (partida corta): sacá los 1, 2 y 3 de cada palo (28 cartas). La Etapa sube con las cartas 8, 15 y 22. Empezás con 4 Víveres más. Si un evento nombra una carta por su número, multiplicalo por 0,7 y redondeá (la 35 es la 25; la 40, la 28).
+- **Toque de queda** (partida corta): sacá los 1, 2 y 3 de cada palo (28 cartas). La Etapa sube con las cartas 8, 15 y 22. Empezás con 4 Víveres más. Si un evento nombra una carta por su número, multiplicalo por 0,7 y redondeá al entero más cercano, con ,5 hacia arriba (la 35 es la 25; la 40, la 28).
 - **Lobo solo:** sin sobrevivientes (los que encuentres te dan lo que tengan y se van) y sin Moral (perdés Ánimo donde se perdería Moral). La Marea tiene 2 oleadas menos. Meta: llegar vivo al amanecer.
 - **Éxodo:** el refugio es temporal. Meta: cruzar el perímetro antes de la Noche 40 con al menos un sobreviviente ([e960](#e960)).
 
@@ -119,7 +119,7 @@ Este libro es tuyo: si una regla te molesta, cambiala. Tres que se probaron:
 
 La carta cuarenta es el último día. Resolvela, comé, usá tus 6 horas… y prepará todo. Esa noche no hay puestos, producción ni sondeo: hay **Marea**.
 
-1. **Contá a tu gente.** Defienden los que están en el refugio; los de afuera no llegan.
+1. **Contá a tu gente.** Defienden los que están en el refugio; los de afuera no llegan. Si la noche te agarra afuera a vos, volvés a oscuras (r158) y llegás justo; si no volvés, la Marea te encuentra en la calle → [e990](#e990).
 2. **Asigná defensores:** cada persona (vos incluido) va a un frente. Los que no pueden pelear (chicos, Graves) van al Último Cuarto.
 3. **Repartí lo que tengas:** armas, Molotovs, Munición, trampas colocadas.
 4. **Calculá las oleadas** (r221).
@@ -170,7 +170,7 @@ Entre una oleada y la siguiente, cada persona puede hacer **una** cosa:
 
 - **Cambiar de frente.**
 - **Reforzar:** +2 Resistencia a su frente, gastando 1 Madera o 1 Metal.
-- **Curar:** `[Medicina]` y 1 Fármacos: borra 1 Herida a alguien.
+- **Curar:** 1 Fármacos y `[Medicina]`: con 7+, borra 1 Herida a alguien; con 6−, el Fármaco se pierde.
 - **Colocar una trampa** que ya esté fabricada.
 - **Descansar:** nada, y nadie le reprocha nada.
 

@@ -71,7 +71,7 @@ Seis góndolas, una carnicería al fondo y un frente todo vidriera: «FIDEOS 2×
 > **Víveres:** 10 · **Materiales:** 1 Tela, 1 Químicos, 1 Combustible
 > **Rastro inicial:** 2
 
-- **Don Ramón,** antes de revisar: **Callado ×1 · Cerca**, con delantal. Sin prueba con un arma de Cerca; si no, `[Pelea]`. Quien lo conocía: −1 Ánimo.
+- **Don Ramón,** antes de revisar: **Callado ×1 · Cerca**, con delantal. Con un arma de Cerca lo matás sin tirar; si no, es un combate (r140). Quien lo conocía: −1 Ánimo.
 - **Las vidrieras** son un frente doble: 4 espacios de trampa, pero cada golpe hace +1 de daño mientras tengan menos de 5.
 - **Todos saben.** En las cartas 5, 15, 25 y 35 → [e451](#e451).
 - **La cámara de frío** → [e452](#e452). **La cortina** → [e453](#e453).
@@ -135,7 +135,7 @@ Dos plantas frente a las vías: chapa blindada, rejas, una sala de armas y calab
 - **El Destacamento la quiere.** Sin `OFICIO_POLICIA`, empezás con Reputación **−1** con el Destacamento ([e690](#e690)). Desde la carta 15, si nunca fuiste a verlos → [e463](#e463).
 - **El túnel de las vías.** Subsuelo 2, pero bajás al Subsuelo de la Estación sin pasar por la Calle.
 
-**Rincones.** **Los patrulleros,** una vez cada uno: una batería (3 casilleros), un Botiquín y una escopeta trabada (`[Mecánica]` u `[Oficio]`, ◷ 1). **El perro** es Negro ([e651](#e651)); si ya tenés `EL_NEGRO`, hay una correa nueva en la cucha: +1 Ánimo. **La oficina del comisario:** el libro de guardia del día 5: «Replegar personal. Dejar armamento pesado. No dejar registro». Una pista ([e560](#e560)).
+**Rincones.** **Los patrulleros:** en uno, una batería (3 casilleros) y un Botiquín; en la guantera del otro, un revólver ([e701](#e701)). **El perro** es Negro ([e651](#e651)); si ya tenés `EL_NEGRO`, hay una correa nueva en la cucha: +1 Ánimo. **La oficina del comisario:** el libro de guardia del día 5: «Replegar personal. Dejar armamento pesado. No dejar registro». Una pista ([e560](#e560)).
 
 **Si no es tu refugio:** Policía, stock ▢▢, se entra por arriba. Si el Destacamento la ocupó (Reputación −2 o menos, o después de [e463](#e463)), hay **3 soldados** (r300, Hablar con −1).
 
@@ -217,7 +217,7 @@ Volvé a **[e011](#e011)**.
 ### e471 · Tapiar las puertas laterales
 *Escuela N.º 9 · ◷ 0*
 
-> **Tapiar las puertas** · 4 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · Con 10+, la Puerta pierde el +1 de daño y gana +1. Con 7–9, igual, en ◷ 8. Con 6−, pierde el +1, pero en la Noche 40 la primera brecha ([e920](#e920)) puede entrar por la salida que quedó aunque la Puerta aguante.
+> **Tapiar las puertas** · 4 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · Con 10+, la Puerta pierde el +1 de daño y gana +1. Con 7–9, igual, pero tardás ◷ 4 más. Con 6−, pierde el +1, pero en la Noche 40 la primera brecha ([e920](#e920)) puede entrar por la salida que quedó aunque la Puerta aguante.
 
 Al terminarla, anotá `PUERTAS_TAPIADAS`. Si nunca lo hacés, en la Noche 40 la Puerta tiene −2 en cada oleada que la golpee.
 
@@ -249,12 +249,12 @@ Fachada roja de 1925, una torre de entrenamiento y una autobomba vieja. En la pi
 > **Víveres:** 3 · **Materiales:** 1 Metal, 2 Tela, 2 Combustible, 1 Sujeción
 > **Rastro inicial:** 1
 
-- **La cisterna** ([e751](#e751)) ya está hecha, y da +1 Víver por semana aunque no llueva.
+- **La cisterna** ([e751](#e751)) ya está hecha, y da +1 Víver los días 7, 14, 21, 28 y 35 aunque no llueva.
 - **La torre** es un **Vigía** (r173) desde el principio.
 - **La autobomba** → [e481](#e481). **La sirena** → [e483](#e483).
 - **Los Bomberos vuelven** en la carta 11 → [e482](#e482).
 
-**Rincones.** **El vestuario:** tres chaquetones (protección −1; el fuego no te hiere con 1–3 en 1d6; 2 casilleros sin puesto). **El pañol:** 2 hachas de bombero (Daño 3, Ruido 1, Cerca, Usos 8, 2 manos; abren puertas sin prueba), una moladora a nafta (herramienta de corte, r202, sin Generador, +2 Ruido) y un Botiquín. **El salón de las fotos:** la última tiene una cinta negra del día 2. Con Valeria ([e642](#e642)) → [e644](#e644).
+**Rincones.** **El vestuario:** tres Chaquetones de bombero ([e710](#e710)). **El pañol:** 2 hachas de bombero (Daño 3, Ruido 1, Cerca, Usos 8, 2 manos; abren puertas sin prueba), una moladora a nafta (corta metal como una Soldadora, sin Generador; +2 Ruido cada vez) y un Botiquín. **El salón de las fotos:** la última tiene una cinta negra del día 2. Con Valeria ([e642](#e642)) → [e644](#e644).
 
 **Si no es tu refugio:** Taller, stock ▢▢. Desde la carta 11, es de los Bomberos ([e670](#e670)).
 
@@ -268,8 +268,8 @@ Volvé a **[e011](#e011)**.
 
 **Hacerla andar:** una batería o el Generador, 2 Combustible, inflar las ruedas (compresor, o `[Físico]` y ◷ 2) y `[Mecánica]`, ◷ 3. Con 10+, anda. Con 7–9, anda, con +2 Ruido o +2 Rastro cada vez que la usás. Con 6−, mañana otra vez. Cuando anda, anotá `LA_AUTOBOMBA`.
 
-- **Viajar** a un barrio vecino del Puerto en ◷ 1 (su tabla con +1), con 6 personas y 20 casilleros. +3 Ruido al llegar; 1 Combustible ida y vuelta.
-- **El cañón,** una vez por combate: los Callados en Cerca vuelven a Lejos y los Hinchados no explotan esa ronda. En la Noche 40, una vez, +3 a la Puerta en una oleada.
+- **Es un vehículo** (r157, [e712](#e712)).
+- **El cañón de agua** ([e704](#e704)). En la Noche 40, una vez, +3 a la Puerta en una oleada.
 - **En Éxodo,** con la escollera ([e383](#e383)), es una salida para 6 → [e960](#e960).
 
 ---
@@ -330,7 +330,7 @@ Volvé a **[e011](#e011)**.
 ### e491 · Cortar la escalera
 *Edificio Sarmiento · ◷ 0*
 
-> **Cortar la escalera** · 2 Metal, 2 Sujeción, Soga · Maza o herramienta de corte · ◷ 4 · `[Físico]` u `[Oficio]` · Con 7+, cae el tramo del 2.º al 3.º y ponés una escalera de soga. Con 6−, cae igual: 2 Heridas y +2 Rastro.
+> **Cortar la escalera** · 2 Metal, 2 Sujeción, Soga · Maza de bulón, Hacha de bombero, Soldadora o la moladora del Cuartel · ◷ 4 · `[Físico]` u `[Oficio]` · Con 7+, cae el tramo del 2.º al 3.º y ponés una escalera de soga. Con 6−, cae igual: 2 Heridas y +2 Rastro.
 
 Anotá `ESCALERA_CORTADA`. Desde entonces:
 
@@ -360,4 +360,4 @@ La puerta del séptimo, soldada desde adentro: «7 = NO». Del otro lado, la rad
 
 1. **Dejarlo.** Hay un piso de tu edificio que no es tuyo.
 2. **Golpear tres veces.** Silencio, y tres golpes de respuesta. Al alba, 3 Víveres en tu puerta y una nota: «No vuelvan a golpear». Anotá `LOS_DEL_SIETE`. En la Noche 40, con 4–6 en 1d6, pelean desde sus balcones: Ventanas +1 en todas las oleadas.
-3. **Cortar la chapa** (herramienta de corte o Soldadora, ◷ 2). En el 7.º B, una familia de cuatro alrededor de la radio: pastillas. −2 Ánimo, −1 Moral. El piso suma ▢▢▢ al stock del refugio.
+3. **Cortar la chapa** (Soldadora o la moladora del Cuartel, ◷ 2). En el 7.º B, una familia de cuatro alrededor de la radio: pastillas. −2 Ánimo, −1 Moral. El piso suma ▢▢▢ al stock del refugio.

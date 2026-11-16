@@ -43,7 +43,7 @@ Un laberinto de contenedores apilados de a cuatro. Fácil perderse y fácil esco
 
 **Tesoro:** si el Camión del Comando está acá (r110) → [e500](#e500).
 
-- **Revisar** (r161) como Taller. Antes de cada revisión, con 6 en 1d6 el contenedor es especial (1d6): 1 ropa nueva (4 Tela); 2 una herramienta (r202); 3 latas (4 Víveres); 4 una moto (vehículo de 4 casilleros, +2 Ruido); 5 electrodomésticos (3 Electrónica); 6 una familia de polizones (un sobreviviente, r180).
+- **Revisar** (r161) como Taller. Antes de cada revisión, con 6 en 1d6 el contenedor es especial (1d6): 1 ropa nueva (4 Tela); 2 una herramienta (r202); 3 latas (4 Víveres); 4 una moto (e712); 5 electrodomésticos (3 Electrónica); 6 una familia de polizones (un sobreviviente, r180).
 - **Perderse:** cada visita, `[Calle]`. Con 6−, una hora de vueltas (◷ 1) y **Callados ×1d6 · Cerca**, escena Pasillo.
 
 ---
@@ -54,7 +54,7 @@ Un laberinto de contenedores apilados de a cuatro. Fácil perderse y fácil esco
 
 Un dique seco, un barco a medio pintar y un galpón de chapas.
 
-- **Revisar** (r161). Un 5 en la tabla da siempre una **Soldadora**.
+- **Revisar** (r161). El primer 5 que sacás es una **Soldadora**.
 - **Chapas de casco naval** (◷ 2), si no tenés `CHAPAS_DEL_ASTILLERO`: 2 Metal (3 casilleros) que cuentan doble para las barricadas ([e740](#e740)). Anotá `CHAPAS_DEL_ASTILLERO`.
 - **La barcaza del dique** → [e254](#e254).
 
@@ -68,8 +68,8 @@ Galpones de mercadería decomisada, con las rejas abiertas. Alguien estuvo antes
 
 **Tesoro:** si la Armería del cordón o el Blindado están acá (r110) → [e520](#e520) o [e550](#e550).
 
-- **Revisar** (r161). En cada revisión, con 6 en 1d6, cigarrillos: cada atado vale 1 material en un cambio, o +1 Moral una noche en el refugio.
-- **La 4×4 decomisada,** sin batería. Con una batería de auto, 1 Combustible y `[Mecánica]`, es tuya: 20 casilleros. Anotá `LA_4X4`.
+- **Revisar** (r161). En cada revisión, con 6 en 1d6, un atado de cigarrillos: vale 1 material en un cambio, paga el `VICIO` (r105) o da +1 Moral una noche en el refugio.
+- **La 4×4 decomisada,** sin batería. Con una batería de auto, 1 Combustible y `[Mecánica]`, es tuya (e712). Anotá `LA_4X4`.
 
 ---
 
@@ -147,7 +147,7 @@ Puede llevar treinta personas río abajo, lejos del muro. Le faltan tres cosas:
 
 - **Motor:** `[Mecánica]`, ◷ 4, 2 Metal y Llave inglesa. Con 7+, anotá `BARCAZA_MOTOR`.
 - **Timón:** `[Oficio]`, ◷ 2, 2 Madera y 2 Metal. Con 7+, anotá `BARCAZA_TIMON`.
-- **Combustible:** 6 cargados en el dique. Anotá `BARCAZA_COMBUSTIBLE`.
+- **Combustible:** 6 Combustible, cargados en el dique (◷ 1). Anotá `BARCAZA_COMBUSTIBLE`.
 
 Con las tres, en modo Éxodo es una salida → [e960](#e960). En Cuarentena, al atardecer del día 40 puede llevarse a los que no pelean (chicos, viejos, Graves) y, como mucho, a la mitad del resto; vos te quedás. Los que suben no defienden. Al amanecer, 1d6: con 1–2, una lancha militar la interceptó; con 3–6, llegó, y cuentan como salvados (e940).
 
@@ -174,5 +174,5 @@ Uniforme blanco impecable, revólver en la cintura y la AM 870 sonando. «El Com
 Cuarenta personas con valijas esperan el corredor. Cada vez que alguien tose, todos se apartan.
 
 1. **Esperar con ellos.** ◷ 3. Al atardecer, una lancha militar con reflector se detiene a cien metros. Un megáfono pide que se acerquen de a uno «para el control sanitario» → [e576](#e576).
-2. **Avisarles que no viene nadie** (con `PROTOCOLO_40`). `[Labia]`. Con 7+, 1d6 de ellos se unen: anotá `LOS_DEL_MUELLE` y cuántos. Hacen un puesto cada dos, comen 1 Víver cada uno y, en la Noche 40, ponen un defensor con puños cada dos. +3 Rastro.
+2. **Avisarles que no viene nadie** (con `PROTOCOLO_40`). `[Labia]`. Con 7+, 1d6 de ellos se unen: anotá `LOS_DEL_MUELLE` y cuántos. Hacen un puesto por cada dos personas (redondeando hacia abajo), comen 1 Víver cada uno y, en la Noche 40, ponen un defensor con puños por cada dos. +3 Rastro.
 3. **Irte.**

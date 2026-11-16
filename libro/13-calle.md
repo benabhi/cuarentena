@@ -35,7 +35,7 @@ Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 ### e110 · El Subsuelo
 *Subsuelo · ◷ 0*
 
-Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin Linterna, todo tiene Desventaja.
+Cada viaje, **1d6 + la Etapa** (+2 de noche; −1 con `MAPA_DEL_SUBSUELO`). Sin Linterna, todo tiene Desventaja (con `MAPA_DEL_SUBSUELO`, solo pelear).
 
 **2 o menos** [e111](#e111) · **3** [e112](#e112) · **4** [e113](#e113) · **5** [e114](#e114) · **6** [e115](#e115) · **7** [e116](#e116) · **8** [e117](#e117) · **9** [e118](#e118) · **10** [e119](#e119) · **11** [e120](#e120) · **12 o más** [e121](#e121).
 
@@ -88,7 +88,7 @@ Figuras en las vías se dan vuelta a la vez cuando la luz las toca.
 
 > **Callados ×1d6 · Cerca** · escena: Túnel (r336)
 
-O apagás la luz y te quedás quieto: `[Sigilo · Desv.]`; con 10+, pasan sin verte.
+O apagás la luz y te quedás quieto: `[Sigilo · Desv.]`; con 10+, pasan sin verte; si no, el combate empieza igual.
 
 ---
 
@@ -156,7 +156,7 @@ Mapas de Tolme marcados en rojo y una radio militar.
 
 - **Los papeles:** una pista ([e560](#e560)); otra si ya habías estado.
 - **La radio:** con `[Mecánica]` 10+ anda un minuto. Una conversación cifrada y una palabra que se repite: «Pastor». Anotá `PISTA_PASTOR`.
-- **El generador chico:** 3 casilleros, ◷ 2. Con él, el Generador ([e760](#e760)) cuesta la mitad.
+- **El generador chico:** 3 casilleros, ◷ 2. Con él, el Generador ([e760](#e760)) cuesta la mitad de los materiales (r204).
 
 ---
 
@@ -342,7 +342,7 @@ Alguien contra una persiana, con una pierna ensangrentada. «No me mordieron. Te
 Una vidriera intacta, con reja y candado.
 
 - **Romperla:** +2 Ruido. Comercio, stock ▢▢.
-- **El candado** `[Oficio]` (+1 con Palanca o ganzúas): con 10+, sin ruido; con 7–9, +1 Ruido.
+- **El candado** `[Oficio]` (+1 con Palanca o ganzúas): con 10+, sin ruido; con 7–9, +1 Ruido; con 6−, no abre (podés romperla igual).
 - **Para después:** una X sin número en el mapa (Comercio, ▢▢).
 
 ---
@@ -405,7 +405,7 @@ En Etapa I, es [e151](#e151). Un zaguán oscuro. Algo se agacha adentro.
 
 > **Acechador ×1 · Lejos** ([e724](#e724))
 
-Con `[Calle]` 10+ (gratis), lo ves antes y cruzás de vereda.
+Antes, `[Calle]` (sin gastar tiempo): con 10+, lo ves antes y cruzás de vereda.
 
 ---
 
@@ -449,7 +449,7 @@ En Etapa I o II, es [e153](#e153). Cascos y escudos, en fila.
 
 > **Blindados ×1d3 · Lejos** ([e729](#e729))
 
-Si ganás, una tirada por cuerpo en la tabla de equipo del Blindado.
+Si ganás, una tirada por cuerpo en su equipo ([e729](#e729)).
 
 ---
 
@@ -490,7 +490,7 @@ Un cuerpo boca abajo, con una mochila de camping puesta.
 1d6:
 
 - **1** · «MARTA, ESTAMOS EN LA CATEDRAL. MAMÁ». Si tu Motivo es El que falta, −1 Ánimo: por un segundo creíste que era para vos.
-- **2** · «AGUA →». Una canilla que anda: +2 Víveres por ◷ 1.
+- **2** · «AGUA →». Una canilla que anda: ◷ 1 y +2 Víveres, una vez por visita.
 - **3** · «NO ES UN VIRUS». Una pista ([e560](#e560)).
 - **4** · Las marcas de otro grupo en cada puerta: los lugares del barrio pierden 1 casilla de stock que no hayas tachado vos.
 - **5** · «LOS LOBOS COMEN GENTE». Anotá `RUMOR_DE_LOS_LOBOS`.

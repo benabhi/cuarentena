@@ -22,7 +22,7 @@ Hay combate cuando un evento lo dice o una Procesión te alcanza. Se anota **cu�
 En cada ronda elegís **una** acción:
 
 1. **Atacar** con tu arma (r143).
-2. **Retroceder** `[Físico]`: con 10+, todos los Callados retroceden un paso; con 7–9, también, pero soltás 1 casillero de la Mochila o te llevás 1 Herida; con 6−, nada.
+2. **Retroceder** `[Físico]`: con 10+, todos los Callados retroceden un paso (si ya estaban todos Lejos, salís del combate); con 7–9, también, pero soltás 1 casillero de la Mochila o te llevás 1 Herida; con 6−, nada.
 3. **Esconderte** `[Sigilo]` (si nadie está Encima): con 10+, salís del combate; con 7–9, salís con +1 Ruido; con 6−, te encuentran y avanzan un paso.
 4. **Usar algo:** cerrar una puerta, tirar un Molotov, prender un señuelo, empujar un mueble. El objeto o el evento dicen qué pasa.
 5. **Cambiar de capa:** si el lugar lo permite (una escalera a la azotea, una alcantarilla), te vas por otra capa (r151). Esa ronda los Callados avanzan igual.
@@ -80,7 +80,7 @@ Cada uno cambia las reglas del combate: consultá su ficha (e720–e731) antes d
 
 Contra saqueadores, Lobos o soldados, el mismo sistema con tres diferencias:
 
-- **No avanzan solos:** cada ronda, después de tu acción, 1d6 por el grupo: 1–2 avanzan; 3–4 se quedan y disparan (con armas de fuego, 1 Herida a vos o a un compañero con 5–6 en 1d6 por tirador); 5–6 se cubren.
+- **No avanzan solos:** cada ronda, después de tu acción, 1d6 por el grupo: 1–2 avanzan; 3–4 se quedan y disparan (con armas de fuego, 1 Herida a vos o a un compañero con 5–6 en 1d6 por tirador); 5–6 se cubren. Los que están **Encima** te golpean como en r144, pero un 6 es solo 1 Herida: no muerden.
 - **Se rinden o huyen** cuando cae la mitad. Con Labia 2 o más, en lugar de atacar podés intentar que se rindan `[Labia]`.
 - **Hablan.** Muchas veces la mejor arma es no pelear (r300).
 
@@ -89,7 +89,7 @@ Tienen **Aguante** como los especiales: `Lobos ×3 · Aguante 2 cada uno · arma
 <a id="r148"></a>
 ### r148 · Compañeros en combate
 
-Los que te acompañan (r185) actúan después de vos: atacan con su Pelea o su Puntería, o hacen la acción que elijas. Comparten tus distancias. Tienen **3 casillas de Heridas**: con las tres llenas caen, y si alguien los saca del combate viven Grave; si no, mueren. Si los muerden, se infectan (r186).
+Los que te acompañan (r185) actúan después de vos: atacan como en r143, tirando con su Pelea o su Puntería y su arma, o hacen la acción que elijas. Comparten tus distancias. Tienen **3 casillas de Heridas**: con las tres llenas caen, y si alguien los saca del combate viven Grave; si no, mueren. Si los muerden, se infectan (r186).
 
 <a id="r149"></a>
 ### r149 · Escapar, perder, ganar
@@ -120,7 +120,7 @@ Las conexiones de cada barrio están en el mapa y en la primera entrada de su bl
 ### r152 · Moverse
 
 - **A pie:** Calle y Subsuelo ◷ 1; Azoteas ◷ 2 (r151).
-- **En vehículo** (r157), ◷ 1 cada dos barrios, +2 Ruido (o el del vehículo, e712) y +1 a la tabla. **En bicicleta,** ◷ 1 (con Atajos, dos barrios) y sin Ruido.
+- **En vehículo** (r157), ◷ 1 cada dos barrios, solo por la Calle. **En bicicleta,** como a pie por la Calle (con Atajos, ◷ 1 cada dos barrios), pero llegar no suma Ruido.
 - Ir de un lugar a otro del mismo barrio no cuesta tiempo.
 - **En grupo**, todos van al paso del más lento.
 - **Volver al refugio** es un viaje como cualquier otro.
@@ -136,7 +136,7 @@ Al llegar a un barrio por la Calle, tirá **1d6 + la Etapa** en su tabla. **+2 d
 
 El **Ruido** (0–6) mide cuánto llamaste la atención en una salida. Empieza en 0 al salir y vuelve a 0 al entrar al refugio.
 
-Suman: llegar por la Calle +1; un disparo, el Ruido del arma; romper un vidrio o forzar un postigo +1; revisar a fondo +1; un motor +2; un grito, una alarma o una explosión, +2 a +4.
+Suman: llegar por la Calle +1 (en bicicleta, nada; en vehículo, el Ruido del vehículo, r157); un disparo, el Ruido del arma; romper un vidrio o forzar un postigo +1; revisar a fondo +1; un motor +2; un grito, una alarma o una explosión, +2 a +4.
 
 Con **3**, aparecen Callados (r145); con **6**, una Procesión ([e100](#e100)). Si volvés al refugio con Ruido 3 o más desde un barrio vecino al del refugio, el **Rastro** sube 1 (r174).
 
@@ -162,10 +162,13 @@ Columnas de cientos de Callados, en silencio: **fichas** en el mapa. Para ubicar
 <a id="r157"></a>
 ### r157 · Vehículos
 
-- **Arrancar:** `[Mecánica]` y 1 Combustible. Con 10+, arranca; con 7–9, arranca con un ruido horrible (+2 Ruido); con 6−, no arranca y gastaste la nafta.
-- **Andar:** ◷ 1 cada dos barrios por la Calle, +2 Ruido por barrio, 1 Combustible por salida. Nunca por el Subsuelo ni las Azoteas.
-- **Carga:** un auto lleva 12 casilleros más; una camioneta, 20.
-- **Atropellar** Callados a Cerca: matás 1d6, y con 1–2 en 1d6 el vehículo se rompe.
+Cada vehículo tiene su línea en la tabla de [e712](#e712): cuántas personas lleva, cuántos casilleros de carga suma a las Mochilas, su Ruido y su Combustible.
+
+- **Arrancar,** cada vez que salís con él: `[Mecánica]`. Con 10+, arranca; con 7–9, arranca con un ruido horrible (+2 Ruido); con 6−, no arranca: perdés 1 Combustible y podés probar otra vez (◷ 1). Con una batería de auto o con *Puente*, arranca sin prueba.
+- **Andar:** solo por la Calle, ◷ 1 cada dos barrios, todos juntos. Al **parar** en un barrio, sumás el Ruido del vehículo (en lugar del +1 de la Calle) y su tabla tiene +1. Si **pasás de largo** por un barrio, no tirás en su tabla ni sumás Ruido.
+- **Combustible:** el de la tabla, por cada barrio al que entrás, pares o no. Si dice «1 cada 2» o «1 cada 3», hacé una raya por barrio junto al vehículo y pagá 1 al completar la cuenta. Sin Combustible, el vehículo se queda donde está.
+- **Nunca** entra al Subsuelo ni a las Azoteas, ni a un barrio con una Procesión en la Calle (si entrás igual, [e100](#e100)).
+- **Atropellar** Callados a Cerca: matás 1d6, y con 1–2 en 1d6 el vehículo se rompe (arreglarlo: `[Mecánica]`, ◷ 2, 1 Metal).
 
 <a id="r158"></a>
 ### r158 · Afuera de noche
@@ -310,7 +313,7 @@ Decide los **sondeos** de cada noche (r175) y cuántas **oleadas** trae la Marea
 <a id="r175"></a>
 ### r175 · El sondeo nocturno
 
-Cada noche, 2d6: **−1** por cada sobreviviente en Guardia (como mucho −2), **−1** con Vigía, **+2** con una Procesión en el barrio del refugio. Si sale **igual o menos que el Rastro**, hay sondeo → [e072](#e072).
+Cada noche, el **sondeo** vale tu **Rastro**, con **−1** por cada sobreviviente en Guardia (como mucho −2), **−1** con Vigía y **+2** con una Procesión en el barrio del refugio. Tirá 2d6: si sale **igual o menos que el sondeo**, los Callados tantean el refugio → [e072](#e072). Lo que dé «−1 al sondeo» baja ese número; «+1», lo sube.
 
 <a id="r176"></a>
 ### r176 · Daños, reparaciones y mudanzas

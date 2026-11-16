@@ -246,6 +246,7 @@
 | `TIGRE_DOS` | [e543](#e543) · [e912](#e912) · [e930](#e930) · [e960](#e960) |
 | `TRABAJASTE_EN_EL_MURO` | [e693](#e693) · [e900](#e900) |
 | `TRAMO_NUEVE_SOLDADO` | [e815](#e815) · [e951](#e951) |
+| `TRAMO_REFORZADO` | [e049](#e049) · [e435](#e435) |
 | `TRATO_DEL_INMUNE` | [e578](#e578) · [e586](#e586) · [e905](#e905) |
 | `TREN_ABIERTO` | [e333](#e333) |
 | `TRUEQUE_GENEROSO` | [e955](#e955) · [r301](#r301) |
@@ -253,7 +254,7 @@
 | `TU_VOZ_EN_LA_RADIO` | [e579](#e579) · [e949](#e949) |
 | `UN_NIDO` | [e119](#e119) |
 | `VAGON_DE_LA_C` | [e112](#e112) · [e955](#e955) |
-| `VICIO` | [e284](#e284) · [r105](#r105) |
+| `VICIO` | [e244](#e244) · [e284](#e284) · [r105](#r105) |
 | `VISTE_AL_PASTOR` | [e068](#e068) · [e073](#e073) · [e373](#e373) · [e901](#e901) |
 | `VISTE_LA_MAREA` | [e434](#e434) · [e693](#e693) |
 | `VOLO_EL_GAS` | [e266](#e266) · [e955](#e955) |

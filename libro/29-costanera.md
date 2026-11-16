@@ -29,7 +29,7 @@ Al llegar por la Calle, **1d6 + la Etapa** (r153).
 Dos kilómetros de baldosas rotas. El río golpea el murallón.
 
 - **Revisar** (r161) con la tabla de Almacén; un 1 es una garrafa (2 Combustible, 3 casilleros).
-- **Pescar** con la Caña ([e748](#e748)), ◷ 2, `[Supervivencia]`: 3, 2 o 1 Víveres. Alcanza para cuatro pescas (▢▢▢▢). Desde la Etapa III, un 6− saca un **Ahogado ×1 · Cerca** ([e728](#e728)).
+- **Pescar** con la Caña ([e748](#e748)), ◷ 2, `[Supervivencia]`: con 10+, 3 Víveres; con 7–9, 2; con 6−, 1. Alcanza para cuatro pescas (▢▢▢▢). Desde la Etapa III, un 6− saca un **Ahogado ×1 · Cerca** ([e728](#e728)).
 
 ---
 
@@ -51,7 +51,7 @@ Dos kilómetros de baldosas rotas. El río golpea el murallón.
 **Tesoro:** si el Generador industrial está acá (r110) → [e510](#e510).
 
 - **Revisar** (r161). Un 4 es cloro: 2 Químicos que sirven para Hervir agua sin Combustible.
-- **Una bomba:** con Generador y `[Mecánica]` 10+ (◷ 4), las canillas de toda la ciudad vuelven a tirar agua un rato: cada 7 cartas, +3 Víveres al alba, y +1 Moral la primera vez. Anotá `EL_AGUA_VUELVE`. Las cañerías se oyen: +1 Rastro.
+- **Una bomba:** con Generador y `[Mecánica]` 10+ (◷ 4), las canillas de toda la ciudad vuelven a tirar agua un rato: cada siete días desde entonces, +3 Víveres al alba, y +1 Moral la primera vez. Anotá `EL_AGUA_VUELVE`. Las cañerías se oyen: +1 Rastro.
 - **La torre:** el muro no llega al agua. Termina en una escollera, y del otro lado patrullan lanchas militares. Anotá `LA_ESCOLLERA`.
 
 ---

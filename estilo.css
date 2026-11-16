@@ -154,7 +154,7 @@ small { font-size: .82em; }
 
 /* ---------- Láminas y partes ---------- */
 .lamina { page: lamina; position: relative; width: 170mm; height: 240.4mm; overflow: hidden; break-before: page; break-after: page; }
-.lamina-img { position: absolute; top: 0; left: 0; width: 170mm; height: 240.4mm; object-fit: cover; }
+.lamina-img { position: absolute; top: -.5mm; left: -.5mm; width: 171mm; height: 241.4mm; object-fit: cover; }
 .velo-abajo { position: absolute; left: 0; top: 0; width: 170mm; height: 240.4mm;
   background: linear-gradient(to top, rgba(20,20,20,.94) 0%, rgba(20,20,20,.6) 24%, rgba(20,20,20,0) 50%, rgba(20,20,20,0) 100%); }
 .velo-abajo.suave { background: linear-gradient(to top, rgba(20,20,20,.9) 0%, rgba(20,20,20,0) 32%, rgba(20,20,20,0) 100%); }
@@ -170,7 +170,7 @@ small { font-size: .82em; }
 .lamina-kicker { font: 700 8pt var(--rotulo); letter-spacing: .4em; text-transform: uppercase; color: var(--amarillo); }
 .lamina-tit { font: 400 40pt/1 var(--titulo); text-transform: uppercase; letter-spacing: .01em; color: var(--papel); }
 /* doble página: la misma imagen, cada mitad en una página */
-.lamina.doble .doble-img { width: 340mm; height: 240.4mm; object-fit: cover; }
+.lamina.doble .doble-img { width: 341mm; height: 241.4mm; object-fit: cover; }
 .lamina.doble-der .doble-img { left: -170mm; }
 .doble-izq { break-before: left; }
 
@@ -209,7 +209,7 @@ small { font-size: .82em; }
 
 /* ---------- Entradas ---------- */
 .entrada { margin: 0 0 4.2mm; string-set: ent attr(data-num), sep "  ·  "; }
-.entrada .cab { break-after: avoid; break-inside: avoid; border-bottom: 1.2pt solid var(--tinta); padding-bottom: .8mm; margin-bottom: 1.4mm;
+.entrada .cab { break-after: avoid; break-inside: avoid; border-bottom: 1.2pt solid var(--tinta); padding-bottom: 1.3mm; margin-bottom: 1.4mm;
   display: flex; align-items: baseline; }
 .entrada .num { font: 400 12.5pt/1 var(--titulo); color: var(--amarillo); background: var(--tinta); padding: .9mm 1.4mm .4mm; margin-right: 2mm;
   letter-spacing: .02em; }
@@ -243,9 +243,9 @@ ul > li::before { content: ""; position: absolute; left: -3.1mm; top: .5em; widt
 .marca { hyphens: manual; -weasy-hyphens: manual; font: 500 .84em var(--mono); color: var(--tinta); background: var(--amarillo-claro);
   padding: 0 .6mm; letter-spacing: -.01em; }
 .amenaza { white-space: nowrap; font: 700 .92em var(--rotulo); text-transform: uppercase; letter-spacing: .04em; border: .8pt solid var(--tinta);
-  padding: 0 1mm 0 .6mm; background: rgba(255,255,255,.4); }
+  padding: .2mm 1mm .1mm .6mm; background: rgba(255,255,255,.4); }
 .amenaza .ico { width: 1em; height: 1em; vertical-align: -.14em; margin-right: .4mm; }
-.amenaza .am-x { font: 400 1.05em var(--titulo); margin: 0 .8mm 0 .6mm; }
+.amenaza .am-x { font: inherit; margin: 0 .8mm 0 .6mm; }
 .amenaza .am-d { background: var(--tinta); color: var(--amarillo); padding: 0 .9mm; margin-right: -1mm; }
 .amenaza .am-encima { background: var(--rojo); color: #fff; }
 code { font: .86em var(--mono); background: rgba(22,22,22,.07); padding: 0 .4mm; }
@@ -321,7 +321,13 @@ table.aleatoria td:first-child { font: 400 9pt var(--titulo); text-align: center
 .grupo-apartado { border-top: 4pt solid var(--tinta); padding-top: 2mm; }
 .grupo-apartado .g-tit { font-size: 20pt; display: inline-block; background: var(--amarillo); padding: .6mm 2.2mm 0; margin-bottom: 1.6mm; }
 .grupo p { margin: 1mm 0 0; font-style: italic; }
-.grupo-faccion { display: flex; align-items: center; background: var(--tinta); color: var(--papel); padding: 3mm 4mm; }
+.grupo-faccion { display: flex; align-items: center; background: var(--tinta); color: var(--papel); padding: 3.5mm 4mm; border-top: 2.2mm solid var(--amarillo); }
+.gf-cuerpo { flex: 1 1 auto; }
+.gf-lema { font: italic 400 9pt/1.3 var(--serif); color: var(--papel-2); margin-top: .8mm; }
+.gf-guia { flex: none; border-collapse: collapse; margin-left: 4mm; border-left: .6pt solid rgba(244,238,223,.35); }
+.gf-guia th { font: 700 6.8pt/1 var(--rotulo); text-transform: uppercase; letter-spacing: .18em; color: var(--amarillo); text-align: left; padding: .8mm 2.5mm .8mm 3.5mm; }
+.gf-guia td { font: 700 8pt/1 var(--rotulo); padding: .8mm 0; }
+.gf-guia a.ref { color: var(--papel); border-bottom-color: var(--amarillo); }
 .grupo-faccion .emblema { width: 15mm; height: 15mm; color: var(--amarillo); margin-right: 4mm; flex: none; }
 .grupo-faccion .g-tit { color: var(--amarillo); }
 .grupo-faccion p, .grupo-faccion strong { color: var(--papel); }
@@ -446,7 +452,8 @@ h3.g-caja { font: 400 10pt var(--titulo); text-transform: uppercase; letter-spac
 .panel .ref { color: var(--papel); }
 .panel.tira { padding: 2mm 3.5mm 1.8mm; }
 .panel.tira .ar-cab { margin-bottom: .8mm; }
-.panel.tira .pn-pie { font-style: normal; color: var(--papel); }
+.panel.tira table { margin: 0; }
+.panel.tira tr:last-child th, .panel.tira tr:last-child td { border-bottom: none; }
 .panel .prueba { color: var(--papel); }
 .remate.tarjetas { flex-direction: row; align-items: stretch; justify-content: space-between; gap: 6.5mm; padding-top: 6mm; }
 .remate.tarjetas .panel { flex: 1 1 0; }
@@ -468,3 +475,105 @@ h3.g-caja { font: 400 10pt var(--titulo); text-transform: uppercase; letter-spac
 .ct-sello { position: absolute; right: 14mm; top: 12mm; width: 20mm; height: auto; }
 
 .lamina-tit, .parte-tit, .cap-tit, .doc-tit, .g-tit { hyphens: manual; -weasy-hyphens: manual; }
+
+/* ---------- Collage de los especiales (antes de e720) ---------- */
+.collage .lamina-img { opacity: 1; }
+.col-cab { position: absolute; left: 12mm; right: 12mm; top: 11mm; }
+.col-tit { font: 400 44pt/0.95 var(--titulo); text-transform: uppercase; color: var(--papel); letter-spacing: .01em; margin: 1mm 0 1.5mm; }
+.col-sub { font: 400 8.6pt/1.4 var(--maquina); color: var(--papel-2); max-width: 128mm; }
+.esp { position: absolute; display: block; background: var(--papel); padding: 1.3mm; box-sizing: border-box; text-decoration: none; }
+.esp img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.esp-cinta { position: absolute; top: -2.2mm; left: 50%; width: 14mm; height: 4.4mm; margin-left: -7mm; background: var(--amarillo-claro); opacity: .82; transform: rotate(-3deg); }
+.esp-etapa { position: absolute; top: 3mm; left: 0; background: var(--amarillo); color: var(--tinta); font: 400 7.2pt/1 var(--titulo); letter-spacing: .08em; text-transform: uppercase; padding: .9mm 1.8mm .6mm 2.2mm; }
+.esp-pie { position: absolute; left: 1.3mm; right: 1.3mm; bottom: 1.3mm; padding: 6mm 2mm 1.6mm; display: block;
+  background: linear-gradient(to top, rgba(20,20,20,.95) 0%, rgba(20,20,20,.85) 55%, rgba(20,20,20,0) 100%); }
+.esp-nom { display: block; font: 400 14pt/1 var(--titulo); text-transform: uppercase; color: var(--papel); letter-spacing: .02em; }
+.esp-id { font: 500 6pt var(--mono); color: var(--amarillo); letter-spacing: .05em; margin-left: 1.6mm; vertical-align: 2pt; }
+.esp-frase { display: block; font: 400 6.9pt/1.25 var(--maquina); color: var(--papel); margin-top: .6mm; }
+.esp-clave { display: block; font: 700 7pt/1.2 var(--rotulo); color: var(--amarillo); margin-top: .5mm; }
+.esp.arriba .esp-pie { bottom: auto; top: 1.3mm; padding: 1.6mm 2mm 6mm;
+  background: linear-gradient(to bottom, rgba(20,20,20,.95) 0%, rgba(20,20,20,.85) 55%, rgba(20,20,20,0) 100%); }
+.esp.arriba .esp-etapa { top: auto; bottom: 3mm; }
+.cas-grupo { white-space: nowrap; }
+.panel .ico, .panel .sim { color: var(--amarillo); }
+.relleno-col { overflow: hidden; }
+.flujo.col2.recetas { font-size: 8.4pt; }
+
+/* ---------- Hojas de juego (maqueta/hojas.py) ---------- */
+.hj-pag { height: 202mm; display: flex; flex-direction: column; font: 400 7.8pt/1.25 var(--rotulo); color: var(--tinta); }
+.hj-pag + .hj-pag { break-before: page; }
+.hj-pag .h-cab { margin-bottom: 2.6mm; flex: none; }
+.hj-dorso { font: 700 7pt var(--rotulo); letter-spacing: .3em; text-transform: uppercase; color: var(--tinta-2); padding-bottom: 1mm; }
+.hj-form { flex: none; border: 1pt solid var(--tinta); border-left: 4pt solid var(--tinta); padding: 1.8mm 3mm 1.5mm; margin-bottom: 2.6mm; background: rgba(255,255,255,.4); }
+.hj-form b { display: block; font: 700 8.2pt var(--rotulo); letter-spacing: .14em; }
+.hj-form i { font: italic 400 7.4pt var(--serif); color: var(--tinta-2); }
+.hj-sec { flex: none; font: 400 10.5pt/1 var(--titulo); text-transform: uppercase; letter-spacing: .05em; margin: 2.6mm 0 1.2mm;
+  border-bottom: 1.2pt solid var(--tinta); padding-bottom: .8mm; }
+.hj-sec span { font: 400 7pt var(--rotulo); text-transform: none; letter-spacing: .02em; color: var(--tinta-2); }
+.hj-ref { font: 700 6.8pt var(--rotulo); color: var(--tinta-2); letter-spacing: .02em; }
+.hj-t { flex: none; width: 100%; border-collapse: collapse; table-layout: fixed; }
+.hj-t th, .hj-t td { border: .6pt solid rgba(22,22,22,.5); padding: 0 1.6mm; height: 6.4mm; vertical-align: middle; text-align: left; white-space: nowrap; }
+.hj-t th { font: 700 7.4pt var(--rotulo); text-transform: uppercase; letter-spacing: .06em; background: rgba(22,22,22,.06); }
+.hj-t th .hj-ref { text-transform: none; letter-spacing: 0; font-weight: 400; margin-left: .6mm; }
+.hj-t td { display: table-cell; }
+.hj-t td > * { vertical-align: middle; }
+.hj-tc td, .hj-tc th { height: 4.6mm; font: 700 6.6pt var(--rotulo); text-transform: uppercase; letter-spacing: .12em; background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+.hj-datos th, .hj-cuerpo th, .hj-salida th, .hj-prot th { width: 27mm; }
+.hj-datos td, .hj-cuerpo td, .hj-salida td, .hj-prot td { display: flex; align-items: center; gap: 1.6mm; height: 6.4mm; padding-top: 0; padding-bottom: 0; }
+.hj-l { flex: 1 1 auto; display: inline-block; min-width: 10mm; height: 3.6mm; border-bottom: .6pt solid var(--tinta-2); }
+.hj-et { flex: none; font: 700 6.8pt var(--rotulo); text-transform: uppercase; letter-spacing: .08em; color: var(--tinta-2); margin-left: 1.2mm; }
+.hj-pre { flex: none; font: 500 7pt var(--mono); background: var(--amarillo-claro); padding: 0 .6mm; }
+.hj-nota { flex: 1 1 auto; text-align: right; font: italic 400 6.8pt var(--serif); color: var(--tinta-2); white-space: nowrap; }
+.hj-nota.hj-izq { flex: none; text-align: left; }
+.hj-op { flex: none; display: inline-flex; align-items: center; white-space: nowrap; margin-right: 1.2mm; font: 400 7.6pt var(--rotulo); }
+.hj-op .hj-c { margin-right: .8mm; }
+.hj-cas { display: inline-flex; gap: 1.6mm; flex: none; white-space: nowrap; }
+.hj-g { display: inline-flex; gap: .7mm; }
+.hj-c { display: inline-block; width: 3.2mm; height: 3.2mm; border: .75pt solid var(--tinta); background: rgba(255,255,255,.6); box-sizing: border-box; }
+.hj-pista { display: inline-flex; gap: 1.6mm; flex: none; }
+.hj-n { display: inline-block; width: 4.2mm; height: 4.2mm; border: .75pt solid var(--tinta); background: rgba(255,255,255,.6);
+  font: 400 6pt/4.1mm var(--rotulo); text-align: center; color: var(--tinta-2); box-sizing: border-box; }
+.hj-hab td, .hj-hab th { height: 6mm; }
+.hj-hab th { width: 22mm; }
+.hj-hab .hj-sep { border-left: 2pt solid var(--tinta); }
+.hj-hab .hj-niv { width: 9mm; }
+.hj-hab .hj-sem { width: 14mm; }
+.hj-hab tr td:nth-child(3), .hj-hab tr td:nth-child(7) { width: 15mm; }
+.hj-renglones { border: .6pt solid rgba(22,22,22,.5); background: rgba(255,255,255,.3)
+  repeating-linear-gradient(to bottom, transparent 0, transparent 6.1mm, rgba(22,22,22,.28) 6.1mm, rgba(22,22,22,.28) 6.4mm); }
+.hj-renglones.hj-dos { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 6.1mm, rgba(22,22,22,.28) 6.1mm, rgba(22,22,22,.28) 6.4mm),
+  linear-gradient(to right, transparent calc(50% - .4pt), rgba(22,22,22,.45) calc(50% - .4pt), rgba(22,22,22,.45) calc(50% + .4pt), transparent calc(50% + .4pt)); }
+.hj-estira { flex: 1 1 auto; min-height: 12mm; }
+.hj-moch td { height: 13mm; vertical-align: top; padding-top: 1mm; }
+.hj-mat td { height: 9mm; vertical-align: top; padding-top: .8mm; }
+.hj-k { display: block; font: 700 6.6pt var(--rotulo); text-transform: uppercase; letter-spacing: .12em; color: var(--tinta-2); }
+.hj-armas td { height: 7mm; }
+.hj-armas tr td:nth-child(1) { width: 34mm; }
+.hj-armas tr td:nth-child(5) { width: 33mm; }
+.hj-fila { flex: none; padding: 1mm 0 .4mm; }
+.hj-fila .hj-cas { gap: 2.4mm; }
+.hj-grilla td { height: 6mm; }
+.hj-frentes th { width: 20mm; }
+.hj-frentes tr td:nth-child(2) { width: 54mm; }
+.hj-frentes td, .hj-frentes th { height: 7.4mm; }
+.hj-fac td { height: 12mm; vertical-align: top; padding-top: 1.2mm; }
+.hj-rep { display: flex; gap: .5mm; margin-top: 1.4mm; }
+.hj-rep .hj-n { width: 4.3mm; }
+.hj-rep .hj-cero { background: var(--amarillo-claro); font-weight: 700; color: var(--tinta); }
+.hj-tes th { width: 42mm; font-size: 7pt; }
+.hj-tes .hj-e { font: 500 7pt var(--mono); color: var(--tinta-2); }
+.hj-tes .hj-sep { border-left: 2pt solid var(--tinta); }
+.hj-baraja th { width: 16mm; }
+.hj-baraja td { text-align: center; height: 6mm; }
+.hj-dias { flex: none; display: flex; justify-content: space-between; padding: .6mm 0 0; }
+.hj-etapa .hj-k { margin-bottom: .6mm; }
+.hj-grupo td { height: 9.6mm; white-space: normal; }
+.hj-grupo tr td:nth-child(4), .hj-grupo tr td:nth-child(5) { width: 14mm; }
+.hj-grupo tr td:nth-child(6) { width: 25mm; }
+.hj-grupo .hj-pista .hj-n { width: 3.4mm; height: 3.4mm; font-size: 5pt; line-height: 3.3mm; }
+.hj-grupo .hj-pista .hj-g { gap: .3mm; }
+.hj-grupo .hj-tc td { white-space: normal; line-height: 1.1; height: 7mm; font-size: 6pt; letter-spacing: .06em; }
+.hj-et .hj-ref { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.hj-etapa { display: inline-block; }
+.hj-rep .hj-n { width: 3.9mm; }
+.hj-datos .hj-op { margin-right: .4mm; font-size: 7.2pt; }

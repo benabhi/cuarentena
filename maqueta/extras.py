@@ -145,6 +145,17 @@ LLEGAR = {'e200', 'e220', 'e240', 'e260', 'e280', 'e300', 'e320', 'e340', 'e360'
 
 # Las facciones: emblema (apartados «##» de 66-facciones.md)
 FACCIONES = {'La Parroquia': 'parroquia', 'Los Bomberos': 'bomberos', 'Los Lobos': 'lobos', 'El Destacamento': 'destacamento'}
+# Lema y guía rápida de cada facción (va en su cabecera)
+FACCION_GUIA = {
+    'La Parroquia': ('Cuatrocientas personas y una puerta que no cierra.',
+                     [('Casa', 'e660'), ('Visita', 'e661'), ('Pedidos', 'e662 · e663'), ('Castigo', 'e665')]),
+    'Los Bomberos': ('El agua es de ellos, y la cobran.',
+                     [('Casa', 'e670'), ('Visita', 'e671'), ('Pedidos', 'e672 · e673'), ('Castigo', 'e677')]),
+    'Los Lobos': ('Se quedaron con un barrio y no lo devuelven.',
+                  [('Casa', 'e680'), ('Visita', 'e681 · e682'), ('Pedidos', 'e683 · e684'), ('Castigo', 'e687')]),
+    'El Destacamento': ('Lo que queda del ejército, mirando el muro.',
+                        [('Casa', 'e690'), ('Visita', 'e691'), ('Pedidos', 'e693 · e694'), ('Castigo', 'e697')]),
+}
 
 # Ilustraciones intercaladas dentro de un capítulo (después de la entrada indicada).
 FIGURAS = {}
@@ -220,18 +231,34 @@ REMATES = [
 ARTE_REMATE = [
     ('v-mochila.jpg', '50% 50%'),
     ('v-radio.jpg', '50% 50%'),
-    ('v-ventana.jpg', '50% 50%'),
-    ('v-cocina.jpg', '50% 50%'),
+    ('v-farmacia.jpg', '50% 50%'),
     ('v-callado.jpg', '50% 40%'),
+    ('v-ventana.jpg', '50% 50%'),
+    ('v-bicicleta.jpg', '50% 50%'),
+    ('v-cocina.jpg', '50% 50%'),
+    ('v-huerta.jpg', '50% 50%'),
     ('v-tanques.jpg', '50% 50%'),
+    ('v-latas.jpg', '50% 50%'),
     ('v-colectivo.jpg', '50% 50%'),
+    ('v-fogata.jpg', '50% 50%'),
     ('v-guardia.jpg', '50% 50%'),
+    ('v-cementerio.jpg', '50% 50%'),
     ('v-taller.jpg', '50% 50%'),
+    ('v-hospital.jpg', '50% 50%'),
     ('v-perro.jpg', '50% 50%'),
+    ('v-escalera.jpg', '50% 50%'),
+    ('v-generador.jpg', '50% 50%'),
+    ('v-barricada.jpg', '50% 50%'),
+    ('v-bidones.jpg', '50% 50%'),
+    ('v-velas.jpg', '50% 50%'),
+    ('v-changuito.jpg', '50% 50%'),
+    ('v-candado.jpg', '50% 50%'),
 ]
+# Recuadros «IMAGEN PENDIENTE» (herramientas/placeholder.py): farmacia, bicicleta, huerta, latas, fogata,
+# cementerio, hospital, escalera, generador, barricada, bidones, velas, changuito, candado. Se rehacen en Gemini cuando vuelva la cuota.
 
 # Entradas que se maquetan a toda anchura (sus tablas quedan estrechas en media columna)
-ANCHAS = {'r300'}
+ANCHAS = {'r300', 'e001', 'e901'}
 
 # --------------------------------------------------------------------------- recordatorios
 # Rellenan la columna corta al final de un flujo a dos columnas. Son reglas de verdad.
@@ -245,7 +272,7 @@ RECORDATORIOS = [
     ('Recordá · El Ruido', 'Con 3, Callados. Con 6, la Procesión. Vuelve a 0 en el refugio (r154).'),
     ('Recordá · Revisar', 'Rápido ◷ 1 y una tirada; a fondo ◷ 2, +1 Ruido y tres tiradas (r161).'),
     ('Recordá · La Mochila', 'Ocho casilleros. Lo puesto no ocupa. De más, Desventaja en Físico y Sigilo (r164).'),
-    ('Recordá · El sondeo', '2d6 cada noche. Igual o menos que el Rastro: los Callados tantean el refugio (r175).'),
+    ('Recordá · El sondeo', '2d6 cada noche. Igual o menos que el Rastro, −1 por Guardia: los Callados tantean el refugio (r175).'),
     ('Recordá · La Moral', 'Con 8+, un puesto produce el doble. Con 2−, crisis. En 0, el grupo se rompe (r182).'),
     ('Recordá · La Fiebre', 'Sube 1 cada alba. El Antiviral la frena un día. En 6, te convertís (r191).'),
     ('Recordá · Reservas', 'En 0, Desventaja en todo y 1 Herida cada alba hasta que comas (r193).'),
@@ -273,14 +300,42 @@ PANELES = [
      'Sube 1 cada alba. No hay cura (r191).'),
 ]
 
-# Tiras de consulta (una línea) para huecos chicos de columna
+# Paneles chicos (título y dos o tres filas) para huecos chicos de columna
 TIRAS = [
-    ('dado', 'La prueba', '2d6 + Habilidad · 10+ limpio · 7–9 con precio · 6− fallo y práctica.'),
-    ('combate', 'Atacar', '10+ tantos como el Daño · 7–9 la mitad y el precio · 6− nada.'),
-    ('hora', 'Horas', 'Calle ◷ 1 · Azoteas ◷ 2 · Subsuelo ◷ 1 · revisar ◷ 1 o ◷ 2 · descansar ◷ 2.'),
-    ('ruido', 'Ruido', 'Con 3, Callados ×1d3 · Lejos. Con 6, la Procesión.'),
-    ('refugio', 'Sondeo', '2d6 cada noche: igual o menos que el Rastro → e072.'),
-    ('fiebre', 'Fiebre', 'Sube cada alba · 3 Labia · 4 todo · 5 delirios · 6 te convertís.'),
-    ('grupo', 'Comer', 'Cada persona come 1 Víver al alba. Si falta, −1 Reserva y −1 Moral.'),
-    ('herida', 'Curar', '`[Medicina]`, 1 Fármacos, ◷ 1 · 10+ borra 2 Heridas · 7–9 borra 1.'),
+    ('dado', 'La prueba', [('10 o más', 'limpio'), ('7 a 9', 'con precio'), ('6 o menos', 'fallo y práctica')]),
+    ('hora', 'Horas', [('Calle · Subsuelo', '◷ 1'), ('Azoteas', '◷ 2'), ('Revisar', '◷ 1 rápido · ◷ 2 a fondo')]),
+    ('grupo', 'Comer', [('Al alba', '1 Víver por persona'), ('Si falta', '−1 Reserva y −1 Moral')]),
+    ('ruido', 'Ruido', [('Con 3', 'Callados ×1d3 · Lejos'), ('Con 6', 'la Procesión'), ('En el refugio', 'vuelve a 0')]),
+    ('herida', 'Curar', [('Prueba', '`[Medicina]`, 1 Fármacos, ◷ 1'), ('10 o más', 'borra 2 Heridas'), ('7 a 9', 'borra 1')]),
+    ('refugio', 'Sondeo', [('Cada noche', '2d6 contra el Rastro'), ('Igual o menos', 'tantean el refugio: e072')]),
+]
+
+# --------------------------------------------------------------------------- collage de los especiales
+# Página entera antes de las fichas e720–e731. (id, nombre, etapa, frase, clave, imagen, x, y, w, h, giro, foco)
+ESPECIALES_TIT = ('El catálogo · Los infectados', 'Los especiales',
+                  'Once maneras de que Tolme te mate. Las fotos son de la morgue del Central; '
+                  'las notas, de alguien que vivió para escribirlas.')
+ESPECIALES = [
+    ('e721', 'Fresco', 'I', 'Todavía tiene color en la cara. Corre.', 'De Lejos a Encima en una ronda: pegale primero.',
+     'v-fresco.jpg', 12, 44, 72, 47, -1.6, '50% 30%'),
+    ('e722', 'Hinchado', 'I', 'Camina como un globo de agua.', 'Si revienta cerca, +2 Ruido. Matalo desde Lejos.',
+     'v-hinchado.jpg', 88, 47, 70, 45, 1.4, '50% 30%'),
+    ('e723', 'Chillona', 'II', 'El único grito de Tolme.', '+2 Ruido por ronda. Primero ella.',
+     'v-chillona.jpg', 12, 98, 50, 40, 1.2, '50% 30%'),
+    ('e724', 'Acechador', 'II', 'En cuclillas, en el subte.', 'Salta Encima. La linterna lo frena.',
+     'v-acechador.jpg', 65, 96, 50, 40, -1.0, '58% 45%'),
+    ('e725', 'Sabuesos', 'II', 'Jauría. No ladran.', 'No trepan: subí o cerrá una puerta.',
+     'v-sabueso.jpg', 118, 99, 40, 40, 1.8, '50% 70%', 'arriba'),
+    ('e726', 'Bruto', 'III', 'No corre. No le hace falta.', 'Ninguna puerta lo para. Fuego, foso o huir.',
+     'v-bruto.jpg', 12, 145, 35, 50, -1.4, '60% 30%'),
+    ('e727', 'Escupidor', 'III', 'Ácido desde el balcón.', 'Atraviesa la protección.',
+     'v-escupidor.jpg', 49, 147, 35, 50, 1.0, '62% 30%'),
+    ('e728', 'Ahogado', 'III', 'Sale del agua y te lleva.', 'Te arrastra: [Físico] o perdés la ronda.',
+     'v-ahogado.jpg', 86, 144, 35, 50, -0.8, '55% 40%'),
+    ('e729', 'Blindado', 'III', 'Con el equipo puesto.', 'Armas de mano, −1 Daño.',
+     'v-blindado.jpg', 123, 146, 35, 50, 1.5, '58% 40%'),
+    ('e730', 'La Viuda', 'IV', 'Llora. Los Callados la evitan.', 'No la toques, no la alumbres, no hagas ruido.',
+     'v-viuda.jpg', 12, 199, 72, 37, 1.0, '50% 55%'),
+    ('e731', 'El Pastor', 'IV', 'Piensa.', 'Un tiro limpio o un cebo. Que no te vea.',
+     'v-pastor.jpg', 88, 198, 70, 38, -1.3, '60% 35%'),
 ]
