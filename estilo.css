@@ -472,7 +472,7 @@ h3.g-caja { font: 400 10pt var(--titulo); text-transform: uppercase; letter-spac
 .ct-dato .ico { width: 6mm; height: 6mm; color: var(--amarillo); display: block; margin: 0 auto 1.2mm; }
 .ct-dato span { font: 700 7.6pt var(--rotulo); text-transform: uppercase; letter-spacing: .12em; color: var(--papel); }
 .ct-pie { font: 700 6.8pt var(--rotulo) !important; text-transform: uppercase; letter-spacing: .18em; color: #bdb6a6 !important; text-align: center !important; margin: 0 !important; }
-.ct-sello { position: absolute; right: 14mm; top: 12mm; width: 20mm; height: auto; }
+.ct-sello { position: absolute; right: 8mm; top: 7mm; width: 24mm; height: auto; }
 
 .lamina-tit, .parte-tit, .cap-tit, .doc-tit, .g-tit { hyphens: manual; -weasy-hyphens: manual; }
 

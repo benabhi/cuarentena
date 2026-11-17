@@ -747,8 +747,8 @@ def contratapa():
     y cada ventana. Una baraja española marca los días. Cuando salga la última carta, llega la <b>Marea</b>.</p>
     <div class="ct-datos">{fila}</div>
     <p class="ct-pie">Un juego de rol en solitario · Necesitás una baraja española, tres dados de seis caras, un lápiz y este libro</p>
+    <img class="ct-sello" src="arte/marca/utopia-logo-claro.png" alt="UtopIA"/>
   </div>
-  <img class="ct-sello" src="arte/marca/utopia-logo-claro.png" alt="UtopIA"/>
 </section>'''
 
 
