@@ -67,7 +67,7 @@
 
 - El **número** dice la intensidad (1 = leve, 7 = fuerte). Las **figuras** (Sota, Caballo, Rey) son días de historia: abren eventos únicos de la trama o del Secreto.
 - **Por qué funciona:** el jugador sabe cuántas cartas quedan de cada palo y puede **planear** («quedan siete Espadas y solo dos Oros: hay que salir a buscar comida ahora»). Algunas cosas permiten **mirar la próxima carta** (escuchar la radio, subir al campanario) y muy pocas permiten **cambiarla** (una vez por partida, con un coste fuerte). Lo grande se gana una vez.
-- **Sin baraja a mano:** una tabla alternativa con d4 (palo) y d10 (carta), tachando en una cuadrícula de 40 cartas de la hoja del refugio. La app la simula.
+- **Sin baraja a mano:** una tabla alternativa con d4 (palo) y d10 (carta), tachando en una cuadrícula de 40 cartas de la hoja del refugio.
 
 ### 2.3 Las Etapas de la plaga
 
@@ -408,8 +408,7 @@ Huele a alcohol y a algo dulce que no querés reconocer.
 | 5. Simulador | Miles de partidas por protagonista; objetivo: 55–65 % de victorias (más difícil que Caribdis) |
 | 6. Auditoría | Documento para que decidas qué se aplica |
 | 7–9. Maqueta y arte | PDF de 200 páginas, arte del chat nuevo de Gemini |
-| 10. App | Motor, Baraja, mapa de red, hoja del refugio, Códice y Aprender a jugar |
-| 11. Repo y Pages | github.com/benabhi/cuarentena |
+| 11. Repo | github.com/benabhi/cuarentena |
 | 12. Auditoría final | Sin mover la maqueta |
 
 ---

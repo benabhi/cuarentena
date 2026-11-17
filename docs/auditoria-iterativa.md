@@ -56,12 +56,11 @@ Pruebas: verificar.py sin enlaces rotos, duplicados ni huérfanas (quedan solo l
 
 Pruebas: verificar.py sin errores; simulador 3000 partidas: 65,9 %; por refugio, Parroquia 60, Supermercado 62, Comisaría 64, Escuela 65, Sarmiento 66, Cuartel 76.
 
-## Ronda 4 (libro, maqueta y app jugada de punta a punta)
+## Ronda 4 (libro y maqueta)
 
 - **r220 · la Noche 40 te agarra afuera.** El libro decía qué pasa con los sobrevivientes de afuera, pero no con vos. Ahora: volvés a oscuras (r158) y llegás justo; si no volvés, la Marea te encuentra en la calle → e990.
-- **Marcas sin consulta** (`CORIA_ESPERA`, `LA_LUZ_DE_SAN_ROQUE`, `UN_NIDO`): no son texto muerto, cada una explica su efecto donde se gana. La app las recuerda al alba (la luz de San Roque pone su Procesión en Sanidad con un botón).
+- **Marcas sin consulta** (`CORIA_ESPERA`, `LA_LUZ_DE_SAN_ROQUE`, `UN_NIDO`): no son texto muerto, cada una explica su efecto donde se gana.
 - **Índice de Marcas regenerado** (251): faltaban `TRAMO_REFORZADO` y una aparición de `VICIO`.
 - **Viñetas:** había dos repetidas en el libro (bicicleta y guardia). El constructor ahora lleva la cuenta y no repite ninguna; los huecos medianos de los eventos (p. 99, 148, 149 y 186) llevan viñeta. Para eso se sumaron cinco recuadros nuevos (barricada, bidones, velas, changuito, candado): hoy son 14 imágenes pendientes, en docs/arte.md.
-- **La app, jugada por un jugador automático** que toca botones al azar por la interfaz (creación, prólogo, días, combates, taller, noche, Noche 40 y final). Errores encontrados y arreglados: el botón de la figura del día seguía como principal después de jugarla; «La aprendí» en el taller no refrescaba la ventana; la Noche 40 con el protagonista afuera pasaba a una noche común y después pedía la carta 41; la brecha (e920) no tenía forma de cerrarse desde la app; «Volver a oscuras» se podía repetir sin fin; la muerte (e990) dejaba volver al día.
 
 Pruebas: verificar.py sin enlaces rotos, duplicados ni huérfanas; simulador 2000 partidas: 66,2 % (por refugio 62–79 %, por oficio 58–78 %); PDF de 200 páginas, 0 títulos huérfanos, 24 columnas con hueco de más del 20 % (antes 32; las que quedan son de preliminares, columnas desparejas por un recuadro o finales de capítulo que piden aire).
