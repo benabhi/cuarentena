@@ -152,7 +152,7 @@ La carta cuarenta es el último día. Resolvela, comé, usá tus 6 horas… y pr
 **Resultado:**
 
 - **Defensa igual o mayor que la Fuerza:** el frente aguanta, pero su Resistencia baja 2.
-- **Defensa menor:** la Resistencia baja la diferencia más 1, y cada defensor de ese frente tira una vez en la tabla de Mordidas (r144).
+- **Defensa menor:** la Resistencia baja la diferencia (2 como mínimo), y cada defensor de ese frente tira una vez en la tabla de Mordidas (r144).
 - **Resistencia 0 o menos:** **brecha** (r223).
 
 <a id="r223"></a>

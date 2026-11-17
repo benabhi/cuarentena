@@ -302,6 +302,6 @@ ______________________________________________________________________
 > **Frente (1d6):** 1–2 Puerta · 3 Ventanas · 4 Techo · 5 Subsuelo · 6 el más débil. Desde la cuarta, dos frentes.
 > **Especial:** 5–6 en 1d6 → [e901](#e901).
 > **Defensa** = Resistencia + trampas + defensores (Daño del arma, +1 con Pelea o Puntería 2+) + vos (prueba: 10+ el doble, 7–9 el Daño, 6− nada y 1 Herida) + Molotov (3, uno por defensor) + aliados ([e905](#e905)).
-> **Defensa ≥ Fuerza:** el frente aguanta y pierde 2. **Menor:** pierde la diferencia más 1, y cada defensor tira Mordidas. **0 o menos:** brecha ([e920](#e920)).
+> **Defensa ≥ Fuerza:** el frente aguanta y pierde 2. **Menor:** pierde la diferencia (2 como mínimo), y cada defensor tira Mordidas. **0 o menos:** brecha ([e920](#e920)).
 > **Entre oleadas:** cambiar de frente · reforzar (+1 por 1 Madera o Metal) · curar · poner una trampa · descansar. Después de la segunda, [e910](#e910); después de la cuarta, [e912](#e912).
 > **Último Cuarto:** Resistencia 6 si lo construiste, 2 si no.

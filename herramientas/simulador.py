@@ -1781,7 +1781,7 @@ class Partida:
                     if f == 'UC': uc -= self.aj['aguante']
                     else: self.frentes[f] -= self.aj['aguante']
                 else:
-                    falta = F - dfn + extra + self.aj['pierde_extra']
+                    falta = max(self.aj['aguante'], F - dfn + self.aj['pierde_extra']) + extra
                     if f == 'UC': uc -= falta
                     else: self.frentes[f] -= falta
                     for s in list(aqui):
@@ -1917,7 +1917,7 @@ class Partida:
                     apodo=self.apodo, manas=len(self.manas), ganadas=sorted(self.manas - set(self.prota['manas'])))
 
 
-AJUSTES = dict(desarmar=3, reforzar=1, ola_mult=1, ola_base=0, aguante=2, pierde_extra=1, retroceder=True, atajos_soga=True, cuartel=('Cisterna',), amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True,
+AJUSTES = dict(desarmar=3, reforzar=1, ola_mult=1, ola_base=0, aguante=2, pierde_extra=0, retroceder=True, atajos_soga=True, cuartel=('Cisterna',), amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True,
                superar=0.25, senal=0.3, abrir=4, apodo_10=True, gratis_sin_practica=True, colores=True, tres_candidatos=True, falta_v2=True, mayor_h=4, mayor_magullado=True, mayor_puntos=0)
 
 
