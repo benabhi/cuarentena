@@ -24,6 +24,26 @@
 
 Cada viñeta es una imagen nueva del tema, nunca un recorte de una lámina.
 
+### Variedad de infectados (2026-11-17, pedido del autor)
+
+El autor notó que las bandas y viñetas repetían demasiado «Callados con la cabeza torcida». Se rehicieron 11 imágenes chicas (las de página completa no se tocaron) con infectados especiales o sin infectados. Las versiones anteriores están en `arte/originales/`.
+
+| Imagen | Ahora |
+|---|---|
+| `b-mercado` | Acechadores en la cúpula del mercado |
+| `b-costanera` | Ahogados en la costanera |
+| `b-universidad` | un Blindado con traje |
+| `b-sanidad` | dos Hinchados entre ambulancias |
+| `b-lomas` | una jauría de Sabuesos |
+| `b-casco` | una Chillona en la plaza |
+| `b-azoteas` | un Fresco corriendo mientras cruzan un tablón |
+| `b-combate` | pelea contra un Bruto |
+| `b-estacion` | un Escupidor en el andén |
+| `b-cementerio` | un entierro, sin infectados |
+| `v-cementerio` | tumbas frescas, sin nadie |
+
+Al pedir, «como el de la ficha que hicimos antes» ayuda a que el especial se parezca a su viñeta. Si Gemini no muestra la imagen, recargar la página (F5): a veces ya estaba hecha.
+
 ## La maqueta
 
 - Misma letra y densidad que Caribdis (Spectral 8,9 pt), compuesta a 170×240,4 mm y ampliada a A4. Títulos en Anton, rótulos en PT Sans Narrow, documentos del mundo en Special Elite, Marcas en IBM Plex Mono.
