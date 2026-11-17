@@ -222,7 +222,7 @@ Si hay un mordido:
 ### e039 · Visitas
 *Tu refugio · ◷ 0*
 
-Una facción viene a verte. 1d6: 1–2 la Parroquia ([e661](#e661)), 3 los Bomberos ([e671](#e671)), 4–5 los Lobos ([e681](#e681)), 6 el Destacamento ([e691](#e691)). Con Reputación −3, no vienen a hablar: su entrada te manda a su ataque.
+Una facción viene a verte. 1d6: 1–2 la Parroquia ([e661](#e661)), 3 los Bomberos ([e671](#e671)), 4–5 los Lobos ([e681](#e681)), 6 el Destacamento ([e691](#e691)). Con Reputación −3, no vienen a hablar: [e665](#e665), [e677](#e677), [e687](#e687) o [e697](#e697).
 
 ---
 
@@ -381,7 +381,7 @@ Mirá la próxima carta (r136) y devolvela. Después, 1d6:
 - **1–2 · Zonas a evitar:** nombra un barrio. Procesión nueva ahí (r155).
 - **3–4 · Pronóstico:** «Lloviznas aisladas». Nunca acierta.
 - **5 · Algo distinto:** debajo de la voz, alguien tose. Un perro. Un auto. Una pista ([e560](#e560)).
-- **6 · El conteo:** «Faltan…» y un número. Si no coincide con las cartas del mazo, anotá `LA_SENORA_SE_EQUIVOCA`.
+- **6 · El conteo:** «Faltan…» y un número. 1d6: con 5–6, no coincide con las cartas del mazo; anotá `LA_SENORA_SE_EQUIVOCA`.
 
 ---
 

@@ -272,6 +272,6 @@ Un día en el muro (◷ 6), vos y hasta dos más, cada uno `[Oficio]` o `[Físic
 
 Diez soldados rodean la manzana. «Inmueble requisado».
 
-1. **Salir.** Una noche en un contenedor; se llevan armas, Munición, Combustible y Antivirales. −2 Reputación.
+1. **Salir.** Una noche en un contenedor; se llevan armas, Munición, Combustible y Antivirales. Cobrado: tu Reputación con ellos vuelve a −2.
 2. **Resistir:** **Soldados ×6 · Aguante 3 · Lejos**, con fusiles (r147); por tus paredes, sus disparos te pegan solo con 6. +4 Rastro. Si perdés, como la 1, y alguien muere: −2 Moral.
 3. **Escapar** por el Subsuelo o las Azoteas, con lo que entre en las mochilas (r176).

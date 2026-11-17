@@ -21,7 +21,7 @@ Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 ### e101 · La gran Procesión pasa por tu puerta
 *Tu refugio · ◷ 6*
 
-`[Sigilo]` por el grupo (+1 con Cortinas negras; Desventaja con más de 6 personas o el Negro sin `NEGRO_CON_BOZAL`):
+`[Sigilo]` por el grupo (+1 con Cortinas negras; Desventaja con más de 4 personas o el Negro sin `NEGRO_CON_BOZAL`):
 
 - *10+:* al anochecer, la calle está vacía y llena de zapatos. +1 Moral.
 - *7–9:* por cada frente, con 1–2 en 1d6, −1 Resistencia.

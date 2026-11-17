@@ -56,7 +56,7 @@ Un golpe que hace temblar las paredes: un Bruto ([e726](#e726)).
 
 Un grito largo, agudo, frente al refugio: una Chillona ([e723](#e723)), llamando a todos.
 
-- **Matarla rápido** desde arriba: **Chillona ×1 · Lejos**. Cada ronda viva, +1 Rastro. En la primera ronda, el frente pierde 1; después, 2. Pero el grupo duerme.
+- **Matarla rápido** desde arriba: **Chillona ×1 · Lejos**. Cada ronda viva, +1 Rastro. Si muere en la primera ronda, el frente pierde 1; si no, 2. Pero el grupo duerme.
 - **Esperar:** grita hasta el alba. El frente pierde **2**, +2 Rastro, nadie duerme: −1 Moral.
 
 ---
@@ -189,4 +189,4 @@ Hernán (o el más creyente) habla en la cena: la Marea es el Juicio, y a los ju
 ### e089 · Se rompe todo
 *Tu refugio · Moral 0*
 
-Al alba, el grupo arma las mochilas. Por cada sobreviviente, con 1–3 en 1d6 se va (`PERDIDO_`). Se llevan la mitad de los Víveres y de los materiales. La Moral vuelve a **3**. Anotá `EL_DIA_QUE_SE_FUERON`. Si no queda nadie, seguís en modo Lobo solo (r210), con 2 oleadas menos.
+Al alba, el grupo arma las mochilas. Por cada sobreviviente, con 1–3 en 1d6 se va (`PERDIDO_`). Se llevan la mitad de los Víveres y de los materiales. La Moral vuelve a **3**. Anotá `EL_DIA_QUE_SE_FUERON`. Si no queda nadie, seguís en modo Lobo solo (r210).

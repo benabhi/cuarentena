@@ -48,7 +48,7 @@
 |---|---|---|---|
 | ▢ ▢ ▢ ▢ ▢ ▢ | ▢ ▢ ▢ ▢ ▢ ▢ | __________ | Calle · Azoteas · Subsuelo |
 
-*El Ruido vuelve a 0 en el refugio. Con 3, Callados; con 6, la Procesión (r154).*
+*El Ruido vuelve a 0 en el refugio. Con 3, peleando, Callados; con 6, la Procesión (r154).*
 
 **Mochila** (8 casilleros, r164)
 
@@ -251,7 +251,7 @@ ______________________________________________________________________
 | Azoteas | ◷ 2 | 0 | Solo con 1 en 1d6 ([e130](#e130)) |
 | Subsuelo | ◷ 1 | 0 | Siempre ([e110](#e110)) |
 
-**Ruido 3:** Callados ×1d3 · Lejos. **Ruido 6:** la Procesión ([e100](#e100)). Al volver con Ruido 3+ de un barrio vecino, +1 Rastro. Las Procesiones siguen el ruido, se mueven los días de Espadas y no se cruzan por arriba ni por abajo.
+**Ruido 3** peleando: Callados ×1d3 · Lejos. **Ruido 6:** la Procesión ([e100](#e100)). Al volver con Ruido 3+ de tu barrio o uno vecino, +1 Rastro. Las Procesiones siguen el ruido, se mueven los días de Espadas y no se cruzan por arriba ni por abajo.
 
 ### El combate (r140–r149)
 

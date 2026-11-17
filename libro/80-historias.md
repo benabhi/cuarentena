@@ -55,7 +55,7 @@ En la libreta de turnos, con la letra de Raquel: «Al que tenga la lista: los de
 Insulina tibia, que sirve unos días. Ferro, cama 7, vive arriba de la panadería de Rivadavia.
 
 1. **Ir ya** (◷ 1, en el Casco). Con 1–2 en 1d6, llegás tarde: está convertida y atada (−1 Ánimo, cruz para Ferro). Con 3–6, en coma; `[Medicina]`: con 7+ despierta, y vienen ella y su marido (tachala, +1 Juramento); con 6−, no despierta (cruz para Ferro).
-2. **Guardarla** (1 casillero), por si un evento trae a un diabético.
+2. **Ir otro día,** antes de la próxima carta de Espadas (1 casillero): como la 1, pero llegás tarde con 1–3.
 
 ---
 

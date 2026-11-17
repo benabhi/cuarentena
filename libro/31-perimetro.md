@@ -149,7 +149,7 @@ Tres contenedores con las soldaduras abiertas. Por ahí va a entrar.
 1. **Avisarle al Destacamento.** Con Reputación 0 o más, refuerzan el tramo: +1 Reputación, borrá `EL_MURO_CEDIO` si la tenías y anotá `TRAMO_REFORZADO` (desde ahora, [e049](#e049) no la anota).
 2. **Reforzarlo vos:** 4 Metal, 2 Sujeción, Soldadora, `[Mecánica]` u `[Oficio]`, ◷ 4. Con 7+, anotá `REFORZASTE_EL_MURO`: la primera oleada de la Noche 40 pierde 2 de Fuerza.
 3. **Volar la rampa,** con `LA_RAMPA`: 2 Bombas de clavos o la Garrafa trampa, desde la torre, `[Puntería]`. Con 7+, anotá `RAMPA_DESTRUIDA`: la Marea tiene 1 oleada menos. +3 Ruido, y el Destacamento te dispara por las dudas: 1 Herida.
-4. **Estudiar su camino:** entra por La Fabril y sigue por La Estación hasta El Casco. Anotá `CONOCES_EL_CAMINO`: en la Noche 40, si un Señuelo grande (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO` o `LA_SIRENA`) quedó encendido en otro barrio, 1 oleada menos.
+4. **Estudiar su camino:** entra por La Fabril y sigue por La Estación hasta El Casco. Anotá `CONOCES_EL_CAMINO`: en la Noche 40, si un Señuelo grande (`LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO` o `LA_SIRENA`) sigue andando fuera del barrio de tu refugio, 1 oleada menos.
 
 ---
 

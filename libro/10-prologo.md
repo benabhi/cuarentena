@@ -159,7 +159,7 @@ Te muerdan o no, leé la regla de la **Fiebre** (r191).
 ### e009 · La Señora
 *Tolme · ◷ 0*
 
-Cortan los teléfonos y después internet. El miércoles, en una radio a pilas, una voz de locutora vieja:
+Cortan los teléfonos y después internet. El jueves, en una radio a pilas, una voz de locutora vieja:
 
 > *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
 
@@ -263,7 +263,7 @@ La primera de cuarenta (r134):
 
 Al amanecer subís a lo más alto: humo en tres barrios y, al norte, el **muro**.
 
-Tirá los tres barrios del humo en r155 (si se repite uno, o sale el de tu refugio, tirá otra vez) y marcalos con una llama. Allí cada lugar tiene **1 casilla de stock menos**, pero la primera vez que llegás no tirás encuentro: el fuego espantó a los Callados.
+Tirá los tres barrios del humo en r155 (si se repite uno, o sale el de tu refugio, tirá otra vez) y marcalos con una nube: no están «en llamas» (r159). Allí cada lugar tiene **1 casilla de stock menos**, pero la primera vez que llegás no tirás encuentro: el fuego espantó a los Callados.
 
 Del otro lado, el campo está negro de gente. Millones, quietos, de cara a la ciudad.
 
@@ -276,6 +276,6 @@ Esa es la **Marea**. Llega en la **Noche 40** (r220). Abajo, en una radio, la Se
 1. Con la baraja ya mezclada (r108), leé r130–r135.
 2. Mirá dónde quedaron las **Procesiones** y los **Seis Tesoros** (r110).
 3. **Tu historia empieza hoy** (r198): si tu Motivo es La lista, La obra, La orden o El pedido, leé [e800](#e800), [e810](#e810), [e820](#e820) o [e830](#e830).
-4. **Robá la primera carta.** Es el día 1.
+4. **Robá la primera carta.** Es el día 1 de la cuarentena.
 
 Desde acá, si no sabés adónde ir, volvé al mapa.

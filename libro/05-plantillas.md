@@ -24,10 +24,10 @@ Cambian como en r166, hasta 3 cosas. Si les das algo de comer sin pedir nada, an
 <a id="r302"></a>
 ### r302 · Necesitan ayuda
 
-Uno está herido o mordido.
+Uno está herido; con 1–3 en 1d6, también mordido, y no lo saben.
 
 - **Dar 1 Fármacos o curarlo** `[Medicina]`: con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa.
-- **Decirles que está mordido** (si lo está: 1–3 en 1d6): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
+- **Decirles que está mordido** (si lo está): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
 - **Irte.** Nada.
 
 <a id="r303"></a>
@@ -107,12 +107,12 @@ Cuando un evento dice **«escena: Pasillo»** (u otra), el lugar cambia cómo fu
 <a id="r331"></a>
 ### r331 · Pasillo
 
-Estrecho. Solo puede estar **un** Callado Encima a la vez. Las armas de 2 manos tienen Desventaja. Si cerrás una puerta detrás de vos (Usar algo), los Callados tardan 1d6 rondas en romperla, o nunca si no hay un Bruto.
+Estrecho. Solo puede estar **un** Callado Encima a la vez. Las armas de 2 manos tienen Desventaja. Si cerrás una puerta detrás de vos (Usar algo), salís del combate: los Callados no la rompen. Un Bruto sí, en 1d6 rondas.
 
 <a id="r332"></a>
 ### r332 · Escalera
 
-Si estás arriba, los Callados tardan **dos rondas** en pasar de Cerca a Encima. Si estás abajo, la primera ronda caen encima tuyo: empiezan Encima. Las Mordidas en escalera, si vos estás arriba, tienen −1.
+Si estás arriba, los Callados tardan **dos rondas** en pasar de Cerca a Encima. Si estás abajo, se te caen encima: su primer avance los deja Encima, estén donde estén. Las Mordidas en escalera, si vos estás arriba, tienen −1.
 
 <a id="r333"></a>
 ### r333 · Estacionamiento

@@ -118,5 +118,5 @@ Un rugido de animal grande. Algo salió del zoológico. 1d6:
 Un oso flaco junto a tres Callados despedazados. Te mira.
 
 1. **Darle de comer** (2 Víveres). Si lo hacés tres visitas, anotá `EL_OSO`: cuida el zoológico, y revisarlo ya no tiene encuentros.
-2. **Abrir la reja.** Se va al parque. +1 Ánimo y anotá `EL_OSO_LIBRE`: cada 12 en la tabla del barrio, aparece y se come a los Callados que haya.
+2. **Abrir la reja.** Se va al parque. +1 Ánimo y anotá `EL_OSO_LIBRE`: cada 12 en la tabla del barrio es él, no [e413](#e413): se come a los Callados que haya.
 3. **Dejarlo.**

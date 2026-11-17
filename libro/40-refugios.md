@@ -282,7 +282,7 @@ Seis bomberos con chaquetones quemados y la comandante **Gauna**. «Ustedes est�
 
 Con Valeria ([e642](#e642)), primero [e644](#e644).
 
-1. **Compartirlo,** `[Labia]`. Con 7+, se quedan como facción aliada ([e670](#e670)): comen 3 Víveres por alba, y cada noche hacen la Guardia y la Obra sin ocupar a los tuyos (−1 al sondeo y +1 a un frente). En la Noche 40 pelean con vos ([e905](#e905)) sin tirar. +2 Reputación. Con 6−, como la 3.
+1. **Compartirlo,** `[Labia]`. Con 7+, se quedan como facción aliada ([e670](#e670)): comen 3 Víveres por alba, y cada noche hacen la Guardia y la Obra sin ocupar a los tuyos (−1 al sondeo y una Obra, con tus materiales). En la Noche 40 pelean con vos ([e905](#e905)) sin tirar. +2 Reputación. Con 6−, como la 3.
 2. **Devolvérselo.** Te mudás (r176) con su camioneta: no perdés nada de lo que tenías, pero sí las instalaciones. +3 Reputación.
 3. **Negarte.** No pelean contra vivos: se van a la Fabril. −3 Reputación y anotá `LES_ROBASTE_EL_CUARTEL`. Si tenés `LA_AUTOBOMBA`, una noche se la llevan.
 

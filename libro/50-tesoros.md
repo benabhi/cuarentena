@@ -273,4 +273,4 @@ Con `EL_BLINDADO`:
 - **Atropellar** una Procesión en la Calle: se dispersa (r156) y se rearma en un barrio al azar. +2 Rastro si es el barrio del refugio.
 - **En la Noche 40,** elegí: contra la Puerta o las Ventanas, ese frente tiene **+3** en todas las oleadas; o, una vez, cargás contra una oleada antes de que llegue: pierde 2d6 de Fuerza, y el blindado queda volcado.
 - **En Éxodo,** es una salida para 8 → [e960](#e960), por donde no hay muro.
-- **Con `LA_AMETRALLADORA`** en la torreta (`[Mecánica]`, ◷ 2): al lado del blindado, la ametralladora tiene +1 y no gasta Munición la primera ronda.
+- **Con `LA_AMETRALLADORA`** en la torreta (`[Mecánica]`, ◷ 2): al lado del blindado, la ametralladora tiene +1 a la prueba y no gasta Munición la primera ronda.

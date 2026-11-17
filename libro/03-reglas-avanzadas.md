@@ -45,7 +45,7 @@ Tirá `[Pelea]` con armas de mano o `[Puntería]` con armas de fuego, arcos, bal
 - **Daño:** cuántos Callados comunes mata un golpe limpio.
 - **Ruido:** lo que suma **cada ataque**, salga como salga (r145).
 - **Alcance:** Cerca (sirve también Encima) o Lejos (sirve también Cerca, no Encima).
-- **Usos:** en 0, el arma se rompe. Se repara en el taller (r206).
+- **Usos:** en 0, el arma se rompe. Se repara en el refugio (r206).
 - **Munición:** 1 por ataque. Sin munición, un arma de fuego es un garrote de Daño 1.
 - **Sin arma:** los puños tienen Daño 1, Ruido 0, Cerca, y nunca se rompen.
 
@@ -65,10 +65,10 @@ Al final de cada ronda, **cada Callado Encima** te ataca: 1d6 por cada uno, como
 <a id="r145"></a>
 ### r145 · Cada disparo trae más
 
-El Ruido de la pelea se suma al **Ruido del barrio** (r154), y el barrio responde en el momento:
+El Ruido de la pelea se suma al **Ruido de la salida** (r154), y el barrio responde en el momento:
 
-- Al **llegar a 3** (o pasarlo), aparecen **Callados ×1d3 · Lejos**.
-- Al **llegar a 6**, llega una **Procesión**: el combate termina como esté → [e100](#e100). Después, el Ruido queda en 3, salvo que e100 diga otra cosa.
+- Al **llegar a 3** (o pasarlo) peleando, aparecen **Callados ×1d3 · Lejos**.
+- Al **llegar a 6**, peleando o no, llega una **Procesión**: el combate termina como esté → [e100](#e100). Después, el Ruido queda en 3, salvo que e100 diga otra cosa.
 
 <a id="r146"></a>
 ### r146 · Los infectados especiales
@@ -81,7 +81,7 @@ Cada uno cambia las reglas del combate: consultá su ficha (e720–e731) antes d
 Contra saqueadores, Lobos o soldados, el mismo sistema con tres diferencias:
 
 - **No avanzan solos:** cada ronda, después de tu acción, 1d6 por el grupo: 1–2 avanzan; 3–4 se quedan y disparan (con armas de fuego, 1 Herida a vos o a un compañero con 5–6 en 1d6 por tirador); 5–6 se cubren: esa ronda no hacen nada, y tu próximo ataque contra ellos tiene −1. Los que están **Encima** te golpean como en r144, pero un 6 es solo 1 Herida: no muerden.
-- **Se rinden o huyen** cuando cae la mitad. Con Labia 2 o más, en lugar de atacar podés intentar que se rindan `[Labia]`.
+- **Se rinden o huyen** cuando cae la mitad. Con Labia 2 o más, en lugar de atacar podés intentar que se rindan: `[Labia]`, con 7+ lo hacen.
 - **Hablan.** Muchas veces la mejor arma es no pelear (r300).
 
 Tienen **Aguante** como los especiales: `Lobos ×3 · Aguante 2 cada uno · armas de fuego`.
@@ -129,7 +129,7 @@ Las conexiones de cada barrio están en el mapa y en la primera entrada de su bl
 <a id="r153"></a>
 ### r153 · Encuentros al llegar
 
-Al llegar a un barrio por la Calle, tirá **1d6 + la Etapa** en su tabla. **+2 de noche** y **+1 con Ruido 3 o más**; más de 12 cuenta como 12. La tabla te manda a un evento del barrio o de la calle (e150–e169). Después, podés visitar sus lugares.
+Al llegar a un barrio por la Calle, tirá **1d6 + la Etapa** en su tabla. **+2 de noche** y **+1 con Ruido 3 o más**; más de 12 cuenta como 12, y menos de 2, como 2. La tabla te manda a un evento del barrio o de la calle (e150–e169). Después, podés visitar sus lugares.
 
 <a id="r154"></a>
 ### r154 · El Ruido
@@ -138,7 +138,7 @@ El **Ruido** (0–6) mide cuánto llamaste la atención en una salida. Empieza e
 
 Suman: llegar por la Calle +1 (en bicicleta, nada; en vehículo, el Ruido del vehículo, r157); un disparo, el Ruido del arma; romper un vidrio o forzar un postigo +1; revisar a fondo +1; un motor +2; un grito, una alarma o una explosión, +2 a +4.
 
-Con **3**, aparecen Callados (r145); con **6**, una Procesión ([e100](#e100)). Si volvés al refugio con Ruido 3 o más desde un barrio vecino al del refugio, el **Rastro** sube 1 (r174).
+Con **3**, si estás peleando, aparecen Callados (r145); con **6**, estés donde estés, una Procesión ([e100](#e100)). Si volvés al refugio con Ruido 3 o más desde su barrio o uno vecino, el **Rastro** sube 1 (r174).
 
 <a id="r155"></a>
 ### r155 · Las Procesiones
@@ -267,7 +267,7 @@ Ocho **materiales**: **Madera · Metal · Tela · Químicos · Sujeción · Elec
 <a id="r166"></a>
 ### r166 · Comerciar
 
-- **Valor:** 1 Víver = 1 material = 2 Munición. Fármacos, Antivirales y Combustible valen el doble.
+- **Valor:** 1 Víver = 1 material = 2 Munición; un objeto (Pilas, Binoculares…), 2. Fármacos, Antivirales y Combustible valen el doble.
 - `[Labia]`: con 10+, conseguís uno más de lo que das; con 7–9, el cambio es justo; con 6−, te cobran uno de más o no quieren.
 - Con Reputación +2 o más, siempre uno más. Con −2 o menos, no te cambian.
 - Los «uno más» no se suman: venga de donde venga (10+, Reputación, *El fiado*, el Mercado), es uno por cambio.
@@ -416,7 +416,7 @@ Tus casillas: **Magullado, Lastimado, Herido, Grave, Muriendo** (el Mayor no tie
 
 **Arañazo:** `[Medicina]` (tuya o de quien te cure), ◷ 1, 1 Fármacos. Con 7+, nada. Con 6−, o si no te limpiás antes de la noche, la Fiebre empieza en 1.
 
-**Mordida:** la Fiebre empieza en **1**, sin prueba. **Cada alba, sube 1.**
+**Mordida:** la Fiebre empieza en **1**, sin prueba. **Cada alba, toda Fiebre sube 1.**
 
 **Fiebre 1–2:** calor, sudor. **3:** Desventaja en Labia, se te nota. **4:** Desventaja en todo. **5:** delirios; cada noche, con 1–2 en 1d6 atacás a alguien del grupo. **6:** te convertís (r195).
 
@@ -450,7 +450,7 @@ Las **Reservas** (0–6) son tu cuerpo.
 <a id="r194"></a>
 ### r194 · Ánimo y Quiebre
 
-El **Ánimo** (0–6) es tu cabeza.
+El **Ánimo** (0–6) es tu cabeza: solo vos lo llevás.
 
 **Baja:** ver morir a alguien del grupo, matar a un Callado que conocías, dos noches sin dormir (−1 cada uno) y lo que digan los eventos. **Sube:** dormir en un Dormitorio, descansar (r133), una comida caliente (+1 cada uno), hablar con alguien, una canción, una victoria.
 

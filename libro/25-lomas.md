@@ -41,7 +41,7 @@ Al llegar por la Calle, **1d6 + la Etapa** (r153). Con `HANDY_DE_LOS_LOBOS`, sab
 
 - **Reputación 0 o menos con los Lobos:** dos guardias en la puerta, **Lobos ×2 · Aguante 2 · Lejos**, con escopetas. Pelear: +3 Ruido y −1 Reputación. Si ganás, podés revisar.
 - **+1 o más:** cambiás con ellos (r166): Munición, armas, ballestas, arcos.
-- **Revisar** (r161), si es tuya. El primer 1 que sacás es una ballesta de caza ([e702](#e702)) con 6 saetas.
+- **Revisar** (r161), si es tuya. El primer 1 que sacás es una ballesta de caza ([e702](#e702)) con 6 saetas; el primer 2, un Kit de recarga con su folleto: aprendés la Recarga ([e745](#e745)).
 
 ---
 

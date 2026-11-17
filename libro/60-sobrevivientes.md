@@ -4,7 +4,7 @@
 
 **Cómo se lee un sobreviviente.** Tiene un **encuentro** (cómo viene), una **necesidad** (el problema que trae) y un **desenlace**. La ficha dice lo que anotás en la Hoja del refugio: su Habilidad fuerte (las demás valen 0), su rasgo, qué hace en la Noche 40 y cuándo leer su necesidad.
 
-**Los rasgos.** **Valiente:** no huye nunca (r185); en la Noche 40, +1 a la defensa de su frente. **Cobarde:** huye con 1–2 en 1d6 ante un especial (r185) y no defiende la primera oleada. **Glotón:** los días de Oros come 2 Víveres. **Insomne:** hace Guardia y otro puesto la misma noche, pero nunca recupera Ánimo con Descanso. **Creyente:** entierros y fiestas dan +1 Moral más; con Moral 2, se va a la Parroquia con 1–2 en 1d6. **Ladrón:** cada carta de Oros, con 1 en 1d6 falta 1 material (r185). **Optimista:** una vez por semana evita una pérdida de Moral. **Fanfarrón:** +1 Ruido si sale con vos, pero +1 a Hablar (r300). **Testarudo:** elige su puesto la primera noche y lo hace siempre (cambiárselo: −1 Moral); nunca huye. **Curioso:** +1 a una tirada de botín si revisa con vos; con 1 en 1d6, +1 Ruido. **Frío:** las muertes no le bajan el Ánimo, y la primera de cada Etapa cuesta 1 Moral menos. **Leal:** si caés Muriendo (r190) con él al lado, te saca; no se va por crisis de Moral ([e080](#e080)).
+**Los rasgos.** **Valiente:** no huye nunca (r185); en la Noche 40, +1 a la defensa de su frente. **Cobarde:** huye con 1–2 en 1d6 ante un especial (r185) y no defiende la primera oleada. **Glotón:** los días de Oros come 2 Víveres. **Insomne:** hace Guardia y otro puesto la misma noche, pero el Descanso no le cura nada. **Creyente:** entierros y fiestas dan +1 Moral más; con Moral 2, se va a la Parroquia con 1–2 en 1d6. **Ladrón:** cada carta de Oros, con 1 en 1d6 falta 1 material (r185). **Optimista:** una vez por semana evita una pérdida de Moral. **Fanfarrón:** +1 Ruido si sale con vos, pero +1 a Hablar (r300). **Testarudo:** elige su puesto la primera noche y lo hace siempre (cambiárselo: −1 Moral); nunca huye. **Curioso:** +1 a una tirada de botín si revisa con vos; con 1 en 1d6, +1 Ruido. **Frío:** la primera muerte de cada Etapa cuesta 1 Moral menos. **Leal:** si caés Muriendo (r190) con él al lado, te saca; no se va por crisis de Moral ([e080](#e080)).
 
 ---
 
@@ -239,7 +239,7 @@ En la capilla atrancada, chicos de uniforme y una profesora con un palo de hocke
 
 - **1–2 · No está.** Su madre la buscó el día 1. Gustavo pasa de Cobarde a Frío.
 - **3–5 · Está.** Anotá `LA_HIJA_DE_GUSTAVO`: viene (Cocina, Huerta o Descanso). +3 Moral.
-- **6 · Están todos,** y no pueden quedarse más. Si te los llevás, +4 sobrevivientes (chicos, sin Guardia ni Obra), +3 Rastro, +4 Moral. Si no, Gustavo se queda (`PERDIDO_GUSTAVO`).
+- **6 · Están todos,** y no pueden quedarse más. Si te los llevás, anotá `LA_HIJA_DE_GUSTAVO`, +4 sobrevivientes (chicos, sin Guardia ni Obra), +3 Rastro, +4 Moral. Si no, Gustavo se queda (`PERDIDO_GUSTAVO`).
 
 ---
 

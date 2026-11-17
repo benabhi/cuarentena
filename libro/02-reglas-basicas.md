@@ -326,7 +326,7 @@ Cuando robás la última carta, es el **día 40**: esa noche llega la **Marea** 
 2. **La Etapa:** con la carta 11, 21 o 31, sube (r135).
 3. **Resolvé la carta** según su palo y su valor (r132).
 4. **El grupo come:** cada persona del refugio (vos incluido, salvo que hayas pasado la noche afuera: r193) consume **1 Víver**. Por cada uno que falte, alguien pierde 1 Reserva (vos elegís, r193), y la Moral baja 1 (r182), una sola vez.
-5. **La Fiebre avanza:** cada mordido sube 1 su Fiebre (r191).
+5. **La Fiebre avanza:** toda Fiebre sube 1 (r191).
 6. **Lo pendiente:** resolvé lo que un evento dejó «para el alba».
 
 <a id="r132"></a>
@@ -334,7 +334,7 @@ Cuando robás la última carta, es el **día 40**: esa noche llega la **Marea** 
 
 El **palo** dice qué clase de día es; el **valor**, cuánto pesa.
 
-**Oros**, hallazgo: [e020](#e020) · **Copas**, gente: [e030](#e030) · **Espadas**, amenaza: [e040](#e040) · **Bastos**, refugio y ciudad: [e050](#e050). Las cartas **1 a 3** usan la columna **Leve**; las **4 a 7**, la **Fuerte**.
+**Oros**, hallazgo: [e020](#e020) · **Copas**, gente: [e030](#e030) · **Espadas**, amenaza: [e040](#e040) · **Bastos**, refugio y ciudad: [e050](#e050). Las cartas **1 a 3** usan la columna **Leve**; las **4 a 7**, la **Fuerte**: tirá 1d6 en ella.
 
 Las **figuras** son **días de historia**, uno por partida cada una. Sota, Caballo y Rey de **Oros**: [e060](#e060), [e061](#e061), [e062](#e062) · de **Copas**: [e063](#e063), [e064](#e064), [e065](#e065) · de **Espadas**: [e066](#e066), [e067](#e067), [e068](#e068) · de **Bastos**: [e069](#e069), [e070](#e070), [e071](#e071).
 

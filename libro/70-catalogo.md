@@ -94,14 +94,14 @@ Matan **un grupo**, como las explosivas, pero se usan cada ronda mientras dure l
 <a id="e710"></a>
 ### e710 · Protección
 
-La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna combinación resta más de 2. Lo que llevás puesto no ocupa casilleros (r164).
+La protección **resta 1** a cada dado de la tabla de Mordidas (r144). Ninguna combinación resta más de 2. Lo que llevás puesto no ocupa casilleros (r164).
 
 | Protección | Resta | Usos | Notas |
 |---|---|---|---|
 | Campera de cuero | −1 | ∞ | Comercio |
 | Chaleco antibala | −1 | ∞ | Policía, Armería. Contra vivos con armas de fuego, sus disparos te pegan con 6 (no con 5–6) |
 | Chaquetón de bombero | −1 | ∞ | Cuartel ([e480](#e480)). El fuego te hace 1 Herida menos |
-| Casco | — | ∞ | El primer golpe (un 4 o un 5 en la tabla de mordidas) de cada combate no te hace nada |
+| Casco | — | ∞ | El primer golpe (un 4 o un 5 en la tabla de Mordidas) de cada combate no te hace nada |
 | Armadura de revistas | −1 | 3 | *Receta básica* ([e746](#e746)). Cada vez que evita una mordida, pierde 1 uso |
 | Brazales de chapa | −1 | 6 | Receta ([e746](#e746)) |
 | Casco de olla | — | 3 | Receta ([e746](#e746)). Como un casco |
@@ -119,7 +119,7 @@ La protección **resta 1** a cada dado de la tabla de mordidas (r144). Ninguna c
 | Tablones de cruce | 2 | Azoteas: cruzar de un edificio a otro (r151) |
 | Radio a pilas | 1 | Escuchás a la Señora en la AM 870 ([e054](#e054)) |
 | Handy | 1 | Hablás con quien tenga otro. Con `HANDY_DE_LOS_LOBOS`, escuchás a los Lobos |
-| Binoculares | 1 | Desde una altura, ves una Procesión de un barrio vecino antes de entrar |
+| Binoculares | 1 | Desde una altura, ves una Procesión de un barrio vecino antes de entrar. Se consiguen cambiando (r166) |
 | Mochila de camping | — | +2 casilleros |
 | Mochila reforzada | — | +4 casilleros. Receta ([e749](#e749)) |
 | Carrito | — | +6 casilleros, solo por la Calle, +1 Ruido por barrio (r164) |
@@ -231,7 +231,7 @@ Perros que siguen oliendo y cazando en grupo. No ladran.
 
 Alguien grande que ahora es enorme, arrastrando media puerta. No corre. No le hace falta.
 
-- **Conducta:** ninguna puerta cuenta como cerrada (r141). Encima, un 4 o 5 en mordidas son 2 Heridas. En un sondeo, el frente pierde 3 ([e075](#e075)). Fuego (1 Daño por ronda), Foso de estacas (2), armas pesadas, o huir.
+- **Conducta:** rompe cualquier puerta en 1d6 rondas (r141, r331). Encima, un 4 o 5 en Mordidas son 2 Heridas. En un sondeo, el frente pierde 3 ([e075](#e075)). Fuego (1 Daño por ronda), Foso de estacas (2), armas pesadas, o huir.
 - **Noche 40:** +3 de daño si la oleada entra (+2 si el frente tiene Foso de estacas o Rejas soldadas).
 
 <a id="e727"></a>
@@ -271,7 +271,7 @@ Policías, soldados y trajes amarillos convertidos con el equipo puesto.
 
 Una mujer sentada en la calle, llorando. Los Callados la evitan. Eso debería decirte algo.
 
-- **Conducta:** la molestás si la tocás, la iluminás, la atacás o hacés Ruido 2 a menos de una cuadra. Entonces salta Encima y tira dos veces en mordidas por ronda, sin que la protección reste. Para matarla, Daño 6 en una ronda desde Lejos. Mientras llora, es el lugar más seguro de Tolme.
+- **Conducta:** la molestás si la tocás, la iluminás, la atacás o hacés Ruido 2 a menos de una cuadra. Entonces salta Encima y tira dos veces en Mordidas por ronda, sin que la protección reste. Para matarla, Daño 6 en una ronda desde Lejos. Mientras llora, es el lugar más seguro de Tolme.
 - **Noche 40:** llora en la vereda; si alguien sale o hace ruido ahí, combate.
 
 <a id="e731"></a>
@@ -309,13 +309,13 @@ La Resistencia de un frente no pasa de 10. Cada barricada también sirve para **
 <a id="e741"></a>
 ### e741 · Trampas
 
-Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor**: lo que le resta a un sondeo y lo que suma a la defensa de una oleada en la Noche 40 (r221).
+Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor**: lo que le resta a un sondeo y lo que suma a la defensa de una oleada en la Noche 40, una sola vez (r222).
 
 > **Tabla de clavos** *(básica)* · 1 Madera, 1 Sujeción · Martillo · ◷ 1 · **Valor 1.** Después de un sondeo, con 1–3 en 1d6, se gasta.
 >
 > **Campana de latas** *(básica)* · 1 Sujeción · ◷ 1 · **Valor 0**, pero despierta a la Guardia: en un sondeo a ese frente, −1 a «Qué es» ([e072](#e072)). +1 Rastro cada vez que suena.
 >
-> **Alambre de púas** · 2 Metal, 1 Sujeción · Martillo · ◷ 1 · `[Oficio]` · **Valor 2.** No se gasta.
+> **Alambre de púas** · 2 Metal, 1 Sujeción · Martillo · ◷ 1 · `[Oficio]` · **Valor 2.** No se gasta en los sondeos.
 >
 > **Foso de estacas** · 3 Madera · Pala o Serrucho · ◷ 3 · `[Físico]` · **Valor 2**, contra un Bruto 4. Solo en Puerta o Subsuelo.
 >
@@ -473,7 +473,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 <a id="e761"></a>
 ### e761 · Último Cuarto
 
-> 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (con *Ojo de obra*, 7). Sin él, el lugar donde se esconden tiene Resistencia 2.
+> 4 Metal o 6 Madera, 2 Sujeción · Martillo · ◷ 4 · `[Oficio]` · El cuarto donde termina la Noche 40 (r223): Resistencia 6 (con *Ojo de obra*, 7). Sin él, el lugar donde se esconden tiene Resistencia 2. Con el Motivo La obra → [e817](#e817).
 
 ---
 

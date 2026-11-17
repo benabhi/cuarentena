@@ -895,7 +895,10 @@ class Partida:
 
     def aplicar_rama(self, txt, prof, contexto, seguir=True):
         e, combates, goto, arma = efectos(txt)
-        self.ruido += e['ruido']
+        if contexto == 'refugio':
+            self.ruido += e['ruido']
+        else:
+            self.ruido_mas(e['ruido'])
         self.rastro = max(0, min(10, self.rastro + e['rastro']))
         self.stats['rastro_eventos'] += e['rastro']
         self.moral = max(0, min(10, self.moral + e['moral']))
@@ -1040,7 +1043,7 @@ class Partida:
         L = self.lugares[pid]
         tiradas = 3 if fondo else 1
         if fondo:
-            self.ruido += 1
+            self.ruido_mas(1)
         if self.prueba('Calle', gratis=True) >= 10:
             tiradas += 1
         if L['stock'] <= 0:
@@ -1064,7 +1067,7 @@ class Partida:
                 self.mats['Madera'] < 8 and not L.get('desarmado'):
             L['desarmado'] = True
             self.mats['Madera'] += 2 * (1 + len(self.compas)) if self.aj['desarmar_afuera'] == 'grupo' else 2  # muebles desarmados ahí (r165)
-            self.ruido += 1
+            self.ruido_mas(1)
         if L['barrio'] in ('Mercado', 'Bloques', 'Cementerio') and L['tipo'] in ('comercio', 'almacen', 'vivienda') \
                 and d6(self.r) <= 2:
             self.semillas = True          # verdulería, balcones, vivero (e752)
@@ -1435,6 +1438,18 @@ class Partida:
         self.compas = []
         return max(0, horas)
 
+    def ruido_mas(self, n):
+        # r145/r154: fuera de un combate, el 3 solo empeora los encuentros (r153); el 6 trae la Procesión
+        antes = self.ruido
+        self.ruido += n
+        if antes < 3 <= self.ruido and self.aj.get('ruido3_fuera', False):   # variante medida: 59 %
+            k = (d6(self.r) + 1) // 2 if self.aj['spawn3'] else d6(self.r)
+            if not self.combate([[k, 1, 0, 1, 'Callados']], self.compas):
+                self.herida(1, 'combate')
+        if self.ruido >= 6:
+            self.ruido = 3
+            self.procesion(compas=self.compas)
+
     def llegar(self, b):
         venia = self.barrio
         self.barrio = b
@@ -1446,7 +1461,7 @@ class Partida:
         if self.procs[b]:
             self.procesion(compas=self.compas)
             return
-        self.ruido += 1
+        self.ruido_mas(1)
         if b == self.mi_barrio and b not in self.visto:      # tu cuadra (r103)
             self.visto.add(b)
             return

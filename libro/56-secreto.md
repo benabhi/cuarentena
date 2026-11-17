@@ -102,7 +102,7 @@ Con el Secreto 5 y `SECRETO_ABIERTO`. Si el Pastor muere antes de la Noche 40, l
 **Encontrarlo.** Camina con la Procesión doble más cercana a la Ciudad Universitaria (si no hay, aparece una, r155). **Mirala** ([e100](#e100)): con 7+ lo ves; con 6−, te ven.
 
 1. **Desde las Azoteas,** un disparo: `[Puntería]` con Desventaja (sin ella con fusil o ballesta). Con 10+, cae. Con 7–9, grita; la Procesión se dispersa por tres barrios y él pierde 1 de Aguante. Con 6−, te mira a vos, y la Procesión gira hacia tu edificio.
-2. **Con un Señuelo grande:** la Procesión va, pero él se detiene antes, solo. **Pastor ×1 · Lejos** ([e731](#e731)).
+2. **Con un Señuelo grande** ([e435](#e435)): la Procesión va, pero él se detiene antes, solo. **Pastor ×1 · Lejos** ([e731](#e731)).
 3. **Cara a cara:** **Pastor ×1 y Callados ×3d6 · Cerca**. Casi seguro que no salís.
 
 Si muere, anotá `PASTOR_MUERTO`. +2 Moral, −1 Ánimo: tenía cara de persona.

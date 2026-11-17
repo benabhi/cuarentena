@@ -42,7 +42,7 @@ Cuarenta cajas y una oscuridad que huele a fruta podrida y a lavandina.
 Tres pisos de locales. En la cúpula de vidrio, siluetas oscuras miran hacia abajo.
 
 - **Revisar** (r161). El primer 6 que sacás es el local de deportes: bate de aluminio (Daño 2, Cerca, Usos 6), arco con 6 saetas, una carpa (4 Tela) y una bicicleta (r152).
-- **El patio de comidas:** si no tenés `LA_PLANCHA`, llevate una: la Cocina a leña da +1 Moral más, una vez. Anotá `LA_PLANCHA`.
+- **El patio de comidas:** si no tenés `LA_PLANCHA`, llevate una: la primera noche de Cocina con ella, +1 Moral más. Anotá `LA_PLANCHA`. Detrás del mostrador, una Olla a presión.
 - **La cúpula:** Acechadores desde la Etapa II; Callados trabados en el vidrio en la I. Si revisás a fondo dos veces seguidas, cede: **Acechadores ×1d3 · Cerca** (o **Callados ×1d6**).
 
 ---
