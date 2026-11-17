@@ -9,6 +9,7 @@ Juego de rol en solitario de supervivencia en una ciudad sellada. Un libro de **
 Este repositorio contiene todo lo necesario para recrear el manual en PDF (A4, 200 páginas).
 
 - **Manual:** [`Cuarentena.pdf`](Cuarentena.pdf) (A4, 200 páginas). Se rearma con `python3 construir_pdf.py`.
+- **Manual Print-Friendly (blanco y negro, ahorro de tinta):** [`Cuarentena_Print_Friendly.pdf`](Cuarentena_Print_Friendly.pdf) ([descarga directa](https://github.com/benabhi/cuarentena/raw/main/Cuarentena_Print_Friendly.pdf)). Se genera desde el manual con `python3 generar_print_friendly.py`, el mismo sistema que Caribdis: las 200 páginas y los enlaces quedan iguales, sin papel ni fondos negros, con el arte en grises claros.
 - **Arte:** todas las ilustraciones salen de un único chat de Gemini dedicado a este libro: https://gemini.google.com/app/f5efedcbdffae166 (estilo, reglas y lista de imágenes en [`docs/arte.md`](docs/arte.md)).
 
 ## Estructura
@@ -17,7 +18,8 @@ Este repositorio contiene todo lo necesario para recrear el manual en PDF (A4, 2
 cuarentena/
 ├── README.md             este archivo
 ├── requirements.txt      dependencias de Python
-├── construir_pdf.py      genera el manual (Cuarentena.pdf)          
+├── construir_pdf.py      genera el manual (Cuarentena.pdf)
+├── generar_print_friendly.py  genera el manual en blanco y negro (Cuarentena_Print_Friendly.pdf)
 ├── estilo.css            hoja de estilos del manual                  
 ├── libro/                el texto del juego en Markdown, en orden de lectura
 │                         (rNNN = reglas, eNNN = eventos)

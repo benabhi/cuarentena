@@ -8,13 +8,13 @@ BARRIOS = {   # n: (nombre, (x, y), anclaje de la etiqueta, entrada «llegar», 
     1: ('El Casco', (330, 300), 'n', 'e200', 'Parroquia de San Lázaro'),
     2: ('Sanidad', (455, 330), 'e', 'e220', 'Edificio Sarmiento'),
     3: ('El Puerto', (265, 455), 's', 'e240', 'Cuartel de la calle Brown'),
-    4: ('La Fabril', (95, 430), 'w', 'e260', None),
+    4: ('La Fabril', (95, 430), 's', 'e260', None),
     5: ('Los Bloques', (330, 185), 'nw', 'e280', 'Escuela N.º 9'),
     6: ('Las Lomas', (560, 110), 'n', 'e300', None),
     7: ('La Estación', (190, 335), 'w', 'e320', 'Comisaría 7.ª'),
     8: ('El Mercado', (200, 215), 'w', 'e340', 'Supermercado Del Barrio'),
     9: ('Ciudad|Universitaria', (535, 432), 's', 'e360', None),
-    10: ('La Costanera', (410, 530), 's', 'e380', None),
+    10: ('La Costanera', (410, 518), 's', 'e380', None),
     11: ('Cementerio|y Parque', (440, 150), 'n', 'e400', None),
     12: ('El Perímetro', (95, 110), 'n', 'e420', None),
 }
@@ -46,13 +46,8 @@ def _desplazar(a, b, d):
 def svg_mapa(clase='mapa', enlaces=True):
     P = {n: v[1] for n, v in BARRIOS.items()}
     p = [f'<svg class="{clase}" viewBox="0 0 640 600" xmlns="http://www.w3.org/2000/svg">']
-    # el río, abajo a la derecha
-    p.append(f'<path d="M0,585 C150,560 300,600 430,575 C520,558 590,520 640,505 L640,600 L0,600Z" fill="{TINTA}" opacity=".12"/>')
-    for k in range(6):
-        y = 588 - k * 3
-        p.append(f'<path d="M{40 + k * 70},{y} q15,-5 30,0" stroke="{TINTA}" stroke-width="1" fill="none" opacity=".35"/>')
     # el muro: un rectángulo cortado, de contenedores
-    p.append(f'<rect x="22" y="40" width="596" height="510" fill="none" stroke="{TINTA}" stroke-width="7" '
+    p.append(f'<rect x="22" y="40" width="596" height="555" fill="none" stroke="{TINTA}" stroke-width="7" '
              f'stroke-dasharray="26 5"/>')
     # la Calle: casing negro y relleno amarillo
     for a, b in CALLE:
