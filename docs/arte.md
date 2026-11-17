@@ -12,35 +12,15 @@
 
 **Formatos:** bandas de capítulo y de barrio 5:2 (1632×656), láminas verticales 2:3 (848×1264), la doble de la Marea apaisada. Cómo se bajan del navegador y se pegan: `herramientas/pegar_capturas.py`.
 
-### Hecho (61)
+### Hecho (75, todas)
 
 - Portada, contratapa, láminas de parte (El mundo, Reglas, Eventos, Apéndices), la doble de la Marea (`d-marea.jpg`).
 - Los 12 barrios (`b-casco` … `b-perimetro`) y las 17 bandas de capítulo.
 - Láminas de capítulo: Los refugios, El Secreto, El catálogo.
 - Viñetas: las 12 fichas de infectados y mochila, radio, ventana, cocina, tanques, colectivo, guardia, taller, perro.
+- Viñetas de escena (2026-11-17): farmacia, bicicleta, huerta, latas, fogata, cementerio, hospital, escalera, generador, barricada, bidones, velas, changuito y candado.
 
-### Pendiente (14, hoy son recuadros «IMAGEN PENDIENTE»)
-
-Se hacen en el chat de Gemini del libro cuando el Chrome con la extensión esté conectado. Cada una se genera
-como viñeta 3:2 (1264×848), se guarda con el mismo nombre en `arte/` y se rearma el PDF (no hace falta
-borrar `maqueta/cortes.json`: el tamaño del recuadro no cambia).
-
-| Archivo | Qué es | Pedido sugerido |
-|---|---|---|
-| `v-farmacia.jpg` | viñeta 3:2 | una farmacia saqueada: góndolas volcadas, cruz verde apagada, cajas de remedios en el piso |
-| `v-bicicleta.jpg` | viñeta 3:2 | una bicicleta con alforjas de lona apoyada en una persiana baja |
-| `v-huerta.jpg` | viñeta 3:2 | huerta en macetas y bidones cortados en una azotea, con un balde de agua |
-| `v-latas.jpg` | viñeta 3:2 | latas de conserva contadas y apiladas en un estante, con un cuaderno de inventario |
-| `v-fogata.jpg` | viñeta 3:2 | una fogata chica en un tambor de aceite dentro de un patio, sobrevivientes de espaldas |
-| `v-cementerio.jpg` | viñeta 3:2 | bóvedas del cementerio entre árboles, un Callado de pie, rígido y gris, entre las tumbas |
-| `v-hospital.jpg` | viñeta 3:2 | pasillo de hospital con camillas abandonadas y una puerta de guardia trabada con cadenas |
-| `v-escalera.jpg` | viñeta 3:2 | una escalera de mano apoyada entre dos techos, firme en los dos bordes, sobre un pasaje |
-| `v-generador.jpg` | viñeta 3:2 | un generador a nafta en un sótano, cables colgando y un bidón al lado |
-| `v-barricada.jpg` | viñeta 3:2 | una puerta de pasillo trabada con muebles apilados, vista desde adentro |
-| `v-bidones.jpg` | viñeta 3:2 | bidones de agua llenos y numerados con fibrón contra una pared de azulejos |
-| `v-velas.jpg` | viñeta 3:2 | velas consumidas en platitos sobre una mesa, un cuaderno abierto y un reloj parado |
-| `v-changuito.jpg` | viñeta 3:2 | un changuito de supermercado cargado de latas y una bolsa de garrafa, en una vereda vacía |
-| `v-candado.jpg` | viñeta 3:2 | una cadena con candado en una reja, con marcas de pintura de una facción |
+**Modelo:** en el selector de Gemini usar **Pro**. Con «Respuestas rápidas» (Flash-Lite) las imágenes salen con verdes, rojos y azules o con el título escrito adentro; con Pro respetan las dos tintas. Conviene arrancar cada pedido con «Imagen NUEVA desde cero, mismo estilo exacto (linograbado y aguafuerte en risografía a dos tintas, negro carbón y amarillo de señalización sobre papel crema), apaisada 3:2, a sangre, sin marco, sin ninguna letra» y no poner el nombre de la escena en mayúsculas (Gemini lo escribe dentro de la imagen).
 
 Cada viñeta es una imagen nueva del tema, nunca un recorte de una lámina.
 

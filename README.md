@@ -4,12 +4,12 @@
 
 Juego de rol en solitario de supervivencia en una ciudad sellada. Un libro de **UtopIA**.
 
-> **Estado:** libro terminado y auditado en cuatro rondas ([`docs/auditoria-iterativa.md`](docs/auditoria-iterativa.md)): texto en [`libro/`](libro/), sin enlaces rotos ni Marcas sueltas (`python3 herramientas/verificar.py`); simulador: 66 % de las partidas llegan vivas al día 41 con protagonistas al azar (`python3 herramientas/simulador.py`). **`Cuarentena.pdf`:** A4, 200 páginas, sin títulos huérfanos; quedan 14 viñetas como recuadros «IMAGEN PENDIENTE» hasta hacerlas en Gemini ([`docs/arte.md`](docs/arte.md)).
+> **Estado:** libro terminado y auditado en cuatro rondas ([`docs/auditoria-iterativa.md`](docs/auditoria-iterativa.md)): texto en [`libro/`](libro/), sin enlaces rotos ni Marcas sueltas (`python3 herramientas/verificar.py`); simulador: 66 % de las partidas llegan vivas al día 41 con protagonistas al azar (`python3 herramientas/simulador.py`). **`Cuarentena.pdf`:** A4, 200 páginas, sin títulos huérfanos, con todo el arte terminado ([`docs/arte.md`](docs/arte.md)).
 
 Este repositorio contiene todo lo necesario para recrear el manual en PDF (A4, 200 páginas).
 
 - **Manual:** [`Cuarentena.pdf`](Cuarentena.pdf) (A4, 200 páginas). Se rearma con `python3 construir_pdf.py`.
-- **Arte:** todas las ilustraciones salen de un único chat de Gemini dedicado a este libro: https://gemini.google.com/app/f5efedcbdffae166 (estilo, reglas y lista de pendientes en [`docs/arte.md`](docs/arte.md)).
+- **Arte:** todas las ilustraciones salen de un único chat de Gemini dedicado a este libro: https://gemini.google.com/app/f5efedcbdffae166 (estilo, reglas y lista de imágenes en [`docs/arte.md`](docs/arte.md)).
 
 ## Estructura
 
