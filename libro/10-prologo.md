@@ -133,7 +133,7 @@ El primero siempre es alguien. Elegí, o tirá 1d6:
 | 1d6 | Quién es | Escena | Si ganás o escapás, te queda… |
 |---|---|---|---|
 | 1 | Tu vecina del tercero, en camisón, en la **escalera** | Escalera (r332), vos arriba | Sus llaves: la primera Vivienda que revises en tu barrio tiene 1 casilla de stock más |
-| 2 | Un paciente con el suero, en un **pasillo** de guardia | Pasillo (r331) | 1 Fármaco del carro de curaciones |
+| 2 | Un paciente con el suero, en un **pasillo** de guardia | Pasillo (r331) | 1 Fármacos del carro de curaciones |
 | 3 | Un repositor del súper, entre las **góndolas** | Supermercado (r334) | 2 Víveres caídos de un estante |
 | 4 | Un hombre de traje, con el portafolio, en la **terraza** | Azotea (r335) | Su celular: una Linterna con Usos 3 |
 | 5 | El chofer del colectivo, con el boleto en la mano | Pasillo (r331) | El matafuegos: un Señuelo (r156) de un uso |
@@ -144,7 +144,7 @@ Es un **combate** (r140).
 > **Callados ×2 · Cerca** · escena: la de tu fila (r330)
 
 - Importan **Cerca** y **Encima** (r141): al final de cada ronda, avanzan un paso.
-- En tu ronda **atacás** (r143) `[Pelea]` con lo que haya a mano: un matafuegos, un palo de escoba. Por ahora es **Daño 1** y no se rompe. Con 10+ matás tantos como el Daño; con 7–9, la mitad hacia arriba; con 6−, ninguno.
+- En tu ronda **atacás** (r143) `[Pelea]` con lo que haya a mano: un matafuegos, un palo de escoba. Por ahora es **Daño 1** y no se rompe. Con 10+ matás tantos como el Daño; con 7–9, la mitad del Daño, hacia arriba; con 6−, ninguno.
 - Los que están **Encima muerden** (r144): 1d6 por cada uno. 1–3 nada; 4–5, 1 Herida; 6, los dientes: 1 Herida y otro dado.
 - También podés **retroceder** o **esconderte** (r142). Leé la regla de tu escena (r331–r335) antes de empezar.
 
@@ -273,7 +273,7 @@ Esa es la **Marea**. Llega en la **Noche 40** (r220). Abajo, en una radio, la Se
 
 **Empieza la cuarentena.**
 
-1. Mezclá la baraja (r108) y leé r130–r135.
+1. Con la baraja ya mezclada (r108), leé r130–r135.
 2. Mirá dónde quedaron las **Procesiones** y los **Seis Tesoros** (r110).
 3. **Tu historia empieza hoy** (r198): si tu Motivo es La lista, La obra, La orden o El pedido, leé [e800](#e800), [e810](#e810), [e820](#e820) o [e830](#e830).
 4. **Robá la primera carta.** Es el día 1.

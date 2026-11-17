@@ -7,9 +7,9 @@ Cuando un evento dice **«Vivos: usá r300»**, te cruzaste con gente que no con
 
 | 1d6 | Hablar | Esquivar | Pelear | Observar |
 |---|---|---|---|---|
-| 1 | [r310](#r310) | [r306](#r306) | [r305](#r305) | [r309](#r309) |
+| 1 | [r310](#r310) | [r306](#r306) | [r310](#r310) | [r309](#r309) |
 | 2 | [r301](#r301) | [r307](#r307) | [r306](#r306) | [r304](#r304) |
-| 3 | [r301](#r301) | [r308](#r308) | [r305](#r305) | [r308](#r308) |
+| 3 | [r301](#r301) | [r308](#r308) | [r312](#r312) | [r308](#r308) |
 | 4 | [r302](#r302) | [r307](#r307) | [r311](#r311) | [r303](#r303) |
 | 5 | [r303](#r303) | [r309](#r309) | [r312](#r312) | [r302](#r302) |
 | 6 | [r304](#r304) | [r303](#r303) | [r312](#r312) | [r313](#r313) |
@@ -33,7 +33,7 @@ Uno está herido o mordido.
 <a id="r303"></a>
 ### r303 · Rumores
 
-1d6: con 1–3, dónde está un Tesoro que no encontraste; con 4–5, una Procesión que no estaba en el mapa (r155); con 6, algo raro de la cuarentena: una pista ([e560](#e560)).
+1d6: con 1–3, un atajo: tu próximo viaje a un barrio vecino no tira encuentro; con 4–5, una Procesión que no estaba en el mapa (r155); con 6, algo raro de la cuarentena: una pista ([e560](#e560)).
 
 <a id="r304"></a>
 ### r304 · Quieren venir con vos

@@ -30,7 +30,7 @@ Estanterías de seis metros. Alguien se llevó mucho. Quedó más.
 
 - **Revisar** (r161). Un 1 en la tabla es una estantería que se cae: `[Físico]`; con 6−, 1 Herida y +2 Ruido.
 - **Detrás del mostrador,** una vez: *Manual de carpintería y obra* ([e772](#e772)).
-- **Cadenas y candados** (◷ 1), si no tenés `CADENAS_DEL_TORNILLO`: +1 a la Puerta de tu refugio sin materiales. Anotá `CADENAS_DEL_TORNILLO`.
+- **Cadenas y candados** (◷ 1), si no tenés `CADENAS_DEL_TORNILLO`: +1 Resistencia a la Puerta de tu refugio, sin materiales. Anotá `CADENAS_DEL_TORNILLO`.
 
 ---
 

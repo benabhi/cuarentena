@@ -232,7 +232,7 @@ Una cadena y, en fibrón: «NO ABRIR · ENFERMOS · DÍA 7».
 1. **No abrir.** Cada sondeo que entra (r175), con 1 en 1d6, la cadena cede: opción 3.
 2. **Mirar por la ventana alta,** `[Físico]`, ◷ 1: cincuenta Callados quietos entre colchonetas. Algunos son chicos. −1 Ánimo y anotá `EL_GIMNASIO`.
 3. **Abrir:** **Callados ×4d6 · Cerca**, escena Pasillo. Al final de cualquier ronda podés cerrar otra vez (`[Físico]`, dos personas). Si ganás, anotá `GIMNASIO_ABIERTO`: 4 Tela y un objeto útil (r163).
-4. **Quemarlo,** con `EL_GIMNASIO`: 3 Combustible y una Molotov. +3 Rastro, −2 Moral, y perdés el Dormitorio. Anotá `GIMNASIO_QUEMADO`.
+4. **Quemarlo,** con `EL_GIMNASIO`: 3 Combustible y un Molotov. +3 Rastro, −2 Moral, y perdés el Dormitorio. Anotá `GIMNASIO_QUEMADO`.
 5. **Usarlo,** con `EL_GIMNASIO` y sin `GIMNASIO_ABIERTO` ni `GIMNASIO_QUEMADO`: una vez en la Noche 40, con una oleada en el patio, abrís desde arriba. Se mezclan y estorban: la oleada pierde 1d6 de Fuerza.
 
 ---
@@ -250,11 +250,11 @@ Fachada roja de 1925, una torre de entrenamiento y una autobomba vieja. En la pi
 > **Rastro inicial:** 1
 
 - **La cisterna** ([e751](#e751)) ya está hecha, y da +1 Víver los días 7, 14, 21, 28 y 35 aunque no llueva.
-- **La torre** es un **Vigía** (r173) desde el principio.
+- **La torre** de entrenamiento: el **Vigía** (r173, [e758](#e758)) cuesta la mitad.
 - **La autobomba** → [e481](#e481). **La sirena** → [e483](#e483).
 - **Los Bomberos vuelven** en la carta 11 → [e482](#e482).
 
-**Rincones.** **El vestuario:** tres Chaquetones de bombero ([e710](#e710)). **El pañol:** 2 hachas de bombero (Daño 3, Ruido 1, Cerca, Usos 8, 2 manos; abren puertas sin prueba), una moladora a nafta (corta metal como una Soldadora, sin Generador; +2 Ruido cada vez) y un Botiquín. **El salón de las fotos:** la última tiene una cinta negra del día 2. Con Valeria ([e642](#e642)) → [e644](#e644).
+**Rincones.** **El vestuario:** dos Chaquetones de bombero ([e710](#e710)). **El pañol:** 2 hachas de bombero (Daño 3, Ruido 1, Cerca, Usos 8, 2 manos; abren puertas sin prueba), una moladora a nafta (corta metal como una Soldadora, sin Generador; +2 Ruido cada vez) y un Botiquín. **El salón de las fotos:** la última tiene una cinta negra del día 2. Con Valeria ([e642](#e642)) → [e644](#e644).
 
 **Si no es tu refugio:** Taller, stock ▢▢. Desde la carta 11, es de los Bomberos ([e670](#e670)).
 
@@ -296,7 +296,7 @@ Anda con Generador, batería o la autobomba.
 
 **Hacerla sonar,** una vez: las Procesiones a tres barrios o menos vienen al Puerto (r156) y se quedan 1d6 días, salvo que antes salga una carta de Espadas. Anotá `LA_SIRENA`.
 
-- **Si es tu refugio,** +4 Rastro y una Procesión doble en tu barrio. Podés desarmarla (`[Mecánica]`, ◷ 2, 3 casilleros) y llevarla a otro barrio con una batería.
+- **Si es tu refugio,** +4 Rastro y una Procesión doble en el barrio del refugio. Podés desarmarla (`[Mecánica]`, ◷ 2, 3 casilleros) y llevarla a otro barrio con una batería.
 - **En la Noche 40** vuelve a sonar: fuera del barrio de tu refugio, es un **Señuelo grande** ([e435](#e435)).
 
 ---

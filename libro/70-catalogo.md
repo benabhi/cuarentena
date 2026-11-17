@@ -309,7 +309,7 @@ La Resistencia de un frente no pasa de 10. Cada barricada también sirve para **
 <a id="e741"></a>
 ### e741 · Trampas
 
-Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor**: lo que le resta a un sondeo (1, salvo que diga otra cosa) y lo que suma a la defensa de una oleada en la Noche 40 (r221).
+Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor**: lo que le resta a un sondeo y lo que suma a la defensa de una oleada en la Noche 40 (r221).
 
 > **Tabla de clavos** *(básica)* · 1 Madera, 1 Sujeción · Martillo · ◷ 1 · **Valor 1.** Después de un sondeo, con 1–3 en 1d6, se gasta.
 >
@@ -388,7 +388,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 >
 > **Conservas** · 4 Víveres, 1 Químicos (sal o vinagre) · Olla a presión · ◷ 2 · `[Supervivencia]` (Supervivencia 1) · Esos 4 Víveres no se pudren nunca y ocupan 1 casillero entre todos.
 >
-> **Trampa para palomas** · 1 Sujeción, 1 Madera, 1 Víver de cebo · ◷ 1 · En la azotea o el patio del refugio: cada noche, con 4–6 en 1d6, +1 Víver.
+> **Trampa para palomas** · 1 Sujeción, 1 Madera, 1 Víver de cebo · ◷ 1 · En la azotea o el patio del refugio, una por refugio: cada noche, con 4–6 en 1d6, +1 Víver.
 >
 > **Caña de pescar** · 1 Madera, 1 Sujeción · ◷ 1 · Para pescar en el Puerto y la Costanera ([e381](#e381)). También se aprende con los pescadores.
 

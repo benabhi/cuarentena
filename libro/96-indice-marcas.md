@@ -232,7 +232,7 @@
 | `RUMOR_DE_LOS_LOBOS` | [e169](#e169) · [e955](#e955) |
 | `SABES_DEL_PASTOR` | [e575](#e575) · [e901](#e901) |
 | `SABES_POR_DONDE` | [e690](#e690) · [e900](#e900) |
-| `SECRETO_ABIERTO` | [e562](#e562) · [e570](#e570) · [e577](#e577) · [e578](#e578) · [e579](#e579) |
+| `SECRETO_ABIERTO` | [e562](#e562) · [e570](#e570) · [e577](#e577) · [e578](#e578) · [e579](#e579) · [e900](#e900) |
 | `SEMILLAS_DEL_VIVERO` | [e402](#e402) · [e752](#e752) |
 | `SENALES_AL_HELICOPTERO` | [e057](#e057) · [e955](#e955) |
 | `SIN_CAMPANA` | [e441](#e441) · [e955](#e955) |

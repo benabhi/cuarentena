@@ -30,7 +30,7 @@ Al llegar por la Calle, **1d6 + la Etapa** (r153).
 Un reloj detenido a las 4:17 y gente esperando un tren que no va a llegar. Algunos respiran.
 
 - **Revisar** (r161) los locales del hall.
-- **El andén 4:** viajeros que se quedaron desde el día 2. r300 con Hablar, +1. Si sale Quieren venir con vos, es Don Ernesto ([e600](#e600)).
+- **El andén 4:** viajeros que se quedaron desde el día 2. r300 con Hablar, +1. Si sale Quieren venir con vos ([r304](#r304)), es Don Ernesto ([e600](#e600)).
 - **El día del Caballo de Oros** ([e061](#e061)) → [e335](#e335).
 
 ---
@@ -138,6 +138,6 @@ Con `EL_NIDO`, 3 Combustible por las escaleras y un Molotov o una bengala. `[Sup
 
 Dos mil personas en la Terminal. Llegan tres camiones militares y se abren las lonas. 1d6:
 
-- **1–2 · Vacíos.** Callados con uniforme, atados, y alguien corta las sogas. **Callados ×3d6 · Cerca** y dos mil personas corriendo. `[Físico]`: con 6−, 2 Heridas por la estampida. Una pista ([e560](#e560)).
+- **1–2 · Sin comida.** Callados con uniforme, atados, y alguien corta las sogas. **Callados ×3d6 · Cerca** y dos mil personas corriendo. `[Físico]`: con 6−, 2 Heridas por la estampida. Una pista ([e560](#e560)).
 - **3–5 · Comida.** Un soldado con barbijo reparte sin bajar del camión: 4 Víveres y 1 Antiviral por grupo. Después, los Lobos asaltan el último camión. +1 Moral al volver.
 - **6 · Comida, y alguien.** Lo mismo, y un soldado te deja un papel en la mano: «No esperen el día 41». Una pista ([e560](#e560)) y anotá `EL_SOLDADO_DEL_CONVOY`.

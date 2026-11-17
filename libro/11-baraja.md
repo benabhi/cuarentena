@@ -159,7 +159,7 @@ La última lata de duraznos, y dos del grupo dicen que la vieron primero. (Si es
 Alguien (o vos) amanece con escalofríos y tos. Es una gripe.
 
 - **Curarlo:** `[Medicina]` y 1 Fármacos. Con 7+, se repone hoy; con 6−, pierde el puesto hoy y mañana.
-- **Dejarlo descansar:** dos noches sin puesto. Si es Doña Rosa o Don Ernesto, con 1 en 1d6 empeora: 2 Fármacos o muere en dos días.
+- **Dejarlo descansar:** dos noches sin puesto. Si es mayor (r180), con 1 en 1d6 empeora: 2 Fármacos o muere en dos días.
 - **Aislarlo, por las dudas.** −1 Moral. Si alguien tenía `MORDIDO_EN_SECRETO_`, se pone nervioso y se descubre ([e038](#e038)).
 
 ---
@@ -320,7 +320,7 @@ Amanecen en la puerta: **Callados ×2d6**, empujando despacio.
 ### e048 · Fuego
 *Tolme · ◷ 0*
 
-Tirá el barrio en r155: queda **en llamas** (r159). Si es el tuyo o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
+Tirá el barrio en r155: queda **en llamas** (r159). Si es el de tu refugio o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
 
 ---
 
@@ -390,7 +390,7 @@ Mirá la próxima carta (r136) y devolvela. Después, 1d6:
 *Tolme · ◷ 0*
 
 - El **Techo** pierde 2, salvo que tenga 6 o más. Con Cisterna, +3 Víveres.
-- Nadie cruza Azoteas: si lo hacés, cada cruce es `[Físico]` con Desventaja, y con 6− caés.
+- Nadie cruza Azoteas: si lo hacés, cada cruce es `[Físico]` con Desventaja, y con 6− caés (r151).
 - Las Procesiones no se mueven.
 
 ---
@@ -489,7 +489,7 @@ Dos del grupo se quieren casar. (Con menos de 2 sobrevivientes, son vecinos que 
 
 Un ómnibus sin nafta a una cuadra: un geriátrico, dos maestras y chicos de un hogar.
 
-1. **Todos adentro.** Anotá `LOS_VEINTE`: comen 6 Víveres por día, hacen 3 puestos de Obra, Huerta o Cocina por noche y, en la Noche 40, ponen 3 defensores con puños. +5 Rastro, +3 Moral. La lista: +1 Juramento. La orden: +1 Deber. Lo que hiciste: −1 Culpa.
+1. **Todos adentro.** Anotá `LOS_VEINTE`: comen 6 Víveres por día, hacen 3 puestos por noche (Obra, Huerta o Cocina, con sus topes: r181) y, en la Noche 40, ponen 3 defensores con puños. +5 Rastro, +3 Moral. La lista: +1 Juramento. La orden: +1 Deber. Lo que hiciste: −1 Culpa.
 2. **Algunos.** Los chicos y las maestras: anotá `LOS_CHICOS_DEL_HOGAR` (2 Víveres por día, un puesto de Huerta o Cocina; en la Noche 40, una maestra defiende). +2 Rastro. −1 Ánimo: los viejos te miraron.
 3. **A la Catedral.** Les dibujás el camino: `[Labia]`. Con 7+, van, y la Parroquia lo sabe: +1 Reputación.
 4. **Cerrar.** −3 Moral, −2 Ánimo. Al otro día, el ómnibus está vacío y hay manchas en el asfalto.
@@ -555,7 +555,7 @@ Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). En la Etapa IV, cada P
 ### e070 · Caballo de Bastos · El incendio grande
 *Tolme · ◷ 0*
 
-Tu barrio y un vecino al azar quedan **en llamas** (r159) por 2 días. Tu manzana, si la defendés:
+El barrio de tu refugio y un vecino al azar quedan **en llamas** (r159) por 2 días. Tu manzana, si la defendés:
 
 1. **Defender el refugio.** Todo el grupo, todo el día (◷ 6): `[Supervivencia]` o `[Físico]`, +1 con Cisterna y +1 con Valeria ([e642](#e642)). Con 10+, nada. Con 7–9, −2 al Techo y 2 materiales al azar. Con 6−, −3 al Techo y a las Ventanas, 4 materiales y 2 Heridas a alguien.
 2. **Evacuar** al vecino que no arde, con lo que entre en las mochilas, por 2 días. −3 a dos frentes al azar y la mitad de los materiales. Nadie se lastima.

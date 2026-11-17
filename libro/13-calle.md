@@ -130,9 +130,9 @@ Si venís del agua ([e113](#e113)), empiezan **Encima**.
 
 Una estación de cientos de Callados dormidos. Tenés que cruzar el andén.
 
-`[Sigilo]`, sin luz (con Linterna, Desventaja). Con 10+, cruzás. Con 7–9, pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen. Con 6−, **Callados ×4d6 · Cerca**: solo queda escapar.
+`[Sigilo]`, a oscuras y sin Desventaja: es la luz la que los despierta (con la Linterna prendida, Desventaja). Con 10+, cruzás. Con 7–9, pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen. Con 6−, **Callados ×4d6 · Cerca**: solo queda escapar.
 
-Si cruzás, anotá `UN_NIDO`: un nido no se mueve, y la próxima vez lo rodeás (◷ 1 más, sin prueba).
+Si cruzás, anotá `UN_NIDO`: un nido no se mueve. Si volvés a esta entrada con `UN_NIDO`, lo rodeás (◷ 1 más, sin prueba).
 
 ---
 

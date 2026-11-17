@@ -255,9 +255,9 @@ ______________________________________________________________________
 
 ### El combate (r140–r149)
 
-> **Lejos → Cerca → Encima.** Al final de cada ronda, avanzan un paso.
+> **Lejos → Cerca → Encima.** Al final de cada ronda, avanzan un paso (no, si Retrocediste con 7+).
 > **Tu ronda:** Atacar · Retroceder `[Físico]` · Esconderte `[Sigilo]` · Usar algo · Cambiar de capa.
-> **Atacar:** 10+ matás tantos como el Daño · 7–9 la mitad (redondeando hacia arriba) y el precio del arma (un uso o el doble de Ruido) · 6− nada.
+> **Atacar:** 10+ matás tantos como el Daño · 7–9 la mitad del Daño (hacia arriba) y el precio del arma (un uso o el doble de Ruido) · 6− nada.
 > **Cada ataque suma el Ruido del arma.**
 
 | 1d6 por cada uno Encima (máx. 2) | |
@@ -287,10 +287,10 @@ ______________________________________________________________________
 | Guardia | −1 al sondeo (máx. −2 entre todos) |
 | Obra | +1 Resistencia (1 Madera o 1 Metal) |
 | Taller | Una receta de ◷ 2 o menos |
-| Cocina | +1 Moral y el grupo come 1 Víver menos |
+| Cocina | Una persona: comida caliente (+1 Moral) y el grupo come 1 Víver menos |
 | Enfermería | Cura 1 Herida (2 con Medicina 2+) |
 | Huerta | +1 Víver (+2 con Supervivencia 2+) |
-| Descanso | 1 Ánimo o la casilla Magullado |
+| Descanso | 1 Ánimo o el Magullado; un sobreviviente, 1 Herida |
 
 **Sondeo:** el Rastro, −1 por Guardia (máx. −2), −1 con Vigía, +2 con Procesión en el barrio. Si 2d6 sale igual o menos → [e072](#e072).
 
@@ -301,7 +301,7 @@ ______________________________________________________________________
 > **Oleadas:** 3 + Rastro ÷ 3, hacia abajo. **Fuerza:** 2d6 + el número de la oleada.
 > **Frente (1d6):** 1–2 Puerta · 3 Ventanas · 4 Techo · 5 Subsuelo · 6 el más débil. Desde la cuarta, dos frentes.
 > **Especial:** 5–6 en 1d6 → [e901](#e901).
-> **Defensa** = Resistencia + trampas + defensores (Daño del arma, +1 con Pelea o Puntería 2+) + vos (prueba: 10+ el doble, 7–9 el Daño, 6− nada y 1 Herida) + Molotov (3 cada uno) + aliados (3).
-> **Defensa ≥ Fuerza:** el frente aguanta y pierde 1. **Menor:** pierde la diferencia y cada defensor tira Mordidas. **0 o menos:** brecha ([e920](#e920)).
-> **Entre oleadas:** cambiar de frente · reforzar (+2 por 1 Madera o Metal) · curar · poner una trampa · descansar. Después de la segunda, [e910](#e910); después de la cuarta, [e912](#e912).
+> **Defensa** = Resistencia + trampas + defensores (Daño del arma, +1 con Pelea o Puntería 2+) + vos (prueba: 10+ el doble, 7–9 el Daño, 6− nada y 1 Herida) + Molotov (3, uno por defensor) + aliados ([e905](#e905)).
+> **Defensa ≥ Fuerza:** el frente aguanta y pierde 2. **Menor:** pierde la diferencia más 1, y cada defensor tira Mordidas. **0 o menos:** brecha ([e920](#e920)).
+> **Entre oleadas:** cambiar de frente · reforzar (+1 por 1 Madera o Metal) · curar · poner una trampa · descansar. Después de la segunda, [e910](#e910); después de la cuarta, [e912](#e912).
 > **Último Cuarto:** Resistencia 6 si lo construiste, 2 si no.

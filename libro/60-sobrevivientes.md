@@ -101,7 +101,7 @@ Debajo del colchón del Chino, latas y un salame.
 ### e608 · El asado
 *El Chino Morales · ◷ 0*
 
-«Mañana hay asado. No me pregunten de qué». Con 3 Víveres, 2 Madera o 1 Combustible, el Chino y otro, ◷ 3: +3 Moral, todos recuperan 1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «otro día». No hay otro día.
+«Mañana hay asado. No me pregunten de qué». Con 3 Víveres y 2 Madera (o 1 Combustible), el Chino y otro, ◷ 3: +3 Moral, todos recuperan 1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «otro día». No hay otro día.
 
 ---
 
@@ -134,7 +134,7 @@ Al alba, una nota: «Fui a buscar a mamá. Cuiden a Ana».
 
 Camillas chiquitas y, al fondo, una enfermera de espaldas. 1d6:
 
-- **1–3 · Es ella, y no es ella.** **Callada ×1 · Cerca**, con el gafete «G. Sosa». Si Bruno está, decide: lo hace él (no se defiende) o vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: pasa a Testarudo con Pelea 2.
+- **1–3 · Es ella, y no es ella.** **Callada ×1 · Cerca**, con el gafete «G. Sosa». Si Bruno está, decide quién lo hace: él (ella no se defiende) o vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: pasa a Testarudo con Pelea 2.
 - **4–5 · No es ella.** Su cuaderno: «Día 4. Me quedo con los chicos de la sala 3». +1 Moral al volver.
 - **6 · Es ella, viva.** Graciela Sosa cuidó a los chicos de la sala 3 un mes entero. Viene: **Medicina 2**, Leal. +3 Moral.
 
@@ -249,7 +249,7 @@ En la capilla atrancada, chicos de uniforme y una profesora con un palo de hocke
 
 Carnicera: tres Callados, tres golpes. «Los Lobos se llevaron mi puesto. Y a mi marido». En la cámara de frío, alguien golpea.
 
-**Para que venga:** si estás contra los Lobos (no con Reputación +1). Si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede), sin prueba.
+**Para que venga:** si estás contra los Lobos (Reputación 0 o menos con ellos). Si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede), sin prueba.
 
 > **La Tana** · **Pelea 3** · Valiente
 > **La cuchilla:** Daño 2, Cerca, nunca se rompe. No la presta.
@@ -271,7 +271,7 @@ Al alba: «Voy a Las Lomas. Rolo Benítez me debe un marido».
 ### e623 · Rolo Benítez
 *La Tana · Las Lomas · ◷ 0*
 
-La Tana grita su nombre en la garita de los Lobos ([e305](#e305)). Sale Rolo con seis de los suyos. Con Reputación −2 con los Lobos o `LOBOS_DEBILITADOS`, los suyos no pelean por él. Si no, te apuntan → [e687](#e687).
+La Tana grita su nombre en la garita de los Lobos ([e305](#e305)). Sale Rolo con seis de los suyos. Con Reputación −2 o menos con los Lobos, o `LOBOS_DEBILITADOS`, los suyos no pelean por él. Si no, te apuntan → [e687](#e687).
 
 **Rolo solo:** **Rolo ×1 · Aguante 4 · Cerca**, con un facón (golpea como un vivo armado, r147). Pelea la Tana (r148); cada uno que la ayude recibe 1 Herida. Si gana, anotá `ROLO_MUERTO`: los Lobos se dispersan en 1d6 días, y entonces anotá `LOBOS_DERROTADOS`; la Tana pasa de Valiente a Leal. Si pierde, muere: −2 Moral.
 
@@ -286,7 +286,7 @@ Un estudiante con guantes de látex revuelve una olla que humea violeta. «No to
 **Para que venga:** `[Labia]` 7+, o mostrarle algo del laboratorio (una pista, `EL_NIVEL_3`, `LOTE_40`).
 
 > **Mateo** · **Mecánica 3** · Curioso
-> **Química:** la Molotov, la Bomba de clavos ([e744](#e744)), el Alcohol ([e747](#e747)) y el agua con cloro ([e383](#e383)) salen sin prueba y con una unidad más.
+> **Química:** el Molotov, la Bomba de clavos ([e744](#e744)), el Alcohol ([e747](#e747)) y el agua con cloro ([e383](#e383)) salen sin prueba y con una unidad más.
 > **Necesidad:** sabe algo. A las 5 cartas → [e625](#e625).
 > **En la Noche 40:** 2 Molotov entre oleadas, con 1 Combustible y 1 Químicos.
 > **Desenlace:** con `AMPOLLAS_L40` o `LOTE_40` y un Taller → [e626](#e626).
@@ -488,7 +488,7 @@ Una quemadura que le sube por el cuello. «Era bombera. Ya no».
 ### e644 · Valeria y Gauna
 *Valeria · ◷ 0*
 
-1. **Que se arreglen,** `[Labia]` de Valeria, +2 con Reputación +1 con los Bomberos. Con 7+, +2 Reputación, y en la Noche 40 los Bomberos vienen por ella ([e905](#e905)). Con 6−, nada cambia.
+1. **Que se arreglen,** `[Labia]` de Valeria, +2 con Reputación +1 o más con los Bomberos. Con 7+, +2 Reputación, y en la Noche 40 los Bomberos vienen por ella ([e905](#e905)). Con 6−, nada cambia.
 2. **Meterte,** `[Labia]`. Con 10+, como la 1 con 7+. Con 6−, −1 Reputación.
 
 Después de un 7+, podés dejar que vuelva al cuartel: +3 Reputación, sin perder Moral (`PERDIDO_VALERIA`).

@@ -8,7 +8,7 @@
 ### e560 · Una pista
 *El Secreto · ◷ 0*
 
-Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho) y escribí adentro la letra del barrio donde la encontraste. Las pistas son del grupo. Si te llega en el refugio, de una carta o de alguien, elegí el color. Dónde buscás decide qué verdad podés encontrar.
+Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho) y escribí adentro la letra del barrio donde la encontraste. Las pistas son del grupo. Si te llega en el refugio, de una carta o de alguien, elegí la letra. Dónde buscás decide qué verdad podés encontrar.
 
 - **C · Comando** (Perímetro, Estación, Casco, Fabril): apunta a 1 El plazo y 2 La purga.
 - **L · Laboratorio** (Sanidad, Universidad, Mercado, Bloques): 3 El ensayo y 4 La voz grabada.
@@ -164,6 +164,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 **Antes de la Noche 40**
 - **Todas las salidas del Éxodo** ([e960](#e960)) están abiertas, aunque no juegues ese modo.
 - **El Puesto Norte** ([e421](#e421)) quedó sin guardia: una vez, un arma de fuego ([e701](#e701)) y 6 Munición.
+- **Los camiones del cordón** se van de noche por la avenida, con las sirenas: la Marea tiene **1 oleada menos** ([e900](#e900)).
 - **Con `EL_SOLDADO_DEL_CONVOY`,** el papel tiene los horarios de las lanchas: Ventaja en la escollera y la lancha.
 - **Con `LA_VERDAD_AL_AIRE`,** Bomberos y Parroquia también intentan salir: no vienen a ayudarte ([e905](#e905)) salvo con Reputación +3.
 - **Con `LA_VERDAD_ENTERA`,** sabés que a las 06:00 el Puesto Norte queda vacío antes del fuego. Pasá la Noche 40 escondido ahí, como una noche afuera (r158) con Desventaja, y los vivos a las 06:00 salen detrás de los soldados: **salvados**.
@@ -223,7 +224,7 @@ Con el Secreto 4 y `SECRETO_ABIERTO`, en Las Lomas, en lugar de tirar encuentro 
 
 **Antes de la Noche 40**
 - **Cazarlo** → [e577](#e577).
-- **Esconderte.** Cada semana sin una Procesión doble en tu barrio, −1 Rastro (−3 como mucho).
+- **Esconderte.** Cada semana sin una Procesión doble en el barrio de tu refugio, −1 Rastro (−3 como mucho).
 - **Con `LA_VERDAD_ENTERA`,** sabés que la noche 39 sube a la rampa. Desde la torre ([e424](#e424)), con fusil, un tiro con Desventaja: con 7+, anotá `PASTOR_MUERTO`.
 
 **En la Noche 40.** Vivo, elige: en la tirada de frente de cada oleada ([e901](#e901)), un 5 o 6 es el frente más débil. Con `PASTOR_MUERTO`, **2 oleadas menos**, y un 6 en la tirada de frente se repite.

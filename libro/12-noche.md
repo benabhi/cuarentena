@@ -8,7 +8,7 @@
 
 **Qué es** (1d6): **1–3** unos pocos empujan y se van: el frente pierde **1** · **4** son muchos: pierde **2** (si es el Subsuelo → [e077](#e077)) · **5** un especial de la Etapa: I [e078](#e078), II [e076](#e076), III [e075](#e075), IV [e073](#e073) · **6** no son Callados → [e079](#e079).
 
-- Una **trampa** en el frente resta 1 al daño (r172).
+- Una **trampa** en el frente resta su valor al daño (r172, [e741](#e741)).
 - Si el frente **llega a 0**, entraron → [e074](#e074).
 - Un sondeo con daño despierta a todos: el Descanso no recupera nada esta noche.
 
@@ -189,4 +189,4 @@ Hernán (o el más creyente) habla en la cena: la Marea es el Juicio, y a los ju
 ### e089 · Se rompe todo
 *Tu refugio · Moral 0*
 
-Al alba, la mitad del grupo arma las mochilas. Por cada sobreviviente, con 1–3 en 1d6 se va (`PERDIDO_`). Se llevan la mitad de los Víveres y de los materiales. La Moral vuelve a **3**. Anotá `EL_DIA_QUE_SE_FUERON`. Si no queda nadie, seguís en modo Lobo solo (r210), con 2 oleadas menos.
+Al alba, el grupo arma las mochilas. Por cada sobreviviente, con 1–3 en 1d6 se va (`PERDIDO_`). Se llevan la mitad de los Víveres y de los materiales. La Moral vuelve a **3**. Anotá `EL_DIA_QUE_SE_FUERON`. Si no queda nadie, seguís en modo Lobo solo (r210), con 2 oleadas menos.
