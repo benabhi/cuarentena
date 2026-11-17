@@ -3,6 +3,5 @@ __pycache__/
 maqueta/manual.html
 Cuarentena-imprenta.pdf
 dist/
-app/dist/
 .DS_Store
 Thumbs.db

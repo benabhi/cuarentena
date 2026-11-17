@@ -384,4 +384,4 @@ La Hoja del refugio tiene una grilla de 40 cartas. Cada alba:
 2. **Valor,** 1d6: 1–5 es ese número; con 6, tirá otra vez: 1–2 vale 6, 3–4 vale 7, 5–6 es la primera **figura** libre de ese palo (Sota, Caballo, Rey).
 3. **Tachala.** Si ya estaba, tomá la siguiente libre del palo (después de la 7, la Sota; después del Rey, el 1). Si el palo está lleno, pasá al siguiente: Oros, Copas, Espadas, Bastos.
 
-Cada carta sale una vez. La app lo hace por vos.
+Cada carta sale una vez: la grilla de la Hoja lleva la cuenta.
