@@ -16,7 +16,7 @@ Hay **reglas** (**rXXX**), que explican cómo se juega, y **eventos** (**eXXX**)
 <a id="r002"></a>
 ### r002 · Qué necesitás
 
-- **Tres dados de seis caras** (d6). «2d6» es tirar dos y sumarlos. «d66» es tirar dos dados distintos: el primero da las decenas y el segundo las unidades (de 11 a 66).
+- **Tres dados de seis caras** (d6). «2d6» es tirar dos y sumarlos. «1d3» es tirar 1d6 y dividir por dos, redondeando hacia arriba (de 1 a 3).
 - **Una baraja española de 40 cartas** (sin ochos ni nueves): es el reloj (r131). Sin baraja, usá r137.
 - La **Hoja de protagonista**, la **Hoja del refugio** y el **Mapa de Tolme** (Apéndices), lápiz y goma.
 - Fichas o monedas para las **Procesiones** (r155).

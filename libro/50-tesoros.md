@@ -55,7 +55,7 @@ Después → [e501](#e501).
 
 El remito, del **día 2**. Destino: «Perímetro Norte · Personal del cordón. Uso exclusivo».
 
-Una pista ([e560](#e560)). Quien venga del Destacamento o tenga `BUSCADO`: −1 Ánimo.
+Una pista ([e560](#e560)). Si tu Motivo es La orden o tenés `BUSCADO`: −1 Ánimo.
 
 ---
 
@@ -211,7 +211,7 @@ Con batería o Generador, anotá `LA_RADIO_DEL_AFICIONADO`: es la **Radio** ([e7
 
 | 1d6 | Qué escuchás |
 |---|---|
-| 1 | Estática en todas las bandas. −1 Ánimo para quien escucha. |
+| 1 | Estática en todas las bandas. −1 Ánimo. |
 | 2 | Un barco pide paso por el río. «Negativo. Zona de exclusión». |
 | 3 | Otra ciudad, a ochocientos kilómetros. También tienen un muro. +1 Ánimo. |
 | 4 | Un handy de Tolme: en un barrio al azar hay vivos (r180); la próxima vez que vayas, con 4–6 vienen con vos. |
@@ -257,7 +257,7 @@ Ocho ruedas, una torreta, la escotilla abierta y las llaves puestas; no arranca.
 ### e551 · Hacerlo andar
 *El blindado · ◷ 0*
 
-> **Reparar el blindado** · 6 Combustible, una batería (o el Generador), 2 Metal, 1 Sujeción · Llave inglesa · ◷ 4 · `[Mecánica]` (Desventaja sin Mecánica 2 ni el *Manual del automotor*, [e773](#e773)) · Con 10+, arranca. Con 7–9, arranca y tose: 1 Combustible más por viaje. Con 6−, otra vez otro día; solo se pierde el Combustible.
+> **Reparar el blindado** · 6 Combustible, una batería (o el Generador), 2 Metal, 1 Sujeción · Llave inglesa · ◷ 4 · `[Mecánica]` (Desventaja sin Mecánica 2 ni el *Manual de mecánica del automotor*, [e773](#e773)) · Con 10+, arranca. Con 7–9, arranca y tose: 1 Combustible más por viaje. Con 6−, otra vez otro día; solo se pierde el Combustible.
 
 Cuando arranca, anotá `EL_BLINDADO` → [e552](#e552).
 

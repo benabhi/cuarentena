@@ -147,7 +147,7 @@ Un vehículo te lleva rápido, pero todo Tolme lo escucha parar. Las reglas para
 | Lancha | 4 | 10 | +1 | 2 por viaje | Club náutico ([e382](#e382)); solo por el río |
 | La 7012 | — | — | Todo Tolme | 4 | Don Ernesto ([e602](#e602)); una sola vez |
 
-- **La bicicleta** no tiene motor: ni prueba para arrancar ni +1 a la tabla (r152).
+- **La bicicleta** no tiene motor: ni prueba para arrancar ni +1 a la tabla (r152, r157).
 - **El vehículo es del refugio:** lo maneja quien sale con él y queda donde lo dejaste.
 - **El Combustible que trae en el tanque** se suma a tus materiales.
 
@@ -446,7 +446,7 @@ Cada frente tiene **2 espacios de trampa** (r172). Cada trampa tiene un **valor*
 <a id="e756"></a>
 ### e756 · Dormitorio
 
-> 4 Tela, 2 Madera · Martillo · ◷ 2 · +1 Ánimo a todos al dormir (r194) y, al construirlo, +1 Moral más que las otras (r182).
+> 4 Tela, 2 Madera · Martillo · ◷ 2 · +1 Ánimo al dormir (r194) y, al construirlo, +1 Moral más que las otras (r182).
 
 <a id="e757"></a>
 ### e757 · Cortinas negras

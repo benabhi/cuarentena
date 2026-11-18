@@ -453,7 +453,7 @@ En el **último lugar** (o el que te mandó la señal anterior), una vez por dí
 | 5 | **Una marca de búsqueda** con su letra, un día y una palabra: «Sigo». |
 | 6 | **Un Callado con su remera.** No es. **Callados ×1d3 · Cerca**; si ganás o escapás, hay una dirección entre los cuerpos. |
 
-**Anotá 1 señal** y +1 Esperanza. Con menos de 3, tirá dos veces en r103: es el **próximo lugar** (si sale el mismo, sigue acá mañana). **Con 3,** es este barrio: [e845](#e845) cuando decidas, o seguí juntando señales para tener más control, contra el reloj.
+**Anotá 1 señal.** Con menos de 3, tirá dos veces en r103: es el **próximo lugar** (si sale el mismo, sigue acá mañana). **Con 3,** es este barrio: [e845](#e845) cuando decidas, o seguí juntando señales para tener más control, contra el reloj.
 
 ---
 
@@ -486,7 +486,7 @@ En la puerta del refugio, una hoja con tu nombre. 1d6:
 ### e844 · Alguien que lo vio
 *El que falta · ◷ 0*
 
-A cada sobreviviente nuevo le mostrás la foto. Con **5–6** en 1d6 (sin tirar si es tu conocido, r103): «Me acuerdo por la campera». 1 señal, +1 Esperanza, y el próximo lugar es el barrio donde lo encontraste.
+A cada sobreviviente nuevo le mostrás la foto. Con **5–6** en 1d6 (sin tirar si es tu conocido, r103): «Me acuerdo por la campera». 1 señal y el próximo lugar es el barrio donde lo encontraste.
 
 ---
 

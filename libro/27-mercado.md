@@ -99,7 +99,7 @@ Un carrito cargado de latas, solo en el estacionamiento. Demasiado fácil.
 
 Treinta personas frente a la persiana de un súper chino. «¡Cinco por vez!».
 
-1. **Hacer la cola.** ◷ 2. Hasta 3 cambios (r166): Víveres, pilas, Sujeción, Tela, por Fármacos, Munición o Combustible.
+1. **Hacer la cola.** ◷ 2. Hasta 3 cambios (r166): Víveres, Pilas, Sujeción, Tela, por Fármacos, Munición o Combustible.
 2. **Colarte.** `[Labia]` o `[Sigilo]`. Con 10+, los 3 cambios sin esperar. Con 7–9, también, pero te gritan: −1 Ánimo. Con 6−, la cola se te viene encima: 1 Herida y afuera.
 3. **Irte.**
 

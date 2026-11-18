@@ -84,7 +84,7 @@ Delantal de parrillero, cocinando chorizos en una oficina trabada. «¿Tenés ha
 
 > **El Chino Morales** · **Supervivencia 3** · Glotón
 > **Necesidad:** esconde comida. A las 7 cartas → [e607](#e607).
-> **En la Noche 40:** entre oleadas, una vez, +1 Ánimo a cada defensor.
+> **En la Noche 40:** entre oleadas, una vez, +1 Moral y +1 Ánimo.
 > **Desenlace:** el primer día de Copas después de [e607](#e607) → [e608](#e608).
 
 <a id="e607"></a>
@@ -101,7 +101,7 @@ Debajo del colchón del Chino, latas y un salame.
 ### e608 · El asado
 *El Chino Morales · ◷ 0*
 
-«Mañana hay asado. No me pregunten de qué». Con 3 Víveres y 2 Madera (o 1 Combustible), el Chino y otro, ◷ 3: +3 Moral, todos recuperan 1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «otro día». No hay otro día.
+«Mañana hay asado. No me pregunten de qué». Con 3 Víveres y 2 Madera (o 1 Combustible), el Chino y otro, ◷ 3: +3 Moral, +1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «otro día». No hay otro día.
 
 ---
 
@@ -249,7 +249,7 @@ En la capilla atrancada, chicos de uniforme y una profesora con un palo de hocke
 
 Carnicera: tres Callados, tres golpes. «Los Lobos se llevaron mi puesto. Y a mi marido». En la cámara de frío, alguien golpea.
 
-**Para que venga:** si estás contra los Lobos (Reputación 0 o menos con ellos). Si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede), sin prueba.
+**Para que venga:** si estás contra los Lobos (Reputación 0 o menos con ellos), o si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede).
 
 > **La Tana** · **Pelea 3** · Valiente
 > **La cuchilla:** Daño 2, Cerca, nunca se rompe. No la presta.
@@ -397,7 +397,7 @@ Tararea todo el tiempo: las noches que hace Guardia, +1 al sondeo (r175).
 ### e635 · La última canción
 *Celeste · ◷ 0*
 
-La noche 39 canta «Volver» como si hubiera doscientas personas. +3 Moral, todos recuperan 2 Ánimo, +1 Rastro. La primera oleada viene por su frente: ella lo pidió.
+La noche 39 canta «Volver» como si hubiera doscientas personas. +3 Moral, +2 Ánimo, +1 Rastro. La primera oleada viene por su frente: ella lo pidió.
 
 ---
 

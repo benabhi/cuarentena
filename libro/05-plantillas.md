@@ -26,7 +26,7 @@ Cambian como en r166, hasta 3 cosas. Si les das algo de comer sin pedir nada, an
 
 Uno está herido; con 1–3 en 1d6, también mordido, y no lo saben.
 
-- **Dar 1 Fármacos o curarlo** `[Medicina]`: con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa.
+- **Curarlo** (1 Fármacos y `[Medicina]`): con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa. Con 6−, perdés el Fármaco.
 - **Decirles que está mordido** (si lo está): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
 - **Irte.** Nada.
 
@@ -65,7 +65,7 @@ Te siguen de lejos. Hasta que vuelvas al refugio, cada vez que llegues a un barr
 <a id="r309"></a>
 ### r309 · No son lo que parecen
 
-Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos (**Fresco ×1 · Encima**, y los demás huyen); con 4–5, son Callados vestidos con ropa de vivos, sentados en un auto (**Callados ×1d6 · Cerca**); con 6, son chicos jugando a la guerra: te tiran piedras y se van. −1 Ánimo.
+Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos (**Fresco ×1 · Encima**, y los demás huyen); con 4–5, son Callados vestidos con ropa de vivos, sentados en un auto (**Callados ×1d6 · Cerca**); con 6, son chicos jugando a la guerra: te tiran piedras y se van. En todos los casos, −1 Ánimo.
 
 <a id="r310"></a>
 ### r310 · Te apuntan

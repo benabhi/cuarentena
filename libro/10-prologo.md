@@ -102,7 +102,7 @@ Andá a **[e840](#e840)** para saber a quién esperabas y dónde estaba. Despué
 
 Afuera alguien grita y deja de gritar. Es tu primera **prueba** (r120).
 
-1. **Salir a buscarlo.** `[Calle]`. Con 10+, en la esquina de la avenida hay algo suyo, mojado: **1 señal** (e840) y +1 Esperanza. Con 7–9, nada, y en la vuelta algo te sigue: 1 Herida. Con 6−, te perdés en tu propio barrio: **práctica** en Calle (r124). → **[e008](#e008)**.
+1. **Salir a buscarlo.** `[Calle]`. Con 10+, en la esquina de la avenida hay algo suyo, mojado: **1 señal** (e840). Con 7–9, nada, y en la vuelta algo te sigue: 1 Herida. Con 6−, te perdés en tu propio barrio: **práctica** en Calle (r124). → **[e008](#e008)**.
 2. **Esperar junto a la puerta.** `[Físico]`. Con 10+, despierto toda la noche: +1 Ánimo. Con 7–9, te despierta un golpe en la puerta. Con 6−, despertás en el piso con la puerta entreabierta. → **[e008](#e008)**.
 3. **Llamar, llamar, llamar.** Por un segundo alguien contesta: lo vio en la avenida. −1 Ánimo, el celular ya no sirve de linterna, pero **1 señal** (e840). → **[e008](#e008)**.
 

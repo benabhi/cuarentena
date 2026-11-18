@@ -25,7 +25,7 @@ Una iglesia de piedra de 1890: portón de quebracho, un campanario cuadrado y vi
 - **Casa de la Parroquia.** Empezás con Reputación **+1** con la Parroquia ([e660](#e660)). Una vez por semana pasan a verte: con Moral 6 o más, dejan 2 Víveres.
 - **Santuario.** Cuando llega alguien (r180), con 6 en 1d6, llegan dos.
 
-**Rincones.** La cripta → [e442](#e442). **La sacristía** (◷ 1, una vez): vino de misa (1 Químicos) y el libro de bautismos; cada sobreviviente del Casco encuentra su nombre: +1 Ánimo. **El patio:** la Huerta ([e752](#e752)) cuesta 1 Madera menos.
+**Rincones.** La cripta → [e442](#e442). **La sacristía** (◷ 1, una vez): vino de misa (1 Químicos) y el libro de bautismos; si sos del Casco, encontrás tu nombre: +1 Ánimo. **El patio:** la Huerta ([e752](#e752)) cuesta 1 Madera menos.
 
 **Si no es tu refugio:** Vivienda, stock ▢▢. Con Reputación +2 con la Parroquia, te dejan dormir una noche (r158) sin tirar.
 
@@ -101,7 +101,7 @@ Volvé a **[e011](#e011)**.
 ### e452 · La cámara de frío
 *Supermercado Del Barrio · Carnicería · ◷ 0*
 
-1. **Limpiarla:** ◷ 2, 1 Químicos, −1 Ánimo para quien lo haga.
+1. **Limpiarla:** ◷ 2, 1 Químicos, −1 Ánimo si lo hacés vos.
 2. **Despensa:** limpia y con Generador ([e760](#e760)), es una Despensa (r173) sin construirla.
 3. **Último Cuarto:** limpia, 2 Metal, 1 Sujeción, ◷ 2. Es el Último Cuarto ([e761](#e761)) con Resistencia 8; pero no entra aire: cada oleada con el grupo adentro, con 1 en 1d6, alguien se desmaya (1 Herida).
 
@@ -135,7 +135,7 @@ Dos plantas frente a las vías: chapa blindada, rejas, una sala de armas y calab
 - **El Destacamento la quiere.** Sin `OFICIO_POLICIA`, empezás con Reputación **−1** con el Destacamento ([e690](#e690)). Desde la carta 15, si nunca fuiste a verlos → [e463](#e463).
 - **El túnel de las vías.** Subsuelo 2, pero bajás al Subsuelo de la Estación sin pasar por la Calle.
 
-**Rincones.** **Los patrulleros:** en uno, una batería (3 casilleros) y un Botiquín; en la guantera del otro, un revólver ([e701](#e701)). **El perro** es Negro ([e651](#e651)); si ya tenés `EL_NEGRO`, hay una correa nueva en la cucha: +1 Ánimo. **La oficina del comisario:** el libro de guardia del día 5: «Replegar personal. Dejar armamento pesado. No dejar registro». Una pista ([e560](#e560)).
+**Rincones.** **Los patrulleros:** en uno, una batería (3 casilleros) y un Botiquín; en la guantera del otro, un revólver ([e701](#e701)). **El perro** es el Negro ([e651](#e651)); si ya tenés `EL_NEGRO`, hay una correa nueva en la cucha: +1 Ánimo. **La oficina del comisario:** el libro de guardia del día 5: «Replegar personal. Dejar armamento pesado. No dejar registro». Una pista ([e560](#e560)).
 
 **Si no es tu refugio:** Policía, stock ▢▢, se entra por arriba. Si el Destacamento la ocupó (Reputación −2 o menos, o después de [e463](#e463)), hay **3 soldados** (r300, Hablar con −1).
 

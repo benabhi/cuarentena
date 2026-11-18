@@ -308,7 +308,7 @@ Doce mejoras que se construyen una vez cada una, con su receta (e750–e761): De
 
 El **Rastro** (0–10) es cuánto sabe la ciudad de tu refugio.
 
-**Sube:** volver con Ruido 3+ de un barrio vecino (+1), disparar en el barrio del refugio (+1), cocinar sin chimenea (+1 por noche), prender el generador (+2, una vez), cada 3 sobrevivientes nuevos (+1), una trampa ruidosa o una pelea en la puerta (+1). **Baja:** Cortinas negras (−1, una vez), silenciar el generador (−1, una vez), cada siete albas seguidas sin salir de noche (−1), mover la entrada (−2, r176), una Procesión desviada a dos barrios o más del refugio (−1, una vez por semana) y algunos eventos.
+**Sube:** volver con Ruido 3+ de su barrio o uno vecino (+1), disparar en el barrio del refugio (+1), cocinar sin chimenea (+1 por noche), prender el generador (+2, una vez), cada 3 sobrevivientes nuevos (+1), una trampa ruidosa o una pelea en la puerta (+1). **Baja:** Cortinas negras (−1, una vez), silenciar el generador (−1, una vez), cada siete albas seguidas sin salir de noche (−1), mover la entrada (−2, r176), una Procesión desviada a dos barrios o más del refugio (−1, una vez por semana) y algunos eventos.
 
 Decide los **sondeos** de cada noche (r175) y cuántas **oleadas** trae la Marea (r221).
 
@@ -363,7 +363,7 @@ Cada noche, cada persona del refugio tiene **un puesto**:
 - **Huerta** (con Huerta, dos personas como mucho): +1 Víver (+2 con Supervivencia 2 o más).
 - **Descanso:** vos recuperás 1 Ánimo o el Magullado; un sobreviviente borra 1 Herida.
 
-Quien vuelve tarde de una expedición (r185) no tiene puesto esa noche.
+Quien vuelve de noche de una expedición (r158) no tiene puesto esa noche.
 
 <a id="r182"></a>
 ### r182 · La Moral del grupo

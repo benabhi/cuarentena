@@ -186,7 +186,7 @@ Faltan 2 Víveres y 1 Fármacos (o lo que haya). Nadie entró.
 
 - **Investigar:** `[Labia]` o `[Calle]`, ◷ 1. Con 10+, descubrís quién fue y recuperás todo. Echarlo: −1 Moral, se va con lo puesto. Perdonarlo delante de todos: −1 Moral y anotá `PERDONASTE_UN_ROBO`. A solas: nada. Con 7–9, sabés quién, pero ya se lo comió. Con 6−, acusás al que no era: −2 Moral.
 - **Dejarlo pasar:** −1 Moral. La próxima vez que salga esta entrada, vuelve a pasar y ya no se investiga.
-- **Candado en la despensa:** 1 Metal y 1 Sujeción. −1 Moral.
+- **Candado en la despensa:** 1 Metal y 1 Sujeción. −1 Moral, y no vuelve a pasar.
 
 ---
 
@@ -320,7 +320,7 @@ Amanecen en la puerta: **Callados ×2d6**, empujando despacio.
 ### e048 · Fuego
 *Tolme · ◷ 0*
 
-Tirá el barrio en r155: queda **en llamas** (r159). Si es el de tu refugio o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
+Tirá el barrio en r155: queda **en llamas** (r159). Si es el de tu refugio o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y perdés 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
 
 ---
 
@@ -424,7 +424,7 @@ Pasa bajo, sin insignias, y tira volantes amarillos:
 ### e058 · El muro cruje
 *Tolme · ◷ 0*
 
-Golpes sordos desde el muro toda la noche. Cada persona pierde 1 Ánimo, o la Moral baja 1 (elegís).
+Golpes sordos desde el muro toda la noche. Perdés 1 Ánimo, o la Moral baja 1 (elegís).
 
 Si hoy estás en el Perímetro, o alguien sube con binoculares, ves la grieta: anotá `GRIETA_EN_EL_MURO`. Si ya la tenías, cede → [e049](#e049).
 
@@ -477,7 +477,7 @@ Una explosión sorda: alguien voló la bóveda del Banco Provincia. Si vas hoy a
 
 Dos del grupo se quieren casar. (Con menos de 2 sobrevivientes, son vecinos que te piden de testigo: ◷ 2, +1 Ánimo y 1 Víver de torta.)
 
-1. **Fiesta grande.** 3 Víveres, música, baile. +3 Moral, +1 Ánimo para todos, +2 Rastro. Si Celeste canta, es la mejor noche de la cuarentena: anotá `LA_BODA`.
+1. **Fiesta grande.** 3 Víveres, música, baile. +3 Moral, +1 Ánimo, +2 Rastro. Si Celeste canta, es la mejor noche de la cuarentena: anotá `LA_BODA`.
 2. **Fiesta chica.** 1 Víver y un discurso: `[Labia]`. Con 10+, +2 Moral; si no, +1, porque se rieron igual.
 3. **No es momento.** −2 Moral. Se casan a escondidas en el depósito.
 
@@ -557,7 +557,7 @@ Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). En la Etapa IV, cada P
 
 El barrio de tu refugio y un vecino al azar quedan **en llamas** (r159) por 2 días. Tu manzana, si la defendés:
 
-1. **Defender el refugio.** Todo el grupo, todo el día (◷ 6): `[Supervivencia]` o `[Físico]`, +1 con Cisterna y +1 con Valeria ([e642](#e642)). Con 10+, nada. Con 7–9, −2 al Techo y 2 materiales al azar. Con 6−, −3 al Techo y a las Ventanas, 4 materiales y 2 Heridas a alguien.
+1. **Defender el refugio.** Todo el grupo, todo el día (◷ 6): `[Supervivencia]` o `[Físico]`, +1 con Cisterna y +1 con Valeria ([e642](#e642)). Con 10+, nada. Con 7–9, −2 al Techo y perdés 2 materiales al azar. Con 6−, −3 al Techo y a las Ventanas, perdés 4 materiales y alguien recibe 2 Heridas.
 2. **Evacuar** al vecino que no arde, con lo que entre en las mochilas, por 2 días. −3 a dos frentes al azar y la mitad de los materiales. Nadie se lastima.
 
 Las Procesiones de los barrios en llamas se dispersan a vecinos al azar. −2 Rastro: el humo grande tapa el tuyo.

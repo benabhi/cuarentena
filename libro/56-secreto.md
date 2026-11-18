@@ -8,7 +8,7 @@
 ### e560 · Una pista
 *El Secreto · ◷ 0*
 
-Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho) y escribí adentro la letra del barrio donde la encontraste. Las pistas son del grupo. Si te llega en el refugio, de una carta o de alguien, elegí la letra. Dónde buscás decide qué verdad podés encontrar.
+Marcá **una casilla de Pistas** en la Hoja del refugio (hay ocho) y escribí adentro la letra del **color** del barrio donde la encontraste. Las pistas son del grupo. Si te llega en el refugio, de una carta o de alguien, elegí la letra. Dónde buscás decide qué verdad podés encontrar.
 
 - **C · Comando** (Perímetro, Estación, Casco, Fabril): apunta a 1 El plazo y 2 La purga.
 - **L · Laboratorio** (Sanidad, Universidad, Mercado, Bloques): 3 El ensayo y 4 La voz grabada.
