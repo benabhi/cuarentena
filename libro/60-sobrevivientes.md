@@ -4,7 +4,7 @@
 
 **Cómo se lee un sobreviviente.** Tiene un **encuentro** (cómo viene), una **necesidad** (el problema que trae) y un **desenlace**. La ficha dice lo que anotás en la Hoja del refugio: su Habilidad fuerte (las demás valen 0), su rasgo, qué hace en la Noche 40 y cuándo leer su necesidad.
 
-**Los rasgos.** **Valiente:** no huye nunca (r185); en la Noche 40, +1 a la defensa de su frente. **Cobarde:** huye con 1–2 en 1d6 ante un especial (r185) y no defiende la primera oleada. **Glotón:** los días de Oros come 2 Víveres. **Insomne:** hace Guardia y otro puesto la misma noche, pero nunca recupera Ánimo con Descanso. **Creyente:** entierros y fiestas dan +1 Moral más; con Moral 2, se va a la Parroquia con 1–2 en 1d6. **Ladrón:** cada carta de Oros, con 1 en 1d6 falta 1 material (r185). **Optimista:** una vez por semana evita una pérdida de Moral. **Fanfarrón:** +1 Ruido si sale con vos, pero +1 a Hablar (r300). **Testarudo:** elige su puesto la primera noche y lo hace siempre (cambiárselo: −1 Moral); nunca huye. **Curioso:** +1 a una tirada de botín si revisa con vos; con 1 en 1d6, +1 Ruido. **Frío:** las muertes no le bajan el Ánimo, y la primera de cada Etapa cuesta 1 Moral menos. **Leal:** si caés Muriendo (r190) con él al lado, te saca; no se va por crisis de Moral ([e080](#e080)).
+**Los rasgos.** **Valiente:** no huye nunca (r185); en la Noche 40, +1 a la defensa de su frente. **Cobarde:** huye con 1–2 en 1d6 ante un especial (r185) y no defiende la primera oleada. **Glotón:** los días de Oros come 2 Víveres. **Insomne:** hace Guardia y otro puesto la misma noche, pero el Descanso no le cura nada. **Creyente:** entierros y fiestas dan +1 Moral más; con Moral 2, se va a la Parroquia con 1–2 en 1d6. **Ladrón:** cada carta de Oros, con 1 en 1d6 falta 1 material (r185). **Optimista:** una vez por semana evita una pérdida de Moral. **Fanfarrón:** +1 Ruido si sale con vos, pero +1 a Hablar (r300). **Testarudo:** elige su puesto la primera noche y lo hace siempre (cambiárselo: −1 Moral); nunca huye. **Curioso:** +1 a una tirada de botín si revisa con vos; con 1 en 1d6, +1 Ruido. **Frío:** la primera muerte de cada Etapa cuesta 1 Moral menos. **Leal:** si caés Muriendo (r190) con él al lado, te saca; no se va por crisis de Moral ([e080](#e080)).
 
 ---
 
@@ -84,7 +84,7 @@ Delantal de parrillero, cocinando chorizos en una oficina trabada. «¿Tenés ha
 
 > **El Chino Morales** · **Supervivencia 3** · Glotón
 > **Necesidad:** esconde comida. A las 7 cartas → [e607](#e607).
-> **En la Noche 40:** entre oleadas, una vez, +1 Ánimo a cada defensor.
+> **En la Noche 40:** entre oleadas, una vez, +1 Moral y +1 Ánimo.
 > **Desenlace:** el primer día de Copas después de [e607](#e607) → [e608](#e608).
 
 <a id="e607"></a>
@@ -101,7 +101,7 @@ Debajo del colchón del Chino, latas y un salame.
 ### e608 · El asado
 *El Chino Morales · ◷ 0*
 
-«Mañana hay asado. No me pregunten de qué». Con 3 Víveres, 2 Madera o 1 Combustible, el Chino y otro, ◷ 3: +3 Moral, todos recuperan 1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «otro día». No hay otro día.
+«Mañana hay asado. No me pregunten de qué». Con 3 Víveres y 2 Madera (o 1 Combustible), el Chino y otro, ◷ 3: +3 Moral, +1 Ánimo y el humo llega a seis cuadras: +2 Rastro. Si no, «otro día». No hay otro día.
 
 ---
 
@@ -134,7 +134,7 @@ Al alba, una nota: «Fui a buscar a mamá. Cuiden a Ana».
 
 Camillas chiquitas y, al fondo, una enfermera de espaldas. 1d6:
 
-- **1–3 · Es ella, y no es ella.** **Callada ×1 · Cerca**, con el gafete «G. Sosa». Si Bruno está, decide: lo hace él (no se defiende) o vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: pasa a Testarudo con Pelea 2.
+- **1–3 · Es ella, y no es ella.** **Callada ×1 · Cerca**, con el gafete «G. Sosa». Si Bruno está, decide quién lo hace: él (ella no se defiende) o vos. Si lo hace él, anotá `BRUNO_LO_HIZO`: pasa a Testarudo con Pelea 2.
 - **4–5 · No es ella.** Su cuaderno: «Día 4. Me quedo con los chicos de la sala 3». +1 Moral al volver.
 - **6 · Es ella, viva.** Graciela Sosa cuidó a los chicos de la sala 3 un mes entero. Viene: **Medicina 2**, Leal. +3 Moral.
 
@@ -239,7 +239,7 @@ En la capilla atrancada, chicos de uniforme y una profesora con un palo de hocke
 
 - **1–2 · No está.** Su madre la buscó el día 1. Gustavo pasa de Cobarde a Frío.
 - **3–5 · Está.** Anotá `LA_HIJA_DE_GUSTAVO`: viene (Cocina, Huerta o Descanso). +3 Moral.
-- **6 · Están todos,** y no pueden quedarse más. Si te los llevás, +4 sobrevivientes (chicos, sin Guardia ni Obra), +3 Rastro, +4 Moral. Si no, Gustavo se queda (`PERDIDO_GUSTAVO`).
+- **6 · Están todos,** y no pueden quedarse más. Si te los llevás, anotá `LA_HIJA_DE_GUSTAVO`, +4 sobrevivientes (chicos, sin Guardia ni Obra), +3 Rastro, +4 Moral. Si no, Gustavo se queda (`PERDIDO_GUSTAVO`).
 
 ---
 
@@ -249,7 +249,7 @@ En la capilla atrancada, chicos de uniforme y una profesora con un palo de hocke
 
 Carnicera: tres Callados, tres golpes. «Los Lobos se llevaron mi puesto. Y a mi marido». En la cámara de frío, alguien golpea.
 
-**Para que venga:** si estás contra los Lobos (no con Reputación +1). Si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede), sin prueba.
+**Para que venga:** si estás contra los Lobos (Reputación 0 o menos con ellos), o si terminás con lo de la cámara (◷ 1, **Callado ×1 · Cerca**: ella no puede).
 
 > **La Tana** · **Pelea 3** · Valiente
 > **La cuchilla:** Daño 2, Cerca, nunca se rompe. No la presta.
@@ -271,7 +271,7 @@ Al alba: «Voy a Las Lomas. Rolo Benítez me debe un marido».
 ### e623 · Rolo Benítez
 *La Tana · Las Lomas · ◷ 0*
 
-La Tana grita su nombre en la garita de los Lobos ([e305](#e305)). Sale Rolo con seis de los suyos. Con Reputación −2 con los Lobos o `LOBOS_DEBILITADOS`, los suyos no pelean por él. Si no, te apuntan → [e687](#e687).
+La Tana grita su nombre en la garita de los Lobos ([e305](#e305)). Sale Rolo con seis de los suyos. Con Reputación −2 o menos con los Lobos, o `LOBOS_DEBILITADOS`, los suyos no pelean por él. Si no, te apuntan → [e687](#e687).
 
 **Rolo solo:** **Rolo ×1 · Aguante 4 · Cerca**, con un facón (golpea como un vivo armado, r147). Pelea la Tana (r148); cada uno que la ayude recibe 1 Herida. Si gana, anotá `ROLO_MUERTO`: los Lobos se dispersan en 1d6 días, y entonces anotá `LOBOS_DERROTADOS`; la Tana pasa de Valiente a Leal. Si pierde, muere: −2 Moral.
 
@@ -286,7 +286,7 @@ Un estudiante con guantes de látex revuelve una olla que humea violeta. «No to
 **Para que venga:** `[Labia]` 7+, o mostrarle algo del laboratorio (una pista, `EL_NIVEL_3`, `LOTE_40`).
 
 > **Mateo** · **Mecánica 3** · Curioso
-> **Química:** la Molotov, la Bomba de clavos ([e744](#e744)), el Alcohol ([e747](#e747)) y el agua con cloro ([e383](#e383)) salen sin prueba y con una unidad más.
+> **Química:** el Molotov, la Bomba de clavos ([e744](#e744)), el Alcohol ([e747](#e747)) y el agua con cloro ([e383](#e383)) salen sin prueba y con una unidad más.
 > **Necesidad:** sabe algo. A las 5 cartas → [e625](#e625).
 > **En la Noche 40:** 2 Molotov entre oleadas, con 1 Combustible y 1 Químicos.
 > **Desenlace:** con `AMPOLLAS_L40` o `LOTE_40` y un Taller → [e626](#e626).
@@ -397,7 +397,7 @@ Tararea todo el tiempo: las noches que hace Guardia, +1 al sondeo (r175).
 ### e635 · La última canción
 *Celeste · ◷ 0*
 
-La noche 39 canta «Volver» como si hubiera doscientas personas. +3 Moral, todos recuperan 2 Ánimo, +1 Rastro. La primera oleada viene por su frente: ella lo pidió.
+La noche 39 canta «Volver» como si hubiera doscientas personas. +3 Moral, +2 Ánimo, +1 Rastro. La primera oleada viene por su frente: ella lo pidió.
 
 ---
 
@@ -488,7 +488,7 @@ Una quemadura que le sube por el cuello. «Era bombera. Ya no».
 ### e644 · Valeria y Gauna
 *Valeria · ◷ 0*
 
-1. **Que se arreglen,** `[Labia]` de Valeria, +2 con Reputación +1 con los Bomberos. Con 7+, +2 Reputación, y en la Noche 40 los Bomberos vienen por ella ([e905](#e905)). Con 6−, nada cambia.
+1. **Que se arreglen,** `[Labia]` de Valeria, +2 con Reputación +1 o más con los Bomberos. Con 7+, +2 Reputación, y en la Noche 40 los Bomberos vienen por ella ([e905](#e905)). Con 6−, nada cambia.
 2. **Meterte,** `[Labia]`. Con 10+, como la 1 con 7+. Con 6−, −1 Reputación.
 
 Después de un 7+, podés dejar que vuelva al cuartel: +3 Reputación, sin perder Moral (`PERDIDO_VALERIA`).

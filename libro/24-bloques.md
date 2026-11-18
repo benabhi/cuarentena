@@ -58,7 +58,7 @@ Una cancha techada y una pileta de agua verde. Acá guardaban la comida de la ol
 
 - **Revisar** (r161).
 - **La pizarra de la cocina,** con los turnos en tiza. El último: «Día 3 · Lucía y Marcela». Si Lucía está en el grupo, llora. Si no la conocés, abajo hay una dirección: la Escuela N.º 9 ([e603](#e603)).
-- **La olla de cien litros** (3 casilleros): en el refugio, la Cocina a leña ([e755](#e755)) da +1 Moral más cada noche.
+- **La olla de cien litros** (3 casilleros): en el refugio, la Cocina a leña ([e755](#e755)) da +1 Moral más cada noche de Cocina.
 - **La pileta:** con Hervir agua ([e748](#e748)), 4 Víveres por visita (◷ 2), tres veces (▢▢▢). Desde la Etapa III, algo vive ahí: en cada visita, con 1–2 en 1d6, **Ahogado ×1 · Cerca** ([e728](#e728)).
 
 ---

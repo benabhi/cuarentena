@@ -8,7 +8,7 @@ La avenida entera llena de hombros que se rozan. No te vieron.
 
 Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 
-1. **Quedarte quieto** en un zaguán o debajo de un auto. `[Sigilo]`, ◷ 2. Con 10+, pasa: seguís en el barrio con Ruido 0. Con 7–9, un rezagado se te queda mirando: **Callados ×1 · Cerca**, y solo podés matarlo sin ruido. Con 6−, te huelen: **Callados ×3d6 · Cerca**. No se gana: escapá (r142) o cambiá de capa.
+1. **Quedarte quieto** en un zaguán o debajo de un auto. `[Sigilo]`, ◷ 2. Con 10+, pasa: seguís en el barrio y tu Ruido vuelve a 0. Con 7–9, un rezagado se te queda mirando: **Callados ×1 · Cerca**, y solo podés matarlo sin ruido. Con 6−, te huelen: **Callados ×3d6 · Cerca**. No se gana: escapá (r142) o cambiá de capa.
 2. **Subir,** si el barrio tiene Azoteas. `[Físico]`, ◷ 1. Con 10+, seguís por arriba (r151). Con 7–9, también, pero se te cae 1 casillero a la calle. Con 6−, opción 1 con Desventaja.
 3. **Bajar,** si tiene Subsuelo. `[Físico]`, ◷ 1. Con 7+, seguís por abajo: tirá en [e110](#e110). Con 6−, la tapa no se mueve: opción 1 con Desventaja.
 4. **Desviarla** (r156). Si funciona, la ficha se va a un vecino.
@@ -21,7 +21,7 @@ Si es **doble**, todas las pruebas de esta entrada tienen Desventaja.
 ### e101 · La gran Procesión pasa por tu puerta
 *Tu refugio · ◷ 6*
 
-`[Sigilo]` por el grupo (+1 con Cortinas negras; Desventaja con más de 6 personas o el Negro sin `NEGRO_CON_BOZAL`):
+`[Sigilo]` por el grupo (+1 con Cortinas negras; Desventaja con más de 4 personas o el Negro sin `NEGRO_CON_BOZAL`):
 
 - *10+:* al anochecer, la calle está vacía y llena de zapatos. +1 Moral.
 - *7–9:* por cada frente, con 1–2 en 1d6, −1 Resistencia.
@@ -74,7 +74,7 @@ Un tren con las puertas abiertas, y gente sentada con la cabeza apoyada en el vi
 
 Una docena de personas viven en un andén, guiadas por **la Topo**, de casco de obrero. «¿Qué traés?».
 
-- **Cambiar** (r166) con Ventaja: Combustible, Linternas, pilas, Soga.
+- **Cambiar** (r166) con Ventaja: Combustible, Linternas, Pilas, Soga.
 - **El mapa:** 2 Víveres o 1 Fármacos. Anotá `MAPA_DEL_SUBSUELO`.
 - **Preguntar:** una pista ([e560](#e560)) y anotá `LA_TOPO`. Desde ahora, si vuelve a salir esta entrada, podés dormir acá (r158).
 
@@ -130,9 +130,9 @@ Si venís del agua ([e113](#e113)), empiezan **Encima**.
 
 Una estación de cientos de Callados dormidos. Tenés que cruzar el andén.
 
-`[Sigilo]`, sin luz (con Linterna, Desventaja). Con 10+, cruzás. Con 7–9, pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen. Con 6−, **Callados ×4d6 · Cerca**: solo queda escapar.
+`[Sigilo]`, a oscuras y sin Desventaja: es la luz la que los despierta (con la Linterna prendida, Desventaja). Con 10+, cruzás. Con 7–9, pisaste algo: +2 Ruido y **Callados ×1d6 · Lejos** te siguen. Con 6−, **Callados ×4d6 · Cerca**: solo queda escapar.
 
-Si cruzás, anotá `UN_NIDO`: un nido no se mueve, y la próxima vez lo rodeás (◷ 1 más, sin prueba).
+Si cruzás, anotá `UN_NIDO`: un nido no se mueve. Si volvés a esta entrada con `UN_NIDO`, lo rodeás (◷ 1 más, sin prueba).
 
 ---
 
@@ -309,7 +309,7 @@ Pelear, o la otra vereda: `[Sigilo]`. Con 7–9, +1 Ruido. Con 6−, combate.
 Alguien con el cinturón puesto golpea el vidrio con la frente. Atrás hay bolsos.
 
 1. **La puerta de atrás,** sin tocar la de adelante. `[Sigilo]`. Con 7+, dos tiradas de Vivienda (r162). Con 6−, se le suelta el cinturón: **Callados ×1 · Encima**.
-2. **Terminar con él** por la ventanilla: +1 Ruido y los bolsos sin tirar. −1 Ánimo si mirás la foto del tablero.
+2. **Terminar con él** por la ventanilla: +1 Ruido y las dos tiradas, sin prueba. −1 Ánimo si mirás la foto del tablero.
 3. **Seguir.**
 
 ---
@@ -342,7 +342,7 @@ Alguien contra una persiana, con una pierna ensangrentada. «No me mordieron. Te
 Una vidriera intacta, con reja y candado.
 
 - **Romperla:** +2 Ruido. Comercio, stock ▢▢.
-- **El candado** `[Oficio]` (+1 con Palanca o ganzúas): con 10+, sin ruido; con 7–9, +1 Ruido; con 6−, no abre (podés romperla igual).
+- **El candado** `[Oficio]` (+1 con Palanca o Ganzúas): con 10+, sin ruido; con 7–9, +1 Ruido; con 6−, no abre (podés romperla igual).
 - **Para después:** una X sin número en el mapa (Comercio, ▢▢).
 
 ---

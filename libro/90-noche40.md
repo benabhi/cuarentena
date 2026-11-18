@@ -16,7 +16,7 @@ A las siete se calla todo, hasta la Señora, en el medio de una frase. Desde el 
 2. **Calculá las oleadas** (r221): 3 + (Rastro ÷ 3), redondeando hacia abajo.
 3. **Revisá tu hoja** y aplicá todo lo que tengas de esta lista:
 
-- **Oleadas:** 1 menos con `RAMPA_DESTRUIDA` (y `LA_RAMPA`); 1 menos con `CONOCES_EL_CAMINO` y un Señuelo grande encendido en otro barrio (`EL_RECITAL`, `LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO`, `LA_SIRENA`); 2 menos con `PASTOR_MUERTO` ([e585](#e585)); 1 más con `DESTACAMENTO_DISUELTO`.
+- **Oleadas:** 1 menos con `RAMPA_DESTRUIDA` (y `LA_RAMPA`); 1 menos con `CONOCES_EL_CAMINO` y un Señuelo grande andando fuera de tu barrio (`LA_FERIA_ENCENDIDA`, `EL_FARO_ENCENDIDO`, `LA_SIRENA`); 2 menos con `PASTOR_MUERTO` ([e585](#e585)); 1 más con `DESTACAMENTO_DISUELTO`; 1 menos con `SECRETO_ABIERTO` y La purga ([e582](#e582)).
 - **La primera oleada:** +2 de Fuerza con `EL_MURO_CEDIO`; −2 con `REFORZASTE_EL_MURO` o con `TRABAJASTE_EN_EL_MURO`; cada defensor +1 con `ESCUCHASTE_LA_MAREA`; no viene por el frente que elijas con `SABES_POR_DONDE`; con `LOS_PLANOS_DEL_MURO` (y `EL_MURO_CEDIO`) no elige el frente más débil: un 6 se vuelve a tirar; con `EL_PASTOR_SABE` y el Pastor vivo, va al frente más débil. Con `ESCALERA_CORTADA` (Sarmiento), la primera brecha no llega al grupo ([e491](#e491)).
 - **Cada oleada:** +3 a un frente con `CERCO_ELECTRICO` (1 Combustible por oleada, [e512](#e512)); +4 con `AMETRALLADORA_EN_` un frente (6 Munición por oleada, [e523](#e523)); +2 a la Puerta con `LOS_DE_LA_CUADRA`, si siguen vivos; +1 a las Ventanas con `LOS_DEL_SIETE`, con 4–6 en 1d6 ([e493](#e493)); la Puerta −2 en la Escuela N.º 9 sin `PUERTAS_TAPIADAS` ([e471](#e471)); el Subsuelo pierde 1 Resistencia menos con `DESAGUE_TAPADO`; Tablas de clavos y Fosos de estacas valen +1 con `DIENTES_EN_LAS_TRAMPAS`.
 - **Vehículos:** `EL_BLINDADO`, +3 a la Puerta o las Ventanas en todas las oleadas, o una carga ([e552](#e552)); `LA_AUTOBOMBA`, una vez, +3 a la defensa de la Puerta ([e481](#e481)).
@@ -103,7 +103,7 @@ Una calma. Faltan ocho horas para el sol. **Primero**, la pausa (r224), con las 
 | 2 | **La radio.** «La ayuda llegará.» `[Labia]`: con 7+, +1 Moral; con 6−, alguien rompe la radio contra la pared: −1 Moral |
 | 3 | **Golpean.** Una familia que corrió entre los Callados. Abrir: `[Físico]` con dos personas; con 7+, entran tres (1 defiende); con 6−, entran con **Callados ×1d6 · Encima**. No abrir: −2 Moral y −1 Ánimo |
 | 4 | **El fuego.** Un frente al azar pierde 1 Resistencia. Apagarlo: `[Supervivencia]` o `[Físico]` (+1 con Valeria o Cisterna); con 6−, pierde 2 más |
-| 5 | **El que no aguanta.** El de Ánimo más bajo, o el más Cobarde, quiere huir por el Techo. `[Labia]`; con 6−, se va y no vuelve: −1 Moral |
+| 5 | **El que no aguanta.** El más Cobarde (si no hay, uno al azar) quiere huir por el Techo. `[Labia]`; con 6−, se va y no vuelve: −1 Moral |
 | 6 | **La canción.** De cancha, de cuna, un himno, bajito. +2 Moral, y la próxima oleada tiene −1 de Fuerza |
 
 Si la Moral llega a 0 esta noche, no hay crisis (e080): hay desbande. Tirá 1d6 por sobreviviente: con 1–2, se esconde y no defiende más.
@@ -121,7 +121,7 @@ Las tres de la mañana. Contra la Puerta, uno golpea con la palma abierta, despa
 1. **Aguantar.** Nadie habla.
 2. **Hacer ruido en otro lado.** Un voluntario (o vos) sale por el Techo o el Subsuelo con un Señuelo y se lleva a la Marea dos cuadras: `[Sigilo]` o `[Físico]`. Pase lo que pase, la próxima oleada tiene la mitad de Fuerza. Con 10+, vuelve. Con 7–9, aparece al amanecer con 4–6 en 1d6. Con 6−, no vuelve; si eras vos → [e990](#e990).
 3. **Rezar, cantar, contar chistes.** `[Labia]`: con 7+, +2 Moral y cada defensor +1 en la próxima oleada.
-4. **Con `TIGRE_DOS`** y una radio: «Tigre Dos, acá Tolme. Estamos vivos.» «Al amanecer, en la escollera. Aguanten.» +3 Moral, y al amanecer el barco está ([e930](#e930)).
+4. **Con `TIGRE_DOS`** y la Radio ([e759](#e759)): «Tigre Dos, acá Tolme. Estamos vivos.» «Al amanecer, en la escollera. Aguanten.» +3 Moral, y al amanecer el barco está ([e930](#e930)).
 5. **Con la barcaza lista** (`BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE`): si los que no pelean subieron antes ([e254](#e254)), ahora están en el medio del río, mirando la ciudad. +1 Moral.
 
 ---
@@ -381,7 +381,7 @@ Y los que no tienen ficha:
 
 Por cada Marca tuya de esta lista, leé su línea. Si no tenés ninguna, Tolme no se acuerda de vos.
 
-**El fuego y el ruido.** `ARDIO_LA_FABRICA`: los chicos juegan a «la noche que ardió». `VOLO_EL_GAS`: el pozo tiene peces y tu nombre mal escrito. `LA_BODA`: su foto es la primera que se imprime. `DON_CACHO`: un año después vuelve, y te trae algo. `LA_7012`: tiene flores en la cabina. `SENALES_AL_HELICOPTERO`: una foto de una sábana empieza a hacer preguntas. `LLAMASTE_POR_RADIO`: algunos siguieron tu voz y llegaron. `LAS_LUCES_DE_TOLME`: nadie entiende los círculos de tu mapa. `LA_SENORA_SE_EQUIVOCA`: nadie te cree que contaba mal. `LA_SENORA_CALLADA`: ese día la ciudad empezó a hablar sola.
+**El fuego y el ruido.** `ARDIO_LA_FABRICA`: los chicos juegan a «la noche que ardió». `VOLO_EL_GAS`: el pozo tiene peces y tu nombre mal escrito. `LA_BODA`: su foto es la primera que se imprime. `DON_CACHO`: un año después vuelve, y te trae algo. `LA_7012`: tiene flores en la cabina. `EL_RECITAL`: fue el último gran show. `SENALES_AL_HELICOPTERO`: una foto de una sábana empieza a hacer preguntas. `LLAMASTE_POR_RADIO`: algunos siguieron tu voz y llegaron. `LAS_LUCES_DE_TOLME`: nadie entiende los círculos de tu mapa. `LA_SENORA_SE_EQUIVOCA`: nadie te cree que contaba mal. `LA_SENORA_CALLADA`: ese día la ciudad empezó a hablar sola.
 
 **La gente.** `DUDA_DEL_PRIMERO`: todavía te despierta. `LOS_VIEJOS_DE_LA_VELA`: alguien cambia la vela. `TRUEQUE_GENEROSO`: en otra ciudad te cuentan como un cuento. `PERDONASTE_UN_ROBO`: el que robó hace todas las guardias. `MANO_DURA`: funcionó, y nadie te quiere. `ASAMBLEA`: la primera acta lleva tu nombre. `EL_DIA_QUE_SE_FUERON`: una carta dice «perdón» cuatro veces. `RACIONES_A_LA_VISTA`: se sigue sirviendo a la vista. `LOS_PESCADORES`: el primer pescado es tuyo. `LOS_DEL_BLOQUE_B`: siguen arriba, por las dudas. `ESCONDITE_DE_SAQUEADORES`: nunca sabrás si callar salvó a alguien. `LIBERASTE_A_LAS_COCINERAS`: tu plato no se cobra. `ESCONDISTE_AL_INMUNE`: al margen del informe dice «escondido».
 
@@ -403,7 +403,7 @@ El muro rodea Tolme por tres lados; al sur, el río y una escollera. En el **mod
 |---|---|---|---|
 | **A pie por la escollera** | `LA_ESCOLLERA` ([e383](#e383)), de noche | 4 | Todos `[Sigilo]`; con 6−, esa persona vuelve con 1 Herida (o no vuelve, con 1 en 1d6) |
 | **La lancha** | `LA_LANCHA` ([e382](#e382)), 2 Combustible | 4 | `[Mecánica]` o `[Sigilo]`; con 6−, disparos: 1 Herida a cada uno, pero salen |
-| **Tigre Dos** | `TIGRE_DOS` ([e543](#e543)) y una radio | 6 | Ninguna |
+| **Tigre Dos** | `TIGRE_DOS` ([e543](#e543)) y la Radio | 6 | Ninguna |
 | **La barcaza** | `BARCAZA_MOTOR`, `BARCAZA_TIMON`, `BARCAZA_COMBUSTIBLE` ([e254](#e254)) | 30 | `[Mecánica]`; con 6−, la mitad no llega a subir (+Procesión en el Puerto) |
 | **El ferry** | `EL_FERRY` ([e255](#e255)) | Todos | `[Labia]`; con 6−, avalancha: 1d6 personas caen al agua |
 | **La autobomba** | `LA_AUTOBOMBA` ([e481](#e481)) y `LA_ESCOLLERA` | 6 | `[Mecánica]`; con 6−, se queda en el agua: `[Físico]` cada uno |

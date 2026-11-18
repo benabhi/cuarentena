@@ -86,7 +86,7 @@ Una vuelta al mundo y un tren fantasma con sus monstruos de cartón. Y algunos d
 ### e390 · El atardecer
 *La Costanera · ◷ 0*
 
-Por un momento el río se pone dorado y, si no mirás para atrás, no pasó nada. Si te quedás (◷ 1), +2 Ánimo, también para quien venga con vos.
+Por un momento el río se pone dorado y, si no mirás para atrás, no pasó nada. Si te quedás (◷ 1), +2 Ánimo.
 
 ---
 

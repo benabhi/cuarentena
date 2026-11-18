@@ -42,7 +42,7 @@ Cuarenta cajas y una oscuridad que huele a fruta podrida y a lavandina.
 Tres pisos de locales. En la cúpula de vidrio, siluetas oscuras miran hacia abajo.
 
 - **Revisar** (r161). El primer 6 que sacás es el local de deportes: bate de aluminio (Daño 2, Cerca, Usos 6), arco con 6 saetas, una carpa (4 Tela) y una bicicleta (r152).
-- **El patio de comidas:** si no tenés `LA_PLANCHA`, llevate una: la Cocina a leña da +1 Moral más, una vez. Anotá `LA_PLANCHA`.
+- **El patio de comidas:** si no tenés `LA_PLANCHA`, llevate una: la primera noche de Cocina con ella, +1 Moral más. Anotá `LA_PLANCHA`. Detrás del mostrador, una Olla a presión.
 - **La cúpula:** Acechadores desde la Etapa II; Callados trabados en el vidrio en la I. Si revisás a fondo dos veces seguidas, cede: **Acechadores ×1d3 · Cerca** (o **Callados ×1d6**).
 
 ---
@@ -99,8 +99,8 @@ Un carrito cargado de latas, solo en el estacionamiento. Demasiado fácil.
 
 Treinta personas frente a la persiana de un súper chino. «¡Cinco por vez!».
 
-1. **Hacer la cola.** ◷ 2. Hasta 3 cambios (r166): Víveres, pilas, Sujeción, Tela, por Fármacos, Munición o Combustible.
-2. **Colarte.** `[Labia]` o `[Sigilo]`. Con 7+, los 3 cambios sin esperar; con 7–9, además te gritan: −1 Ánimo. Con 6−, la cola se te viene encima: 1 Herida y afuera.
+1. **Hacer la cola.** ◷ 2. Hasta 3 cambios (r166): Víveres, Pilas, Sujeción, Tela, por Fármacos, Munición o Combustible.
+2. **Colarte.** `[Labia]` o `[Sigilo]`. Con 10+, los 3 cambios sin esperar. Con 7–9, también, pero te gritan: −1 Ánimo. Con 6−, la cola se te viene encima: 1 Herida y afuera.
 3. **Irte.**
 
 ---

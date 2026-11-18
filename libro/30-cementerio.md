@@ -38,7 +38,7 @@ Algunas bóvedas están forzadas: alguien se escondió adentro y no salió. Los 
 ### e402 · El vivero municipal
 *Cementerio y Parque · Almacén · stock ▢▢▢*
 
-- **Revisar** (r161) con esta tabla: 1–2 nada; 3–4 plantines (1 Víver y +1 a la Huerta esa noche); 5 semillas para la Huerta ([e752](#e752)); 6 una pala (Daño 1, Cerca, Usos 6) o un hacha (Daño 2, Usos 6, 2 manos).
+- **Revisar** (r161) con esta tabla: 1–2 nada; 3–4 plantines (1 Víver y +1 a la Huerta esa noche); 5 semillas para la Huerta ([e752](#e752)); 6 una pala (Daño 1, Cerca, Usos 6) o un hacha (Daño 2, Cerca, Usos 6, 2 manos).
 - **El depósito de semillas** (◷ 1, una vez): la Huerta produce +1 siempre. Anotá `SEMILLAS_DEL_VIVERO`.
 
 ---
@@ -118,5 +118,5 @@ Un rugido de animal grande. Algo salió del zoológico. 1d6:
 Un oso flaco junto a tres Callados despedazados. Te mira.
 
 1. **Darle de comer** (2 Víveres). Si lo hacés tres visitas, anotá `EL_OSO`: cuida el zoológico, y revisarlo ya no tiene encuentros.
-2. **Abrir la reja.** Se va al parque. +1 Ánimo y anotá `EL_OSO_LIBRE`: cada 12 en la tabla del barrio, aparece y se come a los Callados que haya.
+2. **Abrir la reja.** Se va al parque. +1 Ánimo y anotá `EL_OSO_LIBRE`: cada 12 en la tabla del barrio es él, no [e413](#e413): se come a los Callados que haya.
 3. **Dejarlo.**

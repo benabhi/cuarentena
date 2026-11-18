@@ -747,8 +747,8 @@ def contratapa():
     y cada ventana. Una baraja española marca los días. Cuando salga la última carta, llega la <b>Marea</b>.</p>
     <div class="ct-datos">{fila}</div>
     <p class="ct-pie">Un juego de rol en solitario · Necesitás una baraja española, tres dados de seis caras, un lápiz y este libro</p>
+    <img class="ct-sello" src="arte/marca/utopia-logo-claro.png" alt="UtopIA"/>
   </div>
-  <img class="ct-sello" src="arte/marca/utopia-logo-claro.png" alt="UtopIA"/>
 </section>'''
 
 
@@ -1131,7 +1131,8 @@ class Recordatorios:
         for _ in range(len(X.PANELES)):
             ico, tit, filas, pie = X.PANELES[self.i_panel % len(X.PANELES)]
             self.i_panel += 1
-            necesita = 9 + 4.6 * len(filas) + 4.6 * (len(pie) // 48 + 1) + 4
+            # medido en el PDF: marco y cabecera 16 mm, 5,2 por fila, 3,6 por línea de pie (columna ~55 letras)
+            necesita = 16.1 + 5.2 * len(filas) + 3.7 * sum(len(y) > 32 for _, y in filas) + 3.6 * (len(pie) // 55 + 1)
             if necesita <= alto:
                 f = ''.join(f'<tr><th>{esc(a)}</th><td>{esc(b)}</td></tr>' for a, b in filas)
                 return (f'<aside class="panel"><div class="ar-cab">{icono(ico)}<span>{esc(tit)}</span></div>'
@@ -1167,7 +1168,8 @@ class Recordatorios:
             for _ in range(len(X.TIRAS)):
                 ico, tit, filas = X.TIRAS[self.i_tira % len(X.TIRAS)]
                 self.i_tira += 1
-                if 8.5 + 4.6 * len(filas) <= alto:
+                # medido en el PDF: marco, cabecera y sangría de arriba 13,6 mm; 5,2 por fila (3,7 más si se parte)
+                if 13.6 + 5.2 * len(filas) + 3.7 * sum(len(y) > 32 for _, y in filas) <= alto:
                     f = ''.join(f'<tr><th>{esc(a)}</th><td>{pulir(render(b))[3:-5]}</td></tr>' for a, b in filas)
                     cuerpo = (f'<aside class="panel tira"><div class="ar-cab">{icono(ico)}<span>{esc(tit)}</span></div>'
                               f'<table>{f}</table></aside>')

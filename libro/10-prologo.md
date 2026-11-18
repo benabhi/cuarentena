@@ -102,7 +102,7 @@ Andá a **[e840](#e840)** para saber a quién esperabas y dónde estaba. Despué
 
 Afuera alguien grita y deja de gritar. Es tu primera **prueba** (r120).
 
-1. **Salir a buscarlo.** `[Calle]`. Con 10+, en la esquina de la avenida hay algo suyo, mojado: **1 señal** (e840) y +1 Esperanza. Con 7–9, nada, y en la vuelta algo te sigue: 1 Herida. Con 6−, te perdés en tu propio barrio: **práctica** en Calle (r124). → **[e008](#e008)**.
+1. **Salir a buscarlo.** `[Calle]`. Con 10+, en la esquina de la avenida hay algo suyo, mojado: **1 señal** (e840). Con 7–9, nada, y en la vuelta algo te sigue: 1 Herida. Con 6−, te perdés en tu propio barrio: **práctica** en Calle (r124). → **[e008](#e008)**.
 2. **Esperar junto a la puerta.** `[Físico]`. Con 10+, despierto toda la noche: +1 Ánimo. Con 7–9, te despierta un golpe en la puerta. Con 6−, despertás en el piso con la puerta entreabierta. → **[e008](#e008)**.
 3. **Llamar, llamar, llamar.** Por un segundo alguien contesta: lo vio en la avenida. −1 Ánimo, el celular ya no sirve de linterna, pero **1 señal** (e840). → **[e008](#e008)**.
 
@@ -133,7 +133,7 @@ El primero siempre es alguien. Elegí, o tirá 1d6:
 | 1d6 | Quién es | Escena | Si ganás o escapás, te queda… |
 |---|---|---|---|
 | 1 | Tu vecina del tercero, en camisón, en la **escalera** | Escalera (r332), vos arriba | Sus llaves: la primera Vivienda que revises en tu barrio tiene 1 casilla de stock más |
-| 2 | Un paciente con el suero, en un **pasillo** de guardia | Pasillo (r331) | 1 Fármaco del carro de curaciones |
+| 2 | Un paciente con el suero, en un **pasillo** de guardia | Pasillo (r331) | 1 Fármacos del carro de curaciones |
 | 3 | Un repositor del súper, entre las **góndolas** | Supermercado (r334) | 2 Víveres caídos de un estante |
 | 4 | Un hombre de traje, con el portafolio, en la **terraza** | Azotea (r335) | Su celular: una Linterna con Usos 3 |
 | 5 | El chofer del colectivo, con el boleto en la mano | Pasillo (r331) | El matafuegos: un Señuelo (r156) de un uso |
@@ -144,7 +144,7 @@ Es un **combate** (r140).
 > **Callados ×2 · Cerca** · escena: la de tu fila (r330)
 
 - Importan **Cerca** y **Encima** (r141): al final de cada ronda, avanzan un paso.
-- En tu ronda **atacás** (r143) `[Pelea]` con lo que haya a mano: un matafuegos, un palo de escoba. Por ahora es **Daño 1** y no se rompe. Con 10+ matás tantos como el Daño; con 7–9, la mitad hacia arriba; con 6−, ninguno.
+- En tu ronda **atacás** (r143) `[Pelea]` con lo que haya a mano: un matafuegos, un palo de escoba. Por ahora es **Daño 1** y no se rompe. Con 10+ matás tantos como el Daño; con 7–9, la mitad del Daño, hacia arriba; con 6−, ninguno.
 - Los que están **Encima muerden** (r144): 1d6 por cada uno. 1–3 nada; 4–5, 1 Herida; 6, los dientes: 1 Herida y otro dado.
 - También podés **retroceder** o **esconderte** (r142). Leé la regla de tu escena (r331–r335) antes de empezar.
 
@@ -159,7 +159,7 @@ Te muerdan o no, leé la regla de la **Fiebre** (r191).
 ### e009 · La Señora
 *Tolme · ◷ 0*
 
-Cortan los teléfonos y después internet. El miércoles, en una radio a pilas, una voz de locutora vieja:
+Cortan los teléfonos y después internet. El jueves, en una radio a pilas, una voz de locutora vieja:
 
 > *«Por disposición del Comando de Emergencia, la ciudad de Tolme permanece en cuarentena por un período de cuarenta días. Permanezcan en sus hogares. Racionen el agua. No intenten cruzar el perímetro. La ayuda llegará.»*
 
@@ -263,7 +263,7 @@ La primera de cuarenta (r134):
 
 Al amanecer subís a lo más alto: humo en tres barrios y, al norte, el **muro**.
 
-Tirá los tres barrios del humo en r155 (si se repite uno, o sale el de tu refugio, tirá otra vez) y marcalos con una llama. Allí cada lugar tiene **1 casilla de stock menos**, pero la primera vez que llegás no tirás encuentro: el fuego espantó a los Callados.
+Tirá los tres barrios del humo en r155 (si se repite uno, o sale el de tu refugio, tirá otra vez) y marcalos con una nube: no están «en llamas» (r159). Allí cada lugar tiene **1 casilla de stock menos**, pero la primera vez que llegás no tirás encuentro: el fuego espantó a los Callados.
 
 Del otro lado, el campo está negro de gente. Millones, quietos, de cara a la ciudad.
 
@@ -273,9 +273,9 @@ Esa es la **Marea**. Llega en la **Noche 40** (r220). Abajo, en una radio, la Se
 
 **Empieza la cuarentena.**
 
-1. Mezclá la baraja (r108) y leé r130–r135.
+1. Con la baraja ya mezclada (r108), leé r130–r135.
 2. Mirá dónde quedaron las **Procesiones** y los **Seis Tesoros** (r110).
 3. **Tu historia empieza hoy** (r198): si tu Motivo es La lista, La obra, La orden o El pedido, leé [e800](#e800), [e810](#e810), [e820](#e820) o [e830](#e830).
-4. **Robá la primera carta.** Es el día 1.
+4. **Robá la primera carta.** Es el día 1 de la cuarentena.
 
 Desde acá, si no sabés adónde ir, volvé al mapa.

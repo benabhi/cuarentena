@@ -12,9 +12,9 @@
 
 Un camión blanco del Comando, «AYUDA HUMANITARIA», volcado con el acoplado abierto. Semanas a la vista y nadie lo tocó. ¿Por qué? 1d6:
 
-- **1–2 · Está vigilada.** **Callados ×3d6 · Lejos**, quietos alrededor: los que intentaron antes.
+- **1–2 · Está vigilado.** **Callados ×3d6 · Lejos**, quietos alrededor: los que intentaron antes.
 - **3–4 · Es de alguien.** Seis vivos armados acampan en el acoplado: r300, Hablar con −1. Con Reputación −1 o menos con los Lobos, son los Lobos ([e680](#e680)).
-- **5–6 · Está trampeada** → [e502](#e502).
+- **5–6 · Está trampeado** → [e502](#e502).
 
 Cuando es tuyo → [e501](#e501).
 
@@ -31,7 +31,7 @@ Es un **lugar** de tu mapa: anotá `EL_CAMION` con stock **▢▢▢▢▢▢**.
 - **Las raciones:** 6 raciones militares (2 Víveres en 1 casillero; no se pudren).
 - **La guantera** → [e503](#e503).
 
-Cada alba, mientras quede stock, con 1 en 1d6 (1–2 con Reputación −2 con los Lobos) alguien se lleva una casilla.
+Cada alba, mientras quede stock, con 1 en 1d6 (1–2 con Reputación −2 o menos con los Lobos) alguien se lleva una casilla.
 
 ---
 
@@ -41,7 +41,7 @@ Cada alba, mientras quede stock, con 1 en 1d6 (1–2 con Reputación −2 con lo
 
 Tres cuerpos no convertidos y un hilo de pescar entre la puerta y un caño: escopetas apuntando a la entrada.
 
-1. **Desarmarla,** `[Mecánica]` u `[Oficio]`. Con 10+, te quedás con 2 escopetas ([e701](#e701)) sin munición. Con 7–9, se dispara una al aire: +2 Ruido. Con 6−, te apunta a vos: 2 Heridas, +2 Ruido.
+1. **Desarmarla,** `[Mecánica]` u `[Oficio]`. Con 10+, te quedás con 2 escopetas ([e701](#e701)) sin munición. Con 7–9, la desarmás, pero antes se dispara una al aire: +2 Ruido. Con 6−, te apunta a vos: 2 Heridas, +2 Ruido.
 2. **Entrar por el techo,** `[Físico]`, ◷ 1. Con 6−, caés adentro: 1 Herida.
 3. **Esperar al dueño** (◷ 2): un hombre flaco con un fusil. Es el **Ruso** ([e636](#e636)) si no lo conocés. r300; si lo convencés, te ayuda a cargar.
 
@@ -55,7 +55,7 @@ Después → [e501](#e501).
 
 El remito, del **día 2**. Destino: «Perímetro Norte · Personal del cordón. Uso exclusivo».
 
-Una pista ([e560](#e560)). Quien venga del Destacamento o tenga `BUSCADO`: −1 Ánimo.
+Una pista ([e560](#e560)). Si tu Motivo es La orden o tenés `BUSCADO`: −1 Ánimo.
 
 ---
 
@@ -78,7 +78,7 @@ Para llevártelo → [e511](#e511).
 *El generador industrial · ◷ 0*
 
 1. **Remolcarlo** con cualquier vehículo: ◷ 2, sin encuentro, +4 Ruido y +2 Rastro al llegar.
-2. **Empujarlo,** cuatro personas de noche (r158), ◷ 6. Tirá encuentro dos veces. Al llegar, +2 Rastro.
+2. **Empujarlo,** entre cuatro personas, ◷ 6. Tirá encuentro dos veces. Al llegar, +2 Rastro.
 3. **Desarmarlo,** `[Mecánica]`, ◷ 3: 6 Electrónica, 4 Metal y 4 Combustible (la mitad con 6−). Vale +2 Moral, pero ya no es el Tesoro.
 4. **Dejarlo:** este lugar cuenta como Generador para cualquier receta, si traés los materiales.
 
@@ -90,7 +90,7 @@ Si llega entero, anotá `EL_GENERADOR_INDUSTRIAL`: es un **Generador** ([e760](#
 ### e512 · El cerco eléctrico
 *Tu refugio · ◷ 0*
 
-> **Cerco eléctrico** · 4 Metal, 3 Sujeción, 2 Electrónica · `EL_GENERADOR_INDUSTRIAL` · Llave inglesa · ◷ 4 · `[Mecánica]` · Con 10+, rodea un frente (no el Techo). Con 7–9, igual, con 1 Herida al probarlo. Con 6−, el generador no anda mañana.
+> **Cerco eléctrico** · 4 Metal, 3 Sujeción, 2 Electrónica · `EL_GENERADOR_INDUSTRIAL` (con *Cables*, r102, tu Generador) · Llave inglesa · ◷ 4 · `[Mecánica]` · Con 10+, rodea un frente (no el Techo). Con 7–9, igual, con 1 Herida al probarlo. Con 6−, el generador no anda mañana.
 
 Anotá `CERCO_ELECTRICO` y el frente. Cada sondeo ahí hace 2 de daño menos. En la Noche 40, con el generador encendido (1 Combustible por oleada), el frente tiene **+3** por oleada, pero la primera oleada que lo golpea tiene +2 de Fuerza: el zumbido atrae. Se puede repetir para otro frente.
 
@@ -211,7 +211,7 @@ Con batería o Generador, anotá `LA_RADIO_DEL_AFICIONADO`: es la **Radio** ([e7
 
 | 1d6 | Qué escuchás |
 |---|---|
-| 1 | Estática en todas las bandas. −1 Ánimo para quien escucha. |
+| 1 | Estática en todas las bandas. −1 Ánimo. |
 | 2 | Un barco pide paso por el río. «Negativo. Zona de exclusión». |
 | 3 | Otra ciudad, a ochocientos kilómetros. También tienen un muro. +1 Ánimo. |
 | 4 | Un handy de Tolme: en un barrio al azar hay vivos (r180); la próxima vez que vayas, con 4–6 vienen con vos. |
@@ -257,7 +257,7 @@ Ocho ruedas, una torreta, la escotilla abierta y las llaves puestas; no arranca.
 ### e551 · Hacerlo andar
 *El blindado · ◷ 0*
 
-> **Reparar el blindado** · 6 Combustible, una batería (o el Generador), 2 Metal, 1 Sujeción · Llave inglesa · ◷ 4 · `[Mecánica]` (Desventaja sin Mecánica 2 ni el *Manual del automotor*, [e773](#e773)) · Con 10+, arranca. Con 7–9, arranca y tose: 1 Combustible más por viaje. Con 6−, otra vez otro día; solo se pierde el Combustible.
+> **Reparar el blindado** · 6 Combustible, una batería (o el Generador), 2 Metal, 1 Sujeción · Llave inglesa · ◷ 4 · `[Mecánica]` (Desventaja sin Mecánica 2 ni el *Manual de mecánica del automotor*, [e773](#e773)) · Con 10+, arranca. Con 7–9, arranca y tose: 1 Combustible más por viaje. Con 6−, otra vez otro día; solo se pierde el Combustible.
 
 Cuando arranca, anotá `EL_BLINDADO` → [e552](#e552).
 
@@ -273,4 +273,4 @@ Con `EL_BLINDADO`:
 - **Atropellar** una Procesión en la Calle: se dispersa (r156) y se rearma en un barrio al azar. +2 Rastro si es el barrio del refugio.
 - **En la Noche 40,** elegí: contra la Puerta o las Ventanas, ese frente tiene **+3** en todas las oleadas; o, una vez, cargás contra una oleada antes de que llegue: pierde 2d6 de Fuerza, y el blindado queda volcado.
 - **En Éxodo,** es una salida para 8 → [e960](#e960), por donde no hay muro.
-- **Con `LA_AMETRALLADORA`** en la torreta (`[Mecánica]`, ◷ 2): al lado del blindado, la ametralladora tiene +1 y no gasta Munición la primera ronda.
+- **Con `LA_AMETRALLADORA`** en la torreta (`[Mecánica]`, ◷ 2): al lado del blindado, la ametralladora tiene +1 a la prueba y no gasta Munición la primera ronda.

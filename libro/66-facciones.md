@@ -144,7 +144,7 @@ Cada cosa, ◷ 1: **cambiar** (r166) Munición, Combustible, Víveres, Fármacos
 Una camioneta negra. «Este barrio está bajo el cuidado de Rolo. Cuatro Víveres por semana».
 
 1. **Pagar** 4 de lo que sea. Anotá `LE_PAGAS_A_LOS_LOBOS`: +1 Reputación (−1 con la Parroquia si se entera, 1–3 en 1d6). Vuelven a cobrar cada semana (r003); si no pagás, [e682](#e682).
-2. **Negociar,** `[Labia]`. Con 10+, 2 Víveres y sin Marca. Con 7–9, pagás 4 y te regalan 6 Munición. Con 6−, como la 3.
+2. **Negociar,** `[Labia]`. Con 10+, pagás 2 Víveres, una sola vez, y no anotás la Marca. Con 7–9, pagás 4 y te regalan 6 Munición. Con 6−, como la 3.
 3. **No pagar.** «Linda casa». −1 Reputación y anotá `AVISO_DE_LOS_LOBOS`.
 4. **A tiros:** **Lobos ×3 · Aguante 2 · Lejos**, armas de fuego. +3 Rastro, −3 Reputación. Si ganás, la camioneta (e712; para arrancarla la primera vez, `[Mecánica]` 7+).
 
@@ -176,7 +176,7 @@ Rolo se saca los anteojos. 1d6: **1–2, los remedios de la Catedral:** `[Sigilo
 
 Con `CONOCES_EL_BARRIO_CERRADO` sabés dónde duele. Cada cosa, una vez; si te ven (1–2 en 1d6), −2 Reputación.
 
-1. **Los tambores:** de noche (r158), por el muro del fondo (`[Físico]`), una Molotov. +4 Ruido; sus camionetas no salen una semana.
+1. **Los tambores:** de noche (r158), por el muro del fondo (`[Físico]`), un Molotov. +4 Ruido; sus camionetas no salen una semana.
 2. **Las cocineras** → [e685](#e685).
 3. **La garita,** con fusil desde el club de golf ([e303](#e303)): `[Puntería]` con Desventaja. Con 7+, cae el guardia; esa noche, en Las Lomas, encuentros con +2.
 
@@ -196,7 +196,7 @@ Siete mujeres que duermen en un sótano trabado por fuera. Con `CONOCES_EL_BARRI
 ### e686 · El depósito de los Lobos
 *Las Lomas · El barrio cerrado · ◷ 0*
 
-Una vez, si ya no hay Lobos o si Rolo te deja: **tres tiradas** (una por [e683](#e683)). 1d6: **1,** 8 Víveres. **2,** 6 Combustible. **3,** 4 Fármacos y 2 Antivirales. **4,** una escopeta ([e701](#e701)), un revólver y 12 Munición. **5,** una moto (e712). **6,** la libreta de Rolo: «Pagos del Comando: día −10, −5, 0». Una pista ([e560](#e560)).
+Una vez, si ya no hay Lobos o si Rolo te deja: **tres tiradas** (una sola si te manda [e683](#e683)). 1d6: **1,** 8 Víveres. **2,** 6 Combustible. **3,** 4 Fármacos y 2 Antivirales. **4,** una escopeta ([e701](#e701)), un revólver y 12 Munición. **5,** una moto (e712). **6,** la libreta de Rolo: «Pagos del Comando: día −10, −5, 0». Una pista ([e560](#e560)).
 
 ---
 
@@ -272,6 +272,6 @@ Un día en el muro (◷ 6), vos y hasta dos más, cada uno `[Oficio]` o `[Físic
 
 Diez soldados rodean la manzana. «Inmueble requisado».
 
-1. **Salir.** Una noche en un contenedor; se llevan armas, Munición, Combustible y Antivirales. −2 Reputación.
+1. **Salir.** Una noche en un contenedor; se llevan armas, Munición, Combustible y Antivirales. Cobrado: tu Reputación con ellos vuelve a −2.
 2. **Resistir:** **Soldados ×6 · Aguante 3 · Lejos**, con fusiles (r147); por tus paredes, sus disparos te pegan solo con 6. +4 Rastro. Si perdés, como la 1, y alguien muere: −2 Moral.
 3. **Escapar** por el Subsuelo o las Azoteas, con lo que entre en las mochilas (r176).

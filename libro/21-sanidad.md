@@ -133,7 +133,7 @@ En la plaza, una carpa sanitaria del Comando abandonada como en una huida.
 En las sillas de plástico de la guardia, gente que espera turno desde hace semanas. Ninguno respira: **Callados ×3d6**, quietos mientras nadie haga ruido.
 
 - **Pasar de largo** `[Sigilo]`. Con 6−, uno se levanta, y se levantan todos: **Callados ×3d6 · Lejos**.
-- **Por las Azoteas:** no tirás.
+- **Rodear por las Azoteas** (Soga o Tablones, r151), ◷ 1: no tirás.
 
 ---
 

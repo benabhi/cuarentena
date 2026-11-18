@@ -132,7 +132,7 @@ Un hombre mayor toca un tango en el acordeón, y un círculo de Callados quietos
 
 En un balcón, una sábana: SOMOS 3. NO TENEMOS AGUA. Enfrente, una mujer se lleva un dedo a los labios.
 
-1. **Subir.** ◷ 1. Un abuelo y dos nietos. 1 Víver, o les decís dónde hay agua. Si les das refugio, son un sobreviviente (un puesto, 2 Víveres por día): anotá `LOS_DEL_BALCON`, +1 Moral.
+1. **Subir.** ◷ 1. Un abuelo y dos nietos. Les dejás 1 Víver, o les decís dónde hay agua. Si les das refugio, son un sobreviviente (un puesto, 2 Víveres por día): anotá `LOS_DEL_BALCON`, +1 Moral.
 2. **Señas con la mujer.** Te señala el bar: en Etapa II o más, una Chillona escondida que gracias a ella evitás.
 3. **Seguir.**
 
@@ -157,7 +157,7 @@ Cruzada en la plaza, con las luces girando con la última batería.
 La plaza está llena de zapatos: por donde pasa una Procesión quedan los zapatos. Junto a la fuente seca, una Procesión **dormida**, de pie. Si no había ficha en el Casco, ponela.
 
 1. **Cruzar entre ellos.** `[Sigilo]`. Con 7–9, uno te sigue (**Callados ×1 · Cerca**). Con 6−, → [e100](#e100).
-2. **Rodear por las Azoteas.** ◷ 2.
+2. **Rodear por las Azoteas** (Soga o Tablones, r151). ◷ 2.
 3. **Volver.** ◷ 1.
 
 ---

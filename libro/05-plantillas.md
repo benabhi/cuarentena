@@ -7,9 +7,9 @@ Cuando un evento dice **«Vivos: usá r300»**, te cruzaste con gente que no con
 
 | 1d6 | Hablar | Esquivar | Pelear | Observar |
 |---|---|---|---|---|
-| 1 | [r310](#r310) | [r306](#r306) | [r305](#r305) | [r309](#r309) |
+| 1 | [r310](#r310) | [r306](#r306) | [r310](#r310) | [r309](#r309) |
 | 2 | [r301](#r301) | [r307](#r307) | [r306](#r306) | [r304](#r304) |
-| 3 | [r301](#r301) | [r308](#r308) | [r305](#r305) | [r308](#r308) |
+| 3 | [r301](#r301) | [r308](#r308) | [r312](#r312) | [r308](#r308) |
 | 4 | [r302](#r302) | [r307](#r307) | [r311](#r311) | [r303](#r303) |
 | 5 | [r303](#r303) | [r309](#r309) | [r312](#r312) | [r302](#r302) |
 | 6 | [r304](#r304) | [r303](#r303) | [r312](#r312) | [r313](#r313) |
@@ -24,16 +24,16 @@ Cambian como en r166, hasta 3 cosas. Si les das algo de comer sin pedir nada, an
 <a id="r302"></a>
 ### r302 · Necesitan ayuda
 
-Uno está herido o mordido.
+Uno está herido; con 1–3 en 1d6, también mordido, y no lo saben.
 
-- **Dar 1 Fármacos o curarlo** `[Medicina]`: con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa.
-- **Decirles que está mordido** (si lo está: 1–3 en 1d6): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
+- **Curarlo** (1 Fármacos y `[Medicina]`): con 7+, se salva; te dan 1 material al azar (r165) y +1 Reputación si son de una facción. Si tu Motivo es La lista, +1 Juramento; si es Lo que hiciste, −1 Culpa. Con 6−, perdés el Fármaco.
+- **Decirles que está mordido** (si lo está): `[Labia]`. Con 10+, lo aceptan y se encargan ellos. Con 7–9, lo aceptan, pero te echan. Con 6−, se ponen violentos → [r305](#r305).
 - **Irte.** Nada.
 
 <a id="r303"></a>
 ### r303 · Rumores
 
-1d6: con 1–3, dónde está un Tesoro que no encontraste; con 4–5, una Procesión que no estaba en el mapa (r155); con 6, algo raro de la cuarentena: una pista ([e560](#e560)).
+1d6: con 1–3, un atajo: tu próximo viaje a un barrio vecino no tira encuentro; con 4–5, una Procesión que no estaba en el mapa (r155); con 6, algo raro de la cuarentena: una pista ([e560](#e560)).
 
 <a id="r304"></a>
 ### r304 · Quieren venir con vos
@@ -65,7 +65,7 @@ Te siguen de lejos. Hasta que vuelvas al refugio, cada vez que llegues a un barr
 <a id="r309"></a>
 ### r309 · No son lo que parecen
 
-Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos (**Fresco ×1 · Encima**, y los demás huyen); con 4–5, son Callados vestidos con ropa de vivos, sentados en un auto (**Callados ×1d6 · Cerca**); con 6, son chicos jugando a la guerra: te tiran piedras y se van. −1 Ánimo.
+Tirá 1d6: con 1–3, uno de ellos está mordido y se convierte delante de todos (**Fresco ×1 · Encima**, y los demás huyen); con 4–5, son Callados vestidos con ropa de vivos, sentados en un auto (**Callados ×1d6 · Cerca**); con 6, son chicos jugando a la guerra: te tiran piedras y se van. En todos los casos, −1 Ánimo.
 
 <a id="r310"></a>
 ### r310 · Te apuntan
@@ -107,12 +107,12 @@ Cuando un evento dice **«escena: Pasillo»** (u otra), el lugar cambia cómo fu
 <a id="r331"></a>
 ### r331 · Pasillo
 
-Estrecho. Solo puede estar **un** Callado Encima a la vez. Las armas de 2 manos tienen Desventaja. Si cerrás una puerta detrás de vos (Usar algo), los Callados tardan 1d6 rondas en romperla, o nunca si no hay un Bruto.
+Estrecho. Solo puede estar **un** Callado Encima a la vez. Las armas de 2 manos tienen Desventaja. Si cerrás una puerta detrás de vos (Usar algo), salís del combate: los Callados no la rompen. Un Bruto sí, en 1d6 rondas.
 
 <a id="r332"></a>
 ### r332 · Escalera
 
-Si estás arriba, los Callados tardan **dos rondas** en pasar de Cerca a Encima. Si estás abajo, la primera ronda caen encima tuyo: empiezan Encima. Las Mordidas en escalera, si vos estás arriba, tienen −1.
+Si estás arriba, los Callados tardan **dos rondas** en pasar de Cerca a Encima. Si estás abajo, se te caen encima: su primer avance los deja Encima, estén donde estén. Las Mordidas en escalera, si vos estás arriba, tienen −1.
 
 <a id="r333"></a>
 ### r333 · Estacionamiento

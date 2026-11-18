@@ -462,7 +462,7 @@ class Partida:
             self.moral, self.rastro = 6, self.rastro + 1
         self.inst = set()
         if self.ref_id == 'e480':
-            self.inst |= {'Cisterna', 'Vigía'}
+            self.inst |= set(self.aj['cuartel'])
         if self.ref_id == 'e460':                       # patrulleros, revólver y el Negro
             self.herr.add('Botiquín')
             self.arma('un revólver')
@@ -475,6 +475,7 @@ class Partida:
         self.muebles = set()
         self.semillas = False
         self.mudo = False
+        self.cerco = None
         self.tesoro = {t: r.choice(lugs) for t, lugs in TESOROS.items()}
         self.tesoros = set()
         self.procs = Counter()
@@ -654,6 +655,7 @@ class Partida:
         llegaron3 = self.ruido >= 3
         self.stats['combates'] += 1
         for ronda in range(14):
+            quietos = False
             enemigos = [e for e in enemigos if e[0] > 0]
             if not enemigos:
                 return True
@@ -674,6 +676,29 @@ class Partida:
                     return True
                 for e in enemigos:
                     e[2] = min(2, e[2] + self.aj['esc_fallo'])
+            elif not refugio and self.aj['retroceder'] and (apurado or amenaza > capacidad + 1) and \
+                    not any(x[4].startswith(('Sabueso', 'Acechador')) for x in enemigos):
+                # r142: Retroceder. Con 7+, todos un paso atrás y esa ronda no avanzan.
+                lejos_todos = all(e[2] == 0 for e in enemigos)
+                fis = self.hab['Físico']
+                if 'La espalda' in self.deb:
+                    fis = min(fis, 1)
+                t = self.r.randint(1, 6) + self.r.randint(1, 6)
+                if 'Pulmones' in self.manas:
+                    t = max(t, self.r.randint(1, 6) + self.r.randint(1, 6))
+                t += fis
+                if t >= 7:
+                    if lejos_todos:
+                        return True
+                    for e in enemigos:
+                        e[2] = max(0, e[2] - 1)
+                    quietos = True
+                    if t <= 9:
+                        llevo = [m for m in self.mats if self.mats[m] > 0]
+                        if llevo:
+                            self.mats[self.r.choice(llevo)] -= 1
+                        else:
+                            self.herida(1, 'combate')
             else:
                 dmin = max(e[2] for e in enemigos)
                 arma = self.mejor_arma(dmin == 0) or (self.mejor_arma(False) if dmin > 0 else None)
@@ -713,7 +738,7 @@ class Partida:
                     self.ruido = 3
                     return self.procesion(compas=compas)
             for e in enemigos:
-                if e[0] <= 0:
+                if e[0] <= 0 or quietos:
                     continue
                 if e[3] == 3 and 'Pulmones' not in self.manas:
                     e[2] = 2
@@ -870,7 +895,10 @@ class Partida:
 
     def aplicar_rama(self, txt, prof, contexto, seguir=True):
         e, combates, goto, arma = efectos(txt)
-        self.ruido += e['ruido']
+        if contexto == 'refugio':
+            self.ruido += e['ruido']
+        else:
+            self.ruido_mas(e['ruido'])
         self.rastro = max(0, min(10, self.rastro + e['rastro']))
         self.stats['rastro_eventos'] += e['rastro']
         self.moral = max(0, min(10, self.moral + e['moral']))
@@ -1015,11 +1043,14 @@ class Partida:
         L = self.lugares[pid]
         tiradas = 3 if fondo else 1
         if fondo:
-            self.ruido += 1
+            self.ruido_mas(1)
         if self.prueba('Calle', gratis=True) >= 10:
             tiradas += 1
         if L['stock'] <= 0:
-            for _ in range(2 if fondo else 1):
+            if L.get('vacio') == self.dia:                 # r161: una sorpresa por lugar y por día
+                return
+            L['vacio'] = self.dia
+            for _ in range(1):
                 x = d6(self.r)
                 if x == 3:
                     if not self.combate([[1, 1, 2, 1, 'Callados']], self.compas):
@@ -1033,9 +1064,10 @@ class Partida:
             return
         L['stock'] = max(0, L['stock'] - (2 if fondo else 1))
         if self.aj['desarmar_afuera'] and L['tipo'] in ('vivienda', 'oficina', 'comercio') and \
-                self.mats['Madera'] < 8:
+                self.mats['Madera'] < 8 and not L.get('desarmado'):
+            L['desarmado'] = True
             self.mats['Madera'] += 2 * (1 + len(self.compas)) if self.aj['desarmar_afuera'] == 'grupo' else 2  # muebles desarmados ahí (r165)
-            self.ruido += 1
+            self.ruido_mas(1)
         if L['barrio'] in ('Mercado', 'Bloques', 'Cementerio') and L['tipo'] in ('comercio', 'almacen', 'vivienda') \
                 and d6(self.r) <= 2:
             self.semillas = True          # verdulería, balcones, vivero (e752)
@@ -1055,7 +1087,7 @@ class Partida:
             if self.prueba('Mecánica') >= 7 or self.prueba('Oficio') >= 7:
                 self.tesoros.add(t); self.viv += 12
         elif t == 'generador':
-            if self.prueba('Mecánica') >= 7:
+            if self.prueba('Mecánica', bonus=1 if 'Puente' in self.manas else 0) >= 7:
                 self.tesoros.add(t); self.inst.add('Generador'); self.rastro = min(10, self.rastro + 2)
         elif t == 'armeria':
             if self.combate([[d6(R) + 2, 1, 1, 1, 'Callados']], self.compas):
@@ -1067,7 +1099,7 @@ class Partida:
         elif t == 'radio':
             self.tesoros.add(t); self.pista()
         elif t == 'blindado':
-            if self.prueba('Mecánica') >= 7:
+            if self.prueba('Mecánica', bonus=1 if 'Puente' in self.manas else 0) >= 7:
                 self.tesoros.add(t)
         if t in self.tesoros:
             self.moral = min(10, self.moral + 2)
@@ -1406,10 +1438,22 @@ class Partida:
         self.compas = []
         return max(0, horas)
 
+    def ruido_mas(self, n):
+        # r145/r154: fuera de un combate, el 3 solo empeora los encuentros (r153); el 6 trae la Procesión
+        antes = self.ruido
+        self.ruido += n
+        if antes < 3 <= self.ruido and self.aj.get('ruido3_fuera', False):   # variante medida: 59 %
+            k = (d6(self.r) + 1) // 2 if self.aj['spawn3'] else d6(self.r)
+            if not self.combate([[k, 1, 0, 1, 'Callados']], self.compas):
+                self.herida(1, 'combate')
+        if self.ruido >= 6:
+            self.ruido = 3
+            self.procesion(compas=self.compas)
+
     def llegar(self, b):
         venia = self.barrio
         self.barrio = b
-        azotea = b in AZOTEAS.get(venia, ()) and (self.soga or 'Atajos' in self.manas)
+        azotea = b in AZOTEAS.get(venia, ()) and (self.soga or ('Atajos' in self.manas and not self.aj['atajos_soga']))
         if azotea:
             if d6(self.r) == 1:
                 self.evento('e130', contexto='calle')
@@ -1417,7 +1461,7 @@ class Partida:
         if self.procs[b]:
             self.procesion(compas=self.compas)
             return
-        self.ruido += 1
+        self.ruido_mas(1)
         if b == self.mi_barrio and b not in self.visto:      # tu cuadra (r103)
             self.visto.add(b)
             return
@@ -1454,8 +1498,20 @@ class Partida:
         for i in ('Cocina a leña', 'Vigía', 'Cortinas negras', 'Despensa', 'Enfermería', 'Taller', 'Dormitorio'):
             if i not in self.inst:
                 plan.append(i)
+        if 'Cables' in self.manas and 'Generador' not in self.inst and self.dia >= 8:
+            plan.append('Generador')
+        if 'Cables' in self.manas and 'Generador' in self.inst and not self.cerco:
+            plan.append('Cerco')
         for inst in plan:
-            if inst == 'Último Cuarto' and M['Sujeción'] >= 2 and (M['Metal'] >= 4 or M['Madera'] >= 6) and hacer(4):
+            if inst == 'Generador' and M['Metal'] >= 4 and M['Electrónica'] >= 2 and M['Combustible'] >= 2 and hacer(4):
+                M['Metal'] -= 4; M['Electrónica'] -= 2; M['Combustible'] -= 2       # Cables: mitad de Electrónica
+                if instalar(inst, 'Mecánica'):
+                    self.rastro = min(10, self.rastro + 2)
+            elif inst == 'Cerco' and M['Metal'] >= 4 and M['Sujeción'] >= 3 and M['Electrónica'] >= 2 and hacer(4):
+                M['Metal'] -= 4; M['Sujeción'] -= 3; M['Electrónica'] -= 2
+                if self.prueba('Mecánica') >= 7:
+                    self.cerco = min(self.frs(), key=lambda f: self.frentes[f])
+            elif inst == 'Último Cuarto' and M['Sujeción'] >= 2 and (M['Metal'] >= 4 or M['Madera'] >= 6) and hacer(4):
                 if M['Metal'] >= 4: M['Metal'] -= 4
                 else: M['Madera'] -= 6
                 M['Sujeción'] -= 2
@@ -1663,7 +1719,7 @@ class Partida:
         R = self.r
         frs = self.frs()
         defensores = [s for s in self.grupo if not s.grave and not (s.fiebre >= 3) and s.n != 'Negro']
-        olas = 3 + self.rastro // 3 + self.aj['olas_extra']
+        olas = 3 + self.rastro // 3 + self.aj['olas_extra'] - (1 if self.secreto == 2 and self.secreto_abierto else 0)
         aliado = 3 if self.rep >= self.aj['rep_aliado'] else 0
         if aliado:
             self.stats['aliados'] += 1
@@ -1676,13 +1732,14 @@ class Partida:
         yo = 'Puerta'
         uc = None
         bonus_def = 0
+        cerco_visto = False
         menos = 0
         mitad = False
         self.log(f'== NOCHE 40: {olas} oleadas · frentes {self.frentes} · trampas {self.trampas} · '
                  f'defensores {len(defensores)} · Molotov {self.molotov} · Último Cuarto '
                  f'{"sí" if "Último Cuarto" in self.inst else "no"} · aliados {aliado}')
         for ola in range(1, olas + 1):
-            fuerza = d6(R) + d6(R) + ola - menos - (1 if self.secreto == 1 and self.secreto_abierto else 0)
+            fuerza = d6(R) + d6(R) + self.aj['ola_mult'] * ola + self.aj['ola_base'] - menos - (1 if self.secreto == 1 and self.secreto_abierto else 0)
             menos = 0
             if mitad:
                 fuerza = (fuerza + 1) // 2
@@ -1713,6 +1770,11 @@ class Partida:
                     dfn = uc + sum(s.arma + (1 if s.pel() >= 2 else 0) + bonus_def for s in aqui)
                 else:
                     tramp = sum(self.trampas[f]) if y != 5 else 0
+                    if f == self.cerco and self.mats['Combustible'] > 0:       # Cerco eléctrico (e512)
+                        self.mats['Combustible'] -= 1
+                        tramp += 3
+                        if not cerco_visto:
+                            F += 2; cerco_visto = True
                     self.trampas[f] = []
                     aqui = asign[f]
                     dfn = self.frentes[f] + tramp + aliado + \
@@ -1727,14 +1789,14 @@ class Partida:
                     if t <= 6:
                         self.herida(1, 'Noche 40')
                 if self.molotov and F > dfn - 2:
-                    usar = min(self.molotov, 2)
+                    usar = min(self.molotov, 2, len(aqui) + (1 if f in ('UC', yo) else 0))
                     self.molotov -= usar
                     dfn += 3 * usar
                 if dfn >= F:
-                    if f == 'UC': uc -= 1
-                    else: self.frentes[f] -= 1
+                    if f == 'UC': uc -= self.aj['aguante']
+                    else: self.frentes[f] -= self.aj['aguante']
                 else:
-                    falta = F - dfn + extra
+                    falta = max(self.aj['aguante'], F - dfn + self.aj['pierde_extra']) + extra
                     if f == 'UC': uc -= falta
                     else: self.frentes[f] -= falta
                     for s in list(aqui):
@@ -1780,11 +1842,11 @@ class Partida:
                     if (M['Madera'] or M['Metal']) and self.frentes[f] < 7:
                         if M['Madera']: M['Madera'] -= 1
                         else: M['Metal'] -= 1
-                        self.frentes[f] += 2
+                        self.frentes[f] += self.aj['reforzar'] + (1 if 'Ojo de obra' in self.manas else 0)
             elif M['Madera'] or M['Metal']:
                 if M['Madera']: M['Madera'] -= 1
                 else: M['Metal'] -= 1
-                uc += 2
+                uc += self.aj['reforzar'] + (1 if 'Ojo de obra' in self.manas else 0)
             if self.h >= 2 and M['Fármacos']:
                 M['Fármacos'] -= 1
                 if d6(R) + d6(R) + self.hab['Medicina'] >= 7:
@@ -1819,7 +1881,7 @@ class Partida:
         """e570: el dado se tira al abrir; las pistas lo mueven (la rueda 1–6)."""
         x = d6(self.r)
         mover = 2 if self.pistas >= 6 else 1 if self.pistas >= 4 else 0
-        malos = {1: 1, 2: 3}                             # qué tan mala es cada verdad para el jugador
+        malos = {1: 1, 2: 2}                             # qué tan mala es cada verdad para el jugador
         cand = [((x - 1 + k) % 6) + 1 for k in range(-mover, mover + 1)]
         if self.aj['colores']:
             cand = [x] + [v for v in cand if COLOR_VERDAD[v] in self.colores]
@@ -1870,7 +1932,7 @@ class Partida:
                     apodo=self.apodo, manas=len(self.manas), ganadas=sorted(self.manas - set(self.prota['manas'])))
 
 
-AJUSTES = dict(desarmar=10, amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True,
+AJUSTES = dict(desarmar=3, reforzar=1, ola_mult=1, ola_base=0, aguante=2, pierde_extra=0, retroceder=True, atajos_soga=True, cuartel=('Cisterna',), amputable=0.83, reserva_dias=3, radio=2, dia_uc=18, olas_extra=0, rep_aliado=6, esconderse=True, encima=2, esc_fallo=1, spawn3=True, arma_ini=0, salir_siempre=False, huerta=True, jardineros=2, min_compas=1, nada=3, volver=True, rodear=True, tabla='H', basicas=True, desarmar_afuera='grupo', reserva_cura=1, buscar_gente=3, vidriera=True,
                superar=0.25, senal=0.3, abrir=4, apodo_10=True, gratis_sin_practica=True, colores=True, tres_candidatos=True, falta_v2=True, mayor_h=4, mayor_magullado=True, mayor_puntos=0)
 
 

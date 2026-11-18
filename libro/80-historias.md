@@ -55,7 +55,7 @@ En la libreta de turnos, con la letra de Raquel: «Al que tenga la lista: los de
 Insulina tibia, que sirve unos días. Ferro, cama 7, vive arriba de la panadería de Rivadavia.
 
 1. **Ir ya** (◷ 1, en el Casco). Con 1–2 en 1d6, llegás tarde: está convertida y atada (−1 Ánimo, cruz para Ferro). Con 3–6, en coma; `[Medicina]`: con 7+ despierta, y vienen ella y su marido (tachala, +1 Juramento); con 6−, no despierta (cruz para Ferro).
-2. **Guardarla** (1 casillero), por si un evento trae a un diabético.
+2. **Ir otro día,** antes de la próxima carta de Espadas (1 casillero): como la 1, pero llegás tarde con 1–3.
 
 ---
 
@@ -290,7 +290,7 @@ La primera vez que hablás con Ocampo sin que te detengan ([e690](#e690), [e692]
 
 Con `LEISTE_LA_ORDEN`, `OCAMPO_DE_TU_LADO` o `SOBRE_CERRADO`, en el Puesto Norte al amanecer del día 41. Los soldados te miran a vos.
 
-1. **Abrir la barrera.** «Pasan todos. Yo me hago cargo». `[Labia]` (o `[Puntería]` con *Reglamentaria*, r102). Con 7+, bajan las armas: +2 Deber, y tus vivos son **salvados**, sea cual sea el Secreto (con la purga, el fuego viene igual, pero ya están afuera). Con 6−, alguien dispara: con 1–2 en 1d6, caés vos.
+1. **Abrir la barrera.** «Pasan todos. Yo me hago cargo». `[Labia]` (o `[Puntería]` con *Reglamentaria*, r102). Con 7+, bajan las armas: +2 Deber, y tus vivos son **salvados**, sea cual sea el Secreto (con la purga, el fuego viene igual, pero ya están afuera). Con 6−, alguien dispara y la barrera no se abre: con 1–2 en 1d6, el muerto sos vos ([e990](#e990)).
 2. **Cumplir la orden,** la que sea. +1 Reputación, −2 Deber.
 3. **Romper el sobre** delante de todos. «No hay orden». Algunos se van. +1 Deber y anotá `SIN_ORDEN`; el final sigue al Secreto.
 
@@ -422,7 +422,7 @@ Armá ahora a quien buscás: lo que anotes es verdad en esta partida.
 | 1 | **Tu hijo o tu hija,** que volvía del club o de lo de un amigo | +2 Moral al llegar. Mientras lo buscás, cada vez que baja la Esperanza, −1 Ánimo |
 | 2 | **Tu pareja,** de turno noche o en una cena del trabajo | Leal, y 2 en la Habilidad más baja del grupo |
 | 3 | **Tu hermano o hermana,** que siempre se metía donde no debía | Sabe algo: una pista ([e560](#e560)) |
-| 4 | **Tu madre o tu padre,** que fue a la guardia porque se sentía raro | En Cocina, el grupo come 1 Víver menos. Necesita 1 Fármaco por semana |
+| 4 | **Tu madre o tu padre,** que fue a la guardia porque se sentía raro | Cuando hace Cocina, el grupo come otro Víver menos. Necesita 1 Fármacos por semana |
 | 5 | **Tu mejor amigo o amiga** | Una vez, si caés Muriendo (r190) a su lado, te saca |
 | 6 | **Alguien a quien le debés la vida** | Pelea 3 o Calle 3. +1 a tu contador al llegar |
 
@@ -453,7 +453,7 @@ En el **último lugar** (o el que te mandó la señal anterior), una vez por dí
 | 5 | **Una marca de búsqueda** con su letra, un día y una palabra: «Sigo». |
 | 6 | **Un Callado con su remera.** No es. **Callados ×1d3 · Cerca**; si ganás o escapás, hay una dirección entre los cuerpos. |
 
-**Anotá 1 señal** y +1 Esperanza. Con menos de 3, tirá dos veces en r103: es el **próximo lugar** (si sale el mismo, sigue acá mañana). **Con 3,** es este barrio: [e845](#e845) cuando decidas, o seguí juntando señales para tener más control, contra el reloj.
+**Anotá 1 señal.** Con menos de 3, tirá dos veces en r103: es el **próximo lugar** (si sale el mismo, sigue acá mañana). **Con 3,** es este barrio: [e845](#e845) cuando decidas, o seguí juntando señales para tener más control, contra el reloj.
 
 ---
 
@@ -476,7 +476,7 @@ Debajo de cada marca de búsqueda (r163), su nombre en letras grandes y, abajo, 
 En la puerta del refugio, una hoja con tu nombre. 1d6:
 
 - **1–2 · Su letra:** «Estoy vivo. No vengas. Te quiero». El papel huele a río, a hospital o a gasoil: elegí el barrio de r103 que tenga eso como próximo lugar. +1 señal, y +1 Esperanza más.
-- **3–4 · Alguien que lo cuida:** «Necesitamos Fármacos». Con 1 Fármaco atado a la reja esta noche, +1 señal.
+- **3–4 · Alguien que lo cuida:** «Necesitamos Fármacos». Con 1 Fármacos atado a la reja esta noche, +1 señal.
 - **5 · Una planilla** del hospital de campaña: su nombre, un número de cama, «derivado». +1 señal; el próximo lugar es **El Perímetro**.
 - **6 · Su foto** con un mapa de tres calles dibujado atrás. +1 señal; el próximo lugar lo elegís, y ahí [e841](#e841) da un 5 sin tirar.
 
@@ -486,7 +486,7 @@ En la puerta del refugio, una hoja con tu nombre. 1d6:
 ### e844 · Alguien que lo vio
 *El que falta · ◷ 0*
 
-A cada sobreviviente nuevo le mostrás la foto. Con **5–6** en 1d6 (sin tirar si es tu conocido, r103): «Me acuerdo por la campera». 1 señal, +1 Esperanza, y el próximo lugar es el barrio donde lo encontraste.
+A cada sobreviviente nuevo le mostrás la foto. Con **5–6** en 1d6 (sin tirar si es tu conocido, r103): «Me acuerdo por la campera». 1 señal y el próximo lugar es el barrio donde lo encontraste.
 
 ---
 

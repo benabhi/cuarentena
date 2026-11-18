@@ -159,7 +159,7 @@ La última lata de duraznos, y dos del grupo dicen que la vieron primero. (Si es
 Alguien (o vos) amanece con escalofríos y tos. Es una gripe.
 
 - **Curarlo:** `[Medicina]` y 1 Fármacos. Con 7+, se repone hoy; con 6−, pierde el puesto hoy y mañana.
-- **Dejarlo descansar:** dos noches sin puesto. Si es Doña Rosa o Don Ernesto, con 1 en 1d6 empeora: 2 Fármacos o muere en dos días.
+- **Dejarlo descansar:** dos noches sin puesto. Si es mayor (r180), con 1 en 1d6 empeora: 2 Fármacos o muere en dos días.
 - **Aislarlo, por las dudas.** −1 Moral. Si alguien tenía `MORDIDO_EN_SECRETO_`, se pone nervioso y se descubre ([e038](#e038)).
 
 ---
@@ -186,7 +186,7 @@ Faltan 2 Víveres y 1 Fármacos (o lo que haya). Nadie entró.
 
 - **Investigar:** `[Labia]` o `[Calle]`, ◷ 1. Con 10+, descubrís quién fue y recuperás todo. Echarlo: −1 Moral, se va con lo puesto. Perdonarlo delante de todos: −1 Moral y anotá `PERDONASTE_UN_ROBO`. A solas: nada. Con 7–9, sabés quién, pero ya se lo comió. Con 6−, acusás al que no era: −2 Moral.
 - **Dejarlo pasar:** −1 Moral. La próxima vez que salga esta entrada, vuelve a pasar y ya no se investiga.
-- **Candado en la despensa:** 1 Metal y 1 Sujeción. −1 Moral.
+- **Candado en la despensa:** 1 Metal y 1 Sujeción. −1 Moral, y no vuelve a pasar.
 
 ---
 
@@ -222,7 +222,7 @@ Si hay un mordido:
 ### e039 · Visitas
 *Tu refugio · ◷ 0*
 
-Una facción viene a verte. 1d6: 1–2 la Parroquia ([e661](#e661)), 3 los Bomberos ([e671](#e671)), 4–5 los Lobos ([e681](#e681)), 6 el Destacamento ([e691](#e691)). Con Reputación −3, no vienen a hablar: su entrada te manda a su ataque.
+Una facción viene a verte. 1d6: 1–2 la Parroquia ([e661](#e661)), 3 los Bomberos ([e671](#e671)), 4–5 los Lobos ([e681](#e681)), 6 el Destacamento ([e691](#e691)). Con Reputación −3, no vienen a hablar: [e665](#e665), [e677](#e677), [e687](#e687) o [e697](#e697).
 
 ---
 
@@ -320,7 +320,7 @@ Amanecen en la puerta: **Callados ×2d6**, empujando despacio.
 ### e048 · Fuego
 *Tolme · ◷ 0*
 
-Tirá el barrio en r155: queda **en llamas** (r159). Si es el tuyo o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
+Tirá el barrio en r155: queda **en llamas** (r159). Si es el de tu refugio o uno vecino, con 1–2 en 1d6 el fuego llega a tu cuadra → [e070](#e070) (si ya la leíste: −2 al Techo y perdés 2 materiales al azar). Las Procesiones de ese barrio huyen a vecinos al azar.
 
 ---
 
@@ -381,7 +381,7 @@ Mirá la próxima carta (r136) y devolvela. Después, 1d6:
 - **1–2 · Zonas a evitar:** nombra un barrio. Procesión nueva ahí (r155).
 - **3–4 · Pronóstico:** «Lloviznas aisladas». Nunca acierta.
 - **5 · Algo distinto:** debajo de la voz, alguien tose. Un perro. Un auto. Una pista ([e560](#e560)).
-- **6 · El conteo:** «Faltan…» y un número. Si no coincide con las cartas del mazo, anotá `LA_SENORA_SE_EQUIVOCA`.
+- **6 · El conteo:** «Faltan…» y un número. 1d6: con 5–6, no coincide con las cartas del mazo; anotá `LA_SENORA_SE_EQUIVOCA`.
 
 ---
 
@@ -390,7 +390,7 @@ Mirá la próxima carta (r136) y devolvela. Después, 1d6:
 *Tolme · ◷ 0*
 
 - El **Techo** pierde 2, salvo que tenga 6 o más. Con Cisterna, +3 Víveres.
-- Nadie cruza Azoteas: si lo hacés, cada cruce es `[Físico]` con Desventaja, y con 6− caés.
+- Nadie cruza Azoteas: si lo hacés, cada cruce es `[Físico]` con Desventaja, y con 6− caés (r151).
 - Las Procesiones no se mueven.
 
 ---
@@ -424,7 +424,7 @@ Pasa bajo, sin insignias, y tira volantes amarillos:
 ### e058 · El muro cruje
 *Tolme · ◷ 0*
 
-Golpes sordos desde el muro toda la noche. Cada persona pierde 1 Ánimo, o la Moral baja 1 (elegís).
+Golpes sordos desde el muro toda la noche. Perdés 1 Ánimo, o la Moral baja 1 (elegís).
 
 Si hoy estás en el Perímetro, o alguien sube con binoculares, ves la grieta: anotá `GRIETA_EN_EL_MURO`. Si ya la tenías, cede → [e049](#e049).
 
@@ -477,7 +477,7 @@ Una explosión sorda: alguien voló la bóveda del Banco Provincia. Si vas hoy a
 
 Dos del grupo se quieren casar. (Con menos de 2 sobrevivientes, son vecinos que te piden de testigo: ◷ 2, +1 Ánimo y 1 Víver de torta.)
 
-1. **Fiesta grande.** 3 Víveres, música, baile. +3 Moral, +1 Ánimo para todos, +2 Rastro. Si Celeste canta, es la mejor noche de la cuarentena: anotá `LA_BODA`.
+1. **Fiesta grande.** 3 Víveres, música, baile. +3 Moral, +1 Ánimo, +2 Rastro. Si Celeste canta, es la mejor noche de la cuarentena: anotá `LA_BODA`.
 2. **Fiesta chica.** 1 Víver y un discurso: `[Labia]`. Con 10+, +2 Moral; si no, +1, porque se rieron igual.
 3. **No es momento.** −2 Moral. Se casan a escondidas en el depósito.
 
@@ -489,7 +489,7 @@ Dos del grupo se quieren casar. (Con menos de 2 sobrevivientes, son vecinos que 
 
 Un ómnibus sin nafta a una cuadra: un geriátrico, dos maestras y chicos de un hogar.
 
-1. **Todos adentro.** Anotá `LOS_VEINTE`: comen 6 Víveres por día, hacen 3 puestos de Obra, Huerta o Cocina por noche y, en la Noche 40, ponen 3 defensores con puños. +5 Rastro, +3 Moral. La lista: +1 Juramento. La orden: +1 Deber. Lo que hiciste: −1 Culpa.
+1. **Todos adentro.** Anotá `LOS_VEINTE`: comen 6 Víveres por día, hacen 3 puestos por noche (Obra, Huerta o Cocina, con sus topes: r181) y, en la Noche 40, ponen 3 defensores con puños. +5 Rastro, +3 Moral. La lista: +1 Juramento. La orden: +1 Deber. Lo que hiciste: −1 Culpa.
 2. **Algunos.** Los chicos y las maestras: anotá `LOS_CHICOS_DEL_HOGAR` (2 Víveres por día, un puesto de Huerta o Cocina; en la Noche 40, una maestra defiende). +2 Rastro. −1 Ánimo: los viejos te miraron.
 3. **A la Catedral.** Les dibujás el camino: `[Labia]`. Con 7+, van, y la Parroquia lo sabe: +1 Reputación.
 4. **Cerrar.** −3 Moral, −2 Ánimo. Al otro día, el ómnibus está vacío y hay manchas en el asfalto.
@@ -555,9 +555,9 @@ Anotá `VISTE_AL_PASTOR` y leé su ficha ([e731](#e731)). En la Etapa IV, cada P
 ### e070 · Caballo de Bastos · El incendio grande
 *Tolme · ◷ 0*
 
-Tu barrio y un vecino al azar quedan **en llamas** (r159) por 2 días. Tu manzana, si la defendés:
+El barrio de tu refugio y un vecino al azar quedan **en llamas** (r159) por 2 días. Tu manzana, si la defendés:
 
-1. **Defender el refugio.** Todo el grupo, todo el día (◷ 6): `[Supervivencia]` o `[Físico]`, +1 con Cisterna y +1 con Valeria ([e642](#e642)). Con 10+, nada. Con 7–9, −2 al Techo y 2 materiales al azar. Con 6−, −3 al Techo y a las Ventanas, 4 materiales y 2 Heridas a alguien.
+1. **Defender el refugio.** Todo el grupo, todo el día (◷ 6): `[Supervivencia]` o `[Físico]`, +1 con Cisterna y +1 con Valeria ([e642](#e642)). Con 10+, nada. Con 7–9, −2 al Techo y perdés 2 materiales al azar. Con 6−, −3 al Techo y a las Ventanas, perdés 4 materiales y alguien recibe 2 Heridas.
 2. **Evacuar** al vecino que no arde, con lo que entre en las mochilas, por 2 días. −3 a dos frentes al azar y la mitad de los materiales. Nadie se lastima.
 
 Las Procesiones de los barrios en llamas se dispersan a vecinos al azar. −2 Rastro: el humo grande tapa el tuyo.
